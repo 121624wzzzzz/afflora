@@ -76,44 +76,20 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--affine-dropout", type=float, default=0.0)
     parser.add_argument("--no-affine-input-bias", action="store_true")
     parser.add_argument("--affine-lm-head-bias", action="store_true")
-    parser.add_argument("--vocab-logit-bias", action="store_true")
     parser.add_argument(
         "--tie-affine-input-lm-head-adapters",
         action="store_true",
         help=(
             "For tied-embedding models, share one affine adapter between input"
             " embeddings and lm_head so the learned adapter can be merged back"
-            " into the single tied embedding matrix."
+            " into the single tied embedding matrix. Uses transpose affine on"
+            " the lm_head side for merge equivalence."
+            " Requires --affine-lm-head-bias."
         ),
-    )
-    parser.add_argument(
-        "--mergeable-tied-affine-output",
-        action="store_true",
-        help=(
-            "When sharing tied input/lm_head affine adapters, apply the transpose"
-            " affine on the lm_head side so raw logits match a model with the"
-            " adapter merged into the tied embedding matrix."
-        ),
-    )
-    parser.add_argument(
-        "--affine-intermediate-layer-idx",
-        type=int,
-        default=None,
-        help=(
-            "If set, place the affine adapter at the output of decoder layer idx"
-            " instead of the input-embedding lookup. Used for position ablation."
-        ),
-    )
-    parser.add_argument(
-        "--affine-use-after-norm",
-        action="store_true",
-        help="Place the affine adapter after the final RMSNorm (just before lm_head).",
     )
     parser.add_argument("--hidden-lora-rank", type=int, default=16)
     parser.add_argument("--hidden-lora-alpha", type=int, default=32)
     parser.add_argument("--hidden-lora-dropout", type=float, default=0.05)
-    parser.add_argument("--use-dora", action="store_true", help="Enable PEFT DoRA on the hidden LoRA.")
-    parser.add_argument("--use-rslora", action="store_true", help="Enable PEFT rsLoRA on the hidden LoRA.")
     parser.add_argument(
         "--include-emb-lmh-lora-rank",
         type=int,
@@ -258,7 +234,7 @@ def trainable_summary(model: Any) -> dict[str, int]:
 def enable_affine_trainable(model: Any) -> int:
     count = 0
     for name, param in model.named_parameters():
-        if ".affine." in name or "vocab_logit_bias" in name:
+        if ".affine." in name:
             param.requires_grad_(True)
             count += param.numel()
     return count
@@ -315,6 +291,12 @@ class SaveAffineAdapterCallback(TrainerCallback):
 
     Trainer's ``save_model`` only serialises PEFT adapter files. Without this callback,
     a job that dies mid-training would lose every affine vocab update.
+
+    For AffLoRA-only runs (no PEFT/hidden LoRA), Trainer also writes the full frozen
+    base model into the checkpoint (~16 GB for 8B). We remove it after saving the
+    lightweight affine adapter, since the base model is already on disk at --model-path.
+    This does break resume-from-checkpoint for AffLoRA-only runs (just restart from
+    scratch with the same seed — the adapter is tiny).
     """
 
     def __init__(self, model: Any) -> None:
@@ -331,6 +313,17 @@ class SaveAffineAdapterCallback(TrainerCallback):
         ckpt_dir = Path(args.output_dir) / f"checkpoint-{state.global_step}"
         ckpt_dir.mkdir(parents=True, exist_ok=True)
         save_affine_vocab_adapter(self._resolve_base(), ckpt_dir)
+
+        # Remove full model checkpoint saved by Trainer for non-PEFT AffLoRA runs.
+        # PEFT-wrapped models only write adapter_model.safetensors (small); this
+        # cleanup only fires when Trainer wrote the full model.safetensors (16 GB).
+        full_model = ckpt_dir / "model.safetensors"
+        affine_adapter = ckpt_dir / "affine_vocab_adapter.safetensors"
+        if full_model.exists() and affine_adapter.exists():
+            full_model.unlink()
+            # Also remove the full-model index if present
+            for f in ckpt_dir.glob("model.safetensors.index.json"):
+                f.unlink()
 
 
 def main() -> None:
@@ -374,11 +367,7 @@ def main() -> None:
             use_lm_head=use_lm_head,
             use_input_bias=not args.no_affine_input_bias,
             use_lm_head_bias=args.affine_lm_head_bias,
-            use_vocab_logit_bias=args.vocab_logit_bias,
-            intermediate_layer_idx=args.affine_intermediate_layer_idx,
-            use_after_norm=args.affine_use_after_norm,
             tie_input_lm_head_adapters=args.tie_affine_input_lm_head_adapters,
-            use_tied_lm_head_transpose=args.mergeable_tied_affine_output,
         )
         apply_affine_vocab_adapters(model, cfg)
 
@@ -416,8 +405,6 @@ def main() -> None:
             layers_to_transform=layers_to_transform,
             rank_pattern=rank_pattern,
             alpha_pattern=alpha_pattern,
-            use_dora=args.use_dora,
-            use_rslora=args.use_rslora,
             bias="none",
         )
         model = get_peft_model(model, lora_config)

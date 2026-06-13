@@ -18,12 +18,6 @@ class AffineVocabConfig:
     Formula: W' = W (I + s1 * A @ B) + s2 * b
         s1 = alpha / rank   (LoRA-style scale, swept via ``alpha``)
         s2 = bias_scale     (extra multiplicative scale on the bias term)
-
-    ``intermediate_layer_idx`` (when set) reroutes the affine adapter from the
-    input-embedding lookup output to the output of decoder layer ``idx``. This
-    is purely a position ablation for the "broadcast" hypothesis: if affine on
-    embedding wins because its modification flows through all 28 layers, then
-    moving it deeper should hurt monotonically.
     """
 
     hidden_size: int
@@ -35,11 +29,7 @@ class AffineVocabConfig:
     use_lm_head: bool = False
     use_input_bias: bool = True
     use_lm_head_bias: bool = False
-    use_vocab_logit_bias: bool = False
-    intermediate_layer_idx: int | None = None
-    use_after_norm: bool = False
     tie_input_lm_head_adapters: bool = False
-    use_tied_lm_head_transpose: bool = False
 
     @property
     def scale(self) -> float:
@@ -138,12 +128,7 @@ class AffineLMHead(nn.Module):
             cfg.use_lm_head_bias,
             bias_scale=cfg.bias_scale,
         )
-        self.vocab_logit_bias = (
-            nn.Parameter(torch.zeros(base_head.out_features)) if cfg.use_vocab_logit_bias else None
-        )
         self.affine.to(device=base_head.weight.device)
-        if self.vocab_logit_bias is not None:
-            self.vocab_logit_bias.data = self.vocab_logit_bias.data.to(device=base_head.weight.device)
         self.base_head.weight.requires_grad_(False)
         if self.base_head.bias is not None:
             self.base_head.bias.requires_grad_(False)
@@ -166,10 +151,7 @@ class AffineLMHead(nn.Module):
 
     def forward(self, hidden_states: torch.Tensor) -> torch.Tensor:
         hidden_states = self.affine(hidden_states).to(dtype=self.base_head.weight.dtype)
-        logits = self.base_head(hidden_states)
-        if self.vocab_logit_bias is not None:
-            logits = logits + self.vocab_logit_bias.to(dtype=logits.dtype)
-        return logits
+        return self.base_head(hidden_states)
 
 
 class TiedTransposeAffineLMHead(nn.Module):
@@ -187,8 +169,6 @@ class TiedTransposeAffineLMHead(nn.Module):
         self.base_head.weight.requires_grad_(False)
         if self.base_head.bias is not None:
             self.base_head.bias.requires_grad_(False)
-        if cfg.use_vocab_logit_bias:
-            raise ValueError("Tied transpose lm_head does not support vocab_logit_bias.")
 
     @property
     def weight(self) -> torch.Tensor:
@@ -242,65 +222,6 @@ def _input_lm_head_weights_are_tied(model: nn.Module) -> bool:
     )
 
 
-class AffineLayerWrapper(nn.Module):
-    """Wrap a single decoder layer so its hidden_states output runs through affine.
-
-    Used by the position-ablation experiment. The wrapped layer's forward returns
-    a tuple ``(hidden_states, ...)`` for most HF decoder layers; we transform the
-    first element and pass the rest through unchanged.
-    """
-
-    def __init__(self, base_layer: nn.Module, cfg: AffineVocabConfig):
-        super().__init__()
-        self.base_layer = base_layer
-        self.affine = LowRankAffineMap(
-            cfg.hidden_size,
-            cfg.rank,
-            cfg.alpha,
-            cfg.dropout,
-            cfg.use_input_bias,
-            bias_scale=cfg.bias_scale,
-        )
-
-    def forward(self, *args: Any, **kwargs: Any) -> Any:
-        out = self.base_layer(*args, **kwargs)
-        if isinstance(out, tuple):
-            return (self.affine(out[0]),) + out[1:]
-        return self.affine(out)
-
-
-def _wrap_decoder_layer(model: nn.Module, layer_idx: int, cfg: AffineVocabConfig) -> None:
-    layers = getattr(getattr(model, "model", model), "layers", None)
-    if layers is None:
-        raise TypeError("Could not find decoder layer list (model.model.layers).")
-    if not 0 <= layer_idx < len(layers):
-        raise ValueError(f"intermediate_layer_idx={layer_idx} out of range 0..{len(layers) - 1}.")
-    layers[layer_idx] = AffineLayerWrapper(layers[layer_idx], cfg)
-
-
-class AffineAfterNorm(nn.Module):
-    """Affine on the final RMSNorm output, i.e. the hidden state about to enter lm_head.
-
-    Compared to AffineLMHead, this wraps the norm itself, so any other module
-    that re-uses the norm output (rare but possible) sees the modified tensor.
-    """
-
-    def __init__(self, base_norm: nn.Module, cfg: AffineVocabConfig):
-        super().__init__()
-        self.base_norm = base_norm
-        self.affine = LowRankAffineMap(
-            cfg.hidden_size,
-            cfg.rank,
-            cfg.alpha,
-            cfg.dropout,
-            cfg.use_input_bias,
-            bias_scale=cfg.bias_scale,
-        )
-
-    def forward(self, hidden_states: torch.Tensor) -> torch.Tensor:
-        return self.affine(self.base_norm(hidden_states))
-
-
 def apply_affine_vocab_adapters(
     model: nn.Module,
     cfg: AffineVocabConfig | None = None,
@@ -317,14 +238,10 @@ def apply_affine_vocab_adapters(
     if cfg.tie_input_lm_head_adapters:
         if not (cfg.use_input and cfg.use_lm_head):
             raise ValueError("tie_input_lm_head_adapters requires both use_input and use_lm_head.")
-        if cfg.intermediate_layer_idx is not None or cfg.use_after_norm:
-            raise ValueError("tie_input_lm_head_adapters only supports standard input/lm_head adapters.")
         if cfg.use_lm_head_bias != cfg.use_input_bias:
             raise ValueError("Tied input/lm_head adapters require matching input and lm_head bias settings.")
-        if cfg.use_vocab_logit_bias:
-            raise ValueError("Tied input/lm_head adapters do not support vocab_logit_bias.")
-        if cfg.use_tied_lm_head_transpose and not cfg.use_lm_head_bias:
-            raise ValueError("Mergeable tied transpose output requires affine lm_head bias to match input bias.")
+        if not cfg.use_lm_head_bias:
+            raise ValueError("Tied input/lm_head adapters require affine lm_head bias to match input bias.")
         if not _input_lm_head_weights_are_tied(model):
             raise ValueError("tie_input_lm_head_adapters requires tied embed_tokens/lm_head weights.")
         shared_affine = LowRankAffineMap(
@@ -336,22 +253,14 @@ def apply_affine_vocab_adapters(
             bias_scale=cfg.bias_scale,
         )
 
-    if cfg.intermediate_layer_idx is not None:
-        _wrap_decoder_layer(model, cfg.intermediate_layer_idx, cfg)
-    elif cfg.use_after_norm:
-        norm = getattr(getattr(model, "model", model), "norm", None)
-        if norm is None:
-            raise TypeError("Could not find final norm (model.model.norm) for use_after_norm.")
-        wrapped = AffineAfterNorm(norm, cfg)
-        getattr(model, "model", model).norm = wrapped
-    elif cfg.use_input:
+    if cfg.use_input:
         model.set_input_embeddings(AffineEmbedding(model.get_input_embeddings(), cfg, shared_affine))
 
     if cfg.use_lm_head:
         lm_head = getattr(model, "lm_head", None)
         if lm_head is None or not isinstance(lm_head, nn.Linear):
             raise TypeError("Expected model.lm_head to be an nn.Linear for lm_head affine adapter.")
-        if shared_affine is not None and cfg.use_tied_lm_head_transpose:
+        if shared_affine is not None:
             model.lm_head = TiedTransposeAffineLMHead(lm_head, cfg, shared_affine)
         else:
             model.lm_head = AffineLMHead(lm_head, cfg, shared_affine)
@@ -363,7 +272,7 @@ def affine_state_dict(model: nn.Module) -> dict[str, torch.Tensor]:
     return {
         name: tensor.detach().cpu()
         for name, tensor in model.state_dict().items()
-        if ".affine." in name or "vocab_logit_bias" in name
+        if ".affine." in name
     }
 
 
@@ -381,7 +290,11 @@ def save_affine_vocab_adapter(model: nn.Module, output_dir: str | Path) -> None:
 def load_affine_vocab_adapter(model: nn.Module, adapter_dir: str | Path) -> nn.Module:
     adapter = Path(adapter_dir)
     with (adapter / "affine_vocab_config.json").open("r", encoding="utf-8") as f:
-        cfg = AffineVocabConfig(**json.load(f))
+        raw = json.load(f)
+        # Filter to known fields (backward compat with older configs)
+        import dataclasses
+        known = {f.name for f in dataclasses.fields(AffineVocabConfig)}
+        cfg = AffineVocabConfig(**{k: v for k, v in raw.items() if k in known})
     apply_affine_vocab_adapters(model, cfg)
     state = load_file(str(adapter / "affine_vocab_adapter.safetensors"), device="cpu")
     missing, unexpected = model.load_state_dict(state, strict=False)

@@ -19,17 +19,15 @@
 
 ## 证据索引
 
-| Phase | 路径 | 用途 |
-|---|---|---|
-| 2' | `outputs/affine_vocab/phase2_sweep_*/*/` | Claim 2 |
-| 2'' | `outputs/affine_vocab/phase2b_*/*/` | Claim 1a 弱证据 |
-| 2''' | `outputs/affine_vocab/phase2c_*/*/` | Claim 3 |
-| 3a | `outputs/affine_vocab/phase3a_*/*/` | Claim 1a / 2 |
-| 3b | `outputs/affine_vocab/phase3b_*/*/` | s1 超参 |
-| 4a | `outputs/affine_vocab/claim2_base/` | Claim 2 frozen-base 控制 |
-| 4b | `outputs/affine_vocab/phase4b_*/*/` | Claim 1b |
-| 4c | `outputs/affine_vocab/phase4c_*/*/` | Claim 1a 多 seed |
-| supp | `outputs/affine_vocab/phase3c_*`, `phase3d_*` | 补充实验 |
+输出目录已于 2026-06-05 重组为 `{任务}/{模型}/{变体}_{超参}` 结构，详见 `CLAUDE.md`。
+
+| 主张 | 位置 | 典型 run |
+|------|------|------|
+| Claim 1a | `outputs/affine_vocab/sft_t2t_mini/*/` | `affine_input_lm_head_plus_hidden_lora_ar16_s18_hr8_sd42` |
+| Claim 1b | `outputs/affine_vocab/sft_t2t_mini/*/` | `hidden_lora_hr1_vlr1_sd42` vs `affine_input_lm_head_plus_hidden_lora_ar16_s18_hr1_sd42` |
+| Claim 2 | `outputs/affine_vocab/sft_t2t_mini/` | `affine_input_*_sd42` + `claim2_base/` |
+| Claim 3 | `outputs/affine_vocab/sft_t2t_mini/Qwen3-0.6B/` | `affine_input_ar16_s132_sd42` vs `hidden_lora_hr16_L*_sd42` |
+| MetaMathQA | `outputs/affine_vocab/metamathqa/` | 下游 GSM8K/MATH 评测 |
 
 ## 已执行清理
 
@@ -79,13 +77,15 @@
 
 执行时间：2026-05-30。
 
-以下退役内容从目录中移除，不再保留本地审计副本（git 历史和远程仓库仍可回溯）：
+以下退役内容从目录中移除，不再保留本地审计副本（git 历史和远程仓库仍可回溯）。
+
+> **2026-06 更新**：`data/metamathqa_40k/`、`data/gsm8k/`、`data/math/` 和 `scripts/eval_math.py` 随后重新加入，用于 MetaMathQA 下游评测实验（`outputs/affine_vocab/metamathqa/`）。
 
 | 已删除 | 原因 |
 |---|---|
-| `data/metamathqa_40k/`, `data/gsm8k/`, `data/math/`, `data/glue/`, `data/e2e_nlg/`, `data/raw/` | 历史 math / GLUE / E2E 数据，675 MB |
+| `data/glue/`, `data/e2e_nlg/`, `data/raw/` | 历史 GLUE / E2E 数据 |
 | `models/roberta-base/`, `models/roberta-large/`, `models/gpt2-medium/` | 历史 LoRMA-paper checkpoint，~6.6 GB |
-| `scripts/train_math_lora.py`, `train_glue_lora.py`, `train_e2e_lora.py`, `download_paper_models.py`, `make_run_matrix.py`, `prepare_lora_data.py`, `eval_affine_vocab_math.py`, `eval_math.py` | 空壳文件，已在 Step 3 清空 |
+| `scripts/train_math_lora.py`, `train_glue_lora.py`, `train_e2e_lora.py`, `download_paper_models.py`, `make_run_matrix.py`, `prepare_lora_data.py`, `eval_affine_vocab_math.py` | 空壳文件，已在 Step 3 清空 |
 | `configs/lorma_lora_matrix.yaml` | 空文件 |
 | `docs/EXPERIMENT_PLAN.md` | 空文件 |
 

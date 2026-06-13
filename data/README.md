@@ -23,10 +23,6 @@ python scripts/prepare_sft_t2t_split.py
 /home/wz/projects/mypro/im_exp/minimind/dataset/sft_t2t_mini.jsonl
 ```
 
-## 保留的历史数据
-
-这些数据不再有 active 训练或评测入口，仅用于审计旧结果和保留上下文。
-
 ### Math 轴
 
 | 数据集 | 路径 | 行数 |
