@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Datasets (large JSONL files, only source scripts are tracked)
+data/gsm8k/
+data/math/
+data/metamathqa_40k/
+data/minimind_random_100k/*.jsonl
+data/sft_t2t_mini_25k/
+data/ultrachat_100k/
+
+# Experiment outputs
+logs/
+outputs/
+
+# Claude Code
+.claude/
