@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "organized_at": "2026-07-08T11:00:59+08:00",
-  "base": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/corrected_math_evaluation",
+  "base": "corrected_math_evaluation",
   "policy": {
     "shared": "Reusable evaluators, merge helpers, tests, and data-quality metadata.",
     "model_families": "Experiments grouped first by model family, then by model size/experiment line.",

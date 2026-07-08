@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd /commondocument/wz/cross_encoder_workspace/im_exp/lora
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR" && git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
 
 EXP=corrected_math_evaluation/cross_family/small_models/mergeable_math_scale_sweep
-PY=/home/wz/anaconda3/envs/torch24/bin/python
+PY="${PYTHON_BIN:-python}"
 
 mkdir -p "$EXP/logs"
 

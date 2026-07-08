@@ -32,7 +32,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--eval-split", default="test_sft")
     parser.add_argument(
         "--out-dir",
-        default="/home/wz/projects/mypro/im_exp/lora/data/ultrachat_100k",
+        default=str(Path(__file__).resolve().parent / "ultrachat_100k"),
     )
     parser.add_argument("--train-size", type=int, default=100_000)
     parser.add_argument("--eval-size", type=int, default=2_000)

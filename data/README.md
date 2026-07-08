@@ -12,15 +12,15 @@
 重新生成切分：
 
 ```bash
-source /home/wz/projects/mypro/im_exp/set
-cd /home/wz/projects/mypro/im_exp/lora
+cd /path/to/im_exp/lora
+# Optional: source "$PWD/../set"
 python scripts/prepare_sft_t2t_split.py
 ```
 
 源文件：
 
 ```text
-/home/wz/projects/mypro/im_exp/minimind/dataset/sft_t2t_mini.jsonl
+$REPO_ROOT/../minimind/dataset/sft_t2t_mini.jsonl
 ```
 
 ### Math 轴

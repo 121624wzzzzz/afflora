@@ -25,6 +25,7 @@ corrected_math_evaluation/**/outputs/
 corrected_math_evaluation/**/logs/
 corrected_math_evaluation/**/hf_cache/
 corrected_math_evaluation/**/smoke*/
+corrected_math_evaluation/**/monitor.jsonl
 corrected_math_evaluation/**/*.safetensors
 corrected_math_evaluation/**/*.pt
 corrected_math_evaluation/**/tokenizer.json

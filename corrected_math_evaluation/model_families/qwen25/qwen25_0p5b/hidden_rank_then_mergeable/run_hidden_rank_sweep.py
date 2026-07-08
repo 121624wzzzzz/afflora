@@ -6,6 +6,7 @@ import os
 import queue
 import statistics
 import subprocess
+import sys
 import threading
 from dataclasses import dataclass
 from datetime import datetime
@@ -15,8 +16,9 @@ from typing import Any
 
 HERE = Path(__file__).resolve().parent
 ROOT = next(p for p in HERE.parents if (p / "data").is_dir() and (p / "scripts").is_dir())
-PYTHON = Path("/home/wz/anaconda3/envs/torch24/bin/python")
-MODEL = Path("/home/wz/projects/mypro/im_exp/models/Qwen2.5-0.5B-Base")
+MODEL_ROOT = Path(os.environ.get("MODEL_ROOT", ROOT.parent / "models"))
+PYTHON = Path(os.environ.get("PYTHON_BIN", sys.executable))
+MODEL = MODEL_ROOT / "Qwen2.5-0.5B-Base"
 TRAIN = ROOT / "data/metamathqa_40k/train.jsonl"
 TRAIN_SCRIPT = ROOT / "scripts/train_affine_vocab_lora.py"
 MATH_EVAL = ROOT / "corrected_math_evaluation/shared/evaluators/evaluate_math_full.py"

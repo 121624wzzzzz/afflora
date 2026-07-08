@@ -2,7 +2,7 @@
 
 本文记录 AffLoRA 实验的运行路径、模型、数据、variant 和超参。实验设计见 `docs/AFFINE_VOCAB_MAIN_EXPERIMENT.md`，结果见 `docs/RESULTS_SO_FAR.md`。
 
-AffLoRA 的依据是 `/home/wz/projects/mypro/get_useful/ijcai_clean/results/task6_base_instruct_full_vocab` 中的 base→instruct 全词表分析：`embed_tokens` / `lm_head` 的变化基本满足 hidden 维仿射关系。因此本目录关注的是在 SFT / post-training 中，让这些词表层以低参数量参与训练。
+AffLoRA 的依据是 `${AFFLORA_ANALYSIS_ROOT:-$REPO_ROOT/../../get_useful/ijcai_clean/results/task6_base_instruct_full_vocab}` 中的 base→instruct 全词表分析：`embed_tokens` / `lm_head` 的变化基本满足 hidden 维仿射关系。因此本目录关注的是在 SFT / post-training 中，让这些词表层以低参数量参与训练。
 
 ## 目录布局
 
@@ -37,18 +37,18 @@ scripts/train_affine_vocab_lora.py
 
 ## 模型
 
-主线使用 `/home/wz/projects/mypro/im_exp/models` 下的 Qwen base 模型。
+主线默认使用 `$REPO_ROOT/../models` 下的 Qwen base 模型；换机器时可通过 `MODEL_ROOT=/path/to/models` 覆盖。
 
 | ID | 路径 | task6 R² | 角色 |
 |---|---|---:|---|
-| `qwen25_0_5b` | `/home/wz/projects/mypro/im_exp/models/Qwen2.5-0.5B-Base` | 0.9903 | smoke |
-| `qwen3_0_6b` | `/home/wz/projects/mypro/im_exp/models/Qwen3-0.6B-Base` | 0.9877 | 快速 sweep |
-| `qwen25_1_5b` | `/home/wz/projects/mypro/im_exp/models/Qwen2.5-1.5B-Base` | 0.9997 | headline 主模型 |
-| `qwen3_1_7b` | `/home/wz/projects/mypro/im_exp/models/Qwen3-1.7B-Base` | 0.9938 | 后续主模型 |
-| `qwen25_3b` | `/home/wz/projects/mypro/im_exp/models/Qwen2.5-3B-Base` | 0.9997 | 后续放大 |
-| `qwen3_4b` | `/home/wz/projects/mypro/im_exp/models/Qwen3-4B-Base` | 0.9901 | 后续放大 |
-| `qwen25_7b` | `/home/wz/projects/mypro/im_exp/models/Qwen2.5-7B-Base` | 未测 | 大模型后续 |
-| `qwen3_8b` | `/home/wz/projects/mypro/im_exp/models/Qwen3-8B-Base` | 未测 | 大模型后续 |
+| `qwen25_0_5b` | `${MODEL_ROOT}/Qwen2.5-0.5B-Base` | 0.9903 | smoke |
+| `qwen3_0_6b` | `${MODEL_ROOT}/Qwen3-0.6B-Base` | 0.9877 | 快速 sweep |
+| `qwen25_1_5b` | `${MODEL_ROOT}/Qwen2.5-1.5B-Base` | 0.9997 | headline 主模型 |
+| `qwen3_1_7b` | `${MODEL_ROOT}/Qwen3-1.7B-Base` | 0.9938 | 后续主模型 |
+| `qwen25_3b` | `${MODEL_ROOT}/Qwen2.5-3B-Base` | 0.9997 | 后续放大 |
+| `qwen3_4b` | `${MODEL_ROOT}/Qwen3-4B-Base` | 0.9901 | 后续放大 |
+| `qwen25_7b` | `${MODEL_ROOT}/Qwen2.5-7B-Base` | 未测 | 大模型后续 |
+| `qwen3_8b` | `${MODEL_ROOT}/Qwen3-8B-Base` | 未测 | 大模型后续 |
 
 ## 数据
 
@@ -106,8 +106,10 @@ scripts/train_affine_vocab_lora.py
 ## 验证命令
 
 ```bash
-source /home/wz/projects/mypro/im_exp/set
-cd /home/wz/projects/mypro/im_exp/lora
+cd /path/to/im_exp/lora
+export REPO_ROOT="$PWD"
+export MODEL_ROOT="${MODEL_ROOT:-$REPO_ROOT/../models}"
+# Optional: source "$REPO_ROOT/../set"
 bash scripts/sh/run_syntax_check.sh
 ```
 

@@ -28,5 +28,5 @@ setsid bash corrected_math_evaluation/model_families/qwen25/small_models/hidden_
 Analyze:
 
 ```bash
-/home/wz/anaconda3/envs/torch24/bin/python corrected_math_evaluation/model_families/qwen25/small_models/hidden_mergeable_rank_sweep/analyze_results.py
+${PYTHON_BIN:-python} corrected_math_evaluation/model_families/qwen25/small_models/hidden_mergeable_rank_sweep/analyze_results.py
 ```

@@ -1,15 +1,24 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
-cd /home/wz/projects/mypro/im_exp/lora
-source /home/wz/projects/mypro/im_exp/set
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+ENV_FILE="${IM_EXP_ENV:-$REPO_ROOT/../set}"
+if [[ -f "$ENV_FILE" ]]; then
+  # shellcheck disable=SC1090
+  source "$ENV_FILE"
+fi
 set -u
-export PYTHONPATH=/home/wz/projects/mypro/im_exp/lora/src:${PYTHONPATH:-}
+export PYTHONPATH="$REPO_ROOT/src:${PYTHONPATH:-}"
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-1}"
+MODEL_ROOT="${MODEL_ROOT:-$REPO_ROOT/../models}"
+TRAIN_DATA="${TRAIN_DATA:-$REPO_ROOT/../minimind/dataset/lora_exam.jsonl}"
+PY="${PYTHON_BIN:-python}"
 
-python scripts/train_affine_vocab_lora.py \
-  --model-path /home/wz/projects/mypro/im_exp/models/Qwen3-0.6B-Base \
-  --train-data /home/wz/projects/mypro/im_exp/minimind/dataset/lora_exam.jsonl \
+cd "$REPO_ROOT"
+"$PY" scripts/train_affine_vocab_lora.py \
+  --model-path "$MODEL_ROOT/Qwen3-0.6B-Base" \
+  --train-data "$TRAIN_DATA" \
   --output-dir outputs/affine_vocab/smoke/qwen3_0_6b/affine_input \
   --variant affine_input \
   --max-seq-len 256 \

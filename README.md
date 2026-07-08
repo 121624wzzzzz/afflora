@@ -1,6 +1,6 @@
 # AffLoRA 实验
 
-本目录用于验证 **AffLoRA**：基于 `/home/wz/projects/mypro/get_useful/ijcai_clean/results/task6_base_instruct_full_vocab` 中 base→instruct 全词表仿射关系的分析结果，让 SFT / post-training 中通常被跳过的 `embed_tokens` 和 `lm_head` 以很小参数量参与训练。
+本目录用于验证 **AffLoRA**：基于 `${AFFLORA_ANALYSIS_ROOT:-$REPO_ROOT/../../get_useful/ijcai_clean/results/task6_base_instruct_full_vocab}` 中 base→instruct 全词表仿射关系的分析结果，让 SFT / post-training 中通常被跳过的 `embed_tokens` 和 `lm_head` 以很小参数量参与训练。
 
 AffLoRA 的定位不是替代 transformer block 上的普通 LoRA，而是补上后训练里词表层难以高效训练的问题。对于 tied 模型，`lm_head` 和 embedding 权重绑定，但仍可在输入侧与输出侧 hidden state 上分别放置适配；对于非 tied LLM，则对应适配 `embed_tokens` 和独立的 `lm_head` / `llm_head`。
 
@@ -36,12 +36,14 @@ src/       affine_vocab_lora / AffLoRA 核心实现
 ## 环境
 
 ```bash
-source /home/wz/projects/mypro/im_exp/set
-cd /home/wz/projects/mypro/im_exp/lora
-export PYTHONPATH=/home/wz/projects/mypro/im_exp/lora/src:${PYTHONPATH:-}
+cd /path/to/im_exp/lora
+export REPO_ROOT="$PWD"
+export MODEL_ROOT="${MODEL_ROOT:-$REPO_ROOT/../models}"
+export PYTHONPATH="$REPO_ROOT/src:${PYTHONPATH:-}"
+# Optional: source "$REPO_ROOT/../set" if your machine uses that env file
 ```
 
-Qwen base 模型位于 `/home/wz/projects/mypro/im_exp/models`。
+Qwen base 模型默认位于 `$REPO_ROOT/../models`，也可通过 `MODEL_ROOT=/path/to/models` 覆盖。
 
 ## Smoke
 
@@ -55,7 +57,7 @@ bash scripts/sh/run_affine_vocab_smoke.sh
 
 ```bash
 python scripts/train_affine_vocab_lora.py \
-  --model-path /home/wz/projects/mypro/im_exp/models/Qwen2.5-1.5B-Base \
+  --model-path ${MODEL_ROOT}/Qwen2.5-1.5B-Base \
   --train-data data/sft_t2t_mini_25k/train.jsonl \
   --eval-data data/sft_t2t_mini_25k/eval.jsonl --eval-samples 1000 --eval-steps 250 \
   --output-dir outputs/affine_vocab/headline/qwen25_1_5b/affine_input_lm_head_plus_hidden_lora \
@@ -73,7 +75,7 @@ python scripts/train_affine_vocab_lora.py \
 ```bash
 # Claim 2：frozen base 参照
 python scripts/eval_base_loss.py \
-  --model-path /home/wz/projects/mypro/im_exp/models/Qwen2.5-1.5B-Base \
+  --model-path ${MODEL_ROOT}/Qwen2.5-1.5B-Base \
   --eval-data data/sft_t2t_mini_25k/eval.jsonl \
   --report-file outputs/affine_vocab/claim2_base/qwen25_1_5b.json
 

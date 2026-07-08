@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd /commondocument/wz/cross_encoder_workspace/im_exp/lora
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR" && git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
 
-PY=/home/wz/anaconda3/envs/torch24/bin/python
+PY="${PYTHON_BIN:-python}"
 PREV=corrected_math_evaluation/model_families/qwen3/qwen3_8b/lmhead_afflora/reproducible_scale_sweep/state.json
 EXP=corrected_math_evaluation/model_families/qwen3/qwen3_8b/lmhead_afflora/rank1_small_scale_sweep
 

@@ -5,6 +5,7 @@ import json
 import os
 import queue
 import subprocess
+import sys
 import threading
 from datetime import datetime
 from pathlib import Path
@@ -13,7 +14,8 @@ from typing import Any
 
 HERE = Path(__file__).resolve().parent
 ROOT = next(p for p in HERE.parents if (p / "data").is_dir() and (p / "scripts").is_dir())
-PYTHON = Path("/home/wz/anaconda3/envs/torch24/bin/python")
+MODEL_ROOT = Path(os.environ.get("MODEL_ROOT", ROOT.parent / "models"))
+PYTHON = Path(os.environ.get("PYTHON_BIN", sys.executable))
 EVAL_SCRIPT = ROOT / "corrected_math_evaluation/shared/evaluators/evaluate_metamath_loss.py"
 EVAL_DATA = ROOT / "data/metamathqa_40k/eval.jsonl"
 CHECKPOINTS = HERE / "checkpoints"
@@ -24,8 +26,8 @@ EVENTS_FILE = HERE / "events_metamath_eval_loss.jsonl"
 GPUS = tuple(range(8))
 
 BASE_MODELS = {
-    "qwen3_06b_base": Path("/home/wz/projects/mypro/im_exp/models/Qwen3-0.6B-Base"),
-    "qwen3_17b_base": Path("/home/wz/projects/mypro/im_exp/models/Qwen3-1.7B-Base"),
+    "qwen3_06b_base": MODEL_ROOT / "Qwen3-0.6B-Base",
+    "qwen3_17b_base": MODEL_ROOT / "Qwen3-1.7B-Base",
 }
 
 

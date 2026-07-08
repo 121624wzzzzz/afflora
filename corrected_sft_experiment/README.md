@@ -16,7 +16,8 @@ The corrected pipeline:
 Prepare and verify the data:
 
 ```bash
-source /home/wz/projects/mypro/im_exp/set
+cd /path/to/im_exp/lora
+# Optional: source "$PWD/../set"
 python corrected_sft_experiment/prepare_data.py
 python -m unittest discover -s corrected_sft_experiment/tests -v
 ```

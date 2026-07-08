@@ -6,7 +6,7 @@
 
 在 SFT、instruction tuning、domain adaptation 等后训练流程中，标准 LoRA 通常只训练 transformer block 内部的投影层，`embed_tokens` 和 `lm_head` 往往被跳过。原因很直接：这两个矩阵是 `vocab × hidden` 规模，直接训练或在词表维做 LoRA 参数开销很高。
 
-但 `/home/wz/projects/mypro/get_useful/ijcai_clean/results/task6_base_instruct_full_vocab` 的 base/instruct 全词表分析显示，Qwen2.5 / Qwen3 多数组合中，base 模型到 instruct 模型的 embedding / 输出矩阵变化基本符合 hidden 维仿射关系：
+但 `${AFFLORA_ANALYSIS_ROOT:-$REPO_ROOT/../../get_useful/ijcai_clean/results/task6_base_instruct_full_vocab}` 的 base/instruct 全词表分析显示，Qwen2.5 / Qwen3 多数组合中，base 模型到 instruct 模型的 embedding / 输出矩阵变化基本符合 hidden 维仿射关系：
 
 ```text
 W_instruct ≈ W_base · A + b
@@ -95,12 +95,12 @@ affine_emb (~33k params)  >  single-layer LoRA (~33k-50k params)
 
 | ID | 路径 | task6 R² | 角色 |
 |---|---|---:|---|
-| `qwen25_0_5b` | `/home/wz/projects/mypro/im_exp/models/Qwen2.5-0.5B-Base` | 0.9903 | smoke |
-| `qwen3_0_6b` | `/home/wz/projects/mypro/im_exp/models/Qwen3-0.6B-Base` | 0.9877 | 快速 sweep |
-| `qwen25_1_5b` | `/home/wz/projects/mypro/im_exp/models/Qwen2.5-1.5B-Base` | 0.9997 | headline 主模型 |
-| `qwen3_1_7b` | `/home/wz/projects/mypro/im_exp/models/Qwen3-1.7B-Base` | 0.9938 | 后续主模型 |
-| `qwen25_3b` | `/home/wz/projects/mypro/im_exp/models/Qwen2.5-3B-Base` | 0.9997 | 后续放大 |
-| `qwen3_4b` | `/home/wz/projects/mypro/im_exp/models/Qwen3-4B-Base` | 0.9901 | 后续放大 |
+| `qwen25_0_5b` | `${MODEL_ROOT}/Qwen2.5-0.5B-Base` | 0.9903 | smoke |
+| `qwen3_0_6b` | `${MODEL_ROOT}/Qwen3-0.6B-Base` | 0.9877 | 快速 sweep |
+| `qwen25_1_5b` | `${MODEL_ROOT}/Qwen2.5-1.5B-Base` | 0.9997 | headline 主模型 |
+| `qwen3_1_7b` | `${MODEL_ROOT}/Qwen3-1.7B-Base` | 0.9938 | 后续主模型 |
+| `qwen25_3b` | `${MODEL_ROOT}/Qwen2.5-3B-Base` | 0.9997 | 后续放大 |
+| `qwen3_4b` | `${MODEL_ROOT}/Qwen3-4B-Base` | 0.9901 | 后续放大 |
 
 当前最强证据来自 `qwen25_1_5b`。
 
@@ -143,8 +143,10 @@ headline 实验通过 `scripts/run_phase*.sh` 直接调用 `train_affine_vocab_l
 Smoke：
 
 ```bash
-source /home/wz/projects/mypro/im_exp/set
-cd /home/wz/projects/mypro/im_exp/lora
+cd /path/to/im_exp/lora
+export REPO_ROOT="$PWD"
+export MODEL_ROOT="${MODEL_ROOT:-$REPO_ROOT/../models}"
+# Optional: source "$REPO_ROOT/../set"
 bash scripts/run_affine_vocab_smoke.sh
 ```
 
@@ -152,7 +154,7 @@ bash scripts/run_affine_vocab_smoke.sh
 
 ```bash
 python scripts/train_affine_vocab_lora.py \
-  --model-path /home/wz/projects/mypro/im_exp/models/Qwen2.5-1.5B-Base \
+  --model-path ${MODEL_ROOT}/Qwen2.5-1.5B-Base \
   --train-data data/sft_t2t_mini_25k/train.jsonl \
   --eval-data data/sft_t2t_mini_25k/eval.jsonl --eval-samples 1000 --eval-steps 250 \
   --output-dir outputs/affine_vocab/headline/qwen25_1_5b/affine_input_lm_head_plus_hidden_lora \

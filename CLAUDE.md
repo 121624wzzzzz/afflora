@@ -11,12 +11,14 @@
 ## 环境配置
 
 ```bash
-source /home/wz/projects/mypro/im_exp/set
-cd /home/wz/projects/mypro/im_exp/lora
-export PYTHONPATH=/home/wz/projects/mypro/im_exp/lora/src:${PYTHONPATH:-}
+cd /path/to/im_exp/lora
+export REPO_ROOT="$PWD"
+export MODEL_ROOT="${MODEL_ROOT:-$REPO_ROOT/../models}"
+export PYTHONPATH="$REPO_ROOT/src:${PYTHONPATH:-}"
+# Optional: source "$REPO_ROOT/../set" if your machine uses that env file
 ```
 
-Qwen base 模型位于 `/home/wz/projects/mypro/im_exp/models/`。输出目录为 `outputs/affine_vocab/`，按 `{任务}/{模型}/{变体}_{超参}` 组织。
+Qwen base 模型默认位于 `$REPO_ROOT/../models/`，也可通过 `MODEL_ROOT=/path/to/models` 覆盖。输出目录为 `outputs/affine_vocab/`，按 `{任务}/{模型}/{变体}_{超参}` 组织。
 
 ## 常用命令
 
@@ -33,7 +35,7 @@ bash scripts/sh/run_syntax_check.sh
 **主训练命令**（单 GPU，推荐超参）：
 ```bash
 python scripts/train_affine_vocab_lora.py \
-  --model-path /home/wz/projects/mypro/im_exp/models/Qwen2.5-1.5B-Base \
+  --model-path ${MODEL_ROOT}/Qwen2.5-1.5B-Base \
   --train-data data/sft_t2t_mini_25k/train.jsonl \
   --eval-data data/sft_t2t_mini_25k/eval.jsonl --eval-samples 1000 --eval-steps 250 \
   --output-dir outputs/affine_vocab/<run_name> \
@@ -49,7 +51,7 @@ python scripts/train_affine_vocab_lora.py \
 **冻结 base 评估**（Claim 2 的零训练参考基线）：
 ```bash
 python scripts/eval_base_loss.py \
-  --model-path /home/wz/projects/mypro/im_exp/models/Qwen2.5-1.5B-Base \
+  --model-path ${MODEL_ROOT}/Qwen2.5-1.5B-Base \
   --eval-data data/sft_t2t_mini_25k/eval.jsonl \
   --report-file outputs/affine_vocab/sft_t2t_mini/claim2_base/qwen25_1_5b.json
 ```
@@ -144,7 +146,7 @@ input 和 lm_head 共享同一个 `LowRankAffineMap`，输出侧用 `TiedTranspo
 ## 关键设计规则
 
 - **永远不要在没有 `--master-dtype fp32` 的情况下训练**。bf16 主权重在典型学习率下会静默破坏训练。
-- **模型路径**：主要模型位于 `/home/wz/projects/mypro/im_exp/models/`。
+- **模型路径**：主要模型位于 `${MODEL_ROOT}/`。
 - **Tied embeddings**：本项目使用的所有 Qwen 模型都具有 tied `embed_tokens`/`lm_head` 权重。`tie_input_lm_head_adapters` 启用共享仿射适配器，使其可以合并回单一 embedding 矩阵。
 - **数据格式**：训练数据应包含 `conversations`（`{role, content}` 字典列表，含 "user"/"assistant" 角色）或平铺的 `question`/`answer`（或 `query`/`response`、`instruction`/`output`、`problem`/`solution` 等）。
 - **仅以 eval_loss 评估**：这是纯粹的语言建模 loss 研究。当前工作流中没有基于生成的评估。

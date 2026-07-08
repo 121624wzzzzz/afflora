@@ -5,6 +5,7 @@ import json
 import os
 import queue
 import subprocess
+import sys
 import threading
 from dataclasses import dataclass
 from datetime import datetime
@@ -14,10 +15,11 @@ from typing import Any
 
 HERE = Path(__file__).resolve().parent
 ROOT = next(p for p in HERE.parents if (p / "data").is_dir() and (p / "scripts").is_dir())
-PYTHON = Path("/home/wz/anaconda3/envs/torch24/bin/python")
+MODEL_ROOT = Path(os.environ.get("MODEL_ROOT", ROOT.parent / "models"))
+PYTHON = Path(os.environ.get("PYTHON_BIN", sys.executable))
 MODELS = {
-    "qwen3_06b": Path("/home/wz/projects/mypro/im_exp/models/Qwen3-0.6B-Base"),
-    "qwen3_17b": Path("/home/wz/projects/mypro/im_exp/models/Qwen3-1.7B-Base"),
+    "qwen3_06b": MODEL_ROOT / "Qwen3-0.6B-Base",
+    "qwen3_17b": MODEL_ROOT / "Qwen3-1.7B-Base",
 }
 MODEL_HIDDEN_RANK = {"qwen3_06b": 8, "qwen3_17b": 4}
 MODEL_AFFINE_SCALE = {"qwen3_06b": 8.0, "qwen3_17b": 1.0}

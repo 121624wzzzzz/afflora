@@ -69,7 +69,7 @@ def main() -> None:
     )
 
     training_args = TrainingArguments(
-        output_dir="/tmp/eval_base_loss",
+        output_dir="outputs/tmp/eval_base_loss",
         per_device_eval_batch_size=args.per_device_eval_batch_size,
         bf16=args.bf16,
         report_to="none",

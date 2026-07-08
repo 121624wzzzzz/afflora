@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd /commondocument/wz/cross_encoder_workspace/im_exp/lora
-/home/wz/anaconda3/envs/torch24/bin/python corrected_math_evaluation/model_families/qwen3/close_size/hidden_then_mergeable/run_mergeable_rank_sweep.py
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR" && git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+"${PYTHON_BIN:-python}" corrected_math_evaluation/model_families/qwen3/close_size/hidden_then_mergeable/run_mergeable_rank_sweep.py

@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR" && git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
 HERE=$(cd "$(dirname "$0")" && pwd)
-PY=/home/wz/anaconda3/envs/torch24/bin/python
+PY="${PYTHON_BIN:-python}"
 
 if [[ -f "$HERE/orchestrator.pid" ]] && kill -0 "$(cat "$HERE/orchestrator.pid")" 2>/dev/null; then
   echo "orchestrator already running: $(cat "$HERE/orchestrator.pid")"

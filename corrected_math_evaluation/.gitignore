@@ -3,6 +3,7 @@
 **/logs/
 **/hf_cache/
 **/smoke*/
+**/monitor.jsonl
 **/__pycache__/
 *.py[cod]
 **/*.py[cod]

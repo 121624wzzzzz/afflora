@@ -26,3 +26,12 @@ This directory contains repaired MetaMathQA-trained math SFT experiments and the
 See `PATH_MIGRATION.md` for old-to-new path mapping, `ORGANIZATION_MANIFEST.json` for a machine-readable manifest, and `CLEANUP_MANIFEST.md` for the cleanup record.
 
 Note: historical launcher scripts may still contain the old paths in comments or command examples. Use the new directory layout for future work.
+
+## Portable reruns
+
+Launcher scripts discover the repository root from their own location. Python experiment runners default to:
+
+- `PYTHON_BIN`: current Python executable, or override with `PYTHON_BIN=/path/to/python`.
+- `MODEL_ROOT`: `../models` relative to this repository, or override with `MODEL_ROOT=/path/to/models`.
+
+Historical `docs/archive/*.json` files may still contain absolute paths because they record the original machine provenance rather than reusable launch configuration.
