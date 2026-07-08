@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-03T15:12:43+08:00",
+  "updated_at": "2026-07-03T22:45:42+08:00",
+  "phase": "complete",
+  "jobs": {
+    "lmhead_ar1_s0p0625_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T19:59:16+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p0625_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T20:14:18+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p0625_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T20:29:24+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p125_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T20:44:28+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p125_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T20:59:35+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p125_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T21:14:42+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p25_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T21:29:50+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p25_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T15:12:43+08:00",
+      "finished_at": "2026-07-03T21:45:01+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p25_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T17:27:27+08:00",
+      "finished_at": "2026-07-03T22:00:09+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p5_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T17:27:35+08:00",
+      "finished_at": "2026-07-03T22:15:19+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p5_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T17:27:37+08:00",
+      "finished_at": "2026-07-03T22:30:30+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    },
+    "lmhead_ar1_s0p5_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-03T17:28:22+08:00",
+      "finished_at": "2026-07-03T22:45:39+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 128
+    }
+  }
+}

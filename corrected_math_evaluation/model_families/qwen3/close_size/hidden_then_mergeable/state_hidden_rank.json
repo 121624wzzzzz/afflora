@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-07T15:55:59+08:00",
+  "updated_at": "2026-07-07T19:22:52+08:00",
+  "phase": "complete",
+  "jobs": {
+    "qwen3_06b_hidden_hr1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T17:29:03+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_hidden_hr2_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T17:42:25+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_hidden_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T17:55:44+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_hidden_hr8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T18:09:03+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_hidden_hr16_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T18:22:33+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_hidden_hr1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T18:34:23+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_hidden_hr2_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T18:46:31+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_hidden_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T15:55:59+08:00",
+      "finished_at": "2026-07-07T18:58:32+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_hidden_hr8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T16:27:12+08:00",
+      "finished_at": "2026-07-07T19:10:41+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_hidden_hr16_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T16:27:20+08:00",
+      "finished_at": "2026-07-07T19:22:51+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    }
+  }
+}

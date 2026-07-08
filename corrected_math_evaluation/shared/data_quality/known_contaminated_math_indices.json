@@ -1,0 +1,33 @@
+{
+  "dataset": "data/math/test.jsonl",
+  "definition": "Confirmed same or mathematically equivalent question present in MetaMathQA training data",
+  "indices": [776, 1551, 1983, 2421, 2991],
+  "matches": [
+    {
+      "test_index": 776,
+      "meta_train_indices": [9084, 11738],
+      "reason": "Same problem; training form additionally contains multiple-choice options"
+    },
+    {
+      "test_index": 1551,
+      "meta_train_indices": [13421, 22084],
+      "reason": "cos(-150 degrees) is mathematically equivalent to cos(150 degrees)"
+    },
+    {
+      "test_index": 1983,
+      "meta_train_indices": [31644, 34461],
+      "reason": "Same problem with only LaTeX exponent formatting differences"
+    },
+    {
+      "test_index": 2421,
+      "meta_train_indices": [7300],
+      "reason": "Same parabola problem, paraphrased"
+    },
+    {
+      "test_index": 2991,
+      "meta_train_indices": [32093],
+      "reason": "Same problem; only LaTeX neq/ne spelling differs"
+    }
+  ]
+}
+

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-07T14:23:04+08:00",
+  "updated_at": "2026-07-07T14:51:05+08:00",
+  "phase": "complete",
+  "jobs": {
+    "qwen25_05b_mergeable_ar4_s8_hr8_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T14:23:04+08:00",
+      "finished_at": "2026-07-07T14:47:48+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_mergeable_ar4_s8_hr8_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T14:23:04+08:00",
+      "finished_at": "2026-07-07T14:51:05+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    }
+  }
+}

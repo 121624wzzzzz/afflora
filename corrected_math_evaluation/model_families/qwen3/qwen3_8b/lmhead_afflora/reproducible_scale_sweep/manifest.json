@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-07-03T02:39:43+08:00",
+  "git_commit": "7c2a829d2fecdc7c6e2cb9888276db8e7058dcd6",
+  "versions": {
+    "python_torch": "2.4.1+cu124",
+    "cuda": "12.4",
+    "transformers": "5.6.2",
+    "peft": "0.19.1"
+  },
+  "files": {
+    "data/metamathqa_40k/train.jsonl": {
+      "bytes": 29764389,
+      "sha256": "374a211bfc812cdc1cf90fa626f31470f18507003a4528d8b680cd5706130a2b"
+    },
+    "data/math/test.jsonl": {
+      "bytes": 3850968,
+      "sha256": "7ee83a75e9212c12385490b35f43ae9256213cf6b7a7465562b87f1f5fccb3d2"
+    },
+    "data/gsm8k/test.jsonl": {
+      "bytes": 749738,
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    "scripts/train_affine_vocab_lora.py": {
+      "bytes": 22162,
+      "sha256": "02d3f17686f5f4236450477874d81bd2975462809c05d24cca3a794d47ef3a4d"
+    },
+    "src/affine_vocab_lora/adapter.py": {
+      "bytes": 10811,
+      "sha256": "54abbed355ac3766432c92561d69c93d2c3df9324200266cb4111617ab254ea9"
+    },
+    "corrected_math_evaluation/evaluate_math_full.py": {
+      "bytes": 8464,
+      "sha256": "0047936822c028b23417119699b1e4f3546990376ec7e5f4756f1fa6ce710120"
+    },
+    "corrected_math_evaluation/evaluate_gsm8k_full.py": {
+      "bytes": 7120,
+      "sha256": "adc906d6fe2fbe1fa6dc04caf41210b3b8ff803b996afdf111580025054472e6"
+    },
+    "corrected_math_evaluation/known_contaminated_indices.json": {
+      "bytes": 986,
+      "sha256": "7443e7440c7503e41ced886299c44110a1e0e314f3b929217b499c259098a32e"
+    },
+    "corrected_math_evaluation/reproducible_afflora_sweep/run_experiment.py": {
+      "bytes": 13196,
+      "sha256": "9c0fa9d0110f5a0b34f2507c5052721caeb715f07f9febd585bb9b429dc51c02"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+data/*.jsonl
+data/
+data_*/
+outputs/
+logs/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+**/*.py[cod]
+**/*.safetensors
+**/*.pt
+.pytest_cache/

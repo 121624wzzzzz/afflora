@@ -1,0 +1,28 @@
+{"time": "2026-07-07T15:07:20+08:00", "kind": "phase", "phase": "training"}
+{"time": "2026-07-07T15:07:20+08:00", "kind": "training_start", "job": "qwen25_05b_hidden_hr8_seed123", "gpu": 0, "attempt": 1}
+{"time": "2026-07-07T15:07:20+08:00", "kind": "training_start", "job": "qwen25_05b_hidden_hr8_seed2026", "gpu": 1, "attempt": 1}
+{"time": "2026-07-07T15:07:20+08:00", "kind": "training_start", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed123", "gpu": 2, "attempt": 1}
+{"time": "2026-07-07T15:07:20+08:00", "kind": "training_start", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed2026", "gpu": 3, "attempt": 1}
+{"time": "2026-07-07T15:28:25+08:00", "kind": "training_finish", "job": "qwen25_05b_hidden_hr8_seed2026", "gpu": 1, "attempt": 1}
+{"time": "2026-07-07T15:28:37+08:00", "kind": "training_finish", "job": "qwen25_05b_hidden_hr8_seed123", "gpu": 0, "attempt": 1}
+{"time": "2026-07-07T15:28:43+08:00", "kind": "training_finish", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed2026", "gpu": 3, "attempt": 1}
+{"time": "2026-07-07T15:28:53+08:00", "kind": "training_finish", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed123", "gpu": 2, "attempt": 1}
+{"time": "2026-07-07T15:28:53+08:00", "kind": "phase", "phase": "evaluation"}
+{"time": "2026-07-07T15:28:53+08:00", "kind": "eval_start", "job": "qwen25_05b_hidden_hr8_seed123", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:31:29+08:00", "kind": "eval_finish", "job": "qwen25_05b_hidden_hr8_seed123", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:31:29+08:00", "kind": "eval_start", "job": "qwen25_05b_hidden_hr8_seed123", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:32:09+08:00", "kind": "eval_finish", "job": "qwen25_05b_hidden_hr8_seed123", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:32:09+08:00", "kind": "eval_start", "job": "qwen25_05b_hidden_hr8_seed2026", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:34:45+08:00", "kind": "eval_finish", "job": "qwen25_05b_hidden_hr8_seed2026", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:34:45+08:00", "kind": "eval_start", "job": "qwen25_05b_hidden_hr8_seed2026", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:35:26+08:00", "kind": "eval_finish", "job": "qwen25_05b_hidden_hr8_seed2026", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:35:26+08:00", "kind": "eval_start", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed123", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:38:02+08:00", "kind": "eval_finish", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed123", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:38:02+08:00", "kind": "eval_start", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed123", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:38:43+08:00", "kind": "eval_finish", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed123", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:38:43+08:00", "kind": "eval_start", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed2026", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:41:19+08:00", "kind": "eval_finish", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed2026", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:41:19+08:00", "kind": "eval_start", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed2026", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:41:59+08:00", "kind": "eval_finish", "job": "qwen25_05b_mergeable_ar4_s8_hr8_seed2026", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T15:41:59+08:00", "kind": "phase", "phase": "complete"}
+{"time": "2026-07-07T15:41:59+08:00", "kind": "experiment_complete"}

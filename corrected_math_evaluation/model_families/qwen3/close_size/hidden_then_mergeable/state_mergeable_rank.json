@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-07T19:52:14+08:00",
+  "updated_at": "2026-07-07T23:20:30+08:00",
+  "phase": "complete",
+  "jobs": {
+    "qwen3_06b_mergeable_ar1_s8_hr8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T21:26:53+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar2_s8_hr8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T21:40:11+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar4_s8_hr8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T21:53:34+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar8_s8_hr8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T22:06:55+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar16_s8_hr8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T22:20:13+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar1_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T22:32:15+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar2_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T22:44:10+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar4_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T19:52:15+08:00",
+      "finished_at": "2026-07-07T22:56:06+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar8_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T20:24:05+08:00",
+      "finished_at": "2026-07-07T23:08:26+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar16_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T20:24:09+08:00",
+      "finished_at": "2026-07-07T23:20:29+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    }
+  }
+}

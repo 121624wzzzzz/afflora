@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "organized_at": "2026-07-08T11:00:59+08:00",
+  "base": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/corrected_math_evaluation",
+  "policy": {
+    "shared": "Reusable evaluators, merge helpers, tests, and data-quality metadata.",
+    "model_families": "Experiments grouped first by model family, then by model size/experiment line.",
+    "cross_family": "Experiments intentionally comparing more than one model family.",
+    "legacy_root_evals": "Older root-level outputs/logs/summaries preserved without reinterpretation."
+  },
+  "cleanup": {
+    "manifest": "CLEANUP_MANIFEST.md",
+    "policy": "Regenerable caches, stale process files, outer launcher/orchestrator wrapper logs, and one explicitly aborted invalid run were removed after organization. Checkpoints, train/eval logs, state files, evaluation outputs, JSONL/CSV metrics, and analysis documents were preserved."
+  },
+  "moves": [
+    {
+      "old": "evaluate_math_full.py",
+      "new": "shared/evaluators/evaluate_math_full.py",
+      "description": "MATH full greedy evaluator",
+      "status": "moved"
+    },
+    {
+      "old": "evaluate_gsm8k_full.py",
+      "new": "shared/evaluators/evaluate_gsm8k_full.py",
+      "description": "GSM8K full greedy evaluator",
+      "status": "moved"
+    },
+    {
+      "old": "evaluate_metamath_loss.py",
+      "new": "shared/evaluators/evaluate_metamath_loss.py",
+      "description": "MetaMathQA answer-token CE evaluator",
+      "status": "moved"
+    },
+    {
+      "old": "merge_shards.py",
+      "new": "shared/merge/merge_math_shards.py",
+      "description": "MATH shard merger",
+      "status": "moved"
+    },
+    {
+      "old": "merge_gsm8k_shards.py",
+      "new": "shared/merge/merge_gsm8k_shards.py",
+      "description": "GSM8K shard merger",
+      "status": "moved"
+    },
+    {
+      "old": "compare_results.py",
+      "new": "shared/analysis/compare_results.py",
+      "description": "legacy comparison helper",
+      "status": "moved"
+    },
+    {
+      "old": "test_evaluator.py",
+      "new": "shared/tests/test_evaluator.py",
+      "description": "evaluator unit tests",
+      "status": "moved"
+    },
+    {
+      "old": "known_contaminated_indices.json",
+      "new": "shared/data_quality/known_contaminated_math_indices.json",
+      "description": "MATH contamination exclusions",
+      "status": "moved"
+    },
+    {
+      "old": "__pycache__",
+      "new": null,
+      "description": "root Python bytecode cache; regenerable",
+      "status": "removed_in_cleanup"
+    },
+    {
+      "old": "reproducible_afflora_sweep",
+      "new": "model_families/qwen3/qwen3_8b/lmhead_afflora/reproducible_scale_sweep",
+      "description": "Qwen3-8B rank1 scale sweep with paired seeds",
+      "status": "moved"
+    },
+    {
+      "old": "afflora_small_scale_sweep",
+      "new": "model_families/qwen3/qwen3_8b/lmhead_afflora/rank1_small_scale_sweep",
+      "description": "Qwen3-8B rank1 small-scale follow-up",
+      "status": "moved"
+    },
+    {
+      "old": "afflora_rank_scale_sweep",
+      "new": "model_families/qwen3/qwen3_8b/lmhead_afflora/rank_scale_sweep",
+      "description": "Qwen3-8B rank/scale lm-head AffLoRA sweep",
+      "status": "moved"
+    },
+    {
+      "old": "qwen3_close_size_hidden_then_mergeable_sweep",
+      "new": "model_families/qwen3/close_size/hidden_then_mergeable",
+      "description": "Qwen3-0.6B/1.7B hidden-rank then mergeable sweep",
+      "status": "moved"
+    },
+    {
+      "old": "qwen25_05b_hidden_rank_then_mergeable_sweep",
+      "new": "model_families/qwen25/qwen25_0p5b/hidden_rank_then_mergeable",
+      "description": "Qwen2.5-0.5B hidden-rank then mergeable sweep",
+      "status": "moved"
+    },
+    {
+      "old": "small_mergeable_rank_sweep",
+      "new": "model_families/qwen25/small_models/hidden_mergeable_rank_sweep",
+      "description": "Qwen2.5 0.5B/1.5B hidden+mergeable rank sweep",
+      "status": "moved"
+    },
+    {
+      "old": "small_affine_only_rank_sweep",
+      "new": "model_families/qwen25/small_models/affine_only_rank_sweep",
+      "description": "Qwen2.5 0.5B/1.5B affine-only rank sweep",
+      "status": "moved"
+    },
+    {
+      "old": "small_mergeable_math_sweep",
+      "new": "cross_family/small_models/mergeable_math_scale_sweep",
+      "description": "Mixed Qwen2.5/Qwen3 small-model mergeable scale sweep",
+      "status": "moved"
+    },
+    {
+      "old": "outputs",
+      "new": "legacy_root_evals/outputs",
+      "description": "early root-level evaluation outputs",
+      "status": "moved"
+    },
+    {
+      "old": "logs",
+      "new": "legacy_root_evals/logs",
+      "description": "early root-level logs",
+      "status": "moved"
+    },
+    {
+      "old": "RESULTS.md",
+      "new": "legacy_root_evals/summaries/RESULTS.md",
+      "description": "early corrected evaluator results",
+      "status": "moved"
+    },
+    {
+      "old": "MATH8_RERUN_RESULTS.md",
+      "new": "legacy_root_evals/summaries/MATH8_RERUN_RESULTS.md",
+      "description": "8-shard MATH rerun notes",
+      "status": "moved"
+    },
+    {
+      "old": "LMHEAD_RANK_SWEEP_RESULTS.md",
+      "new": "legacy_root_evals/summaries/LMHEAD_RANK_SWEEP_RESULTS.md",
+      "description": "legacy lm-head rank sweep summary",
+      "status": "moved"
+    },
+    {
+      "old": "HIDDEN_PLUS_MERGEABLE_SMALL_MODEL_COMPARISON.md",
+      "new": "cross_family/small_models/HIDDEN_PLUS_MERGEABLE_SMALL_MODEL_COMPARISON.md",
+      "description": "small-model hidden+mergeable comparison",
+      "status": "moved"
+    },
+    {
+      "old": "README.md",
+      "new": "legacy_root_evals/summaries/README.legacy.md",
+      "description": "previous root README",
+      "status": "moved"
+    }
+  ],
+  "top_level_after": [
+    ".gitignore",
+    "cross_family",
+    "legacy_root_evals",
+    "model_families",
+    "shared"
+  ]
+}

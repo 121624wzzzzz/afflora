@@ -18,3 +18,26 @@ outputs/
 
 # Claude Code
 .claude/
+
+# Local repaired experiment artifacts: keep code/docs/manifests in git, not heavy run products
+corrected_math_evaluation/**/checkpoints/
+corrected_math_evaluation/**/outputs/
+corrected_math_evaluation/**/logs/
+corrected_math_evaluation/**/hf_cache/
+corrected_math_evaluation/**/smoke*/
+corrected_math_evaluation/**/*.safetensors
+corrected_math_evaluation/**/*.pt
+corrected_math_evaluation/**/tokenizer.json
+corrected_math_evaluation/**/tokenizer_config.json
+corrected_math_evaluation/**/special_tokens_map.json
+corrected_math_evaluation/**/__pycache__/
+corrected_math_evaluation/**/*.py[cod]
+
+corrected_sft_experiment/data/
+corrected_sft_experiment/data_*/
+corrected_sft_experiment/outputs/
+corrected_sft_experiment/logs/
+corrected_sft_experiment/**/__pycache__/
+corrected_sft_experiment/**/*.py[cod]
+corrected_sft_experiment/**/*.safetensors
+corrected_sft_experiment/**/*.pt

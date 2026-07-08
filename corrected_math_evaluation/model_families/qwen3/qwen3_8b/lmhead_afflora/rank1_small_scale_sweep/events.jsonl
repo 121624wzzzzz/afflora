@@ -1,0 +1,76 @@
+{"time": "2026-07-03T15:12:43+08:00", "kind": "phase", "phase": "training"}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p0625_hr4_seed42", "gpu": 0, "attempt": 1}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p0625_hr4_seed43", "gpu": 1, "attempt": 1}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p0625_hr4_seed44", "gpu": 2, "attempt": 1}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p125_hr4_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p125_hr4_seed43", "gpu": 4, "attempt": 1}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p25_hr4_seed42", "gpu": 6, "attempt": 1}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p125_hr4_seed44", "gpu": 5, "attempt": 1}
+{"time": "2026-07-03T15:12:43+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p25_hr4_seed43", "gpu": 7, "attempt": 1}
+{"time": "2026-07-03T17:27:27+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p125_hr4_seed43", "gpu": 4, "attempt": 1}
+{"time": "2026-07-03T17:27:27+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p25_hr4_seed44", "gpu": 4, "attempt": 1}
+{"time": "2026-07-03T17:27:35+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p125_hr4_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-03T17:27:35+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p5_hr4_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-03T17:27:37+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p25_hr4_seed43", "gpu": 7, "attempt": 1}
+{"time": "2026-07-03T17:27:37+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p5_hr4_seed43", "gpu": 7, "attempt": 1}
+{"time": "2026-07-03T17:28:22+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p0625_hr4_seed42", "gpu": 0, "attempt": 1}
+{"time": "2026-07-03T17:28:22+08:00", "kind": "training_start", "job": "lmhead_ar1_s0p5_hr4_seed44", "gpu": 0, "attempt": 1}
+{"time": "2026-07-03T17:28:40+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p0625_hr4_seed44", "gpu": 2, "attempt": 1}
+{"time": "2026-07-03T17:28:56+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p125_hr4_seed44", "gpu": 5, "attempt": 1}
+{"time": "2026-07-03T17:29:09+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p25_hr4_seed42", "gpu": 6, "attempt": 1}
+{"time": "2026-07-03T17:29:19+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p0625_hr4_seed43", "gpu": 1, "attempt": 1}
+{"time": "2026-07-03T19:42:36+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p25_hr4_seed44", "gpu": 4, "attempt": 1}
+{"time": "2026-07-03T19:42:39+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p5_hr4_seed43", "gpu": 7, "attempt": 1}
+{"time": "2026-07-03T19:42:52+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p5_hr4_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-03T19:44:13+08:00", "kind": "training_finish", "job": "lmhead_ar1_s0p5_hr4_seed44", "gpu": 0, "attempt": 1}
+{"time": "2026-07-03T19:44:13+08:00", "kind": "phase", "phase": "evaluation"}
+{"time": "2026-07-03T19:44:13+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p0625_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T19:57:23+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p0625_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T19:57:23+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p0625_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T19:59:16+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p0625_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T19:59:16+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p0625_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:12:25+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p0625_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:12:25+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p0625_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:14:18+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p0625_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:14:19+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p0625_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:27:30+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p0625_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:27:30+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p0625_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:29:24+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p0625_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:29:25+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p125_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:42:35+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p125_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:42:36+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p125_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:44:28+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p125_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:44:30+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p125_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:57:41+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p125_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:57:42+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p125_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:59:35+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p125_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T20:59:38+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p125_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:12:47+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p125_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:12:48+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p125_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:14:42+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p125_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:14:45+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p25_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:27:56+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p25_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:27:58+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p25_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:29:50+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p25_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:29:53+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p25_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:43:03+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p25_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:43:05+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p25_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:45:01+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p25_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:45:05+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p25_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:58:15+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p25_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T21:58:17+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p25_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:00:09+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p25_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:00:13+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p5_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:13:23+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p5_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:13:25+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p5_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:15:19+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p5_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:15:24+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p5_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:28:35+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p5_hr4_seed43", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:28:37+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p5_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:30:30+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p5_hr4_seed43", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:30:35+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p5_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:43:46+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p5_hr4_seed44", "task": "math", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:43:49+08:00", "kind": "eval_start", "job": "lmhead_ar1_s0p5_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:45:39+08:00", "kind": "eval_finish", "job": "lmhead_ar1_s0p5_hr4_seed44", "task": "gsm8k", "attempt": 1, "batch_size": 128}
+{"time": "2026-07-03T22:45:44+08:00", "kind": "phase", "phase": "complete"}
+{"time": "2026-07-03T22:45:44+08:00", "kind": "experiment_complete"}

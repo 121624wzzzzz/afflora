@@ -19,6 +19,7 @@ from transformers import (
     Trainer,
     TrainerCallback,
     TrainingArguments,
+    set_seed,
 )
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -204,13 +205,16 @@ def normalize_example(row: dict[str, Any]) -> tuple[str, str]:
 def tokenize_row(row: dict[str, Any], tokenizer: Any, max_seq_len: int) -> dict[str, list[int]]:
     question, answer = normalize_example(row)
     prompt = PROMPT_TEMPLATE.format(question=question)
-    full_text = prompt + answer + tokenizer.eos_token
+    # Tokenize prompt and response independently, then concatenate their ids.  Using
+    # len(tokenizer(prompt)) as a mask boundary inside tokenizer(prompt + response)
+    # is unsafe: BPE tokenizers may merge across that string boundary.  For Qwen3,
+    # this used to shift the response mask on answers beginning with a newline.
     prompt_ids = tokenizer(prompt, add_special_tokens=False)["input_ids"]
-    full = tokenizer(full_text, add_special_tokens=False, truncation=True, max_length=max_seq_len)
-    input_ids = full["input_ids"]
-    labels = input_ids.copy()
-    labels[: min(len(prompt_ids), len(labels))] = [-100] * min(len(prompt_ids), len(labels))
-    return {"input_ids": input_ids, "attention_mask": full["attention_mask"], "labels": labels}
+    response_ids = tokenizer(answer + tokenizer.eos_token, add_special_tokens=False)["input_ids"]
+    input_ids = (prompt_ids + response_ids)[:max_seq_len]
+    prompt_length = min(len(prompt_ids), len(input_ids))
+    labels = [-100] * prompt_length + input_ids[prompt_length:]
+    return {"input_ids": input_ids, "attention_mask": [1] * len(input_ids), "labels": labels}
 
 
 def variant_uses_affine(variant: str) -> tuple[bool, bool]:
@@ -328,6 +332,11 @@ class SaveAffineAdapterCallback(TrainerCallback):
 
 def main() -> None:
     args = parse_args()
+    # Trainer seeds samplers/dropout in Trainer.__init__, but adapters are created
+    # before that point.  Seed here so LoRA/AffLoRA initialization is reproducible
+    # and the seed recorded in run_args.json describes the whole run.
+    set_seed(args.seed)
+    print(f"[reproducibility] initialization_seed={args.seed}")
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -376,6 +385,12 @@ def main() -> None:
             param.requires_grad_(True)
         print(json.dumps(trainable_summary(model), indent=2))
     elif variant_uses_hidden_lora(args.variant):
+        # Affine adapters are constructed before hidden LoRA and consume random
+        # numbers.  Reset the component seed so a hidden-only baseline and a
+        # hidden+affine treatment with the same seed start from identical hidden
+        # LoRA matrices.  This makes paired architectural comparisons meaningful.
+        set_seed(args.seed)
+        print(f"[reproducibility] hidden_lora_initialization_seed={args.seed}")
         layers_to_transform: list[int] | None = None
         if args.hidden_lora_layers_to_transform:
             layers_to_transform = [

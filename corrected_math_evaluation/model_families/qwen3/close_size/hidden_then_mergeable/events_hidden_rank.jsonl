@@ -1,0 +1,84 @@
+{"time": "2026-07-07T15:55:59+08:00", "kind": "phase", "phase": "training"}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_06b_hidden_hr1_seed42", "gpu": 0, "attempt": 1}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_06b_hidden_hr2_seed42", "gpu": 1, "attempt": 1}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_06b_hidden_hr4_seed42", "gpu": 2, "attempt": 1}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_06b_hidden_hr8_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_06b_hidden_hr16_seed42", "gpu": 4, "attempt": 1}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_17b_hidden_hr1_seed42", "gpu": 5, "attempt": 1}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_17b_hidden_hr2_seed42", "gpu": 6, "attempt": 1}
+{"time": "2026-07-07T15:55:59+08:00", "kind": "training_start", "job": "qwen3_17b_hidden_hr4_seed42", "gpu": 7, "attempt": 1}
+{"time": "2026-07-07T16:27:12+08:00", "kind": "training_finish", "job": "qwen3_06b_hidden_hr1_seed42", "gpu": 0, "attempt": 1}
+{"time": "2026-07-07T16:27:12+08:00", "kind": "training_start", "job": "qwen3_17b_hidden_hr8_seed42", "gpu": 0, "attempt": 1}
+{"time": "2026-07-07T16:27:20+08:00", "kind": "training_finish", "job": "qwen3_06b_hidden_hr8_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-07T16:27:20+08:00", "kind": "training_start", "job": "qwen3_17b_hidden_hr16_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-07T16:27:22+08:00", "kind": "training_finish", "job": "qwen3_06b_hidden_hr16_seed42", "gpu": 4, "attempt": 1}
+{"time": "2026-07-07T16:27:50+08:00", "kind": "training_finish", "job": "qwen3_06b_hidden_hr2_seed42", "gpu": 1, "attempt": 1}
+{"time": "2026-07-07T16:27:52+08:00", "kind": "training_finish", "job": "qwen3_06b_hidden_hr4_seed42", "gpu": 2, "attempt": 1}
+{"time": "2026-07-07T16:44:17+08:00", "kind": "training_finish", "job": "qwen3_17b_hidden_hr1_seed42", "gpu": 5, "attempt": 1}
+{"time": "2026-07-07T16:45:07+08:00", "kind": "training_finish", "job": "qwen3_17b_hidden_hr2_seed42", "gpu": 6, "attempt": 1}
+{"time": "2026-07-07T16:45:09+08:00", "kind": "training_finish", "job": "qwen3_17b_hidden_hr4_seed42", "gpu": 7, "attempt": 1}
+{"time": "2026-07-07T17:15:36+08:00", "kind": "training_finish", "job": "qwen3_17b_hidden_hr8_seed42", "gpu": 0, "attempt": 1}
+{"time": "2026-07-07T17:15:49+08:00", "kind": "training_finish", "job": "qwen3_17b_hidden_hr16_seed42", "gpu": 3, "attempt": 1}
+{"time": "2026-07-07T17:15:49+08:00", "kind": "phase", "phase": "evaluation"}
+{"time": "2026-07-07T17:15:49+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr1_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:20:44+08:00", "kind": "eval_failure", "job": "qwen3_06b_hidden_hr1_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 0, 1, 1]}
+{"time": "2026-07-07T17:20:44+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr1_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T17:27:59+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr1_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T17:27:59+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr1_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:29:03+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr1_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:29:03+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr2_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:34:01+08:00", "kind": "eval_failure", "job": "qwen3_06b_hidden_hr2_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 0, 1, 1]}
+{"time": "2026-07-07T17:34:01+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr2_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T17:41:19+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr2_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T17:41:19+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr2_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:42:25+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr2_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:42:26+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:47:22+08:00", "kind": "eval_failure", "job": "qwen3_06b_hidden_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 0, 1, 1]}
+{"time": "2026-07-07T17:47:23+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr4_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T17:54:39+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr4_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T17:54:39+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:55:44+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T17:55:45+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr8_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:00:42+08:00", "kind": "eval_failure", "job": "qwen3_06b_hidden_hr8_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 0, 1, 1]}
+{"time": "2026-07-07T18:00:42+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr8_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:07:59+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr8_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:07:59+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr8_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:09:03+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr8_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:09:04+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr16_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:14:06+08:00", "kind": "eval_failure", "job": "qwen3_06b_hidden_hr16_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 0, 1, 1]}
+{"time": "2026-07-07T18:14:06+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr16_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:21:25+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr16_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:21:25+08:00", "kind": "eval_start", "job": "qwen3_06b_hidden_hr16_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:22:33+08:00", "kind": "eval_finish", "job": "qwen3_06b_hidden_hr16_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:22:35+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr1_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:25:49+08:00", "kind": "eval_failure", "job": "qwen3_17b_hidden_hr1_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 1, 1, 1]}
+{"time": "2026-07-07T18:25:49+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr1_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:33:21+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr1_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:33:22+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr1_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:34:23+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr1_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:34:25+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr2_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:37:40+08:00", "kind": "eval_failure", "job": "qwen3_17b_hidden_hr2_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 1, 1, 1]}
+{"time": "2026-07-07T18:37:41+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr2_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:45:23+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr2_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:45:24+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr2_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:46:31+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr2_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:46:33+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:49:49+08:00", "kind": "eval_failure", "job": "qwen3_17b_hidden_hr4_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 1, 1, 1]}
+{"time": "2026-07-07T18:49:50+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr4_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:57:25+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr4_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T18:57:25+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:58:32+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr4_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T18:58:34+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr8_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T19:01:54+08:00", "kind": "eval_failure", "job": "qwen3_17b_hidden_hr8_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 1, 1, 1]}
+{"time": "2026-07-07T19:01:55+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr8_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T19:09:33+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr8_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T19:09:34+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr8_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T19:10:41+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr8_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T19:10:43+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr16_seed42", "task": "math", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T19:14:03+08:00", "kind": "eval_failure", "job": "qwen3_17b_hidden_hr16_seed42", "task": "math", "attempt": 1, "batch_size": 512, "shard_returncodes": [1, 1, 1, 1, 1, 1, 1, 1]}
+{"time": "2026-07-07T19:14:04+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr16_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T19:21:42+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr16_seed42", "task": "math", "attempt": 2, "batch_size": 256}
+{"time": "2026-07-07T19:21:43+08:00", "kind": "eval_start", "job": "qwen3_17b_hidden_hr16_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T19:22:51+08:00", "kind": "eval_finish", "job": "qwen3_17b_hidden_hr16_seed42", "task": "gsm8k", "attempt": 1, "batch_size": 512}
+{"time": "2026-07-07T19:22:53+08:00", "kind": "phase", "phase": "complete"}
+{"time": "2026-07-07T19:22:53+08:00", "kind": "experiment_complete"}

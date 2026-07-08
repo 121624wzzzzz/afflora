@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-08T01:01:44+08:00",
+  "updated_at": "2026-07-08T04:53:57+08:00",
+  "phase": "complete",
+  "jobs": {
+    "qwen3_06b_hidden_hr8_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T02:36:06+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_hidden_hr8_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T02:49:21+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar1_s8_hr8_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T03:02:37+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar1_s8_hr8_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T03:15:54+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar2_s8_hr8_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T03:29:11+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_06b_mergeable_ar2_s8_hr8_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T03:42:26+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_hidden_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T03:54:25+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_hidden_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:01:44+08:00",
+      "finished_at": "2026-07-08T04:06:24+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar2_s1_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:33:07+08:00",
+      "finished_at": "2026-07-08T04:18:19+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar2_s1_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:33:09+08:00",
+      "finished_at": "2026-07-08T04:30:12+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar8_s1_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:33:24+08:00",
+      "finished_at": "2026-07-08T04:42:07+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen3_17b_mergeable_ar8_s1_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-08T01:33:28+08:00",
+      "finished_at": "2026-07-08T04:53:57+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    }
+  }
+}

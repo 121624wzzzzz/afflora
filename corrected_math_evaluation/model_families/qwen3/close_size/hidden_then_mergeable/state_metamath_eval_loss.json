@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-08T10:43:15+08:00",
+  "updated_at": "2026-07-08T10:44:15+08:00",
+  "phase": "complete",
+  "jobs": {
+    "qwen3_06b_base": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:30+08:00",
+      "loss": 0.34307531204318004
+    },
+    "qwen3_17b_base": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:34+08:00",
+      "loss": 0.27319809117816396
+    },
+    "qwen3_06b_hidden_hr8_seed42": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:34+08:00",
+      "loss": 0.1843501424408731
+    },
+    "qwen3_06b_mergeable_ar1_s8_hr8_seed42": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:34+08:00",
+      "loss": 0.1844649501583057
+    },
+    "qwen3_06b_mergeable_ar2_s8_hr8_seed42": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:34+08:00",
+      "loss": 0.18433000287255755
+    },
+    "qwen3_17b_hidden_hr4_seed42": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:38+08:00",
+      "loss": 0.1621659327663266
+    },
+    "qwen3_17b_mergeable_ar2_s1_hr4_seed42": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:39+08:00",
+      "loss": 0.16208362628675535
+    },
+    "qwen3_17b_mergeable_ar8_s1_hr4_seed42": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:15+08:00",
+      "finished_at": "2026-07-08T10:43:39+08:00",
+      "loss": 0.16203806289575048
+    },
+    "qwen3_06b_hidden_hr8_seed43": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:30+08:00",
+      "finished_at": "2026-07-08T10:43:46+08:00",
+      "loss": 0.18380936807392018
+    },
+    "qwen3_06b_mergeable_ar1_s8_hr8_seed43": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:34+08:00",
+      "finished_at": "2026-07-08T10:43:51+08:00",
+      "loss": 0.1838164968779073
+    },
+    "qwen3_06b_mergeable_ar2_s8_hr8_seed43": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:34+08:00",
+      "finished_at": "2026-07-08T10:43:51+08:00",
+      "loss": 0.18371164636537943
+    },
+    "qwen3_17b_hidden_hr4_seed43": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:34+08:00",
+      "finished_at": "2026-07-08T10:43:56+08:00",
+      "loss": 0.16145410978471042
+    },
+    "qwen3_17b_mergeable_ar2_s1_hr4_seed43": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:34+08:00",
+      "finished_at": "2026-07-08T10:43:56+08:00",
+      "loss": 0.16169701579128357
+    },
+    "qwen3_17b_mergeable_ar8_s1_hr4_seed43": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:38+08:00",
+      "finished_at": "2026-07-08T10:43:59+08:00",
+      "loss": 0.16151167782597234
+    },
+    "qwen3_06b_hidden_hr8_seed44": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:39+08:00",
+      "finished_at": "2026-07-08T10:43:55+08:00",
+      "loss": 0.1842161596176609
+    },
+    "qwen3_06b_mergeable_ar1_s8_hr8_seed44": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:39+08:00",
+      "finished_at": "2026-07-08T10:43:56+08:00",
+      "loss": 0.18395583280277886
+    },
+    "qwen3_06b_mergeable_ar2_s8_hr8_seed44": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:46+08:00",
+      "finished_at": "2026-07-08T10:44:02+08:00",
+      "loss": 0.1840377202790566
+    },
+    "qwen3_17b_hidden_hr4_seed44": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:51+08:00",
+      "finished_at": "2026-07-08T10:44:12+08:00",
+      "loss": 0.1612336848833879
+    },
+    "qwen3_17b_mergeable_ar2_s1_hr4_seed44": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:51+08:00",
+      "finished_at": "2026-07-08T10:44:13+08:00",
+      "loss": 0.16132987590872583
+    },
+    "qwen3_17b_mergeable_ar8_s1_hr4_seed44": {
+      "status": "complete",
+      "gpu": null,
+      "started_at": "2026-07-08T10:43:55+08:00",
+      "finished_at": "2026-07-08T10:44:15+08:00",
+      "loss": 0.1613270490091509
+    }
+  },
+  "failed_jobs": []
+}

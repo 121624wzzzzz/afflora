@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-06T20:48:29+08:00",
+  "updated_at": "2026-07-07T02:46:42+08:00",
+  "phase": "complete",
+  "jobs": {
+    "qwen25_05b_base": {
+      "status": "complete",
+      "attempts": 0,
+      "gpu": null,
+      "eval_attempt": 1,
+      "eval_batch_size": 512,
+      "finished_at": "2026-07-07T01:23:42+08:00"
+    },
+    "qwen25_05b_emb_ar1_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T20:49:39+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:26:29+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_emb_ar2_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T20:49:39+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:29:16+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_emb_ar4_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T20:49:39+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:32:04+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_emb_ar8_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T20:49:39+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:34:53+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_emb_ar16_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T20:49:39+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:37:42+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_mergeable_ar1_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:40:31+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_mergeable_ar2_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:43:23+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_mergeable_ar4_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:46:16+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_mergeable_ar8_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:49:09+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_05b_mergeable_ar16_s8_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T01:52:02+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_base": {
+      "status": "complete",
+      "attempts": 0,
+      "gpu": null,
+      "eval_attempt": 1,
+      "eval_batch_size": 512,
+      "finished_at": "2026-07-07T01:56:55+08:00"
+    },
+    "qwen25_15b_emb_ar1_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T21:02:17+08:00",
+      "finished_at": "2026-07-07T02:01:52+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_emb_ar2_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T21:02:17+08:00",
+      "finished_at": "2026-07-07T02:06:45+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_emb_ar4_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T21:02:18+08:00",
+      "finished_at": "2026-07-07T02:11:42+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_emb_ar8_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T21:15:02+08:00",
+      "finished_at": "2026-07-07T02:16:39+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_emb_ar16_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-06T21:15:05+08:00",
+      "finished_at": "2026-07-07T02:21:36+08:00",
+      "returncode": 0,
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_mergeable_ar1_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T02:26:34+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_mergeable_ar2_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T02:31:34+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_mergeable_ar4_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:43:04+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T02:36:34+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_mergeable_ar8_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:55:56+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T02:41:35+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    },
+    "qwen25_15b_mergeable_ar16_s1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-07T00:55:56+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-07T02:46:36+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 512
+    }
+  }
+}
