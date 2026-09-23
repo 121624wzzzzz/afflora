@@ -1,0 +1,767 @@
+{
+  "created_at": "2026-09-24T00:41:55+08:00",
+  "files": [
+    {
+      "path": "boundary_lora_comparison_20260922/ALGEBRA_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/ALGEBRA_AUDIT.json",
+      "bytes": 944,
+      "sha256": "7debf4d35d133b3e99c2f92fce675c8d820113491fb293a00ed1ebba52ba56a1"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/CODE_FROZEN.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/CODE_FROZEN.json",
+      "bytes": 2217,
+      "sha256": "8de7fbba0eeac50102c15d0934e5a58379feeb7c8ed6201b723b60f44c349a5b"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/CONFIRMATION_TEMPLATES.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/CONFIRMATION_TEMPLATES.json",
+      "bytes": 37193,
+      "sha256": "126bc69f66228a5dde8fe48558ac5836af71a02dd530847e57c82fded67e2749"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/FORMAL_JOBS.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/FORMAL_JOBS.json",
+      "bytes": 670695,
+      "sha256": "26347f915fef1675ed3917eb1d190448e4b530dd21e94f8fff2616321492dd25"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/INPUT_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/INPUT_AUDIT.json",
+      "bytes": 24701,
+      "sha256": "4c4b2918447f0db9d65725e3edb1cb918b3bf371b484e39fb7312a5176122f50"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/PAIRED_CONTRASTS.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/PAIRED_CONTRASTS.json",
+      "bytes": 35596,
+      "sha256": "f943e1852612fcd7b28adab40a084f5d7e91d6dd941ba69d1e4d54f0187c22b3"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/PENDING_FORMAL.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/PENDING_FORMAL.json",
+      "bytes": 598467,
+      "sha256": "8206d5ecbc16f3e4f25b2cfc4f93e1cbdba6892d57cd1ea2435f9a71f5687170"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/PLAN_COUNTS.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/PLAN_COUNTS.json",
+      "bytes": 319,
+      "sha256": "025fd948144f1f47b6a93efc399ef2d5b749b3044f3bb74666da3da53d7620b1"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/PROTOCOL_ZH.md",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/PROTOCOL_ZH.md",
+      "bytes": 4866,
+      "sha256": "4612ba1ff8359ce1058196000133eb71f319b4c7172c5ba91027d40187b32735"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/READY.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/READY.json",
+      "bytes": 104,
+      "sha256": "957e3d63a339d9e37315efb0e0a4424bd2e7b04626dfc268642279d4038ac02a"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/RESULTS.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/RESULTS.json",
+      "bytes": 1009564,
+      "sha256": "1b5810fe924d104946687916d74cb8f1355b54a1a9a0e9ef50af5e997a705faa"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/RESULTS_ZH.md",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/RESULTS_ZH.md",
+      "bytes": 9778,
+      "sha256": "94d1f39fba32d47e847422aac9c38fd4bbd3bb6c5f853bc9e3107f4988831132"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/REUSE_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/REUSE_AUDIT.json",
+      "bytes": 370959,
+      "sha256": "a5711c2231b0d8c4c3f64d5e74a444912d690f737af447562d6a732f64fb1656"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/REUSE_TRAIN_ORDER_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/REUSE_TRAIN_ORDER_AUDIT.json",
+      "bytes": 26533,
+      "sha256": "b931420141d454269ea2586ecca525a59725cab5217ca6f1997346f1505d878b"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/SELECTION_FROZEN.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/SELECTION_FROZEN.json",
+      "bytes": 48090,
+      "sha256": "c7f89951eddf0acdbe8c494797f4c68b7944db8283ace0a4557437c60a3c8f36"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/SMOKE_JOBS.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/SMOKE_JOBS.json",
+      "bytes": 55711,
+      "sha256": "be88b27b7524f26dbc2286a551bb13471da2f76721fd1a1d9e1ee8e91bad65f8"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/STAGE_REVIEW_ZH.md",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/STAGE_REVIEW_ZH.md",
+      "bytes": 933,
+      "sha256": "85280907b81535aeb0dc885a036da81de3604e6d67f4a75858fef3fd1788441c"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/STATE.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/STATE.json",
+      "bytes": 46315,
+      "sha256": "2b0ca34a508c31f63f8c96e936fb7c0937eada48201961fb6119137362051f21"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/TARGET_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/TARGET_AUDIT.json",
+      "bytes": 131,
+      "sha256": "c9fb37c6f3f0f811e57c478da257d839fbb9ce28b2bb2795e885d27362b43bd5"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/TUNING_JOBS.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/TUNING_JOBS.json",
+      "bytes": 47447,
+      "sha256": "8b978f9ad6645bbed36e4b8eee6104d66921f86f1c52935b795f4be316a7762b"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/audit_one.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/audit_one.py",
+      "bytes": 5559,
+      "sha256": "156cd0ff904416b78ab4b31d41a6aef1fcc84333aef2bf6204484d24a0cc96e3"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/check_reused_orders.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/check_reused_orders.py",
+      "bytes": 711,
+      "sha256": "75339d2472c75e5858a47d2a25a271aa442869d51f4eb108a832bf89c4b24caf"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/check_targets.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/check_targets.py",
+      "bytes": 877,
+      "sha256": "b448048566f17f354379171c090f9383f2ff19000ae434cc06a3ea14fe912356"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/common.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/common.py",
+      "bytes": 4105,
+      "sha256": "b1216b408de97c72fcf9ebba49e76481fce550976ef9c057a2cf72a43c7f840f"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/modeling.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/modeling.py",
+      "bytes": 7643,
+      "sha256": "55803474412aa6e4d3b68a31abc60031f12e6d5ff2298103e6f2036b7b836321"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/models.json",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/models.json",
+      "bytes": 16185,
+      "sha256": "79c6969a29e98faeb6c7a180768777c3a66d7899ffbba8b171231984e7fa300f"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/plan.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/plan.py",
+      "bytes": 4408,
+      "sha256": "935ffbd6d2b1c72a29ed2edfd850913b8a18f7532d19793c9d02add080c2cb4b"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/prepare.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/prepare.py",
+      "bytes": 243,
+      "sha256": "74e28d1414bb22aad083bbf342463b30e1a430349f0b1eea3a096a0228d389a2"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/report.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/report.py",
+      "bytes": 3199,
+      "sha256": "81285a473a0ac8ea6ad7636e0ad31d11115918af43aab677a5dfa55b85ade5e0"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/run.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/run.py",
+      "bytes": 11178,
+      "sha256": "90abf92513b343d0b95d36639b19c5953080bf0897bbcf8c834127671b557286"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/scheduler.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/scheduler.py",
+      "bytes": 5169,
+      "sha256": "c86db065ef086759fd74357992212a1d022cbdf550d34116df7e5b90e34bf8ee"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/scoring.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/scoring.py",
+      "bytes": 251,
+      "sha256": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/scoring_ner.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/scoring_ner.py",
+      "bytes": 5812,
+      "sha256": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/scoring_sql.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/scoring_sql.py",
+      "bytes": 4237,
+      "sha256": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/shared_boundary.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/shared_boundary.py",
+      "bytes": 1024,
+      "sha256": "f791c08c27a3f64644ac6c236dbcebae1469cd9a0977aa8cefcca304c87d4e5b"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/source/affine_adapter.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/source/affine_adapter.py",
+      "bytes": 10665,
+      "sha256": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/source/budget.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/source/budget.py",
+      "bytes": 4033,
+      "sha256": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/test_boundary.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/test_boundary.py",
+      "bytes": 2710,
+      "sha256": "84da7a2b973fe1f2f331a5eb57764e464115a68b1ec46ec8ef46e61af8fa3a11"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/verify_inputs.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/verify_inputs.py",
+      "bytes": 5095,
+      "sha256": "d9678009301945b6a1d39fd61420238babea79ed9457c88f59f8dfb8b57394ae"
+    },
+    {
+      "path": "boundary_lora_comparison_20260922/vocab_boundary.py",
+      "source": "reviewer_followup/boundary_lora_comparison_20260922/study/vocab_boundary.py",
+      "bytes": 1417,
+      "sha256": "a35a320b4a90e09b8ce7a8c4d7abcf0e3de94a697ef331ec531c2115571f3c0c"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/CODE_FROZEN.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/CODE_FROZEN.json",
+      "bytes": 2973,
+      "sha256": "c3121e220cbcfdc43ca07717b5c77a552a77096998c2491ad36cb6c863c2a143"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/CODE_FROZEN_PRE_RESOURCE_AMENDMENT.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/CODE_FROZEN_PRE_RESOURCE_AMENDMENT.json",
+      "bytes": 2770,
+      "sha256": "601a1e603521ab3bd68252f1a8020fcb7da3c478f1f57fa2a62096ec002dc535"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/CONFIRMATION_TEMPLATES.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/CONFIRMATION_TEMPLATES.json",
+      "bytes": 46963,
+      "sha256": "e998dca0be1834048776d7358a4b727474967b3ddc751e062d64706ad34b9842"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/FINAL_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/FINAL_AUDIT.json",
+      "bytes": 226,
+      "sha256": "272ecb30b24d04a5871fe46f8b32eeb6be1c7c651b8c7f6150f795bf8b58849c"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/FORMAL_JOBS.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/FORMAL_JOBS.json",
+      "bytes": 41813,
+      "sha256": "839521080d331277a9a956df422fd8f45e4cc96c2d0247d377f3270591ebd2ca"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/H_BASELINE_CONTRASTS.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/H_BASELINE_CONTRASTS.json",
+      "bytes": 20908,
+      "sha256": "73ac6d4a38741f5daabfed3f791644e8fdf3ef6f3a138ee2288da2ef470b4446"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/INHERITED_SMOKES.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/INHERITED_SMOKES.json",
+      "bytes": 12818,
+      "sha256": "49e7b3e8ccfab21f6998481b937a133bda1cb6a210c8b9e4a8fab74362ee9201"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/INPUT_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/INPUT_AUDIT.json",
+      "bytes": 24842,
+      "sha256": "0b1a47e0d719babae5e5b3f6dce85b015aa6b1bee6e46f2c7ca8826756419928"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/OUTPUT_MANIFEST.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/OUTPUT_MANIFEST.json",
+      "bytes": 955588,
+      "sha256": "0e4a78e10c3f0ce32aaf50820604a964348838c65ad6514cc834c05a51c7e130"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/PAIRED_CONTRASTS.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/PAIRED_CONTRASTS.json",
+      "bytes": 13223,
+      "sha256": "15836771f5f3e143151b6b8458f9fe778d05358300edb5ce107a19f7ffd26888"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/PENDING_FORMAL.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/PENDING_FORMAL.json",
+      "bytes": 41813,
+      "sha256": "839521080d331277a9a956df422fd8f45e4cc96c2d0247d377f3270591ebd2ca"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/PLAN_COUNTS.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/PLAN_COUNTS.json",
+      "bytes": 175,
+      "sha256": "47891ab5324504c09b7ed6c80701d2afd10eff636e9a17e4d8db8fc7be31eca8"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/PROTOCOL_ZH.md",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/PROTOCOL_ZH.md",
+      "bytes": 2271,
+      "sha256": "253a25622cf1ca6bd0790f8ec0f893d4d06e9a3597c0299ad993501827df5207"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/READY.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/READY.json",
+      "bytes": 120,
+      "sha256": "6cef42ce19e042a60b2892ff042b1e5779ec3e9aea74e74e25f12e2d3678e71b"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/RESOURCE_BENCHMARK.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/RESOURCE_BENCHMARK.json",
+      "bytes": 22797,
+      "sha256": "10db396f281fdb1e9fbc7c2f369e2e52f9fdbe90e73f237f5c5051909d950112"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/RESOURCE_BENCHMARK_STATE.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/RESOURCE_BENCHMARK_STATE.json",
+      "bytes": 91,
+      "sha256": "a7ebf1903dfeec1b1677b9a4cd932d829391ec99f8a2b1561a2e9995db4fb565"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/RESOURCE_SCHEDULING_AMENDMENT.md",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/RESOURCE_SCHEDULING_AMENDMENT.md",
+      "bytes": 529,
+      "sha256": "c37266cb1a62c85cf17101d1959d3591d2078a3ff291abcb37455cf7d5858db8"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/RESULTS.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/RESULTS.json",
+      "bytes": 134946,
+      "sha256": "119ed571996c9c1e97203f3e8f72ab0e199999c596009967d99d72f749a5750b"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/RESULTS_ZH.md",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/RESULTS_ZH.md",
+      "bytes": 2900,
+      "sha256": "327f68cd198be5c988469f933583cccc8ccbed564d0911b98d75f636bac8bf5f"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/REUSE_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/REUSE_AUDIT.json",
+      "bytes": 156,
+      "sha256": "0a233e6660ab41f4d8e5e86ae040bb758712f67a36de653951eca8752c24455c"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/SELECTION_FROZEN.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/SELECTION_FROZEN.json",
+      "bytes": 62132,
+      "sha256": "19aa4b1d9bc7a44aa9ca4b7c1275af4f67015ec7d341fc621e97b7ce488135f3"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/SMOKE_JOBS.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/SMOKE_JOBS.json",
+      "bytes": 1821,
+      "sha256": "1444ce6ba818f7b9a62228bc0ded76d9e33b9873a10027b879f976c05daf75eb"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/SOURCE.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/SOURCE.json",
+      "bytes": 129,
+      "sha256": "d68c51a47dd2cde078db712d6c30a249fc6cb19d37196e8ebaaed40bfe65c7e1"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/SOURCE_AUDIT.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/SOURCE_AUDIT.json",
+      "bytes": 2249618,
+      "sha256": "bc0de203ad69a855f6d7dc55a28824bcf69b3a938bfb93d82b5ab01161ada756"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/STATE.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/STATE.json",
+      "bytes": 26253,
+      "sha256": "6309be38c20fcf8850fb1ecab9010d2d59966b69658b789897a9d7003ec9ae51"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/TUNING_JOBS.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/TUNING_JOBS.json",
+      "bytes": 80099,
+      "sha256": "fa6c03199097deb82beae3bc243a9043f41c9015dbee8479af31c5777f86a218"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/audit_one.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/audit_one.py",
+      "bytes": 5756,
+      "sha256": "d2acb3a03e57cba18ee39045c113048c395210e9be717ae538fe20b69a721cd0"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/audit_source.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/audit_source.py",
+      "bytes": 4257,
+      "sha256": "b91d696642f02d3b4e3ca2a44baf11dbb86c915cde65678af8798056598e2eb8"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/baseline_contrasts.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/baseline_contrasts.py",
+      "bytes": 1666,
+      "sha256": "d3eabbbbc57b64093cd97caab3131f1496baf9cd43c15d1b418edf2469777a51"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/common.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/common.py",
+      "bytes": 4105,
+      "sha256": "b1216b408de97c72fcf9ebba49e76481fce550976ef9c057a2cf72a43c7f840f"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/finalize.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/finalize.py",
+      "bytes": 1510,
+      "sha256": "1eb44dfd8f0fa68b13d610263ff29f659d6930798482a303f209aad12278bbbb"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/launch_after_source.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/launch_after_source.py",
+      "bytes": 1766,
+      "sha256": "437394ad525a920f52a8ff9d3991fc955e66db891cfbbfae81cf15fdf79df1b6"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/make_plan.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/make_plan.py",
+      "bytes": 1982,
+      "sha256": "188b9d0116f05caadcd15b52e2a86a0cb839f4125217ca6aa150040545520197"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/modeling.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/modeling.py",
+      "bytes": 7643,
+      "sha256": "55803474412aa6e4d3b68a31abc60031f12e6d5ff2298103e6f2036b7b836321"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/models.json",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/models.json",
+      "bytes": 16185,
+      "sha256": "79c6969a29e98faeb6c7a180768777c3a66d7899ffbba8b171231984e7fa300f"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/plan.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/plan.py",
+      "bytes": 4408,
+      "sha256": "935ffbd6d2b1c72a29ed2edfd850913b8a18f7532d19793c9d02add080c2cb4b"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/prepare.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/prepare.py",
+      "bytes": 243,
+      "sha256": "74e28d1414bb22aad083bbf342463b30e1a430349f0b1eea3a096a0228d389a2"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/prepare_inputs.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/prepare_inputs.py",
+      "bytes": 710,
+      "sha256": "63a3095e66c56537875e71e71291460f33a941863729901c55727f0543402e8c"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/profile_resources.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/profile_resources.py",
+      "bytes": 4663,
+      "sha256": "699e3ba291d23dfbf267e238ade724c58dc52e69aeed1e05687e6ac1df7cdf13"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/report.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/report.py",
+      "bytes": 3326,
+      "sha256": "b62f352a453c200f1f68ee29120d71ebd243ec5fe04648ce9c54f4a9da7326dd"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/resource_watcher.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/resource_watcher.py",
+      "bytes": 1282,
+      "sha256": "708f1dbe0a7b26015d40bbe2f7e54d977188d66cf12dd7c695b3a550456d1744"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/review_source.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/review_source.py",
+      "bytes": 3037,
+      "sha256": "191908c333e9bc09392b79ae368c77e6a9beee7c7487a1fb9f05e2d39a94adef"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/run.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/run.py",
+      "bytes": 11657,
+      "sha256": "8e120f9361ee3dfe320c951689921293f1a7c29132d6857c4c4bcab5f2797a97"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/scheduler.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/scheduler.py",
+      "bytes": 5306,
+      "sha256": "143210b5d2ac106d4c4a0829271fb3b8d0862de07677e850b0cf9e07435e5a00"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/scoring.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/scoring.py",
+      "bytes": 251,
+      "sha256": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/scoring_ner.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/scoring_ner.py",
+      "bytes": 5812,
+      "sha256": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/scoring_sql.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/scoring_sql.py",
+      "bytes": 4237,
+      "sha256": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/shared_boundary.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/shared_boundary.py",
+      "bytes": 1024,
+      "sha256": "f791c08c27a3f64644ac6c236dbcebae1469cd9a0977aa8cefcca304c87d4e5b"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/source/affine_adapter.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/source/affine_adapter.py",
+      "bytes": 10665,
+      "sha256": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/source/budget.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/source/budget.py",
+      "bytes": 4033,
+      "sha256": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80"
+    },
+    {
+      "path": "boundary_lora_closure_20260922/vocab_boundary.py",
+      "source": "reviewer_followup/boundary_lora_closure_20260922/study/vocab_boundary.py",
+      "bytes": 1417,
+      "sha256": "a35a320b4a90e09b8ce7a8c4d7abcf0e3de94a697ef331ec531c2115571f3c0c"
+    },
+    {
+      "path": "tied_model_expansion_20260923/ALL_CONFIRMATION_TEMPLATES.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/ALL_CONFIRMATION_TEMPLATES.json",
+      "bytes": 76033,
+      "sha256": "5cfa31653d5d06517b957bfe5e5e54850a0585e8ae3acb2925c060b319615181"
+    },
+    {
+      "path": "tied_model_expansion_20260923/ALL_TUNING_JOBS.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/ALL_TUNING_JOBS.json",
+      "bytes": 129587,
+      "sha256": "9d2ae1f5b7ad7f5c08ac127abd93ee7a73c0c07ec7b0a8e2d7dac8331fff9d7b"
+    },
+    {
+      "path": "tied_model_expansion_20260923/CODE_FROZEN.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/CODE_FROZEN.json",
+      "bytes": 2685,
+      "sha256": "1e40f55f96a317ae83c71a84beae2a0e664760a5146394bcc8596fa363cc6284"
+    },
+    {
+      "path": "tied_model_expansion_20260923/CONFIRMATION_TEMPLATES.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/CONFIRMATION_TEMPLATES.json",
+      "bytes": 57033,
+      "sha256": "7ac5c622e6781d0e09e287ee016d08b753fb823708e9e5e09bf225a03ce578d4"
+    },
+    {
+      "path": "tied_model_expansion_20260923/FORMAL_JOBS.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/FORMAL_JOBS.json",
+      "bytes": 263927,
+      "sha256": "04a937943696a7592373f84993b5adf6167b123610fba81042cc6093a6575c1f"
+    },
+    {
+      "path": "tied_model_expansion_20260923/INHERITED_SMOKES.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/INHERITED_SMOKES.json",
+      "bytes": 4824,
+      "sha256": "35a6c80c2405c432b4410cee537db75f685c5c751c86dcf9ed1a29953e8d6269"
+    },
+    {
+      "path": "tied_model_expansion_20260923/INPUT_AUDIT.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/INPUT_AUDIT.json",
+      "bytes": 27185,
+      "sha256": "5bf822bb1f2c519badaeeb81cc5d4f94b9c2d6d54e0d182b604e5efdd51ee842"
+    },
+    {
+      "path": "tied_model_expansion_20260923/PENDING_FORMAL.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/PENDING_FORMAL.json",
+      "bytes": 174219,
+      "sha256": "5be9cfa82ceb42013505fc0868dc64dd4975248d176152d83ed85327b83d4bc7"
+    },
+    {
+      "path": "tied_model_expansion_20260923/PLAN_COUNTS.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/PLAN_COUNTS.json",
+      "bytes": 222,
+      "sha256": "6f37506ed53015edb768dfe189355eb68deb3041e55ec6ddc0b5fa0dc9ea02b9"
+    },
+    {
+      "path": "tied_model_expansion_20260923/PROTOCOL_ZH.md",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/PROTOCOL_ZH.md",
+      "bytes": 3161,
+      "sha256": "d0c15b2f56e392a5c265ff0ad40ffd893c8adefe5a057ea629175e75532b8434"
+    },
+    {
+      "path": "tied_model_expansion_20260923/READY.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/READY.json",
+      "bytes": 79,
+      "sha256": "c07e5bfdf06cccd3d14203bf6211b021e0bf5ddb90f381c1a9375848ce9e243e"
+    },
+    {
+      "path": "tied_model_expansion_20260923/REUSE_AUDIT.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/REUSE_AUDIT.json",
+      "bytes": 691643,
+      "sha256": "af7c1751384f66003fffa4e4f1a970237b81baa1739832e075e25432b6649f57"
+    },
+    {
+      "path": "tied_model_expansion_20260923/SMOKE_JOBS.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/SMOKE_JOBS.json",
+      "bytes": 32375,
+      "sha256": "94b3708aea7999d2f265739b5c2d3c651ac977026a59ac97df263427bbba0226"
+    },
+    {
+      "path": "tied_model_expansion_20260923/SOURCE.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/SOURCE.json",
+      "bytes": 260,
+      "sha256": "bb605694b672d6c5668f8976df0a02f9711eb270f8544ed0587138c7544f5b7e"
+    },
+    {
+      "path": "tied_model_expansion_20260923/STATE.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/STATE.json",
+      "bytes": 45393,
+      "sha256": "1b60e6c0bef92a7fb493f6644c3d10c939f041ad30b1fea97b3c43ba272d260c"
+    },
+    {
+      "path": "tied_model_expansion_20260923/STORAGE.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/STORAGE.json",
+      "bytes": 350,
+      "sha256": "81713d263d86961213e9a20a77481145e8e6523a0345a99e56d08bb050ba3aa2"
+    },
+    {
+      "path": "tied_model_expansion_20260923/TUNING_JOBS.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/TUNING_JOBS.json",
+      "bytes": 97203,
+      "sha256": "d826f56181c3bc1e06318f1322b199a818957ce63a3747ddfd8db045eb110238"
+    },
+    {
+      "path": "tied_model_expansion_20260923/audit_one.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/audit_one.py",
+      "bytes": 5756,
+      "sha256": "d2acb3a03e57cba18ee39045c113048c395210e9be717ae538fe20b69a721cd0"
+    },
+    {
+      "path": "tied_model_expansion_20260923/common.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/common.py",
+      "bytes": 4105,
+      "sha256": "b1216b408de97c72fcf9ebba49e76481fce550976ef9c057a2cf72a43c7f840f"
+    },
+    {
+      "path": "tied_model_expansion_20260923/finalize.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/finalize.py",
+      "bytes": 1510,
+      "sha256": "1eb44dfd8f0fa68b13d610263ff29f659d6930798482a303f209aad12278bbbb"
+    },
+    {
+      "path": "tied_model_expansion_20260923/make_plan.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/make_plan.py",
+      "bytes": 1238,
+      "sha256": "3922c9157f19337deac4fe1e0b04876bfdee0bdc1792264ecabcd494158529ee"
+    },
+    {
+      "path": "tied_model_expansion_20260923/modeling.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/modeling.py",
+      "bytes": 7643,
+      "sha256": "55803474412aa6e4d3b68a31abc60031f12e6d5ff2298103e6f2036b7b836321"
+    },
+    {
+      "path": "tied_model_expansion_20260923/models.json",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/models.json",
+      "bytes": 18381,
+      "sha256": "ef8cc8f11b14ceee99b6431dfc33e2b45617a97e9d5e05c6d600a10095e0a553"
+    },
+    {
+      "path": "tied_model_expansion_20260923/plan.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/plan.py",
+      "bytes": 4408,
+      "sha256": "935ffbd6d2b1c72a29ed2edfd850913b8a18f7532d19793c9d02add080c2cb4b"
+    },
+    {
+      "path": "tied_model_expansion_20260923/prepare.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/prepare.py",
+      "bytes": 243,
+      "sha256": "74e28d1414bb22aad083bbf342463b30e1a430349f0b1eea3a096a0228d389a2"
+    },
+    {
+      "path": "tied_model_expansion_20260923/prepare_expansion.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/prepare_expansion.py",
+      "bytes": 9348,
+      "sha256": "2f74a5d88fa09dadf5e542a990c68255d0e7eb044730b8bfc853df3db7c35175"
+    },
+    {
+      "path": "tied_model_expansion_20260923/report.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/report.py",
+      "bytes": 3229,
+      "sha256": "1b8de443007618bb4bb0dcf398b868bb82bc612193e3d954cfda9dc06db02882"
+    },
+    {
+      "path": "tied_model_expansion_20260923/run.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/run.py",
+      "bytes": 11657,
+      "sha256": "8e120f9361ee3dfe320c951689921293f1a7c29132d6857c4c4bcab5f2797a97"
+    },
+    {
+      "path": "tied_model_expansion_20260923/scheduler.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/scheduler.py",
+      "bytes": 5329,
+      "sha256": "bc68d9daa6e57ad7455bdcfa998e1b29adeacc138ee8d8754da6f83bc31a7874"
+    },
+    {
+      "path": "tied_model_expansion_20260923/scoring.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/scoring.py",
+      "bytes": 251,
+      "sha256": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2"
+    },
+    {
+      "path": "tied_model_expansion_20260923/scoring_ner.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/scoring_ner.py",
+      "bytes": 5812,
+      "sha256": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab"
+    },
+    {
+      "path": "tied_model_expansion_20260923/scoring_sql.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/scoring_sql.py",
+      "bytes": 4237,
+      "sha256": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb"
+    },
+    {
+      "path": "tied_model_expansion_20260923/shared_boundary.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/shared_boundary.py",
+      "bytes": 1024,
+      "sha256": "f791c08c27a3f64644ac6c236dbcebae1469cd9a0977aa8cefcca304c87d4e5b"
+    },
+    {
+      "path": "tied_model_expansion_20260923/source/affine_adapter.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/source/affine_adapter.py",
+      "bytes": 10665,
+      "sha256": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805"
+    },
+    {
+      "path": "tied_model_expansion_20260923/source/budget.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/source/budget.py",
+      "bytes": 4033,
+      "sha256": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80"
+    },
+    {
+      "path": "tied_model_expansion_20260923/vocab_boundary.py",
+      "source": "reviewer_followup/tied_model_expansion_20260923/study/vocab_boundary.py",
+      "bytes": 1417,
+      "sha256": "a35a320b4a90e09b8ce7a8c4d7abcf0e3de94a697ef331ec531c2115571f3c0c"
+    }
+  ]
+}

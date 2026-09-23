@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-22T00:39:53+08:00",
+  "files": {
+    "shared_boundary.py": "f791c08c27a3f64644ac6c236dbcebae1469cd9a0977aa8cefcca304c87d4e5b",
+    "scoring_ner.py": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab",
+    "common.py": "b1216b408de97c72fcf9ebba49e76481fce550976ef9c057a2cf72a43c7f840f",
+    "plan.py": "935ffbd6d2b1c72a29ed2edfd850913b8a18f7532d19793c9d02add080c2cb4b",
+    "scheduler.py": "c86db065ef086759fd74357992212a1d022cbdf550d34116df7e5b90e34bf8ee",
+    "vocab_boundary.py": "a35a320b4a90e09b8ce7a8c4d7abcf0e3de94a697ef331ec531c2115571f3c0c",
+    "scoring_sql.py": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb",
+    "verify_inputs.py": "d9678009301945b6a1d39fd61420238babea79ed9457c88f59f8dfb8b57394ae",
+    "scoring.py": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2",
+    "test_boundary.py": "84da7a2b973fe1f2f331a5eb57764e464115a68b1ec46ec8ef46e61af8fa3a11",
+    "run.py": "90abf92513b343d0b95d36639b19c5953080bf0897bbcf8c834127671b557286",
+    "check_targets.py": "b448048566f17f354379171c090f9383f2ff19000ae434cc06a3ea14fe912356",
+    "audit_one.py": "156cd0ff904416b78ab4b31d41a6aef1fcc84333aef2bf6204484d24a0cc96e3",
+    "report.py": "81285a473a0ac8ea6ad7636e0ad31d11115918af43aab677a5dfa55b85ade5e0",
+    "modeling.py": "55803474412aa6e4d3b68a31abc60031f12e6d5ff2298103e6f2036b7b836321",
+    "prepare.py": "74e28d1414bb22aad083bbf342463b30e1a430349f0b1eea3a096a0228d389a2",
+    "source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "PROTOCOL_ZH.md": "4612ba1ff8359ce1058196000133eb71f319b4c7172c5ba91027d40187b32735",
+    "FORMAL_JOBS.json": "26347f915fef1675ed3917eb1d190448e4b530dd21e94f8fff2616321492dd25",
+    "TUNING_JOBS.json": "8b978f9ad6645bbed36e4b8eee6104d66921f86f1c52935b795f4be316a7762b",
+    "CONFIRMATION_TEMPLATES.json": "126bc69f66228a5dde8fe48558ac5836af71a02dd530847e57c82fded67e2749",
+    "SMOKE_JOBS.json": "be88b27b7524f26dbc2286a551bb13471da2f76721fd1a1d9e1ee8e91bad65f8",
+    "models.json": "79c6969a29e98faeb6c7a180768777c3a66d7899ffbba8b171231984e7fa300f"
+  }
+}

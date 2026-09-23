@@ -1,0 +1,11 @@
+{
+  "models": 8,
+  "new_formal": 380,
+  "dev_only_tuning": 192,
+  "fresh_confirmation": 120,
+  "smokes": 70,
+  "training_total": 762,
+  "reused_results": 236,
+  "reused_tuning": 64,
+  "checkpoint_GiB": 55.27045440673828
+}

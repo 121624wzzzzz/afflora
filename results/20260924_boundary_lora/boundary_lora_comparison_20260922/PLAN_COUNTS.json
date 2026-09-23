@@ -1,0 +1,15 @@
+{
+  "formal_before_reuse": 546,
+  "tuning": 96,
+  "confirmation": 80,
+  "smokes": 122,
+  "checkpoint_upper_bound_GiB": 109.12738609313965,
+  "by_model": {
+    "qwen25_7b_base": 112,
+    "qwen3_8b_base": 112,
+    "llama31_8b_base": 100,
+    "qwen3_4b_base": 62,
+    "qwen25_15b_base": 62,
+    "qwen3_06b_base": 98
+  }
+}

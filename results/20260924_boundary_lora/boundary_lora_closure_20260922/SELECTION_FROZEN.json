@@ -1,0 +1,2394 @@
+{
+  "at": "2026-09-23T02:39:54+08:00",
+  "criterion": "mean dev primary over two fixed seeds; ties favor ratio closest to 1",
+  "candidates": [
+    0.0625,
+    0.25,
+    1.0,
+    4.0
+  ],
+  "selection": [
+    {
+      "architecture": [
+        "qwen3_06b_base",
+        "cluener",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 0.25,
+      "dev_scores": {
+        "0.0625": [
+          61.17908787541713,
+          65.01079913606911
+        ],
+        "0.25": [
+          63.77777777777778,
+          63.045793397231094
+        ],
+        "1.0": [
+          60.88840736728061,
+          61.7678381256656
+        ],
+        "4.0": [
+          58.87353878852285,
+          60.36131774707758
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_06b_base",
+        "cluener",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          64.76399560922064,
+          64.08602150537635
+        ],
+        "0.25": [
+          65.27012127894156,
+          64.30868167202573
+        ],
+        "1.0": [
+          65.50598476605005,
+          64.88222698072805
+        ],
+        "4.0": [
+          64.92693110647181,
+          61.965811965811966
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_06b_base",
+        "wikisql",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 0.0625,
+      "dev_scores": {
+        "0.0625": [
+          75.390625,
+          72.265625
+        ],
+        "0.25": [
+          73.4375,
+          73.4375
+        ],
+        "1.0": [
+          72.65625,
+          71.484375
+        ],
+        "4.0": [
+          67.578125,
+          65.625
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_06b_base",
+        "wikisql",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 4.0,
+      "dev_scores": {
+        "0.0625": [
+          75.390625,
+          71.09375
+        ],
+        "0.25": [
+          74.609375,
+          73.046875
+        ],
+        "1.0": [
+          75.78125,
+          71.875
+        ],
+        "4.0": [
+          74.21875,
+          74.21875
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_15b_base",
+        "cluener",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 0.25,
+      "dev_scores": {
+        "0.0625": [
+          66.16052060737528,
+          65.61514195583597
+        ],
+        "0.25": [
+          65.50598476605005,
+          66.52452025586354
+        ],
+        "1.0": [
+          65.09129967776585,
+          63.924050632911396
+        ],
+        "4.0": [
+          60.61899679829242,
+          58.526315789473685
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_15b_base",
+        "cluener",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 4.0,
+      "dev_scores": {
+        "0.0625": [
+          66.08884073672806,
+          64.76793248945148
+        ],
+        "0.25": [
+          66.8108108108108,
+          64.2781875658588
+        ],
+        "1.0": [
+          65.29729729729729,
+          65.40084388185655
+        ],
+        "4.0": [
+          68.18675352877307,
+          65.60509554140127
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_15b_base",
+        "wikisql",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 0.25,
+      "dev_scores": {
+        "0.0625": [
+          74.21875,
+          73.828125
+        ],
+        "0.25": [
+          75.0,
+          73.046875
+        ],
+        "1.0": [
+          72.65625,
+          73.828125
+        ],
+        "4.0": [
+          70.3125,
+          71.875
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_15b_base",
+        "wikisql",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 4.0,
+      "dev_scores": {
+        "0.0625": [
+          73.828125,
+          73.828125
+        ],
+        "0.25": [
+          73.046875,
+          74.21875
+        ],
+        "1.0": [
+          72.65625,
+          76.171875
+        ],
+        "4.0": [
+          75.390625,
+          77.34375
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_7b_base",
+        "cluener",
+        "vocab",
+        "u",
+        1,
+        false
+      ],
+      "ratio": 4.0,
+      "dev_scores": {
+        "0.0625": [
+          72.61410788381743,
+          70.29804727646454
+        ],
+        "0.25": [
+          72.67080745341615,
+          70.02053388090349
+        ],
+        "1.0": [
+          71.7683557394002,
+          70.2368692070031
+        ],
+        "4.0": [
+          72.67080745341615,
+          70.38183694530444
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_7b_base",
+        "cluener",
+        "affine",
+        "u",
+        16,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          72.14137214137214,
+          70.14314928425358
+        ],
+        "0.25": [
+          72.63267429760666,
+          70.54026503567788
+        ],
+        "1.0": [
+          72.19917012448133,
+          72.1311475409836
+        ],
+        "4.0": [
+          71.42857142857143,
+          70.97435897435898
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_7b_base",
+        "wikisql",
+        "vocab",
+        "u",
+        1,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          83.59375,
+          84.765625
+        ],
+        "0.25": [
+          83.984375,
+          85.15625
+        ],
+        "1.0": [
+          84.375,
+          84.765625
+        ],
+        "4.0": [
+          84.375,
+          83.984375
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen25_7b_base",
+        "wikisql",
+        "affine",
+        "u",
+        16,
+        false
+      ],
+      "ratio": 0.0625,
+      "dev_scores": {
+        "0.0625": [
+          85.546875,
+          85.9375
+        ],
+        "0.25": [
+          85.546875,
+          85.546875
+        ],
+        "1.0": [
+          84.765625,
+          85.546875
+        ],
+        "4.0": [
+          83.59375,
+          85.15625
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_8b_base",
+        "cluener",
+        "vocab",
+        "u",
+        1,
+        false
+      ],
+      "ratio": 4.0,
+      "dev_scores": {
+        "0.0625": [
+          70.95435684647303,
+          70.75962539021852
+        ],
+        "0.25": [
+          70.83333333333333,
+          70.96774193548387
+        ],
+        "1.0": [
+          71.1018711018711,
+          71.04166666666667
+        ],
+        "4.0": [
+          71.07438016528926,
+          71.84265010351967
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_8b_base",
+        "cluener",
+        "affine",
+        "u",
+        16,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          72.76507276507276,
+          70.98765432098766
+        ],
+        "0.25": [
+          72.57731958762886,
+          69.76264189886481
+        ],
+        "1.0": [
+          72.82157676348548,
+          72.74611398963731
+        ],
+        "4.0": [
+          72.30443974630022,
+          72.85861713106296
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_8b_base",
+        "wikisql",
+        "vocab",
+        "u",
+        1,
+        false
+      ],
+      "ratio": 0.0625,
+      "dev_scores": {
+        "0.0625": [
+          83.984375,
+          86.71875
+        ],
+        "0.25": [
+          83.59375,
+          85.9375
+        ],
+        "1.0": [
+          83.59375,
+          85.546875
+        ],
+        "4.0": [
+          84.375,
+          86.328125
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_8b_base",
+        "wikisql",
+        "affine",
+        "u",
+        16,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          83.984375,
+          87.109375
+        ],
+        "0.25": [
+          85.9375,
+          85.15625
+        ],
+        "1.0": [
+          84.765625,
+          87.5
+        ],
+        "4.0": [
+          83.59375,
+          83.984375
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "llama31_8b_base",
+        "cluener",
+        "vocab",
+        "u",
+        1,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          73.93561786085151,
+          70.97457627118644
+        ],
+        "0.25": [
+          74.3801652892562,
+          71.11111111111111
+        ],
+        "1.0": [
+          74.25025853154085,
+          71.77334732423924
+        ],
+        "4.0": [
+          73.19587628865979,
+          72.6890756302521
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "llama31_8b_base",
+        "cluener",
+        "affine",
+        "u",
+        16,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          74.17355371900827,
+          71.23287671232876
+        ],
+        "0.25": [
+          74.45708376421923,
+          70.96092925026399
+        ],
+        "1.0": [
+          73.94957983193277,
+          71.53284671532846
+        ],
+        "4.0": [
+          72.65047518479409,
+          71.57894736842105
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "llama31_8b_base",
+        "wikisql",
+        "vocab",
+        "u",
+        1,
+        false
+      ],
+      "ratio": 0.0625,
+      "dev_scores": {
+        "0.0625": [
+          82.8125,
+          81.25
+        ],
+        "0.25": [
+          82.421875,
+          79.296875
+        ],
+        "1.0": [
+          82.03125,
+          81.25
+        ],
+        "4.0": [
+          80.859375,
+          81.25
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "llama31_8b_base",
+        "wikisql",
+        "affine",
+        "u",
+        16,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.0625": [
+          82.03125,
+          82.8125
+        ],
+        "0.25": [
+          82.421875,
+          81.640625
+        ],
+        "1.0": [
+          83.984375,
+          84.375
+        ],
+        "4.0": [
+          83.203125,
+          81.25
+        ]
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s206100_selected0.25",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s206101_selected0.25",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s206102_selected0.25",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s206103_selected0.25",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s206104_selected0.25",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_affine_shared_r16_b1_lr1_s206100_selected1",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_affine_shared_r16_b1_lr1_s206101_selected1",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_affine_shared_r16_b1_lr1_s206102_selected1",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_affine_shared_r16_b1_lr1_s206103_selected1",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_06b_base_affine_shared_r16_b1_lr1_s206104_selected1",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_vocab_shared_r1_b0_lr1_s207100_selected0.0625",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_vocab_shared_r1_b0_lr1_s207101_selected0.0625",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_vocab_shared_r1_b0_lr1_s207102_selected0.0625",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_vocab_shared_r1_b0_lr1_s207103_selected0.0625",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_vocab_shared_r1_b0_lr1_s207104_selected0.0625",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_affine_shared_r16_b1_lr1_s207100_selected4",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_affine_shared_r16_b1_lr1_s207101_selected4",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_affine_shared_r16_b1_lr1_s207102_selected4",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_affine_shared_r16_b1_lr1_s207103_selected4",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_06b_base_affine_shared_r16_b1_lr1_s207104_selected4",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s206100_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s206101_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s206102_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s206103_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s206104_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_affine_shared_r16_b1_lr1_s206100_selected4",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_affine_shared_r16_b1_lr1_s206101_selected4",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_affine_shared_r16_b1_lr1_s206102_selected4",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_affine_shared_r16_b1_lr1_s206103_selected4",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen25_15b_base_affine_shared_r16_b1_lr1_s206104_selected4",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_vocab_shared_r1_b0_lr1_s207100_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_vocab_shared_r1_b0_lr1_s207101_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_vocab_shared_r1_b0_lr1_s207102_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_vocab_shared_r1_b0_lr1_s207103_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_vocab_shared_r1_b0_lr1_s207104_selected0.25",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 9385856,
+      "expected_boundary_parameters": 153472,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_affine_shared_r16_b1_lr1_s207100_selected4",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_affine_shared_r16_b1_lr1_s207101_selected4",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_affine_shared_r16_b1_lr1_s207102_selected4",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_affine_shared_r16_b1_lr1_s207103_selected4",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_15b_base_affine_shared_r16_b1_lr1_s207104_selected4",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 9283072,
+      "expected_boundary_parameters": 50688,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_vocab_u_r1_b0_lr1_s206100_selected4",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_vocab_u_r1_b0_lr1_s206101_selected4",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_vocab_u_r1_b0_lr1_s206102_selected4",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_vocab_u_r1_b0_lr1_s206103_selected4",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_vocab_u_r1_b0_lr1_s206104_selected4",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_affine_u_r16_b0_lr1_s206100_selected1",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_affine_u_r16_b0_lr1_s206101_selected1",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_affine_u_r16_b0_lr1_s206102_selected1",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_affine_u_r16_b0_lr1_s206103_selected1",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen25_7b_base_affine_u_r16_b0_lr1_s206104_selected1",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_vocab_u_r1_b0_lr1_s207100_selected1",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_vocab_u_r1_b0_lr1_s207101_selected1",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_vocab_u_r1_b0_lr1_s207102_selected1",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_vocab_u_r1_b0_lr1_s207103_selected1",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_vocab_u_r1_b0_lr1_s207104_selected1",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 20340736,
+      "expected_boundary_parameters": 155648,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_affine_u_r16_b0_lr1_s207100_selected0.0625",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_affine_u_r16_b0_lr1_s207101_selected0.0625",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_affine_u_r16_b0_lr1_s207102_selected0.0625",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_affine_u_r16_b0_lr1_s207103_selected0.0625",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen25_7b_base_affine_u_r16_b0_lr1_s207104_selected0.0625",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 20299776,
+      "expected_boundary_parameters": 114688,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_vocab_u_r1_b0_lr1_s206100_selected4",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_vocab_u_r1_b0_lr1_s206101_selected4",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_vocab_u_r1_b0_lr1_s206102_selected4",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_vocab_u_r1_b0_lr1_s206103_selected4",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_vocab_u_r1_b0_lr1_s206104_selected4",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_affine_u_r16_b0_lr1_s206100_selected1",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_affine_u_r16_b0_lr1_s206101_selected1",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_affine_u_r16_b0_lr1_s206102_selected1",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_affine_u_r16_b0_lr1_s206103_selected1",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_8b_base_affine_u_r16_b0_lr1_s206104_selected1",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_vocab_u_r1_b0_lr1_s207100_selected0.0625",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_vocab_u_r1_b0_lr1_s207101_selected0.0625",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_vocab_u_r1_b0_lr1_s207102_selected0.0625",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_vocab_u_r1_b0_lr1_s207103_selected0.0625",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_vocab_u_r1_b0_lr1_s207104_selected0.0625",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21979520,
+      "expected_boundary_parameters": 156032,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_affine_u_r16_b0_lr1_s207100_selected1",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_affine_u_r16_b0_lr1_s207101_selected1",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_affine_u_r16_b0_lr1_s207102_selected1",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_affine_u_r16_b0_lr1_s207103_selected1",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_8b_base_affine_u_r16_b0_lr1_s207104_selected1",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21954560,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_vocab_u_r1_b0_lr1_s206100_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_vocab_u_r1_b0_lr1_s206101_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_vocab_u_r1_b0_lr1_s206102_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_vocab_u_r1_b0_lr1_s206103_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_vocab_u_r1_b0_lr1_s206104_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_affine_u_r16_b0_lr1_s206100_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_affine_u_r16_b0_lr1_s206101_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_affine_u_r16_b0_lr1_s206102_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_affine_u_r16_b0_lr1_s206103_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_llama31_8b_base_affine_u_r16_b0_lr1_s206104_selected1",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 206104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_vocab_u_r1_b0_lr1_s207100_selected0.0625",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_vocab_u_r1_b0_lr1_s207101_selected0.0625",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_vocab_u_r1_b0_lr1_s207102_selected0.0625",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_vocab_u_r1_b0_lr1_s207103_selected0.0625",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_vocab_u_r1_b0_lr1_s207104_selected0.0625",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 21103872,
+      "expected_boundary_parameters": 132352,
+      "method": "vocab",
+      "placement": "u",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_affine_u_r16_b0_lr1_s207100_selected1",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_affine_u_r16_b0_lr1_s207101_selected1",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_affine_u_r16_b0_lr1_s207102_selected1",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_affine_u_r16_b0_lr1_s207103_selected1",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_llama31_8b_base_affine_u_r16_b0_lr1_s207104_selected1",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 207104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 21102592,
+      "expected_boundary_parameters": 131072,
+      "method": "affine",
+      "placement": "u",
+      "rank": 16,
+      "bias": false
+    }
+  ]
+}

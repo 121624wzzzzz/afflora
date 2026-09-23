@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-09-24T00:41:55+08:00",
+  "status": "passed",
+  "frozen_checks": [
+    {
+      "study": "boundary_lora_comparison_20260922",
+      "frozen_files_verified": 24
+    },
+    {
+      "study": "boundary_lora_closure_20260922",
+      "frozen_files_verified": 32
+    },
+    {
+      "study": "tied_model_expansion_20260923",
+      "frozen_files_verified": 29
+    }
+  ],
+  "closure_output_manifest_verified": true,
+  "confirmation_table_recomputed": true,
+  "json_parsed": true,
+  "python_ast_parsed": true,
+  "note": "Archive consistency checks; no training or prediction evaluation rerun."
+}

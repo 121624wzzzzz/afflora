@@ -1,0 +1,8 @@
+{
+  "h_baselines": 90,
+  "dev_only_tuning": 160,
+  "fresh_confirmation": 100,
+  "instrumentation_smokes": 4,
+  "training_total": 354,
+  "checkpoint_GiB": 42.111618995666504
+}

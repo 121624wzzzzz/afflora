@@ -1,0 +1,673 @@
+{
+  "at": "2026-09-23T07:09:12+08:00",
+  "status": "passed",
+  "records": [
+    {
+      "model": "qwen3_06b_base",
+      "method": "none",
+      "repeat": 0,
+      "trainable_parameters": 5046272,
+      "boundary_parameters": 0,
+      "adapter_file_bytes": 20232912,
+      "training_step_seconds": [
+        0.19458000361919403,
+        0.19771797955036163,
+        0.2028045617043972,
+        0.1990927755832672,
+        0.19705308973789215,
+        0.20129787176847458,
+        0.1967528648674488,
+        0.19708682969212532,
+        0.19588567689061165,
+        0.19493655860424042
+      ],
+      "peak_allocated_bytes": 2176104960,
+      "peak_reserved_bytes": 2229272576,
+      "generation_32_tokens_unmerged_seconds": [
+        1.122111402451992,
+        1.1219005845487118,
+        1.1124264001846313
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1271321885287762,
+        1.1138820685446262,
+        1.1117960289120674
+      ],
+      "merge_logits_max_abs_error": 0.0,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_grounded_20260916/checkpoints/pilot_cluener_qwen3_06b_base_hidden"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "affine",
+      "repeat": 0,
+      "trainable_parameters": 5080064,
+      "boundary_parameters": 33792,
+      "adapter_file_bytes": 20368360,
+      "training_step_seconds": [
+        0.19637053087353706,
+        0.1979021206498146,
+        0.2010602280497551,
+        0.19885506853461266,
+        0.196602001786232,
+        0.19717100635170937,
+        0.19588268175721169,
+        0.19647986441850662,
+        0.19536257535219193,
+        0.19523045420646667
+      ],
+      "peak_allocated_bytes": 2180356096,
+      "peak_reserved_bytes": 2235564032,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1387463472783566,
+        1.146096084266901,
+        1.136121477931738
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1379048712551594,
+        1.1329705975949764,
+        1.188109166920185
+      ],
+      "merge_logits_max_abs_error": 4.7206878662109375e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/checkpoints/cluener_qwen3_06b_base_hidden_shared16_s6100"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "vocab",
+      "repeat": 0,
+      "trainable_parameters": 5199232,
+      "boundary_parameters": 152960,
+      "adapter_file_bytes": 20844976,
+      "training_step_seconds": [
+        0.2031244821846485,
+        0.20542243123054504,
+        0.19993701204657555,
+        0.19902509450912476,
+        0.19596216455101967,
+        0.19530772417783737,
+        0.1962287724018097,
+        0.20002440735697746,
+        0.19434870406985283,
+        0.19572748616337776
+      ],
+      "peak_allocated_bytes": 2179533824,
+      "peak_reserved_bytes": 2248146944,
+      "generation_32_tokens_unmerged_seconds": [
+        1.203925859183073,
+        1.200091153383255,
+        1.1541395485401154
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1303647570312023,
+        1.123249340802431,
+        1.137743815779686
+      ],
+      "merge_logits_max_abs_error": 1.1444091796875e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/boundary_lora_comparison_20260922/study/checkpoints/common_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s6100"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "affine",
+      "repeat": 1,
+      "trainable_parameters": 5080064,
+      "boundary_parameters": 33792,
+      "adapter_file_bytes": 20368360,
+      "training_step_seconds": [
+        0.19720588251948357,
+        0.1953590176999569,
+        0.1946369782090187,
+        0.19506411626935005,
+        0.19549556449055672,
+        0.19512969255447388,
+        0.1954340599477291,
+        0.19502877071499825,
+        0.19604656472802162,
+        0.19931422919034958
+      ],
+      "peak_allocated_bytes": 2180356096,
+      "peak_reserved_bytes": 2235564032,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1388037018477917,
+        1.1477097272872925,
+        1.1294121742248535
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1331107132136822,
+        1.1252699196338654,
+        1.1243448182940483
+      ],
+      "merge_logits_max_abs_error": 4.7206878662109375e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/checkpoints/cluener_qwen3_06b_base_hidden_shared16_s6100"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "vocab",
+      "repeat": 1,
+      "trainable_parameters": 5199232,
+      "boundary_parameters": 152960,
+      "adapter_file_bytes": 20844976,
+      "training_step_seconds": [
+        0.19457247108221054,
+        0.204606331884861,
+        0.19701003283262253,
+        0.19849614053964615,
+        0.19813143089413643,
+        0.19784192740917206,
+        0.19600574672222137,
+        0.19552190974354744,
+        0.19673668965697289,
+        0.201245978474617
+      ],
+      "peak_allocated_bytes": 2179533824,
+      "peak_reserved_bytes": 2248146944,
+      "generation_32_tokens_unmerged_seconds": [
+        1.158808521926403,
+        1.129059512168169,
+        1.136196244508028
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1212271079421043,
+        1.132665727287531,
+        1.1806179657578468
+      ],
+      "merge_logits_max_abs_error": 1.1444091796875e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/boundary_lora_comparison_20260922/study/checkpoints/common_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s6100"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "none",
+      "repeat": 1,
+      "trainable_parameters": 5046272,
+      "boundary_parameters": 0,
+      "adapter_file_bytes": 20232912,
+      "training_step_seconds": [
+        0.19467245042324066,
+        0.19932132214307785,
+        0.19542866572737694,
+        0.2055845484137535,
+        0.20332538709044456,
+        0.1999812349677086,
+        0.2042831964790821,
+        0.20596081018447876,
+        0.20402860641479492,
+        0.2089315764605999
+      ],
+      "peak_allocated_bytes": 2177219072,
+      "peak_reserved_bytes": 2220883968,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1684680916368961,
+        1.1477910578250885,
+        1.1046093180775642
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1151276268064976,
+        1.1186179965734482,
+        1.1026611812412739
+      ],
+      "merge_logits_max_abs_error": 0.0,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_grounded_20260916/checkpoints/pilot_cluener_qwen3_06b_base_hidden"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "vocab",
+      "repeat": 2,
+      "trainable_parameters": 5199232,
+      "boundary_parameters": 152960,
+      "adapter_file_bytes": 20844976,
+      "training_step_seconds": [
+        0.19382227584719658,
+        0.19602228328585625,
+        0.195667564868927,
+        0.1952681541442871,
+        0.19565411284565926,
+        0.19629664719104767,
+        0.1956436187028885,
+        0.20447571575641632,
+        0.1981837898492813,
+        0.19741950929164886
+      ],
+      "peak_allocated_bytes": 2179525632,
+      "peak_reserved_bytes": 2248146944,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1120547950267792,
+        1.1224310882389545,
+        1.1128096133470535
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1192413195967674,
+        1.1187263056635857,
+        1.121568787842989
+      ],
+      "merge_logits_max_abs_error": 1.1444091796875e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/boundary_lora_comparison_20260922/study/checkpoints/common_cluener_qwen3_06b_base_vocab_shared_r1_b0_lr1_s6100"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "none",
+      "repeat": 2,
+      "trainable_parameters": 5046272,
+      "boundary_parameters": 0,
+      "adapter_file_bytes": 20232912,
+      "training_step_seconds": [
+        0.20046206563711166,
+        0.1934487409889698,
+        0.19470641762018204,
+        0.19444607198238373,
+        0.1965225301682949,
+        0.19439615309238434,
+        0.19467418268322945,
+        0.19544368609786034,
+        0.19560987874865532,
+        0.1942932978272438
+      ],
+      "peak_allocated_bytes": 2177219072,
+      "peak_reserved_bytes": 2220883968,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1134934350848198,
+        1.1183464415371418,
+        1.1127550341188908
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.122604612261057,
+        1.1098898090422153,
+        1.1102333515882492
+      ],
+      "merge_logits_max_abs_error": 0.0,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_grounded_20260916/checkpoints/pilot_cluener_qwen3_06b_base_hidden"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "method": "affine",
+      "repeat": 2,
+      "trainable_parameters": 5080064,
+      "boundary_parameters": 33792,
+      "adapter_file_bytes": 20368360,
+      "training_step_seconds": [
+        0.19631893187761307,
+        0.19509060680866241,
+        0.19545456394553185,
+        0.20180334523320198,
+        0.2008693926036358,
+        0.19999388605356216,
+        0.19838182628154755,
+        0.19855573400855064,
+        0.19680825993418694,
+        0.1965373419225216
+      ],
+      "peak_allocated_bytes": 2180356096,
+      "peak_reserved_bytes": 2235564032,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1200985349714756,
+        1.1190774850547314,
+        1.1318107321858406
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1122946627438068,
+        1.1103845797479153,
+        1.111170906573534
+      ],
+      "merge_logits_max_abs_error": 4.7206878662109375e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/checkpoints/cluener_qwen3_06b_base_hidden_shared16_s6100"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "none",
+      "repeat": 0,
+      "trainable_parameters": 9232384,
+      "boundary_parameters": 0,
+      "adapter_file_bytes": 36977512,
+      "training_step_seconds": [
+        0.1825420930981636,
+        0.18329233303666115,
+        0.18509550392627716,
+        0.18489450216293335,
+        0.18531006947159767,
+        0.185612965375185,
+        0.18444158509373665,
+        0.18179434165358543,
+        0.18526417016983032,
+        0.18849215656518936
+      ],
+      "peak_allocated_bytes": 4568248832,
+      "peak_reserved_bytes": 4810866688,
+      "generation_32_tokens_unmerged_seconds": [
+        1.0936409160494804,
+        1.116266131401062,
+        1.113760095089674
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.0965576693415642,
+        1.0922818705439568,
+        1.0935049280524254
+      ],
+      "merge_logits_max_abs_error": 0.0,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_grounded_20260916/checkpoints/pilot_cluener_qwen25_15b_base_hidden"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "affine",
+      "repeat": 0,
+      "trainable_parameters": 9283072,
+      "boundary_parameters": 50688,
+      "adapter_file_bytes": 37180536,
+      "training_step_seconds": [
+        0.18748829886317253,
+        0.1858581230044365,
+        0.18532689288258553,
+        0.18523405864834785,
+        0.1858632154762745,
+        0.18555154278874397,
+        0.18683920055627823,
+        0.1877170354127884,
+        0.1840195469558239,
+        0.18535633385181427
+      ],
+      "peak_allocated_bytes": 4571720192,
+      "peak_reserved_bytes": 4821352448,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1052070632576942,
+        1.1029414869844913,
+        1.099328063428402
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1089237853884697,
+        1.1010736152529716,
+        1.0998103395104408
+      ],
+      "merge_logits_max_abs_error": 5.9604644775390625e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/checkpoints/cluener_qwen25_15b_base_hidden_shared16_s6100"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "vocab",
+      "repeat": 0,
+      "trainable_parameters": 9385856,
+      "boundary_parameters": 153472,
+      "adapter_file_bytes": 37591592,
+      "training_step_seconds": [
+        0.18814127892255783,
+        0.18927931040525436,
+        0.19128920137882233,
+        0.18957797437906265,
+        0.18819394707679749,
+        0.19110949710011482,
+        0.18899933621287346,
+        0.19116362929344177,
+        0.19913407415151596,
+        0.1863618567585945
+      ],
+      "peak_allocated_bytes": 4571591680,
+      "peak_reserved_bytes": 4836032512,
+      "generation_32_tokens_unmerged_seconds": [
+        1.083018533885479,
+        1.081401489675045,
+        1.093312207609415
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.0901262946426868,
+        1.0952776670455933,
+        1.0942568853497505
+      ],
+      "merge_logits_max_abs_error": 5.245208740234375e-06,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/boundary_lora_comparison_20260922/study/checkpoints/common_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s6100"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "affine",
+      "repeat": 1,
+      "trainable_parameters": 9283072,
+      "boundary_parameters": 50688,
+      "adapter_file_bytes": 37180536,
+      "training_step_seconds": [
+        0.18429222702980042,
+        0.18222236260771751,
+        0.18443559482693672,
+        0.18554550409317017,
+        0.18561873212456703,
+        0.18499409407377243,
+        0.18506594002246857,
+        0.19271473586559296,
+        0.1870298646390438,
+        0.1833239682018757
+      ],
+      "peak_allocated_bytes": 4571712000,
+      "peak_reserved_bytes": 4821352448,
+      "generation_32_tokens_unmerged_seconds": [
+        1.096362791955471,
+        1.0858553536236286,
+        1.092822641134262
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.0796378999948502,
+        1.0906713791191578,
+        1.085649136453867
+      ],
+      "merge_logits_max_abs_error": 5.9604644775390625e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/checkpoints/cluener_qwen25_15b_base_hidden_shared16_s6100"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "vocab",
+      "repeat": 1,
+      "trainable_parameters": 9385856,
+      "boundary_parameters": 153472,
+      "adapter_file_bytes": 37591592,
+      "training_step_seconds": [
+        0.18745512515306473,
+        0.19018064811825752,
+        0.1858191229403019,
+        0.18853439018130302,
+        0.1859002821147442,
+        0.18595075979828835,
+        0.18549589440226555,
+        0.1862851195037365,
+        0.18636826798319817,
+        0.18568582087755203
+      ],
+      "peak_allocated_bytes": 4571591680,
+      "peak_reserved_bytes": 4836032512,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1107511185109615,
+        1.1151321902871132,
+        1.0924240313470364
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.0846509374678135,
+        1.0830360800027847,
+        1.0771735534071922
+      ],
+      "merge_logits_max_abs_error": 5.245208740234375e-06,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/boundary_lora_comparison_20260922/study/checkpoints/common_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s6100"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "none",
+      "repeat": 1,
+      "trainable_parameters": 9232384,
+      "boundary_parameters": 0,
+      "adapter_file_bytes": 36977512,
+      "training_step_seconds": [
+        0.18968990445137024,
+        0.18545878678560257,
+        0.18529947474598885,
+        0.18520716205239296,
+        0.1846168115735054,
+        0.18493426963686943,
+        0.18797390162944794,
+        0.19148560613393784,
+        0.187090951949358,
+        0.18547437712550163
+      ],
+      "peak_allocated_bytes": 4568240640,
+      "peak_reserved_bytes": 4810866688,
+      "generation_32_tokens_unmerged_seconds": [
+        1.104479681700468,
+        1.1071469448506832,
+        1.1038107089698315
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.0957419201731682,
+        1.1011160276830196,
+        1.0948508642613888
+      ],
+      "merge_logits_max_abs_error": 0.0,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_grounded_20260916/checkpoints/pilot_cluener_qwen25_15b_base_hidden"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "vocab",
+      "repeat": 2,
+      "trainable_parameters": 9385856,
+      "boundary_parameters": 153472,
+      "adapter_file_bytes": 37591592,
+      "training_step_seconds": [
+        0.18885424733161926,
+        0.18447300046682358,
+        0.18517562374472618,
+        0.18444455415010452,
+        0.1828724779188633,
+        0.18346301093697548,
+        0.18804357945919037,
+        0.18460875749588013,
+        0.1894264928996563,
+        0.18344273790717125
+      ],
+      "peak_allocated_bytes": 4571579392,
+      "peak_reserved_bytes": 4836032512,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1028202548623085,
+        1.111509621143341,
+        1.1122471913695335
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1079893968999386,
+        1.1102235727012157,
+        1.0977183319628239
+      ],
+      "merge_logits_max_abs_error": 5.245208740234375e-06,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/boundary_lora_comparison_20260922/study/checkpoints/common_cluener_qwen25_15b_base_vocab_shared_r1_b0_lr1_s6100"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "none",
+      "repeat": 2,
+      "trainable_parameters": 9232384,
+      "boundary_parameters": 0,
+      "adapter_file_bytes": 36977512,
+      "training_step_seconds": [
+        0.18615896627306938,
+        0.18277810141444206,
+        0.18523837625980377,
+        0.18575077503919601,
+        0.1842043101787567,
+        0.18469690904021263,
+        0.19271790981292725,
+        0.18586430326104164,
+        0.18397688120603561,
+        0.18620872125029564
+      ],
+      "peak_allocated_bytes": 4568240640,
+      "peak_reserved_bytes": 4810866688,
+      "generation_32_tokens_unmerged_seconds": [
+        1.0978413335978985,
+        1.0957294516265392,
+        1.1017460599541664
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.096093062311411,
+        1.0980243273079395,
+        1.098609060049057
+      ],
+      "merge_logits_max_abs_error": 0.0,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_grounded_20260916/checkpoints/pilot_cluener_qwen25_15b_base_hidden"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "method": "affine",
+      "repeat": 2,
+      "trainable_parameters": 9283072,
+      "boundary_parameters": 50688,
+      "adapter_file_bytes": 37180536,
+      "training_step_seconds": [
+        0.1830320842564106,
+        0.18560893088579178,
+        0.18589087948203087,
+        0.18570898473262787,
+        0.18626803532242775,
+        0.18550461903214455,
+        0.1917528174817562,
+        0.19015676155686378,
+        0.18600546196103096,
+        0.18413203582167625
+      ],
+      "peak_allocated_bytes": 4571712000,
+      "peak_reserved_bytes": 4821352448,
+      "generation_32_tokens_unmerged_seconds": [
+        1.1252726279199123,
+        1.1564058512449265,
+        1.1283897459506989
+      ],
+      "generation_32_tokens_boundary_merged_seconds": [
+        1.1633339412510395,
+        1.1327161341905594,
+        1.109089121222496
+      ],
+      "merge_logits_max_abs_error": 5.9604644775390625e-05,
+      "device": "NVIDIA A100-SXM4-80GB",
+      "microbatch": 2,
+      "train_sequence_length": 165,
+      "source_checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/checkpoints/cluener_qwen25_15b_base_hidden_shared16_s6100"
+    }
+  ],
+  "scope": "Two fixed CLUENER training examples; 2 warmup + 10 optimizer steps; 3 timed 32-token generations; boundary merge only, H remains identical architecture; no task scores. Shared hardware can affect timing."
+}
