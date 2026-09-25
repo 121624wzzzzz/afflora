@@ -1,0 +1,149 @@
+{
+  "at": "2026-09-25T01:43:00+08:00",
+  "models": [
+    {
+      "model": "qwen3_06b_base",
+      "summaries": {
+        "dev": {
+          "primary": 0.0,
+          "macro_f1": 0.0,
+          "valid_pct": 0.0,
+          "n": 1500,
+          "seconds": 62.80036552622914,
+          "spec": {
+            "name": "base_clinc150_qwen3_06b_base_none_none_r0_b0_lr1_s0",
+            "model": "qwen3_06b_base",
+            "task": "clinc150",
+            "arm": "base",
+            "seed": 0,
+            "lr": 0.0002,
+            "microbatch": 2,
+            "smoke": false,
+            "stage": "base",
+            "boundary_lr_ratio": 1.0,
+            "expected_total_parameters": 0,
+            "expected_boundary_parameters": 0,
+            "method": "none",
+            "placement": "none",
+            "rank": 0,
+            "bias": false,
+            "eval_split": "dev"
+          },
+          "tag": "dev",
+          "batch_size": 16,
+          "native_eos_pct": 100.0,
+          "capped_pct": 0.0,
+          "mean_generated_tokens": 1.712,
+          "input_ids_sha256": "576b69ff0759a52baa9e2a22ab41ba0d4004e7c91aaf108c9a5b59b3d7a73bc4",
+          "responses_sha256": "ec38d3d6e9d2bd2a1de051102b5f633ae012abae519c4f31f5f3665cca9f8a2b"
+        },
+        "test": {
+          "primary": 0.0,
+          "macro_f1": 0.0,
+          "valid_pct": 0.0,
+          "n": 4500,
+          "seconds": 186.0060032531619,
+          "spec": {
+            "name": "base_clinc150_qwen3_06b_base_none_none_r0_b0_lr1_s0",
+            "model": "qwen3_06b_base",
+            "task": "clinc150",
+            "arm": "base",
+            "seed": 0,
+            "lr": 0.0002,
+            "microbatch": 2,
+            "smoke": false,
+            "stage": "base",
+            "boundary_lr_ratio": 1.0,
+            "expected_total_parameters": 0,
+            "expected_boundary_parameters": 0,
+            "method": "none",
+            "placement": "none",
+            "rank": 0,
+            "bias": false,
+            "eval_split": "test"
+          },
+          "tag": "test",
+          "batch_size": 32,
+          "native_eos_pct": 99.93333333333334,
+          "capped_pct": 0.06666666666666667,
+          "mean_generated_tokens": 1.746888888888889,
+          "input_ids_sha256": "8117d68d5f2dc4f07465a632928c59f9074fb2ab6903a7ba191514de05195cfd",
+          "responses_sha256": "a6ef596d5980868ec8587cdf34d84c579e04b464163abf229ffc91b0fef40f9f"
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "model": "llama32_1b_base",
+      "summaries": {
+        "dev": {
+          "primary": 0.0,
+          "macro_f1": 0.0,
+          "valid_pct": 0.0,
+          "n": 1500,
+          "seconds": 145.8809793330729,
+          "spec": {
+            "name": "base_clinc150_llama32_1b_base_none_none_r0_b0_lr1_s0",
+            "model": "llama32_1b_base",
+            "task": "clinc150",
+            "arm": "base",
+            "seed": 0,
+            "lr": 0.0002,
+            "microbatch": 2,
+            "smoke": false,
+            "stage": "base",
+            "boundary_lr_ratio": 1.0,
+            "expected_total_parameters": 0,
+            "expected_boundary_parameters": 0,
+            "method": "none",
+            "placement": "none",
+            "rank": 0,
+            "bias": false,
+            "eval_split": "dev"
+          },
+          "tag": "dev",
+          "batch_size": 16,
+          "native_eos_pct": 2.2,
+          "capped_pct": 97.8,
+          "mean_generated_tokens": 31.665333333333333,
+          "input_ids_sha256": "c2b62cedadff79517944afee3526c0b5b267d21c90c6134e0cc48e0a4edde0f0",
+          "responses_sha256": "7b08d89c8182def9d8b791b22752f412cb1a943eb893933fedfc30a3fd79a77e"
+        },
+        "test": {
+          "primary": 0.0,
+          "macro_f1": 0.0,
+          "valid_pct": 0.0,
+          "n": 4500,
+          "seconds": 390.8502455241978,
+          "spec": {
+            "name": "base_clinc150_llama32_1b_base_none_none_r0_b0_lr1_s0",
+            "model": "llama32_1b_base",
+            "task": "clinc150",
+            "arm": "base",
+            "seed": 0,
+            "lr": 0.0002,
+            "microbatch": 2,
+            "smoke": false,
+            "stage": "base",
+            "boundary_lr_ratio": 1.0,
+            "expected_total_parameters": 0,
+            "expected_boundary_parameters": 0,
+            "method": "none",
+            "placement": "none",
+            "rank": 0,
+            "bias": false,
+            "eval_split": "test"
+          },
+          "tag": "test",
+          "batch_size": 32,
+          "native_eos_pct": 2.2222222222222223,
+          "capped_pct": 97.77777777777777,
+          "mean_generated_tokens": 31.650222222222222,
+          "input_ids_sha256": "5083ca56e1128b16cc7b349c2e0e12235c2b6f84f4b7d5e7d4977d951ee3f70a",
+          "responses_sha256": "7b05a3a00c373e92d52b9f3e4029185468d7783b30e8f1c1def8cd6939ffef89"
+        }
+      },
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "status": "passed",
+  "at": "2026-09-15T16:59:27+08:00",
+  "models": {
+    "qwen3_06b_chat": {
+      "initializations": {
+        "none": {
+          "shared_hidden_init_sha256": "285401a35df8f4cd2ede6658ee7063991aff4583dfa7e0f82ee78f89a8f12ea9",
+          "all_adapter_init_sha256": "285401a35df8f4cd2ede6658ee7063991aff4583dfa7e0f82ee78f89a8f12ea9",
+          "affine_init_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "hidden_parameters": 5046272,
+          "affine_parameters": 0,
+          "total_parameters": 5046272,
+          "budget": {},
+          "positions": null
+        },
+        "both": {
+          "shared_hidden_init_sha256": "285401a35df8f4cd2ede6658ee7063991aff4583dfa7e0f82ee78f89a8f12ea9",
+          "all_adapter_init_sha256": "dc4451e2c1b22015d89c09cd34d7b301a37f590bad33a9e89a41c5a360c3f4ef",
+          "affine_init_sha256": "9cfc8ebbb565d5338309a203606d434c06df078882f42a4b5e1cf70a9ba96877",
+          "hidden_parameters": 5046272,
+          "affine_parameters": 66560,
+          "total_parameters": 5112832,
+          "budget": {},
+          "positions": null
+        },
+        "interior": {
+          "shared_hidden_init_sha256": "285401a35df8f4cd2ede6658ee7063991aff4583dfa7e0f82ee78f89a8f12ea9",
+          "all_adapter_init_sha256": "dc4451e2c1b22015d89c09cd34d7b301a37f590bad33a9e89a41c5a360c3f4ef",
+          "affine_init_sha256": "9cfc8ebbb565d5338309a203606d434c06df078882f42a4b5e1cf70a9ba96877",
+          "hidden_parameters": 5046272,
+          "affine_parameters": 66560,
+          "total_parameters": 5112832,
+          "budget": {},
+          "positions": [
+            6,
+            20
+          ]
+        },
+        "hidden_budget": {
+          "shared_hidden_init_sha256": "285401a35df8f4cd2ede6658ee7063991aff4583dfa7e0f82ee78f89a8f12ea9",
+          "all_adapter_init_sha256": "911ebbd3c7d185c18d42a51d1f61da2844ebd95ec5f52612f8b8ce9066cf67dc",
+          "affine_init_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "hidden_parameters": 5112832,
+          "affine_parameters": 0,
+          "total_parameters": 5112832,
+          "budget": {
+            "target_extra_parameters": 66560,
+            "actual_extra_parameters": 66560,
+            "rank_pattern": {
+              "model.layers.0.self_attn.q_proj": 9,
+              "model.layers.1.self_attn.q_proj": 9,
+              "model.layers.2.self_attn.q_proj": 9,
+              "model.layers.4.self_attn.q_proj": 9,
+              "model.layers.5.self_attn.q_proj": 9,
+              "model.layers.6.self_attn.q_proj": 9,
+              "model.layers.8.self_attn.q_proj": 9,
+              "model.layers.9.self_attn.q_proj": 9,
+              "model.layers.10.self_attn.q_proj": 9,
+              "model.layers.12.self_attn.q_proj": 9,
+              "model.layers.13.self_attn.q_proj": 9,
+              "model.layers.14.self_attn.q_proj": 9,
+              "model.layers.16.self_attn.q_proj": 9,
+              "model.layers.17.self_attn.q_proj": 9,
+              "model.layers.18.self_attn.q_proj": 9,
+              "model.layers.20.self_attn.q_proj": 9,
+              "model.layers.21.self_attn.q_proj": 9,
+              "model.layers.22.self_attn.q_proj": 9,
+              "model.layers.24.self_attn.q_proj": 9,
+              "model.layers.25.self_attn.q_proj": 9,
+              "model.layers.26.self_attn.q_proj": 9,
+              "model.layers.0.self_attn.k_proj": 9
+            },
+            "shared_initialization_sha256": "285401a35df8f4cd2ede6658ee7063991aff4583dfa7e0f82ee78f89a8f12ea9"
+          },
+          "positions": null
+        }
+      },
+      "reloads": {
+        "none": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 7.450580596923828e-09,
+          "full_logit_error": 4.482269287109375e-05,
+          "tensor_sha256": "6d86320a9570a21d940ed1d76a77bbfee0e6f9a8d6d516b438197f0f1fb8c3df"
+        },
+        "both": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 2.952292561531067e-07,
+          "full_logit_error": 3.719329833984375e-05,
+          "tensor_sha256": "c9335fd06478299ce353f672757f95c6b11fa3ee244bc9e496497ad2e5134592"
+        },
+        "interior": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 4.796311259269714e-07,
+          "full_logit_error": 5.054473876953125e-05,
+          "tensor_sha256": "e364cd17a472bc101f3546d6502f9aa32701f86de9c74d09c3ca693fa9d11208"
+        },
+        "hidden_budget": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 1.8440186977386475e-07,
+          "full_logit_error": 4.38690185546875e-05,
+          "tensor_sha256": "97d1d0dd989c1161808977f4d43242c6900ecde5b5c6f2d9fc0e0413012529c7"
+        }
+      },
+      "zero_start": {
+        "both": {
+          "zero_start_max_logit_error": 0.0,
+          "hook_counts": {
+            "input": 1,
+            "output": 1
+          },
+          "positions": null
+        },
+        "interior": {
+          "zero_start_max_logit_error": 0.0,
+          "hook_counts": {
+            "input": 1,
+            "output": 1
+          },
+          "positions": [
+            6,
+            20
+          ]
+        }
+      },
+      "verified_original_wrapper_equivalence": {
+        "status": "passed",
+        "trained_nonzero_smoke_maps": true,
+        "paths": {
+          "native_bf16_amp": {
+            "max_abs_logit_error": 0.0,
+            "bitwise_equal": true
+          },
+          "fp32": {
+            "max_abs_logit_error": 0.0,
+            "bitwise_equal": true
+          }
+        }
+      },
+      "matched_data_order": true,
+      "matched_shared_hidden_initialization": true,
+      "matched_affine_initialization": true,
+      "exact_budgets": true
+    },
+    "qwen25_15b_chat": {
+      "initializations": {
+        "none": {
+          "shared_hidden_init_sha256": "0735a6b450f54469ec6ad856cd7e6a17420dee2f023fbdb885619f98e1446abd",
+          "all_adapter_init_sha256": "0735a6b450f54469ec6ad856cd7e6a17420dee2f023fbdb885619f98e1446abd",
+          "affine_init_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "hidden_parameters": 9232384,
+          "affine_parameters": 0,
+          "total_parameters": 9232384,
+          "budget": {},
+          "positions": null
+        },
+        "both": {
+          "shared_hidden_init_sha256": "0735a6b450f54469ec6ad856cd7e6a17420dee2f023fbdb885619f98e1446abd",
+          "all_adapter_init_sha256": "b9fb63c1413b9be3f00a14a889f22bffb5696350b57bbb5c2a64acaac1a66030",
+          "affine_init_sha256": "9ded00b58b3691312bd476a724f760e6d94fbfaccc2b30db3943903938bfb24d",
+          "hidden_parameters": 9232384,
+          "affine_parameters": 99840,
+          "total_parameters": 9332224,
+          "budget": {},
+          "positions": null
+        },
+        "interior": {
+          "shared_hidden_init_sha256": "0735a6b450f54469ec6ad856cd7e6a17420dee2f023fbdb885619f98e1446abd",
+          "all_adapter_init_sha256": "b9fb63c1413b9be3f00a14a889f22bffb5696350b57bbb5c2a64acaac1a66030",
+          "affine_init_sha256": "9ded00b58b3691312bd476a724f760e6d94fbfaccc2b30db3943903938bfb24d",
+          "hidden_parameters": 9232384,
+          "affine_parameters": 99840,
+          "total_parameters": 9332224,
+          "budget": {},
+          "positions": [
+            6,
+            20
+          ]
+        },
+        "hidden_budget": {
+          "shared_hidden_init_sha256": "0735a6b450f54469ec6ad856cd7e6a17420dee2f023fbdb885619f98e1446abd",
+          "all_adapter_init_sha256": "2c39ea47e56db669e1bf79bcc4fe8481211cf43dcb65b245bf9e87b42b45a5cc",
+          "affine_init_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "hidden_parameters": 9332224,
+          "affine_parameters": 0,
+          "total_parameters": 9332224,
+          "budget": {
+            "target_extra_parameters": 99840,
+            "actual_extra_parameters": 99840,
+            "rank_pattern": {
+              "model.layers.0.self_attn.q_proj": 9,
+              "model.layers.1.self_attn.q_proj": 9,
+              "model.layers.2.self_attn.q_proj": 9,
+              "model.layers.3.self_attn.q_proj": 9,
+              "model.layers.5.self_attn.q_proj": 9,
+              "model.layers.6.self_attn.q_proj": 9,
+              "model.layers.7.self_attn.q_proj": 9,
+              "model.layers.8.self_attn.q_proj": 9,
+              "model.layers.10.self_attn.q_proj": 9,
+              "model.layers.11.self_attn.q_proj": 9,
+              "model.layers.12.self_attn.q_proj": 9,
+              "model.layers.14.self_attn.q_proj": 9,
+              "model.layers.15.self_attn.q_proj": 9,
+              "model.layers.16.self_attn.q_proj": 9,
+              "model.layers.17.self_attn.q_proj": 9,
+              "model.layers.19.self_attn.q_proj": 9,
+              "model.layers.20.self_attn.q_proj": 9,
+              "model.layers.21.self_attn.q_proj": 9,
+              "model.layers.22.self_attn.q_proj": 9,
+              "model.layers.24.self_attn.q_proj": 9,
+              "model.layers.25.self_attn.q_proj": 9,
+              "model.layers.26.self_attn.q_proj": 9,
+              "model.layers.0.self_attn.k_proj": 9,
+              "model.layers.1.self_attn.k_proj": 9,
+              "model.layers.3.self_attn.k_proj": 9,
+              "model.layers.4.self_attn.k_proj": 9,
+              "model.layers.6.self_attn.k_proj": 9,
+              "model.layers.7.self_attn.k_proj": 9,
+              "model.layers.9.self_attn.k_proj": 9,
+              "model.layers.10.self_attn.k_proj": 9,
+              "model.layers.12.self_attn.k_proj": 9,
+              "model.layers.14.self_attn.k_proj": 9,
+              "model.layers.15.self_attn.k_proj": 9,
+              "model.layers.17.self_attn.k_proj": 9,
+              "model.layers.18.self_attn.k_proj": 9,
+              "model.layers.20.self_attn.k_proj": 9,
+              "model.layers.21.self_attn.k_proj": 9,
+              "model.layers.23.self_attn.k_proj": 9,
+              "model.layers.24.self_attn.k_proj": 9,
+              "model.layers.26.self_attn.k_proj": 9
+            },
+            "shared_initialization_sha256": "0735a6b450f54469ec6ad856cd7e6a17420dee2f023fbdb885619f98e1446abd"
+          },
+          "positions": null
+        }
+      },
+      "reloads": {
+        "none": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 5.066394805908203e-07,
+          "full_logit_error": 4.1961669921875e-05,
+          "tensor_sha256": "51d50701d1e33d9b242df95658cbe93cb473579c9f9cff4ca3305a6398919aa0"
+        },
+        "both": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 2.0265579223632812e-06,
+          "full_logit_error": 3.62396240234375e-05,
+          "tensor_sha256": "880fea5edcb9dc72ae88e8c2eee45d945a1d9111ebe15fb2533828813bb18229"
+        },
+        "interior": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 1.4156103134155273e-07,
+          "full_logit_error": 4.57763671875e-05,
+          "tensor_sha256": "9fe841dda9e44f036a171394e108baaec7f02662e94a5e9b75be1ff30787ead8"
+        },
+        "hidden_budget": {
+          "status": "passed",
+          "fp32_reload_max_abs_logit_error": 0.0,
+          "masked_loss_error": 8.344650268554688e-07,
+          "full_logit_error": 3.62396240234375e-05,
+          "tensor_sha256": "7574bb41f0747fcdd44f2123dc3a5f47fe48f078c8ce7cbb9fd2a2d8fcf833df"
+        }
+      },
+      "zero_start": {
+        "both": {
+          "zero_start_max_logit_error": 0.0,
+          "hook_counts": {
+            "input": 1,
+            "output": 1
+          },
+          "positions": null
+        },
+        "interior": {
+          "zero_start_max_logit_error": 0.0,
+          "hook_counts": {
+            "input": 1,
+            "output": 1
+          },
+          "positions": [
+            6,
+            20
+          ]
+        }
+      },
+      "verified_original_wrapper_equivalence": {
+        "status": "passed",
+        "trained_nonzero_smoke_maps": true,
+        "paths": {
+          "native_bf16_amp": {
+            "max_abs_logit_error": 0.0,
+            "bitwise_equal": true
+          },
+          "fp32": {
+            "max_abs_logit_error": 0.0,
+            "bitwise_equal": true
+          }
+        }
+      },
+      "matched_data_order": true,
+      "matched_shared_hidden_initialization": true,
+      "matched_affine_initialization": true,
+      "exact_budgets": true
+    }
+  }
+}

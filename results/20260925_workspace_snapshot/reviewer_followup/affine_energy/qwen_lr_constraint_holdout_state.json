@@ -1,0 +1,112 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-15T01:58:44+08:00",
+  "rhos": {
+    "qwen25_3b:input:none:lr0p25:seed42": {
+      "rho": 0.024009240008499782
+    },
+    "qwen25_3b:input:none:lr0p25:seed43": {
+      "rho": 0.022923071902038916
+    },
+    "qwen25_3b:input:none:lr0p25:seed44": {
+      "rho": 0.02424061472553722
+    },
+    "qwen25_3b:input:none:lr0p25:seed45": {
+      "rho": 0.024262182633661727
+    },
+    "qwen25_3b:input:none:lr0p25:seed46": {
+      "rho": 0.02320095682147244
+    },
+    "qwen25_3b:input:hinge:lr0p25:seed42": {
+      "rho": 0.012115523596712757
+    },
+    "qwen25_3b:input:hinge:lr0p25:seed43": {
+      "rho": 0.011926943516823703
+    },
+    "qwen25_3b:input:hinge:lr0p25:seed44": {
+      "rho": 0.012001060629876588
+    },
+    "qwen25_3b:input:hinge:lr0p25:seed45": {
+      "rho": 0.012316207840125786
+    },
+    "qwen25_3b:input:hinge:lr0p25:seed46": {
+      "rho": 0.012348049058258625
+    },
+    "qwen25_3b:output:none:lr0p5:seed42": {
+      "rho": 0.004802863232327339
+    },
+    "qwen25_3b:output:none:lr0p5:seed43": {
+      "rho": 0.004820406705946892
+    },
+    "qwen25_3b:output:none:lr0p5:seed44": {
+      "rho": 0.004828296418512371
+    },
+    "qwen25_3b:output:none:lr0p5:seed45": {
+      "rho": 0.004611256760004883
+    },
+    "qwen25_3b:output:none:lr0p5:seed46": {
+      "rho": 0.004681895825970414
+    },
+    "qwen3_4b:input:none:lr0p25:seed42": {
+      "rho": 0.034112102480947704
+    },
+    "qwen3_4b:input:none:lr0p25:seed43": {
+      "rho": 0.034464888777634414
+    },
+    "qwen3_4b:input:none:lr0p25:seed44": {
+      "rho": 0.03563978551667059
+    },
+    "qwen3_4b:input:none:lr0p25:seed45": {
+      "rho": 0.035353661357494
+    },
+    "qwen3_4b:input:none:lr0p25:seed46": {
+      "rho": 0.035519170986868895
+    },
+    "qwen3_4b:input:hinge:lr0p25:seed42": {
+      "rho": 0.012411217075721579
+    },
+    "qwen3_4b:input:hinge:lr0p25:seed43": {
+      "rho": 0.01249254994953732
+    },
+    "qwen3_4b:input:hinge:lr0p25:seed44": {
+      "rho": 0.012403728001943207
+    },
+    "qwen3_4b:input:hinge:lr0p25:seed45": {
+      "rho": 0.012431182448730153
+    },
+    "qwen3_4b:input:hinge:lr0p25:seed46": {
+      "rho": 0.012436922159928877
+    },
+    "qwen3_4b:input:none:lr1:seed42": {
+      "rho": 0.10266560112578982
+    },
+    "qwen3_4b:input:none:lr1:seed43": {
+      "rho": 0.10198560724714133
+    },
+    "qwen3_4b:input:none:lr1:seed44": {
+      "rho": 0.1056410420689367
+    },
+    "qwen3_4b:input:none:lr1:seed45": {
+      "rho": 0.10391561083522798
+    },
+    "qwen3_4b:input:none:lr1:seed46": {
+      "rho": 0.10462184918106038
+    },
+    "qwen3_4b:output:none:lr0p5:seed42": {
+      "rho": 0.004312138642157205
+    },
+    "qwen3_4b:output:none:lr0p5:seed43": {
+      "rho": 0.00440927819674825
+    },
+    "qwen3_4b:output:none:lr0p5:seed44": {
+      "rho": 0.004667637797192056
+    },
+    "qwen3_4b:output:none:lr0p5:seed45": {
+      "rho": 0.0044761172935600555
+    },
+    "qwen3_4b:output:none:lr0p5:seed46": {
+      "rho": 0.004431794094724742
+    }
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/QWEN_LR_CONSTRAINT_HOLDOUT_RESULTS.md"
+}

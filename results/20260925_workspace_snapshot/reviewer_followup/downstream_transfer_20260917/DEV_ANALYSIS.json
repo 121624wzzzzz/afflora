@@ -1,0 +1,442 @@
+{
+  "at": "2026-09-17T12:00:46+08:00",
+  "tables": [
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "primary": 33.1,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        47.6,
+        45.7,
+        46.4,
+        45.8,
+        45.5
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 46.2,
+      "unrestricted_correct_pct": 46.2,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9979158564805986
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        48.8,
+        46.6,
+        46.0,
+        45.6,
+        47.0
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 46.8,
+      "unrestricted_correct_pct": 46.8,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9979444214105605
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        48.4,
+        46.4,
+        47.3,
+        46.0,
+        44.1
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 46.44,
+      "unrestricted_correct_pct": 46.44,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9974837037682533
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "primary": 36.5,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        54.0,
+        50.6,
+        51.1,
+        51.9,
+        52.6
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 52.04,
+      "unrestricted_correct_pct": 52.04,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9989006447076798
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        54.0,
+        51.3,
+        51.3,
+        51.9,
+        52.4
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 52.17999999999999,
+      "unrestricted_correct_pct": 52.17999999999999,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9989173805117607
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        55.1,
+        50.3,
+        52.9,
+        51.0,
+        53.2
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 52.5,
+      "unrestricted_correct_pct": 52.5,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9986108933687211
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "primary": 5.46875,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        76.171875,
+        74.609375,
+        76.171875,
+        73.828125,
+        73.4375
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 74.84375,
+      "lf_correct_pct": 68.046875,
+      "query_valid_pct": 98.046875,
+      "strict_json_pct": 99.765625,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 74.84375,
+      "duplicate_condition_column_pct": 0.0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        75.0,
+        74.609375,
+        75.0,
+        73.828125,
+        73.046875
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 74.296875,
+      "lf_correct_pct": 67.734375,
+      "query_valid_pct": 97.8125,
+      "strict_json_pct": 99.53125,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 74.296875,
+      "duplicate_condition_column_pct": 0.0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        74.609375,
+        75.78125,
+        76.171875,
+        75.390625,
+        74.609375
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 75.3125,
+      "lf_correct_pct": 69.0625,
+      "query_valid_pct": 97.8125,
+      "strict_json_pct": 99.375,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 75.3125,
+      "duplicate_condition_column_pct": 0.078125
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "primary": 10.9375,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        72.265625,
+        75.390625,
+        74.609375,
+        77.34375,
+        72.265625
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 74.375,
+      "lf_correct_pct": 68.28125,
+      "query_valid_pct": 98.59375,
+      "strict_json_pct": 100.0,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 74.375,
+      "duplicate_condition_column_pct": 0.0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        72.265625,
+        75.390625,
+        75.78125,
+        76.5625,
+        73.046875
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 74.609375,
+      "lf_correct_pct": 68.828125,
+      "query_valid_pct": 98.671875,
+      "strict_json_pct": 100.0,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 74.609375,
+      "duplicate_condition_column_pct": 0.0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        75.78125,
+        75.78125,
+        75.390625,
+        77.734375,
+        74.609375
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 75.859375,
+      "lf_correct_pct": 70.234375,
+      "query_valid_pct": 98.359375,
+      "strict_json_pct": 99.921875,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 75.859375,
+      "duplicate_condition_column_pct": 0.0
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "mean": 0.23999999999999916,
+      "lower": -2.008140457171104,
+      "upper": 2.4881404571711028,
+      "seed_deltas": [
+        0.7999999999999972,
+        0.6999999999999957,
+        0.8999999999999986,
+        0.20000000000000284,
+        -1.3999999999999986
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        -0.7460432447433721,
+        1.2400621242484964
+      ],
+      "clusters": 844
+    },
+    {
+      "mean": -0.3600000000000009,
+      "lower": -4.0449943517028535,
+      "upper": 3.324994351702852,
+      "seed_deltas": [
+        -0.3999999999999986,
+        -0.20000000000000284,
+        1.2999999999999972,
+        0.3999999999999986,
+        -2.8999999999999986
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        -1.3413475394899546,
+        0.6326530612244897
+      ],
+      "clusters": 844
+    },
+    {
+      "mean": 0.4599999999999994,
+      "lower": -2.0773355819791317,
+      "upper": 2.9973355819791307,
+      "seed_deltas": [
+        1.1000000000000014,
+        -0.30000000000000426,
+        1.7999999999999972,
+        -0.8999999999999986,
+        0.6000000000000014
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        -0.45414174698199916,
+        1.4004983641482145
+      ],
+      "clusters": 844
+    },
+    {
+      "mean": 0.3200000000000017,
+      "lower": -2.4906064525379716,
+      "upper": 3.130606452537975,
+      "seed_deltas": [
+        1.1000000000000014,
+        -1.0,
+        1.6000000000000014,
+        -0.8999999999999986,
+        0.8000000000000043
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        -0.6150946351728379,
+        1.275325339770163
+      ],
+      "clusters": 844
+    },
+    {
+      "mean": 0.46875,
+      "lower": -2.537603018712647,
+      "upper": 3.475103018712647,
+      "seed_deltas": [
+        -1.5625,
+        1.171875,
+        0.0,
+        1.5625,
+        1.171875
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        -0.8661417322834647,
+        1.8461538461538463
+      ],
+      "clusters": 244
+    },
+    {
+      "mean": 1.015625,
+      "lower": -0.8901969075780469,
+      "upper": 2.921446907578047,
+      "seed_deltas": [
+        -0.390625,
+        1.171875,
+        1.171875,
+        1.5625,
+        1.5625
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        -0.31372549019607837,
+        2.431372549019607
+      ],
+      "clusters": 244
+    },
+    {
+      "mean": 1.484375,
+      "lower": -1.7909164204173629,
+      "upper": 4.759666420417362,
+      "seed_deltas": [
+        3.515625,
+        0.390625,
+        0.78125,
+        0.390625,
+        2.34375
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        -0.3875968992248062,
+        3.3460076045627383
+      ],
+      "clusters": 244
+    },
+    {
+      "mean": 1.25,
+      "lower": -2.213317116625662,
+      "upper": 4.713317116625662,
+      "seed_deltas": [
+        3.515625,
+        0.390625,
+        -0.390625,
+        1.171875,
+        1.5625
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        -0.5577689243027889,
+        3.0770676691729313
+      ],
+      "clusters": 244
+    }
+  ],
+  "scope": "fixed common LR and training budget; conditional bootstrap does not replace seed variability"
+}

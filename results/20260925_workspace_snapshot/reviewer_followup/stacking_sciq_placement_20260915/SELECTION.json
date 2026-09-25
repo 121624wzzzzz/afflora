@@ -1,0 +1,195 @@
+{
+  "frozen_at": "2026-09-15T17:11:45+08:00",
+  "selected": {
+    "qwen3_06b_chat": {
+      "none": {
+        "lr": 0.0002,
+        "accuracy": 87.3,
+        "candidate_nll": 0.3485892956942308,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_none_sd2001_lr0.0002",
+        "metrics_sha256": "577dfb88a7a7d78c5ebb242d04a2a239f66bf56c9153d8dcb2aefae30191879f",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 85.7,
+            "candidate_nll": 0.3996116150568397,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_none_sd2001_lr5e-05",
+            "metrics_sha256": "6f0c4a9b777f1d516c4e44865995be89f694c7334063ca284ebe88e74d8c581c"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 87.3,
+            "candidate_nll": 0.3485892956942308,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_none_sd2001_lr0.0002",
+            "metrics_sha256": "577dfb88a7a7d78c5ebb242d04a2a239f66bf56c9153d8dcb2aefae30191879f"
+          }
+        ]
+      },
+      "both": {
+        "lr": 0.0002,
+        "accuracy": 86.8,
+        "candidate_nll": 0.35170899287546026,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_both_sd2001_lr0.0002",
+        "metrics_sha256": "21de32e5347d180b1bd5f8dd22be6ed98043c84fafc0763aa7f139d5a93b439b",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 85.8,
+            "candidate_nll": 0.3949204769324436,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_both_sd2001_lr5e-05",
+            "metrics_sha256": "30698530268f3069d0bc1226b6c175c36ae8a6bf63e2594d098fbae4197bf541"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 86.8,
+            "candidate_nll": 0.35170899287546026,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_both_sd2001_lr0.0002",
+            "metrics_sha256": "21de32e5347d180b1bd5f8dd22be6ed98043c84fafc0763aa7f139d5a93b439b"
+          }
+        ]
+      },
+      "interior": {
+        "lr": 0.0002,
+        "accuracy": 87.2,
+        "candidate_nll": 0.351901221885338,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_interior_sd2001_lr0.0002",
+        "metrics_sha256": "7d5dac81fa4e116173c8113273670c09353afdf8b11845f71d9fe3fd3a4de3b6",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 85.8,
+            "candidate_nll": 0.397657589740874,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_interior_sd2001_lr5e-05",
+            "metrics_sha256": "57fccc26c9d927de858e0a90501fd7e2aa36432cfaba55d5a8d220e4fda5c775"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 87.2,
+            "candidate_nll": 0.351901221885338,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_interior_sd2001_lr0.0002",
+            "metrics_sha256": "7d5dac81fa4e116173c8113273670c09353afdf8b11845f71d9fe3fd3a4de3b6"
+          }
+        ]
+      },
+      "hidden_budget": {
+        "lr": 0.0002,
+        "accuracy": 87.1,
+        "candidate_nll": 0.3505728250240454,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_hidden_budget_sd2001_lr0.0002",
+        "metrics_sha256": "49a96536713eb20d0f0f0552102f243df7a35d2d490196eb84772d29f5fe234b",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 86.1,
+            "candidate_nll": 0.4019328420919046,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_hidden_budget_sd2001_lr5e-05",
+            "metrics_sha256": "4ef2225f10a988334ab2df77994f3e1dac08b6cd1c1f7322d03e7200d7fd1d63"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 87.1,
+            "candidate_nll": 0.3505728250240454,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen3_06b_chat_hidden_budget_sd2001_lr0.0002",
+            "metrics_sha256": "49a96536713eb20d0f0f0552102f243df7a35d2d490196eb84772d29f5fe234b"
+          }
+        ]
+      }
+    },
+    "qwen25_15b_chat": {
+      "none": {
+        "lr": 0.0002,
+        "accuracy": 93.7,
+        "candidate_nll": 0.1901573976050187,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_none_sd2001_lr0.0002",
+        "metrics_sha256": "7ce05b975f9d19cd92448e8e4f1fc9561f78efa6dc66e5ed41d3f4fa7fe54f60",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 93.30000000000001,
+            "candidate_nll": 0.20091178129355428,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_none_sd2001_lr5e-05",
+            "metrics_sha256": "4bc7ad5a679c8528b2d2e86e018a26bc223dee4c18e3686a226123ad2c18bb1e"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 93.7,
+            "candidate_nll": 0.1901573976050187,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_none_sd2001_lr0.0002",
+            "metrics_sha256": "7ce05b975f9d19cd92448e8e4f1fc9561f78efa6dc66e5ed41d3f4fa7fe54f60"
+          }
+        ]
+      },
+      "both": {
+        "lr": 0.0002,
+        "accuracy": 94.0,
+        "candidate_nll": 0.19064152465888623,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_both_sd2001_lr0.0002",
+        "metrics_sha256": "fe95d3b359c6c894691921202d7ed1b42fe5c4aae104930b4897a08d9ff3d898",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 93.60000000000001,
+            "candidate_nll": 0.19780079348479718,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_both_sd2001_lr5e-05",
+            "metrics_sha256": "e4dbaa596f193806c2ced0b30ada7657c123024ab5672622edf020e5898bca5a"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 94.0,
+            "candidate_nll": 0.19064152465888623,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_both_sd2001_lr0.0002",
+            "metrics_sha256": "fe95d3b359c6c894691921202d7ed1b42fe5c4aae104930b4897a08d9ff3d898"
+          }
+        ]
+      },
+      "interior": {
+        "lr": 0.0002,
+        "accuracy": 93.7,
+        "candidate_nll": 0.1921977773563347,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_interior_sd2001_lr0.0002",
+        "metrics_sha256": "a07e429f57f5d0a3669eb911f3a1d3817241c4c0d1ddc09c70a0f2ef5142b791",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 93.4,
+            "candidate_nll": 0.19667250307873727,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_interior_sd2001_lr5e-05",
+            "metrics_sha256": "5cd63e21d52dac58e6dc642cbf2f684c5a2607e6c9c46edfcdd07bafa16f4aef"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 93.7,
+            "candidate_nll": 0.1921977773563347,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_interior_sd2001_lr0.0002",
+            "metrics_sha256": "a07e429f57f5d0a3669eb911f3a1d3817241c4c0d1ddc09c70a0f2ef5142b791"
+          }
+        ]
+      },
+      "hidden_budget": {
+        "lr": 0.0002,
+        "accuracy": 93.8,
+        "candidate_nll": 0.1869913809674549,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_hidden_budget_sd2001_lr0.0002",
+        "metrics_sha256": "8ec3e0e9aa0d3e205fe881c67af7856ac90c9c5eb03eecbc4cca1e1e3c6ab64e",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 93.5,
+            "candidate_nll": 0.200956220329401,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_hidden_budget_sd2001_lr5e-05",
+            "metrics_sha256": "bbf903945bba9627824dfe0b154fdfaca4cdad714b95f210f422e09bba858d53"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 93.8,
+            "candidate_nll": 0.1869913809674549,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/tuning_qwen25_15b_chat_hidden_budget_sd2001_lr0.0002",
+            "metrics_sha256": "8ec3e0e9aa0d3e205fe881c67af7856ac90c9c5eb03eecbc4cca1e1e3c6ab64e"
+          }
+        ]
+      }
+    }
+  },
+  "rule": "validation accuracy, then candidate NLL, then lower LR",
+  "test_metrics_accessed": false
+}

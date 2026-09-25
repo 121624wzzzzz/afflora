@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "model": {
+    "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B",
+    "hidden_size": 1536,
+    "tie_word_embeddings": true,
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/config.json": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/model.safetensors": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "repo": "Qwen/Qwen2.5-1.5B",
+    "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "training_stage": "pretraining_only",
+    "previous_chat_model_key": "qwen25_15b_chat"
+  }
+}

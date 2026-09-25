@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-17T21:34:19+08:00",
+  "status": "passed",
+  "author_records_verified": 6132,
+  "token_records_reencoded": 49056,
+  "split_clusters_disjoint": true,
+  "invalid_outputs_not_used_for_preparation": true
+}

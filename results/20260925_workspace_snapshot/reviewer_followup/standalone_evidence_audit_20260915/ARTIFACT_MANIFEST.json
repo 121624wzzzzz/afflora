@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "scope": "Read-only audit and interpretation, no new training or inference",
+  "sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_evidence_audit_20260915/INTERPRETATION_ZH.md": "01b25ba067196e2ab4c3ca6c0f388f8f996c7ddaf8cedc8989489b4b00c44572",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_evidence_audit_20260915/AUDIT.json": "23168ee9311f640aa5455317785e594a29b5469c21dca02f57f66f3a1147bd1b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_evidence_audit_20260915/audit.py": "dea3278b5e339b0554bdf4ddbec2fee0ffe0e5be58bd349e29326e885c0a79b8"
+  }
+}

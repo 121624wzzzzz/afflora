@@ -1,0 +1,465 @@
+{
+  "at": "2026-09-16T19:03:54+08:00",
+  "scope": "post-hoc descriptive development diagnostic; held-out gold used only for token-budget checks",
+  "warning": "Answer CE includes JSON syntax and copied tokens; its improvement is not a content-accuracy claim.",
+  "lengths": [
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "split": "pilot_train",
+      "n": 2048,
+      "prompt_p50_p95_max": [
+        455.5,
+        834.6499999999999,
+        1399.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        29.0,
+        109.0,
+        418.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.023433834887579382
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "split": "pilot_dev",
+      "n": 200,
+      "prompt_p50_p95_max": [
+        322.5,
+        606.05,
+        819.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        43.0,
+        141.49999999999983,
+        362.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.01701258931609391
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "split": "test",
+      "n": 710,
+      "prompt_p50_p95_max": [
+        307.5,
+        628.55,
+        978.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        39.0,
+        135.0999999999999,
+        330.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.018405226047283285
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "split": "pilot_train",
+      "n": 2048,
+      "prompt_p50_p95_max": [
+        455.5,
+        834.6499999999999,
+        1399.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        29.0,
+        109.0,
+        418.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.023433834887579382
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "split": "pilot_dev",
+      "n": 200,
+      "prompt_p50_p95_max": [
+        322.5,
+        606.05,
+        819.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        43.0,
+        141.49999999999983,
+        362.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.01701258931609391
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "split": "test",
+      "n": 710,
+      "prompt_p50_p95_max": [
+        307.5,
+        628.55,
+        978.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        39.0,
+        135.0999999999999,
+        330.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.018405226047283285
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "split": "pilot_train",
+      "n": 2048,
+      "prompt_p50_p95_max": [
+        145.0,
+        156.0,
+        168.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        33.0,
+        74.0,
+        160.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.026610535069254957
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "split": "pilot_dev",
+      "n": 200,
+      "prompt_p50_p95_max": [
+        145.0,
+        157.0,
+        162.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        35.0,
+        76.04999999999998,
+        126.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.024476808224207565
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "split": "test",
+      "n": 1343,
+      "prompt_p50_p95_max": [
+        145.0,
+        156.0,
+        165.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        34.0,
+        75.0,
+        138.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.026129421378263747
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "split": "pilot_train",
+      "n": 2048,
+      "prompt_p50_p95_max": [
+        145.0,
+        156.0,
+        168.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        33.0,
+        74.0,
+        160.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.026610535069254957
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "split": "pilot_dev",
+      "n": 200,
+      "prompt_p50_p95_max": [
+        145.0,
+        157.0,
+        162.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        35.0,
+        76.04999999999998,
+        126.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.024476808224207565
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "split": "test",
+      "n": 1343,
+      "prompt_p50_p95_max": [
+        145.0,
+        156.0,
+        165.0
+      ],
+      "target_including_eos_p50_p95_max": [
+        34.0,
+        75.0,
+        138.0
+      ],
+      "targets_exceeding_512_including_eos": 0,
+      "eos_fraction_of_supervised_tokens": 0.026129421378263747
+    }
+  ],
+  "development_loss_decomposition": [
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "base_answer_ce": 0.48815442286960475,
+      "mean_answer_ce": 0.03942307826378517,
+      "base_eos_ce": 0.01945433804765344,
+      "mean_eos_ce": 0.0028825271182377037,
+      "answer_contribution_to_total_ce_drop": 0.4410972625267822,
+      "eos_contribution_to_total_ce_drop": 0.00028192941356610643,
+      "eos_share_of_total_ce_drop": 0.0006387464989609404
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "base_answer_ce": 0.48815442286960475,
+      "mean_answer_ce": 0.07947458777307184,
+      "base_eos_ce": 0.01945433804765344,
+      "mean_eos_ce": 0.003764108413946815,
+      "answer_contribution_to_total_ce_drop": 0.4017271329002666,
+      "eos_contribution_to_total_ce_drop": 0.00026693143303345733,
+      "eos_share_of_total_ce_drop": 0.0006640183443408755
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "base_answer_ce": 0.48815442286960475,
+      "mean_answer_ce": 0.10318312108537324,
+      "base_eos_ce": 0.01945433804765344,
+      "mean_eos_ce": 0.010851226705126466,
+      "answer_contribution_to_total_ce_drop": 0.37842194312849436,
+      "eos_contribution_to_total_ce_drop": 0.0001463612001110407,
+      "eos_share_of_total_ce_drop": 0.0003866176815056235
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "base_answer_ce": 0.48815442286960475,
+      "mean_answer_ce": 0.03737617235446356,
+      "base_eos_ce": 0.01945433804765344,
+      "mean_eos_ce": 0.0001359562056386494,
+      "answer_contribution_to_total_ce_drop": 0.4431093452664998,
+      "eos_contribution_to_total_ce_drop": 0.0003286556965296834,
+      "eos_share_of_total_ce_drop": 0.0007411536580444855
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "base_answer_ce": 0.48815442286960475,
+      "mean_answer_ce": 0.039413260091734445,
+      "base_eos_ce": 0.01945433804765344,
+      "mean_eos_ce": 0.002571320022287182,
+      "answer_contribution_to_total_ce_drop": 0.44110691366630395,
+      "eos_contribution_to_total_ce_drop": 0.0002872238520817669,
+      "eos_share_of_total_ce_drop": 0.0006507196803668534
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "base_answer_ce": 0.4949866027805623,
+      "mean_answer_ce": 0.03383646201336381,
+      "base_eos_ce": 0.08995800372213125,
+      "mean_eos_ce": 0.0006657101528053318,
+      "answer_contribution_to_total_ce_drop": 0.4533047828092672,
+      "eos_contribution_to_total_ce_drop": 0.001519093119587035,
+      "eos_share_of_total_ce_drop": 0.0033399590478505547
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "base_answer_ce": 0.4949866027805623,
+      "mean_answer_ce": 0.06437244837199085,
+      "base_eos_ce": 0.08995800372213125,
+      "mean_eos_ce": 0.007665885445283493,
+      "answer_contribution_to_total_ce_drop": 0.4232882926459214,
+      "eos_contribution_to_total_ce_drop": 0.0014000020121954367,
+      "eos_share_of_total_ce_drop": 0.0032965401443957112
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "base_answer_ce": 0.4949866027805623,
+      "mean_answer_ce": 0.08194357102905106,
+      "base_eos_ce": 0.08995800372213125,
+      "mean_eos_ce": 0.008612657483608928,
+      "answer_contribution_to_total_ce_drop": 0.40601610028244844,
+      "eos_contribution_to_total_ce_drop": 0.0013838949683314449,
+      "eos_share_of_total_ce_drop": 0.0033968949054100305
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "base_answer_ce": 0.4949866027805623,
+      "mean_answer_ce": 0.032457761906423306,
+      "base_eos_ce": 0.08995800372213125,
+      "mean_eos_ce": 0.000729013294512697,
+      "answer_contribution_to_total_ce_drop": 0.45466002765749836,
+      "eos_contribution_to_total_ce_drop": 0.0015180161692347491,
+      "eos_share_of_total_ce_drop": 0.00332768354325121
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "base_answer_ce": 0.4949866027805623,
+      "mean_answer_ce": 0.033829676953194984,
+      "base_eos_ce": 0.08995800372213125,
+      "mean_eos_ce": 0.0006572732646218355,
+      "answer_contribution_to_total_ce_drop": 0.4533114524379939,
+      "eos_contribution_to_total_ce_drop": 0.0015192366529008065,
+      "eos_share_of_total_ce_drop": 0.0033402245920068022
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "base_answer_ce": 0.6781528340335952,
+      "mean_answer_ce": 0.10900268402142681,
+      "base_eos_ce": 0.06468356683850289,
+      "mean_eos_ce": 8.848838569247162e-05,
+      "answer_contribution_to_total_ce_drop": 0.5552191709395417,
+      "eos_contribution_to_total_ce_drop": 0.0015810813475170826,
+      "eos_share_of_total_ce_drop": 0.002839584466822323
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "base_answer_ce": 0.6781528340335952,
+      "mean_answer_ce": 0.21898082409041422,
+      "base_eos_ce": 0.06468356683850289,
+      "mean_eos_ce": 0.012136539122089745,
+      "answer_contribution_to_total_ce_drop": 0.4479329447138778,
+      "eos_contribution_to_total_ce_drop": 0.001286183520166764,
+      "eos_share_of_total_ce_drop": 0.002863153947212725
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "base_answer_ce": 0.6781528340335952,
+      "mean_answer_ce": 0.24522691871931168,
+      "base_eos_ce": 0.06468356683850289,
+      "mean_eos_ce": 0.004127932749921456,
+      "answer_contribution_to_total_ce_drop": 0.42232927070984627,
+      "eos_contribution_to_total_ce_drop": 0.0014822086424814938,
+      "eos_share_of_total_ce_drop": 0.003497330097680736
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "base_answer_ce": 0.6781528340335952,
+      "mean_answer_ce": 0.1037959687923072,
+      "base_eos_ce": 0.06468356683850289,
+      "mean_eos_ce": 0.0001442829087973223,
+      "answer_contribution_to_total_ce_drop": 0.5602984423985199,
+      "eos_contribution_to_total_ce_drop": 0.0015797156756750842,
+      "eos_share_of_total_ce_drop": 0.0028114915181780137
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "base_answer_ce": 0.6781528340335952,
+      "mean_answer_ce": 0.10869808280921134,
+      "base_eos_ce": 0.06468356683850289,
+      "mean_eos_ce": 9.162367680983151e-05,
+      "answer_contribution_to_total_ce_drop": 0.5555163164863008,
+      "eos_contribution_to_total_ce_drop": 0.0015810046055976762,
+      "eos_share_of_total_ce_drop": 0.002837932522272665
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "base_answer_ce": 0.7433878963586752,
+      "mean_answer_ce": 0.10655267409706426,
+      "base_eos_ce": 0.008753149663098156,
+      "mean_eos_ce": 0.00045861738135135965,
+      "answer_contribution_to_total_ce_drop": 0.6212475286558928,
+      "eos_contribution_to_total_ce_drop": 0.0002030236759698151,
+      "eos_share_of_total_ce_drop": 0.0003266932102771675
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "base_answer_ce": 0.7433878963586752,
+      "mean_answer_ce": 0.18292956777564734,
+      "base_eos_ce": 0.008753149663098156,
+      "mean_eos_ce": 0.00039024313085246826,
+      "answer_contribution_to_total_ce_drop": 0.5467400975566411,
+      "eos_contribution_to_total_ce_drop": 0.00020469725938675044,
+      "eos_share_of_total_ce_drop": 0.0003742557956979974
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "base_answer_ce": 0.7433878963586752,
+      "mean_answer_ce": 0.18892856399472482,
+      "base_eos_ce": 0.008753149663098156,
+      "mean_eos_ce": 0.001592300915741362,
+      "answer_contribution_to_total_ce_drop": 0.5408879376175558,
+      "eos_contribution_to_total_ce_drop": 0.00017527472151160922,
+      "eos_share_of_total_ce_drop": 0.00032394499850374236
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "base_answer_ce": 0.7433878963586752,
+      "mean_answer_ce": 0.09883725040605924,
+      "base_eos_ce": 0.008753149663098156,
+      "mean_eos_ce": 0.000195909829941229,
+      "answer_contribution_to_total_ce_drop": 0.6287741034008446,
+      "eos_contribution_to_total_ce_drop": 0.00020945391832473203,
+      "eos_share_of_total_ce_drop": 0.0003330038057234101
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "base_answer_ce": 0.7433878963586752,
+      "mean_answer_ce": 0.10640909549747593,
+      "base_eos_ce": 0.008753149663098156,
+      "mean_eos_ce": 0.00044830640377767854,
+      "answer_contribution_to_total_ce_drop": 0.6213875929096341,
+      "eos_contribution_to_total_ce_drop": 0.0002032760557904902,
+      "eos_share_of_total_ce_drop": 0.00032702548563627186
+    }
+  ]
+}

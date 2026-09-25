@@ -1,0 +1,38 @@
+[
+  {
+    "name": "base_clinc150_qwen3_06b_base_none_none_r0_b0_lr1_s0",
+    "model": "qwen3_06b_base",
+    "task": "clinc150",
+    "arm": "base",
+    "seed": 0,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false,
+    "stage": "base",
+    "boundary_lr_ratio": 1.0,
+    "expected_total_parameters": 0,
+    "expected_boundary_parameters": 0,
+    "method": "none",
+    "placement": "none",
+    "rank": 0,
+    "bias": false
+  },
+  {
+    "name": "base_clinc150_llama32_1b_base_none_none_r0_b0_lr1_s0",
+    "model": "llama32_1b_base",
+    "task": "clinc150",
+    "arm": "base",
+    "seed": 0,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false,
+    "stage": "base",
+    "boundary_lr_ratio": 1.0,
+    "expected_total_parameters": 0,
+    "expected_boundary_parameters": 0,
+    "method": "none",
+    "placement": "none",
+    "rank": 0,
+    "bias": false
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "downloaded_at": "2026-09-15T11:24:00+08:00",
+  "repositories": {
+    "cmrc2018": {
+      "repository": "ymcui/cmrc2018",
+      "commit": "c0eb1b6ba219847457e6af3180da722bbeb656af",
+      "files": {
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/README.md": {
+          "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/README.md",
+          "git_blob_sha1": "e6fe1cd6b58600936cd8d4e3bc0839dc6a7714e2",
+          "sha256": "07047da7471a21f70b4fbe6756450fff761bf59cf4ccb8c1d5994724c661a436",
+          "bytes": 3487
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/LICENCE": {
+          "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/LICENCE",
+          "git_blob_sha1": "3b7b82d0da2db857eda1a798dbd908ea136f07b5",
+          "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+          "bytes": 20131
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/squad-style-data/cmrc2018_train.json": {
+          "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/squad-style-data/cmrc2018_train.json",
+          "git_blob_sha1": "cd56f7d38f6f4a6f92df2616479bbf134a37bebf",
+          "sha256": "5497aa2f81908e31d6b0e27d99b1f90ab63a8f58fa92fffe5d17cf62eba0c212",
+          "bytes": 7408757
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/squad-style-data/cmrc2018_dev.json": {
+          "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/squad-style-data/cmrc2018_dev.json",
+          "git_blob_sha1": "94c1f2df14a669b0b7b836665d6339a34df8aa97",
+          "sha256": "e9ff74231f05c230c6fa88b84441ee334d97234cbb610991cd94b82db00c7f1f",
+          "bytes": 3299139
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/squad-style-data/cmrc2018_evaluate.py": {
+          "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/squad-style-data/cmrc2018_evaluate.py",
+          "git_blob_sha1": "2ed611f8d1ec860c4aee03cb7524e5053034e78a",
+          "sha256": "56da606758e4d8607c37af6acecfb4811ede6eb10dd54031deb75231324ba783",
+          "bytes": 4328
+        }
+      }
+    },
+    "c3": {
+      "repository": "nlpdata/c3",
+      "commit": "1f41682ebb684d63afe7c583c8f38e137fc8a826",
+      "files": {
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/README.md": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/README.md",
+          "git_blob_sha1": "4ccde9d1606c5bbf71aa3fdc4fd0783cfec1238a",
+          "sha256": "d38793da899a714935228f10f747a0fe088dfb1f7c8da5cb8f4e6c9cc3774d9b",
+          "bytes": 5211
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/license.txt": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/license.txt",
+          "git_blob_sha1": "af9853d32bd24e04354b53270720302b564f7777",
+          "sha256": "660d0b99093abbd8b3a2614a20630000586d9d5c207c0ccf8f0143f462b53014",
+          "bytes": 66
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-d-train.json": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/data/c3-d-train.json",
+          "git_blob_sha1": "6c3a8c25382266b8fd2d012fa66a0163a753f765",
+          "sha256": "baf81f327dee84c6f451c9a4dd662e6193c67473b8791ffb72cce75cdb528f20",
+          "bytes": 2683529
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-d-dev.json": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/data/c3-d-dev.json",
+          "git_blob_sha1": "05f2622cce8aed0df95b8c457c2bcb84f4b5ed7e",
+          "sha256": "8c7054930a40aeb288ad7c51c42fa93d54aef678ccab29c75d46a7432f4f6278",
+          "bytes": 813459
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-d-test.json": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/data/c3-d-test.json",
+          "git_blob_sha1": "df6b54edaf50f8e1bf95ba606b512472bdaeb788",
+          "sha256": "e9920491b31f9d00ecf31e51727b495dd6b0d05f4a96f273a343e81b6775a8f0",
+          "bytes": 855404
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-m-train.json": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/data/c3-m-train.json",
+          "git_blob_sha1": "2cdc3feacd93988c916099a23fd35a80a286f8e1",
+          "sha256": "4c84a534f1eec2c72e5f60f0c044cc39e2e42a88df01134e677e03217472d6af",
+          "bytes": 3292571
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-m-dev.json": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/data/c3-m-dev.json",
+          "git_blob_sha1": "32f7aa82d01a23e88d1e37eb21b4289fc008975a",
+          "sha256": "357d0d8d2a29bc845cbe50e048c263629f5e527b70f24c3e0838c387c8d3cb54",
+          "bytes": 1103725
+        },
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-m-test.json": {
+          "url": "https://raw.githubusercontent.com/nlpdata/c3/1f41682ebb684d63afe7c583c8f38e137fc8a826/data/c3-m-test.json",
+          "git_blob_sha1": "fd52154962dd765a4fd381012049435d2706f829",
+          "sha256": "7d8074be56cf574536a3284bc2d6b04d137694d5e5f5b1368143c0cf3e336822",
+          "bytes": 1085489
+        }
+      }
+    }
+  }
+}

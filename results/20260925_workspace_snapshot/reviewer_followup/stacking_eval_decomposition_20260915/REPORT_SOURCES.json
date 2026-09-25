@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/RESULTS.json": "51aa306956211c92ee89b237970f849ed13e4209f52bfb5538e0564598b63848",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/FINAL_AUDIT.json": "a8344e8a6134279d03c5f0d9d5b174100fcdb8dae8c3323ff2dd998e1c866052",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/ANSWER_SET_CHECK.json": "71507318a0cda54bb38ad8a61c8392b33cec09596f6e9e373694f13846b1bea5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/EVALUATION_V2.md": "0d336b96d27b4c99bd1dd1b3b6084e637fea50153743a910e7e1e8fa9ea5798b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/make_report.py": "b6065e1b1bcc72932a560de667c260bcee0d94f3140b11db9cc13c854fff8992"
+  },
+  "previous_results_sha256": "c2cf203bc6941a2e934c17c25339dafacf80eb5738b37227cdb4088dee8046c1",
+  "report_sha256": "64008aba18b4228b199096455cd67310a0ee9e51024cdb5ac46e8af1f8016c7e"
+}

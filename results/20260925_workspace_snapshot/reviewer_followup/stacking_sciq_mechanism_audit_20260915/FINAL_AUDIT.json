@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-15T19:16:24+08:00",
+  "status": "passed",
+  "sealed_original_files_rechecked": 861,
+  "copied_files_rechecked": 11,
+  "model_files_rechecked": 14,
+  "inference_jobs": 20,
+  "label_score_rows_audited": 168000,
+  "eos_score_rows_audited": 160000,
+  "original_full_path_rows_replayed_bitwise": 40000,
+  "max_eos_prefix_label_replay_error": 2.86102294921875e-05,
+  "new_training_jobs": 0,
+  "original_sealed_study_unchanged": true,
+  "notes": "New analyses are post hoc; no selected test configuration or changed primary test."
+}

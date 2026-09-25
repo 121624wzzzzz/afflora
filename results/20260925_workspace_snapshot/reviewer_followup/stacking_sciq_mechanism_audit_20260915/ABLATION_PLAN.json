@@ -1,0 +1,98 @@
+{
+  "at": "2026-09-15T19:04:05+08:00",
+  "tasks": [
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2002_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2002,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2002_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2002_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2002,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2002_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2003_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2003,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2003_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2003_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2003,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2003_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2004_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2004,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2004_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2004_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2004,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2004_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2005_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2005,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2005_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2005_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2005,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2005_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2006_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2006,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2006_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2006_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2006,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2006_lr0.0002"
+    }
+  ],
+  "script_sha256": "21e1e9d5a3f06dc9cc3193e0ea864bef7bede193f265ccaa008f499d25053cdf",
+  "design_sha256": "dad3cc0ea2faba2d6606060dd34d6ee800f629801f92a224237f02615d3de11d",
+  "unadapted_base": "additional reference on seed2002 checkpoint with internal LoRA and both boundary maps disabled, once per model"
+}

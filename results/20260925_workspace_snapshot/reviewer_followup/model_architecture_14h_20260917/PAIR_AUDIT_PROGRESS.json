@@ -1,0 +1,3004 @@
+{
+  "at": "2026-09-18T01:56:24.151932+00:00",
+  "status": "passed",
+  "scope": "available initialization/order files only; consult scheduler for completion; no inference from missing runs",
+  "runs": [
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_s6100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_s6101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_s6102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_budget_s6100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_budget_s6101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_budget_s6102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_both_s6100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_both_s6101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_hidden_both_s6102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_input_s6100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_input_s6101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_input_s6102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_output_s6100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_output_s6101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_output_s6102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_05b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_s7100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_s7101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_s7102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_budget_s7100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_budget_s7101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_budget_s7102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_input_s7102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_output_s7102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_both_s7100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_both_s7101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_hidden_both_s7102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_input_s7101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_input_s7102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_output_s7101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_output_s7102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_05b_base_both_s7102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_s6100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_s6101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_s6102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_budget_s6100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_budget_s6101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_budget_s6102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_both_s6100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_both_s6101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_hidden_both_s6102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_input_s6100",
+      "reused": true,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_input_s6101",
+      "reused": true,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_input_s6102",
+      "reused": true,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_output_s6100",
+      "reused": true,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_output_s6101",
+      "reused": true,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_output_s6102",
+      "reused": true,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_15b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_s7100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_s7101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_s7102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_input_s7101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_output_s7101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_15b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_s6100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_s6101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_s6102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_both_s6100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_both_s6101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_hidden_both_s6102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_input_s6100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_input_s6101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_input_s6102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_output_s6100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_output_s6101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_output_s6102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_3b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_s7100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_s7101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_s7102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_3b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_s6100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_s6101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_s6102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_s6103",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_s6104",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6103",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6104",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_both_s6100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_both_s6101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_both_s6102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_both_s6103",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_hidden_both_s6104",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_input_s6100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_input_s6101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_input_s6102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_output_s6100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_output_s6101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_output_s6102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen25_7b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_s7100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_s7101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_s7102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_s7103",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_s7104",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7103",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7104",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_input_s7102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_output_s7102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7103",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7104",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_input_s7101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_input_s7102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_output_s7101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_output_s7102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen25_7b_base_both_s7102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_s6100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_s6101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_s6102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_budget_s6100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_budget_s6101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_budget_s6102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_both_s6100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_both_s6101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_hidden_both_s6102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_input_s6100",
+      "reused": true,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_input_s6101",
+      "reused": true,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_input_s6102",
+      "reused": true,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_output_s6100",
+      "reused": true,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_output_s6101",
+      "reused": true,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_output_s6102",
+      "reused": true,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_06b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_base",
+      "reused": true,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_s7100",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_s7101",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_s7102",
+      "reused": true,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7100",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7101",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7102",
+      "reused": true,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_input_s7102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_output_s7102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7100",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7101",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7102",
+      "reused": true,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_input_s7101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_input_s7102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_output_s7101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_output_s7102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_06b_base_both_s7102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_s6100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_s6101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_s6102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_budget_s6100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_budget_s6101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_budget_s6102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_both_s6100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_both_s6101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_hidden_both_s6102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_input_s6100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_input_s6101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_input_s6102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_output_s6100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_output_s6101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_output_s6102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_17b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_s7100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_s7101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_s7102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_budget_s7100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_budget_s7101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_budget_s7102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_input_s7102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_output_s7102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_both_s7100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_both_s7101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_hidden_both_s7102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_input_s7101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_input_s7102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_output_s7101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_output_s7102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_17b_base_both_s7102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_s6100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_s6101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_s6102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_budget_s6100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_budget_s6101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_budget_s6102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_both_s6100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_both_s6101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_hidden_both_s6102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_input_s6100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_input_s6101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_input_s6102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_output_s6100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_output_s6101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_output_s6102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_4b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_s7100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_s7101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_s7102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_budget_s7100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_budget_s7101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_budget_s7102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_input_s7102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_output_s7102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_both_s7100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_both_s7101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_hidden_both_s7102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_input_s7101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_input_s7102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_output_s7101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_output_s7102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_4b_base_both_s7102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_s6100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_s6101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_s6102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_budget_s6100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_budget_s6101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_budget_s6102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_input_s6100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_input_s6101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_input_s6102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_output_s6100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_output_s6101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_output_s6102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_both_s6100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_both_s6101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_hidden_both_s6102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_input_s6100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_input_s6101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_input_s6102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_output_s6100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_output_s6101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_output_s6102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_both_s6100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_both_s6101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "cluener_qwen3_8b_base_both_s6102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_s7100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_s7101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_s7102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_budget_s7100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_budget_s7101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_budget_s7102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_input_s7100",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_input_s7101",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_input_s7102",
+      "reused": false,
+      "arm": "hidden_input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_output_s7100",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_output_s7101",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_output_s7102",
+      "reused": false,
+      "arm": "hidden_output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_both_s7100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_both_s7101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_hidden_both_s7102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_input_s7100",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_input_s7101",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_input_s7102",
+      "reused": false,
+      "arm": "input"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_output_s7100",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_output_s7101",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_output_s7102",
+      "reused": false,
+      "arm": "output"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_both_s7100",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_both_s7101",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "core",
+      "name": "wikisql_qwen3_8b_base_both_s7102",
+      "reused": false,
+      "arm": "both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_s9100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_s9101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_s9102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_budget_s9100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_budget_s9101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_budget_s9102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_both_s9100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_both_s9101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_05b_base_hidden_both_s9102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_s9100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_s9101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_s9102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_budget_s9100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_budget_s9101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_budget_s9102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_both_s9100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_both_s9101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_15b_base_hidden_both_s9102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_s9100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_s9101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_s9102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_budget_s9100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_budget_s9101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_budget_s9102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_both_s9100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_both_s9101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen25_7b_base_hidden_both_s9102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_s9100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_s9101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_s9102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_budget_s9100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_budget_s9101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_budget_s9102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_both_s9100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_both_s9101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_06b_base_hidden_both_s9102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_s9100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_s9101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_s9102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_budget_s9100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_budget_s9101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_budget_s9102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_both_s9100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_both_s9101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "trec50_qwen3_8b_base_hidden_both_s9102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_s10100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_s10101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_s10102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_budget_s10100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_budget_s10101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_budget_s10102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_both_s10100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_both_s10101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_05b_base_hidden_both_s10102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_s10100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_s10101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_s10102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_budget_s10100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_budget_s10101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_budget_s10102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_both_s10100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_both_s10101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_15b_base_hidden_both_s10102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_s10100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_s10101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_s10102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_budget_s10100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_budget_s10101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_budget_s10102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_both_s10100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_both_s10101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen25_7b_base_hidden_both_s10102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_s10100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_s10101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_budget_s10100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_budget_s10101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_budget_s10102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_both_s10100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_both_s10101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_06b_base_hidden_both_s10102",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_base",
+      "reused": false,
+      "arm": "base"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_s10100",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_s10101",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_s10102",
+      "reused": false,
+      "arm": "hidden"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_budget_s10100",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_budget_s10101",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_budget_s10102",
+      "reused": false,
+      "arm": "hidden_budget"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_both_s10100",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_both_s10101",
+      "reused": false,
+      "arm": "hidden_both"
+    },
+    {
+      "phase": "new_tasks",
+      "name": "squad2_qwen3_8b_base_hidden_both_s10102",
+      "reused": false,
+      "arm": "hidden_both"
+    }
+  ],
+  "model_frozen_digest_groups": 8,
+  "paired_groups": 82,
+  "reused_runs_rehashed": 104
+}

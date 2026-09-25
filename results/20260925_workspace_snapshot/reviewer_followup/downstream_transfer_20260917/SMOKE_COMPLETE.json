@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-17T11:12:21+08:00",
+  "status": "passed",
+  "finished": [
+    {
+      "name": "smoke_anli_r1_qwen3_06b_base_hidden_both",
+      "code": 0
+    },
+    {
+      "name": "smoke_wikisql_qwen3_06b_base_hidden_budget",
+      "code": 0
+    },
+    {
+      "name": "smoke_anli_r1_qwen25_15b_base_hidden_both",
+      "code": 0
+    },
+    {
+      "name": "smoke_wikisql_qwen25_15b_base_hidden_budget",
+      "code": 0
+    }
+  ],
+  "failed": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "diagnostic_wikisql_hidden_both_ratio025_s7601",
+    "stage": "search",
+    "task": "wikisql",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7601,
+    "candidate": "c5",
+    "lr": 0.0008,
+    "boundary_lr_ratio": 0.25,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "diagnostic_wikisql_hidden_both_ratio025_s7600",
+    "stage": "search",
+    "task": "wikisql",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7600,
+    "candidate": "c5",
+    "lr": 0.0008,
+    "boundary_lr_ratio": 0.25,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "dev"
+    ]
+  }
+]

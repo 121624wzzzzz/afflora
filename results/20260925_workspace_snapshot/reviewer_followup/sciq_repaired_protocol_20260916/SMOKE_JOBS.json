@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "train",
+    "spec": {
+      "phase": "smoke",
+      "name": "smoke_qwen3_06b_base_small_q_sd5000_lr5e-05_attempt2",
+      "model": "qwen3_06b_base",
+      "arm": "small_q",
+      "seed": 5000,
+      "lr": 5e-05,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/checkpoints/smoke_qwen3_06b_base_small_q_sd5000_lr5e-05_attempt2"
+    },
+    "split": "smoke"
+  },
+  {
+    "kind": "train",
+    "spec": {
+      "phase": "smoke",
+      "name": "smoke_qwen25_15b_base_small_q_sd5000_lr5e-05_attempt2",
+      "model": "qwen25_15b_base",
+      "arm": "small_q",
+      "seed": 5000,
+      "lr": 5e-05,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/checkpoints/smoke_qwen25_15b_base_small_q_sd5000_lr5e-05_attempt2"
+    },
+    "split": "smoke"
+  }
+]

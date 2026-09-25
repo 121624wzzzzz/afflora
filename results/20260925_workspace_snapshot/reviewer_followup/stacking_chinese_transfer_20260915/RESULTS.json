@@ -1,0 +1,1121 @@
+{
+  "created_at": "2026-09-15T12:30:18+08:00",
+  "complete": true,
+  "scored_endpoints_tasks": 52,
+  "expected_endpoints_tasks": 52,
+  "records": [
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.2830071450761106,
+      "f1": 0.6259376187512425,
+      "avg": 0.45447238191367645,
+      "answer_ce": 0.8042022156935889,
+      "answer_top1": 0.8403984827312078,
+      "hit_token_cap": 0.001863932898415657,
+      "generated_tokens": 19.5318421870146
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.566289825282631,
+      "accuracy_sum": 0.5781089414182939,
+      "margin": 0.46102464317829417,
+      "gold_ce": 2.0017725441601257,
+      "gold_top1": 0.6109956018987377
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.28890959925442683,
+      "f1": 0.63041449331335,
+      "avg": 0.4596620462838879,
+      "answer_ce": 0.789914464630176,
+      "answer_top1": 0.8410676178731631,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 19.251941596769182
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.5644912641315519,
+      "accuracy_sum": 0.5770811921891058,
+      "margin": 0.4572851023689438,
+      "gold_ce": 1.9789086031205463,
+      "gold_top1": 0.6093841359694401
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.30071450761105933,
+      "f1": 0.641003087009732,
+      "avg": 0.4708587973103948,
+      "answer_ce": 0.7434715650936347,
+      "answer_top1": 0.84681147459111,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 18.851196023609816
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.5698869475847893,
+      "accuracy_sum": 0.5814491264131552,
+      "margin": 0.4933281983007356,
+      "gold_ce": 2.0239616057085876,
+      "gold_top1": 0.6054093566092551
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.2854923889406648,
+      "f1": 0.6272957777991284,
+      "avg": 0.456394083369896,
+      "answer_ce": 0.805272397359559,
+      "answer_top1": 0.8393124346405499,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 19.39484311898105
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.5665467625899281,
+      "accuracy_sum": 0.5770811921891058,
+      "margin": 0.4766116487260642,
+      "gold_ce": 2.045331697590255,
+      "gold_top1": 0.6073102848462575
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.19602360981671327,
+      "f1": 0.5913614562980388,
+      "avg": 0.39369253305737634,
+      "answer_ce": 0.8809961911434369,
+      "answer_top1": 0.8023823779095475,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 19.60919540229885
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.6891058581706063,
+      "accuracy_sum": 0.7006680369989723,
+      "margin": 1.5191976185635905,
+      "gold_ce": 2.054622730462471,
+      "gold_top1": 0.5933005315721377
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.2072072072072072,
+      "f1": 0.5964869795682174,
+      "avg": 0.40184709338771196,
+      "answer_ce": 0.8578524149616703,
+      "answer_top1": 0.8041131987793663,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 19.51133892513203
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.6867934224049332,
+      "accuracy_sum": 0.697841726618705,
+      "margin": 1.5177257837001343,
+      "gold_ce": 2.0526681498662147,
+      "gold_top1": 0.5944092364449742
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.22087604846225536,
+      "f1": 0.6052385191121654,
+      "avg": 0.4130572837872104,
+      "answer_ce": 0.8079246219859871,
+      "answer_top1": 0.8085368650680526,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 19.09785647716682
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.6875642343268242,
+      "accuracy_sum": 0.7001541623843782,
+      "margin": 1.4790292660240387,
+      "gold_ce": 2.0865435898842555,
+      "gold_top1": 0.5857780801455242
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "task": "cmrc",
+      "em": 0.20099409754582168,
+      "f1": 0.593970782056599,
+      "avg": 0.3974824398012105,
+      "answer_ce": 0.8562203018105177,
+      "answer_top1": 0.8061229801606705,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 19.653929791860826
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "task": "c3",
+      "accuracy": 0.6893627954779034,
+      "accuracy_sum": 0.7014388489208633,
+      "margin": 1.5147822777074218,
+      "gold_ce": 2.0674042981788383,
+      "gold_top1": 0.5920372564779275
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.2957440198819509,
+      "f1": 0.634350323892508,
+      "avg": 0.46504717188722944,
+      "answer_ce": 0.7994311411823491,
+      "answer_top1": 0.8416392350201578,
+      "hit_token_cap": 0.001863932898415657,
+      "generated_tokens": 19.357564461012736
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.5562692702980473,
+      "accuracy_sum": 0.567060637204522,
+      "margin": 0.43071384624738057,
+      "gold_ce": 2.0569985027700906,
+      "gold_top1": 0.606465654428143
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.3103448275862069,
+      "f1": 0.6462702907192445,
+      "avg": 0.4783075591527257,
+      "answer_ce": 0.7624727569913398,
+      "answer_top1": 0.8449693562991311,
+      "hit_token_cap": 0.0012426219322771047,
+      "generated_tokens": 18.77726001863933
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.5539568345323741,
+      "accuracy_sum": 0.565775950668037,
+      "margin": 0.4129861286489567,
+      "gold_ce": 2.0686689114720087,
+      "gold_top1": 0.6041911475030711
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.28766697732214974,
+      "f1": 0.6319880665589153,
+      "avg": 0.45982752194053234,
+      "answer_ce": 0.808414391905149,
+      "answer_top1": 0.8384064588604284,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 19.140726933830383
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.5570400822199383,
+      "accuracy_sum": 0.5680883864337102,
+      "margin": 0.4264293376766011,
+      "gold_ce": 2.097496415915471,
+      "gold_top1": 0.5990674913259717
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.30257844050947497,
+      "f1": 0.6403148399165283,
+      "avg": 0.47144664021300164,
+      "answer_ce": 0.7743117387835017,
+      "answer_top1": 0.8451338861035774,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 19.135445790618203
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.5539568345323741,
+      "accuracy_sum": 0.567060637204522,
+      "margin": 0.416116118594545,
+      "gold_ce": 2.11456406336839,
+      "gold_top1": 0.6002125956506755
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.18856787822305063,
+      "f1": 0.5845082062733674,
+      "avg": 0.38653804224820976,
+      "answer_ce": 0.8958909745111241,
+      "answer_top1": 0.7980050705313019,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 19.921404162783475
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.6816546762589928,
+      "accuracy_sum": 0.697584789311408,
+      "margin": 1.4324223858158363,
+      "gold_ce": 2.136857596262843,
+      "gold_top1": 0.5814178948243932
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.18981050015532774,
+      "f1": 0.5858076379317712,
+      "avg": 0.3878090690435501,
+      "answer_ce": 0.8816119217101643,
+      "answer_top1": 0.7991883699034854,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 20.158434296365332
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.6798561151079137,
+      "accuracy_sum": 0.6939876670092497,
+      "margin": 1.4150927834854894,
+      "gold_ce": 2.1424510615376224,
+      "gold_top1": 0.5837577576280277
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.20037278657968313,
+      "f1": 0.5900083503092108,
+      "avg": 0.3951905684444477,
+      "answer_ce": 0.8594572308636224,
+      "answer_top1": 0.8033383533813084,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 19.82758620689655
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.6780575539568345,
+      "accuracy_sum": 0.6914182939362795,
+      "margin": 1.3934614723770065,
+      "gold_ce": 2.159515019629826,
+      "gold_top1": 0.5799675401944393
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "task": "cmrc",
+      "em": 0.18794656725691208,
+      "f1": 0.5838525179347244,
+      "avg": 0.38589954259581905,
+      "answer_ce": 0.8978947611248915,
+      "answer_top1": 0.7978102481096042,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 20.087294190742465
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "task": "c3",
+      "accuracy": 0.6783144912641316,
+      "accuracy_sum": 0.6952723535457348,
+      "margin": 1.432898539642715,
+      "gold_ce": 2.145405927590868,
+      "gold_top1": 0.58235071999283
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.29667598633115877,
+      "f1": 0.6373318771203526,
+      "avg": 0.4670039317257558,
+      "answer_ce": 0.7774420048392608,
+      "answer_top1": 0.8433509083227898,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 19.33115874495185
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.5511305241521068,
+      "accuracy_sum": 0.5632065775950668,
+      "margin": 0.3814266910020026,
+      "gold_ce": 2.1671666919243986,
+      "gold_top1": 0.5909825307230253
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.3078595837216527,
+      "f1": 0.6462214148051441,
+      "avg": 0.4770404992633979,
+      "answer_ce": 0.7614226838262512,
+      "answer_top1": 0.8454718647089265,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 18.98726312519416
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.5516443987667009,
+      "accuracy_sum": 0.565775950668037,
+      "margin": 0.3971932357828269,
+      "gold_ce": 2.144233200864498,
+      "gold_top1": 0.5927764017486535
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.2972972972972973,
+      "f1": 0.6368442805841957,
+      "avg": 0.46707078894074644,
+      "answer_ce": 0.7821316519686418,
+      "answer_top1": 0.8427053109685303,
+      "hit_token_cap": 0.0021745883814849334,
+      "generated_tokens": 19.273066169617895
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.5557553956834532,
+      "accuracy_sum": 0.5644912641315519,
+      "margin": 0.3791321371858205,
+      "gold_ce": 2.1699939200238307,
+      "gold_top1": 0.5890593753697568
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.29667598633115877,
+      "f1": 0.6391444908493716,
+      "avg": 0.4679102385902647,
+      "answer_ce": 0.7753239550920837,
+      "answer_top1": 0.843749694894595,
+      "hit_token_cap": 0.0015532774153463808,
+      "generated_tokens": 19.28859894377136
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.552672147995889,
+      "accuracy_sum": 0.5673175745118191,
+      "margin": 0.390797300908179,
+      "gold_ce": 2.139178366014232,
+      "gold_top1": 0.5929591127227315
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.1565703634669152,
+      "f1": 0.5641872899830855,
+      "avg": 0.36037882672500104,
+      "answer_ce": 0.9753521479280245,
+      "answer_top1": 0.7887033377621541,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 20.75862068965517
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.6744604316546763,
+      "accuracy_sum": 0.6903905447070915,
+      "margin": 1.434418622372067,
+      "gold_ce": 2.166287956723468,
+      "gold_top1": 0.5900299847442936
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.15284249767008387,
+      "f1": 0.5616240751412581,
+      "avg": 0.35723328640567176,
+      "answer_ce": 0.9775312746789228,
+      "answer_top1": 0.7879202278722484,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 20.642746194470334
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.6752312435765673,
+      "accuracy_sum": 0.6909044193216856,
+      "margin": 1.4342817052288779,
+      "gold_ce": 2.1378011758289444,
+      "gold_top1": 0.5892851724308793
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.15377446411929171,
+      "f1": 0.5633449002572624,
+      "avg": 0.3585596821882775,
+      "answer_ce": 0.9764466456995023,
+      "answer_top1": 0.7879398825107928,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 20.66480273376825
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.6770298047276464,
+      "accuracy_sum": 0.6942446043165468,
+      "margin": 1.4397830467598278,
+      "gold_ce": 2.007221594938542,
+      "gold_top1": 0.5977637976939342
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "task": "cmrc",
+      "em": 0.15719167443305374,
+      "f1": 0.563940305768731,
+      "avg": 0.360565990100893,
+      "answer_ce": 0.9728462254788415,
+      "answer_top1": 0.7900179442735181,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 20.73035104069587
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "task": "c3",
+      "accuracy": 0.6762589928057554,
+      "accuracy_sum": 0.6927029804727647,
+      "margin": 1.4391485603823868,
+      "gold_ce": 2.147447164773904,
+      "gold_top1": 0.590049255042341
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "reference",
+      "seed": null,
+      "task": "cmrc",
+      "em": 0.29667598633115877,
+      "f1": 0.613913511388823,
+      "avg": 0.45529474885999116,
+      "answer_ce": 0.9534031732143023,
+      "answer_top1": 0.8316259555472284,
+      "hit_token_cap": 0.0009319664492078285,
+      "generated_tokens": 18.311898105001553
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "reference",
+      "seed": null,
+      "task": "c3",
+      "accuracy": 0.5454779033915724,
+      "accuracy_sum": 0.5665467625899281,
+      "margin": 0.3476366584706803,
+      "gold_ce": 4.584483408367359,
+      "gold_top1": 0.5343126074096504
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "reference",
+      "seed": null,
+      "task": "cmrc",
+      "em": 0.2957440198819509,
+      "f1": 0.644585932757874,
+      "avg": 0.4701649763199127,
+      "answer_ce": 0.6952340825273287,
+      "answer_top1": 0.8260733810587089,
+      "hit_token_cap": 0.0009319664492078285,
+      "generated_tokens": 20.077974526250387
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "reference",
+      "seed": null,
+      "task": "c3",
+      "accuracy": 0.6927029804727647,
+      "accuracy_sum": 0.7088900308324769,
+      "margin": 1.667695485295968,
+      "gold_ce": 2.0357142274817397,
+      "gold_top1": 0.6170159469949009
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "task": "cmrc",
+      "metric": "avg",
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "mean_effect_pp": 0.8732710796449563,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 1.9364750729834284,
+          "better_questions": 251,
+          "worse_questions": 129
+        },
+        {
+          "seed": 43,
+          "effect_pp": 0.865252619623799,
+          "better_questions": 213,
+          "worse_questions": 136
+        },
+        {
+          "seed": 44,
+          "effect_pp": -0.1819144536723584,
+          "better_questions": 176,
+          "worse_questions": 157
+        }
+      ],
+      "seed_ci95": [
+        -1.7579711228389465,
+        3.504513282128859
+      ],
+      "seed_ci_bonferroni8": [
+        -6.825852871096016,
+        8.572395030385929
+      ],
+      "cluster_bootstrap_ci95": [
+        0.577530110875452,
+        1.165066545479563
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        0.4591481606591811,
+        1.2835426046315774
+      ],
+      "clusters": 848
+    },
+    {
+      "task": "cmrc",
+      "metric": "avg",
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "mean_effect_pp": 0.7619853974004341,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 1.557484398600002,
+          "better_questions": 226,
+          "worse_questions": 126
+        },
+        {
+          "seed": 43,
+          "effect_pp": 0.9291025848628736,
+          "better_questions": 208,
+          "worse_questions": 142
+        },
+        {
+          "seed": 44,
+          "effect_pp": -0.20063079126157285,
+          "better_questions": 171,
+          "worse_questions": 163
+        }
+      ],
+      "seed_ci95": [
+        -1.4511127593634296,
+        2.9750835541642977
+      ],
+      "seed_ci_bonferroni8": [
+        -5.713631711505981,
+        7.23760250630685
+      ],
+      "cluster_bootstrap_ci95": [
+        0.4826754485352911,
+        1.0421344672909647
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        0.36746355343128695,
+        1.148010600831839
+      ],
+      "clusters": 848
+    },
+    {
+      "task": "cmrc",
+      "metric": "avg",
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "mean_effect_pp": 0.37445408883374326,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 1.6386415396718872,
+          "better_questions": 269,
+          "worse_questions": 134
+        },
+        {
+          "seed": 43,
+          "effect_pp": -0.5219649946697166,
+          "better_questions": 145,
+          "worse_questions": 159
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.006685721499059297,
+          "better_questions": 157,
+          "worse_questions": 160
+        }
+      ],
+      "seed_ci95": [
+        -2.4233680599878062,
+        3.1722762376552924
+      ],
+      "seed_ci_bonferroni8": [
+        -7.812089702372929,
+        8.560997880040416
+      ],
+      "cluster_bootstrap_ci95": [
+        0.0917902949950128,
+        0.6570477552104735
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        -0.011484606511801472,
+        0.7726753259097165
+      ],
+      "clusters": 848
+    },
+    {
+      "task": "cmrc",
+      "metric": "avg",
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "mean_effect_pp": 0.0668715339503596,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 1.446471394049884,
+          "better_questions": 260,
+          "worse_questions": 144
+        },
+        {
+          "seed": 43,
+          "effect_pp": -1.161911827246934,
+          "better_questions": 137,
+          "worse_questions": 210
+        },
+        {
+          "seed": 44,
+          "effect_pp": -0.08394496495187115,
+          "better_questions": 150,
+          "worse_questions": 166
+        }
+      ],
+      "seed_ci95": [
+        -3.1891261245179043,
+        3.322869192418623
+      ],
+      "seed_ci_bonferroni8": [
+        -9.460312824906811,
+        9.594055892807532
+      ],
+      "cluster_bootstrap_ci95": [
+        -0.22016914966239873,
+        0.34788572605261525
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        -0.32361228920794316,
+        0.4559177395791231
+      ],
+      "clusters": 848
+    },
+    {
+      "task": "c3",
+      "metric": "accuracy",
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "mean_effect_pp": -0.08564576909900651,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": -0.15416238437821173,
+          "better_questions": 36,
+          "worse_questions": 42
+        },
+        {
+          "seed": 43,
+          "effect_pp": -0.3597122302158273,
+          "better_questions": 28,
+          "worse_questions": 42
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.2569373072970195,
+          "better_questions": 54,
+          "worse_questions": 44
+        }
+      ],
+      "seed_ci95": [
+        -0.8656217266631865,
+        0.6943301884651734
+      ],
+      "seed_ci_bonferroni8": [
+        -2.3678878106015464,
+        2.196596272403533
+      ],
+      "cluster_bootstrap_ci95": [
+        -0.36932300147604286,
+        0.20502437900833947
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        -0.46573051841681873,
+        0.3062326063521429
+      ],
+      "clusters": 2672
+    },
+    {
+      "task": "c3",
+      "metric": "accuracy",
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "mean_effect_pp": -0.042822884549503254,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": -0.17985611510791366,
+          "better_questions": 38,
+          "worse_questions": 45
+        },
+        {
+          "seed": 43,
+          "effect_pp": -0.025693730729701953,
+          "better_questions": 36,
+          "worse_questions": 37
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.07708119218910586,
+          "better_questions": 50,
+          "worse_questions": 47
+        }
+      ],
+      "seed_ci95": [
+        -0.36407722572618895,
+        0.2784314566271824
+      ],
+      "seed_ci_bonferroni8": [
+        -0.9828264274001214,
+        0.8971806583011149
+      ],
+      "cluster_bootstrap_ci95": [
+        -0.3313313177454744,
+        0.2618697757600843
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        -0.43626208435875463,
+        0.38737488533966374
+      ],
+      "clusters": 2672
+    },
+    {
+      "task": "c3",
+      "metric": "accuracy",
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "mean_effect_pp": 0.29976019184652275,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 0.3597122302158273,
+          "better_questions": 63,
+          "worse_questions": 49
+        },
+        {
+          "seed": 43,
+          "effect_pp": 0.07708119218910586,
+          "better_questions": 53,
+          "worse_questions": 50
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.4624871531346352,
+          "better_questions": 48,
+          "worse_questions": 30
+        }
+      ],
+      "seed_ci95": [
+        -0.19601123869859,
+        0.7955316223916356
+      ],
+      "seed_ci_bonferroni8": [
+        -1.1508876015796103,
+        1.7504079852726557
+      ],
+      "cluster_bootstrap_ci95": [
+        -0.008802332992655683,
+        0.6129391769357682
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        -0.12956110198866988,
+        0.7221116175336197
+      ],
+      "clusters": 2672
+    },
+    {
+      "task": "c3",
+      "metric": "accuracy",
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "mean_effect_pp": 0.3168893456663241,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 0.3340184994861254,
+          "better_questions": 56,
+          "worse_questions": 43
+        },
+        {
+          "seed": 43,
+          "effect_pp": 0.30832476875642345,
+          "better_questions": 54,
+          "worse_questions": 42
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.30832476875642345,
+          "better_questions": 42,
+          "worse_questions": 30
+        }
+      ],
+      "seed_ci95": [
+        0.2800389454462475,
+        0.35373974588640067
+      ],
+      "seed_ci_bonferroni8": [
+        0.20906354435432287,
+        0.42471514697832535
+      ],
+      "cluster_bootstrap_ci95": [
+        0.008579898212005204,
+        0.6196755159070857
+      ],
+      "cluster_bootstrap_ci_bonferroni8": [
+        -0.1014019512578776,
+        0.7344776206925955
+      ],
+      "clusters": 2672
+    }
+  ],
+  "missing": [],
+  "interval_scope": "Seed intervals: three training seeds, fixed data. Cluster bootstrap: conditional on these three fitted models, 10,000 document-cluster resamples. Bonferroni family size 8; intervals are not interchangeable.",
+  "sources_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/manifest.json": "18e6eec2161f8f0da8fdb22185464fee6966ff6f390d1d7d5e47ccddb4a84ca8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/cmrc_scores.json": "d7784b9b3626461e5c9c8aa6bb9eb3525155728c40a84eaee2afea36e3388a9a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/cmrc_likelihood.jsonl": "b6c8073fec4702be8bc416c2b32b7ae903513a3b20631a06acbaac1e74444abe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/cmrc_generation.jsonl": "31dd9c51ca9eba57dca25aa1213302e70fb1b90021216f4291f5d1ec02fc4fe2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/c3_scores.json": "5c99f58dece1bfbfb08177386297bb85f8dad349ee5fdcef2162f49e9a66cc9d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/c3_likelihood.jsonl": "1b653ca77f946a2585f97d9dc13a0954208d2a22547526078726e8b5fb315e21",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/cmrc_scores.json": "202e27c016c10b31b85cafba14ce76c450b0cd5818f5c10efa09f240f3963886",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/cmrc_likelihood.jsonl": "10c60e687d3a38f54709824dff2eadab49f79b4a0193c3ee452336490f681177",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/cmrc_generation.jsonl": "9bee7493fdf0c0f469661f76651d1a9658cb1f1d8d5a3143e9f5e5df428357b7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/c3_scores.json": "da7698f24e4ebaf28848faade1ea935e2677fab0abe07e4efd65a9655ee93a8c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/c3_likelihood.jsonl": "d919563fdb373d39cb8ccbca34c93dbb198fa3195c08434b3e0c908d01f68cdd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/cmrc_scores.json": "a36a4b08ea80a590ce507e9c389520bdbd43e51837bb56eb0c4716bd6fd3d087",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/cmrc_likelihood.jsonl": "6782fb2568882f2c0c405de805d49574ac2f40ee1fa25f525d83a08cf9bdfcc9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/cmrc_generation.jsonl": "acd81c8222ad5e3bfec6ad92066dcbce4c7b4c0e71b361b905426143ee9f0c2b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/c3_scores.json": "4e6f021f208362922e5c2db74eb922a279e47e176a48c69c81d7d4bf1dedc45f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/c3_likelihood.jsonl": "997aa2f403f64bf88bcf50c92c25c11637c66d392af9a81b0fa838c2c7fa3432",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/cmrc_scores.json": "bb1b88caf7d035152e5fcc18d7c47aa2529b920f3e35aa080e8d1bd3ccd92d3c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/cmrc_likelihood.jsonl": "0572e3be03a0bae759304e2a8e1580a5dbe573cb38a0a64f4f7254813e852c06",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/cmrc_generation.jsonl": "799e1aa7f37cf14e058b4b2ae7c7da50ea749e192e30cbd6f0d1b9f09b1079ae",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/c3_scores.json": "90b12688efb116cf5dec26943a81e01eb7c8ce2cd646be096bdedbe0976e17c2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/c3_likelihood.jsonl": "eed5f20a3d28549661e8f54b1d6fa28fd9eac7da96ec42a421dc213fe0b1abbb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/cmrc_scores.json": "3a8b822d36b4702cc61be1d23f9c5f390043d19f88f298b42dc24cd2d4661978",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/cmrc_likelihood.jsonl": "2d38ef370ceac9883c70a56cab2ca540c5520458ffed29506de6a1b4d9bafdfe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/cmrc_generation.jsonl": "3df6d41ed467f83bb1edd4fc00fb514cbbdc742304104469420fb84f018fef80",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/c3_scores.json": "a007f7bb0b01d631cdeee2f036409528e020c5c1b7f5fe3de5eaf6c0582fa2a1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/c3_likelihood.jsonl": "fd3dc133f66c6aeb764c1f18e3d1dc3e8538859eac31d6e12725373f8d2dd17d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/cmrc_scores.json": "a0c149609802dda951996bb1a8c38f93c26ecd485e2e82acc0c8c93700cf1e6a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/cmrc_likelihood.jsonl": "e41ba636a4582fd9bf9516fae4e7b609bf1b2bbd0bec5783aecdde33fa1cfe3b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/cmrc_generation.jsonl": "2ec2e0a5d3fa7b37c71a4a808704b3afc64248c0f38376f7630aac52100af2e6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/c3_scores.json": "7fc63229610d71790fe19ba0198bdc6a38f69aecef914df23337b94d928a1424",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/c3_likelihood.jsonl": "bc4ec73e81b431481de99a6ec690a7d9a99e47c30292c695f9e1aef95aeab021",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/cmrc_scores.json": "841d7944fd0794440c72bda62da82d47244b8edc6fe5477a4e83d167fd53edf6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/cmrc_likelihood.jsonl": "a321a3a5ca56e2691b3cd78f29fcab00308d5a683896e7807d70ec670f8622c6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/cmrc_generation.jsonl": "2e15151394c14a705bd2ad177dc95c47d9207dd937dee225ccb4f825f8867489",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/c3_scores.json": "16f2da01e5170d1d7c70b724f276552c10ef1b341ac04a6cac4312e3489ad2f7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/c3_likelihood.jsonl": "7a2a3808041c0b11a3926c3a1881efe3bf770ed6928b1f41983e70ac4ad5dc0e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/cmrc_scores.json": "48254afef0e3acdc5e72f1905a9e0a673bbb2225135428cfd9af3d81d24f8a1e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/cmrc_likelihood.jsonl": "88ee1ac2dcd60a57884c09522b5984f32a7d625e2ad9368adeff7821b1a1821c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/cmrc_generation.jsonl": "a1383c14fec5b8b70d3233c29a77f075cc903ee2149c3e12c7e1a28c66fe7b35",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/c3_scores.json": "cc396012ed781e6ceb75c67dc08c15970987ee96e835c7585348932ae5d42226",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/c3_likelihood.jsonl": "326c3752bd112c7519539dc6f032876a246561441081e50465aea24b59ea921f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/cmrc_scores.json": "53b47a48d586f19156e13c51162f5856102865b59b87722c32d082d0461414fc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/cmrc_likelihood.jsonl": "e86ee0512dce12afef3f2e891798e9e075b8922f2b6ff1c32b0ca054cb3334d4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/cmrc_generation.jsonl": "4345ba0b3517637e8d22c6132c2e156e6da19ed6a04929162199fa27cf48238b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/c3_scores.json": "06500ed0ac5c20306b0da0f4da3fe24a8c39bb6040347b3cb334a5f75fc6b1a5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/c3_likelihood.jsonl": "6248eab72a0b5bd7c90017aae53bf4bea5c58d9f8ca14d9912e3a316e7af73a2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/cmrc_scores.json": "dcf0b426a2061672b623a38576379009841a58d48f47a26c708a1fb614aaeec6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/cmrc_likelihood.jsonl": "d73f07f6608c6c7d166882880c99d44ea38c069457203e233c768d40a64d37f1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/cmrc_generation.jsonl": "4450005dd2197827577da79c1ef89008d5a256625ac45dff14b21cd7465a2ff3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/c3_scores.json": "cc07a150fe54907ae15aaa5bd740ef6a9be529d4848164f817b54cb1b8fa20aa",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/c3_likelihood.jsonl": "58f0f3c07c4451eb90ef00d6f53c999b66e032b1739c8f6dbdb1c4035251d266",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/cmrc_scores.json": "457069f66532494d58c3871f2d9c2df763a5b093fc5829aae72ee2a369c59ef3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/cmrc_likelihood.jsonl": "1c74503f718bca7352ef987e784e2f742c5a7a7cc8380820b1b88c2384885ad9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/cmrc_generation.jsonl": "2936b53e73221b0e0e0216747ca1fe6e19e45a52aa8d8e7d465936f8fc608c23",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/c3_scores.json": "d53c4632015d78cc68538ddfc64732ff5aaf0d0a3bd24bd62d119c8897564b57",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/c3_likelihood.jsonl": "281b9d3c6187b1f9ed760f2d42b316ddff055e74fb5bbcf882f2a214faf2fd6a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/cmrc_scores.json": "8076105fe19b00a241f05df66c832950eefb219fb9ba8dcb2054af86a28ea897",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/cmrc_likelihood.jsonl": "466eefef3fda7d33ee1788397137ced0499f8634714a1d4ba53627472170f675",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/cmrc_generation.jsonl": "57f7b0748fdce8e018fbd34334e7f4bcc9c56c0fb79bfb40153e7a310ca5bf69",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/c3_scores.json": "2f26fb613d4f6d1c7ddc00273eda8913c66bea80405a2bdd478eb5ad07531048",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/c3_likelihood.jsonl": "310c31c600be4a470fb41af35ece68ba9ca036d56adea142160232925b9b76f9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/cmrc_scores.json": "a8c235af05bcb01958fbed92c3d9dd3ae5336d12ef46c8c7455162854e5276b3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/cmrc_likelihood.jsonl": "3a6635b61e83ae91a6b226dd698dd7c5d5319b53197cba17a1baaa5b246a3dde",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/cmrc_generation.jsonl": "d75575fec1e08f7db598449a8432d03f13c2677323a96eba31f057f919ebbe85",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/c3_scores.json": "ea135f497794ab0861a9987e2e71237bf263d920ebb57fcaf5f2209fb27dbe86",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/c3_likelihood.jsonl": "a828919b471c5a567ce72bec0188bf16b004571f0ca7d8c30b21e24d17810ad5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/cmrc_scores.json": "2cc83fdab646db8c3e8af1215727ea23564f48065ec0899e7c81930f3b020838",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/cmrc_likelihood.jsonl": "0b85c228fa52f3e2a009560315080c48f7455bb4cfae0b1a2e421e9b9d17c63b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/cmrc_generation.jsonl": "3d38f9aae9038580c4529305a5ceb2e023b512bfe662c8e0f35bdefc25fe3186",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/c3_scores.json": "1c0b90ce81c967738465bda412f3df416f7673ce2056d01830d2b6c4696228d8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/c3_likelihood.jsonl": "6d7bd33fa43ae1998b5b6751ace74969c08d24624d5973da53b83950395b6633",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/cmrc_scores.json": "0aa1f10d2355a45a519dda42f8976fc0fad8fb82336f9b55ec2cece12908fe66",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/cmrc_likelihood.jsonl": "5a907a164f65e582e7a5b50056b3eb642fa64113bef879dbd8a4039cd473eec9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/cmrc_generation.jsonl": "20d936a3835fcaf1ed9dfc4d4c32be27a98f9c74d545234e0cb697f2509cbbb7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/c3_scores.json": "a472de4e762ac88c7dac766f869ced31ff4fac41b89f88c018c99611825e0a97",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/c3_likelihood.jsonl": "4ac10b731a3ee72b5ce2b110964267c3724eb276347dab6d114e26e194eb098b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/cmrc_scores.json": "15e81230298a423ead3cdc32f9e613a1c87ad8f775ee9ffab7d750911f99f644",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/cmrc_likelihood.jsonl": "be748897605134f680ba7d3c1f1e168348a87872ecd1a1e83942241893e607dc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/cmrc_generation.jsonl": "b62ae9d8614b979c5d2a87a2a925148bc845a4b619816001a713176854ad4869",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/c3_scores.json": "dea18c601ef994b183cbbbffd7a1bbf6c751e1d32797fd860fa62f9a2ecf2cb5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/c3_likelihood.jsonl": "71597e6d59c44e6d38be411089b42b73e704f14d37f96c736f8678c8255478ec",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/cmrc_scores.json": "6b402fb885800e64097cffbbf9f4cbd99c4a096fb9283f844f5fb5c56e6b5e71",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/cmrc_likelihood.jsonl": "1133531eb3adea3a389212ef3197a09effaefe199c3e413512f6512f3886b0b7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/cmrc_generation.jsonl": "9b42682c0f4e3e581eec9222020bb5ee55ff67f0aca5db5d3ff339ca6a631b10",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/c3_scores.json": "868023fac62aa0649704a0acbf65fa714f06aa17777eb1571f2c8bcc43d29f10",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/c3_likelihood.jsonl": "1932838c9e53f1174d8975a545535e6efa94d3231c98c38c0c1b1e4b80b4ff88",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/cmrc_scores.json": "3b8e6f7c63617a2cb3439f7078c17ffe1afa40a14401ac2bb53d22b84ebf809e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/cmrc_likelihood.jsonl": "bb8096cf05492cdced841c450f77222e2dd30c14251c12d59400d897a5da7e1f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/cmrc_generation.jsonl": "2b72a702b36c2d1d57a4a06bebd2b199b7385b714cb961eded57526db167d49e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/c3_scores.json": "b9d8afc313e2e5d209c10f4f1675aefdc5627023d1225845e6722049c678c67c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/c3_likelihood.jsonl": "95b961c2ba53fcab2c5888973397d55c558c0cf72957dc15253b29899762d47d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/cmrc_scores.json": "73c17dbe9afb0dd2de9f5dd83a56a703214f7fc7447928851c33d876dda392fe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/cmrc_likelihood.jsonl": "a4130d0797712e215fa36c6c5066233e8d370e11c2c7d27f375902a0f66c0cfe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/cmrc_generation.jsonl": "977e8cd2b5e9ad9cef7ced466e18267e92087673204936cb0f2777d6f4af4afb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/c3_scores.json": "c4a1e1713261e642da52e11975db91bd728d6cd94c14902f1a215e2530ad68cf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/c3_likelihood.jsonl": "867c75cc0ee35215f952a4e9b7df7195165003b6bebde7f181c300e8ea741b13",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/cmrc_scores.json": "7133a6f06c46c185f02d24535ca10a1565fbec9c35bc1535382f7f8086950d80",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/cmrc_likelihood.jsonl": "a668f25f370f8eae520d360ffc6a15f9ae800679b4bab0ae2632d9d0d38bae80",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/cmrc_generation.jsonl": "a39f4453c6c2e76c38e84ed9496ac704e134586be8a5e31f482e082d1d66ae2d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/c3_scores.json": "751ec973f7cd8029f43c0b78eda3096ae2469c6e30c1ed07631b87f81c4dcd0e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/c3_likelihood.jsonl": "0fa2e26b436133c1912183eb8bfa34ec37655ad2262c317f36c452440686f633",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/cmrc_scores.json": "da678cc1e4332ef1ffda758c5e70bea50cc71b0d71ea9e5eafd74ce6a1bf7e58",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/cmrc_likelihood.jsonl": "133776c6c2a8933d7e6fca22d8f718e8d8585fad497d00925c2ead3514904a2b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/cmrc_generation.jsonl": "84d1b08925de88ddf6a6cb5afa5acbecf0b2ed0923b6092ca708d23a34558ef5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/c3_scores.json": "27a2a36196762ab69842e7b902915e36ef815f81dbbfa899020c06c324c28042",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/c3_likelihood.jsonl": "bdbd1c56eea778d80241a2ebfc3ad5510d349c9810d1ad3aa09318e6ecd9ab4c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/cmrc_scores.json": "3953834201ff19f1c2c4acccd7dd93392ba6a5c16fb6cfa1725c6641ba9a97db",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/cmrc_likelihood.jsonl": "58a8fa7abc73d32267102ed626497f69fff6a126df10e5e9c45836f330043150",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/cmrc_generation.jsonl": "30de281e144262143f2804d610894f0f880fee26ed2f24f8e47faf1b72619f70",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/c3_scores.json": "31f346c29f47290e3b6ab4019bba4923428722e16e2d314792b248162e809ed3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/c3_likelihood.jsonl": "3044f0790e8a6350982778a2fbedae57de87d2ada6f6d6719f21623ee45b422c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/cmrc_scores.json": "734026e2bfd838cdf55dd04d759e0267f1d622abd94e7025c1775a4cdc0f2483",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/cmrc_likelihood.jsonl": "0b0d49489b0025d23061e45f51e93d4a437d8a9f5afda98a9b31689b42f98b6f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/cmrc_generation.jsonl": "830e0fd5efc87d2df907dc713dda5fc168cf6dd35a8099923ca7bc0acc5470f0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/c3_scores.json": "a7ef158b74b98a4600df5a7499fc1ab69d6af3cb3442dc0cc93fb9d5046b5757",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/c3_likelihood.jsonl": "a1f359f100c07efea55e4e55a42026940abee5c5b9596317a940f3d28c34c835",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/cmrc_scores.json": "11a9d761110f7ef5a92f920e97fd2e4723189df1e9ddc1cfde5bf41c652fb224",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/cmrc_likelihood.jsonl": "26f0a2d0bc8cca9267de0f42a3399e5a0be3f650ff051820f724a28746a731c8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/cmrc_generation.jsonl": "bbbabaec1b4f2c23dd7f5a7b1940e3f4543f772ae42724f1f68110f429b33266",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/c3_scores.json": "ba6dd4ce8b6c6e697f34bfeb17ee84cd8717a07fae812f7aa3bb2bb714410d2c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/c3_likelihood.jsonl": "dbabdd42c91f0775b47ae51b58db7faa0545cae6c5cd383f84b7a0389d07ce0d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_scores.json": "b0b61fd4dbc05044c166b4634a2b9f7a87cb82657b37697290d9e4eeb3d0f6c7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_likelihood.jsonl": "6c34f7bbb71d330bb7262fcd3b8b894d2a08a0e07768c3b2dc5401424ae9430a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_generation.jsonl": "702e8a3b65a25c9b5453a768483ace4927bee4c8d7019893b631fa73ceaf19dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/c3_scores.json": "c43aece90bbf09a1d96710957182327da831c7e1850956c77457b02609d4ce7c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/c3_likelihood.jsonl": "d61fbb2e673159b24f6df1b53d9ecd47cff47e991aaee1e7090527f774e606bb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_scores.json": "b1985deb47eec17387c23057087ee1d994b6467f7e1ec661a414ef334c2564ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_likelihood.jsonl": "22a2e63a82aec99cb5839b00ab9c624c182a2fada3f6c150d3c02f5833dff9cb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_generation.jsonl": "6422d725f39577e72a800eba9e71469f97f2a1dfc2f1826054cab6bf4b5c49f9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/c3_scores.json": "811bf8c662935e245d7990b407c38b3bd9ea6f59447d2819c49f22181e77e228",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/c3_likelihood.jsonl": "dc444194b1baba71f0ea65efbd8de95c35d44b80b875c945ace5e58da4ce46df"
+  }
+}

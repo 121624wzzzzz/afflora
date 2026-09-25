@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-16T18:56:34+08:00",
+  "batch_size": 32,
+  "raw_sequence_differences": 0,
+  "dev_examples_checked": 256,
+  "reason": "globally revert to original batch8 on any development token difference; no test output inspected"
+}

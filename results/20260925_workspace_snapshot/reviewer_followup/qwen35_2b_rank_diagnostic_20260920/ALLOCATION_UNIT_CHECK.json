@@ -1,0 +1,1 @@
+{"status": "passed", "ranks": [9, 10], "checks": ["actual parameter delta", "shared rank8 unchanged", "zero initial B", "scaling preserved"]}

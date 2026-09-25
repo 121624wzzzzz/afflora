@@ -1,0 +1,1178 @@
+{
+  "experiment": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25",
+  "final_selection": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/final_selection.json",
+  "final_selection_sha256": "adb27cc530f86400485d00a510efff2f6cc2365ab8d75be28d0cd781501102e5",
+  "ifeval_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final",
+  "selected_hyperparameters": {
+    "aff_r50": {
+      "scale": 16,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "seed42_run_name": "qwen25_15b_out_aff_r50_s16_sd42",
+      "dev_avg_ce_used_for_selection": 1.102785798905362
+    },
+    "vocab_r1": {
+      "scale": 32,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "seed42_run_name": "qwen25_15b_out_vocab_r1_s32_sd42",
+      "dev_avg_ce_used_for_selection": 0.9997326839172337
+    }
+  },
+  "metric": {
+    "name": "IFEval prompt-level instruction-following accuracy",
+    "score_field": "follow_all_instructions",
+    "modes": [
+      "strict",
+      "loose"
+    ],
+    "difference": "A-LoRA minus Vocab-LoRA",
+    "better_direction": "positive"
+  },
+  "inferential_units": {
+    "item_level": "Within each trained seed, the 541 paired prompts support the contingency table, exact McNemar test, and paired-prompt bootstrap interval. These do not estimate training-seed variation.",
+    "seed_level_primary": "Only independently trained seeds 43-45 enter the primary paired-t interval over seed-level A-LoRA-minus-Vocab-LoRA accuracy differences.",
+    "selected_seed42": "Seed 42 selected the frozen hyperparameters on corrected dev and is excluded from the primary seed-level interval."
+  },
+  "validation": {
+    "status": "passed",
+    "runs_validated": 8,
+    "response_artifacts_validated": 8,
+    "strict_score_artifacts_validated": 8,
+    "loose_score_artifacts_validated": 8,
+    "prompts_per_artifact": 541,
+    "canonical_prompt_alignment": "passed",
+    "canonical_prompt_metadata_sha256": "4d49ac039cbebdfc4beb3f9f30435c4fa25320caffaae441c6b9d868126744eb",
+    "exact_artifact_set_required": true,
+    "test_or_ifeval_used_for_selection": false
+  },
+  "per_seed_paired_prompt_analysis": {
+    "42": {
+      "strict": {
+        "seed": 42,
+        "mode": "strict",
+        "n_prompts": 541,
+        "aff_correct": 123,
+        "vocab_correct": 112,
+        "aff_prompt_accuracy": 0.22735674676524953,
+        "vocab_prompt_accuracy": 0.20702402957486138,
+        "delta_accuracy_aff_minus_vocab": 0.02033271719038815,
+        "delta_percentage_points_aff_minus_vocab": 2.033271719038815,
+        "direction": "aff_better",
+        "paired_prompt_contingency": {
+          "both_correct": 75,
+          "aff_only_correct": 48,
+          "vocab_only_correct": 37,
+          "both_incorrect": 381
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 85,
+          "p_value": 0.27799928908055166
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000420,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.012939001848428836,
+            0.053604436229205174
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -1.2939001848428837,
+            5.360443622920517
+          ]
+        }
+      },
+      "loose": {
+        "seed": 42,
+        "mode": "loose",
+        "n_prompts": 541,
+        "aff_correct": 138,
+        "vocab_correct": 128,
+        "aff_prompt_accuracy": 0.25508317929759705,
+        "vocab_prompt_accuracy": 0.2365988909426987,
+        "delta_accuracy_aff_minus_vocab": 0.01848428835489835,
+        "delta_percentage_points_aff_minus_vocab": 1.8484288354898348,
+        "direction": "aff_better",
+        "paired_prompt_contingency": {
+          "both_correct": 82,
+          "aff_only_correct": 56,
+          "vocab_only_correct": 46,
+          "both_incorrect": 357
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 102,
+          "p_value": 0.37294366808362966
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000421,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.018484288354898338,
+            0.05545286506469501
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -1.8484288354898337,
+            5.545286506469501
+          ]
+        }
+      }
+    },
+    "43": {
+      "strict": {
+        "seed": 43,
+        "mode": "strict",
+        "n_prompts": 541,
+        "aff_correct": 126,
+        "vocab_correct": 117,
+        "aff_prompt_accuracy": 0.23290203327171904,
+        "vocab_prompt_accuracy": 0.21626617375231053,
+        "delta_accuracy_aff_minus_vocab": 0.01663585951940852,
+        "delta_percentage_points_aff_minus_vocab": 1.6635859519408518,
+        "direction": "aff_better",
+        "paired_prompt_contingency": {
+          "both_correct": 75,
+          "aff_only_correct": 51,
+          "vocab_only_correct": 42,
+          "both_incorrect": 373
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 93,
+          "p_value": 0.40692436804613447
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000430,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.018484288354898338,
+            0.051756007393715345
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -1.8484288354898337,
+            5.175600739371535
+          ]
+        }
+      },
+      "loose": {
+        "seed": 43,
+        "mode": "loose",
+        "n_prompts": 541,
+        "aff_correct": 136,
+        "vocab_correct": 133,
+        "aff_prompt_accuracy": 0.2513863216266174,
+        "vocab_prompt_accuracy": 0.24584103512014788,
+        "delta_accuracy_aff_minus_vocab": 0.005545286506469516,
+        "delta_percentage_points_aff_minus_vocab": 0.5545286506469516,
+        "direction": "aff_better",
+        "paired_prompt_contingency": {
+          "both_correct": 81,
+          "aff_only_correct": 55,
+          "vocab_only_correct": 52,
+          "both_incorrect": 353
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 107,
+          "p_value": 0.8468020751891948
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000431,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.031423290203327174,
+            0.04251386321626617
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -3.1423290203327174,
+            4.251386321626617
+          ]
+        }
+      }
+    },
+    "44": {
+      "strict": {
+        "seed": 44,
+        "mode": "strict",
+        "n_prompts": 541,
+        "aff_correct": 113,
+        "vocab_correct": 113,
+        "aff_prompt_accuracy": 0.2088724584103512,
+        "vocab_prompt_accuracy": 0.2088724584103512,
+        "delta_accuracy_aff_minus_vocab": 0.0,
+        "delta_percentage_points_aff_minus_vocab": 0.0,
+        "direction": "tie",
+        "paired_prompt_contingency": {
+          "both_correct": 72,
+          "aff_only_correct": 41,
+          "vocab_only_correct": 41,
+          "both_incorrect": 387
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 82,
+          "p_value": 1.0
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000440,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.033271719038817,
+            0.033271719038817
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -3.3271719038817005,
+            3.3271719038817005
+          ]
+        }
+      },
+      "loose": {
+        "seed": 44,
+        "mode": "loose",
+        "n_prompts": 541,
+        "aff_correct": 126,
+        "vocab_correct": 124,
+        "aff_prompt_accuracy": 0.23290203327171904,
+        "vocab_prompt_accuracy": 0.22920517560073936,
+        "delta_accuracy_aff_minus_vocab": 0.0036968576709796863,
+        "delta_percentage_points_aff_minus_vocab": 0.36968576709796863,
+        "direction": "aff_better",
+        "paired_prompt_contingency": {
+          "both_correct": 77,
+          "aff_only_correct": 49,
+          "vocab_only_correct": 47,
+          "both_incorrect": 368
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 96,
+          "p_value": 0.918778035364537
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000441,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.031423290203327174,
+            0.038817005545286505
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -3.1423290203327174,
+            3.8817005545286505
+          ]
+        }
+      }
+    },
+    "45": {
+      "strict": {
+        "seed": 45,
+        "mode": "strict",
+        "n_prompts": 541,
+        "aff_correct": 117,
+        "vocab_correct": 124,
+        "aff_prompt_accuracy": 0.21626617375231053,
+        "vocab_prompt_accuracy": 0.22920517560073936,
+        "delta_accuracy_aff_minus_vocab": -0.012939001848428833,
+        "delta_percentage_points_aff_minus_vocab": -1.2939001848428833,
+        "direction": "vocab_better",
+        "paired_prompt_contingency": {
+          "both_correct": 71,
+          "aff_only_correct": 46,
+          "vocab_only_correct": 53,
+          "both_incorrect": 371
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 99,
+          "p_value": 0.546713483598813
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000450,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.04990757855822551,
+            0.022181146025878003
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -4.990757855822551,
+            2.2181146025878005
+          ]
+        }
+      },
+      "loose": {
+        "seed": 45,
+        "mode": "loose",
+        "n_prompts": 541,
+        "aff_correct": 134,
+        "vocab_correct": 141,
+        "aff_prompt_accuracy": 0.2476894639556377,
+        "vocab_prompt_accuracy": 0.26062846580406657,
+        "delta_accuracy_aff_minus_vocab": -0.01293900184842886,
+        "delta_percentage_points_aff_minus_vocab": -1.2939001848428862,
+        "direction": "vocab_better",
+        "paired_prompt_contingency": {
+          "both_correct": 85,
+          "aff_only_correct": 49,
+          "vocab_only_correct": 56,
+          "both_incorrect": 351
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant pairs",
+          "null_discordant_probability_aff_only": 0.5,
+          "discordant_prompts": 105,
+          "p_value": 0.5583942911655908
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "prompt pair within this trained seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 1000451,
+          "ci95_delta_accuracy_aff_minus_vocab": [
+            -0.04990757855822551,
+            0.024029574861367836
+          ],
+          "ci95_delta_percentage_points_aff_minus_vocab": [
+            -4.990757855822551,
+            2.4029574861367835
+          ]
+        }
+      }
+    }
+  },
+  "primary_independent_seeds_43_45": {
+    "role": "primary seed-level confirmation",
+    "strict": {
+      "per_seed": [
+        {
+          "seed": 43,
+          "mode": "strict",
+          "n_prompts": 541,
+          "aff_correct": 126,
+          "vocab_correct": 117,
+          "aff_prompt_accuracy": 0.23290203327171904,
+          "vocab_prompt_accuracy": 0.21626617375231053,
+          "delta_accuracy_aff_minus_vocab": 0.01663585951940852,
+          "delta_percentage_points_aff_minus_vocab": 1.6635859519408518,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 75,
+            "aff_only_correct": 51,
+            "vocab_only_correct": 42,
+            "both_incorrect": 373
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 93,
+            "p_value": 0.40692436804613447
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000430,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.018484288354898338,
+              0.051756007393715345
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -1.8484288354898337,
+              5.175600739371535
+            ]
+          }
+        },
+        {
+          "seed": 44,
+          "mode": "strict",
+          "n_prompts": 541,
+          "aff_correct": 113,
+          "vocab_correct": 113,
+          "aff_prompt_accuracy": 0.2088724584103512,
+          "vocab_prompt_accuracy": 0.2088724584103512,
+          "delta_accuracy_aff_minus_vocab": 0.0,
+          "delta_percentage_points_aff_minus_vocab": 0.0,
+          "direction": "tie",
+          "paired_prompt_contingency": {
+            "both_correct": 72,
+            "aff_only_correct": 41,
+            "vocab_only_correct": 41,
+            "both_incorrect": 387
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 82,
+            "p_value": 1.0
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000440,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.033271719038817,
+              0.033271719038817
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -3.3271719038817005,
+              3.3271719038817005
+            ]
+          }
+        },
+        {
+          "seed": 45,
+          "mode": "strict",
+          "n_prompts": 541,
+          "aff_correct": 117,
+          "vocab_correct": 124,
+          "aff_prompt_accuracy": 0.21626617375231053,
+          "vocab_prompt_accuracy": 0.22920517560073936,
+          "delta_accuracy_aff_minus_vocab": -0.012939001848428833,
+          "delta_percentage_points_aff_minus_vocab": -1.2939001848428833,
+          "direction": "vocab_better",
+          "paired_prompt_contingency": {
+            "both_correct": 71,
+            "aff_only_correct": 46,
+            "vocab_only_correct": 53,
+            "both_incorrect": 371
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 99,
+            "p_value": 0.546713483598813
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000450,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.04990757855822551,
+              0.022181146025878003
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -4.990757855822551,
+              2.2181146025878005
+            ]
+          }
+        }
+      ],
+      "seed_level_summary": {
+        "n_seeds": 3,
+        "aff_accuracy_mean": 0.21934688847812692,
+        "aff_accuracy_sample_sd": 0.012307445690350081,
+        "vocab_accuracy_mean": 0.21811460258780035,
+        "vocab_accuracy_sample_sd": 0.010291616197467685,
+        "delta_accuracy_aff_minus_vocab_mean": 0.001232285890326562,
+        "delta_accuracy_aff_minus_vocab_sample_sd": 0.014825889606304338,
+        "delta_percentage_points_aff_minus_vocab_mean": 0.12322858903265621,
+        "directions": {
+          "aff_better_delta_gt_0": 1,
+          "vocab_better_delta_lt_0": 1,
+          "ties_delta_eq_0": 1
+        },
+        "inferential_unit": "independently trained seed",
+        "paired_t_df": 2,
+        "paired_t_critical_975": 4.302652729696142,
+        "paired_t_ci95_delta_accuracy_aff_minus_vocab": [
+          -0.03559726559048489,
+          0.03806183737113802
+        ],
+        "paired_t_ci95_delta_percentage_points_aff_minus_vocab": [
+          -3.5597265590484892,
+          3.806183737113802
+        ],
+        "paired_t_ci95_contains_zero": true
+      }
+    },
+    "loose": {
+      "per_seed": [
+        {
+          "seed": 43,
+          "mode": "loose",
+          "n_prompts": 541,
+          "aff_correct": 136,
+          "vocab_correct": 133,
+          "aff_prompt_accuracy": 0.2513863216266174,
+          "vocab_prompt_accuracy": 0.24584103512014788,
+          "delta_accuracy_aff_minus_vocab": 0.005545286506469516,
+          "delta_percentage_points_aff_minus_vocab": 0.5545286506469516,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 81,
+            "aff_only_correct": 55,
+            "vocab_only_correct": 52,
+            "both_incorrect": 353
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 107,
+            "p_value": 0.8468020751891948
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000431,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.031423290203327174,
+              0.04251386321626617
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -3.1423290203327174,
+              4.251386321626617
+            ]
+          }
+        },
+        {
+          "seed": 44,
+          "mode": "loose",
+          "n_prompts": 541,
+          "aff_correct": 126,
+          "vocab_correct": 124,
+          "aff_prompt_accuracy": 0.23290203327171904,
+          "vocab_prompt_accuracy": 0.22920517560073936,
+          "delta_accuracy_aff_minus_vocab": 0.0036968576709796863,
+          "delta_percentage_points_aff_minus_vocab": 0.36968576709796863,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 77,
+            "aff_only_correct": 49,
+            "vocab_only_correct": 47,
+            "both_incorrect": 368
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 96,
+            "p_value": 0.918778035364537
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000441,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.031423290203327174,
+              0.038817005545286505
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -3.1423290203327174,
+              3.8817005545286505
+            ]
+          }
+        },
+        {
+          "seed": 45,
+          "mode": "loose",
+          "n_prompts": 541,
+          "aff_correct": 134,
+          "vocab_correct": 141,
+          "aff_prompt_accuracy": 0.2476894639556377,
+          "vocab_prompt_accuracy": 0.26062846580406657,
+          "delta_accuracy_aff_minus_vocab": -0.01293900184842886,
+          "delta_percentage_points_aff_minus_vocab": -1.2939001848428862,
+          "direction": "vocab_better",
+          "paired_prompt_contingency": {
+            "both_correct": 85,
+            "aff_only_correct": 49,
+            "vocab_only_correct": 56,
+            "both_incorrect": 351
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 105,
+            "p_value": 0.5583942911655908
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000451,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.04990757855822551,
+              0.024029574861367836
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -4.990757855822551,
+              2.4029574861367835
+            ]
+          }
+        }
+      ],
+      "seed_level_summary": {
+        "n_seeds": 3,
+        "aff_accuracy_mean": 0.24399260628465805,
+        "aff_accuracy_sample_sd": 0.009780966029813647,
+        "vocab_accuracy_mean": 0.24522489217498458,
+        "vocab_accuracy_sample_sd": 0.015720703416109785,
+        "delta_accuracy_aff_minus_vocab_mean": -0.0012322858903265528,
+        "delta_accuracy_aff_minus_vocab_sample_sd": 0.010180352213098178,
+        "delta_percentage_points_aff_minus_vocab_mean": -0.12322858903265528,
+        "directions": {
+          "aff_better_delta_gt_0": 2,
+          "vocab_better_delta_lt_0": 1,
+          "ties_delta_eq_0": 0
+        },
+        "inferential_unit": "independently trained seed",
+        "paired_t_df": 2,
+        "paired_t_critical_975": 4.302652729696142,
+        "paired_t_ci95_delta_accuracy_aff_minus_vocab": [
+          -0.02652168274147127,
+          0.024057110960818168
+        ],
+        "paired_t_ci95_delta_percentage_points_aff_minus_vocab": [
+          -2.6521682741471273,
+          2.405711096081817
+        ],
+        "paired_t_ci95_contains_zero": true
+      }
+    }
+  },
+  "selected_seed42_descriptive": {
+    "role": "reported separately; excluded from primary seed-level CI",
+    "strict": {
+      "seed": 42,
+      "mode": "strict",
+      "n_prompts": 541,
+      "aff_correct": 123,
+      "vocab_correct": 112,
+      "aff_prompt_accuracy": 0.22735674676524953,
+      "vocab_prompt_accuracy": 0.20702402957486138,
+      "delta_accuracy_aff_minus_vocab": 0.02033271719038815,
+      "delta_percentage_points_aff_minus_vocab": 2.033271719038815,
+      "direction": "aff_better",
+      "paired_prompt_contingency": {
+        "both_correct": 75,
+        "aff_only_correct": 48,
+        "vocab_only_correct": 37,
+        "both_incorrect": 381
+      },
+      "mcnemar_exact": {
+        "test": "two-sided exact binomial test on discordant pairs",
+        "null_discordant_probability_aff_only": 0.5,
+        "discordant_prompts": 85,
+        "p_value": 0.27799928908055166
+      },
+      "paired_prompt_bootstrap": {
+        "unit": "prompt pair within this trained seed",
+        "method": "paired nonparametric percentile bootstrap",
+        "samples": 10000,
+        "rng_seed": 1000420,
+        "ci95_delta_accuracy_aff_minus_vocab": [
+          -0.012939001848428836,
+          0.053604436229205174
+        ],
+        "ci95_delta_percentage_points_aff_minus_vocab": [
+          -1.2939001848428837,
+          5.360443622920517
+        ]
+      }
+    },
+    "loose": {
+      "seed": 42,
+      "mode": "loose",
+      "n_prompts": 541,
+      "aff_correct": 138,
+      "vocab_correct": 128,
+      "aff_prompt_accuracy": 0.25508317929759705,
+      "vocab_prompt_accuracy": 0.2365988909426987,
+      "delta_accuracy_aff_minus_vocab": 0.01848428835489835,
+      "delta_percentage_points_aff_minus_vocab": 1.8484288354898348,
+      "direction": "aff_better",
+      "paired_prompt_contingency": {
+        "both_correct": 82,
+        "aff_only_correct": 56,
+        "vocab_only_correct": 46,
+        "both_incorrect": 357
+      },
+      "mcnemar_exact": {
+        "test": "two-sided exact binomial test on discordant pairs",
+        "null_discordant_probability_aff_only": 0.5,
+        "discordant_prompts": 102,
+        "p_value": 0.37294366808362966
+      },
+      "paired_prompt_bootstrap": {
+        "unit": "prompt pair within this trained seed",
+        "method": "paired nonparametric percentile bootstrap",
+        "samples": 10000,
+        "rng_seed": 1000421,
+        "ci95_delta_accuracy_aff_minus_vocab": [
+          -0.018484288354898338,
+          0.05545286506469501
+        ],
+        "ci95_delta_percentage_points_aff_minus_vocab": [
+          -1.8484288354898337,
+          5.545286506469501
+        ]
+      }
+    }
+  },
+  "four_seed_descriptive": {
+    "role": "descriptive only; no four-seed confirmatory interval",
+    "strict": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "mode": "strict",
+          "n_prompts": 541,
+          "aff_correct": 123,
+          "vocab_correct": 112,
+          "aff_prompt_accuracy": 0.22735674676524953,
+          "vocab_prompt_accuracy": 0.20702402957486138,
+          "delta_accuracy_aff_minus_vocab": 0.02033271719038815,
+          "delta_percentage_points_aff_minus_vocab": 2.033271719038815,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 75,
+            "aff_only_correct": 48,
+            "vocab_only_correct": 37,
+            "both_incorrect": 381
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 85,
+            "p_value": 0.27799928908055166
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000420,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.012939001848428836,
+              0.053604436229205174
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -1.2939001848428837,
+              5.360443622920517
+            ]
+          }
+        },
+        {
+          "seed": 43,
+          "mode": "strict",
+          "n_prompts": 541,
+          "aff_correct": 126,
+          "vocab_correct": 117,
+          "aff_prompt_accuracy": 0.23290203327171904,
+          "vocab_prompt_accuracy": 0.21626617375231053,
+          "delta_accuracy_aff_minus_vocab": 0.01663585951940852,
+          "delta_percentage_points_aff_minus_vocab": 1.6635859519408518,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 75,
+            "aff_only_correct": 51,
+            "vocab_only_correct": 42,
+            "both_incorrect": 373
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 93,
+            "p_value": 0.40692436804613447
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000430,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.018484288354898338,
+              0.051756007393715345
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -1.8484288354898337,
+              5.175600739371535
+            ]
+          }
+        },
+        {
+          "seed": 44,
+          "mode": "strict",
+          "n_prompts": 541,
+          "aff_correct": 113,
+          "vocab_correct": 113,
+          "aff_prompt_accuracy": 0.2088724584103512,
+          "vocab_prompt_accuracy": 0.2088724584103512,
+          "delta_accuracy_aff_minus_vocab": 0.0,
+          "delta_percentage_points_aff_minus_vocab": 0.0,
+          "direction": "tie",
+          "paired_prompt_contingency": {
+            "both_correct": 72,
+            "aff_only_correct": 41,
+            "vocab_only_correct": 41,
+            "both_incorrect": 387
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 82,
+            "p_value": 1.0
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000440,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.033271719038817,
+              0.033271719038817
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -3.3271719038817005,
+              3.3271719038817005
+            ]
+          }
+        },
+        {
+          "seed": 45,
+          "mode": "strict",
+          "n_prompts": 541,
+          "aff_correct": 117,
+          "vocab_correct": 124,
+          "aff_prompt_accuracy": 0.21626617375231053,
+          "vocab_prompt_accuracy": 0.22920517560073936,
+          "delta_accuracy_aff_minus_vocab": -0.012939001848428833,
+          "delta_percentage_points_aff_minus_vocab": -1.2939001848428833,
+          "direction": "vocab_better",
+          "paired_prompt_contingency": {
+            "both_correct": 71,
+            "aff_only_correct": 46,
+            "vocab_only_correct": 53,
+            "both_incorrect": 371
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 99,
+            "p_value": 0.546713483598813
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000450,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.04990757855822551,
+              0.022181146025878003
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -4.990757855822551,
+              2.2181146025878005
+            ]
+          }
+        }
+      ],
+      "seed_level_descriptive_summary": {
+        "n_seeds": 4,
+        "aff_accuracy_mean": 0.22134935304990758,
+        "aff_accuracy_sample_sd": 0.010817652412864717,
+        "vocab_accuracy_mean": 0.21534195933456562,
+        "vocab_accuracy_sample_sd": 0.01006785868044866,
+        "delta_accuracy_aff_minus_vocab_mean": 0.006007393715341959,
+        "delta_accuracy_aff_minus_vocab_sample_sd": 0.015418969508616385,
+        "delta_percentage_points_aff_minus_vocab_mean": 0.6007393715341959,
+        "directions": {
+          "aff_better_delta_gt_0": 2,
+          "vocab_better_delta_lt_0": 1,
+          "ties_delta_eq_0": 1
+        }
+      }
+    },
+    "loose": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "mode": "loose",
+          "n_prompts": 541,
+          "aff_correct": 138,
+          "vocab_correct": 128,
+          "aff_prompt_accuracy": 0.25508317929759705,
+          "vocab_prompt_accuracy": 0.2365988909426987,
+          "delta_accuracy_aff_minus_vocab": 0.01848428835489835,
+          "delta_percentage_points_aff_minus_vocab": 1.8484288354898348,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 82,
+            "aff_only_correct": 56,
+            "vocab_only_correct": 46,
+            "both_incorrect": 357
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 102,
+            "p_value": 0.37294366808362966
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000421,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.018484288354898338,
+              0.05545286506469501
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -1.8484288354898337,
+              5.545286506469501
+            ]
+          }
+        },
+        {
+          "seed": 43,
+          "mode": "loose",
+          "n_prompts": 541,
+          "aff_correct": 136,
+          "vocab_correct": 133,
+          "aff_prompt_accuracy": 0.2513863216266174,
+          "vocab_prompt_accuracy": 0.24584103512014788,
+          "delta_accuracy_aff_minus_vocab": 0.005545286506469516,
+          "delta_percentage_points_aff_minus_vocab": 0.5545286506469516,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 81,
+            "aff_only_correct": 55,
+            "vocab_only_correct": 52,
+            "both_incorrect": 353
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 107,
+            "p_value": 0.8468020751891948
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000431,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.031423290203327174,
+              0.04251386321626617
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -3.1423290203327174,
+              4.251386321626617
+            ]
+          }
+        },
+        {
+          "seed": 44,
+          "mode": "loose",
+          "n_prompts": 541,
+          "aff_correct": 126,
+          "vocab_correct": 124,
+          "aff_prompt_accuracy": 0.23290203327171904,
+          "vocab_prompt_accuracy": 0.22920517560073936,
+          "delta_accuracy_aff_minus_vocab": 0.0036968576709796863,
+          "delta_percentage_points_aff_minus_vocab": 0.36968576709796863,
+          "direction": "aff_better",
+          "paired_prompt_contingency": {
+            "both_correct": 77,
+            "aff_only_correct": 49,
+            "vocab_only_correct": 47,
+            "both_incorrect": 368
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 96,
+            "p_value": 0.918778035364537
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000441,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.031423290203327174,
+              0.038817005545286505
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -3.1423290203327174,
+              3.8817005545286505
+            ]
+          }
+        },
+        {
+          "seed": 45,
+          "mode": "loose",
+          "n_prompts": 541,
+          "aff_correct": 134,
+          "vocab_correct": 141,
+          "aff_prompt_accuracy": 0.2476894639556377,
+          "vocab_prompt_accuracy": 0.26062846580406657,
+          "delta_accuracy_aff_minus_vocab": -0.01293900184842886,
+          "delta_percentage_points_aff_minus_vocab": -1.2939001848428862,
+          "direction": "vocab_better",
+          "paired_prompt_contingency": {
+            "both_correct": 85,
+            "aff_only_correct": 49,
+            "vocab_only_correct": 56,
+            "both_incorrect": 351
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant pairs",
+            "null_discordant_probability_aff_only": 0.5,
+            "discordant_prompts": 105,
+            "p_value": 0.5583942911655908
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "prompt pair within this trained seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 1000451,
+            "ci95_delta_accuracy_aff_minus_vocab": [
+              -0.04990757855822551,
+              0.024029574861367836
+            ],
+            "ci95_delta_percentage_points_aff_minus_vocab": [
+              -4.990757855822551,
+              2.4029574861367835
+            ]
+          }
+        }
+      ],
+      "seed_level_descriptive_summary": {
+        "n_seeds": 4,
+        "aff_accuracy_mean": 0.2467652495378928,
+        "aff_accuracy_sample_sd": 0.009722571680874616,
+        "vocab_accuracy_mean": 0.24306839186691312,
+        "vocab_accuracy_sample_sd": 0.013541134304273528,
+        "delta_accuracy_aff_minus_vocab_mean": 0.0036968576709796724,
+        "delta_accuracy_aff_minus_vocab_sample_sd": 0.01289491653509327,
+        "delta_percentage_points_aff_minus_vocab_mean": 0.36968576709796724,
+        "directions": {
+          "aff_better_delta_gt_0": 3,
+          "vocab_better_delta_lt_0": 1,
+          "ties_delta_eq_0": 0
+        }
+      }
+    }
+  },
+  "validated_artifacts": [
+    {
+      "method": "aff_r50",
+      "seed": 42,
+      "run_name": "qwen25_15b_out_aff_r50_s16_sd42",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd42",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_aff_r50_s16_sd42.jsonl",
+      "response_sha256": "1a3d843a20eaa239039c57e3fe7aca2875232068503512ec94a894e2a8eee7f6",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd42/eval_results_strict.jsonl",
+      "strict_score_sha256": "044137613df60ff122d55937fdf15860d24a98a2219319fcd3205450ad01b6aa",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd42/eval_results_loose.jsonl",
+      "loose_score_sha256": "0d6e59af73134e002f5769932961534ba44cabfa1ad2033da52b65a61e860cb6"
+    },
+    {
+      "method": "vocab_r1",
+      "seed": 42,
+      "run_name": "qwen25_15b_out_vocab_r1_s32_sd42",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd42",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_vocab_r1_s32_sd42.jsonl",
+      "response_sha256": "0de9cc05b6596513b75e154fcbda8c3f2e8bcc5b712d09f8bc7d8f0662ea54a2",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd42/eval_results_strict.jsonl",
+      "strict_score_sha256": "d4bac867270daea2d99468b03fca546d5fde47882f4bcb0c436944e484c26f22",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd42/eval_results_loose.jsonl",
+      "loose_score_sha256": "ac69df0fd62a942a0a8e28e5de1404db3f0caec1b54361dacff0fae87d60a181"
+    },
+    {
+      "method": "aff_r50",
+      "seed": 43,
+      "run_name": "qwen25_15b_out_aff_r50_s16_sd43",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd43",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_aff_r50_s16_sd43.jsonl",
+      "response_sha256": "c424a370d4f099ef7df5d8238fece96d8bd369890b4193fd67b327cc58478aaa",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd43/eval_results_strict.jsonl",
+      "strict_score_sha256": "7bfb25dd3216ba9f7f018eb0d18d86f3b7fb8949884abb7e574854e7117a1159",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd43/eval_results_loose.jsonl",
+      "loose_score_sha256": "5afd7e05785ae36990255e55aaa7b65f1194d558711ab209c525e4eed50ccb39"
+    },
+    {
+      "method": "vocab_r1",
+      "seed": 43,
+      "run_name": "qwen25_15b_out_vocab_r1_s32_sd43",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd43",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_vocab_r1_s32_sd43.jsonl",
+      "response_sha256": "01a4172760c1e9a41c94248280097414aa7ba4a1b52efaeb34ab71d815abdf17",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd43/eval_results_strict.jsonl",
+      "strict_score_sha256": "34465cfdfa941736f1851b34bf312d04baea9152de7cee052bc699dae2a633c9",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd43/eval_results_loose.jsonl",
+      "loose_score_sha256": "c8d7a32ad14c66491b84cb3d8501294463545bd2e911e37817a9fd2eef2c32b4"
+    },
+    {
+      "method": "aff_r50",
+      "seed": 44,
+      "run_name": "qwen25_15b_out_aff_r50_s16_sd44",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd44",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_aff_r50_s16_sd44.jsonl",
+      "response_sha256": "c8df2b8bdf9f18438d8284d8b0efb22cf0069b83ef04984cc31dc638c3e8b2f8",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd44/eval_results_strict.jsonl",
+      "strict_score_sha256": "3ff65036cd51198c15e67c4d4e61d036328b1bc9a1b8e9cee66446cac96a81b3",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd44/eval_results_loose.jsonl",
+      "loose_score_sha256": "a8e84473a8ec19853d3f3a16cd713f13c30dbf40e02ea2f270b61dd0ef62f999"
+    },
+    {
+      "method": "vocab_r1",
+      "seed": 44,
+      "run_name": "qwen25_15b_out_vocab_r1_s32_sd44",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd44",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_vocab_r1_s32_sd44.jsonl",
+      "response_sha256": "086ce3421005f5161eb6b46e278f5e5b8748c10e8f8f9a58f6637e6971f96d13",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd44/eval_results_strict.jsonl",
+      "strict_score_sha256": "143a657b62b827bbe7c8f46efcb292695001520bf6c38471665ed6be29768dad",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd44/eval_results_loose.jsonl",
+      "loose_score_sha256": "f19e398e3598b64faa8374f0ff7697a8ec46eab4ad2578e8f6a7753f7edc8a16"
+    },
+    {
+      "method": "aff_r50",
+      "seed": 45,
+      "run_name": "qwen25_15b_out_aff_r50_s16_sd45",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd45",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_aff_r50_s16_sd45.jsonl",
+      "response_sha256": "2b8f135021c0ba2663da9e9181e5bde5ce0f75a9316997b3df620601dab09614",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd45/eval_results_strict.jsonl",
+      "strict_score_sha256": "74cefd6d66e911b23138c036c83371c351cf373cb191088bf14fca1ccbded2f9",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_aff_r50_s16_sd45/eval_results_loose.jsonl",
+      "loose_score_sha256": "87a3410dd34725f467532fe7ea9062787b9f1e1fea6b75b53420ec89582650cc"
+    },
+    {
+      "method": "vocab_r1",
+      "seed": 45,
+      "run_name": "qwen25_15b_out_vocab_r1_s32_sd45",
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd45",
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/responses/qwen25_15b_out_vocab_r1_s32_sd45.jsonl",
+      "response_sha256": "423167f6fa3700b444577a387a60fa275f72aa19030fb24552fac7771d95ea7f",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd45/eval_results_strict.jsonl",
+      "strict_score_sha256": "2cd18a626eef874291cc83f3eb502c65097cc72eb9a7a6ec81dde5185536a719",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final/scores/qwen25_15b_out_vocab_r1_s32_sd45/eval_results_loose.jsonl",
+      "loose_score_sha256": "19346a4efd47a2337bb5c7a416140d41febd5eeab15a7f1a05ad497cc1e7524f"
+    }
+  ]
+}

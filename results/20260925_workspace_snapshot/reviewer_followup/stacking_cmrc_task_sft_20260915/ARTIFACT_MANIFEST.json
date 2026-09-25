@@ -1,0 +1,38 @@
+{
+  "completed_at": "2026-09-15T13:41:42+08:00",
+  "status": "complete",
+  "sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/FINAL_INTERPRETATION_ZH.md": "5911c04cc0305029d98fda4cb512c7ada9262c29cb398bf8ab8e85eaea40772d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/FINAL_AUDIT.json": "a99f12fe0bd83e82f0ddbe1f74e5c8ac093d51d88553e5c9d8d2af1066d7d9b5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/RESULTS.json": "c2cf203bc6941a2e934c17c25339dafacf80eb5738b37227cdb4088dee8046c1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/RESULTS.md": "96ae4efab9d18093554df71e26bca76383038425ee4b9702f517e6f8102fe056",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/paired_effects.csv": "47d48c82c0c3168b33bd19f98f84d97bcc037aa3a0a3afaf4c253e0935d7ffd9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/REFERENCE_REUSE_AUDIT.json": "4e0c4906b872a5addae0b1bfaa10f41af45971cb2b684de1713e56075efb3e4e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/REPORT_SOURCES.json": "94aba2f3cc7b0c7eb533e630b4cb36511321ccf9a4c64abbcf9c1f706c94794d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/manifest.json": "e4813ef447a73b8402f1d17c00a32df2ac922e0de5fb9cdae71100e633bbaa63",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/DESIGN.md": "8f9c7665df540742b225586dfa8571e0748feeec4469eb9ea27ad28662c6a6e0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/DATA_AND_MODEL_AUDIT.json": "e301cc4959d5f3d4984a083d88298a19a6569e13db029f879c329a24aa4f4671",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/analyze.py": "1af74726352c6660b7d1c6a376c664d6db81dba13f373d0328aadbcf47bffb16",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/final_audit.py": "1f9065cf4daebaedef58b35a260b05e157a1ba9af9c1c4a9564f285ed62ba73f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/plot.py": "b588c8883bccd46b615fa1dd8454c82eb7fd88c41767b83076d97ddd37089697",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/make_report.py": "70b9ee0d122dd38ca3f9ea5d612391364162de7e188ce0dd2bddef32e2491530",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/main_state.json": "806638bc03095aafaa5ab126deb0343cfec7fcdf6bba1ac9cd374a17b3557247",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/main_scheduler.log": "0212159a24110d797ff240fb509dec0676246797d156bd523ceb4e1173f7e19d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/final_audit.log": "1c67ae67b6869d7ecc81a34def4076548852de517119e1468c1348ccbed71be7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/figures/cmrc_task_sft.png": "cdca27e9f5d99b9efbce611e34eeb00d7c2412ececa304d789645e5cf803d6a0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/figures/cmrc_task_sft.pdf": "2b369182139c099e9156ddf88b46036e814a551253abec6ace36aeb5cb4b7d0e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/figures/sources.json": "f4d788e572e858a19a1f1900e0b4edb13775b5059b1bf969a5c3386d0499e577"
+  },
+  "external_reports_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/ARTIFACT_MANIFEST.json": "35992dec6118bf23aed9849d0e89c7203dfa53cfb9413e2b99e1fa6ba1bb53fc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/FINAL_AUDIT.json": "6f3ba1fb5e2f6e48092f283bb54c5e7dd1f7de64d14b5695ffc47f0ec45a1dc7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/FINAL_INTERPRETATION_ZH.md": "249ebb721399a719ecfe059cb3fdef51eda6ed379e1b067ddc5cf850f6b01c47",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/FINAL_INTERPRETATION_ZH.md": "11c8880d5818f89cb9bd26b3d4ec0014d30bb4a54da5ac86492a057c123d239c"
+  },
+  "postprocessing_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9"
+  },
+  "note": "RUN_HANDOFF.md is operational documentation excluded from immutable artifacts. Training inputs and raw outputs are covered by FINAL_AUDIT.json. Upstream transfer artifacts rechecked unchanged."
+}

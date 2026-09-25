@@ -1,0 +1,264 @@
+{
+  "at": "2026-09-17T15:20:17+08:00",
+  "pending": [],
+  "active": [],
+  "finished": [
+    {
+      "name": "banking77_qwen3_06b_base_base",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_s8100",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_base",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_base",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_base",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_budget_s8100",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_both_s8100",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_s8100",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_s8100",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_budget_s8100",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_both_s8100",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8100",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_s8100",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_both_s8100",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8100",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_both_s8100",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_s8101",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_budget_s8101",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_both_s8101",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_s8101",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_budget_s8101",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_both_s8101",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_s8101",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8101",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_both_s8101",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_s8101",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8101",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_both_s8101",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_s8102",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_budget_s8102",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_both_s8102",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_s8102",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_budget_s8102",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_both_s8102",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_s8102",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8102",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_both_s8102",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_s8102",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8102",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_s8103",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_both_s8102",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_budget_s8103",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_both_s8103",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_s8103",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_budget_s8103",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_both_s8103",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_s8103",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8103",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_both_s8103",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_s8103",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8103",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_both_s8103",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_s8104",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_budget_s8104",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen3_06b_base_hidden_both_s8104",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_s8104",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_budget_s8104",
+      "code": 0
+    },
+    {
+      "name": "banking77_qwen25_15b_base_hidden_both_s8104",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_s8104",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8104",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen3_06b_base_hidden_both_s8104",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_s8104",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8104",
+      "code": 0
+    },
+    {
+      "name": "e2e_clean_qwen25_15b_base_hidden_both_s8104",
+      "code": 0
+    }
+  ],
+  "failed": []
+}

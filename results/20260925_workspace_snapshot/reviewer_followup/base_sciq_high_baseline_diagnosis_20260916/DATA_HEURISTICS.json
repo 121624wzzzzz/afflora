@@ -1,0 +1,27 @@
+{
+  "clean_n": 998,
+  "random_four_choice_expected_pct": 25.0,
+  "gold_positions": {
+    "1": 253,
+    "3": 258,
+    "0": 244,
+    "2": 243
+  },
+  "always_majority_letter_accuracy": 25.851703406813627,
+  "longest_option_first_tie_accuracy": 24.749498997995993,
+  "longest_option_uniform_tie_expected_accuracy": 25.7431529726119,
+  "longest_option_ties": 215,
+  "question_word_length_median": 12.0,
+  "option_word_length_median": 1.0,
+  "normalized_question_overlaps": {
+    "train:validation": 0,
+    "train:test": 0,
+    "validation:test": 0
+  },
+  "prompt_fields": [
+    "question",
+    "choices"
+  ],
+  "support_passage_in_prompt": false,
+  "gold_metadata_rendered_in_prompt": false
+}

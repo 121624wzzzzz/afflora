@@ -1,0 +1,24 @@
+{
+  "at": "2026-09-16T17:47:30+08:00",
+  "data_files": {
+    "data/toolace_test.jsonl": "5628d4690c67dd67c0c377d1af1390611dad47c84b5da7c613a0e4cddda63bcc",
+    "data/cluener_test.jsonl": "40268c6c1685a3b6477447272ee124d86694c1eb6810504d3ed7f49ebe09ee52",
+    "tokens/toolace_qwen3_06b_base_test.json": "bd0ee845be8d14ed52082eb64e878c7d3959bb5e8a639e3963a057dfd11c0c16",
+    "tokens/toolace_qwen25_15b_base_test.json": "bd0ee845be8d14ed52082eb64e878c7d3959bb5e8a639e3963a057dfd11c0c16",
+    "tokens/cluener_qwen3_06b_base_test.json": "b5b8b8e475ad753c4bcda04fade92e1435db274f9692f46037ba391150cabe2f",
+    "tokens/cluener_qwen25_15b_base_test.json": "b5b8b8e475ad753c4bcda04fade92e1435db274f9692f46037ba391150cabe2f",
+    "data/cluener_fewshot_test.jsonl": "40268c6c1685a3b6477447272ee124d86694c1eb6810504d3ed7f49ebe09ee52",
+    "tokens/cluener_qwen3_06b_base_fewshot_test.json": "75aae6bc9e52b1e258dbe95e718555e3c041b0ebcb39412a5e2112e310d947d8",
+    "tokens/cluener_qwen25_15b_base_fewshot_test.json": "75aae6bc9e52b1e258dbe95e718555e3c041b0ebcb39412a5e2112e310d947d8"
+  },
+  "code_files": {
+    "HELDOUT_PROTOCOL.md": "abc6e997a143a5feda232ef4e18fb5cf0ec019a6a198ec96f11178afd3809c4b",
+    "heldout_run.py": "a375a123c69881baafb639d9db9d9944d150b3e756369a9a8538ec1d4b52eb6a",
+    "heldout_pipeline.py": "1ab94caa4e93cd2d68e995ee5d9375d20eb4d6a4bdfef8640173e9320a98041e",
+    "audit_heldout.py": "b69cab7d592b0753f34e1b9de46fd443f68b7df12691f4e0777d607114130705",
+    "analyze_heldout.py": "58f881ce3e6248ae1ee6641392ee1e2be0068a1a901934a1fe3c01d5b02d91a8",
+    "plot_heldout.py": "a820c539fef4b844b1fb285c72b9e8d9a1f90a28ad382e76e42cbeac0a6721fd",
+    "CODE_FROZEN.json": "9dde5f11b6b4816fda8ba73db26cef7743deb279ff815ddcca363af608f4ae13",
+    "FEWSHOT_FROZEN.json": "522bb9f28c64cd00820f660be7e47716adeaa9ec1567a1439aa79353c71b20ae"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "specified_before_corrected_fits",
+  "prototype_sha256": "3652c8d2aab368ea04252aac680e7da96662a13026e7751a5cfd8f3906361afb",
+  "controlled_reproduction_sha256": "12be3596cfff09e4008fce1e83ee2db543b2ab76f65e307140f80dcdb8fa8c81",
+  "cross_gpu_8_step_pilots": {
+    "budget": [
+      "091e15fa75fd72073d2c1f9781009c5253229a56923de8ba518f1d0aa85dd8b9",
+      "496bf002fc544b055f9e402db94f0ec0e4d78d5756990c715b6cc8371e5808a7"
+    ],
+    "both": [
+      "e9f7c0843da68b815f78f361f05ea186fe60bd655c93fb4a43c797479eb517f1",
+      "db2ece091664bf1b2f40b41da9227eee562b9931ef42ed570e67967cf62299c4"
+    ]
+  },
+  "policy": "Process-local fixed official FLA configurations; PyTorch deterministic algorithms; fixed CUBLAS workspace; TF32 and reduced-precision GEMM reductions disabled.",
+  "admission": "All 16 first-batch micro-losses must exactly match independently generated training-only references before any update. Two repeated backward passes require exact gradient parity.",
+  "scope": "Not a universal deterministic training guarantee. Uniform policy across all four sizes and all arms. Historical outcomes retained separately."
+}

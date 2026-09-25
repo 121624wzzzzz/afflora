@@ -1,0 +1,43 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-13T18:10:54+08:00",
+  "rhos": {
+    "qwen25_3b_input_ar16_s1_hr4_energy_tau0p0125_l100_seed42": {
+      "input": 0.012214541327493231
+    },
+    "qwen25_3b_input_ar16_s1_hr4_energy_tau0p025_l100_seed42": {
+      "input": 0.023221385609087507
+    },
+    "qwen25_3b_input_ar16_s1_hr4_energy_tau0p05_l100_seed42": {
+      "input": 0.042326608717063924
+    },
+    "qwen25_3b_shared_ar16_s1_hr4_energy_tau0p0125_l100_seed42": {
+      "input": 0.012225445169935893
+    },
+    "qwen25_3b_shared_ar16_s1_hr4_energy_tau0p025_l100_seed42": {
+      "input": 0.023028286969944044
+    },
+    "qwen25_3b_shared_ar16_s1_hr4_energy_tau0p05_l100_seed42": {
+      "input": 0.0418483915651212
+    },
+    "qwen3_4b_input_ar16_s1_hr4_energy_tau0p0125_l100_seed42": {
+      "input": 0.012497693163812227
+    },
+    "qwen3_4b_input_ar16_s1_hr4_energy_tau0p025_l100_seed42": {
+      "input": 0.0248844200198678
+    },
+    "qwen3_4b_input_ar16_s1_hr4_energy_tau0p05_l100_seed42": {
+      "input": 0.048584359017522095
+    },
+    "qwen3_4b_shared_ar16_s1_hr4_energy_tau0p0125_l100_seed42": {
+      "input": 0.012498159543828326
+    },
+    "qwen3_4b_shared_ar16_s1_hr4_energy_tau0p025_l100_seed42": {
+      "input": 0.024978645145798405
+    },
+    "qwen3_4b_shared_ar16_s1_hr4_energy_tau0p05_l100_seed42": {
+      "input": 0.048976051448941425
+    }
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/QWEN_TAU_SCALE_RESULTS.md"
+}

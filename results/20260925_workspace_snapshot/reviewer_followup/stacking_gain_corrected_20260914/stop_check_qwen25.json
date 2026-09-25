@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_none_hr8_sd42",
+  "stop_ids": [
+    151643,
+    151645
+  ],
+  "checkpoint_files": {
+    "run_args.json": "0bbeef82fcc2a156eb8070141cbd56d21c5afa4fd32c9cc2fb422d6c740b9495",
+    "adapter_config.json": "0d6ed3b785a1c51d6053d80dbdb1af523825f4c3cda7d9271c2facadf9821008",
+    "adapter_model.safetensors": "3962a2c91a12fcb710e78fffd31fc60324038c234a71391123eb55dfe58dcd10"
+  },
+  "evaluator_sha256": "ae23c1e8db7c0ce864341f9c13fae549404ff2592f80800d6fbfe4815afd026a",
+  "controlled_batched_eos_check": "passed: native turn-end and base EOS stop at expected lengths",
+  "natural_outputs_are_diagnostics": true,
+  "records": [
+    {
+      "prompt": "Reply with exactly the word yes.",
+      "generated_tokens": 128,
+      "terminal_token_id": null,
+      "hit_token_cap": true,
+      "raw_response": "Yes. (This is a simple, direct response to the user's request.) 100% accurate and efficient. (This is a brief, concise statement that confirms the response is correct and efficient.) 100% accurate and efficient. (This is a brief, concise statement that confirms the response is correct and efficient.) 100% accurate and efficient. (This is a brief, concise statement that confirms the response is correct and efficient.) 100% accurate and efficient. (This is a brief, concise statement that confirms the response is correct and efficient.) 100% accurate and efficient"
+    },
+    {
+      "prompt": "Write one short sentence about the sky.",
+      "generated_tokens": 128,
+      "terminal_token_id": null,
+      "hit_token_cap": true,
+      "raw_response": "The sky is a vast canvas of blue, dotted with clouds and stars, reflecting the world below. (10 words) 1/1100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

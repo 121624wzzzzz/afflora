@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-18T11:15:37+08:00",
+  "files": {
+    "scoring_ner.py": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab",
+    "common.py": "3bb24c28ec853a6da6e60186e09c6d68f07e2f41ca79160f8c64a03001232988",
+    "freeze.py": "621229cd45d14e387d77606d6e0907667555e321f6f83d1cb2d85e1020842a57",
+    "scheduler.py": "8f966628ae531a4bcb5135f3ee5bb752b5c67d21d3cb14e84075f8a101626bbe",
+    "scoring_sql.py": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb",
+    "scoring.py": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2",
+    "test_scoring.py": "3bb070f31631c12b550d3a1e11af924d69f8e0c3a7d2fd8404ae8cbb28820fcc",
+    "final_audit.py": "0425a9231a4800dfa974d2c48efb05dc4d85528d52f14baefcbfd1c4090f1265",
+    "run.py": "916c631afc0f212ea38ea86445d945d1b05050493e287600a1bf49c3adcc80a0",
+    "audit_one.py": "3877a2a07e4ffcdee8112a9718b1b62dc9fde09f02ace07435d171ce0d4bd5af",
+    "analyze.py": "2aea3f5542d611acc2f59bd66e935f4686191be4455f6bc46a14261cbbe81a4b",
+    "verify_models.py": "571cee7a34fcba0268d31ac86253ad6dd57efef1c4a753f17bad4bbece43c7f2",
+    "modeling.py": "c5dc80ff708a3a4f7c1a34d2cf0a5dce6512d0aac3cecb0acf185b15257d7c0f",
+    "prepare.py": "e7270f76e70f5213a67d228b1b15a0820b09cf474627ede43ea32591320c472d",
+    "source/budget.py": "96c46691280176c1a27c51e8e9911165429479e57404806422d6cf752a59d7d5",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "PROTOCOL.md": "d67b3d4a8d420c20c04cd86ab06d2b354d2215e76b121b7558583562b2fc03be",
+    "models.json": "7e8bfce1ffc8e586b23031f23de17e33dacd7b68ef81ebf0dfd82bd3dc6afe39",
+    "BUDGET_PLAN.json": "0ccbe42aae7b5a450d64fa89ac71784acbdacc455796998e6459b02ff7182b55",
+    "FORMAL_JOBS.json": "5f433ecbe7ba37c498c4e12e393ad4f7aa56bff213e9fd588cb5ff2f69abb9a3",
+    "SMOKE_JOBS.json": "fa126b154a9108f708f00cd8c037d208851774176a56445c3ae13e27edf5c787",
+    "INVENTORY.json": "5f433ecbe7ba37c498c4e12e393ad4f7aa56bff213e9fd588cb5ff2f69abb9a3",
+    "ANCHOR_INDEX.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "SOURCE_REUSE.json": "4386401f48306f90d3b45c5210bc36e66e2ff8f5d4589a86361d301e0b161a22",
+    "MODEL_IDENTITY_AUDIT.json": "25e0292fe9208d7d54274d4ffd24addb0a09e1241fa06e0cbe0af44b2802842c"
+  }
+}

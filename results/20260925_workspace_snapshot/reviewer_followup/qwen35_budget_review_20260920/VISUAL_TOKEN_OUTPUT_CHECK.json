@@ -1,0 +1,38 @@
+[
+  {
+    "seed": 7600,
+    "arm": "hidden",
+    "responses": 1024,
+    "visual_special_token_occurrences": 0
+  },
+  {
+    "seed": 7600,
+    "arm": "hidden_budget",
+    "responses": 1024,
+    "visual_special_token_occurrences": 0
+  },
+  {
+    "seed": 7600,
+    "arm": "hidden_both",
+    "responses": 1024,
+    "visual_special_token_occurrences": 0
+  },
+  {
+    "seed": 7601,
+    "arm": "hidden",
+    "responses": 1024,
+    "visual_special_token_occurrences": 0
+  },
+  {
+    "seed": 7601,
+    "arm": "hidden_budget",
+    "responses": 1024,
+    "visual_special_token_occurrences": 0
+  },
+  {
+    "seed": 7601,
+    "arm": "hidden_both",
+    "responses": 1024,
+    "visual_special_token_occurrences": 0
+  }
+]

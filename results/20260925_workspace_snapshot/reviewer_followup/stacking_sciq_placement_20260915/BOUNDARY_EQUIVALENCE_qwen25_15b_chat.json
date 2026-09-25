@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "trained_nonzero_smoke_maps": true,
+  "paths": {
+    "native_bf16_amp": {
+      "max_abs_logit_error": 0.0,
+      "bitwise_equal": true
+    },
+    "fp32": {
+      "max_abs_logit_error": 0.0,
+      "bitwise_equal": true
+    }
+  }
+}

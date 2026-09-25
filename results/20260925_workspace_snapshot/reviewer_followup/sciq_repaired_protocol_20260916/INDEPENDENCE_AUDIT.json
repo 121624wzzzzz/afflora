@@ -1,0 +1,164 @@
+{
+  "at": "2026-09-16T16:07:02+08:00",
+  "status": "passed",
+  "training_orders": [
+    {
+      "name": "confirmation_qwen25_15b_base_small_q_sd5004_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "confirmation_qwen25_15b_base_small_q_sd5006_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "smoke_qwen3_06b_base_small_q_sd5000_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": false
+    },
+    {
+      "name": "confirmation_qwen3_06b_base_small_q_sd5006_lr0.0008",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "confirmation_qwen25_15b_base_small_q_sd5002_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "confirmation_qwen3_06b_base_small_q_sd5005_lr0.0008",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "tuning_qwen25_15b_base_small_q_sd5001_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "confirmation_qwen3_06b_base_small_q_sd5002_lr0.0008",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "confirmation_qwen25_15b_base_small_q_sd5003_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "smoke_qwen25_15b_base_small_q_sd5000_lr5e-05_attempt2",
+      "order_regenerated": true,
+      "source_input_order_matched": false
+    },
+    {
+      "name": "confirmation_qwen3_06b_base_small_q_sd5003_lr0.0008",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "confirmation_qwen3_06b_base_small_q_sd5004_lr0.0008",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "tuning_qwen25_15b_base_small_q_sd5001_lr0.0008",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "tuning_qwen3_06b_base_small_q_sd5001_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "tuning_qwen3_06b_base_small_q_sd5001_lr0.0008",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "tuning_qwen25_15b_base_small_q_sd5001_lr0.0002",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "tuning_qwen3_06b_base_small_q_sd5001_lr0.0002",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "confirmation_qwen25_15b_base_small_q_sd5005_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": true
+    },
+    {
+      "name": "smoke_qwen25_15b_base_small_q_sd5000_lr5e-05",
+      "order_regenerated": true,
+      "source_input_order_matched": false
+    },
+    {
+      "name": "smoke_qwen3_06b_base_small_q_sd5000_lr5e-05_attempt2",
+      "order_regenerated": true,
+      "source_input_order_matched": false
+    }
+  ],
+  "confirmation_states": {
+    "qwen25_15b_base": [
+      {
+        "seed": 5004,
+        "initial": "bb6a60ddf96f5260f9c96309609018f254a526eaa67985f4d2efe96a1ef4a61f",
+        "final": "4145feffa6fddea98197777323863eae755f2bfe2600b7ad32aae80ee681839d"
+      },
+      {
+        "seed": 5006,
+        "initial": "2205a868cf25d751f39b887c8101ee5bc1abdfc22e4fe26fe2816e182f7cb8ea",
+        "final": "ecfabc853605a5bb850457c9318285c723fc66dc5abc70f402ea6aaccb401d0f"
+      },
+      {
+        "seed": 5002,
+        "initial": "9037af806872a7a8de82ec19a858c5621857942a336297c3c001b6bd6ec0a838",
+        "final": "9d222fe0abc8f7cc1027eae99040cde5f517d681b507b81af7fd832ba1758897"
+      },
+      {
+        "seed": 5003,
+        "initial": "49b8457a29269b215a894db02ec11521a1ebd98c0ea0ab5f44ef36048a3a7038",
+        "final": "744ef2363ad0926977c05e5a2196dac80db2b8989ed05c7571907d6764e5d6ba"
+      },
+      {
+        "seed": 5005,
+        "initial": "7b170af4f84be601ff0e7465d79f7fddfd622614c23c0d2942ec3f56147a33d1",
+        "final": "91fc393a917b7b6383afa0c7501b08df26ac70cc93567dc572cfc8821e760ad1"
+      }
+    ],
+    "qwen3_06b_base": [
+      {
+        "seed": 5006,
+        "initial": "3cba8d7503d70a270e695ca8f58ed6df5237985a1ee606cb6c46865ec5f1e76f",
+        "final": "5c78b68bcc9be343868bea9b13e8bd7e238087a1a23e49d65783a4274926f27f"
+      },
+      {
+        "seed": 5005,
+        "initial": "0a7e94cabd5cd8c00612404a4f56604c6c6346bac4ad94daff75f09179ca70e0",
+        "final": "dd4146f6e41dc5f14ee75b8bf89630a3d73fe4f891bfc19c4e9df6787f82f4ac"
+      },
+      {
+        "seed": 5002,
+        "initial": "4dacec5ead7ada74c9a17aa5a1fff28cf405746ca3a087de82cde18e7c61d037",
+        "final": "937cc7b4ed0947ed15bb9a972183be5d44fe0229f34e3224596677785584606c"
+      },
+      {
+        "seed": 5003,
+        "initial": "54fda90e664794bc78ae8799307742484e1d862eb00e1f1c46d283306d813139",
+        "final": "cafe698f29b5a51aa0bef234c6b7aafbe9f4982a80be5de56a7f093278dbe6a9"
+      },
+      {
+        "seed": 5004,
+        "initial": "30d3e1b7eca5cfecfaba3a192fd47134a908a3f4746a4c992e1dc628c6b6eab6",
+        "final": "1c12b622e61e37167f0c46548b8f21ed082a0826b35463de26e38a41611e8970"
+      }
+    ]
+  },
+  "same_data_order_as_paired_alora": true,
+  "all_five_initial_and_final_states_distinct": true
+}

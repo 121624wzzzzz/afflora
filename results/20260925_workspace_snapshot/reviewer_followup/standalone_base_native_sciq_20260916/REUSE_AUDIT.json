@@ -1,0 +1,39 @@
+{
+  "source_root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915",
+  "original_manifest_sha256": "e6a385d607150482ae8769162af7bc01146666243abddf8ff6980ed5ffe67b89",
+  "original_files_verified": 475,
+  "copied_source_sha256": {
+    "common.py": "b33190bbfafc747381dcebdd3695d4870ba89581c45d09f1dcda6fd7eb8e1885",
+    "generation.py": "ca112303bbbeec73e9904f5f6236fc8dfd450b3fafde1fed75f65497b947af28",
+    "evaluate.py": "edf580b75556c97b4cb38f7d00650a7ec814e2b4bbaef39e0bca621da63b50a5",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "data/train.jsonl": "0dd2a20eff76fc2d250a369697ef26c37059b9dc8c372e633c052a02a7882c4d",
+    "data/validation.jsonl": "dfb5048ec71a2ff7cfd75a04d8b408759ca9d36dc2f60473436ee3e204243566",
+    "data/test.jsonl": "639b98a7258df93e9eef41577dc86197b9f1ced5e019526d27bb2836cb85ab42",
+    "source/PRIOR_DATA_AUDIT.json": "947b923fa249dc28ce1dc8c83c1f112d252a56adbaa1cd46aea8c8f1b06c662b"
+  },
+  "source_bindings": {
+    "common.py": "common.py",
+    "generation.py": "generation.py",
+    "evaluate.py": "evaluate.py",
+    "source/affine_adapter.py": "source/affine_adapter.py",
+    "data/train.jsonl": "data/train.jsonl",
+    "data/validation.jsonl": "data/validation.jsonl",
+    "data/test.jsonl": "data/test.jsonl",
+    "source/PRIOR_DATA_AUDIT.json": "DATA_AUDIT.json"
+  },
+  "model_provenance_sha256": "a1c32a27a78f0e044e3463673cd463fb73f95330c2c25697a8a79c00e92d19f2",
+  "generated_token_sha256": {
+    "tokens/qwen25_15b_base_test.json": "c0acfa6af589c76912a6201dc214fa27a7286fc09d1d48889442e71a6b793505",
+    "tokens/qwen3_06b_base_test.json": "c0acfa6af589c76912a6201dc214fa27a7286fc09d1d48889442e71a6b793505",
+    "tokens/qwen25_15b_base_test_rotations.json": "6c4aea347b5b0b588d376e7b8fa1e47fccbce8f8978ffe1103f7bd2e1c60d846",
+    "tokens/qwen3_06b_base_test_rotations.json": "6c4aea347b5b0b588d376e7b8fa1e47fccbce8f8978ffe1103f7bd2e1c60d846",
+    "tokens/qwen25_15b_base_train.json": "4a97a5795b368aaf6ee3d661d3d55dd456382fb89e589387e82fa1ea85e356a3",
+    "tokens/qwen25_15b_base_validation.json": "92f16a4186200eddcdb2f23c604a049b56b6b0f87900d21a781aac2bf4d8ab9d",
+    "tokens/qwen3_06b_base_validation.json": "92f16a4186200eddcdb2f23c604a049b56b6b0f87900d21a781aac2bf4d8ab9d",
+    "tokens/qwen3_06b_base_train.json": "4a97a5795b368aaf6ee3d661d3d55dd456382fb89e589387e82fa1ea85e356a3"
+  },
+  "aborted_protocol_sha256": "3ce78a2a3bf55fe392fd5d751ff31c2c6874ed73b9799424b0f04b60709d9ba7",
+  "special_token_diagnostic_sha256": "6792e3063551fe123a92c12b4a31b8618ce5f71a39d7cf81272f966b078c637b",
+  "new_adapter_initialization": "fresh zero residual; no aborted/previous fitted adapters reused"
+}

@@ -1,0 +1,121 @@
+{
+  "at": "2026-09-18T14:28:16+08:00",
+  "prior_data_files": [
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/data/wikisql_dev.jsonl",
+      "sha256": "466548e72141cc239a51502b4072da74374bbdbda0da8c30abaa39f77da3718c",
+      "n": 256
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/data/wikisql_test.jsonl",
+      "sha256": "35c0d8df3d15990321b5ac3f499351498fcba4b28bde353bd13f4fc1f8ca289f",
+      "n": 1024
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/data/wikisql_train.jsonl",
+      "sha256": "4d7805b13a6628c3e4fbd7957484eeb58e1f5a22560a4cd746fc0ca7537a2383",
+      "n": 2048
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/preflight_v1/data/wikisql_dev.jsonl",
+      "sha256": "466548e72141cc239a51502b4072da74374bbdbda0da8c30abaa39f77da3718c",
+      "n": 256
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/preflight_v1/data/wikisql_test.jsonl",
+      "sha256": "35c0d8df3d15990321b5ac3f499351498fcba4b28bde353bd13f4fc1f8ca289f",
+      "n": 1024
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/preflight_v1/data/wikisql_train.jsonl",
+      "sha256": "4d7805b13a6628c3e4fbd7957484eeb58e1f5a22560a4cd746fc0ca7537a2383",
+      "n": 2048
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/llama_transfer_20260918/data/wikisql_dev.jsonl",
+      "sha256": "466548e72141cc239a51502b4072da74374bbdbda0da8c30abaa39f77da3718c",
+      "n": 256
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/llama_transfer_20260918/data/wikisql_test.jsonl",
+      "sha256": "35c0d8df3d15990321b5ac3f499351498fcba4b28bde353bd13f4fc1f8ca289f",
+      "n": 1024
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/llama_transfer_20260918/data/wikisql_train.jsonl",
+      "sha256": "4d7805b13a6628c3e4fbd7957484eeb58e1f5a22560a4cd746fc0ca7537a2383",
+      "n": 2048
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/data/wikisql_dev.jsonl",
+      "sha256": "466548e72141cc239a51502b4072da74374bbdbda0da8c30abaa39f77da3718c",
+      "n": 256
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/data/wikisql_test.jsonl",
+      "sha256": "35c0d8df3d15990321b5ac3f499351498fcba4b28bde353bd13f4fc1f8ca289f",
+      "n": 1024
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/data/wikisql_train.jsonl",
+      "sha256": "4d7805b13a6628c3e4fbd7957484eeb58e1f5a22560a4cd746fc0ca7537a2383",
+      "n": 2048
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/data/wikisql_dev.jsonl",
+      "sha256": "466548e72141cc239a51502b4072da74374bbdbda0da8c30abaa39f77da3718c",
+      "n": 256
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/data/wikisql_test.jsonl",
+      "sha256": "35c0d8df3d15990321b5ac3f499351498fcba4b28bde353bd13f4fc1f8ca289f",
+      "n": 1024
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/data/wikisql_train.jsonl",
+      "sha256": "4d7805b13a6628c3e4fbd7957484eeb58e1f5a22560a4cd746fc0ca7537a2383",
+      "n": 2048
+    }
+  ],
+  "sources": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/raw/wikisql/data/dev.jsonl": "61a857df71dc3c72185d57b3ea9b6df906e8a55fa78daa590edb87fc42871b7c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/raw/wikisql/data/dev.tables.jsonl": "d029a11a4f35d36b4e867fd21b0cc0f22b5b9fa2d3b7ac28c7a57986e1325e30",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/raw/wikisql/data/test.jsonl": "c63d294367a0931ba4cfdd1c5baaa2d73d4cc6d9ca57372e492a2b86d7f2d7d7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/downstream_transfer_20260917/raw/wikisql/data/test.tables.jsonl": "48e440fec378dc177df36fa8214691d5b2d7de7c8f2a25977a9c0a0e26ff5fa1"
+  },
+  "model_files_verified": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/config.json": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/generation_config.json": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/model-00001-of-00004.safetensors": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/model-00002-of-00004.safetensors": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/model-00003-of-00004.safetensors": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/model-00004-of-00004.safetensors": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/model.safetensors.index.json": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/special_tokens_map.json": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/tokenizer.json": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
+  },
+  "splits": {
+    "dev": {
+      "source_split": "dev",
+      "eligible_n": 7441,
+      "selected_n": 1024,
+      "tables": 854,
+      "max_prompt": 354,
+      "max_target": 48
+    },
+    "confirm": {
+      "source_split": "test",
+      "eligible_n": 12296,
+      "selected_n": 2048,
+      "tables": 1628,
+      "max_prompt": 469,
+      "max_target": 52
+    }
+  },
+  "status": "passed",
+  "gold_official_checks": 5120,
+  "sql_mutation_checks": 768,
+  "excluded_prior_tables": 3110,
+  "excluded_prior_ids": 3328
+}

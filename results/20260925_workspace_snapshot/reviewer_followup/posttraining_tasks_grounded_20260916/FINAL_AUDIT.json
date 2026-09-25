@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-16T22:01:02+08:00",
+  "status": "passed",
+  "frozen_manifest_file_counts": {
+    "CODE_FROZEN.json": 20,
+    "DATA_FROZEN.json": 30,
+    "FEWSHOT_FROZEN.json": 5,
+    "ADAPTER_PROTOCOL_FROZEN.json": 4,
+    "HELDOUT_FROZEN.json": 17
+  },
+  "development_responses": 22000,
+  "fewshot_diagnostic_source_sha256": "d49c6c2a8d674fa97ff86c81095e49cf63413bdc7ebef9a87db11fb966b11223",
+  "model_files_verified_at_sealing": 14,
+  "heldout_responses": 109442,
+  "training_runs": 104,
+  "checkpoint_scopes": 110,
+  "workspace_evidence_doc_sha256_at_sealing": {
+    "lora/README.md": "d16a12ff242ff4d0aaabd6dc1aae5aa12eb4b1972a59f98e517c09ff457d0398",
+    "lora/docs/RESULTS_SO_FAR.md": "97527188fbd85bebdd784423780395b2356e3d4ae2a6ecda03dc8fa5a440b637",
+    "emnlp/iclr2027/submissions/paper-2/EXPERIMENT_EVIDENCE_STATUS.md": "62c28a176b0e8d256a3b28f498e6d4efc51137e812d50796a6195947a0ed2f04"
+  }
+}

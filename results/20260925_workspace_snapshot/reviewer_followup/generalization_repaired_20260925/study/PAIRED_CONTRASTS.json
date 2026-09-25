@@ -1,0 +1,336 @@
+{
+  "at": "2026-09-25T17:40:52+08:00",
+  "note": "Only complete paired five-seed cells. Holm appears only when the entire prespecified family is complete.",
+  "contrasts": [
+    {
+      "stage": "confirmation",
+      "model": "llama32_3b_base",
+      "task": "emotion",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "1208100",
+        "1208101",
+        "1208102",
+        "1208103",
+        "1208104"
+      ],
+      "differences": [
+        1.8500000000000085,
+        -0.6500000000000057,
+        4.699999999999989,
+        -1.2999999999999972,
+        0.5
+      ],
+      "mean": 1.019999999999999,
+      "ci95": [
+        -1.9361644321909306,
+        3.976164432190928
+      ],
+      "p_unadjusted": 0.3923180789256661,
+      "positive": 3,
+      "negative": 2
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_3b_base",
+      "task": "emotion",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "1208100",
+        "1208101",
+        "1208102",
+        "1208103",
+        "1208104"
+      ],
+      "differences": [
+        2.3000000000000114,
+        0.3999999999999915,
+        0.75,
+        -0.25,
+        -0.29999999999999716
+      ],
+      "mean": 0.5800000000000012,
+      "ci95": [
+        -0.7344935601519487,
+        1.894493560151951
+      ],
+      "p_unadjusted": 0.28775634071195916,
+      "positive": 3,
+      "negative": 2
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "1207100",
+        "1207101",
+        "1207102",
+        "1207103",
+        "1207104"
+      ],
+      "differences": [
+        0.6888888888888971,
+        1.311111111111103,
+        1.0,
+        0.7777777777777715,
+        0.51111111111112
+      ],
+      "mean": 0.8577777777777783,
+      "ci95": [
+        0.47464872135408237,
+        1.2409068342014742
+      ],
+      "p_unadjusted": 0.0034090163353428906,
+      "positive": 5,
+      "negative": 0
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "1207100",
+        "1207101",
+        "1207102",
+        "1207103",
+        "1207104"
+      ],
+      "differences": [
+        0.6000000000000085,
+        1.3333333333333286,
+        0.9555555555555486,
+        1.0444444444444372,
+        0.37777777777778
+      ],
+      "mean": 0.8622222222222206,
+      "ci95": [
+        0.3946122190923967,
+        1.3298322253520445
+      ],
+      "p_unadjusted": 0.006888695663370185,
+      "positive": 5,
+      "negative": 0
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen25_15b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "1207100",
+        "1207101",
+        "1207102",
+        "1207103",
+        "1207104"
+      ],
+      "differences": [
+        -0.42222222222221717,
+        2.066666666666663,
+        0.8222222222222229,
+        1.0888888888888886,
+        0.44444444444444287
+      ],
+      "mean": 0.8,
+      "ci95": [
+        -0.3292730943812663,
+        1.9292730943812664
+      ],
+      "p_unadjusted": 0.12059842091372386,
+      "positive": 4,
+      "negative": 1
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen25_15b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "1207100",
+        "1207101",
+        "1207102",
+        "1207103",
+        "1207104"
+      ],
+      "differences": [
+        0.6888888888888971,
+        2.2666666666666657,
+        1.0666666666666629,
+        -0.8222222222222229,
+        0.5555555555555429
+      ],
+      "mean": 0.7511111111111092,
+      "ci95": [
+        -0.6251174871893964,
+        2.127339709411615
+      ],
+      "p_unadjusted": 0.20427078024747858,
+      "positive": 4,
+      "negative": 1
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_3b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "1207100",
+        "1207101",
+        "1207102",
+        "1207103",
+        "1207104"
+      ],
+      "differences": [
+        0.2888888888888772,
+        0.20000000000000284,
+        -0.3333333333333428,
+        -0.3555555555555543,
+        -0.11111111111111427
+      ],
+      "mean": -0.062222222222226266,
+      "ci95": [
+        -0.43159133642082775,
+        0.3071468919763752
+      ],
+      "p_unadjusted": 0.6643385675018787,
+      "positive": 2,
+      "negative": 3
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_3b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "1207100",
+        "1207101",
+        "1207102",
+        "1207103",
+        "1207104"
+      ],
+      "differences": [
+        0.11111111111110006,
+        0.08888888888888857,
+        -0.26666666666667993,
+        -0.08888888888888857,
+        0.24444444444445423
+      ],
+      "mean": 0.017777777777774874,
+      "ci95": [
+        -0.22855416719852228,
+        0.264109722754072
+      ],
+      "p_unadjusted": 0.8509619129721901,
+      "positive": 3,
+      "negative": 2
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen25_15b_base",
+      "task": "emotion",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "1208100",
+        "1208101",
+        "1208102",
+        "1208103",
+        "1208104"
+      ],
+      "differences": [
+        2.6000000000000085,
+        -0.29999999999999716,
+        2.549999999999997,
+        0.3500000000000085,
+        -3.3000000000000114
+      ],
+      "mean": 0.3800000000000011,
+      "ci95": [
+        -2.638737741196866,
+        3.3987377411968684
+      ],
+      "p_unadjusted": 0.7443383691769015,
+      "positive": 3,
+      "negative": 2
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen25_15b_base",
+      "task": "emotion",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "1208100",
+        "1208101",
+        "1208102",
+        "1208103",
+        "1208104"
+      ],
+      "differences": [
+        0.0,
+        0.7000000000000028,
+        1.7999999999999972,
+        -1.5999999999999943,
+        -2.200000000000003
+      ],
+      "mean": -0.25999999999999945,
+      "ci95": [
+        -2.2995063493420664,
+        1.7795063493420678
+      ],
+      "p_unadjusted": 0.7412482164298934,
+      "positive": 2,
+      "negative": 2
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_1b_base",
+      "task": "emotion",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "1208100",
+        "1208101",
+        "1208102",
+        "1208103",
+        "1208104"
+      ],
+      "differences": [
+        3.0,
+        5.799999999999997,
+        5.150000000000006,
+        2.9000000000000057,
+        3.049999999999997
+      ],
+      "mean": 3.9800000000000013,
+      "ci95": [
+        2.260284156170523,
+        5.6997158438294795
+      ],
+      "p_unadjusted": 0.00301598236942699,
+      "positive": 5,
+      "negative": 0
+    }
+  ]
+}

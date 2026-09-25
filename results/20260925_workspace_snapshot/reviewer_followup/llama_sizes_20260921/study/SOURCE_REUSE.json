@@ -1,0 +1,6 @@
+{
+  "parent": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/llama_transfer_20260918",
+  "frozen_sha256": "08626fb3d8d003cfcf9b35488386b3427b10e1f63ffe0ac095de0b0569da8138",
+  "note": "Copied audited source; exact q/k/down budget allocation extended; historical fits independently reaudited; no parent mutation.",
+  "reuse_audit_sha256": "c51c190fb7406dce76b80ee4c2854ea1ebb37ef5909257e1a608ecc657725c91"
+}

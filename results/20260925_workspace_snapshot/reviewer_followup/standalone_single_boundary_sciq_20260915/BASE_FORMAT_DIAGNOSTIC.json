@@ -1,0 +1,27 @@
+{
+  "scope": "Post hoc description of baseline formatting; no score or selection change",
+  "details": {
+    "reference_qwen25_15b_chat_base_sd3001_lr0": {
+      "rows": 1000,
+      "starts_with_letter_period": 959,
+      "examples": [
+        "B.",
+        "D. clone",
+        "A. backbone",
+        "B. elevation",
+        "D. tree rings"
+      ]
+    },
+    "reference_qwen3_06b_chat_base_sd3001_lr0": {
+      "rows": 1000,
+      "starts_with_letter_period": 1000,
+      "examples": [
+        "B. oxidants",
+        "D. clone",
+        "A. backbone",
+        "D. depth",
+        "D. tree rings"
+      ]
+    }
+  }
+}

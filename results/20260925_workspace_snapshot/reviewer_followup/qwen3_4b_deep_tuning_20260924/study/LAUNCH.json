@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-24T14:21:16+08:00",
+  "processes": {
+    "scheduler": 650772,
+    "finalize": 650773
+  },
+  "study": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study"
+}

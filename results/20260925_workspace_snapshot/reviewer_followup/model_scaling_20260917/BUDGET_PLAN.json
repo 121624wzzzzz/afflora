@@ -1,0 +1,24 @@
+{
+  "qwen25_3b_base": {
+    "base": 0,
+    "hidden": 14966784,
+    "hidden_both": 15099904,
+    "hidden_budget": 15099904,
+    "boundary": 133120,
+    "budget_excess": 0,
+    "q_expanded": 28,
+    "k_expanded": 8,
+    "tie_word_embeddings": true
+  },
+  "qwen25_7b_base": {
+    "base": 0,
+    "hidden": 20185088,
+    "hidden_both": 20418048,
+    "hidden_budget": 20418560,
+    "boundary": 232960,
+    "budget_excess": 512,
+    "q_expanded": 28,
+    "k_expanded": 8,
+    "tie_word_embeddings": false
+  }
+}

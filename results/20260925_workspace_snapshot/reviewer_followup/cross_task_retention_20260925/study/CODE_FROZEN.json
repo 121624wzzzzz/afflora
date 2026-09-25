@@ -1,0 +1,21 @@
+{
+  "at": "2026-09-25T17:28:45+08:00",
+  "files": {
+    "shared_boundary.py": "f791c08c27a3f64644ac6c236dbcebae1469cd9a0977aa8cefcca304c87d4e5b",
+    "common.py": "f5ce177a53ab7eca030fe2b9e0b0f186924e691d0344ef7925a85327632cc81b",
+    "scheduler.py": "454046f1b5b03aa8606cfd6b074c37da91484f24377cf3300f3031941b63f8cb",
+    "run_eval.py": "ecb5d4bf9d230f437794c9ef6cfd9d9671defa96267f9a37c333aa32d0c876a6",
+    "vocab_boundary.py": "a35a320b4a90e09b8ce7a8c4d7abcf0e3de94a697ef331ec531c2115571f3c0c",
+    "prepare_retention.py": "aa274c70af61ce241bebc2eedc9d3e1b42ab21f417ae0e8d383ae44a6e379c91",
+    "audit_one.py": "fcaf9cc9653bd71afc6766012c738aa63507105334c20673cf7fe7729e2f97da",
+    "report.py": "d619af5164e80e5783c2dd9f41c01364f32977ba46627f071c717afded7a3480",
+    "modeling.py": "55803474412aa6e4d3b68a31abc60031f12e6d5ff2298103e6f2036b7b836321",
+    "source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "JOBS.json": "80faa37d007fc4298b837cf3362c3398d7eb7a3da115534fb7d9d0339f04c2d4",
+    "models.json": "947cdf51d04c63e56fc1ac29b2bbaf6b5767fe598bb994741fede000c93a05b4",
+    "INPUT_AUDIT.json": "2f43e7f8a6c1384cd7a11068a119f77d864204d287ff0c1148fa3f3eb442befc",
+    "SOURCES.json": "a788aa3773979d87e8e4969518af0dfdc51ac35b5a496839cfcc9597e47efec1",
+    "PROTOCOL_ZH.md": "0c4202c62e824a23735a6cd6b7a0460c8d9275faa10b1ff0722da325fa737569"
+  }
+}

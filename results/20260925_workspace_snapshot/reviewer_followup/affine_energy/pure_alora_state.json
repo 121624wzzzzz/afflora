@@ -1,0 +1,11 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-12T20:32:31+08:00",
+  "tau": 0.00625,
+  "energy_lambda": 100.0,
+  "rhos": {
+    "llama31_8b_pure_lmhead_ar16_s1_unconstrained_seed42": 0.10195405828670565,
+    "llama31_8b_pure_lmhead_ar16_s1_energy_tau0p00625_l100_seed42": 0.011388075476397343
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/PURE_ALORA_ENERGY_RESULTS.md"
+}

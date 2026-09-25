@@ -1,0 +1,919 @@
+{
+  "at": "2026-09-21T17:56:03+08:00",
+  "status": "passed",
+  "scope": "2 untied Qwen models x 2 tasks x 4 single-side arms (with/without H) x 3 seeds; historical fits re-audited, not newly trained",
+  "runs": [
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden_input",
+      "seed": 6100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 20303360,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_hidden_input_s6100",
+      "adapter_sha256": "9c9505ed7dce88ee1dba5b62946701f7710a21c9fe0e93088d77a0743c3c7e7d",
+      "primary": 69.06543544021653
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden_input",
+      "seed": 6101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 20303360,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_hidden_input_s6101",
+      "adapter_sha256": "4c8b3f2db6811ec29dbf5784b464d5d4b81e43edefcdb492ffd2cfa1bb51df22",
+      "primary": 69.36231420808694
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden_input",
+      "seed": 6102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 20303360,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_hidden_input_s6102",
+      "adapter_sha256": "e090883d8f0f518814d2a68550ba1b89e86181363b7c1e05ac9dfd4987879bb6",
+      "primary": 69.77116338614178
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden_output",
+      "seed": 6100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 20299776,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_hidden_output_s6100",
+      "adapter_sha256": "ad9cb58e427eb84cd021eda0b311d5da26cfd6ccd7e2ab4731c5d18dbfcd61d2",
+      "primary": 70.38529743672417
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden_output",
+      "seed": 6101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 20299776,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_hidden_output_s6101",
+      "adapter_sha256": "9d3f415ba5c28cf2d57c0730c0d13fd6c3043d3c61a76a2a57e7969b127eff19",
+      "primary": 70.74417119131267
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "hidden_output",
+      "seed": 6102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 20299776,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_hidden_output_s6102",
+      "adapter_sha256": "8ef30601200736f9345d89e9bce09dfc75402b7c4e83d713b14464667b4f8930",
+      "primary": 69.66580976863753
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "input",
+      "seed": 6100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 118272,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_input_s6100",
+      "adapter_sha256": "00312884244cddc48dbac39172d3d1bff687cb3340bc46b03f2ac100938bad2a",
+      "primary": 51.14318144965137
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "input",
+      "seed": 6101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 118272,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_input_s6101",
+      "adapter_sha256": "b6011f850cad1681f87bcd204faf6165d562cb6ecd2ee0682438b116e296f19b",
+      "primary": 52.242302543507364
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "input",
+      "seed": 6102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 118272,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_input_s6102",
+      "adapter_sha256": "8aabf2d7ca804c5bbd6aa48e5d5837bd1e6ed4f46575e03021230a0307c6c4f6",
+      "primary": 51.24338199903738
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "output",
+      "seed": 6100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 114688,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_output_s6100",
+      "adapter_sha256": "0018c0fadf476f12d19ca0e9d02eb3897bbe689b6422babcbb16497028f4566f",
+      "primary": 54.066008846546445
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "output",
+      "seed": 6101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 114688,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_output_s6101",
+      "adapter_sha256": "5a7b6f2fc3a4884b94f7ec94fc6b013b26372c040cab604ae0806ed133243df9",
+      "primary": 53.74241402562374
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "arm": "output",
+      "seed": 6102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 114688,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen25_7b_base_output_s6102",
+      "adapter_sha256": "9cbfabc19f2b723826119f2c2e985ccc60d07e0a09923296fa8c9d7f50b83cc7",
+      "primary": 53.41098169717138
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden_input",
+      "seed": 7100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 20303360,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_hidden_input_s7100",
+      "adapter_sha256": "c6135403ee9ae372915f061710948992641e76d681c390fa63703c7ba42e0d78",
+      "primary": 81.25
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden_input",
+      "seed": 7101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 20303360,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_hidden_input_s7101",
+      "adapter_sha256": "bbd2f7db1e0bc6a8520e2c035d2ccefaaa96174d0c2b607caf1ca250269badfb",
+      "primary": 82.91015625
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden_input",
+      "seed": 7102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 20303360,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_hidden_input_s7102",
+      "adapter_sha256": "aea14a0c9201829f928d52b84c16406a277bc5c34f958844c2aab4e18d36bc19",
+      "primary": 81.4453125
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden_output",
+      "seed": 7100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 20299776,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_hidden_output_s7100",
+      "adapter_sha256": "ba305b0a5417b8c466025fbbc7f35be6cefbe61317de7445ef52219b12627c79",
+      "primary": 81.8359375
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden_output",
+      "seed": 7101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 20299776,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_hidden_output_s7101",
+      "adapter_sha256": "6aef8d94cbc9912eb092eb2d7da0b843a559507d2fca0ccbd0a0d9e3206d0424",
+      "primary": 82.32421875
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "hidden_output",
+      "seed": 7102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 20299776,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_hidden_output_s7102",
+      "adapter_sha256": "8fdad0e7a647daf12ff135e2d7db09b9ef671c037e9d07abe8fbb27e89fc6a8f",
+      "primary": 81.4453125
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "input",
+      "seed": 7100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 118272,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_input_s7100",
+      "adapter_sha256": "020b7a27ec450900a29aadcf595398e69f101a37fa8fe28589107351bc306725",
+      "primary": 62.79296875
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "input",
+      "seed": 7101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 118272,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_input_s7101",
+      "adapter_sha256": "a76af113bc8a282dd921f6a46cbfd1ad8bcd909eacd0f06cc3a91e8c463e40b1",
+      "primary": 64.0625
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "input",
+      "seed": 7102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 118272,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_input_s7102",
+      "adapter_sha256": "4415f8286ce3680230e193d1669341ede3ee9c2e5c4a0a16b89a90e4b9992bbf",
+      "primary": 61.71875
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "output",
+      "seed": 7100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 114688,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_output_s7100",
+      "adapter_sha256": "6e4596071beea2c5468f407778f0d931c9771e0220545e1fcc34641cb4761f14",
+      "primary": 52.9296875
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "output",
+      "seed": 7101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 114688,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_output_s7101",
+      "adapter_sha256": "345ea973e5604771211224f0b44013e358a8f467034fd808b7e7df01ba8dbb73",
+      "primary": 51.07421875
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "arm": "output",
+      "seed": 7102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 114688,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen25_7b_base_output_s7102",
+      "adapter_sha256": "63e8fb592d05ce6e8d62c42faad9fc05bfe2d3e951b42b6995bf25c7640bb3bd",
+      "primary": 50.1953125
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden_input",
+      "seed": 6100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 21958656,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_hidden_input_s6100",
+      "adapter_sha256": "b60324e5a4601bef773d855d0d355d51fe3bfd445dba07127a83595fe37d375a",
+      "primary": 71.58232931726907
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden_input",
+      "seed": 6101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 21958656,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_hidden_input_s6101",
+      "adapter_sha256": "52a546e982a24fd494a421d95f66aacaa11ba3974524f5630f7cb5829ce9dcc7",
+      "primary": 70.07861382961656
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden_input",
+      "seed": 6102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 21958656,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_hidden_input_s6102",
+      "adapter_sha256": "c9bd719b3cc903d6302ff910f3f3d76f8f131c6c1ced6186a760eb8a88631562",
+      "primary": 70.87222401029932
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden_output",
+      "seed": 6100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 21954560,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_hidden_output_s6100",
+      "adapter_sha256": "f21a391426fcc55c72ba67aa0a715d182607d12dd93f3aa38aab93b308e34139",
+      "primary": 72.49432371067142
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden_output",
+      "seed": 6101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 21954560,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_hidden_output_s6101",
+      "adapter_sha256": "32a2c41afa393676ee09749742766d964a608b7f00efd94a596e1d5126e5f4a8",
+      "primary": 71.41479099678456
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "hidden_output",
+      "seed": 6102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 21954560,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_hidden_output_s6102",
+      "adapter_sha256": "6bf57758a393916203a16dfec802a43891ab8f8589fd5c8f3f6505c3cc47d45b",
+      "primary": 71.04544724586478
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "input",
+      "seed": 6100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 135168,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_input_s6100",
+      "adapter_sha256": "40759d66bd9af086979408e5b10d4f6089481cb953b44da132987445af91d84c",
+      "primary": 53.36182804537235
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "input",
+      "seed": 6101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 135168,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_input_s6101",
+      "adapter_sha256": "3e8af04b30376e6c1d006c50de662cee91a98093eae4b45a282e711b377e4f71",
+      "primary": 52.10587647744298
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "input",
+      "seed": 6102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 135168,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_input_s6102",
+      "adapter_sha256": "7eb30a9add7ee43965bb7a1c5fa52b75a2b04778c1071ffdaa3ff97d3901b6c5",
+      "primary": 53.49222111883482
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "output",
+      "seed": 6100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 131072,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_output_s6100",
+      "adapter_sha256": "99765e8b84ae6b5f5822ab9ea768eb60ab51161550e3ddc471e7fa423c2f90d3",
+      "primary": 58.2059123343527
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "output",
+      "seed": 6101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 131072,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_output_s6101",
+      "adapter_sha256": "e6d8c81d5906983254fab291ae8ee56725d8cda0dee88867554ad0802632dfcd",
+      "primary": 58.98866903433113
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "arm": "output",
+      "seed": 6102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 131072,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 1024,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/cluener_qwen3_8b_base_output_s6102",
+      "adapter_sha256": "281b4f22ff2dc0a9fd4610935b912f7b0925292926384bb3fbe65eb747ee691c",
+      "primary": 58.049509885363015
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden_input",
+      "seed": 7100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 21958656,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_hidden_input_s7100",
+      "adapter_sha256": "e27d12f972e60795c4233817aabc244fbf35c42ca440db968976d27f16c14838",
+      "primary": 82.8125
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden_input",
+      "seed": 7101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 21958656,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_hidden_input_s7101",
+      "adapter_sha256": "32a43dead37eb9dbe7f731a0c655c40d15e707d89367397124abc9795eff4051",
+      "primary": 82.91015625
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden_input",
+      "seed": 7102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": true,
+      "trainable_parameters": 21958656,
+      "updated_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_hidden_input_s7102",
+      "adapter_sha256": "c691692ea71d8611125ff852876e9186ecf1eb6d170083768e43f088ffa2bab8",
+      "primary": 83.49609375
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden_output",
+      "seed": 7100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 21954560,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_hidden_output_s7100",
+      "adapter_sha256": "f5224235394198a01d347f781a73e9463696374ac378f8b02596dae0c0772f7b",
+      "primary": 82.2265625
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden_output",
+      "seed": 7101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 21954560,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_hidden_output_s7101",
+      "adapter_sha256": "3bef96777beea6d83d024f9b779fdb69ea856931cd46c413d69dc05129f77dd7",
+      "primary": 83.984375
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "hidden_output",
+      "seed": 7102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": true,
+      "trainable_parameters": 21954560,
+      "updated_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_hidden_output_s7102",
+      "adapter_sha256": "db8fc980dd61bf4782eaed25310b3ba27298b97a4b6280d21572e20f3e4ca887",
+      "primary": 84.47265625
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "input",
+      "seed": 7100,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 135168,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_input_s7100",
+      "adapter_sha256": "f8eb5eceeb11795a233fff64733fc19522180b3a6aa2782fc606dc0424ac53a9",
+      "primary": 62.109375
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "input",
+      "seed": 7101,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 135168,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_input_s7101",
+      "adapter_sha256": "4c366a4f42704493292b9784f4941a7fc370d04af6f60c6ddd17c425dbb44c70",
+      "primary": 59.86328125
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "input",
+      "seed": 7102,
+      "active_boundary": "input",
+      "inactive_boundary": "output",
+      "hidden_active": false,
+      "trainable_parameters": 135168,
+      "updated_groups": {
+        "hidden": false,
+        "input": true,
+        "output": false
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_input_s7102",
+      "adapter_sha256": "821e4ca78ac3a89c225a4eee4c262f1bd81b281e4837ad4a2d8efafececd525e",
+      "primary": 60.15625
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "output",
+      "seed": 7100,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 131072,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_output_s7100",
+      "adapter_sha256": "a89ea3ad5b6f9dc1d22a76d06d269e582047620750e0114170c971c447400091",
+      "primary": 61.1328125
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "output",
+      "seed": 7101,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 131072,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_output_s7101",
+      "adapter_sha256": "227d6e50285e4143b142616ace49d634a34e067f8ae0a7e37b84628d80755b26",
+      "primary": 59.765625
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "arm": "output",
+      "seed": 7102,
+      "active_boundary": "output",
+      "inactive_boundary": "input",
+      "hidden_active": false,
+      "trainable_parameters": 131072,
+      "updated_groups": {
+        "hidden": false,
+        "input": false,
+        "output": true
+      },
+      "base_gradient_checks": 512,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/checkpoints/wikisql_qwen3_8b_base_output_s7102",
+      "adapter_sha256": "8792dabbb134c4d4ecd73e0bf86294f484869b8d7f9a730b943967159f768ba7",
+      "primary": 60.3515625
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  "at": "2026-09-17T12:00:44+08:00",
+  "status": "passed",
+  "responses_checked": 104960,
+  "official_prediction_execution_checks": 39947,
+  "runs": [
+    {
+      "name": "anli_r1_qwen3_06b_base_base",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 33.1
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_base",
+      "split": "test",
+      "responses": 1000,
+      "primary": 33.1
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_base",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 36.5
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_base",
+      "split": "test",
+      "responses": 1000,
+      "primary": 39.0
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_base",
+      "split": "dev",
+      "responses": 256,
+      "primary": 5.46875
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_base",
+      "split": "test",
+      "responses": 1024,
+      "primary": 5.37109375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_base",
+      "split": "dev",
+      "responses": 256,
+      "primary": 10.9375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_base",
+      "split": "test",
+      "responses": 1024,
+      "primary": 7.12890625
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7100",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 47.6
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7100",
+      "split": "test",
+      "responses": 1000,
+      "primary": 44.6
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7100",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 48.8
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7100",
+      "split": "test",
+      "responses": 1000,
+      "primary": 48.6
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7100",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 48.4
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7100",
+      "split": "test",
+      "responses": 1000,
+      "primary": 50.3
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7100",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 54.0
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7100",
+      "split": "test",
+      "responses": 1000,
+      "primary": 54.8
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7100",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 54.0
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7100",
+      "split": "test",
+      "responses": 1000,
+      "primary": 54.2
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7100",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 55.1
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7100",
+      "split": "test",
+      "responses": 1000,
+      "primary": 55.1
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7100",
+      "split": "dev",
+      "responses": 256,
+      "primary": 76.171875
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7100",
+      "split": "test",
+      "responses": 1024,
+      "primary": 72.55859375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7100",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.0
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7100",
+      "split": "test",
+      "responses": 1024,
+      "primary": 72.4609375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7100",
+      "split": "dev",
+      "responses": 256,
+      "primary": 74.609375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7100",
+      "split": "test",
+      "responses": 1024,
+      "primary": 73.4375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7100",
+      "split": "dev",
+      "responses": 256,
+      "primary": 72.265625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7100",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.80078125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7100",
+      "split": "dev",
+      "responses": 256,
+      "primary": 72.265625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7100",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.8984375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7100",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.78125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7100",
+      "split": "test",
+      "responses": 1024,
+      "primary": 73.046875
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7101",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 45.7
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7101",
+      "split": "test",
+      "responses": 1000,
+      "primary": 47.5
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7101",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 46.6
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7101",
+      "split": "test",
+      "responses": 1000,
+      "primary": 47.8
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7101",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 46.4
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7101",
+      "split": "test",
+      "responses": 1000,
+      "primary": 45.4
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7101",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 50.6
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7101",
+      "split": "test",
+      "responses": 1000,
+      "primary": 52.8
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7101",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 51.3
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7101",
+      "split": "test",
+      "responses": 1000,
+      "primary": 53.0
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7101",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 50.3
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7101",
+      "split": "test",
+      "responses": 1000,
+      "primary": 51.1
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7101",
+      "split": "dev",
+      "responses": 256,
+      "primary": 74.609375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7101",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.01953125
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7101",
+      "split": "dev",
+      "responses": 256,
+      "primary": 74.609375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7101",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.3125
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7101",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.78125
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7101",
+      "split": "test",
+      "responses": 1024,
+      "primary": 71.2890625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7101",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.390625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7101",
+      "split": "test",
+      "responses": 1024,
+      "primary": 69.82421875
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7101",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.390625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7101",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.1171875
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7101",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.78125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7101",
+      "split": "test",
+      "responses": 1024,
+      "primary": 73.14453125
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7102",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 46.4
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7102",
+      "split": "test",
+      "responses": 1000,
+      "primary": 46.6
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7102",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 46.0
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7102",
+      "split": "test",
+      "responses": 1000,
+      "primary": 46.3
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7102",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 47.3
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7102",
+      "split": "test",
+      "responses": 1000,
+      "primary": 49.3
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7102",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 51.1
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7102",
+      "split": "test",
+      "responses": 1000,
+      "primary": 53.4
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7102",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 51.3
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7102",
+      "split": "test",
+      "responses": 1000,
+      "primary": 53.8
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7102",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 52.9
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7102",
+      "split": "test",
+      "responses": 1000,
+      "primary": 55.5
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7102",
+      "split": "dev",
+      "responses": 256,
+      "primary": 76.171875
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7102",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.3125
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7102",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.0
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7102",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.8984375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7102",
+      "split": "dev",
+      "responses": 256,
+      "primary": 76.171875
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7102",
+      "split": "test",
+      "responses": 1024,
+      "primary": 72.4609375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7102",
+      "split": "dev",
+      "responses": 256,
+      "primary": 74.609375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7102",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.80078125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7102",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.78125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7102",
+      "split": "test",
+      "responses": 1024,
+      "primary": 71.38671875
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7102",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.390625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7102",
+      "split": "test",
+      "responses": 1024,
+      "primary": 72.16796875
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7103",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 45.8
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7103",
+      "split": "test",
+      "responses": 1000,
+      "primary": 45.3
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7103",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 45.6
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7103",
+      "split": "test",
+      "responses": 1000,
+      "primary": 45.4
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7103",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 46.0
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7103",
+      "split": "test",
+      "responses": 1000,
+      "primary": 45.1
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7103",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 51.9
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7103",
+      "split": "test",
+      "responses": 1000,
+      "primary": 53.0
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7103",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 51.9
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7103",
+      "split": "test",
+      "responses": 1000,
+      "primary": 52.9
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7103",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 51.0
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7103",
+      "split": "test",
+      "responses": 1000,
+      "primary": 53.0
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7103",
+      "split": "dev",
+      "responses": 256,
+      "primary": 73.828125
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7103",
+      "split": "test",
+      "responses": 1024,
+      "primary": 68.84765625
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7103",
+      "split": "dev",
+      "responses": 256,
+      "primary": 73.828125
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7103",
+      "split": "test",
+      "responses": 1024,
+      "primary": 68.84765625
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7103",
+      "split": "dev",
+      "responses": 256,
+      "primary": 75.390625
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7103",
+      "split": "test",
+      "responses": 1024,
+      "primary": 71.19140625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7103",
+      "split": "dev",
+      "responses": 256,
+      "primary": 77.34375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7103",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.703125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7103",
+      "split": "dev",
+      "responses": 256,
+      "primary": 76.5625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7103",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.8984375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7103",
+      "split": "dev",
+      "responses": 256,
+      "primary": 77.734375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7103",
+      "split": "test",
+      "responses": 1024,
+      "primary": 73.92578125
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7104",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 45.5
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_s7104",
+      "split": "test",
+      "responses": 1000,
+      "primary": 44.2
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7104",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 47.0
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_budget_s7104",
+      "split": "test",
+      "responses": 1000,
+      "primary": 45.3
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7104",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 44.1
+    },
+    {
+      "name": "anli_r1_qwen3_06b_base_hidden_both_s7104",
+      "split": "test",
+      "responses": 1000,
+      "primary": 42.6
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7104",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 52.6
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_s7104",
+      "split": "test",
+      "responses": 1000,
+      "primary": 56.0
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7104",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 52.4
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_budget_s7104",
+      "split": "test",
+      "responses": 1000,
+      "primary": 55.0
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7104",
+      "split": "dev",
+      "responses": 1000,
+      "primary": 53.2
+    },
+    {
+      "name": "anli_r1_qwen25_15b_base_hidden_both_s7104",
+      "split": "test",
+      "responses": 1000,
+      "primary": 55.3
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7104",
+      "split": "dev",
+      "responses": 256,
+      "primary": 73.4375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_s7104",
+      "split": "test",
+      "responses": 1024,
+      "primary": 69.3359375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7104",
+      "split": "dev",
+      "responses": 256,
+      "primary": 73.046875
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_budget_s7104",
+      "split": "test",
+      "responses": 1024,
+      "primary": 69.43359375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7104",
+      "split": "dev",
+      "responses": 256,
+      "primary": 74.609375
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_both_s7104",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.703125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7104",
+      "split": "dev",
+      "responses": 256,
+      "primary": 72.265625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_s7104",
+      "split": "test",
+      "responses": 1024,
+      "primary": 69.140625
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7104",
+      "split": "dev",
+      "responses": 256,
+      "primary": 73.046875
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_budget_s7104",
+      "split": "test",
+      "responses": 1024,
+      "primary": 68.9453125
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7104",
+      "split": "dev",
+      "responses": 256,
+      "primary": 74.609375
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_both_s7104",
+      "split": "test",
+      "responses": 1024,
+      "primary": 70.99609375
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-18T01:50:18.037181+00:00",
+  "status": "finished",
+  "scheduler_version": 3,
+  "counts": {
+    "not_admitted_time_budget": 125,
+    "passed": 427
+  },
+  "halted_phases": [],
+  "all_planned_jobs_completed": false
+}

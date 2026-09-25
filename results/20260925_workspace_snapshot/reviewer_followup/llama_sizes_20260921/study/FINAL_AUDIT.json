@@ -1,0 +1,209 @@
+{
+  "at": "2026-09-21T15:31:20+08:00",
+  "status": "passed",
+  "frozen_files_checked": 626,
+  "tokens_reencoded": 20757,
+  "runs": 68,
+  "responses_checked": 84882,
+  "official_sql_checks": 35091,
+  "paired_groups": [
+    {
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "seed": 6100,
+      "counts": {
+        "hidden": 5636096,
+        "hidden_budget": 5769216,
+        "hidden_both": 5769216
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "seed": 6101,
+      "counts": {
+        "hidden": 5636096,
+        "hidden_budget": 5769216,
+        "hidden_both": 5769216
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "seed": 6102,
+      "counts": {
+        "hidden": 5636096,
+        "hidden_budget": 5769216,
+        "hidden_both": 5769216
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "seed": 7100,
+      "counts": {
+        "hidden": 5636096,
+        "hidden_budget": 5769216,
+        "hidden_both": 5769216
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "seed": 7101,
+      "counts": {
+        "hidden": 5636096,
+        "hidden_budget": 5769216,
+        "hidden_both": 5769216
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "seed": 7102,
+      "counts": {
+        "hidden": 5636096,
+        "hidden_budget": 5769216,
+        "hidden_both": 5769216
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "seed": 6100,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12356608,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "seed": 6101,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12356608,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "seed": 6102,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12356608,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "seed": 7100,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12356608,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "seed": 7101,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12356608,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "seed": 7102,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12356608,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "seed": 6100,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "seed": 6101,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "seed": 6102,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "seed": 7100,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "seed": 7101,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "seed": 7102,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    }
+  ]
+}

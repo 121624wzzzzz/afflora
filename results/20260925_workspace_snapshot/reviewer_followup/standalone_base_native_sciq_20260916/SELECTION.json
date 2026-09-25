@@ -1,0 +1,191 @@
+{
+  "at": "2026-09-16T11:16:10+08:00",
+  "selected": {
+    "qwen3_06b_base": {
+      "input": {
+        "lr": 0.0002,
+        "accuracy": 88.0,
+        "candidate_nll": 0.35982807131286065,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_input_sd5001_lr0.0002",
+        "metrics_sha256": "fbdb015267cdeca06c2c32350200c908788b7352eae87bf97b01ba6ecce8c1bc",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 86.8,
+            "candidate_nll": 0.3836132966002955,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_input_sd5001_lr5e-05",
+            "metrics_sha256": "e6dfbd04a006cc1fad3005ec0edbb14e0f25c5557e1fa70cf2a21ee5f1d8701b"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 88.0,
+            "candidate_nll": 0.35982807131286065,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_input_sd5001_lr0.0002",
+            "metrics_sha256": "fbdb015267cdeca06c2c32350200c908788b7352eae87bf97b01ba6ecce8c1bc"
+          },
+          {
+            "lr": 0.0008,
+            "accuracy": 86.8,
+            "candidate_nll": 0.3608540796448547,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_input_sd5001_lr0.0008",
+            "metrics_sha256": "a9fbcc4a281938989d4692739fd57642f42773c144141e0cbc32077ec1ba4f7a"
+          }
+        ]
+      },
+      "output": {
+        "lr": 0.0008,
+        "accuracy": 85.1,
+        "candidate_nll": 0.40839473680687527,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_output_sd5001_lr0.0008",
+        "metrics_sha256": "7262904325918ffc24d35991e17bdac01898c3101be6f8b06e3ee4ee6845c156",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 85.1,
+            "candidate_nll": 0.4121085142948066,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_output_sd5001_lr5e-05",
+            "metrics_sha256": "8555e201ff4b67a915fea84266c25941a0c4f98c1d29598a3e57227fc6feb927"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 84.8,
+            "candidate_nll": 0.4089557090809228,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_output_sd5001_lr0.0002",
+            "metrics_sha256": "cc7e405dd8b7d8408d06eea11c7b0b74ff99e9772d66eb7aaa4d6345b6ececc9"
+          },
+          {
+            "lr": 0.0008,
+            "accuracy": 85.1,
+            "candidate_nll": 0.40839473680687527,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_output_sd5001_lr0.0008",
+            "metrics_sha256": "7262904325918ffc24d35991e17bdac01898c3101be6f8b06e3ee4ee6845c156"
+          }
+        ]
+      },
+      "hidden_r8": {
+        "lr": 0.0002,
+        "accuracy": 89.3,
+        "candidate_nll": 0.29448345280281374,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_hidden_r8_sd5001_lr0.0002",
+        "metrics_sha256": "5b0b9834c94037d3913c410456145be96892fe2f28b451160d17320b988e08d5",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 88.7,
+            "candidate_nll": 0.318128933011503,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_hidden_r8_sd5001_lr5e-05",
+            "metrics_sha256": "4cc2470f018f96ad981331c2481de70bdcacf40c705d2928f49ee1a5a6357a20"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 89.3,
+            "candidate_nll": 0.29448345280281374,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_hidden_r8_sd5001_lr0.0002",
+            "metrics_sha256": "5b0b9834c94037d3913c410456145be96892fe2f28b451160d17320b988e08d5"
+          },
+          {
+            "lr": 0.0008,
+            "accuracy": 88.9,
+            "candidate_nll": 0.2911550238027524,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen3_06b_base_hidden_r8_sd5001_lr0.0008",
+            "metrics_sha256": "86adb427c76eb9396e660c89fba79809ea53ba17e418dc01542ed5c427cacdbc"
+          }
+        ]
+      }
+    },
+    "qwen25_15b_base": {
+      "input": {
+        "lr": 0.0008,
+        "accuracy": 92.4,
+        "candidate_nll": 0.2196096866532863,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_input_sd5001_lr0.0008",
+        "metrics_sha256": "70fbb75aa9a426f86897b57041cdf4bb297937c696f8ae74d9c70b6aec1863eb",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 92.30000000000001,
+            "candidate_nll": 0.22199059620856143,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_input_sd5001_lr5e-05",
+            "metrics_sha256": "fdc3dadd12a79d09012647eba1ef18965913e99e4ce611cbd2f769f835a38a1f"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 92.30000000000001,
+            "candidate_nll": 0.2176298861371342,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_input_sd5001_lr0.0002",
+            "metrics_sha256": "eb85f8cc16aa06eb80845b5a80a7efa863c8b7526a63bc8ec0cf6471afee8b47"
+          },
+          {
+            "lr": 0.0008,
+            "accuracy": 92.4,
+            "candidate_nll": 0.2196096866532863,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_input_sd5001_lr0.0008",
+            "metrics_sha256": "70fbb75aa9a426f86897b57041cdf4bb297937c696f8ae74d9c70b6aec1863eb"
+          }
+        ]
+      },
+      "output": {
+        "lr": 5e-05,
+        "accuracy": 92.4,
+        "candidate_nll": 0.23795303368602344,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_output_sd5001_lr5e-05",
+        "metrics_sha256": "d9b28f326a2ba1646f5b6a6a863e3c72d5bf1cd6d7a7482ac6ac8da001f3fc82",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 92.4,
+            "candidate_nll": 0.23795303368602344,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_output_sd5001_lr5e-05",
+            "metrics_sha256": "d9b28f326a2ba1646f5b6a6a863e3c72d5bf1cd6d7a7482ac6ac8da001f3fc82"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 92.2,
+            "candidate_nll": 0.23621698365579685,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_output_sd5001_lr0.0002",
+            "metrics_sha256": "c07745312f90479d07d18faa8c2ea977b99e0d0ef418ef476053f0f566d2544b"
+          },
+          {
+            "lr": 0.0008,
+            "accuracy": 92.10000000000001,
+            "candidate_nll": 0.2364594441118152,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_output_sd5001_lr0.0008",
+            "metrics_sha256": "bacf524b28135efc2681438e5f9417d7d12b71415848db167f351331c46568b5"
+          }
+        ]
+      },
+      "hidden_r8": {
+        "lr": 0.0008,
+        "accuracy": 93.8,
+        "candidate_nll": 0.18508451373653195,
+        "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_hidden_r8_sd5001_lr0.0008",
+        "metrics_sha256": "2ba75fe2cb2ab8324bf81eff6e38e8889fcedf7d6153ac70cac4e509b7c3100b",
+        "all_candidates": [
+          {
+            "lr": 5e-05,
+            "accuracy": 92.80000000000001,
+            "candidate_nll": 0.19809693386726207,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_hidden_r8_sd5001_lr5e-05",
+            "metrics_sha256": "8d1f00ba538a157a87e8f0e5fb252b47a9f42102479459f5490854b600123c9d"
+          },
+          {
+            "lr": 0.0002,
+            "accuracy": 93.5,
+            "candidate_nll": 0.18379358908044063,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_hidden_r8_sd5001_lr0.0002",
+            "metrics_sha256": "56f6bb4b8eb8010ab52dc2c9832ddbfeee9055ad0f9fdcf4a88ad9b00de32f52"
+          },
+          {
+            "lr": 0.0008,
+            "accuracy": 93.8,
+            "candidate_nll": 0.18508451373653195,
+            "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/tuning_qwen25_15b_base_hidden_r8_sd5001_lr0.0008",
+            "metrics_sha256": "2ba75fe2cb2ab8324bf81eff6e38e8889fcedf7d6153ac70cac4e509b7c3100b"
+          }
+        ]
+      }
+    }
+  },
+  "new_study_test_results_accessed": false,
+  "prior_benchmark_exposure": true
+}

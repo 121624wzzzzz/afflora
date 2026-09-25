@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-14T11:45:02+08:00",
+  "jobs": 8,
+  "shared_initialization": "matched",
+  "generation_eos_ids": [
+    151643,
+    151645
+  ],
+  "protocol_sha256": "834b8257cff1004b4e18ed31280b157e13d5a6d0befa7a5aec49b2b29fe3baaf"
+}

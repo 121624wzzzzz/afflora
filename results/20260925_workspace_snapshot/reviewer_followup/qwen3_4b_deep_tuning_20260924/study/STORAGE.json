@@ -1,0 +1,5 @@
+{
+  "artifact_root": "/home/wz/experiment_artifacts/qwen3_4b_deep_tuning_20260924",
+  "workspace_guard_GiB": 5,
+  "artifact_guard_GiB": 40
+}

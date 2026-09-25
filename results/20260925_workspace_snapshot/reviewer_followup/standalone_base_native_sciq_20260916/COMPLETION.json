@@ -1,0 +1,74 @@
+{
+  "at": "2026-09-16T11:46:12+08:00",
+  "status": "complete",
+  "scope": "Single-boundary supervised task adaptation from official pretrained Base checkpoints; SciQ native completion and EOS",
+  "training_jobs": 54,
+  "confirmation_jobs": 30,
+  "reference_jobs": 2,
+  "confirmation_seeds": [
+    5002,
+    5003,
+    5004,
+    5005,
+    5006
+  ],
+  "all_original_weights_bitwise_unchanged": true,
+  "audits": {
+    "FINAL_AUDIT.json": "4aa76776ee48a1d97f822ce6c9ece36e1ffd1fdb4e333c41ae4b869ac7088f3d",
+    "INDEPENDENCE_AUDIT.json": "ac4a72173e917a327a858839b57c66a4af5d4ef20d0e8c07d04649f5a3467753",
+    "ARCHIVE_AUDIT.json": "33c9e0559c9c37d5e9512e148d996b30888afb90dcc9e3517a076c3613f9f169"
+  },
+  "report_sha256": "454433a5121cdd9a0dd95a99ddb6736a8cf9f61ccc9232d66e842b11c033182f",
+  "results_sha256": "cd148ff5a9e5cb09d2183655b27a6748cc2c07324bd740e6b46cf63a416d7d6b",
+  "primary_outcomes": {
+    "qwen3_06b_base": {
+      "input": {
+        "candidate_accuracy": 86.65330661322645,
+        "passes_both_primary_metrics": true,
+        "trainable_parameters": 33792
+      },
+      "output": {
+        "candidate_accuracy": 85.03006012024048,
+        "passes_both_primary_metrics": false,
+        "trainable_parameters": 32768
+      },
+      "hidden_r8": {
+        "candidate_accuracy": 89.57915831663327,
+        "passes_both_primary_metrics": true,
+        "trainable_parameters": 5046272
+      }
+    },
+    "qwen25_15b_base": {
+      "input": {
+        "candidate_accuracy": 91.08216432865731,
+        "passes_both_primary_metrics": true,
+        "trainable_parameters": 50688
+      },
+      "output": {
+        "candidate_accuracy": 88.79759519038076,
+        "passes_both_primary_metrics": false,
+        "trainable_parameters": 49152
+      },
+      "hidden_r8": {
+        "candidate_accuracy": 92.30460921843687,
+        "passes_both_primary_metrics": true,
+        "trainable_parameters": 9232384
+      }
+    }
+  },
+  "generation_all_fitted_rows": {
+    "rows": 30000,
+    "valid_exact_format": 30000,
+    "terminated": 30000,
+    "length_caps": 0
+  },
+  "limitations": [
+    "One previously inspected benchmark",
+    "Modest input gains with some interval lower bounds close to zero",
+    "Output primary effects lack reliable positive gain; rotation support differs",
+    "Larger hidden LoRA has more parameters and higher accuracy",
+    "Prior Instruct comparison confounds stage with native prompt/EOS correction",
+    "No equal-budget superiority, general retention or stacking claim"
+  ],
+  "active_study_processes": []
+}

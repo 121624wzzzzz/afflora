@@ -1,0 +1,35 @@
+{
+  "llama32_1b_base": {
+    "base": 0,
+    "hidden": 5636096,
+    "hidden_budget": 5769216,
+    "hidden_both": 5769216,
+    "budget_excess": 0,
+    "q_expanded": 15,
+    "k_expanded": 16,
+    "down_expanded": 3,
+    "tied": true
+  },
+  "llama32_3b_base": {
+    "base": 0,
+    "hidden": 12156928,
+    "hidden_budget": 12356608,
+    "hidden_both": 12356608,
+    "budget_excess": 0,
+    "q_expanded": 28,
+    "k_expanded": 4,
+    "down_expanded": 1,
+    "tied": true
+  },
+  "llama31_8b_base": {
+    "base": 0,
+    "hidden": 20971520,
+    "hidden_budget": 21237760,
+    "hidden_both": 21237760,
+    "budget_excess": 0,
+    "q_expanded": 30,
+    "k_expanded": 4,
+    "down_expanded": 0,
+    "tied": false
+  }
+}

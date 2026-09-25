@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-16T17:15:15+08:00",
+  "scope": "Base prompt sensitivity only; not a matched adapter contrast",
+  "example_ids": [
+    "cluener_train_10346",
+    "cluener_train_6146"
+  ],
+  "files": {
+    "data/cluener_fewshot_dev.jsonl": "98e999eb7a0809b9183338027a1a7592450bffc893af86001d2ef13d963bcf1b",
+    "tokens/cluener_qwen3_06b_base_fewshot_dev.json": "deb600109e48173419c072b930d9722fcaa15df234ae52fbcfbc539fce475a30",
+    "specs/diagnostic_cluener_qwen3_06b_base_two_shot_base.json": "68b27c11162161fbe6e66622ff79655f7a18b470bb367960d6797cecfda31b68",
+    "tokens/cluener_qwen25_15b_base_fewshot_dev.json": "deb600109e48173419c072b930d9722fcaa15df234ae52fbcfbc539fce475a30",
+    "specs/diagnostic_cluener_qwen25_15b_base_two_shot_base.json": "ecceddd727f63c54febedcabf1d77c30aa09e6c7443f6372ccc3de94223f9a6f"
+  },
+  "code_sha256": "d49c6c2a8d674fa97ff86c81095e49cf63413bdc7ebef9a87db11fb966b11223"
+}

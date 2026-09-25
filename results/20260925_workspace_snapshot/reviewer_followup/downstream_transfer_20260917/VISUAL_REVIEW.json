@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-17T12:06:01+08:00",
+  "status": "passed",
+  "checks": "All eight intervals, labels, zero reference, title and footnote visually inspected; no clipping.",
+  "analysis_sha256": "eeca44bec7b0fb2b16d3ec569dcfa877206b78d35345c54bec1ae0f361a0e20a",
+  "figures": {
+    "heldout_effects.png": "904d8a3ec2e2f39c6c06c65364f329ef016b77d1afffa6eee438d338cd58401f",
+    "heldout_effects.pdf": "343ad433c9aa465bce3a8b48573a1f39957518e20269492990658174f6b09c6a",
+    "heldout_effects.svg": "e34b3c97fcdaf22d95b6af19de675ece8b181389ae4252ae8b0855e72ea44181"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "scanned": 14,
+  "duplicates": [
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-3B-Base/model-00002-of-00002.safetensors",
+      "keeper": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/model-00002-of-00002.safetensors",
+      "sha256": "51410930d5cf19a998fdb17ef0c46e4d9ace72c97a975a3331395a8a500f5edb",
+      "bytes": 2203268048,
+      "old_inode": 87300937,
+      "links": 1
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-3B-Base/model-00001-of-00002.safetensors",
+      "keeper": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/model-00001-of-00002.safetensors",
+      "sha256": "f9558df91d3b89b4826e4db37439edb52f1d62a4fd602685013e7ca6b9f60f8f",
+      "bytes": 3968658944,
+      "old_inode": 87300713,
+      "links": 1
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-0.5B-Base/model.safetensors",
+      "keeper": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen2.5-0.5B/model.safetensors",
+      "sha256": "88c142557820ccad55bb59756bfcfcf891de9cc6202816bd346445188a0ed342",
+      "bytes": 988097824,
+      "old_inode": 87300366,
+      "links": 1
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3-1.7B-Base/model.safetensors",
+      "keeper": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen3-1.7B-Base/model.safetensors",
+      "sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+      "bytes": 3441185608,
+      "old_inode": 87303141,
+      "links": 1
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3-4B-Base/model-00002-of-00003.safetensors",
+      "keeper": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen3-4B-Base/model-00002-of-00003.safetensors",
+      "sha256": "f4707585548b2fc75a6b1d732e8465c62040a8699903c32850781beeb9b27826",
+      "bytes": 3987450520,
+      "old_inode": 87300221,
+      "links": 1
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3-4B-Base/model-00001-of-00003.safetensors",
+      "keeper": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen3-4B-Base/model-00001-of-00003.safetensors",
+      "sha256": "4c807e2503d68ae373d508689d00a41f4b33f33c2536da97ab81a20caddc1241",
+      "bytes": 3957900840,
+      "old_inode": 87300220,
+      "links": 1
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3-4B-Base/model-00003-of-00003.safetensors",
+      "keeper": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen3-4B-Base/model-00003-of-00003.safetensors",
+      "sha256": "c7b1aa8fb672de2e00423c99876926022e50b18d4f0d140670788510a27f9965",
+      "bytes": 99630640,
+      "old_inode": 87300223,
+      "links": 1
+    }
+  ],
+  "duplicate_GiB": 17.36561993509531
+}

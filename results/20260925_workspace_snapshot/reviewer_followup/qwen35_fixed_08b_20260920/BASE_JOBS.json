@@ -1,0 +1,34 @@
+[
+  {
+    "name": "base_wikisql_base_base_s7598",
+    "stage": "base",
+    "task": "wikisql",
+    "model": "qwen35_08b_base",
+    "arm": "base",
+    "seed": 7598,
+    "candidate": "base",
+    "lr": 0.0,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "base_trec50_base_base_s7598",
+    "stage": "base",
+    "task": "trec50",
+    "model": "qwen35_08b_base",
+    "arm": "base",
+    "seed": 7598,
+    "candidate": "base",
+    "lr": 0.0,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  }
+]

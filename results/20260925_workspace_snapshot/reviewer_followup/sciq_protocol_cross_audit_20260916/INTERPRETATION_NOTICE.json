@@ -1,0 +1,12 @@
+{
+  "status": "interpretation_narrowed",
+  "source_artifacts_modified": false,
+  "unsupported_interpretations": [
+    "Qwen3 85.07 versus 62.53 proves a general knowledge regression caused by official post-training",
+    "The 62.53 score resulted from our SFT reducing an 85.07 starting score",
+    "Strict single-letter generation gains equal knowledge or general SFT gains",
+    "A low fixed-position baseline establishes a lack of available answer-generation capability"
+  ],
+  "retained_scope": "Previously measured adapter gains remain results under their explicitly fixed input/output and inference protocols; no new training was performed here.",
+  "new_diagnosis": "Strong prompt sensitivity and a different thinking-mode answer-generation operating point; not a pure causal estimate of reasoning or post-training."
+}

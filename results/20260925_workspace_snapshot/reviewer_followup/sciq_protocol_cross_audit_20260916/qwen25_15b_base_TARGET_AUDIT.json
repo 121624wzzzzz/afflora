@@ -1,0 +1,11 @@
+{
+  "model": "qwen25_15b_base",
+  "examples": 8,
+  "supervised_tokens_per_example": 2,
+  "targets": "answer letter, native source-study end token",
+  "native_hf_shifted_loss": 1.0249505043029785,
+  "two_position_loss": 1.0249505043029785,
+  "abs_loss_error": 0.0,
+  "standard_shift_check_passed": true,
+  "eos_id": 151643
+}

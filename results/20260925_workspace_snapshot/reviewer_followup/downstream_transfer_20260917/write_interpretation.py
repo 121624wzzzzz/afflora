@@ -1,0 +1,46 @@
+"""Final narrative rendered from audited results; no metric or protocol changes."""
+from common import *
+
+a=read(HERE/'TEST_ANALYSIS.json');d=read(HERE/'CONTENT_DIAGNOSTICS.json');b=read(HERE/'BUDGET_CONTROL_DIAGNOSTIC.json')
+table={(r['task'],r['model'],r['arm']):r for r in a['tables']}
+names={'qwen3_06b_base':'Qwen3-0.6B Base','qwen25_15b_base':'Qwen2.5-1.5B Base'}
+tasks={'anli_r1':'ANLI R1 标签准确率','wikisql':'WikiSQL 执行正确率'}
+lines=['# 下游任务扩展：最终结果与解释','',
+    'WikiSQL 查询语义解析上找到了新的叠加收益：两个 Base 模型的五个种子均同时高于普通内部 LoRA 与严格等参数内部 LoRA，四项预定比较经本轮八项比较校正的种子 t 区间均高于零。ANLI R1 未发现稳定的叠加收益。这是任务依赖的正向证据，不是所有下游任务普遍占优的证明。','',
+    '## 相同五种子、相同测试集的完整比较','',
+    '|任务|模型|未适配 Base|普通 LoRA|等参数 LoRA|LoRA＋A-LoRA|','|---|---|---:|---:|---:|---:|']
+for task in TASKS:
+    for model in MODELS:
+        vals=[table[task,model,arm]['primary'] for arm in ['base','hidden','hidden_budget','hidden_both']]
+        lines.append('|'+tasks[task]+'|'+names[model]+'|'+'|'.join(f'{v:.2f}' for v in vals)+'|')
+lines+=['','ANLI 使用官方 R1 测试1000题，按固定三个标签的下一token概率评分，不包含EOS。WikiSQL使用预先固定抽样的1024题、928张表，报告官方执行正确率；是小数据查询逻辑形式生成实验，不是完整WikiSQL排行榜或复杂SQL生成。','',
+    '## 预定主比较','',
+    '|任务|模型|叠加组相对|平均增量 pp|五种子校正95%区间|条件簇bootstrap 95%区间|','|---|---|---|---:|---|---|']
+for r in a['primary_contrasts']:
+    boot=r['conditional_cluster_bootstrap_95'];control='普通 LoRA' if r['control']=='hidden' else '等参数 LoRA'
+    lines.append(f"|{tasks[r['task']]}|{names[r['model']]}|{control}|{r['mean']:+.3f}|[{r['lower']:+.3f}, {r['upper']:+.3f}]|[{boot[0]:+.3f}, {boot[1]:+.3f}]|")
+lines+=['','种子区间为本轮八项预定主比较的Bonferroni校正配对t区间，依赖五种子及其分布假设。WikiSQL等参数比较的下界只有约 +0.090 / +0.036 pp，虽通过本轮判据，不能形容为已对更多种子或独立调参高度稳健。条件簇区间只描述已训练五个模型的题目变异，不能替代训练变异。开发集结果完整保留于 [DEV_RESULTS_ZH.md](DEV_RESULTS_ZH.md)：WikiSQL平均增量也为正，但开发集较小，校正种子区间跨零。','',
+    '![五种子叠加增量与校正区间](figures/heldout_effects.png)','',
+    '## WikiSQL 改善是否只是格式','',
+    '|模型|方案|执行正确率|逻辑形式完全匹配率|查询结构有效率|严格JSON率|','|---|---|---:|---:|---:|---:|']
+for r in d['groups']:
+    if r['task']=='wikisql' and r['arm']!='base':
+        arm={'hidden':'普通 LoRA','hidden_budget':'等参数 LoRA','hidden_both':'LoRA＋A-LoRA'}[r['arm']]
+        vals=[r[k] for k in ['content_correct_pct','lf_correct_pct','query_valid_pct','strict_json_pct']]
+        lines.append('|'+names[r['model']]+'|'+arm+'|'+'|'.join(f'{v:.2f}' for v in vals)+'|')
+lines+=['','两模型的逻辑形式匹配率都提高，叠加组的查询结构有效率和严格JSON率反而略低，因此执行收益不能仅解释为输出更容易解析。配对分解以全部1024题为分母：双方查询结构均有效的题目，分别贡献了相对普通LoRA +1.738 / +2.480 pp、相对等参数LoRA +1.563 / +2.285 pp；单边有效题目的净贡献为负。这是事后描述性分解，不单独识别因果机制。','',
+    '全部选中标准查询执行结果非空。官方执行器对重复条件列的参数绑定细节已另行检查：改用独立条件参数，仅使1.5B等参数组平均分降低0.020 pp，未改变优势方向；细节见 [CONTENT_DIAGNOSTICS.json](CONTENT_DIAGNOSTICS.json)。','',
+    '## 为什么等参数 LoRA 没有始终高于普通 LoRA','',
+    '这里的等参数是与叠加方案总预算相同。普通/扩容预算分别为0.6B的5,046,272 / 5,112,832，以及1.5B的9,232,384 / 9,332,224，增量约1.32% / 1.08%。等参数组在固定q/k模块将rank8增为9，保留原r8初始化及缩放2；未启用rank-stabilized LoRA或DoRA。额外B列初始为零，初始输出与Base严格一致。','',
+    '|任务|模型|等参数－普通 LoRA 平均 pp|逐种子差值 pp|','|---|---|---:|---|']
+for r in b['groups']:
+    deltas=', '.join(f"{s['budget_minus_hidden']:+.3f}" for s in r['seeds'])
+    lines.append(f"|{tasks[r['task']]}|{names[r['model']]}|{r['mean_delta']:+.3f}|{deltas}|")
+lines+=['','ANLI 1.5B 的下降仅为0.22 pp，五种子方向不一致；描述性的未校正95%种子区间为[-0.935,+0.495]，不能作为稳定下降证据。这不是预定主比较，未据此新增确认性结论。共有初始化、训练顺序、缩放、参数范围和原权重冻结均通过检查，训练损失接近，目前没有发现实现错误。','',
+    '增加rank扩大可表示的函数范围，但固定数据、学习率和有限训练步数并不保证测试准确率单调提高。即使能达到更低训练损失，也不能直接保证更高测试准确率。当前未区分优化敏感性与泛化变化，不能把小幅差异直接归因于某一机制或断言任务有问题。进度播报曾包含单种子和逐渐增加种子的累计均值；上述表格统一使用相同五种子，不能将早期单种子分数与最终均值当成同一个模型随训练退化。','',
+    '## 审计与可支持主张','',
+    '完成60次正式适配训练、4个Base对照及4次两步冒烟，全部成功。68份参数范围记录、14,752条token记录、8,192条训练重新编码与60份完整样本顺序已核验；104,960条开发/测试输出全部重检查，其中39,947个有效预测再次调用官方执行器核对。保存重载、基础权重冻结、共有初始化和严格等参数检查通过；原始14个模型文件在复用前与最终审计重新哈希。','',
+    '与上一轮1.5B CLUENER结果结合，现在可支持：在所测试的小数据实体抽取和查询语义解析设置中，边界A-LoRA能为内部LoRA提供超出所设等参数扩容对照的内容收益。ANLI未见稳定收益，必须保留。两个同系列模型、2048训练样本、共同学习率2e-4和固定单轮预算限制外推；独立调参、不同训练预算、更多种子/模型家族及机制消融仍有研究价值。公共数据的预训练暴露未知。','',
+    '设计及限制见 [PROTOCOL.md](PROTOCOL.md)、[METHOD_AND_LIMITS_ZH.md](METHOD_AND_LIMITS_ZH.md)。原始完整统计见 [TEST_ANALYSIS.json](TEST_ANALYSIS.json)，内容与预算诊断为事后分析。旧版实体抽取/工具调用归档保持封存；本轮不复用已训练adapter。']
+(HERE/'FINAL_INTERPRETATION_ZH.md').write_text('\n'.join(lines)+'\n')
+print('Wrote final interpretation')

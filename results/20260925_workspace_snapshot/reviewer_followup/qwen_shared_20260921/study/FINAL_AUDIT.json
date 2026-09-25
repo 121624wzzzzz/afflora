@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-21T17:57:49+08:00",
+  "status": "passed",
+  "scope": "tied_only",
+  "formal_runs": 24,
+  "smokes": 8,
+  "new_responses": 34068,
+  "official_sql_executions": 15151,
+  "scope_amendment_sha256": "f1435aefc0b5913d8c485c2934f72950bf6d4821ac4a159b87dbe06c032b8495",
+  "results_sha256": "7658936794f7e0ea8492846282d4aa4064db61f14f2e8ed2122f55658312cd2a"
+}

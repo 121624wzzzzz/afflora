@@ -1,0 +1,1202 @@
+{
+  "at": "2026-09-20T00:37:37+08:00",
+  "status": "passed",
+  "source_text_tensors_checked": 320,
+  "vlm_text_logits_max_error": 0.0,
+  "cache_full_logprob_max_error": 5.7220458984375e-06,
+  "synthetic_microbatch": 2,
+  "synthetic_sequence_length": 671,
+  "forward_backward_seconds": 1.3567905128002167,
+  "peak_allocated_bytes": 1953367552,
+  "model_audit": {
+    "arm": "hidden_both",
+    "trainable_names": [
+      "model.layers.0.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.0.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.0.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.0.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.0.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.0.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.0.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.0.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.0.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.0.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.0.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.0.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.0.mlp.up_proj.lora_A.default.weight",
+      "model.layers.0.mlp.up_proj.lora_B.default.weight",
+      "model.layers.0.mlp.down_proj.lora_A.default.weight",
+      "model.layers.0.mlp.down_proj.lora_B.default.weight",
+      "model.layers.1.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.1.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.1.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.1.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.1.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.1.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.1.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.1.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.1.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.1.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.1.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.1.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.1.mlp.up_proj.lora_A.default.weight",
+      "model.layers.1.mlp.up_proj.lora_B.default.weight",
+      "model.layers.1.mlp.down_proj.lora_A.default.weight",
+      "model.layers.1.mlp.down_proj.lora_B.default.weight",
+      "model.layers.2.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.2.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.2.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.2.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.2.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.2.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.2.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.2.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.2.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.2.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.2.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.2.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.2.mlp.up_proj.lora_A.default.weight",
+      "model.layers.2.mlp.up_proj.lora_B.default.weight",
+      "model.layers.2.mlp.down_proj.lora_A.default.weight",
+      "model.layers.2.mlp.down_proj.lora_B.default.weight",
+      "model.layers.3.self_attn.q_proj.lora_A.default.weight",
+      "model.layers.3.self_attn.q_proj.lora_B.default.weight",
+      "model.layers.3.self_attn.k_proj.lora_A.default.weight",
+      "model.layers.3.self_attn.k_proj.lora_B.default.weight",
+      "model.layers.3.self_attn.v_proj.lora_A.default.weight",
+      "model.layers.3.self_attn.v_proj.lora_B.default.weight",
+      "model.layers.3.self_attn.o_proj.lora_A.default.weight",
+      "model.layers.3.self_attn.o_proj.lora_B.default.weight",
+      "model.layers.3.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.3.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.3.mlp.up_proj.lora_A.default.weight",
+      "model.layers.3.mlp.up_proj.lora_B.default.weight",
+      "model.layers.3.mlp.down_proj.lora_A.default.weight",
+      "model.layers.3.mlp.down_proj.lora_B.default.weight",
+      "model.layers.4.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.4.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.4.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.4.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.4.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.4.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.4.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.4.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.4.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.4.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.4.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.4.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.4.mlp.up_proj.lora_A.default.weight",
+      "model.layers.4.mlp.up_proj.lora_B.default.weight",
+      "model.layers.4.mlp.down_proj.lora_A.default.weight",
+      "model.layers.4.mlp.down_proj.lora_B.default.weight",
+      "model.layers.5.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.5.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.5.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.5.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.5.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.5.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.5.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.5.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.5.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.5.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.5.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.5.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.5.mlp.up_proj.lora_A.default.weight",
+      "model.layers.5.mlp.up_proj.lora_B.default.weight",
+      "model.layers.5.mlp.down_proj.lora_A.default.weight",
+      "model.layers.5.mlp.down_proj.lora_B.default.weight",
+      "model.layers.6.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.6.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.6.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.6.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.6.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.6.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.6.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.6.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.6.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.6.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.6.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.6.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.6.mlp.up_proj.lora_A.default.weight",
+      "model.layers.6.mlp.up_proj.lora_B.default.weight",
+      "model.layers.6.mlp.down_proj.lora_A.default.weight",
+      "model.layers.6.mlp.down_proj.lora_B.default.weight",
+      "model.layers.7.self_attn.q_proj.lora_A.default.weight",
+      "model.layers.7.self_attn.q_proj.lora_B.default.weight",
+      "model.layers.7.self_attn.k_proj.lora_A.default.weight",
+      "model.layers.7.self_attn.k_proj.lora_B.default.weight",
+      "model.layers.7.self_attn.v_proj.lora_A.default.weight",
+      "model.layers.7.self_attn.v_proj.lora_B.default.weight",
+      "model.layers.7.self_attn.o_proj.lora_A.default.weight",
+      "model.layers.7.self_attn.o_proj.lora_B.default.weight",
+      "model.layers.7.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.7.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.7.mlp.up_proj.lora_A.default.weight",
+      "model.layers.7.mlp.up_proj.lora_B.default.weight",
+      "model.layers.7.mlp.down_proj.lora_A.default.weight",
+      "model.layers.7.mlp.down_proj.lora_B.default.weight",
+      "model.layers.8.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.8.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.8.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.8.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.8.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.8.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.8.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.8.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.8.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.8.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.8.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.8.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.8.mlp.up_proj.lora_A.default.weight",
+      "model.layers.8.mlp.up_proj.lora_B.default.weight",
+      "model.layers.8.mlp.down_proj.lora_A.default.weight",
+      "model.layers.8.mlp.down_proj.lora_B.default.weight",
+      "model.layers.9.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.9.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.9.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.9.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.9.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.9.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.9.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.9.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.9.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.9.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.9.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.9.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.9.mlp.up_proj.lora_A.default.weight",
+      "model.layers.9.mlp.up_proj.lora_B.default.weight",
+      "model.layers.9.mlp.down_proj.lora_A.default.weight",
+      "model.layers.9.mlp.down_proj.lora_B.default.weight",
+      "model.layers.10.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.10.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.10.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.10.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.10.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.10.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.10.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.10.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.10.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.10.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.10.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.10.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.10.mlp.up_proj.lora_A.default.weight",
+      "model.layers.10.mlp.up_proj.lora_B.default.weight",
+      "model.layers.10.mlp.down_proj.lora_A.default.weight",
+      "model.layers.10.mlp.down_proj.lora_B.default.weight",
+      "model.layers.11.self_attn.q_proj.lora_A.default.weight",
+      "model.layers.11.self_attn.q_proj.lora_B.default.weight",
+      "model.layers.11.self_attn.k_proj.lora_A.default.weight",
+      "model.layers.11.self_attn.k_proj.lora_B.default.weight",
+      "model.layers.11.self_attn.v_proj.lora_A.default.weight",
+      "model.layers.11.self_attn.v_proj.lora_B.default.weight",
+      "model.layers.11.self_attn.o_proj.lora_A.default.weight",
+      "model.layers.11.self_attn.o_proj.lora_B.default.weight",
+      "model.layers.11.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.11.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.11.mlp.up_proj.lora_A.default.weight",
+      "model.layers.11.mlp.up_proj.lora_B.default.weight",
+      "model.layers.11.mlp.down_proj.lora_A.default.weight",
+      "model.layers.11.mlp.down_proj.lora_B.default.weight",
+      "model.layers.12.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.12.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.12.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.12.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.12.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.12.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.12.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.12.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.12.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.12.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.12.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.12.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.12.mlp.up_proj.lora_A.default.weight",
+      "model.layers.12.mlp.up_proj.lora_B.default.weight",
+      "model.layers.12.mlp.down_proj.lora_A.default.weight",
+      "model.layers.12.mlp.down_proj.lora_B.default.weight",
+      "model.layers.13.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.13.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.13.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.13.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.13.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.13.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.13.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.13.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.13.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.13.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.13.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.13.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.13.mlp.up_proj.lora_A.default.weight",
+      "model.layers.13.mlp.up_proj.lora_B.default.weight",
+      "model.layers.13.mlp.down_proj.lora_A.default.weight",
+      "model.layers.13.mlp.down_proj.lora_B.default.weight",
+      "model.layers.14.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.14.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.14.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.14.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.14.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.14.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.14.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.14.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.14.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.14.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.14.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.14.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.14.mlp.up_proj.lora_A.default.weight",
+      "model.layers.14.mlp.up_proj.lora_B.default.weight",
+      "model.layers.14.mlp.down_proj.lora_A.default.weight",
+      "model.layers.14.mlp.down_proj.lora_B.default.weight",
+      "model.layers.15.self_attn.q_proj.lora_A.default.weight",
+      "model.layers.15.self_attn.q_proj.lora_B.default.weight",
+      "model.layers.15.self_attn.k_proj.lora_A.default.weight",
+      "model.layers.15.self_attn.k_proj.lora_B.default.weight",
+      "model.layers.15.self_attn.v_proj.lora_A.default.weight",
+      "model.layers.15.self_attn.v_proj.lora_B.default.weight",
+      "model.layers.15.self_attn.o_proj.lora_A.default.weight",
+      "model.layers.15.self_attn.o_proj.lora_B.default.weight",
+      "model.layers.15.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.15.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.15.mlp.up_proj.lora_A.default.weight",
+      "model.layers.15.mlp.up_proj.lora_B.default.weight",
+      "model.layers.15.mlp.down_proj.lora_A.default.weight",
+      "model.layers.15.mlp.down_proj.lora_B.default.weight",
+      "model.layers.16.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.16.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.16.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.16.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.16.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.16.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.16.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.16.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.16.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.16.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.16.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.16.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.16.mlp.up_proj.lora_A.default.weight",
+      "model.layers.16.mlp.up_proj.lora_B.default.weight",
+      "model.layers.16.mlp.down_proj.lora_A.default.weight",
+      "model.layers.16.mlp.down_proj.lora_B.default.weight",
+      "model.layers.17.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.17.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.17.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.17.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.17.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.17.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.17.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.17.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.17.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.17.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.17.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.17.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.17.mlp.up_proj.lora_A.default.weight",
+      "model.layers.17.mlp.up_proj.lora_B.default.weight",
+      "model.layers.17.mlp.down_proj.lora_A.default.weight",
+      "model.layers.17.mlp.down_proj.lora_B.default.weight",
+      "model.layers.18.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.18.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.18.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.18.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.18.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.18.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.18.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.18.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.18.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.18.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.18.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.18.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.18.mlp.up_proj.lora_A.default.weight",
+      "model.layers.18.mlp.up_proj.lora_B.default.weight",
+      "model.layers.18.mlp.down_proj.lora_A.default.weight",
+      "model.layers.18.mlp.down_proj.lora_B.default.weight",
+      "model.layers.19.self_attn.q_proj.lora_A.default.weight",
+      "model.layers.19.self_attn.q_proj.lora_B.default.weight",
+      "model.layers.19.self_attn.k_proj.lora_A.default.weight",
+      "model.layers.19.self_attn.k_proj.lora_B.default.weight",
+      "model.layers.19.self_attn.v_proj.lora_A.default.weight",
+      "model.layers.19.self_attn.v_proj.lora_B.default.weight",
+      "model.layers.19.self_attn.o_proj.lora_A.default.weight",
+      "model.layers.19.self_attn.o_proj.lora_B.default.weight",
+      "model.layers.19.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.19.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.19.mlp.up_proj.lora_A.default.weight",
+      "model.layers.19.mlp.up_proj.lora_B.default.weight",
+      "model.layers.19.mlp.down_proj.lora_A.default.weight",
+      "model.layers.19.mlp.down_proj.lora_B.default.weight",
+      "model.layers.20.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.20.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.20.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.20.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.20.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.20.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.20.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.20.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.20.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.20.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.20.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.20.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.20.mlp.up_proj.lora_A.default.weight",
+      "model.layers.20.mlp.up_proj.lora_B.default.weight",
+      "model.layers.20.mlp.down_proj.lora_A.default.weight",
+      "model.layers.20.mlp.down_proj.lora_B.default.weight",
+      "model.layers.21.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.21.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.21.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.21.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.21.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.21.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.21.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.21.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.21.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.21.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.21.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.21.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.21.mlp.up_proj.lora_A.default.weight",
+      "model.layers.21.mlp.up_proj.lora_B.default.weight",
+      "model.layers.21.mlp.down_proj.lora_A.default.weight",
+      "model.layers.21.mlp.down_proj.lora_B.default.weight",
+      "model.layers.22.linear_attn.out_proj.lora_A.default.weight",
+      "model.layers.22.linear_attn.out_proj.lora_B.default.weight",
+      "model.layers.22.linear_attn.in_proj_qkv.lora_A.default.weight",
+      "model.layers.22.linear_attn.in_proj_qkv.lora_B.default.weight",
+      "model.layers.22.linear_attn.in_proj_z.lora_A.default.weight",
+      "model.layers.22.linear_attn.in_proj_z.lora_B.default.weight",
+      "model.layers.22.linear_attn.in_proj_b.lora_A.default.weight",
+      "model.layers.22.linear_attn.in_proj_b.lora_B.default.weight",
+      "model.layers.22.linear_attn.in_proj_a.lora_A.default.weight",
+      "model.layers.22.linear_attn.in_proj_a.lora_B.default.weight",
+      "model.layers.22.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.22.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.22.mlp.up_proj.lora_A.default.weight",
+      "model.layers.22.mlp.up_proj.lora_B.default.weight",
+      "model.layers.22.mlp.down_proj.lora_A.default.weight",
+      "model.layers.22.mlp.down_proj.lora_B.default.weight",
+      "model.layers.23.self_attn.q_proj.lora_A.default.weight",
+      "model.layers.23.self_attn.q_proj.lora_B.default.weight",
+      "model.layers.23.self_attn.k_proj.lora_A.default.weight",
+      "model.layers.23.self_attn.k_proj.lora_B.default.weight",
+      "model.layers.23.self_attn.v_proj.lora_A.default.weight",
+      "model.layers.23.self_attn.v_proj.lora_B.default.weight",
+      "model.layers.23.self_attn.o_proj.lora_A.default.weight",
+      "model.layers.23.self_attn.o_proj.lora_B.default.weight",
+      "model.layers.23.mlp.gate_proj.lora_A.default.weight",
+      "model.layers.23.mlp.gate_proj.lora_B.default.weight",
+      "model.layers.23.mlp.up_proj.lora_A.default.weight",
+      "model.layers.23.mlp.up_proj.lora_B.default.weight",
+      "model.layers.23.mlp.down_proj.lora_A.default.weight",
+      "model.layers.23.mlp.down_proj.lora_B.default.weight",
+      "boundary_input.bias",
+      "boundary_input.down.weight",
+      "boundary_input.up.weight",
+      "boundary_output.down.weight",
+      "boundary_output.up.weight"
+    ],
+    "trainable_parameters": 5477888,
+    "parameter_groups": {
+      "boundary": 66560,
+      "hidden": 5411328
+    },
+    "initialization_sha256": "d0a69c13afcca7ae0762fd854bedfc42b95b308130ed9f57eb10f097a9be8fef",
+    "shared_hidden_initialization_sha256": "5356aeb133cc0fe1d935ebd3b7e3f31f6b5b513adcc946bab3ad2567bd54f391",
+    "budget_control": {},
+    "tied_weights": true,
+    "attention_implementation": "eager",
+    "input_boundary_location": "native raw word embedding; Qwen3.5 has no embedding scale",
+    "native_kernel": "Native FLA/causal-conv training; native PyTorch FP32 evaluation; native unfused gated RMSNorm",
+    "text_projection_modules": {
+      "model.layers.0.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.0.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.0.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.0.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.0.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.0.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.0.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.0.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.1.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.1.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.1.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.1.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.1.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.1.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.1.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.1.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.2.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.2.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.2.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.2.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.2.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.2.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.2.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.2.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.3.self_attn.q_proj": [
+        1024,
+        4096
+      ],
+      "model.layers.3.self_attn.k_proj": [
+        1024,
+        512
+      ],
+      "model.layers.3.self_attn.v_proj": [
+        1024,
+        512
+      ],
+      "model.layers.3.self_attn.o_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.3.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.3.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.3.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.4.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.4.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.4.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.4.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.4.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.4.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.4.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.4.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.5.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.5.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.5.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.5.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.5.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.5.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.5.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.5.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.6.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.6.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.6.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.6.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.6.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.6.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.6.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.6.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.7.self_attn.q_proj": [
+        1024,
+        4096
+      ],
+      "model.layers.7.self_attn.k_proj": [
+        1024,
+        512
+      ],
+      "model.layers.7.self_attn.v_proj": [
+        1024,
+        512
+      ],
+      "model.layers.7.self_attn.o_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.7.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.7.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.7.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.8.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.8.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.8.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.8.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.8.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.8.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.8.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.8.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.9.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.9.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.9.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.9.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.9.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.9.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.9.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.9.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.10.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.10.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.10.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.10.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.10.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.10.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.10.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.10.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.11.self_attn.q_proj": [
+        1024,
+        4096
+      ],
+      "model.layers.11.self_attn.k_proj": [
+        1024,
+        512
+      ],
+      "model.layers.11.self_attn.v_proj": [
+        1024,
+        512
+      ],
+      "model.layers.11.self_attn.o_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.11.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.11.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.11.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.12.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.12.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.12.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.12.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.12.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.12.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.12.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.12.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.13.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.13.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.13.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.13.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.13.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.13.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.13.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.13.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.14.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.14.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.14.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.14.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.14.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.14.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.14.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.14.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.15.self_attn.q_proj": [
+        1024,
+        4096
+      ],
+      "model.layers.15.self_attn.k_proj": [
+        1024,
+        512
+      ],
+      "model.layers.15.self_attn.v_proj": [
+        1024,
+        512
+      ],
+      "model.layers.15.self_attn.o_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.15.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.15.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.15.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.16.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.16.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.16.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.16.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.16.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.16.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.16.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.16.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.17.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.17.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.17.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.17.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.17.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.17.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.17.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.17.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.18.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.18.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.18.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.18.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.18.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.18.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.18.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.18.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.19.self_attn.q_proj": [
+        1024,
+        4096
+      ],
+      "model.layers.19.self_attn.k_proj": [
+        1024,
+        512
+      ],
+      "model.layers.19.self_attn.v_proj": [
+        1024,
+        512
+      ],
+      "model.layers.19.self_attn.o_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.19.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.19.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.19.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.20.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.20.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.20.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.20.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.20.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.20.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.20.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.20.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.21.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.21.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.21.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.21.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.21.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.21.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.21.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.21.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.22.linear_attn.out_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.22.linear_attn.in_proj_qkv": [
+        1024,
+        6144
+      ],
+      "model.layers.22.linear_attn.in_proj_z": [
+        1024,
+        2048
+      ],
+      "model.layers.22.linear_attn.in_proj_b": [
+        1024,
+        16
+      ],
+      "model.layers.22.linear_attn.in_proj_a": [
+        1024,
+        16
+      ],
+      "model.layers.22.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.22.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.22.mlp.down_proj": [
+        3584,
+        1024
+      ],
+      "model.layers.23.self_attn.q_proj": [
+        1024,
+        4096
+      ],
+      "model.layers.23.self_attn.k_proj": [
+        1024,
+        512
+      ],
+      "model.layers.23.self_attn.v_proj": [
+        1024,
+        512
+      ],
+      "model.layers.23.self_attn.o_proj": [
+        2048,
+        1024
+      ],
+      "model.layers.23.mlp.gate_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.23.mlp.up_proj": [
+        1024,
+        3584
+      ],
+      "model.layers.23.mlp.down_proj": [
+        3584,
+        1024
+      ]
+    },
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "native_fp32_tensor_names": [
+      "model.layers.0.linear_attn.A_log",
+      "model.layers.0.linear_attn.norm.weight",
+      "model.layers.1.linear_attn.A_log",
+      "model.layers.1.linear_attn.norm.weight",
+      "model.layers.10.linear_attn.A_log",
+      "model.layers.10.linear_attn.norm.weight",
+      "model.layers.12.linear_attn.A_log",
+      "model.layers.12.linear_attn.norm.weight",
+      "model.layers.13.linear_attn.A_log",
+      "model.layers.13.linear_attn.norm.weight",
+      "model.layers.14.linear_attn.A_log",
+      "model.layers.14.linear_attn.norm.weight",
+      "model.layers.16.linear_attn.A_log",
+      "model.layers.16.linear_attn.norm.weight",
+      "model.layers.17.linear_attn.A_log",
+      "model.layers.17.linear_attn.norm.weight",
+      "model.layers.18.linear_attn.A_log",
+      "model.layers.18.linear_attn.norm.weight",
+      "model.layers.2.linear_attn.A_log",
+      "model.layers.2.linear_attn.norm.weight",
+      "model.layers.20.linear_attn.A_log",
+      "model.layers.20.linear_attn.norm.weight",
+      "model.layers.21.linear_attn.A_log",
+      "model.layers.21.linear_attn.norm.weight",
+      "model.layers.22.linear_attn.A_log",
+      "model.layers.22.linear_attn.norm.weight",
+      "model.layers.4.linear_attn.A_log",
+      "model.layers.4.linear_attn.norm.weight",
+      "model.layers.5.linear_attn.A_log",
+      "model.layers.5.linear_attn.norm.weight",
+      "model.layers.6.linear_attn.A_log",
+      "model.layers.6.linear_attn.norm.weight",
+      "model.layers.8.linear_attn.A_log",
+      "model.layers.8.linear_attn.norm.weight",
+      "model.layers.9.linear_attn.A_log",
+      "model.layers.9.linear_attn.norm.weight"
+    ],
+    "gradient_checkpointing": "non-reentrant, preserve_rng_state=True",
+    "base_precision": "Official mixed checkpoint retained exactly: BF16 matrices and all original FP32 decay/norm tensors; FP32 evaluation in every arm including Base",
+    "boundary_initialization_sha256": {
+      "input": "3beea7cb41aeb0ca764c9221ca9cb08701c4153de19ef37a9fbbd8479a9fc8f1",
+      "output": "0a6f631baadaf3322f15243900962b4f6f7b2d4f52f447f186cfa77ce3f6e4f6"
+    }
+  },
+  "scope": "Checkpoint tensors, neutral token parity and synthetic timing only; no benchmark metric."
+}

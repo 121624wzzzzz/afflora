@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-14T22:12:18+08:00",
+  "cells": 72,
+  "new_training_runs": 60,
+  "reloaded_reuse_checkpoints": 12,
+  "ce_reports": 144,
+  "ifeval_reports": 72,
+  "ifeval_prompts_per_report": 541,
+  "frozen_files": 961,
+  "audit_errors": []
+}

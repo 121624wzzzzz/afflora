@@ -1,0 +1,96 @@
+{
+  "at": "2026-09-17T13:47:45+08:00",
+  "split_results": {
+    "train": {
+      "original": {
+        "references": 5344,
+        "exact_references": 5341,
+        "exact_reference_pct": 99.9438622754491,
+        "mrs_with_any_exact_reference": 2047,
+        "mrs": 2048,
+        "error_counts": {
+          "added": 0,
+          "missing": 1,
+          "wrong": 0,
+          "repeated": 2,
+          "gold_slots": 27925
+        }
+      },
+      "corrected": {
+        "references": 5344,
+        "exact_references": 5089,
+        "exact_reference_pct": 95.22829341317366,
+        "mrs_with_any_exact_reference": 1974,
+        "mrs": 2048,
+        "error_counts": {
+          "added": 0,
+          "missing": 1,
+          "wrong": 0,
+          "repeated": 278,
+          "gold_slots": 27925
+        }
+      }
+    },
+    "dev": {
+      "original": {
+        "references": 687,
+        "exact_references": 687,
+        "exact_reference_pct": 100.0,
+        "mrs_with_any_exact_reference": 256,
+        "mrs": 256,
+        "error_counts": {
+          "added": 0,
+          "missing": 0,
+          "wrong": 0,
+          "repeated": 0,
+          "gold_slots": 3923
+        }
+      },
+      "corrected": {
+        "references": 687,
+        "exact_references": 654,
+        "exact_reference_pct": 95.19650655021834,
+        "mrs_with_any_exact_reference": 248,
+        "mrs": 256,
+        "error_counts": {
+          "added": 0,
+          "missing": 0,
+          "wrong": 0,
+          "repeated": 37,
+          "gold_slots": 3923
+        }
+      }
+    },
+    "test": {
+      "original": {
+        "references": 4533,
+        "exact_references": 4533,
+        "exact_reference_pct": 100.0,
+        "mrs_with_any_exact_reference": 1847,
+        "mrs": 1847,
+        "error_counts": {
+          "added": 0,
+          "missing": 0,
+          "wrong": 0,
+          "repeated": 0,
+          "gold_slots": 28443
+        }
+      },
+      "corrected": {
+        "references": 4533,
+        "exact_references": 4142,
+        "exact_reference_pct": 91.37436576218839,
+        "mrs_with_any_exact_reference": 1755,
+        "mrs": 1847,
+        "error_counts": {
+          "added": 0,
+          "missing": 0,
+          "wrong": 0,
+          "repeated": 437,
+          "gold_slots": 28443
+        }
+      }
+    }
+  },
+  "note": "A heuristic consistency check on provided references, not a human annotation accuracy estimate. Never used to remove examples or choose outputs."
+}

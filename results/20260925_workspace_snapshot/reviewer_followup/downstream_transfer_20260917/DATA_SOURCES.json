@@ -1,0 +1,11 @@
+{
+  "anli": {
+    "url": "https://dl.fbaipublicfiles.com/anli/anli_v1.0.zip",
+    "sha256": "e5c058f2bb4e6190b0651badca2c590e45db95248f8b28cde674615ee40820bf"
+  },
+  "wikisql": {
+    "url": "https://raw.githubusercontent.com/salesforce/WikiSQL/cffb423077756d04c1bac5bcd45167c86903fbcb/data.tar.bz2",
+    "revision": "cffb423077756d04c1bac5bcd45167c86903fbcb",
+    "sha256": "755c728ab188e364575705c8641f3fafd86fb089cb8b08e8c03f01832aae0881"
+  }
+}

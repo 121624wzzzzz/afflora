@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-16T17:26:34+08:00",
+  "files": {
+    "ADAPTER_PILOT_PROTOCOL.json": "e9ed80c407f1b3c5d2403f8e1dad349d4bc0db7ef3a2f7b0c8be2f659c51dbbc",
+    "adapter_pipeline.py": "7a39d9c56b83ef5ea69eada6c775916ef23d0737f42d441fcdbaef9277761650",
+    "PILOT_REUSE.json": "b4204ca78aa18eb7f92b87acf8571e282a230f74c82ae9597fa08605e49c510c",
+    "CODE_FROZEN.json": "9dde5f11b6b4816fda8ba73db26cef7743deb279ff815ddcca363af608f4ae13"
+  }
+}

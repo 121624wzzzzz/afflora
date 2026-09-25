@@ -1,0 +1,200 @@
+{
+  "jobs": {
+    "qwen3_06b_chat_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_none_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:39:32+08:00",
+      "completed_at": "2026-09-15T12:50:44+08:00"
+    },
+    "qwen3_06b_chat_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_output_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:39:34+08:00",
+      "completed_at": "2026-09-15T12:50:30+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_both_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:39:36+08:00",
+      "completed_at": "2026-09-15T12:50:29+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_none_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:41:39+08:00",
+      "completed_at": "2026-09-15T12:54:22+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:39:34+08:00",
+      "completed_at": "2026-09-15T12:50:37+08:00"
+    },
+    "qwen25_15b_chat_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_output_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:41:43+08:00",
+      "completed_at": "2026-09-15T12:53:43+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_both_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:41:47+08:00",
+      "completed_at": "2026-09-15T12:54:05+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd42.evaluate.log",
+      "stage_started_at": "2026-09-15T12:41:47+08:00",
+      "completed_at": "2026-09-15T12:53:51+08:00"
+    },
+    "qwen3_06b_chat_none_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_none_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T12:58:11+08:00",
+      "completed_at": "2026-09-15T13:09:03+08:00"
+    },
+    "qwen3_06b_chat_output_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_output_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T12:58:12+08:00",
+      "completed_at": "2026-09-15T13:09:03+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_both_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T12:58:19+08:00",
+      "completed_at": "2026-09-15T13:09:11+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T12:58:26+08:00",
+      "completed_at": "2026-09-15T13:09:21+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_none_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T13:03:34+08:00",
+      "completed_at": "2026-09-15T13:15:26+08:00"
+    },
+    "qwen25_15b_chat_output_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_output_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T13:03:44+08:00",
+      "completed_at": "2026-09-15T13:16:01+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_both_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T13:03:59+08:00",
+      "completed_at": "2026-09-15T13:16:29+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd43.evaluate.log",
+      "stage_started_at": "2026-09-15T13:04:16+08:00",
+      "completed_at": "2026-09-15T13:16:09+08:00"
+    },
+    "qwen3_06b_chat_none_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_none_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:16:43+08:00",
+      "completed_at": "2026-09-15T13:27:15+08:00"
+    },
+    "qwen3_06b_chat_output_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_output_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:16:44+08:00",
+      "completed_at": "2026-09-15T13:27:06+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_both_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:16:53+08:00",
+      "completed_at": "2026-09-15T13:27:29+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:17:03+08:00",
+      "completed_at": "2026-09-15T13:27:29+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_none_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:25:15+08:00",
+      "completed_at": "2026-09-15T13:37:05+08:00"
+    },
+    "qwen25_15b_chat_output_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_output_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:25:49+08:00",
+      "completed_at": "2026-09-15T13:37:40+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_both_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:26:02+08:00",
+      "completed_at": "2026-09-15T13:38:23+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd44.evaluate.log",
+      "stage_started_at": "2026-09-15T13:26:23+08:00",
+      "completed_at": "2026-09-15T13:38:12+08:00"
+    }
+  },
+  "created_at": "2026-09-15T12:31:49+08:00",
+  "phase": "complete",
+  "scheduler_pid": 2524289,
+  "updated_at": "2026-09-15T13:38:23+08:00"
+}

@@ -1,0 +1,101 @@
+{
+  "marker": "fixed_hidden_alora_rank_sweep_summary_v1",
+  "seed": 42,
+  "functional_scale": 16.0,
+  "ranks": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    50
+  ],
+  "rows": [
+    {
+      "rank": 2,
+      "alpha": 32.0,
+      "scale": 16.0,
+      "boundary_parameters": 6144,
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_alora_rank_sweep_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r2_s16_bsd42",
+      "train1000_ce": 1.1170703401254225,
+      "dev_ce": 1.112973366018067,
+      "test_ce": 1.132496472951625,
+      "dev_minus_train1000": -0.004096974107355544,
+      "test_minus_train1000": 0.015426132826202421
+    },
+    {
+      "rank": 4,
+      "alpha": 64.0,
+      "scale": 16.0,
+      "boundary_parameters": 12288,
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_alora_rank_sweep_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r4_s16_bsd42",
+      "train1000_ce": 1.1164606343330434,
+      "dev_ce": 1.1127112125844754,
+      "test_ce": 1.1321369362548752,
+      "dev_minus_train1000": -0.0037494217485680714,
+      "test_minus_train1000": 0.01567630192183178
+    },
+    {
+      "rank": 8,
+      "alpha": 128.0,
+      "scale": 16.0,
+      "boundary_parameters": 24576,
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_alora_rank_sweep_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r8_s16_bsd42",
+      "train1000_ce": 1.1151317915658214,
+      "dev_ce": 1.1120598181769268,
+      "test_ce": 1.131511148475033,
+      "dev_minus_train1000": -0.0030719733888946443,
+      "test_minus_train1000": 0.016379356909211662
+    },
+    {
+      "rank": 16,
+      "alpha": 256.0,
+      "scale": 16.0,
+      "boundary_parameters": 49152,
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_alora_rank_sweep_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r16_s16_bsd42",
+      "train1000_ce": 1.1130380241471738,
+      "dev_ce": 1.1110459052884594,
+      "test_ce": 1.1302324673765378,
+      "dev_minus_train1000": -0.00199211885871442,
+      "test_minus_train1000": 0.01719444322936403
+    },
+    {
+      "rank": 32,
+      "alpha": 512.0,
+      "scale": 16.0,
+      "boundary_parameters": 98304,
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_alora_rank_sweep_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r32_s16_bsd42",
+      "train1000_ce": 1.1090904782339612,
+      "dev_ce": 1.108875296054605,
+      "test_ce": 1.1284881063602952,
+      "dev_minus_train1000": -0.0002151821793561215,
+      "test_minus_train1000": 0.019397628126333943
+    },
+    {
+      "rank": 50,
+      "alpha": 800.0,
+      "scale": 16.0,
+      "boundary_parameters": 153600,
+      "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42",
+      "train1000_ce": 1.1043958535870146,
+      "dev_ce": 1.1070844737538468,
+      "test_ce": 1.1268727726577275,
+      "dev_minus_train1000": 0.002688620166832134,
+      "test_minus_train1000": 0.02247691907071281
+    }
+  ],
+  "best_dev_rank": 50,
+  "best_test_rank_descriptive": 50,
+  "rank50_reference": {
+    "rank": 50,
+    "alpha": 800.0,
+    "scale": 16.0,
+    "boundary_parameters": 153600,
+    "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42",
+    "train1000_ce": 1.1043958535870146,
+    "dev_ce": 1.1070844737538468,
+    "test_ce": 1.1268727726577275,
+    "dev_minus_train1000": 0.002688620166832134,
+    "test_minus_train1000": 0.02247691907071281
+  }
+}

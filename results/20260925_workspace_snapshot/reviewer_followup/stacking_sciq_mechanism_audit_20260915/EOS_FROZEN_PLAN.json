@@ -1,0 +1,97 @@
+{
+  "at": "2026-09-15T19:11:37+08:00",
+  "tasks": [
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2002_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2002,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2002_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2002_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2002,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2002_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2003_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2003,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2003_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2003_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2003,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2003_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2004_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2004,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2004_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2004_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2004,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2004_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2005_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2005,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2005_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2005_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2005,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2005_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen3_06b_chat_both_sd2006_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 2006,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2006_lr0.0002"
+    },
+    {
+      "name": "confirmation_qwen25_15b_chat_both_sd2006_lr0.0002",
+      "phase": "confirmation",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 2006,
+      "lr": 0.0002,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2006_lr0.0002"
+    }
+  ],
+  "script_sha256": "e7f0a7f5d3fe3353314621d68a5bbfab5b5bf79f180d7432fdb4dc0f94d40c0e",
+  "plan_sha256": "fee9a58233e7a472590de0526c6f1a754af0aa959b0a81a02c5f22d9a5c35a13"
+}

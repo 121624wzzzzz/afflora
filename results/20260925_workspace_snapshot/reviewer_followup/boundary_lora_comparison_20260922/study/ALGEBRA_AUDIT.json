@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "method": "vocab",
+      "side": "input",
+      "bias": false,
+      "status": "passed"
+    },
+    {
+      "method": "vocab",
+      "side": "output",
+      "bias": false,
+      "status": "passed"
+    },
+    {
+      "method": "vocab",
+      "side": "shared",
+      "bias": false,
+      "status": "passed"
+    },
+    {
+      "method": "affine",
+      "side": "input",
+      "bias": false,
+      "status": "passed"
+    },
+    {
+      "method": "affine",
+      "side": "input",
+      "bias": true,
+      "status": "passed"
+    },
+    {
+      "method": "affine",
+      "side": "output",
+      "bias": false,
+      "status": "passed"
+    },
+    {
+      "method": "affine",
+      "side": "shared",
+      "bias": false,
+      "status": "passed"
+    },
+    {
+      "method": "affine",
+      "side": "shared",
+      "bias": true,
+      "status": "passed"
+    }
+  ],
+  "at": "2026-09-22T00:33:20+08:00"
+}

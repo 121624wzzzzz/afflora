@@ -1,0 +1,33 @@
+{
+  "at": "2026-09-18T14:49:14+08:00",
+  "files": {
+    "analyze.py": "0f05db0446eb838401e9cb9b390f4ed78aeccda6329ec8b7f9531ab1508db3a8",
+    "audit_one.py": "4d86fd95558e4e3bedcc82bb57478fbe9f4d35f5236fe15ff8b065b81a6041bb",
+    "common.py": "271fd0f171f48a1f56c4e2d33217f83bfaf77450622b760ee617900dc816d11b",
+    "compatibility.py": "c34e31c4bb9e10d01932c104d7af3436f0ff036cc108deb501d99615226845f1",
+    "design.py": "a39d75915cc28e9810ee599b6f534f54d3fa2052d97b47ca0785e75be685773e",
+    "final_audit.py": "257e58a726dea1a13eb300fd2701bb18fae8d51a076863be81267cf2b77c98c3",
+    "freeze.py": "377436882482eea514e9cf1e154356cc3e93d745ce2ec11a2961f0a116842e2a",
+    "modeling.py": "c5dc80ff708a3a4f7c1a34d2cf0a5dce6512d0aac3cecb0acf185b15257d7c0f",
+    "prepare.py": "f70fa9d4f4ceeb5ae242880197b3db87949db8a745be9e35c7b5a09b75b218ed",
+    "run.py": "7c16e9e2bae6585f8938497e7ac9f0812084175404d238691ac61a16edce34f3",
+    "scheduler.py": "234892c7b16726693b76ab1dfe9df3f57faf76932e13f74d70ed22d0c2e60cf8",
+    "scoring.py": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2",
+    "scoring_ner.py": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab",
+    "scoring_sql.py": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb",
+    "select_config.py": "c75b59ccd2fd0b8be64358b30f30f3c98fa0f76fdbe208c1d0ee41bdd065c706",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "source/budget.py": "96c46691280176c1a27c51e8e9911165429479e57404806422d6cf752a59d7d5",
+    "models.json": "7e8bfce1ffc8e586b23031f23de17e33dacd7b68ef81ebf0dfd82bd3dc6afe39",
+    "BUDGET_PLAN.json": "0ccbe42aae7b5a450d64fa89ac71784acbdacc455796998e6459b02ff7182b55",
+    "PROTOCOL.md": "30355ac36e6ab66b644c06d58f03d63f2aa4dc0392e253fadebbfb0c10af68f3",
+    "CANDIDATES.json": "1c8f1de7d0fece4812ceac8fbd553b9140ae90501f66d6c7a5e814e0a4d26fd3",
+    "SEARCH_JOBS.json": "933e4404885a80bd63fc2970cef72d8df929d60db463aeb85eb4ef51ce8b2d01",
+    "SMOKE_JOBS.json": "53f4f64ec586a460d399900e38f72bdd0c383f60d472077cc3ab1690b4f68ed2",
+    "COMPATIBILITY_JOBS.json": "ab74812765e92b1fca6a74674e91d093de87dab17cd69778fb68e25d7b2d13fd",
+    "SOURCE_REUSE.json": "07d1a78c1c03a8e344ff9dae9f00f915b2cab60ad81bbf679011b618b72addb3",
+    "PREFLIGHT_REVISION.json": "29a77ebf43132ae42c33dc71e75c6e22d857abdcd931ad8f9e55d5bffc459ca6",
+    "DATA_AUDIT.json": "de90fd8670a165800ad584b23c37a050ec42ea5cb690d9fd5516485a2310ccc6",
+    "DATA_FROZEN.json": "417e1515bfd6e57abdbd1c7c18c28af607837fe239b25e683670df90922cd8ea"
+  }
+}

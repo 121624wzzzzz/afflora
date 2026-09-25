@@ -1,0 +1,266 @@
+{
+  "description": "Fixed-all-confirmation-denominator validity and empty-gold partitions; descriptive, not causal decompositions.",
+  "empty_gold_examples": 0,
+  "pairs": {
+    "tuned_heu minus tuned_hidden": [
+      {
+        "seed": 7300,
+        "recovered_questions": 86,
+        "regressed_questions": 63,
+        "net_questions": 23,
+        "both_valid_net_pp": 0.634765625,
+        "other_validity_net_pp": 0.48828125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.123046875
+      },
+      {
+        "seed": 7301,
+        "recovered_questions": 64,
+        "regressed_questions": 65,
+        "net_questions": -1,
+        "both_valid_net_pp": -0.5859375,
+        "other_validity_net_pp": 0.537109375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": -0.048828125
+      },
+      {
+        "seed": 7302,
+        "recovered_questions": 75,
+        "regressed_questions": 66,
+        "net_questions": 9,
+        "both_valid_net_pp": 0.1953125,
+        "other_validity_net_pp": 0.244140625,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.439453125
+      },
+      {
+        "seed": 7303,
+        "recovered_questions": 69,
+        "regressed_questions": 67,
+        "net_questions": 2,
+        "both_valid_net_pp": 0.048828125,
+        "other_validity_net_pp": 0.048828125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.09765625
+      },
+      {
+        "seed": 7304,
+        "recovered_questions": 67,
+        "regressed_questions": 53,
+        "net_questions": 14,
+        "both_valid_net_pp": 0.0,
+        "other_validity_net_pp": 0.68359375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.68359375
+      }
+    ],
+    "tuned_heu minus tuned_budget": [
+      {
+        "seed": 7300,
+        "recovered_questions": 89,
+        "regressed_questions": 60,
+        "net_questions": 29,
+        "both_valid_net_pp": 0.830078125,
+        "other_validity_net_pp": 0.5859375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.416015625
+      },
+      {
+        "seed": 7301,
+        "recovered_questions": 73,
+        "regressed_questions": 51,
+        "net_questions": 22,
+        "both_valid_net_pp": 0.537109375,
+        "other_validity_net_pp": 0.537109375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.07421875
+      },
+      {
+        "seed": 7302,
+        "recovered_questions": 77,
+        "regressed_questions": 62,
+        "net_questions": 15,
+        "both_valid_net_pp": 0.1953125,
+        "other_validity_net_pp": 0.537109375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.732421875
+      },
+      {
+        "seed": 7303,
+        "recovered_questions": 64,
+        "regressed_questions": 68,
+        "net_questions": -4,
+        "both_valid_net_pp": -0.146484375,
+        "other_validity_net_pp": -0.048828125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": -0.1953125
+      },
+      {
+        "seed": 7304,
+        "recovered_questions": 56,
+        "regressed_questions": 51,
+        "net_questions": 5,
+        "both_valid_net_pp": -0.48828125,
+        "other_validity_net_pp": 0.732421875,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.244140625
+      }
+    ],
+    "tuned_heu minus anchor_heu": [
+      {
+        "seed": 7300,
+        "recovered_questions": 104,
+        "regressed_questions": 53,
+        "net_questions": 51,
+        "both_valid_net_pp": 1.708984375,
+        "other_validity_net_pp": 0.78125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 2.490234375
+      },
+      {
+        "seed": 7301,
+        "recovered_questions": 82,
+        "regressed_questions": 60,
+        "net_questions": 22,
+        "both_valid_net_pp": 0.78125,
+        "other_validity_net_pp": 0.29296875,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.07421875
+      },
+      {
+        "seed": 7302,
+        "recovered_questions": 74,
+        "regressed_questions": 59,
+        "net_questions": 15,
+        "both_valid_net_pp": 0.29296875,
+        "other_validity_net_pp": 0.439453125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.732421875
+      },
+      {
+        "seed": 7303,
+        "recovered_questions": 86,
+        "regressed_questions": 50,
+        "net_questions": 36,
+        "both_valid_net_pp": 1.611328125,
+        "other_validity_net_pp": 0.146484375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.7578125
+      },
+      {
+        "seed": 7304,
+        "recovered_questions": 90,
+        "regressed_questions": 56,
+        "net_questions": 34,
+        "both_valid_net_pp": 1.07421875,
+        "other_validity_net_pp": 0.5859375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.66015625
+      }
+    ],
+    "tuned_budget minus anchor_budget": [
+      {
+        "seed": 7300,
+        "recovered_questions": 72,
+        "regressed_questions": 46,
+        "net_questions": 26,
+        "both_valid_net_pp": 0.87890625,
+        "other_validity_net_pp": 0.390625,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.26953125
+      },
+      {
+        "seed": 7301,
+        "recovered_questions": 90,
+        "regressed_questions": 45,
+        "net_questions": 45,
+        "both_valid_net_pp": 2.44140625,
+        "other_validity_net_pp": -0.244140625,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 2.197265625
+      },
+      {
+        "seed": 7302,
+        "recovered_questions": 87,
+        "regressed_questions": 53,
+        "net_questions": 34,
+        "both_valid_net_pp": 1.171875,
+        "other_validity_net_pp": 0.48828125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.66015625
+      },
+      {
+        "seed": 7303,
+        "recovered_questions": 88,
+        "regressed_questions": 39,
+        "net_questions": 49,
+        "both_valid_net_pp": 1.7578125,
+        "other_validity_net_pp": 0.634765625,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 2.392578125
+      },
+      {
+        "seed": 7304,
+        "recovered_questions": 116,
+        "regressed_questions": 51,
+        "net_questions": 65,
+        "both_valid_net_pp": 3.466796875,
+        "other_validity_net_pp": -0.29296875,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 3.173828125
+      }
+    ],
+    "anchor_heu minus anchor_budget": [
+      {
+        "seed": 7300,
+        "recovered_questions": 51,
+        "regressed_questions": 47,
+        "net_questions": 4,
+        "both_valid_net_pp": 0.0,
+        "other_validity_net_pp": 0.1953125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.1953125
+      },
+      {
+        "seed": 7301,
+        "recovered_questions": 80,
+        "regressed_questions": 35,
+        "net_questions": 45,
+        "both_valid_net_pp": 2.197265625,
+        "other_validity_net_pp": 0.0,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 2.197265625
+      },
+      {
+        "seed": 7302,
+        "recovered_questions": 65,
+        "regressed_questions": 31,
+        "net_questions": 34,
+        "both_valid_net_pp": 1.123046875,
+        "other_validity_net_pp": 0.537109375,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.66015625
+      },
+      {
+        "seed": 7303,
+        "recovered_questions": 54,
+        "regressed_questions": 45,
+        "net_questions": 9,
+        "both_valid_net_pp": 0.146484375,
+        "other_validity_net_pp": 0.29296875,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 0.439453125
+      },
+      {
+        "seed": 7304,
+        "recovered_questions": 76,
+        "regressed_questions": 40,
+        "net_questions": 36,
+        "both_valid_net_pp": 1.953125,
+        "other_validity_net_pp": -0.1953125,
+        "empty_gold_net_pp": 0.0,
+        "nonempty_gold_net_pp": 1.7578125
+      }
+    ]
+  }
+}

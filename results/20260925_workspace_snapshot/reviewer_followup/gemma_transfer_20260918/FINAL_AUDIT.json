@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-19T06:06:44+08:00",
+  "status": "passed",
+  "jobs": 114,
+  "responses": 86908,
+  "official_valid_query_checks": 68884,
+  "native_candidate_logprob_checks": 5700,
+  "tokens_reencoded": 7924,
+  "paired_seeds": 7,
+  "actual_shared_tensors_compared": 55860,
+  "selection_sha256": "1779b875680a29417e41fb8d36d852a4a5345e9e081b7e8544b8be6c5a6a8035",
+  "analysis_sha256": "d500816ee62d64baa828be41ee9b94cf4fb619d96648fd707927cf3fcdac477d",
+  "bootstrap_sha256": "d24bae70000dc39f4cfe41c823bcf4b32dbe21f60a29f2a9b016e8ede273a660"
+}

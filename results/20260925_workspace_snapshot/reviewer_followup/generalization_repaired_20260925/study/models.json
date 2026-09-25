@@ -1,0 +1,77 @@
+{
+  "qwen3_06b_base": {
+    "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base",
+    "hidden_size": 1024,
+    "tie_word_embeddings": true,
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/config.json": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/model.safetensors": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer_config.json": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "repo": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "training_stage": "pretraining_only",
+    "previous_chat_model_key": "qwen3_06b_chat"
+  },
+  "qwen25_15b_base": {
+    "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B",
+    "hidden_size": 1536,
+    "tie_word_embeddings": true,
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/config.json": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/model.safetensors": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "repo": "Qwen/Qwen2.5-1.5B",
+    "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "training_stage": "pretraining_only",
+    "previous_chat_model_key": "qwen25_15b_chat"
+  },
+  "llama32_1b_base": {
+    "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base",
+    "repo": "meta-llama/Llama-3.2-1B",
+    "revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/README.md": "7dc455178a8c7c21f9cfe0aef0808a92e78ade6e58e04c18354c668934b929ea",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/config.json": "bfb5d39c327ee5c3a65e3574596ff30b052a445cfc59a25bdf3b4c0c5a44f4d2",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/generation_config.json": "da81b0dd4001a8e19fb5840d2b524f6957f44ddde6f5c3fe32b1f36cef5205bf",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/model.safetensors": "68a2e4be76fa709455a60272fba8e512c02d81c46e6c671cc9449e374fd6809a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/special_tokens_map.json": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
+    },
+    "hidden_size": 2048,
+    "tie_word_embeddings": true,
+    "training_stage": "pretrained_base",
+    "bos_token_id": 128000,
+    "eos_token_id": 128001
+  },
+  "llama32_3b_base": {
+    "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base",
+    "repo": "meta-llama/Llama-3.2-3B",
+    "revision": "13afe5124825b4f3751f836b40dafda64c1ed062",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/config.json": "35f063e9f381e8678eea34bc56c3ecef3c6d10149f6b2cbdf27b8ee1bad3073d",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/generation_config.json": "da81b0dd4001a8e19fb5840d2b524f6957f44ddde6f5c3fe32b1f36cef5205bf",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/model-00001-of-00002.safetensors": "584d8d3e3f82f7964955174dfe5e3b1cf117a9d859f022cfdf7fcb884856e002",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/model-00002-of-00002.safetensors": "4719a04514ec2f060240711b7c33ab21187cac730ecaba3040b7a0fd95a9cefb",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/model.safetensors.index.json": "0a57c30afc07c81610ae7fe013bea3b9d50365f9a8145ae98e8714220f3d7c7c",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/special_tokens_map.json": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-3B-Base/tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
+    },
+    "hidden_size": 3072,
+    "tie_word_embeddings": true,
+    "training_stage": "pretrained_base",
+    "bos_token_id": 128000,
+    "eos_token_id": 128001
+  }
+}

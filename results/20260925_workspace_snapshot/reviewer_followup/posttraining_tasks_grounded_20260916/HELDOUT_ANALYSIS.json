@@ -1,0 +1,657 @@
+{
+  "at": "2026-09-16T21:53:34+08:00",
+  "scope": "five-seed fixed-small-training-budget held-out confirmation",
+  "tables": [
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 31.12676056338028,
+      "text_micro_f1": null,
+      "json_valid": 91.54929577464789,
+      "capped_pct": 2.816901408450704,
+      "eval_split": "test"
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        57.74647887323944,
+        56.056338028169016,
+        55.352112676056336,
+        57.183098591549296,
+        55.2112676056338
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 56.309859154929576,
+      "text_micro_f1": null,
+      "json_valid": 96.14084507042253,
+      "strict_json": 96.14084507042253,
+      "schema_valid": 82.73239436619718,
+      "native_eos_pct": 98.98591549295774,
+      "capped_pct": 1.0140845070422535
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        39.859154929577464,
+        40.0,
+        39.859154929577464,
+        39.859154929577464,
+        40.0
+      ],
+      "trainable_parameters": 33792,
+      "primary": 39.91549295774648,
+      "text_micro_f1": null,
+      "json_valid": 92.36619718309859,
+      "strict_json": 92.25352112676056,
+      "schema_valid": 65.60563380281691,
+      "native_eos_pct": 98.87323943661973,
+      "capped_pct": 1.1267605633802815
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        28.732394366197184,
+        29.577464788732396,
+        28.169014084507044,
+        29.154929577464788,
+        29.154929577464788
+      ],
+      "trainable_parameters": 32768,
+      "primary": 28.95774647887324,
+      "text_micro_f1": null,
+      "json_valid": 88.22535211267606,
+      "strict_json": 87.88732394366197,
+      "schema_valid": 53.38028169014085,
+      "native_eos_pct": 94.0,
+      "capped_pct": 6.0
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        56.901408450704224,
+        57.46478873239437,
+        55.63380281690141,
+        58.732394366197184,
+        56.76056338028169
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 57.09859154929577,
+      "text_micro_f1": null,
+      "json_valid": 96.30985915492958,
+      "strict_json": 96.30985915492958,
+      "schema_valid": 84.02816901408451,
+      "native_eos_pct": 99.01408450704226,
+      "capped_pct": 0.9859154929577464
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        57.74647887323944,
+        55.774647887323944,
+        55.352112676056336,
+        56.61971830985915,
+        54.647887323943664
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 56.028169014084504,
+      "text_micro_f1": null,
+      "json_valid": 95.94366197183098,
+      "strict_json": 95.91549295774647,
+      "schema_valid": 82.92957746478874,
+      "native_eos_pct": 98.70422535211267,
+      "capped_pct": 1.295774647887324
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 23.661971830985916,
+      "text_micro_f1": null,
+      "json_valid": 69.29577464788733,
+      "capped_pct": 3.6619718309859155,
+      "eval_split": "test"
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        61.690140845070424,
+        61.267605633802816,
+        62.11267605633803,
+        60.84507042253521,
+        61.12676056338028
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 61.408450704225345,
+      "text_micro_f1": null,
+      "json_valid": 97.91549295774648,
+      "strict_json": 97.91549295774648,
+      "schema_valid": 88.39436619718309,
+      "native_eos_pct": 99.52112676056338,
+      "capped_pct": 0.4788732394366197
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        43.943661971830984,
+        42.53521126760563,
+        41.690140845070424,
+        42.394366197183096,
+        43.66197183098591
+      ],
+      "trainable_parameters": 50688,
+      "primary": 42.845070422535215,
+      "text_micro_f1": null,
+      "json_valid": 94.14084507042254,
+      "strict_json": 94.05633802816901,
+      "schema_valid": 71.52112676056338,
+      "native_eos_pct": 98.59154929577466,
+      "capped_pct": 1.408450704225352
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        35.2112676056338,
+        35.774647887323944,
+        33.943661971830984,
+        35.49295774647887,
+        35.2112676056338
+      ],
+      "trainable_parameters": 49152,
+      "primary": 35.12676056338028,
+      "text_micro_f1": null,
+      "json_valid": 92.90140845070422,
+      "strict_json": 92.7887323943662,
+      "schema_valid": 60.90140845070423,
+      "native_eos_pct": 97.38028169014083,
+      "capped_pct": 2.619718309859155
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        61.40845070422535,
+        62.53521126760563,
+        63.80281690140845,
+        63.66197183098591,
+        63.521126760563384
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 62.985915492957744,
+      "text_micro_f1": null,
+      "json_valid": 97.74647887323944,
+      "strict_json": 97.74647887323944,
+      "schema_valid": 88.36619718309859,
+      "native_eos_pct": 99.57746478873239,
+      "capped_pct": 0.4225352112676057
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        62.11267605633803,
+        61.54929577464789,
+        61.40845070422535,
+        60.563380281690144,
+        61.40845070422535
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 61.40845070422536,
+      "text_micro_f1": null,
+      "json_valid": 97.85915492957747,
+      "strict_json": 97.85915492957747,
+      "schema_valid": 88.36619718309859,
+      "native_eos_pct": 99.43661971830986,
+      "capped_pct": 0.5633802816901409
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 0.5911694069831886,
+      "text_micro_f1": 4.951043783484205,
+      "json_valid": 30.081906180193595,
+      "capped_pct": 69.39687267311989,
+      "eval_split": "test"
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        60.476190476190474,
+        61.029759093056214,
+        61.418326693227094,
+        60.83836242048606,
+        60.32048231001111
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 60.8166241985942,
+      "text_micro_f1": 61.434618435123994,
+      "json_valid": 99.52345495160088,
+      "strict_json": 99.52345495160088,
+      "schema_valid": 97.7066269545793,
+      "native_eos_pct": 99.53834698436336,
+      "capped_pct": 0.4616530156366344
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        28.895265423242467,
+        31.01034692635423,
+        30.963233059860226,
+        28.749276201505502,
+        30.22460211215231
+      ],
+      "trainable_parameters": 33792,
+      "primary": 29.968544744622942,
+      "text_micro_f1": 30.64476284581094,
+      "json_valid": 99.34475055845122,
+      "strict_json": 99.01712583767684,
+      "schema_valid": 90.97542814594192,
+      "native_eos_pct": 99.37453462397616,
+      "capped_pct": 0.6254653760238272
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        19.25580252978018,
+        19.07864122847836,
+        18.014010897364617,
+        18.366852435182942,
+        18.700059630292188
+      ],
+      "trainable_parameters": 32768,
+      "primary": 18.683073344219657,
+      "text_micro_f1": 19.113142098048456,
+      "json_valid": 95.7259865971705,
+      "strict_json": 95.71109456440804,
+      "schema_valid": 83.60387192851825,
+      "native_eos_pct": 96.03871928518242,
+      "capped_pct": 3.9612807148175726
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        60.887222742892845,
+        62.58309591642925,
+        62.63074484944533,
+        63.407407407407405,
+        63.07417627008603
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 62.51652943725217,
+      "text_micro_f1": 63.18085458946937,
+      "json_valid": 99.46388682055101,
+      "strict_json": 99.46388682055101,
+      "schema_valid": 97.95979151154133,
+      "native_eos_pct": 99.49367088607593,
+      "capped_pct": 0.5063291139240507
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        60.761112887751835,
+        60.97867001254705,
+        61.691542288557216,
+        60.656270305393114,
+        60.46585327206465
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 60.91068975326277,
+      "text_micro_f1": 61.542249903985045,
+      "json_valid": 99.56813104988831,
+      "strict_json": 99.56813104988831,
+      "schema_valid": 97.85554728220403,
+      "native_eos_pct": 99.58302308265078,
+      "capped_pct": 0.4169769173492181
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 0.0,
+      "text_micro_f1": 0.0,
+      "json_valid": 98.8830975428146,
+      "capped_pct": 2.0104244229337302,
+      "eval_split": "test"
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        59.159397303727204,
+        58.995750039351485,
+        58.84991190132949,
+        59.527255185721174,
+        59.33075933075933
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 59.17261475217774,
+      "text_micro_f1": 60.05942962246051,
+      "json_valid": 99.62769918093821,
+      "strict_json": 99.62769918093821,
+      "schema_valid": 97.1705137751303,
+      "native_eos_pct": 99.62769918093821,
+      "capped_pct": 0.3723008190618019
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        35.315813739050256,
+        35.15417123180467,
+        37.684846557481315,
+        37.80469109305534,
+        36.256218905472636
+      ],
+      "trainable_parameters": 50688,
+      "primary": 36.443148305372844,
+      "text_micro_f1": 37.20144249158962,
+      "json_valid": 99.40431868950111,
+      "strict_json": 99.40431868950111,
+      "schema_valid": 92.15189873417721,
+      "native_eos_pct": 99.53834698436336,
+      "capped_pct": 0.4616530156366344
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        31.24074622445958,
+        31.754623364907534,
+        29.716382108085227,
+        31.61987041036717,
+        32.63410248726401
+      ],
+      "trainable_parameters": 49152,
+      "primary": 31.393144919016702,
+      "text_micro_f1": 32.38530891811414,
+      "json_valid": 96.9024571854058,
+      "strict_json": 96.87267311988087,
+      "schema_valid": 92.09233060312734,
+      "native_eos_pct": 97.0067014147431,
+      "capped_pct": 2.9932985852568876
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        62.10542683874981,
+        62.766295707472175,
+        61.87073209464825,
+        63.559322033898304,
+        62.52433484750162
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 62.565222304454025,
+      "text_micro_f1": 63.57192681494878,
+      "json_valid": 99.67237527922562,
+      "strict_json": 99.67237527922562,
+      "schema_valid": 97.58749069247952,
+      "native_eos_pct": 99.67237527922562,
+      "capped_pct": 0.32762472077438576
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        59.19339472848523,
+        59.0122680088078,
+        58.957497995188454,
+        59.70004837929366,
+        59.337833494053356
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 59.2402085211657,
+      "text_micro_f1": 60.114583362250094,
+      "json_valid": 99.58302308265078,
+      "strict_json": 99.58302308265078,
+      "schema_valid": 97.08116157855547,
+      "native_eos_pct": 99.58302308265078,
+      "capped_pct": 0.4169769173492181
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "mean": 0.7887323943661968,
+      "lower": -1.6977414840294511,
+      "upper": 3.275206272761845,
+      "seed_deltas": [
+        -0.8450704225352155,
+        1.408450704225352,
+        0.2816901408450718,
+        1.549295774647888,
+        1.549295774647888
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        -0.20773835057290813,
+        1.7857273582932442
+      ],
+      "clusters": 538,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 1.0704225352112673,
+      "lower": -2.0080487112696135,
+      "upper": 4.1488937816921485,
+      "seed_deltas": [
+        -0.8450704225352155,
+        1.6901408450704238,
+        0.2816901408450718,
+        2.1126760563380316,
+        2.1126760563380245
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        0.11395606132448236,
+        2.038580959416409
+      ],
+      "clusters": 538,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 1.5774647887323936,
+      "lower": -1.2480456044812733,
+      "upper": 4.4029751819460605,
+      "seed_deltas": [
+        -0.2816901408450718,
+        1.267605633802816,
+        1.6901408450704167,
+        2.816901408450704,
+        2.3943661971831034
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        0.456490727532097,
+        2.7310374258105656
+      ],
+      "clusters": 538,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 1.5774647887323923,
+      "lower": -1.9170114946906365,
+      "upper": 5.071941072155421,
+      "seed_deltas": [
+        -0.7042253521126796,
+        0.9859154929577443,
+        2.3943661971830963,
+        3.0985915492957687,
+        2.1126760563380316
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        0.46169421205289213,
+        2.7128538128538127
+      ],
+      "clusters": 538,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 1.699905238657982,
+      "lower": -0.5891669660972219,
+      "upper": 3.988977443413186,
+      "seed_deltas": [
+        0.4110322667023709,
+        1.5533368233730371,
+        1.2124181562182343,
+        2.569044986921348,
+        2.7536939600749193
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        1.128084706318145,
+        2.286585969589081
+      ],
+      "clusters": 1343,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 1.6058396839893987,
+      "lower": -1.0116848726615466,
+      "upper": 4.223364240640344,
+      "seed_deltas": [
+        0.12610985514101003,
+        1.604425903882202,
+        0.9392025608881127,
+        2.7511371020142903,
+        2.6083229980213787
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        1.0510784285074544,
+        2.1753307200148737
+      ],
+      "clusters": 1343,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 3.3926075522762944,
+      "lower": 2.2587203062179393,
+      "upper": 4.5264947983346495,
+      "seed_deltas": [
+        2.9460295350226033,
+        3.7705456681206897,
+        3.0208201933187553,
+        4.032066848177131,
+        3.1935755167422926
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        2.672504896639946,
+        4.1277255089819915
+      ],
+      "clusters": 1343,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 3.3250137832883295,
+      "lower": 2.254037275475894,
+      "upper": 4.395990291100765,
+      "seed_deltas": [
+        2.912032110264576,
+        3.7540276986643732,
+        2.9132340994597925,
+        3.8592736546046424,
+        3.1865013534482642
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        2.602284379072092,
+        4.060255322297625
+      ],
+      "clusters": 1343,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    }
+  ],
+  "all_pairing_and_budget_checks": "passed"
+}

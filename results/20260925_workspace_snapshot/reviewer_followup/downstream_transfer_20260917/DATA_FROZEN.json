@@ -1,0 +1,27 @@
+{
+  "at": "2026-09-17T11:10:49+08:00",
+  "files": {
+    "data/wikisql_dev.jsonl": "466548e72141cc239a51502b4072da74374bbdbda0da8c30abaa39f77da3718c",
+    "data/anli_r1_train.jsonl": "cf51575173fb5d550cd30bfa6ca604e90a585b2dabf56a2d987e33296e60ecdc",
+    "data/wikisql_test.jsonl": "35c0d8df3d15990321b5ac3f499351498fcba4b28bde353bd13f4fc1f8ca289f",
+    "data/wikisql_train.jsonl": "4d7805b13a6628c3e4fbd7957484eeb58e1f5a22560a4cd746fc0ca7537a2383",
+    "data/anli_r1_test.jsonl": "359ac2c63572b248bc4b48fe8b9af77672ef45deacbb1fef7cc2e1dda7f4e878",
+    "data/anli_r1_dev.jsonl": "fa213cec5b60cc98e75b397bdff89cf3e0f3687e9b8a1515771d22f2cb3bf663",
+    "tokens/anli_r1_qwen25_15b_base_train.json": "2b4d245d994b53e31e10dd0321887d21ce9926182c81e1f42fdd76b776c03848",
+    "tokens/anli_r1_qwen3_06b_base_test.json": "d969c1aafd2f7e8a4ff3996b1791f4c1def98878d176f539e3d7ed6ea47737ff",
+    "tokens/wikisql_qwen25_15b_base_train.json": "ea7ffec0afdf7c28f858d5674a1a0586710e70a1f1daa94e89b69cc74eef64cd",
+    "tokens/anli_r1_qwen3_06b_base_dev.json": "78a86a9b00724c331f7dd4d3aa8a3bd444868924fd64dff168304cef88c63b1f",
+    "tokens/anli_r1_qwen25_15b_base_test.json": "d969c1aafd2f7e8a4ff3996b1791f4c1def98878d176f539e3d7ed6ea47737ff",
+    "tokens/wikisql_qwen3_06b_base_test.json": "9420481bbd9269da3ba14f73f17109e2b0f7ce56dd14c04edd1bbf23ccba83a6",
+    "tokens/wikisql_qwen3_06b_base_train.json": "ea7ffec0afdf7c28f858d5674a1a0586710e70a1f1daa94e89b69cc74eef64cd",
+    "tokens/wikisql_qwen25_15b_base_dev.json": "2dc7fd8abc7223ff45db4531e50360417d6d0960f5c68c10c2ed0d55a8b37631",
+    "tokens/wikisql_qwen25_15b_base_test.json": "9420481bbd9269da3ba14f73f17109e2b0f7ce56dd14c04edd1bbf23ccba83a6",
+    "tokens/wikisql_qwen3_06b_base_dev.json": "2dc7fd8abc7223ff45db4531e50360417d6d0960f5c68c10c2ed0d55a8b37631",
+    "tokens/anli_r1_qwen25_15b_base_dev.json": "78a86a9b00724c331f7dd4d3aa8a3bd444868924fd64dff168304cef88c63b1f",
+    "tokens/anli_r1_qwen3_06b_base_train.json": "2b4d245d994b53e31e10dd0321887d21ce9926182c81e1f42fdd76b776c03848",
+    "raw/wikisql/data/train.db": "7b9bafabb43c190c52605322c787604e9019a0d7d602c2dc00833f81b3f28095",
+    "raw/wikisql/data/dev.db": "c3685e41f2de9d17b3c643b285e1aec13eeeeb3dd04189085636c1d637d0978f",
+    "raw/wikisql/data/test.db": "eda9ce5862600af2b29fafbf5446f90df6383c3847f7ccef7493b86b63e5dad5"
+  },
+  "protocol_sha256": "1ebf85caef6cc98bb9bf1d7d2bd89e365a97b4e13c8304ca8ce4bed3d335e2b7"
+}

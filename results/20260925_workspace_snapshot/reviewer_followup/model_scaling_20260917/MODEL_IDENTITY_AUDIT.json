@@ -1,0 +1,247 @@
+{
+  "status": "passed",
+  "models": {
+    "qwen25_3b_base": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B",
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "hidden_size": 2048,
+      "files": {
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/LICENSE": "ef52482bb785733093dc9a2e8edd8e764c77d12d8e9d8f10a80c9b547d32d0f9",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/README.md": "75c779862cc82558878509bd0d6ba493612568b02868bc474e74fcbeee6f7810",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/config.json": "27467e2fc311a7656c09a43ae9c3d408211e1f212bbddbc93c8596a06423826f",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/model-00001-of-00002.safetensors": "f9558df91d3b89b4826e4db37439edb52f1d62a4fd602685013e7ca6b9f60f8f",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/model-00002-of-00002.safetensors": "51410930d5cf19a998fdb17ef0c46e4d9ace72c97a975a3331395a8a500f5edb",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/model.safetensors.index.json": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "tie_word_embeddings": true
+    },
+    "qwen25_7b_base": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B",
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "hidden_size": 3584,
+      "files": {
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/README.md": "8a23291de92bddc940674a5b7088b8443bde94a1df7f1911703d2cd6554c7328",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/config.json": "267ce68584c5f24c3b267d934db2de68dd21d1ca677fb78ed809eb60067f7642",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00001-of-00004.safetensors": "b6d4b6e881d17e9235934419b1c17a8bb0f1108579404e0a468a6afdeae6e868",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00002-of-00004.safetensors": "687e8d08dc82b5f7d69322f1d8691d49b59db9039b07e7ea71010fb6434d5274",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00003-of-00004.safetensors": "32652eb23537597cca8c7a56ec85b5d5f1c7245b16269a904d57e85aa1aff30e",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00004-of-00004.safetensors": "b5a2298dddcf228129975a9a271912a9f8dc817957deecde523e3154481ec3fb",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model.safetensors.index.json": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      "tie_word_embeddings": false
+    }
+  },
+  "files": [
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "LICENSE",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/LICENSE",
+      "git_blob": "ed317377ac0abff39f17eec693ce664f4b8152af",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "README.md",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/README.md",
+      "git_blob": "5a98c2f5cee568453413e49a600be32d3f010eaf",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/config.json",
+      "git_blob": "acd0065677f7999d568f327c94188adbbcb6e158",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "generation_config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/generation_config.json",
+      "git_blob": "cbbb3133034e192527e5321b4c679154e4819ab8",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "merges.txt",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/merges.txt",
+      "git_blob": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "model-00001-of-00002.safetensors",
+      "official_lfs_sha256": "f9558df91d3b89b4826e4db37439edb52f1d62a4fd602685013e7ca6b9f60f8f",
+      "local_path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-3B-Base/model-00001-of-00002.safetensors",
+      "verified_copy": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/model-00001-of-00002.safetensors",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "model-00002-of-00002.safetensors",
+      "official_lfs_sha256": "51410930d5cf19a998fdb17ef0c46e4d9ace72c97a975a3331395a8a500f5edb",
+      "local_path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-3B-Base/model-00002-of-00002.safetensors",
+      "verified_copy": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-3B/model-00002-of-00002.safetensors",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "model.safetensors.index.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/model.safetensors.index.json",
+      "git_blob": "38047c6284a25427043f0ab040f623a2a20dd093",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "tokenizer.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/tokenizer.json",
+      "git_blob": "443909a61d429dff23010e5bddd28ff530edda00",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "tokenizer_config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/tokenizer_config.json",
+      "git_blob": "ba7e4c5637b9732dadcd66286ce48334e8b31e9e",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B",
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "file": "vocab.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B/resolve/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/vocab.json",
+      "git_blob": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "LICENSE",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/LICENSE",
+      "git_blob": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "README.md",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/README.md",
+      "git_blob": "a8ca5333e8026eff66e59267cfb5a51c79c5ae6b",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/config.json",
+      "git_blob": "1a90713f0e2cf13b8320cd576175ff9f0b587ea4",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "generation_config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/generation_config.json",
+      "git_blob": "cbbb3133034e192527e5321b4c679154e4819ab8",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "merges.txt",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/merges.txt",
+      "git_blob": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "model-00001-of-00004.safetensors",
+      "official_lfs_sha256": "b6d4b6e881d17e9235934419b1c17a8bb0f1108579404e0a468a6afdeae6e868",
+      "local_path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-7B-Base/model-00001-of-00004.safetensors",
+      "verified_copy": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00001-of-00004.safetensors",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "model-00002-of-00004.safetensors",
+      "official_lfs_sha256": "687e8d08dc82b5f7d69322f1d8691d49b59db9039b07e7ea71010fb6434d5274",
+      "local_path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-7B-Base/model-00002-of-00004.safetensors",
+      "verified_copy": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00002-of-00004.safetensors",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "model-00003-of-00004.safetensors",
+      "official_lfs_sha256": "32652eb23537597cca8c7a56ec85b5d5f1c7245b16269a904d57e85aa1aff30e",
+      "local_path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-7B-Base/model-00003-of-00004.safetensors",
+      "verified_copy": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00003-of-00004.safetensors",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "model-00004-of-00004.safetensors",
+      "official_lfs_sha256": "b5a2298dddcf228129975a9a271912a9f8dc817957deecde523e3154481ec3fb",
+      "local_path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen2.5-7B-Base/model-00004-of-00004.safetensors",
+      "verified_copy": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_scaling_20260917/verified_models/Qwen2.5-7B/model-00004-of-00004.safetensors",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "model.safetensors.index.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/model.safetensors.index.json",
+      "git_blob": "14d037fdda5a1311dcc0275003a7a370d84114e6",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "tokenizer.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/tokenizer.json",
+      "git_blob": "443909a61d429dff23010e5bddd28ff530edda00",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "tokenizer_config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/tokenizer_config.json",
+      "git_blob": "ba7e4c5637b9732dadcd66286ce48334e8b31e9e",
+      "local_matches_official": true
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B",
+      "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+      "file": "vocab.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B/resolve/d149729398750b98c0af14eb82c78cfe92750796/vocab.json",
+      "git_blob": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "local_matches_official": true
+    }
+  ]
+}

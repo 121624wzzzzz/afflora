@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-11T15:50:10+08:00",
+  "updated_at": "2026-07-11T20:23:40+08:00",
+  "phase": "complete",
+  "jobs": {
+    "llama31_8b_hidden_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:21:56+08:00",
+      "returncode": 0
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:22:05+08:00",
+      "returncode": 0
+    },
+    "llama31_8b_hidden_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:22:13+08:00",
+      "returncode": 0
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:22:22+08:00",
+      "returncode": 0
+    },
+    "llama31_8b_hidden_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:22:31+08:00",
+      "returncode": 0
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:22:40+08:00",
+      "returncode": 0
+    },
+    "llama32_3b_hidden_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:22:49+08:00",
+      "returncode": 0
+    },
+    "llama32_3b_mergeable_ar16_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T15:50:10+08:00",
+      "finished_at": "2026-07-11T20:22:58+08:00",
+      "returncode": 0
+    },
+    "llama32_3b_hidden_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T16:47:52+08:00",
+      "finished_at": "2026-07-11T20:23:08+08:00",
+      "returncode": 0
+    },
+    "llama32_3b_mergeable_ar16_s1_hr4_seed43": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T16:48:12+08:00",
+      "finished_at": "2026-07-11T20:23:18+08:00",
+      "returncode": 0
+    },
+    "llama32_3b_hidden_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T17:26:10+08:00",
+      "finished_at": "2026-07-11T20:23:28+08:00",
+      "returncode": 0
+    },
+    "llama32_3b_mergeable_ar16_s1_hr4_seed44": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T17:26:26+08:00",
+      "finished_at": "2026-07-11T20:23:38+08:00",
+      "returncode": 0
+    }
+  }
+}

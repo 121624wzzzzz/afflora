@@ -1,0 +1,520 @@
+{
+  "at": "2026-09-15T17:46:04+08:00",
+  "analysis": "post hoc numeric diagnostic, no primary prediction replaced",
+  "screened_rows": 160000,
+  "top_two_gap_threshold": 0.001,
+  "flagged_rows": 21,
+  "rechecked_rows": 21,
+  "prediction_flips": 0,
+  "all_rechecks_within_preexisting_shape_tolerance": true,
+  "maximum_observed_shape_logit_difference": 2.6702880859375e-05,
+  "scope": "Rechecks only observed near ties. This is not a global mathematical bound on untested batch shapes.",
+  "script_sha256": "ccb9517436f3386c8199d435139ead531236b38bb190750ad9e24885ab51fcc6",
+  "details": [
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_none_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0010700225830078125,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.001369476318359375,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_interior_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00168609619140625,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_hidden_budget_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.000102996826171875,
+      "flagged_rows": 3,
+      "rechecks": [
+        {
+          "id": "test_62",
+          "rotation": 3,
+          "max_abs_logit_error": 2.09808349609375e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 2,
+          "single_prediction": 2,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        },
+        {
+          "id": "test_288",
+          "rotation": 1,
+          "max_abs_logit_error": 9.5367431640625e-06,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 1,
+          "single_prediction": 1,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        },
+        {
+          "id": "test_560",
+          "rotation": 0,
+          "max_abs_logit_error": 1.33514404296875e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 1,
+          "single_prediction": 1,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_none_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.001255035400390625,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0008220672607421875,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_863",
+          "rotation": 3,
+          "max_abs_logit_error": 2.288818359375e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 3,
+          "single_prediction": 3,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_interior_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 9.1552734375e-05,
+      "flagged_rows": 2,
+      "rechecks": [
+        {
+          "id": "test_257",
+          "rotation": 0,
+          "max_abs_logit_error": 9.5367431640625e-06,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 2,
+          "single_prediction": 2,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        },
+        {
+          "id": "test_401",
+          "rotation": 1,
+          "max_abs_logit_error": 1.52587890625e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 1,
+          "single_prediction": 1,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_hidden_budget_sd2002_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00058746337890625,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_486",
+          "rotation": 0,
+          "max_abs_logit_error": 1.71661376953125e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 1,
+          "single_prediction": 1,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_none_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.000247955322265625,
+      "flagged_rows": 2,
+      "rechecks": [
+        {
+          "id": "test_272",
+          "rotation": 3,
+          "max_abs_logit_error": 9.5367431640625e-06,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 0,
+          "single_prediction": 0,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        },
+        {
+          "id": "test_606",
+          "rotation": 2,
+          "max_abs_logit_error": 2.6702880859375e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 0,
+          "single_prediction": 0,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0015773773193359375,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_interior_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.000690460205078125,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_889",
+          "rotation": 3,
+          "max_abs_logit_error": 1.9073486328125e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 2,
+          "single_prediction": 2,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_hidden_budget_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00084686279296875,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_79",
+          "rotation": 2,
+          "max_abs_logit_error": 1.71661376953125e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 3,
+          "single_prediction": 3,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_none_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0018177032470703125,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0016765594482421875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_interior_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0057659149169921875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_hidden_budget_sd2003_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0031337738037109375,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_none_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0001659393310546875,
+      "flagged_rows": 2,
+      "rechecks": [
+        {
+          "id": "test_605",
+          "rotation": 1,
+          "max_abs_logit_error": 2.288818359375e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 3,
+          "single_prediction": 3,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        },
+        {
+          "id": "test_923",
+          "rotation": 2,
+          "max_abs_logit_error": 1.71661376953125e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 2,
+          "single_prediction": 2,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0014743804931640625,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_interior_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0005931854248046875,
+      "flagged_rows": 2,
+      "rechecks": [
+        {
+          "id": "test_52",
+          "rotation": 3,
+          "max_abs_logit_error": 9.5367431640625e-06,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 3,
+          "single_prediction": 3,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        },
+        {
+          "id": "test_675",
+          "rotation": 1,
+          "max_abs_logit_error": 7.62939453125e-06,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 0,
+          "single_prediction": 0,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_hidden_budget_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.002696990966796875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_none_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.001140594482421875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00128173828125,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_interior_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.001018524169921875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_hidden_budget_sd2004_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00170135498046875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_none_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0013561248779296875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 1.33514404296875e-05,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_187",
+          "rotation": 1,
+          "max_abs_logit_error": 1.71661376953125e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 2,
+          "single_prediction": 2,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_interior_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.003154754638671875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_hidden_budget_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.000385284423828125,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_307",
+          "rotation": 1,
+          "max_abs_logit_error": 2.288818359375e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 1,
+          "single_prediction": 1,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_none_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0010700225830078125,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 8.7738037109375e-05,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_229",
+          "rotation": 2,
+          "max_abs_logit_error": 5.7220458984375e-06,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 1,
+          "single_prediction": 1,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_interior_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.002086639404296875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_hidden_budget_sd2005_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00475311279296875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_none_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00028228759765625,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_667",
+          "rotation": 3,
+          "max_abs_logit_error": 1.52587890625e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 3,
+          "single_prediction": 3,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_both_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0028533935546875,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_interior_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0014495849609375,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen3_06b_chat_hidden_budget_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.0013332366943359375,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_none_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.00455474853515625,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_both_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.010454177856445312,
+      "flagged_rows": 0,
+      "rechecks": []
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_interior_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 0.000896453857421875,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_395",
+          "rotation": 1,
+          "max_abs_logit_error": 5.7220458984375e-06,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 1,
+          "single_prediction": 1,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    },
+    {
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/confirmation_qwen25_15b_chat_hidden_budget_sd2006_lr0.0002",
+      "threshold": 0.001,
+      "minimum_top_two_gap": 4.1961669921875e-05,
+      "flagged_rows": 1,
+      "rechecks": [
+        {
+          "id": "test_388",
+          "rotation": 3,
+          "max_abs_logit_error": 2.288818359375e-05,
+          "within_preexisting_5e_4_shape_tolerance": true,
+          "original_prediction": 3,
+          "single_prediction": 3,
+          "prediction_changed": false,
+          "ambiguous_gold": false
+        }
+      ]
+    }
+  ]
+}

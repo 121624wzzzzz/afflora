@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "verified_prior_ce_sources": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_none_hr8_sd42.test.json": "05e6b8399a911908eaf01084e1c56ea143848fea9466682194f79f864f4b28f4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_output_hr8_sd42.test.json": "ffa9b1cc921ac1e27e6f344e4fff6a9cb3e9c26d785e01abc9123d676529de04",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_both_hr8_sd42.test.json": "b4eeca9e53fc82cdff01f18abdd2afd256945604fcf5acb641b42c3518c7e3d6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_hidden_budget_hr8_sd42.test.json": "77cc085a84d163cceba628187220d1940953b2a559b78c0689fd826b0f9d30d9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_none_hr8_sd42.test.json": "e82309b3b590e88880c644a7f70b1bdacbca836faf0fb52fe1738bdaed9ee408",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_output_hr8_sd42.test.json": "5a5fa438b7f4c2204183c79ae50488b4620fa44baac3f02731fb1f2fd83aa70e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_both_hr8_sd42.test.json": "f94718c0c44e5e9c6212154b9e05931ce060eb1b1072e66d36a3298c5ef9c30d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_hidden_budget_hr8_sd42.test.json": "e4c9978966e9cd5378be62f457547e1dd26a81fbd5aed8d92c23c3bdf0d715fa",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_none_hr8_sd43.test.json": "7a8247fae962dc7315a04a6fead606d72c68ab78a0ddb47c0e42010936225694",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_output_hr8_sd43.test.json": "ff7f9597ad5c740f24c7a43615c9faa01d2425679b56e2ccd9855fe03f61abfb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_both_hr8_sd43.test.json": "10eb27c69b33332dbfc42fc355ef0a7ccf47098f3629eb2bb79e2621b70b4720",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_hidden_budget_hr8_sd43.test.json": "fcc4738afbb11ffa165d3736705dceb566761ff97644f4eb83b4153c081f73a0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_none_hr8_sd43.test.json": "95e214bcd2526d45ebc142752a3e3b05b063b2be82a62bfc0d3ed9e946c3296d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_output_hr8_sd43.test.json": "dd5db35091d20d9d3b84f60f195d39987ee9dd7eb1eb67087fdf5e95ad61be8d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_both_hr8_sd43.test.json": "caae8deb17a13c01a3ca8691ef6177c5eeeee4e84a81a5741d4c95f702c740f1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_hidden_budget_hr8_sd43.test.json": "3c7313561c5029a6e36e3a054ed1a20497b74f0fad80ba745e8768a646395a44",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_none_hr8_sd44.test.json": "735241604443541a62b380ab1a79464a8b5b9e54ee9c46bbe311936ad259ffcf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_output_hr8_sd44.test.json": "ee8b911b657a33f1948374a289faab1c1bc968cfef66917c77da27df67b070c6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_both_hr8_sd44.test.json": "373a13f118bae7c506bb9741cd20d75e7919e04b1d790dd215a6bb38c9540032",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_hidden_budget_hr8_sd44.test.json": "7d8c3f22e53c717d99a92d21fd63bcfcdecd58a7412937af719e08ad88bb53ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_none_hr8_sd44.test.json": "67f0010b4883e01d160692de97570ba1a513d9e03d54c8c2bca74db99e3e84e0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_output_hr8_sd44.test.json": "40333d3817149432de0531a4a5039103c1c22edfd7eaa2255e6e75d807cd9c00",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_both_hr8_sd44.test.json": "760aed0ab8032cbe133fd86e9b989cc53d9e48065132d2544fab15510e752638",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_hidden_budget_hr8_sd44.test.json": "dca106ed16a3760ce9555aa01de7f10c05c3a36351acf4125729c8f0a69100ae",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen3_06b_chat_none_hr0_base.test.json": "6e7f43cceae2884f201ef6845b5d8a3eddbd58ab749c72dd7ca46bc53718b7e6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/reports/qwen25_15b_chat_none_hr0_base.test.json": "23ec9830232beef6e9b2a2337898b36ac948ed9bbe6549e33ba082603d271975"
+  }
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "name": "confirmation_wikisql_hidden_c0_s7500",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7500,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_c0_s7501",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7501,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_c0_s7502",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7502,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_c0_s7503",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7503,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_c0_s7504",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7504,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_budget_c2_s7500",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7500,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_budget_c2_s7501",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7501,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_budget_c2_s7502",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7502,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_budget_c2_s7503",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7503,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_budget_c2_s7504",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7504,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_both_c0_s7500",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7500,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_both_c0_s7501",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7501,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_both_c0_s7502",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7502,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_both_c0_s7503",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7503,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_wikisql_hidden_both_c0_s7504",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7504,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_c2_s7500",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7500,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_c2_s7501",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7501,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_c2_s7502",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7502,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_c2_s7503",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7503,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_c2_s7504",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden",
+    "seed": 7504,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_budget_c2_s7500",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7500,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_budget_c2_s7501",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7501,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_budget_c2_s7502",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7502,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_budget_c2_s7503",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7503,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_budget_c2_s7504",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_budget",
+    "seed": 7504,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_both_c2_s7500",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7500,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_both_c2_s7501",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7501,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_both_c2_s7502",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7502,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_both_c2_s7503",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7503,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_trec50_hidden_both_c2_s7504",
+    "stage": "confirmation",
+    "task": "trec50",
+    "model": "gemma2_9b_base",
+    "arm": "hidden_both",
+    "seed": 7504,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/data_full.json",
+  "revision": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+  "implementation_source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study"
+}

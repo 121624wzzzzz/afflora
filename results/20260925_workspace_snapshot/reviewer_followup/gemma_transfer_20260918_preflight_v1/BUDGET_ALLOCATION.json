@@ -1,0 +1,11 @@
+{
+  "hidden_size": 3584,
+  "hidden_rank": 8,
+  "boundary_rank": 16,
+  "input_bias": true,
+  "output_bias": false,
+  "extra": 232960,
+  "extra_q_layers": 23,
+  "extra_k_layers": 10,
+  "strict_match": true
+}

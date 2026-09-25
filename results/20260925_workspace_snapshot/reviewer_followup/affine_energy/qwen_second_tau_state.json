@@ -1,0 +1,27 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-15T16:24:57+08:00",
+  "rhos": {
+    "qwen25_3b:shared:seed42": 0.012225445169935893,
+    "qwen25_3b:shared:seed43": 0.012371759136403326,
+    "qwen25_3b:shared:seed44": 0.012233159249340002,
+    "qwen25_3b:shared:seed45": 0.01229607503816718,
+    "qwen25_3b:shared:seed46": 0.012113834932685466,
+    "qwen25_3b:output:seed42": 0.003123093581034101,
+    "qwen25_3b:output:seed43": 0.0031439934540925876,
+    "qwen25_3b:output:seed44": 0.0031446541281403154,
+    "qwen25_3b:output:seed45": 0.003123225944990947,
+    "qwen25_3b:output:seed46": 0.0031320586668341123,
+    "qwen3_4b:shared:seed42": 0.012498159543828326,
+    "qwen3_4b:shared:seed43": 0.012375380209331965,
+    "qwen3_4b:shared:seed44": 0.012435804162110094,
+    "qwen3_4b:shared:seed45": 0.012489824161267213,
+    "qwen3_4b:shared:seed46": 0.012454355007506012,
+    "qwen3_4b:output:seed42": 0.0031270113588232726,
+    "qwen3_4b:output:seed43": 0.003124873689262108,
+    "qwen3_4b:output:seed44": 0.0031253647031420284,
+    "qwen3_4b:output:seed45": 0.0031279855948271634,
+    "qwen3_4b:output:seed46": 0.0031250850959536774
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/QWEN_SECOND_TAU_MULTISEED_RESULTS.md"
+}

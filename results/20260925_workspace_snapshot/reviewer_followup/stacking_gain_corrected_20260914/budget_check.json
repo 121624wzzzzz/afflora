@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "model": "Qwen3ForCausalLM",
+      "rank": 2,
+      "extra": 520,
+      "new_rank_slices_learn": true,
+      "shared_init_preserved": true,
+      "rng_preserved": true,
+      "reload_max_abs_error": 0.0
+    },
+    {
+      "model": "Qwen3ForCausalLM",
+      "rank": 64,
+      "extra": 520,
+      "new_rank_slices_learn": true,
+      "shared_init_preserved": true,
+      "rng_preserved": true,
+      "reload_max_abs_error": 0.0
+    },
+    {
+      "model": "Qwen2ForCausalLM",
+      "rank": 2,
+      "extra": 3648,
+      "new_rank_slices_learn": true,
+      "shared_init_preserved": true,
+      "rng_preserved": true,
+      "reload_max_abs_error": 0.0
+    },
+    {
+      "model": "Qwen2ForCausalLM",
+      "rank": 64,
+      "extra": 3648,
+      "new_rank_slices_learn": true,
+      "shared_init_preserved": true,
+      "rng_preserved": true,
+      "reload_max_abs_error": 0.0
+    }
+  ]
+}

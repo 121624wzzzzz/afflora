@@ -1,0 +1,516 @@
+{
+  "at": "2026-09-18T12:33:13.502806+08:00",
+  "scope": "Post-output descriptive summaries of predefined secondary metrics; SQL valid-query partition is post hoc and not causal",
+  "metrics": [
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "split": "dev",
+      "means": {
+        "primary": 4.4673539518900345,
+        "schema_valid": 30.0,
+        "strict_json": 4.5,
+        "capped_pct": 95.5
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "split": "test",
+      "means": {
+        "primary": 5.62358276643991,
+        "schema_valid": 23.08265078183172,
+        "strict_json": 2.3827252419955323,
+        "capped_pct": 97.1705137751303
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "split": "dev",
+      "means": {
+        "primary": 65.43171720165306,
+        "schema_valid": 98.33333333333333,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "split": "test",
+      "means": {
+        "primary": 63.50451734696048,
+        "schema_valid": 98.26259617771159,
+        "strict_json": 99.85107967237528,
+        "capped_pct": 0.04964010920824025
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "split": "dev",
+      "means": {
+        "primary": 65.53873538940181,
+        "schema_valid": 98.33333333333333,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "split": "test",
+      "means": {
+        "primary": 63.544053008468005,
+        "schema_valid": 98.21295606850335,
+        "strict_json": 99.82625961777116,
+        "capped_pct": 0.09928021841648052
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "split": "dev",
+      "means": {
+        "primary": 66.77948523075558,
+        "schema_valid": 99.16666666666667,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "split": "test",
+      "means": {
+        "primary": 65.74721372065115,
+        "schema_valid": 98.73417721518987,
+        "strict_json": 99.92553983618764,
+        "capped_pct": 0.04964010920824025
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "split": "dev",
+      "means": {
+        "primary": 22.471910112359552,
+        "schema_valid": 39.0,
+        "strict_json": 0.0,
+        "capped_pct": 91.5
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "split": "test",
+      "means": {
+        "primary": 20.380987608655445,
+        "schema_valid": 41.25093075204765,
+        "strict_json": 0.0,
+        "capped_pct": 93.14966492926284
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "split": "dev",
+      "means": {
+        "primary": 73.25837400937013,
+        "schema_valid": 99.83333333333333,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "split": "test",
+      "means": {
+        "primary": 70.3950068984112,
+        "schema_valid": 99.1312980888558,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "split": "dev",
+      "means": {
+        "primary": 72.63164961121579,
+        "schema_valid": 99.33333333333333,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "split": "test",
+      "means": {
+        "primary": 70.5816892265632,
+        "schema_valid": 99.10647803425168,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "split": "dev",
+      "means": {
+        "primary": 73.18344750748182,
+        "schema_valid": 99.83333333333333,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "split": "test",
+      "means": {
+        "primary": 71.52410287235527,
+        "schema_valid": 99.2553983618764,
+        "strict_json": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "split": "dev",
+      "means": {
+        "primary": 1.171875,
+        "lf_correct_pct": 0.390625,
+        "query_valid_pct": 17.1875,
+        "strict_json_pct": 57.8125,
+        "capped_pct": 29.6875
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "split": "test",
+      "means": {
+        "primary": 0.87890625,
+        "lf_correct_pct": 0.390625,
+        "query_valid_pct": 14.84375,
+        "strict_json_pct": 55.17578125,
+        "capped_pct": 34.1796875
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "split": "dev",
+      "means": {
+        "primary": 77.21354166666667,
+        "lf_correct_pct": 70.18229166666667,
+        "query_valid_pct": 99.21875,
+        "strict_json_pct": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "split": "test",
+      "means": {
+        "primary": 76.79036458333333,
+        "lf_correct_pct": 72.10286458333333,
+        "query_valid_pct": 98.56770833333333,
+        "strict_json_pct": 99.609375,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "split": "dev",
+      "means": {
+        "primary": 77.08333333333333,
+        "lf_correct_pct": 69.921875,
+        "query_valid_pct": 99.47916666666667,
+        "strict_json_pct": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "split": "test",
+      "means": {
+        "primary": 76.92057291666667,
+        "lf_correct_pct": 72.39583333333333,
+        "query_valid_pct": 98.60026041666667,
+        "strict_json_pct": 99.609375,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "split": "dev",
+      "means": {
+        "primary": 79.03645833333333,
+        "lf_correct_pct": 73.046875,
+        "query_valid_pct": 99.08854166666667,
+        "strict_json_pct": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "split": "test",
+      "means": {
+        "primary": 77.57161458333333,
+        "lf_correct_pct": 72.72135416666667,
+        "query_valid_pct": 98.4375,
+        "strict_json_pct": 99.51171875,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "split": "dev",
+      "means": {
+        "primary": 17.1875,
+        "lf_correct_pct": 12.890625,
+        "query_valid_pct": 52.734375,
+        "strict_json_pct": 91.40625,
+        "capped_pct": 4.296875
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "split": "test",
+      "means": {
+        "primary": 15.8203125,
+        "lf_correct_pct": 11.81640625,
+        "query_valid_pct": 52.5390625,
+        "strict_json_pct": 92.3828125,
+        "capped_pct": 3.515625
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "split": "dev",
+      "means": {
+        "primary": 81.77083333333333,
+        "lf_correct_pct": 75.26041666666667,
+        "query_valid_pct": 99.34895833333333,
+        "strict_json_pct": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "split": "test",
+      "means": {
+        "primary": 80.859375,
+        "lf_correct_pct": 76.04166666666667,
+        "query_valid_pct": 98.56770833333333,
+        "strict_json_pct": 99.57682291666667,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "split": "dev",
+      "means": {
+        "primary": 81.38020833333333,
+        "lf_correct_pct": 75.390625,
+        "query_valid_pct": 99.47916666666667,
+        "strict_json_pct": 100.0,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "split": "test",
+      "means": {
+        "primary": 80.92447916666667,
+        "lf_correct_pct": 76.20442708333333,
+        "query_valid_pct": 98.56770833333333,
+        "strict_json_pct": 99.54427083333333,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "split": "dev",
+      "means": {
+        "primary": 82.16145833333333,
+        "lf_correct_pct": 76.5625,
+        "query_valid_pct": 99.08854166666667,
+        "strict_json_pct": 99.86979166666667,
+        "capped_pct": 0.0
+      }
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "split": "test",
+      "means": {
+        "primary": 80.63151041666667,
+        "lf_correct_pct": 76.10677083333333,
+        "query_valid_pct": 98.50260416666667,
+        "strict_json_pct": 99.57682291666667,
+        "capped_pct": 0.0
+      }
+    }
+  ],
+  "sql_validity_partition": [
+    {
+      "model": "llama32_3b_base",
+      "seed": 7100,
+      "control": "hidden",
+      "n": 1024,
+      "both_valid_delta_pp": 0.68359375,
+      "other_delta_pp": -0.1953125,
+      "total_delta_pp": 0.48828125
+    },
+    {
+      "model": "llama32_3b_base",
+      "seed": 7100,
+      "control": "hidden_budget",
+      "n": 1024,
+      "both_valid_delta_pp": 0.29296875,
+      "other_delta_pp": -0.09765625,
+      "total_delta_pp": 0.1953125
+    },
+    {
+      "model": "llama32_3b_base",
+      "seed": 7101,
+      "control": "hidden",
+      "n": 1024,
+      "both_valid_delta_pp": 2.34375,
+      "other_delta_pp": 0.0,
+      "total_delta_pp": 2.34375
+    },
+    {
+      "model": "llama32_3b_base",
+      "seed": 7101,
+      "control": "hidden_budget",
+      "n": 1024,
+      "both_valid_delta_pp": 1.953125,
+      "other_delta_pp": -0.09765625,
+      "total_delta_pp": 1.85546875
+    },
+    {
+      "model": "llama32_3b_base",
+      "seed": 7102,
+      "control": "hidden",
+      "n": 1024,
+      "both_valid_delta_pp": -0.390625,
+      "other_delta_pp": -0.09765625,
+      "total_delta_pp": -0.48828125
+    },
+    {
+      "model": "llama32_3b_base",
+      "seed": 7102,
+      "control": "hidden_budget",
+      "n": 1024,
+      "both_valid_delta_pp": -0.09765625,
+      "other_delta_pp": 0.0,
+      "total_delta_pp": -0.09765625
+    },
+    {
+      "model": "llama31_8b_base",
+      "seed": 7100,
+      "control": "hidden",
+      "n": 1024,
+      "both_valid_delta_pp": -0.29296875,
+      "other_delta_pp": 0.29296875,
+      "total_delta_pp": 0.0
+    },
+    {
+      "model": "llama31_8b_base",
+      "seed": 7100,
+      "control": "hidden_budget",
+      "n": 1024,
+      "both_valid_delta_pp": -0.5859375,
+      "other_delta_pp": 0.09765625,
+      "total_delta_pp": -0.48828125
+    },
+    {
+      "model": "llama31_8b_base",
+      "seed": 7101,
+      "control": "hidden",
+      "n": 1024,
+      "both_valid_delta_pp": -1.26953125,
+      "other_delta_pp": -0.48828125,
+      "total_delta_pp": -1.7578125
+    },
+    {
+      "model": "llama31_8b_base",
+      "seed": 7101,
+      "control": "hidden_budget",
+      "n": 1024,
+      "both_valid_delta_pp": -0.1953125,
+      "other_delta_pp": -0.390625,
+      "total_delta_pp": -0.5859375
+    },
+    {
+      "model": "llama31_8b_base",
+      "seed": 7102,
+      "control": "hidden",
+      "n": 1024,
+      "both_valid_delta_pp": 0.87890625,
+      "other_delta_pp": 0.1953125,
+      "total_delta_pp": 1.07421875
+    },
+    {
+      "model": "llama31_8b_base",
+      "seed": 7102,
+      "control": "hidden_budget",
+      "n": 1024,
+      "both_valid_delta_pp": 0.0,
+      "other_delta_pp": 0.1953125,
+      "total_delta_pp": 0.1953125
+    }
+  ]
+}

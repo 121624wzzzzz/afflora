@@ -1,0 +1,31 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-13T13:38:45+08:00",
+  "rhos": {
+    "qwen25_15b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed43": {
+      "input": 0.006150764325966787
+    },
+    "qwen25_15b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed44": {
+      "input": 0.006202684049709297
+    },
+    "qwen25_3b_shared_ar16_s1_hr4_unconstrained_seed42": {
+      "input": 0.051906000166085715
+    },
+    "qwen25_3b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006132732928866474
+    },
+    "qwen25_3b_shared_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.00617908923601736
+    },
+    "qwen3_4b_shared_ar16_s1_hr4_unconstrained_seed42": {
+      "input": 0.10358613141059358
+    },
+    "qwen3_4b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.0062445707833229044
+    },
+    "qwen3_4b_shared_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006248916329049077
+    }
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/QWEN_MULTISEED_SCALE_RESULTS.md"
+}

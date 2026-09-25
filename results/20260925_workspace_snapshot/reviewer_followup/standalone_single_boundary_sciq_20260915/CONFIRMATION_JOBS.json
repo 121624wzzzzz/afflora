@@ -1,0 +1,182 @@
+[
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_input_sd3002_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3002,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3002_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_output_sd3002_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3002,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3002_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_input_sd3002_lr0.0002",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3002,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3002_lr0.0002"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_output_sd3002_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3002,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3002_lr5e-05"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_input_sd3003_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3003,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3003_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_output_sd3003_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3003,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3003_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_input_sd3003_lr0.0002",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3003,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3003_lr0.0002"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_output_sd3003_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3003,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3003_lr5e-05"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_input_sd3004_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3004,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3004_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_output_sd3004_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3004,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3004_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_input_sd3004_lr0.0002",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3004,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3004_lr0.0002"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_output_sd3004_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3004,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3004_lr5e-05"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_input_sd3005_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3005,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3005_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_output_sd3005_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3005,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3005_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_input_sd3005_lr0.0002",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3005,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3005_lr0.0002"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_output_sd3005_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3005,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3005_lr5e-05"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_input_sd3006_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3006,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3006_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen3_06b_chat_output_sd3006_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3006,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3006_lr0.0008"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_input_sd3006_lr0.0002",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3006,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3006_lr0.0002"
+  },
+  {
+    "phase": "confirmation",
+    "name": "confirmation_qwen25_15b_chat_output_sd3006_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3006,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3006_lr5e-05"
+  }
+]

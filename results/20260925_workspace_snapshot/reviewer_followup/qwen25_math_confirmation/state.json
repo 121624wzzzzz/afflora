@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-11T12:59:47+08:00",
+  "updated_at": "2026-07-11T15:50:17+08:00",
+  "phase": "complete",
+  "jobs": {
+    "qwen25_15b_hidden_hr4_seed45": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T12:59:47+08:00",
+      "finished_at": "2026-07-11T15:49:01+08:00",
+      "returncode": 0,
+      "eval_attempt": 2,
+      "eval_batch_size": 256
+    },
+    "qwen25_15b_mergeable_ar8_s1_hr4_seed45": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T12:59:47+08:00",
+      "finished_at": "2026-07-11T15:49:10+08:00",
+      "returncode": 0
+    },
+    "qwen25_15b_mergeable_ar16_s1_hr4_seed45": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T12:59:47+08:00",
+      "finished_at": "2026-07-11T15:49:18+08:00",
+      "returncode": 0
+    },
+    "qwen25_15b_hidden_hr4_seed46": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T12:59:47+08:00",
+      "finished_at": "2026-07-11T15:49:27+08:00",
+      "returncode": 0
+    },
+    "qwen25_15b_mergeable_ar8_s1_hr4_seed46": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T13:41:43+08:00",
+      "finished_at": "2026-07-11T15:49:36+08:00",
+      "returncode": 0
+    },
+    "qwen25_15b_mergeable_ar16_s1_hr4_seed46": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T13:41:47+08:00",
+      "finished_at": "2026-07-11T15:49:46+08:00",
+      "returncode": 0
+    },
+    "qwen25_15b_hidden_hr4_seed47": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T13:42:18+08:00",
+      "finished_at": "2026-07-11T15:49:55+08:00",
+      "returncode": 0
+    },
+    "qwen25_15b_mergeable_ar8_s1_hr4_seed47": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T13:42:18+08:00",
+      "finished_at": "2026-07-11T15:50:05+08:00",
+      "returncode": 0
+    },
+    "qwen25_15b_mergeable_ar16_s1_hr4_seed47": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T14:24:03+08:00",
+      "finished_at": "2026-07-11T15:50:15+08:00",
+      "returncode": 0
+    }
+  }
+}

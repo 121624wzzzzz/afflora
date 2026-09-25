@@ -1,0 +1,51 @@
+{
+  "time": "2026-09-14T22:12:37+08:00",
+  "phase": "complete",
+  "reuse_completed": 12,
+  "smoke": {
+    "complete": 8
+  },
+  "completed": 72,
+  "total": 72,
+  "counts": {
+    "complete": 72
+  },
+  "active": [],
+  "warnings": [],
+  "gpus": {
+    "0": {
+      "memory_mib": 7,
+      "utilization": 0
+    },
+    "1": {
+      "memory_mib": 4,
+      "utilization": 0
+    },
+    "2": {
+      "memory_mib": 292,
+      "utilization": 0
+    },
+    "3": {
+      "memory_mib": 4,
+      "utilization": 0
+    },
+    "4": {
+      "memory_mib": 4,
+      "utilization": 0
+    },
+    "5": {
+      "memory_mib": 4,
+      "utilization": 0
+    },
+    "6": {
+      "memory_mib": 292,
+      "utilization": 0
+    },
+    "7": {
+      "memory_mib": 1662,
+      "utilization": 0
+    }
+  },
+  "watch_pid": 659042,
+  "scheduler_alive": false
+}

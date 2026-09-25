@@ -1,0 +1,205 @@
+{
+  "created_at": "2026-09-15T13:57:06+08:00",
+  "jobs": [
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_none_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_output_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_both_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_hidden_budget_hr8_sd42"
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_none_hr8_sd42"
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_output_hr8_sd42"
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_both_hr8_sd42"
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_hidden_budget_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_none_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_output_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_both_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_hidden_budget_hr8_sd43"
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_none_hr8_sd43"
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_output_hr8_sd43"
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_both_hr8_sd43"
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_hidden_budget_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_none_hr8_sd44"
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_output_hr8_sd44"
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_both_hr8_sd44"
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen3_06b_chat_hidden_budget_hr8_sd44"
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_none_hr8_sd44"
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_output_hr8_sd44"
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_both_hr8_sd44"
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/checkpoints/qwen25_15b_chat_hidden_budget_hr8_sd44"
+    }
+  ],
+  "code_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/shared.py": "e98ac51edd40f0d9595619a46e4d60685f24f66c6b4d422f83801f9d27583860",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/evaluate_parts.py": "0b50e8a4b16aa77920c97b59525bb102154691b385b107a7f91fd50ab71874f5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/prepare.py": "d4a66f7a2488cd849fabe502c4114368d44303b37bccdf18b02cdcdcf559bdbe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/run.py": "aeaa61ecd44a1a07a22eabe8c198175f91c26a554d69c000132d8910e8515cd2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/DESIGN.md": "b7c5ecb75f38ef11cdcfe7a79abee42adaf04d61bd640c05760606c306f49ec4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/PREPARATION.json": "5f58b64c9495ee59ba03bb993401f5672a63335ac8e0dfba9b0fe41fe4f99a9e"
+  }
+}

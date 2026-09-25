@@ -1,0 +1,304 @@
+{
+  "at": "2026-09-20T20:20:42.771484+08:00",
+  "disk_free_gib": 102.31465148925781,
+  "jobs": [
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+      "spec": {
+        "name": "diagnostic_mlp_wide_r9_c5_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "started": "2026-09-20T19:29:21.871390+08:00",
+      "pid": 1771876
+    },
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+      "spec": {
+        "name": "diagnostic_mlp_wide_r9_c5_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "started": "2026-09-20T19:29:21.872866+08:00",
+      "pid": 1771877
+    },
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+      "spec": {
+        "name": "diagnostic_mlp_wide_r9_c2_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "started": "2026-09-20T19:29:21.873980+08:00",
+      "pid": 1771878
+    },
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+      "spec": {
+        "name": "diagnostic_mlp_wide_r9_c2_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "started": "2026-09-20T19:29:21.874965+08:00",
+      "pid": 1771879
+    },
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+      "spec": {
+        "name": "diagnostic_mlp_narrow_r10_c5_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "started": "2026-09-20T19:52:01.169577+08:00",
+      "pid": 1890987
+    },
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+      "spec": {
+        "name": "diagnostic_mlp_narrow_r10_c5_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "started": "2026-09-20T19:52:01.170419+08:00",
+      "pid": 1890988
+    },
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+      "spec": {
+        "name": "diagnostic_mlp_narrow_r10_c2_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "started": "2026-09-20T19:52:01.170975+08:00",
+      "pid": 1890989
+    },
+    {
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+      "spec": {
+        "name": "diagnostic_mlp_narrow_r10_c2_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_2b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "started": "2026-09-20T19:54:32.309436+08:00",
+      "pid": 1904801
+    }
+  ],
+  "results": [
+    {
+      "variant": "mlp_wide_r9",
+      "seed": 7600,
+      "lr": 0.0008,
+      "scores": {
+        "hidden": 82.32421875,
+        "hidden_budget": 79.1015625,
+        "hidden_both": 80.2734375,
+        "new_budget": 78.22265625
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 28.137361526489258,
+      "clipped_steps": 11
+    },
+    {
+      "variant": "mlp_wide_r9",
+      "seed": 7601,
+      "lr": 0.0008,
+      "scores": {
+        "hidden": 82.2265625,
+        "hidden_budget": 82.03125,
+        "hidden_both": 31.34765625,
+        "new_budget": 82.03125
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 6.993441581726074,
+      "clipped_steps": 8
+    },
+    {
+      "variant": "mlp_wide_r9",
+      "seed": 7600,
+      "lr": 0.0004,
+      "scores": {
+        "hidden": 81.640625,
+        "hidden_budget": 81.0546875,
+        "hidden_both": 81.34765625,
+        "new_budget": 81.0546875
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 5.215341091156006,
+      "clipped_steps": 8
+    },
+    {
+      "variant": "mlp_wide_r9",
+      "seed": 7601,
+      "lr": 0.0004,
+      "scores": {
+        "hidden": 82.03125,
+        "hidden_budget": 81.73828125,
+        "hidden_both": 81.4453125,
+        "new_budget": 82.03125
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 5.8379926681518555,
+      "clipped_steps": 8
+    },
+    {
+      "variant": "mlp_narrow_r10",
+      "seed": 7600,
+      "lr": 0.0004,
+      "scores": {
+        "hidden": 81.640625,
+        "hidden_budget": 81.0546875,
+        "hidden_both": 81.34765625,
+        "new_budget": 81.15234375
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 5.21238899230957,
+      "clipped_steps": 8
+    },
+    {
+      "variant": "mlp_narrow_r10",
+      "seed": 7600,
+      "lr": 0.0008,
+      "scores": {
+        "hidden": 82.32421875,
+        "hidden_budget": 79.1015625,
+        "hidden_both": 80.2734375,
+        "new_budget": 82.421875
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 5.21238899230957,
+      "clipped_steps": 7
+    },
+    {
+      "variant": "mlp_narrow_r10",
+      "seed": 7601,
+      "lr": 0.0008,
+      "scores": {
+        "hidden": 82.2265625,
+        "hidden_budget": 82.03125,
+        "hidden_both": 31.34765625,
+        "new_budget": 81.73828125
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 6.121769905090332,
+      "clipped_steps": 8
+    },
+    {
+      "variant": "mlp_narrow_r10",
+      "seed": 7601,
+      "lr": 0.0004,
+      "scores": {
+        "hidden": 82.03125,
+        "hidden_budget": 81.73828125,
+        "hidden_both": 81.4453125,
+        "new_budget": 82.421875
+      },
+      "shared_rank8_initialization_order_first_loss_identical": true,
+      "max_grad": 5.842166900634766,
+      "clipped_steps": 7
+    }
+  ]
+}

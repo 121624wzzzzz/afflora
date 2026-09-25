@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-16T21:55:18+08:00",
+  "status": "passed",
+  "checks": [
+    "Both PNG figures visually inspected",
+    "Axis units, task/model/control labels and seed-interval scope are legible",
+    "Intervals and zero reference agree with analysis tables",
+    "Footers visible without clipping; PDF and SVG exports also present"
+  ],
+  "files": {
+    "figures/additive_effects.png": "14dcd1fd04127f688a030f1036c8b813683ab2173d9e31404b4e84b938f9a457",
+    "figures/heldout_additive_effects.png": "c5951989f6ff8690ede2e3594fd40a08d6537b453590a4a6a057b9c95fd60d2a",
+    "ANALYSIS.json": "d702bbe9f2f9883c438cfcb4731bfdde1e08333155d7aa255f21fe06092a500d",
+    "HELDOUT_ANALYSIS.json": "73ec96b29c8e6f3bec9d343e4d5d51279035d91b6f3827df8543e5ba6361c391"
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "updated_at": "2026-09-15T13:38:44+08:00",
+  "complete": true,
+  "trained_endpoints_completed": 24,
+  "expected_trained_endpoints": 24,
+  "records": [
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "reference",
+      "seed": null,
+      "em": 0.29667598633115877,
+      "f1": 0.613913511388823,
+      "avg": 0.45529474885999116,
+      "answer_ce": 0.9534031732143023,
+      "answer_top1": 0.8316259555472284,
+      "hit_token_cap": 0.0009319664492078285,
+      "generated_tokens": 18.311898105001553
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "reference",
+      "seed": null,
+      "em": 0.2957440198819509,
+      "f1": 0.644585932757874,
+      "avg": 0.4701649763199127,
+      "answer_ce": 0.6952340825273287,
+      "answer_top1": 0.8260733810587089,
+      "hit_token_cap": 0.0009319664492078285,
+      "generated_tokens": 20.077974526250387
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 42,
+      "em": 0.6380863622242933,
+      "f1": 0.859008559688333,
+      "avg": 0.7485474609563131,
+      "answer_ce": 0.28342533378724405,
+      "answer_top1": 0.9242735604196791,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.15408511960236,
+      "internal_dev_ce": 0.16921016358834326,
+      "training_seconds": 438.595,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 42,
+      "em": 0.6380863622242933,
+      "f1": 0.8572907308350114,
+      "avg": 0.7476885465296524,
+      "answer_ce": 0.2834471139005505,
+      "answer_top1": 0.9247382362255339,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.29201615408512,
+      "internal_dev_ce": 0.16881793047534333,
+      "training_seconds": 440.5642,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 42,
+      "em": 0.6464740602671637,
+      "f1": 0.8597281444110827,
+      "avg": 0.7531011023391236,
+      "answer_ce": 0.281201525153593,
+      "answer_top1": 0.9249064488457771,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.257844050947499,
+      "internal_dev_ce": 0.1678382859572338,
+      "training_seconds": 442.3409,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "em": 0.6396396396396397,
+      "f1": 0.8589279550431853,
+      "avg": 0.7492837973414119,
+      "answer_ce": 0.28392459548994586,
+      "answer_top1": 0.924442452692187,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.232991612301957,
+      "internal_dev_ce": 0.16901227105743263,
+      "training_seconds": 439.9793,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 42,
+      "em": 0.6548617583100341,
+      "f1": 0.864877230739477,
+      "avg": 0.7598694945247562,
+      "answer_ce": 0.26115268820733556,
+      "answer_top1": 0.9245632918720906,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.614476545511028,
+      "internal_dev_ce": 0.15902204939033454,
+      "training_seconds": 567.2009,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 42,
+      "em": 0.6551724137931034,
+      "f1": 0.8648499064275429,
+      "avg": 0.7600111601103239,
+      "answer_ce": 0.262905991655125,
+      "answer_top1": 0.9245741014037283,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.513513513513514,
+      "internal_dev_ce": 0.15828983283144665,
+      "training_seconds": 570.5562,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 42,
+      "em": 0.6511338925132029,
+      "f1": 0.8671366792550425,
+      "avg": 0.7591352858841225,
+      "answer_ce": 0.26307488638843335,
+      "answer_top1": 0.924273931165321,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.611991301646475,
+      "internal_dev_ce": 0.1573011273370897,
+      "training_seconds": 572.4871,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "em": 0.6542404473438956,
+      "f1": 0.8653537957598492,
+      "avg": 0.7597971215518731,
+      "answer_ce": 0.26265932839739,
+      "answer_top1": 0.9241473237482533,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.524697110904008,
+      "internal_dev_ce": 0.1591529980951772,
+      "training_seconds": 573.1765,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 43,
+      "em": 0.6439888164026095,
+      "f1": 0.8587816049736592,
+      "avg": 0.7513852106881349,
+      "answer_ce": 0.28171058127474025,
+      "answer_top1": 0.9264059317890013,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.06803355079217,
+      "internal_dev_ce": 0.17016244848379328,
+      "training_seconds": 440.1566,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 43,
+      "em": 0.6452314383348866,
+      "f1": 0.8597830564357455,
+      "avg": 0.7525072473853169,
+      "answer_ce": 0.2828329933008101,
+      "answer_top1": 0.9252514740857154,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.117427772600186,
+      "internal_dev_ce": 0.16980533166766507,
+      "training_seconds": 439.8228,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 43,
+      "em": 0.6477166821994408,
+      "f1": 0.8592478801318838,
+      "avg": 0.7534822811656621,
+      "answer_ce": 0.2824356282653296,
+      "answer_top1": 0.9258280392098722,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.140416278347313,
+      "internal_dev_ce": 0.16817092686183335,
+      "training_seconds": 440.1396,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "em": 0.6486486486486487,
+      "f1": 0.8628366816260086,
+      "avg": 0.7557426651373291,
+      "answer_ce": 0.28112696352476885,
+      "answer_top1": 0.9262353378686498,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 11.900279589934762,
+      "internal_dev_ce": 0.16984404528615166,
+      "training_seconds": 440.9788,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 43,
+      "em": 0.6638707673190432,
+      "f1": 0.8711471675627493,
+      "avg": 0.7675089674408964,
+      "answer_ce": 0.2552556489617768,
+      "answer_top1": 0.9266790408976265,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.196644920782852,
+      "internal_dev_ce": 0.1598005879881467,
+      "training_seconds": 568.7059,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 43,
+      "em": 0.6654240447343895,
+      "f1": 0.8718033655537775,
+      "avg": 0.7686137051440838,
+      "answer_ce": 0.2542108236862435,
+      "answer_top1": 0.9278508552665501,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.27461944703324,
+      "internal_dev_ce": 0.15888148586014558,
+      "training_seconds": 570.277,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 43,
+      "em": 0.6604535570052812,
+      "f1": 0.8708702012696018,
+      "avg": 0.7656618791374422,
+      "answer_ce": 0.25636689848515354,
+      "answer_top1": 0.9259096650216402,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.306616961789375,
+      "internal_dev_ce": 0.15864565753810736,
+      "training_seconds": 571.5419,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "em": 0.6607642124883504,
+      "f1": 0.8701930898570356,
+      "avg": 0.7654786511726936,
+      "answer_ce": 0.25296480211840194,
+      "answer_top1": 0.9272479773874158,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.187325256290773,
+      "internal_dev_ce": 0.15962883589333068,
+      "training_seconds": 571.5407,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 44,
+      "em": 0.6449207828518173,
+      "f1": 0.8589448065117539,
+      "avg": 0.7519327946817865,
+      "answer_ce": 0.28474716482103163,
+      "answer_top1": 0.925307764971462,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 11.842808325566946,
+      "internal_dev_ce": 0.16870915971699232,
+      "training_seconds": 438.3369,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 44,
+      "em": 0.6570363466915191,
+      "f1": 0.8642575904773601,
+      "avg": 0.7606469685844404,
+      "answer_ce": 0.2844357597988377,
+      "answer_top1": 0.9262886164651593,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 11.730351040695869,
+      "internal_dev_ce": 0.16836168852143188,
+      "training_seconds": 439.5798,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 44,
+      "em": 0.6539297918608263,
+      "f1": 0.86468162628667,
+      "avg": 0.7593057090737488,
+      "answer_ce": 0.28418907589853265,
+      "answer_top1": 0.9257878662054004,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 11.627834731283007,
+      "internal_dev_ce": 0.1665326646837675,
+      "training_seconds": 439.843,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "em": 0.6502019260639951,
+      "f1": 0.8600641000612561,
+      "avg": 0.7551330130626267,
+      "answer_ce": 0.28425151235906954,
+      "answer_top1": 0.9246784065063282,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 11.808946877912396,
+      "internal_dev_ce": 0.1685495458961426,
+      "training_seconds": 439.536,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 44,
+      "em": 0.6756756756756757,
+      "f1": 0.8733385063257806,
+      "avg": 0.7745070910007287,
+      "answer_ce": 0.25363482941024806,
+      "answer_top1": 0.928565816179242,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.139173656415036,
+      "internal_dev_ce": 0.15826905807067326,
+      "training_seconds": 567.1694,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 44,
+      "em": 0.67381174277726,
+      "f1": 0.8718565036878754,
+      "avg": 0.7728341232325681,
+      "answer_ce": 0.25542420720349146,
+      "answer_top1": 0.9280657243317865,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.159676918297608,
+      "internal_dev_ce": 0.1574617037485956,
+      "training_seconds": 567.1344,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 44,
+      "em": 0.677228953091022,
+      "f1": 0.8719917525810349,
+      "avg": 0.7746103528360286,
+      "answer_ce": 0.2536083935077903,
+      "answer_top1": 0.9283283932169218,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.228642435538987,
+      "internal_dev_ce": 0.1570513002944855,
+      "training_seconds": 571.1683,
+      "training_steps": 570
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "em": 0.6750543647095372,
+      "f1": 0.8730959508588563,
+      "avg": 0.7740751577841969,
+      "answer_ce": 0.2536308528390678,
+      "answer_top1": 0.9283927089323523,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 12.016775396085741,
+      "internal_dev_ce": 0.15855002068782753,
+      "training_seconds": 572.1269,
+      "training_steps": 570
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "mean_effect_pp": 0.4674542084100164,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 0.45536413828099737,
+          "better_questions": 88,
+          "worse_questions": 65
+        },
+        {
+          "seed": 43,
+          "effect_pp": 0.20970704775281704,
+          "better_questions": 101,
+          "worse_questions": 78
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.7372914391962347,
+          "better_questions": 119,
+          "worse_questions": 71
+        }
+      ],
+      "seed_ci95": [
+        -0.18835791163419202,
+        1.1232663284542248
+      ],
+      "seed_ci_bonferroni4": [
+        -0.8830211689399772,
+        1.81792958576001
+      ],
+      "cluster_bootstrap_ci95": [
+        0.18804602343895996,
+        0.7609914954492252
+      ],
+      "cluster_bootstrap_ci_bonferroni4": [
+        0.11749658113584482,
+        0.8401446088247054
+      ],
+      "clusters": 848
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "mean_effect_pp": 0.19098723457224534,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": 0.38173049977110585,
+          "better_questions": 85,
+          "worse_questions": 66
+        },
+        {
+          "seed": 43,
+          "effect_pp": -0.22603839716660926,
+          "better_questions": 79,
+          "worse_questions": 95
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.4172696011122395,
+          "better_questions": 109,
+          "worse_questions": 79
+        }
+      ],
+      "seed_ci95": [
+        -0.7072562837619566,
+        1.0892307529064473
+      ],
+      "seed_ci_bonferroni4": [
+        -1.658712881206028,
+        2.0406873503505185
+      ],
+      "cluster_bootstrap_ci95": [
+        -0.072481135558221,
+        0.4618260209098025
+      ],
+      "cluster_bootstrap_ci_bonferroni4": [
+        -0.1385880194154293,
+        0.5343782087399002
+      ],
+      "clusters": 848
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "mean_effect_pp": -0.08260117029291318,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": -0.07342086406330114,
+          "better_questions": 100,
+          "worse_questions": 98
+        },
+        {
+          "seed": 43,
+          "effect_pp": -0.18470883034546384,
+          "better_questions": 80,
+          "worse_questions": 92
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.010326183530025424,
+          "better_questions": 91,
+          "worse_questions": 91
+        }
+      ],
+      "seed_ci95": [
+        -0.32565183280471505,
+        0.1604494922188887
+      ],
+      "seed_ci_bonferroni4": [
+        -0.5831011231584766,
+        0.4178987825726503
+      ],
+      "cluster_bootstrap_ci95": [
+        -0.3811413855759183,
+        0.215529070734791
+      ],
+      "cluster_bootstrap_ci_bonferroni4": [
+        -0.4646051739825175,
+        0.2857577158158283
+      ],
+      "clusters": 848
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "mean_effect_pp": 0.0018862449610048057,
+      "per_seed": [
+        {
+          "seed": 42,
+          "effect_pp": -0.06618356677499096,
+          "better_questions": 102,
+          "worse_questions": 111
+        },
+        {
+          "seed": 43,
+          "effect_pp": 0.018322796474843212,
+          "better_questions": 98,
+          "worse_questions": 95
+        },
+        {
+          "seed": 44,
+          "effect_pp": 0.05351950518316217,
+          "better_questions": 89,
+          "worse_questions": 85
+        }
+      ],
+      "seed_ci95": [
+        -0.15094025163882707,
+        0.1547127415608367
+      ],
+      "seed_ci_bonferroni4": [
+        -0.3128203826792755,
+        0.3165928726012851
+      ],
+      "cluster_bootstrap_ci95": [
+        -0.30303499698864667,
+        0.3072864110412597
+      ],
+      "cluster_bootstrap_ci_bonferroni4": [
+        -0.3859663077104163,
+        0.388597464541417
+      ],
+      "clusters": 848
+    }
+  ],
+  "auxiliary_contrasts": [
+    {
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "seed": 42,
+      "em": 0.008387698042870456,
+      "f1": 0.0007195847227494899,
+      "answer_ce": -0.0022238086336507893,
+      "answer_top1": 0.0006328884260978183,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.10375893134513824
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "seed": 43,
+      "em": 0.003727865796831314,
+      "f1": 0.0004662751582250264,
+      "answer_ce": 0.0007250469905898761,
+      "answer_top1": -0.0005778925791287992,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.07238272755514134
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "seed": 44,
+      "em": 0.009009009009009009,
+      "f1": 0.005736819774915687,
+      "answer_ce": -0.0005580889224998288,
+      "answer_top1": 0.00048010123393755057,
+      "hit_token_cap": 0.0,
+      "generated_tokens": -0.2149735942839391
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "seed": 42,
+      "em": 0.006834420627524076,
+      "f1": 0.0008001893678980404,
+      "answer_ce": -0.0027230703363524873,
+      "answer_top1": 0.00046399615359017107,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.024852438645542093
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "seed": 43,
+      "em": -0.0009319664492078285,
+      "f1": -0.003588801494124357,
+      "answer_ce": 0.0013086647405605278,
+      "answer_top1": -0.0004072986587778785,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.24013668841255048
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "seed": 44,
+      "em": 0.003727865796831314,
+      "f1": 0.0046175262254134755,
+      "answer_ce": -6.243646053768615e-05,
+      "answer_top1": 0.001109459699071646,
+      "hit_token_cap": 0.0,
+      "generated_tokens": -0.18111214662938802
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "seed": 42,
+      "em": -0.003727865796831314,
+      "f1": 0.002259448515565291,
+      "answer_ce": 0.0019221981810986436,
+      "answer_top1": -0.00028936070676916956,
+      "hit_token_cap": 0.0,
+      "generated_tokens": -0.0024852438645542093
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "seed": 43,
+      "em": -0.003417210313762038,
+      "f1": -0.00027696629314723914,
+      "answer_ce": 0.0011112495233765217,
+      "answer_top1": -0.0007693758759871709,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.10997204100652376
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "seed": 44,
+      "em": 0.0015532774153463808,
+      "f1": -0.0013467537447458718,
+      "answer_ce": -2.6435902458069737e-05,
+      "answer_top1": -0.00023742296232015902,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.08946877912395154
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "seed": 42,
+      "em": -0.0031065548306927616,
+      "f1": 0.0017828834951929438,
+      "answer_ce": 0.0004155579910439813,
+      "answer_top1": 0.0001266074170679438,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.08729419074246661
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "seed": 43,
+      "em": -0.00031065548306927616,
+      "f1": 0.0006771114125661405,
+      "answer_ce": 0.003402096366751138,
+      "answer_top1": -0.0013383123657765552,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.11929170549860205
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "seed": 44,
+      "em": 0.0021745883814849334,
+      "f1": -0.0011041982778216902,
+      "answer_ce": -2.2459331276846425e-05,
+      "answer_top1": -6.431571543049795e-05,
+      "hit_token_cap": 0.0,
+      "generated_tokens": 0.21186703945324634
+    }
+  ],
+  "missing": [],
+  "sources_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_scores.json": "b0b61fd4dbc05044c166b4634a2b9f7a87cb82657b37697290d9e4eeb3d0f6c7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_likelihood.jsonl": "6c34f7bbb71d330bb7262fcd3b8b894d2a08a0e07768c3b2dc5401424ae9430a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_generation.jsonl": "702e8a3b65a25c9b5453a768483ace4927bee4c8d7019893b631fa73ceaf19dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_scores.json": "b1985deb47eec17387c23057087ee1d994b6467f7e1ec661a414ef334c2564ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_likelihood.jsonl": "22a2e63a82aec99cb5839b00ab9c624c182a2fada3f6c150d3c02f5833dff9cb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_generation.jsonl": "6422d725f39577e72a800eba9e71469f97f2a1dfc2f1826054cab6bf4b5c49f9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/manifest.json": "e4813ef447a73b8402f1d17c00a32df2ac922e0de5fb9cdae71100e633bbaa63",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/cmrc_scores.json": "069c274c4d55f8f426f9662addb2c3631b147b483b5100bb5eac17ab69dfc81d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/cmrc_likelihood.jsonl": "bf3f8bbdeb4100441b18f85788d4f8e0f6c2600119931bf58df32487923a5ab3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/cmrc_generation.jsonl": "c476a5145ec365e7fa9a87093f9a113a9b456d4ee2d96b0e9557dcaea74f8863",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/internal_dev_ce.json": "0a83d9aaaeefbc963f68f06c71b64010003605db1813e24d2d8e427f49877311",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/cmrc_scores.json": "da88b2ee5f96c6ae6f26f573c7c0a2d69f23be2c5c6c625874e2c44d53759d44",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/cmrc_likelihood.jsonl": "11483ae37c12405ac8544ac2bb0ce73d9c8582694cd100220d8a1129169ed2dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/cmrc_generation.jsonl": "120f3bed49604483a569cba29084bdb1b23cff638a326b010e25a6ceec9395ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/internal_dev_ce.json": "83095bf7b3ded0acacb76b4ef228bd133062c8e8b5f4e4bbb89d77e13dd84f88",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/cmrc_scores.json": "6c44acb64657543867233e8b4c267b203c9751e8e02cb80b3fa4df497cfcdccd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/cmrc_likelihood.jsonl": "6a9d03e41171ed1a48661ea5ece1548bd9fff317861a060c93f19d670c6e290e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/cmrc_generation.jsonl": "7e7a49fb026ad3ba7abe4ec09a96b10108fb89cfe8f76a8aefdfd9e54bc1a116",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/internal_dev_ce.json": "ffec5be99dd36cee8bd5ff3e6afdce87a0ab77f17b60910901229393fe63f6c8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/cmrc_scores.json": "9cebf56cfb3ada2208be4979ab0c25f24ac95850fdb0d85f7aa1141c03126570",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/cmrc_likelihood.jsonl": "bbd76514474c80f52f7cf2b67bdf5060dcefac7343290372e91e73d11f73d1b4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/cmrc_generation.jsonl": "681c9294534972ad8651d51f5dc04fac4702e2a595d90152408ebabd8c55a9fb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/internal_dev_ce.json": "bba9f0ba2238fc26b5c7a5f110153220b96d3f641363c85816ac7de9a526fe02",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/cmrc_scores.json": "fc273923a14ec8b592f5e0e9d1f14587d05363e724acfda2bab4f11b11385cad",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/cmrc_likelihood.jsonl": "1bc5e82f9794c14e8974e50952f2273b7889ae044cb78aab16b54f26264e2648",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/cmrc_generation.jsonl": "5fcdd16a7a23ba01be69c1dcb4cf823ff8f952b568fc81d5ee362a7b0cb134b7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/internal_dev_ce.json": "1b0efcb2e5fec28dc07f5c80dd4a0fdc18102514c098feb9d4f38c88d1adc8a9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/cmrc_scores.json": "e23f59e5677cb52f79830b6532dc2a723cf4c3ebac27382c8a8e73c67f1f99f4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/cmrc_likelihood.jsonl": "ae6621a13a08c1ce3fcb5653ef7de96af4c45caba138a7c0887c64560622f7a3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/cmrc_generation.jsonl": "414e45b76552b0673bf5042836dffa8639727da31c53cd7c4e85cdf0beea5608",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/internal_dev_ce.json": "a58411f42cd23c5a50e5c96f79e3d48a88899534243fe71442ab552fc395f37a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/cmrc_scores.json": "8e0933b6f445ac67ce1c426efbd51a09eabbb437f644c989e6442265e918f903",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/cmrc_likelihood.jsonl": "ef08fc2c026b96dc431387e7979f3cec99650cea10433295e6f74a8201bd1548",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/cmrc_generation.jsonl": "a049af10faad00f0f8cf008c7042edaadafba809506c7caa348467d3ac2f47c1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/internal_dev_ce.json": "497570a235823aaa04fb7b89d93c33eed31114f861abfa1114c118c2ecd124bb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/cmrc_scores.json": "c50596036a2d23abbdfb6d86d07aa289d2cf082dbae8456e6415688767a4edbb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/cmrc_likelihood.jsonl": "c55b6545cd37bbc85f7860d1b3a1dd5f6cb76cc1550da8fb2898ea88f65cb513",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/cmrc_generation.jsonl": "6ac570431dc13464152486179b471cd86d7f494a3b3f17cb4695e99b599c0129",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/internal_dev_ce.json": "306699dfc82a2dbb98809fc77f5c78e00929c1c1d890db85a5c148d7e6d57c7c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/cmrc_scores.json": "287a997cd25b915e5dcb3bd00e71a54eeab30cbc148e900db8a1cb5663d21aa0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/cmrc_likelihood.jsonl": "d71a13168f000bb57dfa077efe660c451400d3f21c3842e1cf0f5e8171240e20",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/cmrc_generation.jsonl": "a7ba9a1946e1c31f10a47a3026556d6b4d64815befae2387eb8dca21d962090f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/internal_dev_ce.json": "a2b753b4c4b27e9e1a12ff43482e0f9317e01983cf7d7731ec5846ee129c4845",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/cmrc_scores.json": "3e88be9aea4ae9b6cd016b9720c2aaa396380018c6f31d2f73022542ed0c1a29",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/cmrc_likelihood.jsonl": "61d9e448222b8e22f72505b4d2354dd9144d92b0ea44bf0514f988d554ab6942",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/cmrc_generation.jsonl": "c2ffb575d9bc5393a0881b5e15f45f20f3a901056c2ccc725aa85949c6053060",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/internal_dev_ce.json": "acdbdf659d0c7725290be56d28fe00e66d8dafd356a314072b8479516568592b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/cmrc_scores.json": "2d6d15d397b0ae71af0a18ef9e02b62b320c09cb3a4645a475577bb7992946f7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/cmrc_likelihood.jsonl": "0145e8bc5b8bff458a99b2e7fba36184ec85f6d7fbbeaeae207ffc65afe09af4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/cmrc_generation.jsonl": "2cf7f19966abfa72752940590e1bbc106fc6fae98a09ad201ec350a860cde0ac",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/internal_dev_ce.json": "1527b795dd428bcdf4ab43d7bb90621e4ac8a24bb8c8afe9a20402009f4bd888",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/cmrc_scores.json": "4c2e588b6641f880c1cd1dfceb528bdbeb5f5fe5290ab9925d3509d14b93d4fe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/cmrc_likelihood.jsonl": "c583ad62970de0fadf3260a5afe7fe5a00c3a427a813684eef64af5901d5531f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/cmrc_generation.jsonl": "671c6af6cb0dfa2d22c9343f0f3b00459af0012d940bd3c3e9f7b15d4d078f90",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/internal_dev_ce.json": "d0c1adbc8e9e0edd96070ac15ba1d19776a47947f433141c945439c9aa835eba",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/cmrc_scores.json": "bb0fb5ee85a289a32838ee7ee22c2a42fb8c748dbf25ea4985055d3ad41fdff8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/cmrc_likelihood.jsonl": "3a4e785cd6ae3d00d63094e126f06b054e76092c3c59c26adbb27f32860f99df",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/cmrc_generation.jsonl": "1ef01c7d9edcdbe51c09e0e767bf9c5a56f929cc14917741a1b3f64d137deb4c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/internal_dev_ce.json": "1b73fd814527b3b77b14d79197ea775db365c9f70010808a7e2902f792f51349",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/cmrc_scores.json": "d7123f2e669fb3f92b9833be71c4ad7b164e9fa68f44e463153d466f913c1979",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/cmrc_likelihood.jsonl": "b5c1c4436ac6307c3f566fc5818428821a519c74e7b7b1905c1844e9de3b33cf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/cmrc_generation.jsonl": "5f931a15081b6825bf76f9b92dcdbcb7b88b11e780f90289d19bfd383dc2aa7a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/internal_dev_ce.json": "4093fa0be13273b20c8834b241437035f8eb4024b7e01a28692ed73e2b4f3f5a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/cmrc_scores.json": "361839a0f06bf166e56c0d2b3daf03713fed4a0a6d3361b6d84476e3ab1528f3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/cmrc_likelihood.jsonl": "3acf0681447962476ab7353193713e6bf02de1aeff70c09a22c927138f8c889c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/cmrc_generation.jsonl": "7095c33d49e3869f1e81871409bb0b235aa57b30cd79f6ac123ebceb79057ba8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/internal_dev_ce.json": "30e0614ab918002f5b3cbea72ca04917d49800dcf8cb004b661e653db92f6ae3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/cmrc_scores.json": "b6bb21f98dc5579be15ff107ab01ae9b8e39353d8cedd880cc324b2f4f0b77e4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/cmrc_likelihood.jsonl": "a645ab375658ca9b24d88c0d00e6622418d19dcd111ef4ee68f682932d32754e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/cmrc_generation.jsonl": "d0c72a923b682bf4004cc5ab2bc586e8bc74b6262ff6f1cfae252324052f4060",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/internal_dev_ce.json": "5feb2c095ab078648808732524c02234db88bf59f13d8a4a1fc322bfe784d463",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/cmrc_scores.json": "e88e9a254d379fe961adaa4167f3493c59cec36144e3e915ccd15d920283e8b5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/cmrc_likelihood.jsonl": "45079d34fac9f56367ab165af34c6788e166792e80ef2c527b4c6a92b8db50d2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/cmrc_generation.jsonl": "b0ccf565b51d1ab416065fe4b72f03b5d227921d1cf064c185f1c0477dc3d8b6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/internal_dev_ce.json": "438ee8ba18a02be89582cdb6e94bc8f57205198fcaca49092b67debcfba8c32c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/cmrc_scores.json": "0d600875c238ef4d5ca7814591352663418e511dca180e4e18a231afa7660aee",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/cmrc_likelihood.jsonl": "073286a6e462cac0ba82d05d15d05ca72a62243afd152e646a991f21fae30249",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/cmrc_generation.jsonl": "72b885c9fd55098519a330d0850d7594313ff1ecdf4ecc7e8f779e5ebc2a9597",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/internal_dev_ce.json": "ca07d0c832af20cc8eca7bca73d6ebf2d80ae3ff36d178dcb4a45c40b2068f14",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/cmrc_scores.json": "672385950603c0ee39f6d2588807b88536f9812cd488bc783b928f10557cfcab",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/cmrc_likelihood.jsonl": "3b9e48266ca57074cb4b4a3a6b984a952888aec723686860b3bd1f4ffef9df37",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/cmrc_generation.jsonl": "12e65b8e5d0637cc0dd53200b93ceaab60ac1b9006e763ff5d00198693113817",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/internal_dev_ce.json": "81555812801f0175083d509db46679c611021d2f2f1a3ae852d2d0b229951329",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/cmrc_scores.json": "bd7afd14281a3925430a0eb1d4e9d52cabba1e95114a4ee5e734d5093dca27bd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/cmrc_likelihood.jsonl": "6def2501bbddd69303905eeb76b014ac62b49d8247f25e92fa9e4a5f36dd4dd1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/cmrc_generation.jsonl": "fe2b59fbcdf1314081d1db7625ca50770b1ae66f52179104d71acd9072d943db",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/internal_dev_ce.json": "9ad720e3720206b9d0aa14d7189025b716de34b671ac58a5683e85ca79cf814d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/cmrc_scores.json": "5e049f0737b1a5ccdfd821a9abcf4a5481bdc5da0a9a8e103454b6d92e999fde",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/cmrc_likelihood.jsonl": "a5dab184f8a05fcad0cf077266d0b24ff118489bb2d09c720709ed8be8d4ea75",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/cmrc_generation.jsonl": "bea834ef1a1eaa22c2dd137a624533c69dba0708e3729f16162081d21831b07c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/internal_dev_ce.json": "4a5431881a6467655384485fa5b7a63ef0f15760cbbabb59b29a8d2ee1a7dc50",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/cmrc_scores.json": "32d285a139f51675734e86553e0b663b63b4a4308f5fc1534c0738830138c2ff",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/cmrc_likelihood.jsonl": "6089416779871ed980c3471524ed318ed36e2e7b3c0bf7357184d17410c7b3ed",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/cmrc_generation.jsonl": "8fbf025bf1f6c486f9b0e1ae0f19c8c9e97dec53beafa15c82be2f5dc6fb0a29",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/internal_dev_ce.json": "924e59c73cff04c7294dbb2fb9ac1d2efb4d542a4678de3ecc5a0ff65cd73862",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/cmrc_scores.json": "e3dc066c43fab7720224c343ddbed1a0d75413c033b7b4d58304dc443af65c48",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/cmrc_likelihood.jsonl": "1d7448eb1a544e52b95dc29cf5e3ea2fe63d427cb8569fe434f51b0e3cc599bb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/cmrc_generation.jsonl": "dd2d9ca2bfc023fa22c6cebc3bea988fb5be83610b5a6963dc724f87c71192ed",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/internal_dev_ce.json": "3d46e5aefea4b2fdf38f30352f020f8cab4e28a86e86f798daaf2c0b3ee777dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/cmrc_scores.json": "441d4c6a778bd4bac55036c0b2f8086792000cdfd4d3f269a7f14d75fa07b597",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/cmrc_likelihood.jsonl": "33a41e9abfee028d9094d1d293cf28dcbd5ee3ffe6165334ac0bfcbe7b2fab02",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/cmrc_generation.jsonl": "31a8b5c007402ba811203176b45de9ba940b29f1cf841185f6c6dab118705d15",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_task_sft_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/internal_dev_ce.json": "ecf597a337cb6f06a6d71b03879a3f429638802eee91d9355c2788642541bcd5"
+  },
+  "scope": "Task-specific fresh CMRC SFT; public dev was previously evaluated for transfer. Seed and document-cluster intervals quantify different uncertainty; bootstrap conditional on fitted models. Four primary comparisons."
+}

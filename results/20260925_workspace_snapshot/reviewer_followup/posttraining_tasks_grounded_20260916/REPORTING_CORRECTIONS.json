@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-16T21:53:35+08:00",
+  "scope": "report wording only; all metrics and frozen analysis sources unchanged",
+  "reason": "The report template inherited an all-call-types description from V1; V2 excludes no-call rows.",
+  "old": "ToolACE 主分为完整调用集合正确率，包含无调用情形；不是 BFCL 官方得分。",
+  "new": "ToolACE 主分为完整调用集合正确率；本轮仅含参数值可从请求中直接找到的正调用样本，不含无调用/拒绝调用情形，也不是 BFCL 官方得分。",
+  "files": [
+    {
+      "file": "RESULTS_ZH.md",
+      "before_sha256": "8655a8b3eedef525908b7c12d4663e2d3774c9b4231aeb151dc810123ce8d347",
+      "after_sha256": "7e509ba97ea9096082fa8b9db4469dba5b2cbff4775f4e663dbe18a953aa1283"
+    },
+    {
+      "file": "HELDOUT_RESULTS_ZH.md",
+      "before_sha256": "b0c4fd500ca6740b52e4d092699131fc0c709fd27f8cc29a1a7268557aaa15f9",
+      "after_sha256": "c860a78ba2ead4f2e6389aa3900c71f0e63a6598a687f2c591e4e20f6a91f8a0"
+    }
+  ]
+}

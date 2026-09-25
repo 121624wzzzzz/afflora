@@ -1,0 +1,254 @@
+{
+  "at": "2026-09-24T18:38:27+08:00",
+  "note": "Only complete paired five-seed cells. Holm appears only when the entire prespecified family is complete.",
+  "contrasts": [
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 30,
+      "seeds": [
+        "406100",
+        "406101",
+        "406102",
+        "406103",
+        "406104"
+      ],
+      "differences": [
+        0.15050776512782704,
+        0.4679316513152969,
+        0.8147870701340594,
+        -0.7401517605599253,
+        1.1169209928409884
+      ],
+      "mean": 0.3619991437716493,
+      "ci95": [
+        -0.5259449021187006,
+        1.2499431896619992
+      ],
+      "p_unadjusted": 0.32093068336233277,
+      "positive": 4,
+      "negative": 1,
+      "p_holm": 0.6697491515987041
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 30,
+      "seeds": [
+        "406100",
+        "406101",
+        "406102",
+        "406103",
+        "406104"
+      ],
+      "differences": [
+        1.447876447876439,
+        1.4699658231537853,
+        1.398057456855355,
+        0.3534754424434112,
+        1.4939745246416578
+      ],
+      "mean": 1.2326699389941296,
+      "ci95": [
+        0.620830866782666,
+        1.8445090112055933
+      ],
+      "p_unadjusted": 0.005012550414593332,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.020050201658373328
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "407100",
+        "407101",
+        "407102",
+        "407103",
+        "407104"
+      ],
+      "differences": [
+        -0.09765625,
+        1.66015625,
+        -0.68359375,
+        0.87890625,
+        0.87890625
+      ],
+      "mean": 0.52734375,
+      "ci95": [
+        -0.6152993864127658,
+        1.6699868864127658
+      ],
+      "p_unadjusted": 0.26930518013674587,
+      "positive": 3,
+      "negative": 2,
+      "p_holm": 0.6697491515987041
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "407100",
+        "407101",
+        "407102",
+        "407103",
+        "407104"
+      ],
+      "differences": [
+        0.09765625,
+        0.5859375,
+        -0.9765625,
+        -0.48828125,
+        -0.87890625
+      ],
+      "mean": -0.33203125,
+      "ci95": [
+        -1.1571085294268997,
+        0.4930460294268997
+      ],
+      "p_unadjusted": 0.3264397321511187,
+      "positive": 2,
+      "negative": 3,
+      "p_holm": 0.6528794643022374
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "406100",
+        "406101",
+        "406102",
+        "406103",
+        "406104"
+      ],
+      "differences": [
+        -1.2531106306468018,
+        0.026745653573726713,
+        0.0616577645261458,
+        -0.7232866274157175,
+        -0.004576523337689764
+      ],
+      "mean": -0.3785140726600673,
+      "ci95": [
+        -1.108250060109372,
+        0.35122191478923737
+      ],
+      "p_unadjusted": 0.22324971719956802,
+      "positive": 2,
+      "negative": 3,
+      "p_holm": 0.6697491515987041
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "406100",
+        "406101",
+        "406102",
+        "406103",
+        "406104"
+      ],
+      "differences": [
+        0.04425805210181011,
+        1.0287798254122151,
+        0.6449281512474414,
+        0.370340575587619,
+        0.3724770084629796
+      ],
+      "mean": 0.49215672256241305,
+      "ci95": [
+        0.03548463360344062,
+        0.9488288115213854
+      ],
+      "p_unadjusted": 0.040251278787439976,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.12075383636231993
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 30,
+      "seeds": [
+        "407100",
+        "407101",
+        "407102",
+        "407103",
+        "407104"
+      ],
+      "differences": [
+        0.48828125,
+        1.46484375,
+        1.07421875,
+        2.05078125,
+        0.87890625
+      ],
+      "mean": 1.19140625,
+      "ci95": [
+        0.45184252311729334,
+        1.9309699768827067
+      ],
+      "p_unadjusted": 0.01105138276364478,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.04420553105457912
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 30,
+      "seeds": [
+        "407100",
+        "407101",
+        "407102",
+        "407103",
+        "407104"
+      ],
+      "differences": [
+        0.68359375,
+        0.390625,
+        0.78125,
+        0.68359375,
+        -0.87890625
+      ],
+      "mean": 0.33203125,
+      "ci95": [
+        -0.527948301799102,
+        1.192010801799102
+      ],
+      "p_unadjusted": 0.3441055498286072,
+      "positive": 4,
+      "negative": 1,
+      "p_holm": 0.6528794643022374
+    }
+  ]
+}

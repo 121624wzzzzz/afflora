@@ -1,0 +1,12 @@
+{
+  "at": "2026-09-18T12:36:36.570244+08:00",
+  "status": "complete",
+  "all_planned_jobs_completed": true,
+  "formal_fits": 36,
+  "base_evaluations": 4,
+  "technical_smokes": 8,
+  "formal_reuse": 0,
+  "responses_audited": 56652,
+  "complete_three_seed_conditions": 4,
+  "scope": "finite Llama extension, separate from the sealed prior 14-hour Qwen study"
+}

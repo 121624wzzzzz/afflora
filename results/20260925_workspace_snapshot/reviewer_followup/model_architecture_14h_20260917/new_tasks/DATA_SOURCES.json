@@ -1,0 +1,48 @@
+{
+  "at": "2026-09-17T13:27:40.949003+00:00",
+  "status": "passed",
+  "files": [
+    {
+      "file": "raw/trec/train_5500.label",
+      "url": "https://cogcomp.seas.upenn.edu/Data/QA/QC/train_5500.label",
+      "response_url": "https://cogcomp.seas.upenn.edu/Data/QA/QC/train_5500.label",
+      "bytes": 335858,
+      "sha256": "9e4c8bdcaffb96ed61041bd64b564183d52793a8e91d84fc3a8646885f466ec3"
+    },
+    {
+      "file": "raw/trec/TREC_10.label",
+      "url": "https://cogcomp.seas.upenn.edu/Data/QA/QC/TREC_10.label",
+      "response_url": "https://cogcomp.seas.upenn.edu/Data/QA/QC/TREC_10.label",
+      "bytes": 23354,
+      "sha256": "033f22c028c2bbba9ca682f68ffe204dc1aa6e1cf35dd6207f2d4ca67f0d0e8e"
+    },
+    {
+      "file": "raw/trec/definition.html",
+      "url": "https://cogcomp.seas.upenn.edu/Data/QA/QC/definition.html",
+      "response_url": "https://cogcomp.seas.upenn.edu/Data/QA/QC/definition.html",
+      "bytes": 7552,
+      "sha256": "91f9ae5a4d289a011b9bca622a1b7ea2af3a5accab0a67e873ba41c058de3261"
+    },
+    {
+      "file": "raw/squad/train-v2.0.json",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json",
+      "response_url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json",
+      "bytes": 42123633,
+      "sha256": "68dcfbb971bd3e96d5b46c7177b16c1a4e7d4bdef19fb204502738552dede002"
+    },
+    {
+      "file": "raw/squad/dev-v2.0.json",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json",
+      "response_url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json",
+      "bytes": 4370528,
+      "sha256": "80a5225e94905956a6446d296ca1093975c4d3b3260f1d6c8f68bc2ab77182d8"
+    },
+    {
+      "file": "raw/squad/evaluate-v2.0.py",
+      "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/evaluate-v2.0.py",
+      "response_url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/evaluate-v2.0.py",
+      "bytes": 10547,
+      "sha256": "710840ce2c2c61716334c056777032f24660b83eb9869a451036e6a24d8103c4"
+    }
+  ]
+}

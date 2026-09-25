@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-21T22:16:30+08:00",
+  "status": "passed",
+  "formal_runs": 48,
+  "smokes": 16,
+  "new_responses": 68136,
+  "official_sql_executions": 30661,
+  "results_sha256": "77aaf1ec37e98db23a313ef2cca68d2c115a0f5ed272b558fb4a8c9e6f5a6140"
+}

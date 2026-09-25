@@ -1,0 +1,22 @@
+{
+  "llama32_3b_base": {
+    "base": 0,
+    "hidden": 12156928,
+    "hidden_budget": 12357632,
+    "hidden_both": 12356608,
+    "budget_excess": 1024,
+    "q_expanded": 28,
+    "k_expanded": 7,
+    "tied": true
+  },
+  "llama31_8b_base": {
+    "base": 0,
+    "hidden": 20971520,
+    "hidden_budget": 21237760,
+    "hidden_both": 21237760,
+    "budget_excess": 0,
+    "q_expanded": 30,
+    "k_expanded": 4,
+    "tied": false
+  }
+}

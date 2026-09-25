@@ -1,0 +1,74 @@
+{
+  "marker": "fixed_hidden_alora_rank_sweep_paired_posthoc_v1",
+  "comparison": "rank CE minus r50 CE; positive favors r50",
+  "comparisons": [
+    {
+      "rank": 2,
+      "test_ce": 1.132496472951625,
+      "test_ce_minus_r50": 0.005623700293897471,
+      "paired_item_bootstrap_samples": 10000,
+      "paired_item_bootstrap_ci95": [
+        0.0051014861402717635,
+        0.006151701128725182
+      ]
+    },
+    {
+      "rank": 4,
+      "test_ce": 1.1321369362548752,
+      "test_ce_minus_r50": 0.005264163597147764,
+      "paired_item_bootstrap_samples": 10000,
+      "paired_item_bootstrap_ci95": [
+        0.004749737259952756,
+        0.005793174082758566
+      ]
+    },
+    {
+      "rank": 8,
+      "test_ce": 1.131511148475033,
+      "test_ce_minus_r50": 0.00463837581730564,
+      "paired_item_bootstrap_samples": 10000,
+      "paired_item_bootstrap_ci95": [
+        0.004109602687607908,
+        0.005167034214537483
+      ]
+    },
+    {
+      "rank": 16,
+      "test_ce": 1.1302324673765378,
+      "test_ce_minus_r50": 0.0033596947188103687,
+      "paired_item_bootstrap_samples": 10000,
+      "paired_item_bootstrap_ci95": [
+        0.0028254325983127766,
+        0.0038835105888993474
+      ]
+    },
+    {
+      "rank": 32,
+      "test_ce": 1.1284881063602952,
+      "test_ce_minus_r50": 0.0016153337025677228,
+      "paired_item_bootstrap_samples": 10000,
+      "paired_item_bootstrap_ci95": [
+        0.0010667695685754755,
+        0.002156708684720257
+      ]
+    },
+    {
+      "rank": 50,
+      "test_ce": 1.1268727726577275,
+      "test_ce_minus_r50": 0.0,
+      "paired_item_bootstrap_samples": 10000,
+      "paired_item_bootstrap_ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "r2_to_r50_ce_reduction": {
+    "train1000": 0.012674486538407859,
+    "dev": 0.00588889226422018,
+    "test": 0.005623700293897471,
+    "dev_fraction_of_train1000_gain": 0.4646257066410463,
+    "test_fraction_of_train1000_gain": 0.4437024156249495
+  },
+  "diagnosis": "Train1000, dev, and test CE improve monotonically through r50. The growing train-to-held-out gap shows a partial overfitting component, but no held-out reversal or lower-rank sweet spot appears within ranks 2..50."
+}

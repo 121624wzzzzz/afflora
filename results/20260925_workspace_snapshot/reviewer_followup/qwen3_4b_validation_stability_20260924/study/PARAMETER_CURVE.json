@@ -1,0 +1,50 @@
+{
+  "at": "2026-09-24T23:15:21+08:00",
+  "rows": [
+    {
+      "method": "affine",
+      "rank": 16,
+      "boundary_parameters": 84480,
+      "total_parameters": 16599552,
+      "selected_boundary_lr_ratio": 0.015625,
+      "validation_mean": 83.72395833333333,
+      "test_n": 5,
+      "test_mean": 82.05078125
+    },
+    {
+      "method": "affine",
+      "rank": 30,
+      "boundary_parameters": 156160,
+      "total_parameters": 16671232,
+      "selected_boundary_lr_ratio": 1.0,
+      "validation_mean": 83.88671875,
+      "test_n": 5,
+      "test_mean": 82.36328125
+    },
+    {
+      "method": "vocab",
+      "rank": 1,
+      "boundary_parameters": 154496,
+      "total_parameters": 16669568,
+      "selected_boundary_lr_ratio": 0.0625,
+      "validation_mean": 83.85416666666667,
+      "test_n": 5,
+      "test_mean": 82.4609375
+    },
+    {
+      "method": "vocab",
+      "rank": 2,
+      "boundary_parameters": 308992,
+      "total_parameters": 16824064,
+      "selected_boundary_lr_ratio": 0.015625,
+      "validation_mean": 83.85416666666667,
+      "test_n": 5,
+      "test_mean": 82.65625
+    }
+  ],
+  "validation_selected_rank_by_family": {
+    "affine": 30,
+    "vocab": 1
+  },
+  "note": "All ranks reported; no test-based rank selection. Partial five-seed test means withheld."
+}

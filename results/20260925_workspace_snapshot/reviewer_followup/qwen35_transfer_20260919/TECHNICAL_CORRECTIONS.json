@@ -1,0 +1,11 @@
+{
+  "status": "corrected_before_freeze",
+  "reason": "The raw checkpoint has 48 FP32 A_log/gated norm tensors; generic BF16 loading rounds them. Restore these exact original tensors and retain them in FP32 in every arm and every training/evaluation transition.",
+  "failed_probe": "provenance/technical_dtype_probe_v1",
+  "formal_fits_at_correction": 0,
+  "benchmark_outputs_at_correction": 0,
+  "metadata_serialization_correction": {
+    "reason": "Transformers loading_info contains sets; convert to sorted lists before writing audit JSON. Numerical checks completed before serialization failed. No training or metric change.",
+    "failed_probe": "provenance/technical_metadata_probe_v2"
+  }
+}

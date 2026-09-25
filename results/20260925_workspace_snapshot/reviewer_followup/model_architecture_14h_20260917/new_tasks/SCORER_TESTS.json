@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-17T21:33:36+08:00",
+  "status": "passed",
+  "squad_gold_roundtrips": 4575,
+  "official_perturbation_comparisons": 16640,
+  "invalid_not_abstention": true,
+  "trec_all_labels_and_error_check": true
+}

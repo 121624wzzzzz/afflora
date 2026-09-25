@@ -1,0 +1,336 @@
+{
+  "at": "2026-09-17T11:59:57+08:00",
+  "scope": "post hoc descriptive budget-minus-ordinary comparison; unadjusted intervals are not new confirmatory tests",
+  "groups": [
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "seeds": [
+        {
+          "seed": 7100,
+          "hidden": {
+            "test_primary": 44.6,
+            "mean_last8_training_loss": 0.33956299361307174,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 48.6,
+            "mean_last8_training_loss": 0.33713320089736953,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 4.0
+        },
+        {
+          "seed": 7101,
+          "hidden": {
+            "test_primary": 47.5,
+            "mean_last8_training_loss": 0.33907055511372164,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 47.8,
+            "mean_last8_training_loss": 0.3313064221874811,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 0.29999999999999716
+        },
+        {
+          "seed": 7102,
+          "hidden": {
+            "test_primary": 46.6,
+            "mean_last8_training_loss": 0.3377978348871693,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 46.3,
+            "mean_last8_training_loss": 0.3450321363052353,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": -0.30000000000000426
+        },
+        {
+          "seed": 7103,
+          "hidden": {
+            "test_primary": 45.3,
+            "mean_last8_training_loss": 0.29857548512518406,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 45.4,
+            "mean_last8_training_loss": 0.30360499199014157,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 0.10000000000000142
+        },
+        {
+          "seed": 7104,
+          "hidden": {
+            "test_primary": 44.2,
+            "mean_last8_training_loss": 0.35610078589525074,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 45.3,
+            "mean_last8_training_loss": 0.3594051662366837,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 1.0999999999999943
+        }
+      ],
+      "mean_delta": 1.0399999999999978,
+      "descriptive_uncorrected95_seed_interval": [
+        -1.1099081362554148,
+        3.1899081362554105
+      ]
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "seeds": [
+        {
+          "seed": 7100,
+          "hidden": {
+            "test_primary": 54.8,
+            "mean_last8_training_loss": 0.2565437740413472,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 54.2,
+            "mean_last8_training_loss": 0.25608386006206274,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": -0.5999999999999943
+        },
+        {
+          "seed": 7101,
+          "hidden": {
+            "test_primary": 52.8,
+            "mean_last8_training_loss": 0.32147891545901075,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 53.0,
+            "mean_last8_training_loss": 0.3211073249694891,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": 0.20000000000000284
+        },
+        {
+          "seed": 7102,
+          "hidden": {
+            "test_primary": 53.4,
+            "mean_last8_training_loss": 0.2810191260650754,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 53.8,
+            "mean_last8_training_loss": 0.2822307048481889,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": 0.3999999999999986
+        },
+        {
+          "seed": 7103,
+          "hidden": {
+            "test_primary": 53.0,
+            "mean_last8_training_loss": 0.25258848900557496,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 52.9,
+            "mean_last8_training_loss": 0.25299467213335447,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": -0.10000000000000142
+        },
+        {
+          "seed": 7104,
+          "hidden": {
+            "test_primary": 56.0,
+            "mean_last8_training_loss": 0.31641762505751103,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 55.0,
+            "mean_last8_training_loss": 0.3190131336450577,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": -1.0
+        }
+      ],
+      "mean_delta": -0.21999999999999886,
+      "descriptive_uncorrected95_seed_interval": [
+        -0.935439856894021,
+        0.49543985689402326
+      ]
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "seeds": [
+        {
+          "seed": 7100,
+          "hidden": {
+            "test_primary": 72.55859375,
+            "mean_last8_training_loss": 0.10163320158608258,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 72.4609375,
+            "mean_last8_training_loss": 0.10211535228881985,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": -0.09765625
+        },
+        {
+          "seed": 7101,
+          "hidden": {
+            "test_primary": 70.01953125,
+            "mean_last8_training_loss": 0.09729325500666164,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 70.3125,
+            "mean_last8_training_loss": 0.09672587746172212,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 0.29296875
+        },
+        {
+          "seed": 7102,
+          "hidden": {
+            "test_primary": 70.3125,
+            "mean_last8_training_loss": 0.09471925615798682,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 70.8984375,
+            "mean_last8_training_loss": 0.09470606333343312,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 0.5859375
+        },
+        {
+          "seed": 7103,
+          "hidden": {
+            "test_primary": 68.84765625,
+            "mean_last8_training_loss": 0.100517285609385,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 68.84765625,
+            "mean_last8_training_loss": 0.10159611565177329,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 0.0
+        },
+        {
+          "seed": 7104,
+          "hidden": {
+            "test_primary": 69.3359375,
+            "mean_last8_training_loss": 0.10687829734524712,
+            "trainable_parameters": 5046272
+          },
+          "hidden_budget": {
+            "test_primary": 69.43359375,
+            "mean_last8_training_loss": 0.10613022471079603,
+            "trainable_parameters": 5112832
+          },
+          "budget_minus_hidden": 0.09765625
+        }
+      ],
+      "mean_delta": 0.17578125,
+      "descriptive_uncorrected95_seed_interval": [
+        -0.16069118800306087,
+        0.5122536880030608
+      ]
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "seeds": [
+        {
+          "seed": 7100,
+          "hidden": {
+            "test_primary": 70.80078125,
+            "mean_last8_training_loss": 0.09541098211775534,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 70.8984375,
+            "mean_last8_training_loss": 0.09490076458314434,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": 0.09765625
+        },
+        {
+          "seed": 7101,
+          "hidden": {
+            "test_primary": 69.82421875,
+            "mean_last8_training_loss": 0.08405898601631634,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 70.1171875,
+            "mean_last8_training_loss": 0.08429404644994065,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": 0.29296875
+        },
+        {
+          "seed": 7102,
+          "hidden": {
+            "test_primary": 70.80078125,
+            "mean_last8_training_loss": 0.08620008360594511,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 71.38671875,
+            "mean_last8_training_loss": 0.08680765971075743,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": 0.5859375
+        },
+        {
+          "seed": 7103,
+          "hidden": {
+            "test_primary": 70.703125,
+            "mean_last8_training_loss": 0.09388653896166943,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 70.8984375,
+            "mean_last8_training_loss": 0.09380194352706894,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": 0.1953125
+        },
+        {
+          "seed": 7104,
+          "hidden": {
+            "test_primary": 69.140625,
+            "mean_last8_training_loss": 0.10133268107892945,
+            "trainable_parameters": 9232384
+          },
+          "hidden_budget": {
+            "test_primary": 68.9453125,
+            "mean_last8_training_loss": 0.10125361703103408,
+            "trainable_parameters": 9332224
+          },
+          "budget_minus_hidden": -0.1953125
+        }
+      ],
+      "mean_delta": 0.1953125,
+      "descriptive_uncorrected95_seed_interval": [
+        -0.15820717983825405,
+        0.548832179838254
+      ]
+    }
+  ],
+  "runtime_lora_configuration": {
+    "use_rslora": false,
+    "use_dora": false,
+    "ordinary_scaling": 2.0,
+    "budget_scaling_in_frozen_code": 2.0
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "at": "2026-09-25T00:47:06+08:00",
+  "criterion": "mean dev primary over three fixed seeds; ties favor ratio closest to 1",
+  "candidates": [
+    0.015625,
+    0.0625,
+    0.25,
+    1.0
+  ],
+  "selection": [
+    {
+      "architecture": [
+        "qwen3_06b_base",
+        "clinc150",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.015625": [
+          82.66666666666667,
+          82.0,
+          81.4
+        ],
+        "0.0625": [
+          82.93333333333334,
+          82.33333333333333,
+          81.6
+        ],
+        "0.25": [
+          83.0,
+          82.13333333333334,
+          82.2
+        ],
+        "1.0": [
+          83.13333333333334,
+          83.33333333333333,
+          82.93333333333334
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_06b_base",
+        "clinc150",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.015625": [
+          82.46666666666667,
+          82.26666666666667,
+          80.93333333333334
+        ],
+        "0.0625": [
+          82.46666666666667,
+          82.46666666666667,
+          80.6
+        ],
+        "0.25": [
+          82.2,
+          82.93333333333334,
+          80.26666666666667
+        ],
+        "1.0": [
+          82.53333333333333,
+          82.4,
+          81.33333333333333
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "llama32_1b_base",
+        "clinc150",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.015625": [
+          83.93333333333334,
+          84.53333333333333,
+          84.13333333333334
+        ],
+        "0.0625": [
+          83.53333333333333,
+          84.2,
+          84.06666666666666
+        ],
+        "0.25": [
+          83.46666666666667,
+          85.2,
+          85.33333333333333
+        ],
+        "1.0": [
+          84.6,
+          85.8,
+          85.26666666666667
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "llama32_1b_base",
+        "clinc150",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 0.015625,
+      "dev_scores": {
+        "0.015625": [
+          83.53333333333333,
+          84.93333333333334,
+          84.6
+        ],
+        "0.0625": [
+          83.13333333333334,
+          84.86666666666666,
+          83.86666666666666
+        ],
+        "0.25": [
+          82.6,
+          84.06666666666666,
+          83.46666666666667
+        ],
+        "1.0": [
+          81.6,
+          81.46666666666667,
+          79.93333333333334
+        ]
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_affine_shared_r16_b1_lr1_s907100_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_affine_shared_r16_b1_lr1_s907101_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_affine_shared_r16_b1_lr1_s907102_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_affine_shared_r16_b1_lr1_s907103_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_affine_shared_r16_b1_lr1_s907104_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5080064,
+      "expected_boundary_parameters": 33792,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_vocab_shared_r1_b0_lr1_s907100_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_vocab_shared_r1_b0_lr1_s907101_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_vocab_shared_r1_b0_lr1_s907102_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_vocab_shared_r1_b0_lr1_s907103_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_qwen3_06b_base_vocab_shared_r1_b0_lr1_s907104_selected1",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5199232,
+      "expected_boundary_parameters": 152960,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_affine_shared_r16_b1_lr1_s907100_selected1",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5703680,
+      "expected_boundary_parameters": 67584,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_affine_shared_r16_b1_lr1_s907101_selected1",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5703680,
+      "expected_boundary_parameters": 67584,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_affine_shared_r16_b1_lr1_s907102_selected1",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5703680,
+      "expected_boundary_parameters": 67584,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_affine_shared_r16_b1_lr1_s907103_selected1",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5703680,
+      "expected_boundary_parameters": 67584,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_affine_shared_r16_b1_lr1_s907104_selected1",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 5703680,
+      "expected_boundary_parameters": 67584,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_vocab_shared_r1_b0_lr1_s907100_selected0.015625",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 5766400,
+      "expected_boundary_parameters": 130304,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_vocab_shared_r1_b0_lr1_s907101_selected0.015625",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 5766400,
+      "expected_boundary_parameters": 130304,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_vocab_shared_r1_b0_lr1_s907102_selected0.015625",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 5766400,
+      "expected_boundary_parameters": 130304,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_vocab_shared_r1_b0_lr1_s907103_selected0.015625",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 5766400,
+      "expected_boundary_parameters": 130304,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_clinc150_llama32_1b_base_vocab_shared_r1_b0_lr1_s907104_selected0.015625",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "arm": "hidden",
+      "seed": 907104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 5766400,
+      "expected_boundary_parameters": 130304,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "marker": "fixed_hidden_boundary_fp32_qwen25_ce_summary_v1",
+  "experiment": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25",
+  "completion_manifest": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/completion_manifest.json",
+  "completion_manifest_sha256": "6108d92bfb05f38f794df3af3511b89a24620fe6b1c828e7fb49115fcc1e5ef2",
+  "estimand": {
+    "metric": "token-weighted assistant-only cross-entropy",
+    "primary_split": "corrected test",
+    "difference": "A-LoRA CE minus Vocab-LoRA CE",
+    "better_direction": "negative",
+    "hidden_baseline_improvement": "hidden-only zero-boundary CE minus method CE; positive is better",
+    "primary_inferential_unit": "independently trained frozen-hidden/boundary seed pair",
+    "paired_item_bootstrap_unit": "evaluation item conditional on one trained seed; it is not a substitute for seed-level uncertainty"
+  },
+  "protocol": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "fixed_endpoints": {
+      "alora": {
+        "rank": 50,
+        "alpha": 800,
+        "scale": 16
+      },
+      "vocab_lora": {
+        "rank": 1,
+        "alpha": 32,
+        "scale": 32
+      }
+    },
+    "endpoint_selection": "none_in_this_experiment",
+    "bootstrap_samples_per_seed_split": 10000
+  },
+  "validation": {
+    "status": "passed",
+    "completion_manifest_validated": true,
+    "main_fixed_boundary_reports_validated": 12,
+    "formal_hidden_baseline_reports_validated": 6,
+    "examples_per_report": 1000,
+    "record_id_order_assertion": "passed",
+    "supervised_token_pairing_assertion": "passed",
+    "report_arithmetic_recomputed": true,
+    "paired_item_bootstraps_recomputed": 6
+  },
+  "primary_test": {
+    "role": "primary fixed-endpoint result",
+    "per_seed": [
+      {
+        "seed": 42,
+        "hidden_zero_boundary_ce": 1.1329840930564978,
+        "alora_ce": 1.1268727726577275,
+        "vocab_ce": 1.0266563457713578,
+        "delta_ce_alora_minus_vocab": 0.10021642688636967,
+        "direction": "vocab_better",
+        "alora_improvement_vs_hidden": 0.006111320398770381,
+        "vocab_improvement_vs_hidden": 0.10632774728514005,
+        "alora_relative_ce_reduction_vs_hidden_percent": 0.5394003707751642,
+        "vocab_relative_ce_reduction_vs_hidden_percent": 9.384751995793277,
+        "paired_item_bootstrap": {
+          "bootstrap_samples": 10000,
+          "rng_seed": 110042,
+          "delta_ce_alora_minus_vocab": 0.10021642688636975,
+          "ci95": [
+            0.09703473552817318,
+            0.10346305041145569
+          ],
+          "probability_alora_better": 0.0,
+          "inferential_unit": "paired evaluation item conditional on this trained seed"
+        }
+      },
+      {
+        "seed": 43,
+        "hidden_zero_boundary_ce": 1.1324974203176192,
+        "alora_ce": 1.1261326201541324,
+        "vocab_ce": 1.026239501857386,
+        "delta_ce_alora_minus_vocab": 0.09989311829674641,
+        "direction": "vocab_better",
+        "alora_improvement_vs_hidden": 0.006364800163486839,
+        "vocab_improvement_vs_hidden": 0.10625791846023325,
+        "alora_relative_ce_reduction_vs_hidden_percent": 0.5620145396624191,
+        "vocab_relative_ce_reduction_vs_hidden_percent": 9.382619028874455,
+        "paired_item_bootstrap": {
+          "bootstrap_samples": 10000,
+          "rng_seed": 110043,
+          "delta_ce_alora_minus_vocab": 0.09989311829674627,
+          "ci95": [
+            0.09671745688012369,
+            0.10304465257955686
+          ],
+          "probability_alora_better": 0.0,
+          "inferential_unit": "paired evaluation item conditional on this trained seed"
+        }
+      },
+      {
+        "seed": 44,
+        "hidden_zero_boundary_ce": 1.132312386013969,
+        "alora_ce": 1.1262734651441069,
+        "vocab_ce": 1.0259835481888164,
+        "delta_ce_alora_minus_vocab": 0.10028991695529044,
+        "direction": "vocab_better",
+        "alora_improvement_vs_hidden": 0.00603892086986213,
+        "vocab_improvement_vs_hidden": 0.10632883782515257,
+        "alora_relative_ce_reduction_vs_hidden_percent": 0.5333263986558238,
+        "vocab_relative_ce_reduction_vs_hidden_percent": 9.390415501808423,
+        "paired_item_bootstrap": {
+          "bootstrap_samples": 10000,
+          "rng_seed": 110044,
+          "delta_ce_alora_minus_vocab": 0.10028991695529044,
+          "ci95": [
+            0.09718470921912721,
+            0.10355810468359758
+          ],
+          "probability_alora_better": 0.0,
+          "inferential_unit": "paired evaluation item conditional on this trained seed"
+        }
+      }
+    ],
+    "seed_level_summary": {
+      "n_seeds": 3,
+      "hidden_zero_boundary_ce_mean": 1.1325979664626953,
+      "hidden_zero_boundary_ce_sample_sd": 0.00034695782627425925,
+      "alora_ce_mean": 1.1264262859853222,
+      "alora_ce_sample_sd": 0.0003930293745724806,
+      "vocab_ce_mean": 1.0262931319391868,
+      "vocab_ce_sample_sd": 0.0003395898791540131,
+      "delta_ce_alora_minus_vocab_mean": 0.1001331540461355,
+      "delta_ce_alora_minus_vocab_sample_sd": 0.00021109966436752968,
+      "alora_improvement_vs_hidden_mean": 0.006171680477373116,
+      "alora_improvement_vs_hidden_sample_sd": 0.00017111935255847345,
+      "vocab_improvement_vs_hidden_mean": 0.10630483452350863,
+      "vocab_improvement_vs_hidden_sample_sd": 4.0634161297163794e-05,
+      "alora_relative_ce_reduction_vs_hidden_percent_mean": 0.5449137696978024,
+      "alora_relative_ce_reduction_vs_hidden_percent_sample_sd": 0.015117887893607518,
+      "vocab_relative_ce_reduction_vs_hidden_percent_mean": 9.385928842158718,
+      "vocab_relative_ce_reduction_vs_hidden_percent_sample_sd": 0.004029264582825866,
+      "paired_t_df": 2,
+      "paired_t_critical_975": 4.302652729696142,
+      "paired_t_ci95": [
+        0.09960875340894879,
+        0.10065755468332221
+      ],
+      "paired_t_ci95_contains_zero": false,
+      "directions": {
+        "alora_better": 0,
+        "vocab_better": 3,
+        "ties": 0
+      },
+      "inferential_unit": "independently trained hidden/boundary seed pair"
+    }
+  },
+  "development_descriptive": {
+    "role": "descriptive fixed-endpoint development result",
+    "per_seed": [
+      {
+        "seed": 42,
+        "hidden_zero_boundary_ce": 1.1133553501789342,
+        "alora_ce": 1.1070844737538468,
+        "vocab_ce": 1.007713106101669,
+        "delta_ce_alora_minus_vocab": 0.09937136765217769,
+        "direction": "vocab_better",
+        "alora_improvement_vs_hidden": 0.0062708764250873905,
+        "vocab_improvement_vs_hidden": 0.10564224407726508,
+        "alora_relative_ce_reduction_vs_hidden_percent": 0.5632412350719436,
+        "vocab_relative_ce_reduction_vs_hidden_percent": 9.488636674740608,
+        "paired_item_bootstrap": {
+          "bootstrap_samples": 10000,
+          "rng_seed": 100042,
+          "delta_ce_alora_minus_vocab": 0.0993713676521779,
+          "ci95": [
+            0.09622838688340278,
+            0.10265971198486983
+          ],
+          "probability_alora_better": 0.0,
+          "inferential_unit": "paired evaluation item conditional on this trained seed"
+        }
+      },
+      {
+        "seed": 43,
+        "hidden_zero_boundary_ce": 1.1131477168256774,
+        "alora_ce": 1.1071646614589135,
+        "vocab_ce": 1.0073468326985227,
+        "delta_ce_alora_minus_vocab": 0.0998178287603908,
+        "direction": "vocab_better",
+        "alora_improvement_vs_hidden": 0.005983055366763912,
+        "vocab_improvement_vs_hidden": 0.10580088412715472,
+        "alora_relative_ce_reduction_vs_hidden_percent": 0.5374897937019152,
+        "vocab_relative_ce_reduction_vs_hidden_percent": 9.50465805462578,
+        "paired_item_bootstrap": {
+          "bootstrap_samples": 10000,
+          "rng_seed": 100043,
+          "delta_ce_alora_minus_vocab": 0.09981782876039075,
+          "ci95": [
+            0.09663776607356495,
+            0.10308429350205014
+          ],
+          "probability_alora_better": 0.0,
+          "inferential_unit": "paired evaluation item conditional on this trained seed"
+        }
+      },
+      {
+        "seed": 44,
+        "hidden_zero_boundary_ce": 1.1129891570479795,
+        "alora_ce": 1.1068915737573977,
+        "vocab_ce": 1.0073885839264818,
+        "delta_ce_alora_minus_vocab": 0.09950298983091588,
+        "direction": "vocab_better",
+        "alora_improvement_vs_hidden": 0.006097583290581854,
+        "vocab_improvement_vs_hidden": 0.10560057312149773,
+        "alora_relative_ce_reduction_vs_hidden_percent": 0.5478564864688071,
+        "vocab_relative_ce_reduction_vs_hidden_percent": 9.48801454648362,
+        "paired_item_bootstrap": {
+          "bootstrap_samples": 10000,
+          "rng_seed": 100044,
+          "delta_ce_alora_minus_vocab": 0.09950298983091588,
+          "ci95": [
+            0.09631351226064795,
+            0.10279414349740958
+          ],
+          "probability_alora_better": 0.0,
+          "inferential_unit": "paired evaluation item conditional on this trained seed"
+        }
+      }
+    ],
+    "seed_level_summary": {
+      "n_seeds": 3,
+      "hidden_zero_boundary_ce_mean": 1.113164074684197,
+      "hidden_zero_boundary_ce_sample_sd": 0.00018364377730025077,
+      "alora_ce_mean": 1.1070469029900527,
+      "alora_ce_sample_sd": 0.00014036700074751023,
+      "vocab_ce_mean": 1.0074828409088912,
+      "vocab_ce_sample_sd": 0.0002005052007126263,
+      "delta_ce_alora_minus_vocab_mean": 0.09956406208116146,
+      "delta_ce_alora_minus_vocab_sample_sd": 0.00022941064731015533,
+      "alora_improvement_vs_hidden_mean": 0.0061171716941443854,
+      "alora_improvement_vs_hidden_sample_sd": 0.0001449069341653748,
+      "vocab_improvement_vs_hidden_mean": 0.10568123377530585,
+      "vocab_improvement_vs_hidden_sample_sd": 0.00010569423901902317,
+      "alora_relative_ce_reduction_vs_hidden_percent_mean": 0.5495291717475553,
+      "alora_relative_ce_reduction_vs_hidden_percent_sample_sd": 0.012956951423456365,
+      "vocab_relative_ce_reduction_vs_hidden_percent_mean": 9.49376975861667,
+      "vocab_relative_ce_reduction_vs_hidden_percent_sample_sd": 0.009434670284569974,
+      "paired_t_df": 2,
+      "paired_t_critical_975": 4.302652729696142,
+      "paired_t_ci95": [
+        0.09899417444070831,
+        0.10013394972161462
+      ],
+      "paired_t_ci95_contains_zero": false,
+      "directions": {
+        "alora_better": 0,
+        "vocab_better": 3,
+        "ties": 0
+      },
+      "inferential_unit": "independently trained hidden/boundary seed pair"
+    }
+  },
+  "sensitivity_common_scale_seed42": {
+    "status": "complete",
+    "role": "seed-42 common-scale diagnostic only; scales were not a three-seed randomized factor",
+    "comparisons": {
+      "dev": [
+        {
+          "seed": 42,
+          "hidden_zero_boundary_ce": 1.1133553501789342,
+          "alora_ce": 1.1070844737538468,
+          "vocab_ce": 1.0073838750016406,
+          "delta_ce_alora_minus_vocab": 0.09970059875220616,
+          "direction": "vocab_better",
+          "alora_improvement_vs_hidden": 0.0062708764250873905,
+          "vocab_improvement_vs_hidden": 0.10597147517729355,
+          "alora_relative_ce_reduction_vs_hidden_percent": 0.5632412350719436,
+          "vocab_relative_ce_reduction_vs_hidden_percent": 9.518207745645828,
+          "paired_item_bootstrap": {
+            "bootstrap_samples": 10000,
+            "rng_seed": 300016,
+            "delta_ce_alora_minus_vocab": 0.09970059875220619,
+            "ci95": [
+              0.09649346294818675,
+              0.10298756139292331
+            ],
+            "probability_alora_better": 0.0,
+            "inferential_unit": "paired evaluation item conditional on this trained seed"
+          },
+          "common_scale": 16
+        },
+        {
+          "seed": 42,
+          "hidden_zero_boundary_ce": 1.1133553501789342,
+          "alora_ce": 1.1077659179876256,
+          "vocab_ce": 1.007713106101669,
+          "delta_ce_alora_minus_vocab": 0.1000528118859565,
+          "direction": "vocab_better",
+          "alora_improvement_vs_hidden": 0.005589432191308585,
+          "vocab_improvement_vs_hidden": 0.10564224407726508,
+          "alora_relative_ce_reduction_vs_hidden_percent": 0.5020348795566728,
+          "vocab_relative_ce_reduction_vs_hidden_percent": 9.488636674740608,
+          "paired_item_bootstrap": {
+            "bootstrap_samples": 10000,
+            "rng_seed": 300032,
+            "delta_ce_alora_minus_vocab": 0.10005281188595666,
+            "ci95": [
+              0.09681359434345362,
+              0.10331903054211446
+            ],
+            "probability_alora_better": 0.0,
+            "inferential_unit": "paired evaluation item conditional on this trained seed"
+          },
+          "common_scale": 32
+        }
+      ],
+      "test": [
+        {
+          "seed": 42,
+          "hidden_zero_boundary_ce": 1.1329840930564978,
+          "alora_ce": 1.1268727726577275,
+          "vocab_ce": 1.026400554163264,
+          "delta_ce_alora_minus_vocab": 0.10047221849446353,
+          "direction": "vocab_better",
+          "alora_improvement_vs_hidden": 0.006111320398770381,
+          "vocab_improvement_vs_hidden": 0.10658353889323391,
+          "alora_relative_ce_reduction_vs_hidden_percent": 0.5394003707751642,
+          "vocab_relative_ce_reduction_vs_hidden_percent": 9.407328800680608,
+          "paired_item_bootstrap": {
+            "bootstrap_samples": 10000,
+            "rng_seed": 301016,
+            "delta_ce_alora_minus_vocab": 0.1004722184944635,
+            "ci95": [
+              0.09736703397319392,
+              0.10371990939357972
+            ],
+            "probability_alora_better": 0.0,
+            "inferential_unit": "paired evaluation item conditional on this trained seed"
+          },
+          "common_scale": 16
+        },
+        {
+          "seed": 42,
+          "hidden_zero_boundary_ce": 1.1329840930564978,
+          "alora_ce": 1.1275067749191372,
+          "vocab_ce": 1.0266563457713578,
+          "delta_ce_alora_minus_vocab": 0.10085042914777942,
+          "direction": "vocab_better",
+          "alora_improvement_vs_hidden": 0.005477318137360632,
+          "vocab_improvement_vs_hidden": 0.10632774728514005,
+          "alora_relative_ce_reduction_vs_hidden_percent": 0.4834417509414669,
+          "vocab_relative_ce_reduction_vs_hidden_percent": 9.384751995793277,
+          "paired_item_bootstrap": {
+            "bootstrap_samples": 10000,
+            "rng_seed": 301032,
+            "delta_ce_alora_minus_vocab": 0.10085042914777959,
+            "ci95": [
+              0.09767909433657902,
+              0.10407071150745392
+            ],
+            "probability_alora_better": 0.0,
+            "inferential_unit": "paired evaluation item conditional on this trained seed"
+          },
+          "common_scale": 32
+        }
+      ]
+    },
+    "reports_validated": 4
+  }
+}

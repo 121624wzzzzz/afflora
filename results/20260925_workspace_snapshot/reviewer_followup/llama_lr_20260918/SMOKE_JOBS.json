@@ -1,0 +1,98 @@
+[
+  {
+    "name": "smoke_hidden_c3_s7199",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden",
+    "seed": 7199,
+    "candidate": "c3",
+    "lr": 5e-05,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_hidden_c5_s7199",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden",
+    "seed": 7199,
+    "candidate": "c5",
+    "lr": 0.0008,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_hidden_budget_c5_s7199",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7199,
+    "candidate": "c5",
+    "lr": 0.0008,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_hidden_both_c0_s7199",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7199,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_hidden_both_c3_s7199",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7199,
+    "candidate": "c3",
+    "lr": 0.0001,
+    "boundary_lr_ratio": 0.25,
+    "microbatch": 4,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_hidden_both_c5_s7199",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7199,
+    "candidate": "c5",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 0.25,
+    "microbatch": 4,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  }
+]

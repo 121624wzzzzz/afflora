@@ -1,0 +1,132 @@
+{
+  "hidden_budget": {
+    "first_history_differences": [
+      {
+        "step": 2,
+        "old_loss": 0.6798615828156471,
+        "new_loss": 0.6798615828156471,
+        "loss_delta": 0.0,
+        "old_norm": 1.82325279712677,
+        "new_norm": 1.823232889175415
+      },
+      {
+        "step": 3,
+        "old_loss": 0.3312641866505146,
+        "new_loss": 0.3301583342254162,
+        "loss_delta": -0.0011058524250984192,
+        "old_norm": 1.2676069736480713,
+        "new_norm": 1.266566514968872
+      },
+      {
+        "step": 4,
+        "old_loss": 0.2673668470233679,
+        "new_loss": 0.2670233566313982,
+        "loss_delta": -0.0003434903919696808,
+        "old_norm": 0.7426735162734985,
+        "new_norm": 0.7261905670166016
+      },
+      {
+        "step": 5,
+        "old_loss": 0.2495822198688984,
+        "new_loss": 0.2506231991574168,
+        "loss_delta": 0.0010409792885184288,
+        "old_norm": 1.232712745666504,
+        "new_norm": 1.2252641916275024
+      },
+      {
+        "step": 6,
+        "old_loss": 0.18091691751033068,
+        "new_loss": 0.18054269906133413,
+        "loss_delta": -0.0003742184489965439,
+        "old_norm": 0.808639407157898,
+        "new_norm": 0.8121016621589661
+      },
+      {
+        "step": 7,
+        "old_loss": 0.13506768643856049,
+        "new_loss": 0.13516282150521874,
+        "loss_delta": 9.513506665825844e-05,
+        "old_norm": 0.9749528765678406,
+        "new_norm": 0.9863406419754028
+      },
+      {
+        "step": 8,
+        "old_loss": 0.13912179321050644,
+        "new_loss": 0.1382971671409905,
+        "loss_delta": -0.0008246260695159435,
+        "old_norm": 1.1402308940887451,
+        "new_norm": 1.1090706586837769
+      },
+      {
+        "step": 9,
+        "old_loss": 0.10435600392520428,
+        "new_loss": 0.10547256050631404,
+        "loss_delta": 0.0011165565811097622,
+        "old_norm": 0.8130122423171997,
+        "new_norm": 0.8108542561531067
+      }
+    ],
+    "n_different_steps": 63,
+    "max_loss_delta": 0.004916293895803392,
+    "n_changed_tensors": 448,
+    "max_parameter_delta": 0.0037033907137811184,
+    "largest_tensor_changes": [
+      {
+        "name": "model.layers.1.self_attn.k_proj.lora_A.default.weight",
+        "max_abs": 0.0037033907137811184,
+        "l2": 0.11023695021867752,
+        "reference_l2": 1.6449288129806519
+      },
+      {
+        "name": "model.layers.4.self_attn.q_proj.lora_B.default.weight",
+        "max_abs": 0.003314090659841895,
+        "l2": 0.0810316875576973,
+        "reference_l2": 0.25032007694244385
+      },
+      {
+        "name": "model.layers.4.self_attn.k_proj.lora_A.default.weight",
+        "max_abs": 0.003175626043230295,
+        "l2": 0.10999506711959839,
+        "reference_l2": 1.6451746225357056
+      },
+      {
+        "name": "model.layers.1.self_attn.q_proj.lora_A.default.weight",
+        "max_abs": 0.0029497630894184113,
+        "l2": 0.11121664196252823,
+        "reference_l2": 1.7417134046554565
+      },
+      {
+        "name": "model.layers.2.self_attn.q_proj.lora_B.default.weight",
+        "max_abs": 0.002944143721833825,
+        "l2": 0.08076838403940201,
+        "reference_l2": 0.24429172277450562
+      },
+      {
+        "name": "model.layers.2.self_attn.k_proj.lora_B.default.weight",
+        "max_abs": 0.0028743066359311342,
+        "l2": 0.03738728538155556,
+        "reference_l2": 0.11699353903532028
+      },
+      {
+        "name": "model.layers.1.self_attn.k_proj.lora_B.default.weight",
+        "max_abs": 0.0028356732800602913,
+        "l2": 0.035559289157390594,
+        "reference_l2": 0.1026492491364479
+      },
+      {
+        "name": "model.layers.4.mlp.up_proj.lora_B.default.weight",
+        "max_abs": 0.002829727018252015,
+        "l2": 0.09110600501298904,
+        "reference_l2": 0.4474542438983917
+      }
+    ]
+  },
+  "hidden_both": {
+    "first_history_differences": [],
+    "n_different_steps": 0,
+    "max_loss_delta": 0,
+    "n_changed_tensors": 0,
+    "max_parameter_delta": 0,
+    "largest_tensor_changes": []
+  }
+}

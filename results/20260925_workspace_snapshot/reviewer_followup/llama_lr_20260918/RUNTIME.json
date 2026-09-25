@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-09-18T15:06:07.934900+08:00",
+  "capture_stage": "during development search",
+  "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "platform": "Linux-5.4.0-100-generic-x86_64-with-glibc2.31",
+  "cuda_runtime": "12.4",
+  "packages": {
+    "torch": "2.4.1+cu124",
+    "transformers": "5.6.2",
+    "peft": "0.19.1",
+    "safetensors": "0.7.0",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "babel": "2.18.0",
+    "matplotlib": "3.10.9"
+  },
+  "gpu_summary": "0, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n1, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n2, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n3, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n4, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n5, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n6, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n7, NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB\n"
+}

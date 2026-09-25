@@ -1,0 +1,710 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-15T14:14:47+08:00",
+  "public_questions_checked": 77256,
+  "maximum_aggregate_error": 4.440892098500626e-16,
+  "probability_bounds_checked": true,
+  "duplicates_counted_once": true,
+  "records": [
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5117819300092034
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3422146029704928
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.19975775248341446
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4607720063510716,
+        "max": 0.4615622584106847,
+        "mean": 0.4611807438616389
+      },
+      "max_question_probability_range": 0.0779064405536184,
+      "mean_question_probability_range": 0.000790252059613174,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5126625533459486
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3417133109430873
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.19954995477186063
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4613268249828839,
+        "max": 0.4620669870015523,
+        "mean": 0.4616888774165551
+      },
+      "max_question_probability_range": 0.058669323056873224,
+      "mean_question_probability_range": 0.0007401620186684167,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5156747061114942
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.34377382717837957
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.20431892853619377
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.46409679200727955,
+        "max": 0.4648466509019255,
+        "mean": 0.46446572150096893
+      },
+      "max_question_probability_range": 0.059266553218854046,
+      "mean_question_probability_range": 0.0007498588946459306,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5107333194676288
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.34132638863804204
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.19896162906437018
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4597709460151577,
+        "max": 0.4605800840618406,
+        "mean": 0.46017749159454974
+      },
+      "max_question_probability_range": 0.06194263989126192,
+      "mean_question_probability_range": 0.000809138046682835,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5089568689734786
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.35204558471457986
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.2146255198397504
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.46154479810447496,
+        "max": 0.46244148168927685,
+        "mean": 0.4620151712848568
+      },
+      "max_question_probability_range": 0.082229373201058,
+      "mean_question_probability_range": 0.0008966835848018518,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5131515213191555
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3554843203000636
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.21685170023505815
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4655423459102874,
+        "max": 0.46642321875091536,
+        "mean": 0.46599425197499295
+      },
+      "max_question_probability_range": 0.056205086811682514,
+      "mean_question_probability_range": 0.0008808728406278763,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5144359476871206
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.35476935857521114
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.21899385849270128
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4662891289661372,
+        "max": 0.4672154202354284,
+        "mean": 0.4667531334639391
+      },
+      "max_question_probability_range": 0.05256649826050924,
+      "mean_question_probability_range": 0.0009262912692911681,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 42,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5099738276659611
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3528015425828603
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.2164813052939268
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4624553948138187,
+        "max": 0.46338043876623636,
+        "mean": 0.46290329615632236
+      },
+      "max_question_probability_range": 0.05655611690132212,
+      "mean_question_probability_range": 0.0009250439524176823,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5098276307501679
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.34266834484623376
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.19892026032050145
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.45951746007702293,
+        "max": 0.4602187380980245,
+        "mean": 0.4598841822828588
+      },
+      "max_question_probability_range": 0.05761400138874534,
+      "mean_question_probability_range": 0.0007012780210014807,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5106174408771343
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3441375264422434
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.19746241333428619
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4604798977170924,
+        "max": 0.4612117130508466,
+        "mean": 0.4608504202746161
+      },
+      "max_question_probability_range": 0.07504742463458025,
+      "mean_question_probability_range": 0.0007318153337541793,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5147232405991107
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3469610096044535
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.2076730207203593
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.46430933201847313,
+        "max": 0.46499593462869016,
+        "mean": 0.46465136717919425
+      },
+      "max_question_probability_range": 0.054806263865751936,
+      "mean_question_probability_range": 0.0006866026102170643,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5103440775253901
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3428818535889351
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.19859782582940336
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4599103875745928,
+        "max": 0.4606177539770845,
+        "mean": 0.46026733584088414
+      },
+      "max_question_probability_range": 0.059271038880219784,
+      "mean_question_probability_range": 0.0007073664024917053,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5178459847091563
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.35873261011088753
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.22281150548966014
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4698537010163534,
+        "max": 0.4707116010337547,
+        "mean": 0.47029181956985155
+      },
+      "max_question_probability_range": 0.05219584511703945,
+      "mean_question_probability_range": 0.000857900017401338,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5223977673261804
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3618659445004823
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.22544997256303442
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.47402373087815475,
+        "max": 0.47495089776300753,
+        "mean": 0.47449178562440003
+      },
+      "max_question_probability_range": 0.05471763969286392,
+      "mean_question_probability_range": 0.0009271668848527355,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5262094616742082
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3639572421096087
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.22909095738166801
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4773757491824562,
+        "max": 0.47821503000286925,
+        "mean": 0.4778061542205238
+      },
+      "max_question_probability_range": 0.046963802769093066,
+      "mean_question_probability_range": 0.0008392808204131047,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 43,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5171652998383687
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.35784295078186407
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.22181276943012715
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4690636846600899,
+        "max": 0.46995434689159515,
+        "mean": 0.4695220027896905
+      },
+      "max_question_probability_range": 0.05834588913861816,
+      "mean_question_probability_range": 0.0008906622315052535,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "none",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5172686388236348
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3460566269931012
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.20149441263514845
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4657805478384875,
+        "max": 0.4665324412701531,
+        "mean": 0.4661607018874138
+      },
+      "max_question_probability_range": 0.05856333641103517,
+      "mean_question_probability_range": 0.0007518934316655557,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5196768617533002
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3486757492021071
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.20578034778845475
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.46822291989748166,
+        "max": 0.46893257788012477,
+        "mean": 0.46856366359452006
+      },
+      "max_question_probability_range": 0.07296900920030558,
+      "mean_question_probability_range": 0.0007096579826430567,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "both",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5208640395743556
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.34969121559863786
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.20881140558391556
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4694478338520582,
+        "max": 0.47024374152831083,
+        "mean": 0.4698316919770326
+      },
+      "max_question_probability_range": 0.05430757310374679,
+      "mean_question_probability_range": 0.0007959076762526394,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5179434928137635
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.3468573689600815
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.19958277332714297
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4664382444901485,
+        "max": 0.46712498779434847,
+        "mean": 0.46675887389000786
+      },
+      "max_question_probability_range": 0.053762106135504584,
+      "mean_question_probability_range": 0.000686743304200001,
+      "questions_with_different_duplicates": 252
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "none",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5327023860861045
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.36614659790363063
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.2266470116470863
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4824850796202082,
+        "max": 0.48343854540790776,
+        "mean": 0.4829590742694635
+      },
+      "max_question_probability_range": 0.05294532384595518,
+      "mean_question_probability_range": 0.0009534657876995712,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.534288752887383
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.36689922562207633
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.22789860123693187
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.48392169909011157,
+        "max": 0.4848063411521887,
+        "mean": 0.4843812626180602
+      },
+      "max_question_probability_range": 0.05426652103284124,
+      "mean_question_probability_range": 0.0008846420620770717,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "both",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5390819767705295
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.37134974943931975
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.23440209748485344
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.4886641937690356,
+        "max": 0.4894675633617361,
+        "mean": 0.4890666807008227
+      },
+      "max_question_probability_range": 0.061511863940945044,
+      "mean_question_probability_range": 0.00080336959270054,
+      "questions_with_different_duplicates": 318
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "arm": "hidden_budget",
+      "seed": 44,
+      "by_unique_references": {
+        "1": {
+          "n": 2300,
+          "mean_probability": 0.5330394058598484
+        },
+        "2": {
+          "n": 869,
+          "mean_probability": 0.367156925243678
+        },
+        "3": {
+          "n": 50,
+          "mean_probability": 0.22326422564523948
+        }
+      },
+      "duplicate_choice_mean_probabilities": {
+        "min": 0.48297199337341107,
+        "max": 0.48384413346821303,
+        "mean": 0.48342260821514565
+      },
+      "max_question_probability_range": 0.045479865527470686,
+      "mean_question_probability_range": 0.0008721400948019316,
+      "questions_with_different_duplicates": 318
+    }
+  ],
+  "source_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/RESULTS.json": "51aa306956211c92ee89b237970f849ed13e4209f52bfb5538e0564598b63848",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_none_hr8_sd42/public_dev.jsonl": "492627945f6c9bc1a237050b80f710bb637f27b8655f35d4c345d8d439149b43",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_output_hr8_sd42/public_dev.jsonl": "fe672ba9d2ff7114aa55c0748c5b09febb593620cdbccbebad52a080bde98406",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_both_hr8_sd42/public_dev.jsonl": "818e3bf6166c5eb9635d7b499059a2723a17616481e887d144368fd85ba64fea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd42/public_dev.jsonl": "1c0ca373b0d521ccf3cf28339fe9dba4949df7a928918b9cd54d15e7da8e7f3d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_none_hr8_sd42/public_dev.jsonl": "ee0504c46c14758173c77fdfd01c7306d0c6b2927cc9104f5a71a5895710ed3d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_output_hr8_sd42/public_dev.jsonl": "9d7d57ef908a2f057ceed98960045b734b68ffe1137e8dd032eeb45fef890221",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_both_hr8_sd42/public_dev.jsonl": "c5813268d1fe2cf4f087db53579fcb5fa869146afbb5b956a05cf0e21366eceb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd42/public_dev.jsonl": "d3450a2d0aa219a51687df74d2897c00a8ee4900fe0540a006b26bb9401ba092",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_none_hr8_sd43/public_dev.jsonl": "698932387864964de9b9d7b1e186a04ce83bdd42f7cf0a019e8809b5cbf74559",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_output_hr8_sd43/public_dev.jsonl": "5dbb86df0456961345ddeb30a87727549611f0feb1e6c478f7eedfd23855f6a9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_both_hr8_sd43/public_dev.jsonl": "4db295f7b14f69aac2f33e5569dc3934607e650bd388d92e5260977d24c26b03",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd43/public_dev.jsonl": "d2f4f49cbc3c23dd8f57aae5373046c5cdc3b567b2b5a97e19b54113a0070859",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_none_hr8_sd43/public_dev.jsonl": "f7c45e8ac7033178a9e94df402e3cb80e6accbdad7bdd1e531520c33a7e89090",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_output_hr8_sd43/public_dev.jsonl": "f189d15534dbe99a6b3120453d5ad04253ec4777949d169c7c6c7744b236b714",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_both_hr8_sd43/public_dev.jsonl": "319b70136dbcace747f44fa71d1d70d0e9812613417fe6e11a859c04cdc57899",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd43/public_dev.jsonl": "954c623ac297533ea8f4493f0847fe39e3291ffa69f04b4c92fef3901ac84125",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_none_hr8_sd44/public_dev.jsonl": "61cca1c6fe3c35e65b5c025ae9bbe2f0b4263a72def817cbfdcc3502a505d0eb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_output_hr8_sd44/public_dev.jsonl": "9b29130bfae5145bfc32e735596d69eb664ae944800517119f3a70c9b35910ec",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_both_hr8_sd44/public_dev.jsonl": "ff1d50af8f534032e30efcf9e99d73a9a661ab2e26fa6d2db8bcdcbe36abde3e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd44/public_dev.jsonl": "c87fa27887b23ac89c9ea02712c62be14198e0acc2057f9457aed07a8b4ed5bb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_none_hr8_sd44/public_dev.jsonl": "06a1f2b7d8a86b9f1cf7faa3f98a8d7f36bedbff6c5ccdaf4df6f906a647f7b9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_output_hr8_sd44/public_dev.jsonl": "73e836e315b504d3212365d749f7a05b5fb51bdd7b1ce4b107d97ba79c1f35eb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_both_hr8_sd44/public_dev.jsonl": "644ac9264d05b85bbac81f8469498ba95745ee4987822ae8f273ee6c594feafe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_eval_decomposition_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd44/public_dev.jsonl": "b7fcb4f63d0e09711a80bfd054f6d4cdaa8beb7e8c76df651c1623d8046157f7"
+  },
+  "scope": "Direct FP64 exp/sum/log check independent of scipy.logsumexp. Duplicate probabilities can differ across original BF16 batches; all min/max/mean selection sensitivity retained. Reference-count and numerical sensitivity diagnostics follow the aggregate mass result, not confirmation."
+}

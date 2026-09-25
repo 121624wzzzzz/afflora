@@ -1,0 +1,30 @@
+[
+  {
+    "name": "compatibility_hidden_budget_c0_s7100",
+    "stage": "compatibility",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7100,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": []
+  },
+  {
+    "name": "compatibility_hidden_both_c0_s7100",
+    "stage": "compatibility",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7100,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": []
+  }
+]

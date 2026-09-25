@@ -1,0 +1,7 @@
+{
+  "start_utc": "2026-09-17T13:07:10+00:00",
+  "deadline_utc": "2026-09-18T03:07:10+00:00",
+  "stop_new_launches_utc": "2026-09-18T01:37:10+00:00",
+  "finish_workers_by_utc": "2026-09-18T02:07:10+00:00",
+  "policy": "Fixed question-driven priorities; no score-based scheduling. Reserve final hour for audit/report/seal. Incomplete blocks are disclosed, never silently discarded."
+}

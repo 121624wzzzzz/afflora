@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-15T19:20:19+08:00",
+  "status": "complete",
+  "jobs": 20,
+  "new_training_jobs": 0,
+  "scope": "post hoc mechanism diagnosis",
+  "report": "DEEP_ANALYSIS_ZH.md",
+  "figure": "figures/mechanism_diagnosis.png",
+  "audit_sha256": "8518ca3b5213ffedf816f9de0683af825eaa37b99916b5cf96456277839e4b90"
+}

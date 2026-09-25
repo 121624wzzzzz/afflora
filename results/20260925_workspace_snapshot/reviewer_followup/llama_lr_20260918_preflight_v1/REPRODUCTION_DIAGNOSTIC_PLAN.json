@@ -1,0 +1,12 @@
+{
+  "reason": "Preflight exact reproduction failed for budget H; H+E+U reproduced exactly. Diagnose before formal search.",
+  "source_run_sha256": "916c631afc0f212ea38ea86445d945d1b05050493e287600a1bf49c3adcc80a0",
+  "source_script_change": "Disable both evaluation loops only; training unmodified.",
+  "gpus": [
+    1,
+    7
+  ],
+  "seed": 7100,
+  "search_admission": "closed",
+  "additional_probe": "Same grouped optimizer and measurements, but compute diagnostic gradient/update norms on CPU and avoid GPU parameter snapshots; no evaluation."
+}

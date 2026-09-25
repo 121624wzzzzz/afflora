@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-15T02:08:31.052296+08:00",
+  "source_indexes_checked": 4,
+  "unique_declared_sources_checked": 137,
+  "outputs_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/FINAL_INTERPRETATION_ZH.md": "11c8880d5818f89cb9bd26b3d4ec0014d30bb4a54da5ac86492a057c123d239c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/REPORT_MANIFEST_NOTE.md": "b4a54a7470bbe7bebba23c230c824850c5aad41e722385dac24703b4cda8134b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/DATA_OVERLAP_NOTE.md": "c8d7f554a03585197a793b2314042e379de19c38f0edf802be7d777fff26ba99",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/DATA_OVERLAP_AUDIT.json": "5be4309fdd9ce46883000ecf30fa5d40ef1330361dd4b66bb7fd741602b6af01",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/finalize_chat_audit.py": "24bb0035a83962ba417d0b51acec2867da6b262112b789d422a04a97e7604d01",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/SUMMARY_SOURCES.json": "5ea78cc6fe40913ff3ce201555b7843fe70a188849626fec65763dbb2db66274",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/figures/SOURCE_HASHES.json": "3b7006d05d4efb0e9079f0c951e48c98eac50496b50237b71e86c840314f01ac",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/ANALYSIS_SOURCES.json": "bbe4c62719499eb73df86fb9f2a431f3d782a971ac5d8a93d00af98040bf1374",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/figures/SOURCE_HASHES.json": "ca9eadbf938cd343242b5361a8aef4198fc06ad528f90a2f331a7db760502221",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/INTERPRETATION_ZH.md": "f2321ced39da329b8700b13dd7c6b13cee101335a5790454385c9c6e713b53ca",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/summary.json": "9e806f915cb73f8c61244c2e10702cf98ba92e79c6026ab16204414e4ece01c5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/paired_contrasts.csv": "a297300863a8417fdf10402eaa7b9a8780dd1a946a28aeea981b24e5cc9a8055",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/FINAL_AUDIT.json": "6c7f151ccfa18a52561464f1b07e6b20900938d44885d3f04ce6b32bb67104c5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/RESULTS.md": "9f81e4ab5628142839cb45b8b83866896c91cd398a52a88de3569b4c2f6cf783",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/figures/calibration_increments.pdf": "1db94db2d91269070a9a416b492ea401ee125f2d94c8040a1a9c83195f51c77e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/figures/calibration_increments.png": "3039905f54cad21e60c25994f95559387d50a58415fc62aa493b2f716709cf53",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/calibration/figures/CAPTION.md": "0e43b8b9a3745c4dbdde42e787ef57329a05741f532f80b8253226d0378b08bb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/summary.json": "a4638876f4a5ab6b12b8586a86063ec1d8838c3a5ac62a084140f198b86d098f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/FINAL_ANALYSIS.md": "2133daa5213d1c93e421b672ef8aadce4f789f142d4db3a434f32fa2a93b88ec",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/final_contrasts.csv": "2e109742ca68f53ebab4aedb23ffad679719296e59b18762d57b9c3acc8d49de",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/FINAL_AUDIT.json": "28eee9e84e53157eee4f0f5c176a4bdd6fd577020d9f65ad9658bfa9b8fc4fb6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/FINAL_ANALYSIS.json": "81c084826fa3a0184a023ac59b80f6fbfb2c8bf464301f250db6b8a16639036d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/RESULTS.md": "bb9f337d6058fa955e692c2c9c12ca14a0b7ed387e679e1855ed256f86f4eefd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/figures/chat_increments.png": "dacefaab83bffb117effdc46af4dcdbe3265337132fe74daf5f4956d0b7aaf0b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/figures/CAPTION.md": "f37748368509cb5749b98da488c6ffa795ca149c566f6380af2d82c37d6487dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/figures/chat_increments.pdf": "023aff1f663406963ffc8e8c980c81c81a72e2fe88a7be1f03336b53c205e8b7"
+  },
+  "chat_audit_documented_exclusions": [
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/RESULTS.md",
+      "kind": "derived_report_mistakenly_frozen",
+      "expected_initial_sha256": "1949bfd7038b31a69f25983cf80e85732d6e1b59087c9ff00b00a2112d3995b8",
+      "reconstructed_original": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/report_manifest_audit/reconstruction_smoke/RESULTS.md",
+      "explanation": "The frozen summarizer writes this file after each completed cell; training and evaluation never read it. Only this derived output is excluded from the immutable-input check. The original manifest, source, data, model files, checkpoints and scores are unchanged.",
+      "documentation": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/REPORT_MANIFEST_NOTE.md",
+      "final_report_sha256": "bb9f337d6058fa955e692c2c9c12ca14a0b7ed387e679e1855ed256f86f4eefd"
+    }
+  ],
+  "figure_visual_inspection": "Calibration and chat PNGs inspected; labels and confidence intervals visible."
+}

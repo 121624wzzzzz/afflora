@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-16T17:30:15+08:00",
+  "status": "passed",
+  "outcomes": [
+    {
+      "name": "diagnostic_cluener_qwen3_06b_base_two_shot_base",
+      "code": 0
+    },
+    {
+      "name": "diagnostic_cluener_qwen25_15b_base_two_shot_base",
+      "code": 0
+    }
+  ]
+}

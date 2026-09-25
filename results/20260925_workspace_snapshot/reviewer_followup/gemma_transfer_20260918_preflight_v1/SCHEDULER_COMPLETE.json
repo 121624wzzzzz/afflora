@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-18T22:10:02+08:00",
+  "status": "failed",
+  "counts": {
+    "pending": 72,
+    "running": 0,
+    "auditing": 0,
+    "passed": 9,
+    "failed": 1
+  }
+}

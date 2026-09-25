@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-17T16:15:44+08:00",
+  "status": "passed",
+  "ner_gold_roundtrips": 3591,
+  "sql_official_comparisons": 384,
+  "negative_duplicate_occurrence_checks": true
+}

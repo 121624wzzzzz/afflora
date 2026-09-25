@@ -1,0 +1,83 @@
+{
+  "model_files": [
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/config.json",
+      "sha256": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/generation_config.json",
+      "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/merges.txt",
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/model.safetensors",
+      "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer.json",
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer_config.json",
+      "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/vocab.json",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/config.json",
+      "sha256": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/generation_config.json",
+      "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/merges.txt",
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/model.safetensors",
+      "sha256": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer.json",
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer_config.json",
+      "sha256": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9"
+    },
+    {
+      "file": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/vocab.json",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "copied_source": "lora/reviewer_followup/sciq_repaired_protocol_20260916/source/affine_adapter.py",
+      "sha256": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805"
+    },
+    {
+      "copied_source": "lora/reviewer_followup/stacking_cmrc_task_sft_20260915/budget.py",
+      "sha256": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80"
+    }
+  ],
+  "fitted_adapters_reused": false,
+  "source_manifest_checks": [
+    {
+      "file": "source/affine_adapter.py",
+      "sha256": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+      "sealed_manifest_sha256": "42501fa6162bcb885be3de29fd89bf703f4b343eb36abf0a057b221f01fc5208"
+    },
+    {
+      "file": "source/budget.py",
+      "sha256": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+      "sealed_manifest_sha256": "03fa545388960114b9e08f8fddb050e32a5f700f2f5504186cf1538421cd70ce",
+      "sealed_audit_sha256": "a99f12fe0bd83e82f0ddbe1f74e5c8ac093d51d88553e5c9d8d2af1066d7d9b5"
+    }
+  ],
+  "status": "passed"
+}

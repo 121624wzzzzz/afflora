@@ -1,0 +1,56 @@
+[
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen3_06b_base_input_sd4001_lr5e-05",
+    "model": "qwen3_06b_base",
+    "arm": "input",
+    "seed": 4001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/checkpoints/smoke_qwen3_06b_base_input_sd4001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen3_06b_base_output_sd4001_lr5e-05",
+    "model": "qwen3_06b_base",
+    "arm": "output",
+    "seed": 4001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/checkpoints/smoke_qwen3_06b_base_output_sd4001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen3_06b_base_hidden_r8_sd4001_lr5e-05",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_r8",
+    "seed": 4001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/checkpoints/smoke_qwen3_06b_base_hidden_r8_sd4001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen25_15b_base_input_sd4001_lr5e-05",
+    "model": "qwen25_15b_base",
+    "arm": "input",
+    "seed": 4001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/checkpoints/smoke_qwen25_15b_base_input_sd4001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen25_15b_base_output_sd4001_lr5e-05",
+    "model": "qwen25_15b_base",
+    "arm": "output",
+    "seed": 4001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/checkpoints/smoke_qwen25_15b_base_output_sd4001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen25_15b_base_hidden_r8_sd4001_lr5e-05",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_r8",
+    "seed": 4001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/checkpoints/smoke_qwen25_15b_base_hidden_r8_sd4001_lr5e-05"
+  }
+]

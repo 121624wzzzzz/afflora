@@ -1,0 +1,89 @@
+{
+  "at": "2026-09-17T14:35:59.525985+00:00",
+  "old_supervisor_pid": 3647500,
+  "old_supervisor_cmdline": [
+    "/home/wz/anaconda3/envs/torch24/bin/python",
+    "-u",
+    "scheduler.py"
+  ],
+  "workers": {
+    "core/cluener_qwen3_8b_base_input_s6100": {
+      "pid": 3919039,
+      "create_time": 1789654557.82,
+      "cmdline": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/run.py",
+        "--spec",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/specs/cluener_qwen3_8b_base_input_s6100.json"
+      ],
+      "cwd": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core",
+      "gpu": 5
+    },
+    "core/cluener_qwen3_8b_base_output_s6100": {
+      "pid": 3922760,
+      "create_time": 1789654608.72,
+      "cmdline": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/run.py",
+        "--spec",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/specs/cluener_qwen3_8b_base_output_s6100.json"
+      ],
+      "cwd": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core",
+      "gpu": 4
+    },
+    "core/cluener_qwen25_7b_base_hidden_input_s6101": {
+      "pid": 3934490,
+      "create_time": 1789654762.79,
+      "cmdline": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/run.py",
+        "--spec",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/specs/cluener_qwen25_7b_base_hidden_input_s6101.json"
+      ],
+      "cwd": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core",
+      "gpu": 6
+    },
+    "core/cluener_qwen25_7b_base_hidden_output_s6101": {
+      "pid": 3938125,
+      "create_time": 1789654803.37,
+      "cmdline": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/run.py",
+        "--spec",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/specs/cluener_qwen25_7b_base_hidden_output_s6101.json"
+      ],
+      "cwd": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core",
+      "gpu": 1
+    },
+    "core/cluener_qwen25_7b_base_input_s6101": {
+      "pid": 3944821,
+      "create_time": 1789654864.33,
+      "cmdline": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/run.py",
+        "--spec",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/specs/cluener_qwen25_7b_base_input_s6101.json"
+      ],
+      "cwd": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core",
+      "gpu": 3
+    },
+    "core/cluener_qwen25_7b_base_both_s6101": {
+      "pid": 3929588,
+      "create_time": 1789654700.73,
+      "cmdline": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/run.py",
+        "--spec",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/specs/cluener_qwen25_7b_base_both_s6101.json"
+      ],
+      "cwd": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core",
+      "gpu": 2
+    }
+  }
+}

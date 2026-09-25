@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-16T17:06:41.417145+08:00",
+  "stopped_pids": [
+    652991
+  ],
+  "reason": "Await completed Stage A content-vs-position diagnostics before activating architecture comparison. No A-LoRA development scores observed."
+}

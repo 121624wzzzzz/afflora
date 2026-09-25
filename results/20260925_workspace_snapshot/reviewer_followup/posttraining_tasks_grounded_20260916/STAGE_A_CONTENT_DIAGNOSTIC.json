@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-16T17:37:54+08:00",
+  "scope": "descriptive paired development diagnostics, not causal estimates for an output-selected subset",
+  "toolace": [
+    {
+      "model": "qwen3_06b_base",
+      "primary_base": 29.5,
+      "primary_hidden": 66.5,
+      "function_selection_base": 60.0,
+      "function_selection_hidden": 81.5,
+      "base_json_valid": 90.5,
+      "hidden_json_valid": 94.0,
+      "both_json_valid_n": 172,
+      "both_json_valid_fixed": 73,
+      "both_json_valid_regressed": 6
+    },
+    {
+      "model": "qwen25_15b_base",
+      "primary_base": 29.5,
+      "primary_hidden": 66.0,
+      "function_selection_base": 52.0,
+      "function_selection_hidden": 83.0,
+      "base_json_valid": 70.0,
+      "hidden_json_valid": 96.5,
+      "both_json_valid_n": 137,
+      "both_json_valid_fixed": 48,
+      "both_json_valid_regressed": 7
+    }
+  ]
+}

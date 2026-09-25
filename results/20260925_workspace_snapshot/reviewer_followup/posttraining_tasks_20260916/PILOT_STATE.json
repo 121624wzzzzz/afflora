@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-16T17:18:14+08:00",
+  "pending": [],
+  "active": [],
+  "finished": [
+    {
+      "name": "pilot_toolace_qwen3_06b_base_base",
+      "code": 0
+    },
+    {
+      "name": "pilot_toolace_qwen25_15b_base_base",
+      "code": 0
+    },
+    {
+      "name": "pilot_cluener_qwen3_06b_base_base",
+      "code": 0
+    },
+    {
+      "name": "pilot_cluener_qwen25_15b_base_base",
+      "code": 0
+    },
+    {
+      "name": "pilot_cluener_qwen3_06b_base_hidden",
+      "code": 0
+    },
+    {
+      "name": "pilot_toolace_qwen3_06b_base_hidden",
+      "code": 0
+    },
+    {
+      "name": "pilot_toolace_qwen25_15b_base_hidden",
+      "code": 0
+    },
+    {
+      "name": "pilot_cluener_qwen25_15b_base_hidden",
+      "code": 0
+    }
+  ],
+  "failed": []
+}

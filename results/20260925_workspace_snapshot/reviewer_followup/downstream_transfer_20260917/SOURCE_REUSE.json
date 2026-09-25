@@ -1,0 +1,91 @@
+{
+  "verified": [
+    {
+      "source": "lora/reviewer_followup/posttraining_tasks_grounded_20260916/common.py",
+      "sha256": "d19b5ea40b578c5b5acae1c3ac040d856c7334e34aa13d2584e50b9695260898"
+    },
+    {
+      "source": "lora/reviewer_followup/posttraining_tasks_grounded_20260916/modeling.py",
+      "sha256": "0afd05e07f58098e40137f747aa3f086baeac37eb677cd229555d58dc02e92b8"
+    },
+    {
+      "source": "lora/reviewer_followup/posttraining_tasks_grounded_20260916/run.py",
+      "sha256": "65890f2b559bf401c9e4155dbd78dd5c33d10e454003815f9f3e40b8dfe88f34"
+    },
+    {
+      "source": "lora/reviewer_followup/posttraining_tasks_grounded_20260916/models.json",
+      "sha256": "264951df8029ffa98c749e7e4c7cee030fffe8fd33de27b70bec85c7bf934330"
+    },
+    {
+      "source": "lora/reviewer_followup/posttraining_tasks_grounded_20260916/source/affine_adapter.py",
+      "sha256": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805"
+    },
+    {
+      "source": "lora/reviewer_followup/posttraining_tasks_grounded_20260916/source/budget.py",
+      "sha256": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80"
+    },
+    {
+      "source": "lora/reviewer_followup/posttraining_tasks_grounded_20260916/audit_parameters.py",
+      "sha256": "2fd8d4ae69bb92a746b2aecb62029aca995a197b54d669dfc8e8b2ddf86dcf0e"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/config.json",
+      "sha256": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/generation_config.json",
+      "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/merges.txt",
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/model.safetensors",
+      "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer.json",
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer_config.json",
+      "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/vocab.json",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/config.json",
+      "sha256": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/generation_config.json",
+      "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/merges.txt",
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/model.safetensors",
+      "sha256": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer.json",
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer_config.json",
+      "sha256": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9"
+    },
+    {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/vocab.json",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "fitted_adapters_reused": false,
+  "source_archive_manifest_sha256": "c717690a663b6d58c70224b4b4f798e34343f1e0de49b8e8bf1df7e91d37ab5f",
+  "note": "Common and run are copied starting points; final new files separately frozen before experiments."
+}

@@ -1,0 +1,153 @@
+{
+  "description": "Descriptive recovered/regressed cases; validity partitions use the fixed full-set denominator and are not causal decompositions.",
+  "comparisons": {
+    "wikisql hidden_both minus hidden": [
+      {
+        "seed": 7500,
+        "recovered": 75,
+        "regressed": 85,
+        "net_questions": -10,
+        "both_valid_net_pp": -0.390625,
+        "other_validity_net_pp": -0.09765625
+      },
+      {
+        "seed": 7501,
+        "recovered": 54,
+        "regressed": 47,
+        "net_questions": 7,
+        "both_valid_net_pp": 0.390625,
+        "other_validity_net_pp": -0.048828125
+      },
+      {
+        "seed": 7502,
+        "recovered": 48,
+        "regressed": 45,
+        "net_questions": 3,
+        "both_valid_net_pp": 0.146484375,
+        "other_validity_net_pp": 0.0
+      },
+      {
+        "seed": 7503,
+        "recovered": 71,
+        "regressed": 52,
+        "net_questions": 19,
+        "both_valid_net_pp": 0.830078125,
+        "other_validity_net_pp": 0.09765625
+      },
+      {
+        "seed": 7504,
+        "recovered": 87,
+        "regressed": 59,
+        "net_questions": 28,
+        "both_valid_net_pp": 0.87890625,
+        "other_validity_net_pp": 0.48828125
+      }
+    ],
+    "wikisql hidden_both minus hidden_budget": [
+      {
+        "seed": 7500,
+        "recovered": 63,
+        "regressed": 107,
+        "net_questions": -44,
+        "both_valid_net_pp": -2.24609375,
+        "other_validity_net_pp": 0.09765625
+      },
+      {
+        "seed": 7501,
+        "recovered": 71,
+        "regressed": 68,
+        "net_questions": 3,
+        "both_valid_net_pp": 0.341796875,
+        "other_validity_net_pp": -0.1953125
+      },
+      {
+        "seed": 7502,
+        "recovered": 64,
+        "regressed": 69,
+        "net_questions": -5,
+        "both_valid_net_pp": -0.390625,
+        "other_validity_net_pp": 0.146484375
+      },
+      {
+        "seed": 7503,
+        "recovered": 114,
+        "regressed": 80,
+        "net_questions": 34,
+        "both_valid_net_pp": 0.830078125,
+        "other_validity_net_pp": 0.830078125
+      },
+      {
+        "seed": 7504,
+        "recovered": 73,
+        "regressed": 88,
+        "net_questions": -15,
+        "both_valid_net_pp": -1.025390625,
+        "other_validity_net_pp": 0.29296875
+      }
+    ],
+    "trec50 hidden_both minus hidden": [
+      {
+        "seed": 7500,
+        "recovered": 17,
+        "regressed": 14,
+        "net_questions": 3
+      },
+      {
+        "seed": 7501,
+        "recovered": 4,
+        "regressed": 17,
+        "net_questions": -13
+      },
+      {
+        "seed": 7502,
+        "recovered": 10,
+        "regressed": 15,
+        "net_questions": -5
+      },
+      {
+        "seed": 7503,
+        "recovered": 13,
+        "regressed": 37,
+        "net_questions": -24
+      },
+      {
+        "seed": 7504,
+        "recovered": 10,
+        "regressed": 11,
+        "net_questions": -1
+      }
+    ],
+    "trec50 hidden_both minus hidden_budget": [
+      {
+        "seed": 7500,
+        "recovered": 11,
+        "regressed": 10,
+        "net_questions": 1
+      },
+      {
+        "seed": 7501,
+        "recovered": 6,
+        "regressed": 12,
+        "net_questions": -6
+      },
+      {
+        "seed": 7502,
+        "recovered": 12,
+        "regressed": 17,
+        "net_questions": -5
+      },
+      {
+        "seed": 7503,
+        "recovered": 12,
+        "regressed": 31,
+        "net_questions": -19
+      },
+      {
+        "seed": 7504,
+        "recovered": 8,
+        "regressed": 14,
+        "net_questions": -6
+      }
+    ]
+  }
+}

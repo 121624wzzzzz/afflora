@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-20T01:30:19.092825+08:00",
+  "status": "initial_batch_verified",
+  "checks": {
+    "initialization_sha256": true,
+    "shared_hidden_initialization_sha256": true,
+    "frozen_before": true,
+    "training_order_identical": true
+  },
+  "old_first_loss": 1.2254207134246826,
+  "new_first_loss": 1.2234999686479568,
+  "new_all_16_micro_losses_match_reference": true,
+  "scope": "Original outlying specification now matches the independent initial-loss reference under the common revised policy. No final task-accuracy comparison or single-kernel causal attribution.",
+  "inputs": {
+    "lora/reviewer_followup/qwen35_08b_20260919/checkpoints/search_wikisql_hidden_budget_c1_s7600/INITIALIZATION.json": "049ddd3b0422ec2907fa1d2553b115bfe4861da52924e9c36d5d6c2d55cba7ec",
+    "lora/reviewer_followup/qwen35_08b_20260919/checkpoints/search_wikisql_hidden_budget_c1_s7600/INITIAL_REPEAT.json": "9e61cafc407a282565cbedd07c1a2b2255ee4c51f26a61d374c8b8e82c80402c",
+    "lora/reviewer_followup/qwen35_08b_20260919/checkpoints/search_wikisql_hidden_budget_c1_s7600/TRAIN_ORDER.json": "d4c048eeff9191f6f4e60f8a2f38b3775b3a52cd6dcbdb8ba69e0ff71a912264",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/checkpoints/search_wikisql_hidden_budget_c1_s7600/INITIALIZATION.json": "f545eb52853451f02c29868c2664325b403ee03575e34a0865d89be080fbb944",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/checkpoints/search_wikisql_hidden_budget_c1_s7600/INITIAL_REPEAT.json": "ef409b6dc5850ad553a033e3ff7e466fa26fd8d55b02e86a3aa47b9baf4660b2",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/checkpoints/search_wikisql_hidden_budget_c1_s7600/TRAIN_ORDER.json": "d4c048eeff9191f6f4e60f8a2f38b3775b3a52cd6dcbdb8ba69e0ff71a912264"
+  }
+}

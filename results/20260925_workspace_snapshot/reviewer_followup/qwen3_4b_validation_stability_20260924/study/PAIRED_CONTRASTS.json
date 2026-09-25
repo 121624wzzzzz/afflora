@@ -1,0 +1,130 @@
+{
+  "at": "2026-09-24T23:15:21+08:00",
+  "note": "Only complete paired five-seed cells. Holm appears only when the entire prespecified family is complete.",
+  "contrasts": [
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 30,
+      "seeds": [
+        "607100",
+        "607101",
+        "607102",
+        "607103",
+        "607104"
+      ],
+      "differences": [
+        -0.1953125,
+        -0.5859375,
+        0.48828125,
+        -0.48828125,
+        0.29296875
+      ],
+      "mean": -0.09765625,
+      "ci95": [
+        -0.6854677298604906,
+        0.49015522986049065
+      ],
+      "p_unadjusted": 0.6685751517857463,
+      "positive": 2,
+      "negative": 3,
+      "p_holm": 0.6685751517857463
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 30,
+      "seeds": [
+        "607100",
+        "607101",
+        "607102",
+        "607103",
+        "607104"
+      ],
+      "differences": [
+        0.390625,
+        0.78125,
+        1.46484375,
+        1.171875,
+        0.87890625
+      ],
+      "mean": 0.9375,
+      "ci95": [
+        0.43315562211685144,
+        1.4418443778831485
+      ],
+      "p_unadjusted": 0.006693437789745466,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.013386875579490932
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "607100",
+        "607101",
+        "607102",
+        "607103",
+        "607104"
+      ],
+      "differences": [
+        0.68359375,
+        -1.26953125,
+        -0.68359375,
+        -0.390625,
+        -0.390625
+      ],
+      "mean": -0.41015625,
+      "ci95": [
+        -1.290413153979877,
+        0.4701006539798771
+      ],
+      "p_unadjusted": 0.26542074909865226,
+      "positive": 1,
+      "negative": 4,
+      "p_holm": 0.5308414981973045
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "607100",
+        "607101",
+        "607102",
+        "607103",
+        "607104"
+      ],
+      "differences": [
+        1.26953125,
+        0.09765625,
+        0.29296875,
+        1.26953125,
+        0.1953125
+      ],
+      "mean": 0.625,
+      "ci95": [
+        -0.11057683138611019,
+        1.3605768313861102
+      ],
+      "p_unadjusted": 0.07774164094789979,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.07774164094789979
+    }
+  ]
+}

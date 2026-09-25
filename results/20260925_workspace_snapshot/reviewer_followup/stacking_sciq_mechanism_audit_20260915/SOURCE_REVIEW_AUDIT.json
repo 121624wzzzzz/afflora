@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-15T19:20:19+08:00",
+  "sources": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/FINAL_INTERPRETATION_ZH.md": {
+      "sha256": "23e171c19376df1351097765414768d76d00153393f4181dd143ee21285b5ac5",
+      "verified_against_sealed_manifest": true
+    },
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/GENERATION_PROBABILITY_LINK.json": {
+      "sha256": "57aa7cb81c44e5d3e34a1fb7fb98fbe1b3757da6ba4f90e919588a77a8ebbf6a",
+      "verified_against_sealed_manifest": true
+    },
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/RESULTS.md": {
+      "sha256": "1ea760c7ba891691b1d069c3c77e7426fce1b078ea0540b7bf3b2fb1cc91c18c",
+      "verified_against_sealed_manifest": false,
+      "role": "read-only source reviewed for interpretation, not reused checkpoint"
+    },
+    "/commondocument/wz/cross_encoder_workspace/im_exp/emnlp/iclr2027/submissions/paper-2/zh/sections/03_analysis.tex": {
+      "sha256": "9049870291c14726b650e6d6909f7f92a77a7384499d5f665e561309f4ee7e87",
+      "verified_against_sealed_manifest": false,
+      "role": "read-only source reviewed for interpretation, not reused checkpoint"
+    },
+    "/commondocument/wz/cross_encoder_workspace/im_exp/emnlp/iclr2027/submissions/paper-2/zh/sections/04_method.tex": {
+      "sha256": "13b38fdcaa06d08ae1dd937d02189519bb7c59924967787eed6ab23d866cc044",
+      "verified_against_sealed_manifest": false,
+      "role": "read-only source reviewed for interpretation, not reused checkpoint"
+    }
+  }
+}

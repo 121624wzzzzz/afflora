@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/README.md",
+      "sha256_at_completion": "7d7e98d5d60e2326cc64a0eebd9681f970d8c62e6390dd0d8486c8db3c8e4117"
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/CLAUDE.md",
+      "sha256_at_completion": "0503d49584bf9524b2f1495f4d0f1f59d3662b1a3852eb9a761e69c09934b834"
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/docs/EXPERIMENT_SETTINGS.md",
+      "sha256_at_completion": "42dcfce8475b525f928baff8307b152d4188b18555f83fa03b0856f00392844d"
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/docs/RESULTS_SO_FAR.md",
+      "sha256_at_completion": "2ea48fa6925f8f61087da57575499c718c7099ab2d0391c53d9dc6467e1fb6ed"
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/emnlp/iclr2027/submissions/paper-2/README.md",
+      "sha256_at_completion": "0843f068fb7bd32c415a18292704ebd4361073db4070a78cf094a8135c9967ad"
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/emnlp/iclr2027/submissions/paper-2/EXPERIMENT_EVIDENCE_STATUS.md",
+      "sha256_at_completion": "5ae42b9fc3091ff616c9625111f00baee19527b168fbc8efc5024d3e37aa8466"
+    }
+  ],
+  "scope": "experiment documentation and evidence scope; manuscript LaTeX and original sealed studies unchanged"
+}

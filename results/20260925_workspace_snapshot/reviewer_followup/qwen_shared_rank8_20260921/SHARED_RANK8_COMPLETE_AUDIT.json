@@ -1,0 +1,26 @@
+{
+  "at": "2026-09-21T20:10:53+08:00",
+  "status": "passed",
+  "scope": "Only 12 tied shared rank8 formal fits; untied rank8 matrix still running",
+  "runs": [
+    "cluener_qwen25_15b_base_hidden_shared8_s6100",
+    "wikisql_qwen25_15b_base_hidden_shared8_s7100",
+    "cluener_qwen3_06b_base_hidden_shared8_s6100",
+    "wikisql_qwen3_06b_base_hidden_shared8_s7100",
+    "cluener_qwen25_15b_base_hidden_shared8_s6101",
+    "wikisql_qwen25_15b_base_hidden_shared8_s7101",
+    "cluener_qwen3_06b_base_hidden_shared8_s6101",
+    "wikisql_qwen3_06b_base_hidden_shared8_s7101",
+    "cluener_qwen25_15b_base_hidden_shared8_s6102",
+    "wikisql_qwen25_15b_base_hidden_shared8_s7102",
+    "cluener_qwen3_06b_base_hidden_shared8_s6102",
+    "wikisql_qwen3_06b_base_hidden_shared8_s7102"
+  ],
+  "results_sha256": "e14b965fae884a5aea6dd3d065c757680341505946178a247a768af9bb98c693",
+  "final_snapshot": {
+    "at": "2026-09-21T22:20:40+08:00",
+    "file": "SHARED_RANK8_FINAL_SNAPSHOT.json",
+    "sha256": "77aaf1ec37e98db23a313ef2cca68d2c115a0f5ed272b558fb4a8c9e6f5a6140"
+  },
+  "note": "Original results_sha256 records the then-current stage report; report timestamp regenerated after later untied jobs. Final stable snapshot is archived separately."
+}

@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "runs": [],
+  "note": "Historical metrics not reused; 72 fixed dev-only adapters reevaluated on new validation rows."
+}

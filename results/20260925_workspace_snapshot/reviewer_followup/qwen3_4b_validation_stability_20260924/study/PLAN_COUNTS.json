@@ -1,0 +1,8 @@
+{
+  "training_total": 102,
+  "evaluation_only": 72,
+  "fresh_formal": 25,
+  "smokes": 5,
+  "reused_results": 0,
+  "new_checkpoint_GiB": 3.7228832244873047
+}

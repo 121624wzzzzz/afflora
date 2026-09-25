@@ -1,0 +1,38 @@
+[
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen3_06b_chat_input_sd3001_lr5e-05",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/smoke_qwen3_06b_chat_input_sd3001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen3_06b_chat_output_sd3001_lr5e-05",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/smoke_qwen3_06b_chat_output_sd3001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen25_15b_chat_input_sd3001_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/smoke_qwen25_15b_chat_input_sd3001_lr5e-05"
+  },
+  {
+    "phase": "smoke",
+    "name": "smoke_qwen25_15b_chat_output_sd3001_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/smoke_qwen25_15b_chat_output_sd3001_lr5e-05"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-14T12:17:04+08:00",
+  "records": [
+    {
+      "name": "qwen25_7b_none_hr8_sd42",
+      "status": "passed",
+      "scores_sha256": "4c5bb85364633765f090f8eb0ca35366bb736573879d2bfdf1b817e1c92112b5",
+      "response_sha256": "111f9b55d993a5fdbf069dd1a7cbf6329000bef35de349bd104230d49e13c351",
+      "strict": 0.3068391866913124,
+      "valid539": 0.3079777365491651,
+      "cap_hit_rate": 0.8946395563770795,
+      "mean_tokens": 483.07948243992604
+    },
+    {
+      "name": "qwen25_7b_output_hr8_sd42",
+      "status": "passed",
+      "scores_sha256": "45d84e2c0cc5212bcb274d5cb419c9e6fa8dff5398df02d31f19c497de4adfab",
+      "response_sha256": "121e6dc45b0099cd018374e425ecb816915696df190d974ff29009fa52a73170",
+      "strict": 0.2828096118299446,
+      "valid539": 0.28385899814471244,
+      "cap_hit_rate": 0.988909426987061,
+      "mean_tokens": 509.40480591497226
+    },
+    {
+      "name": "qwen3_06b_none_hr8_sd42",
+      "status": "passed",
+      "scores_sha256": "b0360af5d11adcca4e98371d0fa6312c67f3076e7c1d6c0c3891c6b00b6662a6",
+      "response_sha256": "2c1337c45952553356d00c33d23fc3625c840989523e8cb8248aa2f6286ecacb",
+      "strict": 0.19963031423290203,
+      "valid539": 0.20037105751391465,
+      "cap_hit_rate": 1.0,
+      "mean_tokens": 512.0
+    },
+    {
+      "name": "qwen3_06b_output_hr8_sd42",
+      "status": "passed",
+      "scores_sha256": "46d531d4d133cba9f9bcefb85eccd53e573524edfdd59e8b2f4edb42683ed394",
+      "response_sha256": "1c1be1f3aa2fc333e1f0725df0d2aa5214a40a97d9ffc86142adee340e89398b",
+      "strict": 0.21256931608133087,
+      "valid539": 0.21335807050092764,
+      "cap_hit_rate": 1.0,
+      "mean_tokens": 512.0
+    },
+    {
+      "name": "qwen3_06b_both_hr8_sd42",
+      "status": "passed",
+      "scores_sha256": "8627f0c01e02ebea2be078b06e5bf76432bf0d60546f35343ebcd6f76c561c94",
+      "response_sha256": "b964fd74b6400cdb19b5261542160179e57cd74562b4bd45974417edd43e94be",
+      "strict": 0.21626617375231053,
+      "valid539": 0.21706864564007422,
+      "cap_hit_rate": 1.0,
+      "mean_tokens": 512.0
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr8_sd42",
+      "status": "passed",
+      "scores_sha256": "d153f506870d105a6acb60fee023f29cdd9731fbfe07f31d52cbb7ed76c2867c",
+      "response_sha256": "a48bb6c5842f2177394b31a2c9c209bd86a8175b9b78d8ddab2bf34990b6be37",
+      "strict": 0.2088724584103512,
+      "valid539": 0.20964749536178107,
+      "cap_hit_rate": 1.0,
+      "mean_tokens": 512.0
+    }
+  ]
+}

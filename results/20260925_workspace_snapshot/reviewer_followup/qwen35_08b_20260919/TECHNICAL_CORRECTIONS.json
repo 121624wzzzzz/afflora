@@ -1,0 +1,16 @@
+{
+  "status": "documented_before_fits",
+  "source_study": "qwen35_transfer_20260919",
+  "changes": [
+    "Generalized exact rank budget to unequal hybrid projection widths.",
+    "Check native tied/untied status and original FP32 tensor count per actual architecture.",
+    "Three new sizes form one family of 12 primary contrasts; 4B remains a historical family-4 result.",
+    "Add a repeated initial forward/backward probe before formal admission; freeze final numerical policy only after these technical probes."
+  ],
+  "preserved": [
+    "2048 training examples, 64 steps, microbatch 2, optimizer and native training/evaluation precision",
+    "Same verified prompts/data/metrics, LR grid, 2 dev and 5 confirmation seeds",
+    "All native text projections and boundary parameterization"
+  ],
+  "known_limitation": "Sealed 4B initial BF16 first-batch losses were not universally identical across jobs despite verified paired initialization. No claim that this explains all effects or is resolved."
+}

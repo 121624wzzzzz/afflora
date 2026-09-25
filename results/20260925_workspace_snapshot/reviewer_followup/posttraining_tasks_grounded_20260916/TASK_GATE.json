@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-16T17:26:21+08:00",
+  "status": "passed",
+  "tasks": [
+    "toolace",
+    "cluener"
+  ],
+  "evidence": [
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "base": 29.5,
+      "hidden": 66.5,
+      "delta": 37.0
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "base": 29.5,
+      "hidden": 66.0,
+      "delta": 36.5
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "base": 0.4884004884004884,
+      "hidden": 59.75359342915811,
+      "delta": 59.26519294075762
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "base": 0.0,
+      "hidden": 64.87603305785125,
+      "delta": 64.87603305785125
+    }
+  ],
+  "reason": "Both tasks have substantial positive-control learning, gold-independent content scoring, no test outputs observed, and no A-LoRA scores used for task selection. Few-shot Base diagnostics remain descriptive."
+}

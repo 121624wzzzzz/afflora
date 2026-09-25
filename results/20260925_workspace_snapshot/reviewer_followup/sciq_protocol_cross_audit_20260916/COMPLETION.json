@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-16T15:06:31+08:00",
+  "status": "complete",
+  "training_runs": 0,
+  "cross_inference_conditions": 16,
+  "thinking_generated_rows": 1000,
+  "clean_rows_per_condition": 998,
+  "audit": {
+    "source_sealed_files_reverified": 1175,
+    "cross_prediction_rows_recomputed": 16000,
+    "thinking_generations_redecoded": 1000,
+    "standard_sft_shift_checks": 4,
+    "original_reference_prediction_flips": 0
+  },
+  "report": "INTERPRETATION_ZH.md",
+  "interpretation_notice": "INTERPRETATION_NOTICE.json",
+  "thinking_accuracy": 83.86773547094188
+}

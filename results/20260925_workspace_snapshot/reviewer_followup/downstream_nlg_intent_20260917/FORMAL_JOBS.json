@@ -1,0 +1,514 @@
+[
+  {
+    "name": "banking77_qwen3_06b_base_base",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "base",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_base",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "base",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_base",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "base",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_base",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "base",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_s8100",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_budget_s8100",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_both_s8100",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_s8100",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_budget_s8100",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_both_s8100",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_s8100",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8100",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_both_s8100",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_s8100",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8100",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_both_s8100",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8100,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_s8101",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_budget_s8101",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_both_s8101",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_s8101",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_budget_s8101",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_both_s8101",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_s8101",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8101",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_both_s8101",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_s8101",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8101",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_both_s8101",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8101,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_s8102",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_budget_s8102",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_both_s8102",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_s8102",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_budget_s8102",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_both_s8102",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_s8102",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8102",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_both_s8102",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_s8102",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8102",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_both_s8102",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8102,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_s8103",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_budget_s8103",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_both_s8103",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_s8103",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_budget_s8103",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_both_s8103",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_s8103",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8103",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_both_s8103",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_s8103",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8103",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_both_s8103",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8103,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_s8104",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_budget_s8104",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen3_06b_base_hidden_both_s8104",
+    "task": "banking77",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_s8104",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_budget_s8104",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "banking77_qwen25_15b_base_hidden_both_s8104",
+    "task": "banking77",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_s8104",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_budget_s8104",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen3_06b_base_hidden_both_s8104",
+    "task": "e2e_clean",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_s8104",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_budget_s8104",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 8104,
+    "lr": 0.0002
+  },
+  {
+    "name": "e2e_clean_qwen25_15b_base_hidden_both_s8104",
+    "task": "e2e_clean",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 8104,
+    "lr": 0.0002
+  }
+]

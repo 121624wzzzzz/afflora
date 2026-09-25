@@ -1,0 +1,248 @@
+{
+  "jobs": {
+    "qwen3_06b_chat_none_hr8_sd1001": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_none_hr8_sd1001.evaluate.log",
+      "stage_started_at": "2026-09-15T14:46:44+08:00",
+      "completed_at": "2026-09-15T14:58:56+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd1001": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd1001.evaluate.log",
+      "stage_started_at": "2026-09-15T14:46:46+08:00",
+      "completed_at": "2026-09-15T14:59:15+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd1001": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_both_hr8_sd1001.evaluate.log",
+      "stage_started_at": "2026-09-15T14:46:46+08:00",
+      "completed_at": "2026-09-15T14:59:23+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd1001": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_none_hr8_sd1001.evaluate.log",
+      "stage_started_at": "2026-09-15T14:48:52+08:00",
+      "completed_at": "2026-09-15T15:08:36+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd1001": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_both_hr8_sd1001.evaluate.log",
+      "stage_started_at": "2026-09-15T14:48:53+08:00",
+      "completed_at": "2026-09-15T15:08:55+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd1001": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd1001.evaluate.log",
+      "stage_started_at": "2026-09-15T14:48:55+08:00",
+      "completed_at": "2026-09-15T15:08:37+08:00"
+    },
+    "qwen3_06b_chat_none_hr8_sd1002": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_none_hr8_sd1002.evaluate.log",
+      "stage_started_at": "2026-09-15T14:46:43+08:00",
+      "completed_at": "2026-09-15T14:59:15+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd1002": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_both_hr8_sd1002.evaluate.log",
+      "stage_started_at": "2026-09-15T14:46:48+08:00",
+      "completed_at": "2026-09-15T14:59:24+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd1002": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd1002.evaluate.log",
+      "stage_started_at": "2026-09-15T15:06:40+08:00",
+      "completed_at": "2026-09-15T15:19:14+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd1002": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_none_hr8_sd1002.evaluate.log",
+      "stage_started_at": "2026-09-15T15:09:07+08:00",
+      "completed_at": "2026-09-15T15:29:37+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd1002": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_both_hr8_sd1002.evaluate.log",
+      "stage_started_at": "2026-09-15T15:09:10+08:00",
+      "completed_at": "2026-09-15T15:29:53+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd1002": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd1002.evaluate.log",
+      "stage_started_at": "2026-09-15T15:09:20+08:00",
+      "completed_at": "2026-09-15T15:29:42+08:00"
+    },
+    "qwen3_06b_chat_none_hr8_sd1003": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_none_hr8_sd1003.evaluate.log",
+      "stage_started_at": "2026-09-15T15:07:06+08:00",
+      "completed_at": "2026-09-15T15:19:42+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd1003": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_both_hr8_sd1003.evaluate.log",
+      "stage_started_at": "2026-09-15T15:16:18+08:00",
+      "completed_at": "2026-09-15T15:28:58+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd1003": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd1003.evaluate.log",
+      "stage_started_at": "2026-09-15T15:16:21+08:00",
+      "completed_at": "2026-09-15T15:29:00+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd1003": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_none_hr8_sd1003.evaluate.log",
+      "stage_started_at": "2026-09-15T15:18:44+08:00",
+      "completed_at": "2026-09-15T15:39:06+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd1003": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_both_hr8_sd1003.evaluate.log",
+      "stage_started_at": "2026-09-15T15:29:08+08:00",
+      "completed_at": "2026-09-15T15:49:39+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd1003": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd1003.evaluate.log",
+      "stage_started_at": "2026-09-15T15:29:35+08:00",
+      "completed_at": "2026-09-15T15:49:53+08:00"
+    },
+    "qwen3_06b_chat_none_hr8_sd1004": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_none_hr8_sd1004.evaluate.log",
+      "stage_started_at": "2026-09-15T15:36:39+08:00",
+      "completed_at": "2026-09-15T15:49:18+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd1004": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_both_hr8_sd1004.evaluate.log",
+      "stage_started_at": "2026-09-15T15:36:46+08:00",
+      "completed_at": "2026-09-15T15:49:27+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd1004": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd1004.evaluate.log",
+      "stage_started_at": "2026-09-15T15:37:20+08:00",
+      "completed_at": "2026-09-15T15:50:17+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd1004": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_none_hr8_sd1004.evaluate.log",
+      "stage_started_at": "2026-09-15T15:39:33+08:00",
+      "completed_at": "2026-09-15T16:00:07+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd1004": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_both_hr8_sd1004.evaluate.log",
+      "stage_started_at": "2026-09-15T15:39:48+08:00",
+      "completed_at": "2026-09-15T16:00:14+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd1004": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd1004.evaluate.log",
+      "stage_started_at": "2026-09-15T15:48:59+08:00",
+      "completed_at": "2026-09-15T16:09:30+08:00"
+    },
+    "qwen3_06b_chat_none_hr8_sd1005": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_none_hr8_sd1005.evaluate.log",
+      "stage_started_at": "2026-09-15T15:57:01+08:00",
+      "completed_at": "2026-09-15T16:09:26+08:00"
+    },
+    "qwen3_06b_chat_both_hr8_sd1005": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_both_hr8_sd1005.evaluate.log",
+      "stage_started_at": "2026-09-15T15:57:11+08:00",
+      "completed_at": "2026-09-15T16:09:53+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd1005": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen3_06b_chat_hidden_budget_hr8_sd1005.evaluate.log",
+      "stage_started_at": "2026-09-15T15:57:25+08:00",
+      "completed_at": "2026-09-15T16:10:01+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd1005": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_none_hr8_sd1005.evaluate.log",
+      "stage_started_at": "2026-09-15T15:59:47+08:00",
+      "completed_at": "2026-09-15T16:19:37+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd1005": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_both_hr8_sd1005.evaluate.log",
+      "stage_started_at": "2026-09-15T16:00:15+08:00",
+      "completed_at": "2026-09-15T16:20:17+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd1005": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/logs/qwen25_15b_chat_hidden_budget_hr8_sd1005.evaluate.log",
+      "stage_started_at": "2026-09-15T16:10:04+08:00",
+      "completed_at": "2026-09-15T16:29:59+08:00"
+    }
+  },
+  "created_at": "2026-09-15T14:38:59+08:00",
+  "phase": "complete",
+  "scheduler_pid": 3038890,
+  "updated_at": "2026-09-15T16:29:59+08:00"
+}

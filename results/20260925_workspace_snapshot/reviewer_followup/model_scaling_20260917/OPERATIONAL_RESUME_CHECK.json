@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-17T17:20:02+08:00",
+  "status": "passed",
+  "completed_runs": [
+    "smoke_cluener_qwen25_3b_base_hidden_both",
+    "smoke_wikisql_qwen25_3b_base_hidden_budget",
+    "smoke_cluener_qwen25_7b_base_hidden_both",
+    "smoke_wikisql_qwen25_7b_base_hidden_budget",
+    "cluener_qwen25_3b_base_base",
+    "cluener_qwen25_7b_base_base",
+    "wikisql_qwen25_3b_base_base",
+    "wikisql_qwen25_7b_base_base",
+    "cluener_qwen25_3b_base_hidden_s6100",
+    "cluener_qwen25_3b_base_hidden_budget_s6100",
+    "cluener_qwen25_3b_base_hidden_both_s6100",
+    "cluener_qwen25_7b_base_hidden_s6100"
+  ],
+  "adapter_files_rehashed": 8,
+  "evaluation_response_files_rehashed": 20,
+  "gpu_pool": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "minimum_free_memory_before_launch_MiB": 49152
+}

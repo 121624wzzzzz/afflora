@@ -1,0 +1,30 @@
+{
+  "models": [
+    "Qwen3.5-0.8B-Base",
+    "Qwen3.5-2B-Base",
+    "Qwen3.5-9B-Base"
+  ],
+  "historical_anchor": "Qwen3.5-4B-Base; sealed study unchanged",
+  "new_jobs": 342,
+  "primary_contrast_family": 12,
+  "tuning_seeds": [
+    7600,
+    7601
+  ],
+  "confirmation_seeds": [
+    7700,
+    7701,
+    7702,
+    7703,
+    7704
+  ],
+  "tasks": [
+    "wikisql",
+    "trec50"
+  ],
+  "resource_rule": "At most one study GPU worker per eligible GPU with 68 GiB free; other users untouched. Technical GPUs 7/1/2 are reserved for 0.8B/2B/9B until each is READY; completed sizes can begin independently.",
+  "stage": "All41 completed old-policy jobs audited and archived; no old workers or dispatcher remain. Superseded by qwen35_fixed_multiscale_20260920.",
+  "dispatcher_sha256": "4046ac37ab8e0b1bbff807e43df4787b06ed61e8fea2fdbae7d763de633204c6",
+  "updated_at": "2026-09-19T23:08:34.534858+08:00",
+  "status": "retired_incomplete"
+}

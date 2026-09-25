@@ -1,0 +1,64 @@
+{
+  "at": "2026-09-17T16:13:03+08:00",
+  "counts": {
+    "cluener_train": 2048,
+    "cluener_dev": 200,
+    "cluener_test": 1343,
+    "wikisql_train": 2048,
+    "wikisql_dev": 256,
+    "wikisql_test": 1024
+  },
+  "lengths": {
+    "cluener_qwen25_3b_base_train": {
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen25_7b_base_train": {
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen25_3b_base_dev": {
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen25_7b_base_dev": {
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen25_3b_base_test": {
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen25_7b_base_test": {
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "wikisql_qwen25_3b_base_train": {
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen25_7b_base_train": {
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen25_3b_base_dev": {
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen25_7b_base_dev": {
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen25_3b_base_test": {
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen25_7b_base_test": {
+      "max_prompt": 454,
+      "max_target": 62
+    }
+  },
+  "prompt_and_target_reuse_verified": 6919,
+  "anchor_outputs_rescored": 37872,
+  "status": "passed"
+}

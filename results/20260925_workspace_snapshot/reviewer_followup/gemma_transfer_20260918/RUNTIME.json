@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-18T22:18:36+08:00",
+  "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "platform": "Linux-5.4.0-100-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.4.1+cu124",
+    "transformers": "5.6.2",
+    "peft": "0.19.1",
+    "safetensors": "0.7.0",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "babel": "2.18.0",
+    "matplotlib": "3.10.9"
+  },
+  "native_sources": {
+    "/home/wz/anaconda3/envs/torch24/lib/python3.10/site-packages/transformers/models/gemma2/modeling_gemma2.py": "3f4bfffad51ceef61f1db793887fb0905cd32c9488357687853c073a61774ec5",
+    "/home/wz/anaconda3/envs/torch24/lib/python3.10/site-packages/transformers/models/gemma2/configuration_gemma2.py": "d81e5abd688436da573ae299a65598d01ea871a8874d0cabeb5149967855ca07",
+    "/home/wz/anaconda3/envs/torch24/lib/python3.10/site-packages/transformers/loss/loss_utils.py": "3df3438f0cb80cb7b903d6d06f522839756f4ca9301a02d793748ae099c27d9f"
+  }
+}

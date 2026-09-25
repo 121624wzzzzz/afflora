@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-19T12:41:07+08:00",
+  "status": "passed",
+  "smokes": 10,
+  "shared_tensors_compared": 4464,
+  "native_formula_audit_sha256": "5a2e7dc2ccef685ac868702cc1bc31eecfe4faaf0d9b595b39ee4cae37d74422",
+  "technical_repetition": []
+}

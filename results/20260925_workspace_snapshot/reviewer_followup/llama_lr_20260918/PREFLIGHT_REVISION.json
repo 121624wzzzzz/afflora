@@ -1,0 +1,32 @@
+{
+  "revision": 2,
+  "archive": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/llama_lr_20260918_preflight_v1",
+  "archive_manifest_sha256": "0ef08802fbb4741439d50d24e006648cb8fd266d5046af80829d8fc21d03f039",
+  "diagnosis": {
+    "status": "passed",
+    "checks": [
+      {
+        "name": "diagnostic_original_hidden_budget_s7100_gpu1",
+        "initial_final_tensors_and_history_exact": true,
+        "adapter_sha256": "2c4c9d3f3794dcf674a29a676db8de5030655e594beb0290d58ab47f79ef9210"
+      },
+      {
+        "name": "diagnostic_original_hidden_budget_s7100_gpu7",
+        "initial_final_tensors_and_history_exact": true,
+        "adapter_sha256": "2c4c9d3f3794dcf674a29a676db8de5030655e594beb0290d58ab47f79ef9210"
+      },
+      {
+        "name": "diagnostic_cpu_instrumentation_hidden_budget_s7100",
+        "initial_final_tensors_and_history_exact": true,
+        "adapter_sha256": "2c4c9d3f3794dcf674a29a676db8de5030655e594beb0290d58ab47f79ef9210"
+      }
+    ],
+    "finding": "Unmodified original training exactly reproduced on GPUs 1 and 7; CPU instrumentation exactly reproduced it. GPU instrumentation changed budget-H trajectory. Precise CUDA allocation/kernel mechanism not identified.",
+    "original_script_sha256": "abdccd4244f816475d7397088e39274937bb2b85a5996a7e7ec9431a372aea48",
+    "cpu_probe_script_sha256": "d21e08811c90648a0b309bcda308bfdfc694925976856260692a14be97c4523c",
+    "scope": "No search fits or confirmation responses have been generated; only preflight/diagnostic fits."
+  },
+  "unchanged": "Candidates, search/confirmation seeds, datasets, optimizer equations, clipping, parameter counts, selection and analysis rules.",
+  "changed": "Diagnostic gradient norms and parameter-update snapshots are computed on CPU, avoiding added CUDA tensor allocations.",
+  "validation": "Repeat all six smoke fits and both full exact-compatibility fits before search admission."
+}

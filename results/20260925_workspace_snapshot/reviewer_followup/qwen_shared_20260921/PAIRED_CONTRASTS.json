@@ -1,0 +1,322 @@
+[
+  {
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "rank": 16,
+    "comparisons": {
+      "hidden": {
+        "mean": 2.7217727013260316,
+        "seed_deltas": [
+          2.875734837434372,
+          3.1349000165501266,
+          2.154683249993596
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 2.669072205301596,
+        "seed_deltas": [
+          2.841737412676345,
+          3.11838204709381,
+          2.047097156134633
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_both": {
+        "mean": -0.5240257641613179,
+        "seed_deltas": [
+          -0.07029469758823126,
+          -0.6356456515705631,
+          -0.8661369433251593
+        ],
+        "positive": 0,
+        "ties": 0,
+        "negative": 3
+      }
+    }
+  },
+  {
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "rank": 32,
+    "comparisons": {
+      "hidden": {
+        "mean": 3.426513065635106,
+        "seed_deltas": [
+          2.760107340235642,
+          3.8477004398817414,
+          3.671731416787935
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 3.3738125696106707,
+        "seed_deltas": [
+          2.7261099154776147,
+          3.831182470425425,
+          3.5641453229289723
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_both": {
+        "mean": 0.18071460014775673,
+        "seed_deltas": [
+          -0.18592219478696137,
+          0.07715477176105168,
+          0.6509112234691798
+        ],
+        "positive": 2,
+        "ties": 0,
+        "negative": 1
+      }
+    }
+  },
+  {
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "rank": 16,
+    "comparisons": {
+      "hidden": {
+        "mean": 1.66015625,
+        "seed_deltas": [
+          1.66015625,
+          3.125,
+          0.1953125
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 1.3346354166666667,
+        "seed_deltas": [
+          1.5625,
+          2.83203125,
+          -0.390625
+        ],
+        "positive": 2,
+        "ties": 0,
+        "negative": 1
+      },
+      "hidden_both": {
+        "mean": -0.6510416666666666,
+        "seed_deltas": [
+          -0.5859375,
+          -0.1953125,
+          -1.171875
+        ],
+        "positive": 0,
+        "ties": 0,
+        "negative": 3
+      }
+    }
+  },
+  {
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "rank": 32,
+    "comparisons": {
+      "hidden": {
+        "mean": 1.7252604166666667,
+        "seed_deltas": [
+          1.7578125,
+          3.125,
+          0.29296875
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 1.3997395833333333,
+        "seed_deltas": [
+          1.66015625,
+          2.83203125,
+          -0.29296875
+        ],
+        "positive": 2,
+        "ties": 0,
+        "negative": 1
+      },
+      "hidden_both": {
+        "mean": -0.5859375,
+        "seed_deltas": [
+          -0.48828125,
+          -0.1953125,
+          -1.07421875
+        ],
+        "positive": 0,
+        "ties": 0,
+        "negative": 3
+      }
+    }
+  },
+  {
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "rank": 16,
+    "comparisons": {
+      "hidden": {
+        "mean": 1.1709885033518763,
+        "seed_deltas": [
+          0.7392791370691967,
+          1.5375943142338002,
+          1.2360920587526323
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 1.0019721945577704,
+        "seed_deltas": [
+          0.4543567255078358,
+          1.588683394742965,
+          0.9628764634225107
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_both": {
+        "mean": 0.1120594212539956,
+        "seed_deltas": [
+          0.32824687036682576,
+          -0.015742509139236915,
+          0.02367390253439794
+        ],
+        "positive": 2,
+        "ties": 0,
+        "negative": 1
+      }
+    }
+  },
+  {
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "rank": 32,
+    "comparisons": {
+      "hidden": {
+        "mean": 1.471539810058265,
+        "seed_deltas": [
+          1.412958626073383,
+          1.737215723647644,
+          1.2644450804537684
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 1.3025235012641592,
+        "seed_deltas": [
+          1.1280362145120222,
+          1.7883048041568088,
+          0.9912294851236467
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_both": {
+        "mean": 0.41261072796038434,
+        "seed_deltas": [
+          1.0019263593710122,
+          0.18387890027460685,
+          0.05202692423553401
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      }
+    }
+  },
+  {
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "rank": 16,
+    "comparisons": {
+      "hidden": {
+        "mean": 1.3346354166666667,
+        "seed_deltas": [
+          1.171875,
+          0.87890625,
+          1.953125
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 1.07421875,
+        "seed_deltas": [
+          1.26953125,
+          0.5859375,
+          1.3671875
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_both": {
+        "mean": -0.09765625,
+        "seed_deltas": [
+          0.29296875,
+          -0.390625,
+          -0.1953125
+        ],
+        "positive": 1,
+        "ties": 0,
+        "negative": 2
+      }
+    }
+  },
+  {
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "rank": 32,
+    "comparisons": {
+      "hidden": {
+        "mean": 1.1067708333333333,
+        "seed_deltas": [
+          0.1953125,
+          1.46484375,
+          1.66015625
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_budget": {
+        "mean": 0.8463541666666666,
+        "seed_deltas": [
+          0.29296875,
+          1.171875,
+          1.07421875
+        ],
+        "positive": 3,
+        "ties": 0,
+        "negative": 0
+      },
+      "hidden_both": {
+        "mean": -0.3255208333333333,
+        "seed_deltas": [
+          -0.68359375,
+          0.1953125,
+          -0.48828125
+        ],
+        "positive": 1,
+        "ties": 0,
+        "negative": 2
+      }
+    }
+  }
+]

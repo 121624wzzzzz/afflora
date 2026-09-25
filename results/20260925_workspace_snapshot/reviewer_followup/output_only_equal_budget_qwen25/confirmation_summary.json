@@ -1,0 +1,261 @@
+{
+  "experiment": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25",
+  "final_selection": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/final_selection.json",
+  "selected_hyperparameters": {
+    "aff_r50": {
+      "scale": 16,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "seed42_run_name": "qwen25_15b_out_aff_r50_s16_sd42",
+      "dev_avg_ce_used_for_selection": 1.102785798905362
+    },
+    "vocab_r1": {
+      "scale": 32,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "seed42_run_name": "qwen25_15b_out_vocab_r1_s32_sd42",
+      "dev_avg_ce_used_for_selection": 0.9997326839172337
+    }
+  },
+  "estimand": {
+    "metric": "token-weighted assistant-only cross-entropy",
+    "difference": "A-LoRA minus Vocab-LoRA",
+    "better_direction": "negative",
+    "primary_split": "corrected test",
+    "primary_inferential_unit": "independently trained seed"
+  },
+  "validation": {
+    "status": "passed",
+    "reports_validated": 16,
+    "comparisons_validated": 8,
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "splits": [
+      "dev",
+      "test"
+    ],
+    "examples_per_report": 1000,
+    "bootstrap_recomputed": true,
+    "test_used_for_selection": false
+  },
+  "primary_test_independent_seeds": {
+    "role": "primary confirmation; only independently trained seeds 43-45 enter the seed-level paired-t interval",
+    "per_seed": [
+      {
+        "seed": 43,
+        "aff_ce": 1.1220989133941783,
+        "vocab_ce": 1.019337399942296,
+        "delta_ce_aff_minus_vocab": 0.10276151345188222,
+        "direction": "vocab_better",
+        "per_example_bootstrap_ci95": [
+          0.09963045287505036,
+          0.10600015942280888
+        ],
+        "per_example_probability_aff_better": 0.0
+      },
+      {
+        "seed": 44,
+        "aff_ce": 1.12213308515662,
+        "vocab_ce": 1.0172548044654017,
+        "delta_ce_aff_minus_vocab": 0.1048782806912183,
+        "direction": "vocab_better",
+        "per_example_bootstrap_ci95": [
+          0.10169839772588757,
+          0.10821425298919031
+        ],
+        "per_example_probability_aff_better": 0.0
+      },
+      {
+        "seed": 45,
+        "aff_ce": 1.1222277890860206,
+        "vocab_ce": 1.0195432737069638,
+        "delta_ce_aff_minus_vocab": 0.10268451537905676,
+        "direction": "vocab_better",
+        "per_example_bootstrap_ci95": [
+          0.09946671649683034,
+          0.10588619178267003
+        ],
+        "per_example_probability_aff_better": 0.0
+      }
+    ],
+    "summary": {
+      "n_seeds": 3,
+      "aff_ce_mean": 1.1221532625456063,
+      "aff_ce_sample_sd": 6.67651200604384e-05,
+      "vocab_ce_mean": 1.0187118260382206,
+      "vocab_ce_sample_sd": 0.001266009438941596,
+      "delta_ce_aff_minus_vocab_mean": 0.10344143650738576,
+      "delta_ce_aff_minus_vocab_sample_sd": 0.001244938987366347,
+      "directions": {
+        "aff_better_delta_lt_0": 0,
+        "vocab_better_delta_gt_0": 3,
+        "ties_delta_eq_0": 0
+      },
+      "paired_t_df": 2,
+      "paired_t_critical_975": 4.302652729696142,
+      "paired_t_ci95": [
+        0.10034883662007907,
+        0.10653403639469244
+      ],
+      "paired_t_ci95_contains_zero": false
+    }
+  },
+  "selected_seed42_test_descriptive": {
+    "role": "reported separately because seed42 dev selected the hyperparameters; excluded from the primary interval",
+    "seed": 42,
+    "aff_ce": 1.1225713142507387,
+    "vocab_ce": 1.0192683867358105,
+    "delta_ce_aff_minus_vocab": 0.1033029275149282,
+    "direction": "vocab_better",
+    "per_example_bootstrap_ci95": [
+      0.10019602312941438,
+      0.10657735055155662
+    ],
+    "per_example_probability_aff_better": 0.0
+  },
+  "four_seed_test_descriptive": {
+    "role": "descriptive only; no confirmatory interval",
+    "per_seed": [
+      {
+        "seed": 42,
+        "aff_ce": 1.1225713142507387,
+        "vocab_ce": 1.0192683867358105,
+        "delta_ce_aff_minus_vocab": 0.1033029275149282,
+        "direction": "vocab_better",
+        "per_example_bootstrap_ci95": [
+          0.10019602312941438,
+          0.10657735055155662
+        ],
+        "per_example_probability_aff_better": 0.0
+      },
+      {
+        "seed": 43,
+        "aff_ce": 1.1220989133941783,
+        "vocab_ce": 1.019337399942296,
+        "delta_ce_aff_minus_vocab": 0.10276151345188222,
+        "direction": "vocab_better",
+        "per_example_bootstrap_ci95": [
+          0.09963045287505036,
+          0.10600015942280888
+        ],
+        "per_example_probability_aff_better": 0.0
+      },
+      {
+        "seed": 44,
+        "aff_ce": 1.12213308515662,
+        "vocab_ce": 1.0172548044654017,
+        "delta_ce_aff_minus_vocab": 0.1048782806912183,
+        "direction": "vocab_better",
+        "per_example_bootstrap_ci95": [
+          0.10169839772588757,
+          0.10821425298919031
+        ],
+        "per_example_probability_aff_better": 0.0
+      },
+      {
+        "seed": 45,
+        "aff_ce": 1.1222277890860206,
+        "vocab_ce": 1.0195432737069638,
+        "delta_ce_aff_minus_vocab": 0.10268451537905676,
+        "direction": "vocab_better",
+        "per_example_bootstrap_ci95": [
+          0.09946671649683034,
+          0.10588619178267003
+        ],
+        "per_example_probability_aff_better": 0.0
+      }
+    ],
+    "summary": {
+      "n_seeds": 4,
+      "aff_ce_mean": 1.1222577754718894,
+      "aff_ce_sample_sd": 0.000216017424942578,
+      "vocab_ce_mean": 1.018850966212618,
+      "vocab_ce_sample_sd": 0.001070495159035422,
+      "delta_ce_aff_minus_vocab_mean": 0.10340680925927137,
+      "delta_ce_aff_minus_vocab_sample_sd": 0.0010188448884681772,
+      "directions": {
+        "aff_better_delta_lt_0": 0,
+        "vocab_better_delta_gt_0": 4,
+        "ties_delta_eq_0": 0
+      }
+    }
+  },
+  "validated_comparisons": {
+    "seed42_dev": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd42_dev.json",
+      "delta_ce_aff_minus_vocab": 0.10305311498812825,
+      "per_example_bootstrap_ci95": [
+        0.09982803921728522,
+        0.1064045899245181
+      ],
+      "per_example_probability_aff_better": 0.0
+    },
+    "seed42_test": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd42_test.json",
+      "delta_ce_aff_minus_vocab": 0.10330292751492814,
+      "per_example_bootstrap_ci95": [
+        0.10019602312941438,
+        0.10657735055155662
+      ],
+      "per_example_probability_aff_better": 0.0
+    },
+    "seed43_dev": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd43_dev.json",
+      "delta_ce_aff_minus_vocab": 0.10183567891813118,
+      "per_example_bootstrap_ci95": [
+        0.09864077885280129,
+        0.10514796156008978
+      ],
+      "per_example_probability_aff_better": 0.0
+    },
+    "seed43_test": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd43_test.json",
+      "delta_ce_aff_minus_vocab": 0.10276151345188228,
+      "per_example_bootstrap_ci95": [
+        0.09963045287505036,
+        0.10600015942280888
+      ],
+      "per_example_probability_aff_better": 0.0
+    },
+    "seed44_dev": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd44_dev.json",
+      "delta_ce_aff_minus_vocab": 0.10366280766206314,
+      "per_example_bootstrap_ci95": [
+        0.1003520539553597,
+        0.10698022523864949
+      ],
+      "per_example_probability_aff_better": 0.0
+    },
+    "seed44_test": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd44_test.json",
+      "delta_ce_aff_minus_vocab": 0.10487828069121835,
+      "per_example_bootstrap_ci95": [
+        0.10169839772588757,
+        0.10821425298919031
+      ],
+      "per_example_probability_aff_better": 0.0
+    },
+    "seed45_dev": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd45_dev.json",
+      "delta_ce_aff_minus_vocab": 0.10300978611096288,
+      "per_example_bootstrap_ci95": [
+        0.09974725832515814,
+        0.10635266944660283
+      ],
+      "per_example_probability_aff_better": 0.0
+    },
+    "seed45_test": {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/phase2_v2_comparisons/vocab_s32_vs_aff_s16_sd45_test.json",
+      "delta_ce_aff_minus_vocab": 0.10268451537905679,
+      "per_example_bootstrap_ci95": [
+        0.09946671649683034,
+        0.10588619178267003
+      ],
+      "per_example_probability_aff_better": 0.0
+    }
+  }
+}

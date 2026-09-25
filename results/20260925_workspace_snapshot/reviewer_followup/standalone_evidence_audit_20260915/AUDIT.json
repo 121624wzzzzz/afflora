@@ -1,0 +1,239 @@
+{
+  "at": "2026-09-15T20:39:22+08:00",
+  "status": "passed",
+  "scope": "Existing artifact consistency and parameter count; no new model inference or training.",
+  "original_frozen_source_data_hashes_verified": 15,
+  "reports_recomputed": 28,
+  "standalone_checkpoints_inspected": 12,
+  "model_weight_provenance": "Original config hashes and weight size/mtime verified; original study did not seal full weight hashes.",
+  "rows": [
+    {
+      "model": "qwen3_06b",
+      "placement": "none",
+      "hidden_rank": 0,
+      "seeds": [
+        null
+      ],
+      "trainable_parameters": 0,
+      "test_ce_mean": 1.8757294097064785,
+      "test_ce_per_seed": [
+        1.8757294097064785
+      ],
+      "checkpoint_current_sha256": []
+    },
+    {
+      "model": "qwen3_06b",
+      "placement": "input",
+      "hidden_rank": 0,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "trainable_parameters": 33792,
+      "test_ce_mean": 1.4779537779563254,
+      "test_ce_per_seed": [
+        1.47715285592125,
+        1.478562068854155,
+        1.4781464090935716
+      ],
+      "checkpoint_current_sha256": [
+        "bf3edadf6429751c2165e6adcf83b2e0e9ef8fb0a45417857068708bcf9f26db",
+        "5df7ace7207b53851abc1adb78ada1da8cb85ca1d68831aa4ceae14cbdae35b9",
+        "62c015d941bae398cd894feddf20185f69492c85675a62751cf41fe4831fa5de"
+      ],
+      "nominal_seed_ci95": [
+        1.4761550489542645,
+        1.4797525069583863
+      ],
+      "same_rank16_vocab_input_parameter_formula": 2447360,
+      "same_rank_parameter_ratio_vocab_over_affine": 72.42424242424242,
+      "parameter_comparison_note": "Algebraic same-rank, single-matrix count only; no matched-performance comparison."
+    },
+    {
+      "model": "qwen3_06b",
+      "placement": "output",
+      "hidden_rank": 0,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "trainable_parameters": 32768,
+      "test_ce_mean": 1.5486382526808933,
+      "test_ce_per_seed": [
+        1.5476582422628908,
+        1.5497575778105488,
+        1.5484989379692404
+      ],
+      "checkpoint_current_sha256": [
+        "153d2656239534caa14f8984511103a7eaab6b4bd99bc89ec0f3f605c48356a9",
+        "6805007db9a5d7afb05a42a9295a0785e56ba6c8cd03212451d0e1d4fef13a78",
+        "f751c4493a25d751714e2479d96eecf13747769524ecee4d83fc0feb75fb7495"
+      ],
+      "nominal_seed_ci95": [
+        1.546013565301364,
+        1.5512629400604225
+      ]
+    },
+    {
+      "model": "qwen25_7b",
+      "placement": "none",
+      "hidden_rank": 0,
+      "seeds": [
+        null
+      ],
+      "trainable_parameters": 0,
+      "test_ce_mean": 1.6577046539933904,
+      "test_ce_per_seed": [
+        1.6577046539933904
+      ],
+      "checkpoint_current_sha256": []
+    },
+    {
+      "model": "qwen25_7b",
+      "placement": "input",
+      "hidden_rank": 0,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "trainable_parameters": 118272,
+      "test_ce_mean": 1.2665949361442277,
+      "test_ce_per_seed": [
+        1.2672780023962147,
+        1.2671596050891134,
+        1.2653472009473548
+      ],
+      "checkpoint_current_sha256": [
+        "f732e2726fe02d04a04b23818761f64782d4d1d4f6deae62866530d31bd52634",
+        "9c85b868f618884f00afd633408addd7562be20d3c0aa3900325c7f52e320725",
+        "b64d4eec5aaa119abf6ca127f286c75a0b245fbcd35a4b2903c910276b03b084"
+      ],
+      "nominal_seed_ci95": [
+        1.2639066252880664,
+        1.269283247000389
+      ],
+      "same_rank16_vocab_input_parameter_formula": 2490368,
+      "same_rank_parameter_ratio_vocab_over_affine": 21.056277056277057,
+      "parameter_comparison_note": "Algebraic same-rank, single-matrix count only; no matched-performance comparison."
+    },
+    {
+      "model": "qwen25_7b",
+      "placement": "output",
+      "hidden_rank": 0,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "trainable_parameters": 114688,
+      "test_ce_mean": 1.368168008056443,
+      "test_ce_per_seed": [
+        1.3676934043165623,
+        1.3674210084404255,
+        1.3693896114123412
+      ],
+      "checkpoint_current_sha256": [
+        "a58d7292ce6fa0fb9e9632ad32bacbc5c00e07f51fe4eb5597cd1638a43d8446",
+        "358fcfae8bbb96425de3978a51a01589a5a948de6a52f88d7995d098d49ec065",
+        "da5eff5c1f4b5042caa3872f85787b51639365d53b18eecb2c3dc412e2c89ad3"
+      ],
+      "nominal_seed_ci95": [
+        1.3655182516504571,
+        1.3708177644624286
+      ]
+    }
+  ],
+  "source_artifact_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_none_hr0_base.dev.json": "35f7f500b86a6a3b113f611a226da8f3fb51e3dab1be7dc85c11c2fc09099d1e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_none_hr0_base.test.json": "9403a8a52f9f4c64331c56f0fa8ae1ce2021efbc94d2f9b55647c2be5a76c308",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_input_hr0_sd42.dev.json": "86a9d9bb6bbadc9aff3b9247854f405ccfc679c222237b7dd95f1cbc7ca9f011",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_input_hr0_sd42.test.json": "bc89a34fb0c1cba91ea903da3bc47d5c689ad0d0f72794da898ad7757a9b64b4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd42/affine_vocab_adapter.safetensors": "bf3edadf6429751c2165e6adcf83b2e0e9ef8fb0a45417857068708bcf9f26db",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd42/run_args.json": "6816fbf7694891f1e203a82215706a093e9c9fb245586a4e35fe22472e2e3477",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd42/initialization_audit.json": "b4665ea8fdd8b6d93261f27cc98c77457d18ed4249d7dfcb8913035150be7ec4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd42/trainable_summary.json": "9540ae7e1cad64854327efbd677bf9e9b5979fc5255aabda409707473fea2e3c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd42/affine_vocab_config.json": "2b96b5c9f01d336d1bb01cf13ec7f90ac538dc5d00f33d2283931f9a74d12fbf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_input_hr0_sd43.dev.json": "104c5831956d695a685eee8d3ca0b83e96b0854ea57bb8467071e22de9148444",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_input_hr0_sd43.test.json": "42d353782764acee415e460ecf70df9bcb10ad48647eb8e20523b8c8de10e8fb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd43/affine_vocab_adapter.safetensors": "5df7ace7207b53851abc1adb78ada1da8cb85ca1d68831aa4ceae14cbdae35b9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd43/run_args.json": "4584ac4ddff9707f9fa9e919f48c0bf00334fe4c29f7aa3abc8ae9585f76f985",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd43/initialization_audit.json": "28d59437e911fbca0348f87498f073c14c2d5329a03699399fee57c5854674c3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd43/trainable_summary.json": "9540ae7e1cad64854327efbd677bf9e9b5979fc5255aabda409707473fea2e3c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd43/affine_vocab_config.json": "2b96b5c9f01d336d1bb01cf13ec7f90ac538dc5d00f33d2283931f9a74d12fbf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_input_hr0_sd44.dev.json": "c532e05a90da4d16b680063eda45c6f7e03156e556db4339926dbdfae7ea42c7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_input_hr0_sd44.test.json": "73bc7339270d1a13b8df7724384a987f54aac5f8c07e7f47e629ec3266b21a71",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd44/affine_vocab_adapter.safetensors": "62c015d941bae398cd894feddf20185f69492c85675a62751cf41fe4831fa5de",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd44/run_args.json": "987fec7d0b9afb62a8017891a899808e556f64e7f8fdb686594bd63828bb70c2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd44/initialization_audit.json": "c3fe2233c11ce1f2a687bf0779d5b6ffeab7f17f9ef4657a221d6d160d4ca9e3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd44/trainable_summary.json": "9540ae7e1cad64854327efbd677bf9e9b5979fc5255aabda409707473fea2e3c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_input_hr0_sd44/affine_vocab_config.json": "2b96b5c9f01d336d1bb01cf13ec7f90ac538dc5d00f33d2283931f9a74d12fbf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_output_hr0_sd42.dev.json": "dcfc8aad3026da0c88ea32a126bebf583cadd7a5558ca253fed23385eda7173a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_output_hr0_sd42.test.json": "e2a30f6dd8630c76969cb5ed4d6a912da2ebddfe32d4153eb5c90f265e80b468",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd42/affine_vocab_adapter.safetensors": "153d2656239534caa14f8984511103a7eaab6b4bd99bc89ec0f3f605c48356a9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd42/run_args.json": "f0e94094a31348cd0c1ddaae392ffe900e2d690e890847a746ea0d4080b8edaa",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd42/initialization_audit.json": "f9f41a09b2bafb0598db95a086ec3b4c42e74a20a17181afb3d7c611e4603679",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd42/trainable_summary.json": "032d6d6575c27a872f800391176a59f9f7f5afdcab7f8171f5a7b711a84f4135",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd42/affine_vocab_config.json": "c36e6dc26658b379efe6bfbe14efbe975ee00d2b51a06617514ae27102feea2b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_output_hr0_sd43.dev.json": "3c4cc97afcbcb94a96488aec05ba88ea175cc201323b297eb38e57e6b8b99764",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_output_hr0_sd43.test.json": "2183cd6bef0337838f4249d5151f687ea334ad90347100d9e4dd84c4a30a267b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd43/affine_vocab_adapter.safetensors": "6805007db9a5d7afb05a42a9295a0785e56ba6c8cd03212451d0e1d4fef13a78",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd43/run_args.json": "23cc1617a8df86f03f494fff199a7cf3757fa15f6d6b7394444a44c8f7fdc11e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd43/initialization_audit.json": "3b44c4754ac4b88a97315513dadaa3b2f792f81797c3014babe8e6b7d8e0b005",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd43/trainable_summary.json": "032d6d6575c27a872f800391176a59f9f7f5afdcab7f8171f5a7b711a84f4135",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd43/affine_vocab_config.json": "c36e6dc26658b379efe6bfbe14efbe975ee00d2b51a06617514ae27102feea2b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_output_hr0_sd44.dev.json": "f6cc6e5d7b370bc50fb33b8cf234940534c21215e8f74453ce8e60d88183f533",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen3_06b_output_hr0_sd44.test.json": "8a8d5d47c2274891535229ba1ba3090a24d7bbcf713730c1e192c871e917d982",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd44/affine_vocab_adapter.safetensors": "f751c4493a25d751714e2479d96eecf13747769524ecee4d83fc0feb75fb7495",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd44/run_args.json": "0b402fde9b02248f5a74ee629dfc3192d36e2624dc4fd6eb471f23984dc179e0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd44/initialization_audit.json": "36b3233c872b7172f3a24ed944bfb22c78d1c394aec6df675a28ec97641b3eef",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd44/trainable_summary.json": "032d6d6575c27a872f800391176a59f9f7f5afdcab7f8171f5a7b711a84f4135",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr0_sd44/affine_vocab_config.json": "c36e6dc26658b379efe6bfbe14efbe975ee00d2b51a06617514ae27102feea2b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_none_hr0_base.dev.json": "0bd79d61430d0fc414403335cea16d90a9db4a422c7538d6a714f470ad942db3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_none_hr0_base.test.json": "6987d3f7acfdac96232b0d8051d568fcbb6e822e859cc22c78333f5cb25de2c9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_input_hr0_sd42.dev.json": "33cd1be6d51365ea8ba83bd5af4ff146eb86b891e56295bca141e73c9f92be4e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_input_hr0_sd42.test.json": "c3c628085ca76a29cf83290d77ac36b0f6e79949f378ad8ec0b0181a55cb32cb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd42/affine_vocab_adapter.safetensors": "f732e2726fe02d04a04b23818761f64782d4d1d4f6deae62866530d31bd52634",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd42/run_args.json": "73b34c46b36fd42b9b492bced4f8bc3073d8d2e30539141e630cab76473b3c1c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd42/initialization_audit.json": "8c8b95e883aec3b685dcabbc5c750c06dd8abca7fc1dbf67950bae01532302ad",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd42/trainable_summary.json": "f2f86f64fb2347f81692e3808484f03415df2132adc210fbad0a06d9ddaa887d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd42/affine_vocab_config.json": "898a060bac9bc046c7d66545a38af761e28291d468f28b378964f6c8cfe9d0ca",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_input_hr0_sd43.dev.json": "0923f09246d4b89989126d9b320bfd6915a9d3a583bcad55ce994a6939d24723",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_input_hr0_sd43.test.json": "d8d4038faffaf3a3e9dc1be7e3802b0a29922c7b7468da4ab87c4f18d5c00134",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd43/affine_vocab_adapter.safetensors": "9c85b868f618884f00afd633408addd7562be20d3c0aa3900325c7f52e320725",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd43/run_args.json": "ad3188e8c11d4c2479fdd1b28d670ba99725a2e2c6686c6d776c523eb04a4749",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd43/initialization_audit.json": "37d626423aeea294d054651d10431391cac68812f2dc997c6e8015e8e070bfdf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd43/trainable_summary.json": "f2f86f64fb2347f81692e3808484f03415df2132adc210fbad0a06d9ddaa887d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd43/affine_vocab_config.json": "898a060bac9bc046c7d66545a38af761e28291d468f28b378964f6c8cfe9d0ca",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_input_hr0_sd44.dev.json": "e0669886fad720b37cb64c9fbde7ea58f4a5a7cc53acb3b842c1c0784333c568",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_input_hr0_sd44.test.json": "503945f487b01801983bef7f90877eeea138290043927f9355a61fe4c3c1807b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd44/affine_vocab_adapter.safetensors": "b64d4eec5aaa119abf6ca127f286c75a0b245fbcd35a4b2903c910276b03b084",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd44/run_args.json": "90e9d2373466a3b03131167bb389553a0d54530a902049b16df9828c5b9915b3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd44/initialization_audit.json": "04df45f852af6f08a38fe58784238c3b3b719aa617ebb4488f173c1f6b4445e7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd44/trainable_summary.json": "f2f86f64fb2347f81692e3808484f03415df2132adc210fbad0a06d9ddaa887d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_input_hr0_sd44/affine_vocab_config.json": "898a060bac9bc046c7d66545a38af761e28291d468f28b378964f6c8cfe9d0ca",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_output_hr0_sd42.dev.json": "f090a33fe50bfd3f85c20c791868b77c0fa938fbcfcf97d8774319936514043f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_output_hr0_sd42.test.json": "36c8639645b7587866fbe63c588efff0846edbe9aa1e3bc38129be585405f0c2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd42/affine_vocab_adapter.safetensors": "a58d7292ce6fa0fb9e9632ad32bacbc5c00e07f51fe4eb5597cd1638a43d8446",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd42/run_args.json": "0e8655826327fecb08a1ec8732339347390079ca7781b617e27b5dd719ce100d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd42/initialization_audit.json": "08f23c0d76403c8f6601e65362b9240f9b29d17e4f5390bec454750dba91a0f9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd42/trainable_summary.json": "5d2cff8b93f5087a7297c2c5edb3f335614fecbbac577180db4ed5e909e71c24",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd42/affine_vocab_config.json": "66f850e2e891c9a39c8e4c79b39f217b6c033cdd948f68265a276adff6a10ddc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_output_hr0_sd43.dev.json": "b42f0ddbcfe36769a086a667fcdef1c622fcbab2ff6d4e325a502d909f9fcb05",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_output_hr0_sd43.test.json": "bd48d44c76e621c4e0a83598a0c6dec2abdedf073e0b5e8d7ead83b7aa8240c2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd43/affine_vocab_adapter.safetensors": "358fcfae8bbb96425de3978a51a01589a5a948de6a52f88d7995d098d49ec065",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd43/run_args.json": "4321eb603f39418e6e57c0c1610832ee5c12baa70d14f4e48f7c865addb4f175",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd43/initialization_audit.json": "38159b20d4d619c094ebffeafa603c5af17d8ad43413061b42473bf1dbdbb7fc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd43/trainable_summary.json": "5d2cff8b93f5087a7297c2c5edb3f335614fecbbac577180db4ed5e909e71c24",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd43/affine_vocab_config.json": "66f850e2e891c9a39c8e4c79b39f217b6c033cdd948f68265a276adff6a10ddc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_output_hr0_sd44.dev.json": "30c4dba0d24dadcceea0b93ffb6adae8bac86c0fd986280ce4987167efc9e2a5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/reports/qwen25_7b_output_hr0_sd44.test.json": "fe2dfe256e8474925c1707b5d8281eb967631e30f282eaf668498ff82634546e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd44/affine_vocab_adapter.safetensors": "da5eff5c1f4b5042caa3872f85787b51639365d53b18eecb2c3dc412e2c89ad3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd44/run_args.json": "0bacc6c3b7f2438bc27bd7114e39e6528f39f19fcdb28cfd913dd6166e50f80b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd44/initialization_audit.json": "611185d38b280f3c8746bb795ba54ad9e85a48f6c82dfb68586d75b5e37bca45",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd44/trainable_summary.json": "5d2cff8b93f5087a7297c2c5edb3f335614fecbbac577180db4ed5e909e71c24",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr0_sd44/affine_vocab_config.json": "66f850e2e891c9a39c8e4c79b39f217b6c033cdd948f68265a276adff6a10ddc"
+  }
+}

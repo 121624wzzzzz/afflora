@@ -1,0 +1,14 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-12T20:32:32+08:00",
+  "selected": {
+    "tau": 0.00625,
+    "lambda": 100.0,
+    "math": 26.626626626626628,
+    "gsm8k": 74.75360121304018,
+    "score": 50.69011391983341,
+    "name": "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p00625_l100_seed42"
+  },
+  "selection": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/PURE_ALORA_SELECTION.md",
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/PURE_ALORA_ENERGY_RESULTS.md"
+}

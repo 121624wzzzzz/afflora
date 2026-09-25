@@ -1,0 +1,13 @@
+{
+  "stopped_orchestrators": [
+    1923074,
+    1943179
+  ],
+  "stopped_untied_workers": [
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_shared16_s7100_smoke",
+      "pid": 1950961,
+      "phase": "train"
+    }
+  ]
+}

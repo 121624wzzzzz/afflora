@@ -1,0 +1,249 @@
+{
+  "toolace": {
+    "raw_rows": 11300,
+    "converted_rows": 10403,
+    "excluded": {
+      "invalid syntax (<unknown>, line 1)": 66,
+      "list index out of range": 518,
+      "AssertionError": 248,
+      "expression cannot contain assignment, perhaps you meant \"==\"? (<unknown>, line 1)": 31,
+      "embedded_call": 10,
+      "gold_schema_invalid": 15,
+      "unhashable type: 'list'": 6,
+      "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)": 3
+    },
+    "components": {
+      "n": 3391,
+      "largest_sizes": [
+        5796,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "split_sizes": {
+        "train": 7281,
+        "dev": 1561,
+        "test": 1561
+      }
+    }
+  },
+  "cluener": {
+    "official_train": 10748,
+    "official_dev": 1343,
+    "invalid_gold": [],
+    "train_duplicates_excluded": []
+  },
+  "splits": {
+    "toolace": {
+      "train": {
+        "n": 7271,
+        "calls": 6351,
+        "ids_sha256": "ec1fcfa1ad0bff52e8a26974ed8dde45582e81b1cd11c3f526bc7e9d037fdf92"
+      },
+      "dev": {
+        "n": 1560,
+        "calls": 1343,
+        "ids_sha256": "1e290a4b8acfa1e99efeffe9b7fa5d3eb676669d8b6504305af0d1447e4ed484"
+      },
+      "test": {
+        "n": 1561,
+        "calls": 1353,
+        "ids_sha256": "18f43cec13b9f75d4ccca6b45aba54d62a204dcac40a66ab9ef5fecf4f8740b9"
+      }
+    },
+    "cluener": {
+      "dev": {
+        "n": 600,
+        "calls": 600,
+        "ids_sha256": "b8e19bd37308ddcf2d218c045d7b9c6307fe58212447dab535de2a19e31637c1"
+      },
+      "train": {
+        "n": 10148,
+        "calls": 10148,
+        "ids_sha256": "6d2c56ec01afb74778e7ff60ffcf3bc9bdce4e415488a2cc0c23929c1d3d5894"
+      },
+      "test": {
+        "n": 1343,
+        "calls": 1343,
+        "ids_sha256": "9dc5aa2eb4e20e01e1763d433fd6df6dcba640d914639d8aee41989db725ec9e"
+      }
+    }
+  },
+  "length_exclusions": [
+    {
+      "id": "toolace_9972",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          1649,
+          103
+        ],
+        "qwen25_15b_base": [
+          1649,
+          103
+        ]
+      }
+    },
+    {
+      "id": "toolace_5965",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          1622,
+          106
+        ],
+        "qwen25_15b_base": [
+          1622,
+          106
+        ]
+      }
+    },
+    {
+      "id": "toolace_10001",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          679,
+          517
+        ],
+        "qwen25_15b_base": [
+          679,
+          517
+        ]
+      }
+    },
+    {
+      "id": "toolace_8589",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          2132,
+          240
+        ],
+        "qwen25_15b_base": [
+          2132,
+          240
+        ]
+      }
+    },
+    {
+      "id": "toolace_3529",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          609,
+          811
+        ],
+        "qwen25_15b_base": [
+          609,
+          811
+        ]
+      }
+    },
+    {
+      "id": "toolace_8243",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          858,
+          953
+        ],
+        "qwen25_15b_base": [
+          858,
+          953
+        ]
+      }
+    },
+    {
+      "id": "toolace_7154",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          1640,
+          59
+        ],
+        "qwen25_15b_base": [
+          1640,
+          59
+        ]
+      }
+    },
+    {
+      "id": "toolace_9880",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          1718,
+          66
+        ],
+        "qwen25_15b_base": [
+          1718,
+          66
+        ]
+      }
+    },
+    {
+      "id": "toolace_10945",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          314,
+          513
+        ],
+        "qwen25_15b_base": [
+          314,
+          513
+        ]
+      }
+    },
+    {
+      "id": "toolace_6370",
+      "split": "train",
+      "lengths": {
+        "qwen3_06b_base": [
+          359,
+          665
+        ],
+        "qwen25_15b_base": [
+          359,
+          665
+        ]
+      }
+    },
+    {
+      "id": "toolace_11179",
+      "split": "dev",
+      "lengths": {
+        "qwen3_06b_base": [
+          611,
+          519
+        ],
+        "qwen25_15b_base": [
+          611,
+          519
+        ]
+      }
+    }
+  ],
+  "max_prompt_tokens": 1536,
+  "generation_budget": 512,
+  "pilot_train_max": 2048,
+  "pilot_dev_max": 200,
+  "prepared_at": "2026-09-16T16:54:08+08:00"
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-17T14:35:59.533779+00:00",
+  "files": {
+    "resource_scheduler_v2.py": "70afb5778cabfecdf96925cc016655aa23343276df43656ad05afbdd7898d294",
+    "handoff_scheduler.py": "fc5b03834e9f949f26e7f30200d0e03df7e2277ef2e50094bd119ba1c1651b35",
+    "RESOURCE_AMENDMENT_V2.json": "515d3bbaa995f36c551aedd177d930ae2a02dfa4be4d8e47ad937503b568b799",
+    "STATE_HANDOFF_PRE_V2.json": "e7fa9fc9d5d4111cad368f78abc961ef5cfe39449bdb17cd71794ce7dc01171d",
+    "HANDOFF_PROCESS_PROOF.json": "914d2a4b5ba93f86607139f793d0d006d4543ba142fd5a7be49b476f3a8f63fe"
+  }
+}

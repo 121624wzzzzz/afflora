@@ -1,0 +1,98 @@
+{
+  "purpose": "Descriptive, not an experiment-selection input. Token frequencies reflect each native tokenizer.",
+  "models": {
+    "llama31_8b_base": {
+      "values": {
+        "model.embed_tokens.weight": {
+          "shape": [
+            128256,
+            4096
+          ],
+          "native_token_frequency_weighted_mean_row_rms": 0.008334174477487431,
+          "native_token_frequency_weighted_rms": 0.008488400227684966,
+          "unique_used_token_row_rms_median": 0.010274972766637802,
+          "used_unique_tokens": 8274
+        },
+        "model.layers.0.input_layernorm.weight": {
+          "shape": [
+            4096
+          ],
+          "mean_abs": 0.07363572716712952,
+          "rms": 0.14155791699886322,
+          "max_abs": 1.09375
+        },
+        "lm_head.weight": {
+          "shape": [
+            128256,
+            4096
+          ],
+          "native_token_frequency_weighted_mean_row_rms": 0.014013467964439905,
+          "native_token_frequency_weighted_rms": 0.014320346858603008,
+          "unique_used_token_row_rms_median": 0.014422743581235409,
+          "used_unique_tokens": 8274
+        },
+        "model.norm.weight": {
+          "shape": [
+            4096
+          ],
+          "mean_abs": 2.345947265625,
+          "rms": 2.353010892868042,
+          "max_abs": 2.953125
+        }
+      },
+      "verified_weight_files": {
+        "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/model-00001-of-00004.safetensors": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.1-8B-Base/model-00004-of-00004.safetensors": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d"
+      },
+      "token_file_sha256": "2cfd8a2dc3ad80255b2c606f878f2a478c381769b9c89228f7435011456a7954",
+      "source_manifest_sha256": "a995f154415e13d1a3200ebcb85b377b9ad704c5628d8e2d545e845d58fd7599"
+    },
+    "qwen3_8b_base": {
+      "values": {
+        "model.embed_tokens.weight": {
+          "shape": [
+            151936,
+            4096
+          ],
+          "native_token_frequency_weighted_mean_row_rms": 0.026124867271108507,
+          "native_token_frequency_weighted_rms": 0.026193552482165545,
+          "unique_used_token_row_rms_median": 0.026014572009444237,
+          "used_unique_tokens": 7852
+        },
+        "model.layers.0.input_layernorm.weight": {
+          "shape": [
+            4096
+          ],
+          "mean_abs": 0.011367911472916603,
+          "rms": 0.011422230862081051,
+          "max_abs": 0.036376953125
+        },
+        "model.norm.weight": {
+          "shape": [
+            4096
+          ],
+          "mean_abs": 2.005913734436035,
+          "rms": 2.0475239753723145,
+          "max_abs": 10.375
+        },
+        "lm_head.weight": {
+          "shape": [
+            151936,
+            4096
+          ],
+          "native_token_frequency_weighted_mean_row_rms": 0.02463400409090356,
+          "native_token_frequency_weighted_rms": 0.0247815459737448,
+          "unique_used_token_row_rms_median": 0.027592159807682037,
+          "used_unique_tokens": 7852
+        }
+      },
+      "verified_weight_files": {
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen3-8B-Base/model-00001-of-00005.safetensors": "9983f1b9ef2f60e7c3730d9bc11ada914e6ec630639b5b020a89bd158cd0446b",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen3-8B-Base/model-00004-of-00005.safetensors": "ad8b708792105133e03fe19e2d56c89c709f677f01285f8b3ede8947d59fd9fe",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core/verified_models/Qwen3-8B-Base/model-00005-of-00005.safetensors": "fbf24915d47ea030bb68ab0b9488f4515a907185baa6dc26837c9c3f2326a550"
+      },
+      "token_file_sha256": "ea7ffec0afdf7c28f858d5674a1a0586710e70a1f1daa94e89b69cc74eef64cd",
+      "source_manifest_sha256": "e0c21b5788e013a90b9700fe8dcdf0c55959afb5e35fd1d69d8107f581262e00"
+    }
+  }
+}

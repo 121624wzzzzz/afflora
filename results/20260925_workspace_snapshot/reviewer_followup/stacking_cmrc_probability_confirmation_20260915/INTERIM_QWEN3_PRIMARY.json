@@ -1,0 +1,71 @@
+{
+  "status": "provisional; full generation, second model and final audit pending",
+  "checked_at": "2026-09-15T16:03:13+08:00",
+  "contrasts": [
+    {
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "seed_bonferroni_family4": {
+        "mean": 0.003266722323879212,
+        "per_seed": {
+          "1001": 0.00282085390391712,
+          "1002": 0.000985823694620358,
+          "1003": 0.002900077912689869,
+          "1004": 0.004231196357139533,
+          "1005": 0.00539565975102918
+        },
+        "standard_error": 0.0007415628786112526,
+        "ci": [
+          6.713356403242714e-05,
+          0.006466311083725997
+        ],
+        "family": 4,
+        "df": 4,
+        "p_two_sided": 0.011644111958368937,
+        "bonferroni_adjusted_p": 0.04657644783347575,
+        "critical_t": 4.314656048909503
+      }
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "seed_bonferroni_family4": {
+        "mean": 0.0031915275397769393,
+        "per_seed": {
+          "1001": 0.0025312098921574377,
+          "1002": 0.0010022982614770193,
+          "1003": 0.00319829316633502,
+          "1004": 0.0038769272645108876,
+          "1005": 0.005348909114404332
+        },
+        "standard_error": 0.0007194740455232977,
+        "ci": [
+          8.724449722645163e-05,
+          0.0062958105823274265
+        ],
+        "family": 4,
+        "df": 4,
+        "p_two_sided": 0.011369803211870633,
+        "bonferroni_adjusted_p": 0.045479212847482534,
+        "critical_t": 4.314656048909503
+      }
+    }
+  ],
+  "sources_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1001/public_probability.jsonl": "7523f43ef090d190f0d180762a2e96e4ac685c048493e6029ac77cc65ff57375",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1001/public_probability.jsonl": "bbbe1c36da0d633e4fc2cedd1a5675a320b19f99e69bc8095b5797fe323ee801",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1001/public_probability.jsonl": "1575b6f0b4c63582b4b755606d5fac0bccb94749bd3e163bb57ce5ff88bd857c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1002/public_probability.jsonl": "56392796469b59aed57e63a2ee7cb19da53c71ed30f314f3c6bffbc893e64343",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1002/public_probability.jsonl": "25864741b77c42de711517ead81e6f99b0aae45eba8b59cf2f3719b463159c9b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1002/public_probability.jsonl": "e198633e028a8d830c87deda2bb719471d04136144259b56e05f72eaa59625d6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1003/public_probability.jsonl": "2cb3028e2828de2efa157486ed974e60422612f2a57a7ac233911bb87857156e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1003/public_probability.jsonl": "9ce7f85099e3d24aad4d44e8f0d6a49e34f0497f57ff6bccad63df2a232dc6ca",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1003/public_probability.jsonl": "169b62d9b74ae21c6ea2aa7212bba9b14a243a27d3e7662100ccbacdc9c06230",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1004/public_probability.jsonl": "b6dbf3b355e12e12eabb45dfdc2e277f083a8d2ecd9432ee4025b54fdc0b7dff",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1004/public_probability.jsonl": "841bd67dd0454ef89c2af0c8fa50d3681380a654b4f907f3b30afbdcedb2bea5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1004/public_probability.jsonl": "98378d31dd5835b8cebae1566baa7a8c7163dfeba37d8aeb0c3076583f95c26b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1005/public_probability.jsonl": "c6955b7b5ddff99810fa55165ebe93d6ba793941b2829045118a03c0faf0b56e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1005/public_probability.jsonl": "801829c2fc15aebf35d2d74a7fed9de88e9983d2c308b2317a197052ad43b1ed",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1005/public_probability.jsonl": "e952f31cf5c4aa63ac531918040cb621cb23acbd8dffc2aeb055f6f60c4ddd03"
+  }
+}

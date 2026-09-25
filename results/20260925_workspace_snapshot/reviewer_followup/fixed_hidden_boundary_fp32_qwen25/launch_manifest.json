@@ -1,0 +1,40 @@
+{
+  "marker": "fixed_hidden_boundary_fp32_qwen25_launch_v1",
+  "protocol": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/DESIGN.md",
+  "training_entry": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/train_corrected_sft_fixed_hidden_boundary_fp32.py",
+  "training_entry_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81",
+  "evaluator": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/evaluate_fixed_hidden_boundary_corrected_sft.py",
+  "evaluator_sha256": "aa78744c651210d43adda6a302614726c7431c96a490a7f7db048fca4c59cf3f",
+  "data_sha256": {
+    "train": "e56c2eb28a09aa409015b9b809d79403c0e43f33741d56d7df28bf76e11a00ed",
+    "dev": "6435023ea79c637f1307dbe7de32891406d3f5722ed3c1a02c1c290394da82ea",
+    "test": "25b6bae84df967eb15a5fdd205df15c55b41e2a35ea0956f598bf4e0b645fdf1"
+  },
+  "model_config_sha256": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77",
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_adapter_sha256": {
+    "42": "354ed4961fb4d6dc7cf77d5e1e0ef528726b90cd71776e533088fa6d9b77e167",
+    "43": "16958535a58d7cb3dd6c536fd1ff89beb7f88e053a9a67fb20eeb8a90135a093",
+    "44": "2890f3f5c0eef7104616179d36916aa3ce1999047247e27e06d2c31b4d379476"
+  },
+  "fixed_endpoints": {
+    "alora": {
+      "rank": 50,
+      "alpha": 800,
+      "scale": 16
+    },
+    "vocab_lora": {
+      "rank": 1,
+      "alpha": 32,
+      "scale": 32
+    }
+  },
+  "endpoint_selection": "none_in_this_experiment"
+}

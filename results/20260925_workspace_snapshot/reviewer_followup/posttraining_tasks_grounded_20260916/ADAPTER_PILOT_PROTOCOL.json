@@ -1,0 +1,21 @@
+{
+  "status": "fixed before completion of Stage A and before any A-LoRA task scores",
+  "scope": "five-seed controlled pilot on the same 2048 training / 200 development examples per task; not full-data training or a final held-out-test claim",
+  "models": ["qwen3_06b_base", "qwen25_15b_base"],
+  "tasks": ["toolace", "cluener"],
+  "arms": ["hidden", "input", "output", "hidden_both", "hidden_budget"],
+  "seeds": [6100,6101,6102,6103,6104],
+  "learning_rate": 0.0002,
+  "train_split": "pilot_train",
+  "eval_split": "pilot_dev",
+  "epochs": 1,
+  "checkpoint": "final step64; no early stopping or seed selection",
+  "shared_protocol": "PILOT_PROTOCOL.json and frozen run.py/modeling.py/scoring.py",
+  "reuse": "Stage A hidden seed6100 only after COMPLETE, all saved-file hashes, adapter reload, source protocol and input/order identity checks; never reuse adapters from old tasks",
+  "main_contrasts": ["hidden_both minus hidden", "hidden_both minus hidden_budget"],
+  "main_family": "2 models x 2 tasks x 2 contrasts = 8; seed t intervals with Bonferroni correction, separate conditional paired item/cluster bootstrap",
+  "secondary": "input versus Base and output versus Base; format, text entity F1, function selection, answer/EOS CE, termination, caps; no superiority claim across unsearched learning rates",
+  "hyperparameter_limitation": "single common LR, not independently tuned per method; this is a bounded architecture pilot before expensive formal tuning",
+  "test_evaluation": false,
+  "retain_all_results": true
+}

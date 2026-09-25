@@ -1,0 +1,65 @@
+{
+  "at": "2026-09-16T17:16:24+08:00",
+  "evidence_source": "development inspection, before any A-LoRA task inference",
+  "examples": [
+    {
+      "group": "6ea547d4f0ebbe27982a50e6473f073f2ecc89f10ba30064e8a76b2f0a4c3ac0",
+      "id": "toolace_3886",
+      "source_index": 3886,
+      "target": [
+        {
+          "arguments": {
+            "dataSource": "https://external-source.com/products",
+            "syncOptions": {
+              "errorHandling": "Continue",
+              "syncInterval": "2023-09-30 23:00"
+            }
+          },
+          "name": "productDataSync.syncProductDetails"
+        }
+      ],
+      "task": "toolace",
+      "text": "I need to sync product details from \"https://external-source.com/products\" to our local database. I want the sync to happen tonight at 11 PM, and if any error occurs, it should continue without aborting the whole process. Can you set this up?",
+      "tools": [
+        {
+          "description": "Synchronizes product details from an external data source to the local database. It ensures data consistency and integrity during the synchronization process.",
+          "name": "productDataSync.syncProductDetails",
+          "parameters": {
+            "properties": {
+              "dataSource": {
+                "description": "The external data source URL from which product details will be fetched.",
+                "type": "string"
+              },
+              "syncOptions": {
+                "description": "Options to customize the synchronization process, including the sync interval and error handling strategies.",
+                "properties": {
+                  "errorHandling": {
+                    "description": "Strategy to handle errors during synchronization, either 'Abort' or 'Continue'.",
+                    "type": "string"
+                  },
+                  "syncInterval": {
+                    "description": "Time interval between successive sync operations, specified in the format '%Y-%m-%d %H:%M', e.g., '2021-12-31 23:59'.",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "syncInterval",
+                  "errorHandling"
+                ],
+                "type": "dict"
+              }
+            },
+            "required": [
+              "dataSource",
+              "syncOptions"
+            ],
+            "type": "dict"
+          },
+          "required": null
+        }
+      ]
+    }
+  ],
+  "interpretation": "unanchored relative-date gold can make exact argument matching underdetermined; V1 low scores cannot all be attributed to model capability"
+}

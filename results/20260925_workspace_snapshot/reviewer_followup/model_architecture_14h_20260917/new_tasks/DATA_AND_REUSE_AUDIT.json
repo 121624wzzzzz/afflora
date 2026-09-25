@@ -1,0 +1,772 @@
+{
+  "at": "2026-09-17T21:29:35+08:00",
+  "trec50": {
+    "source_train": 5452,
+    "source_test": 500,
+    "removed_train": [
+      {
+        "id": "trec50_official_train_369",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_464",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_557",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_590",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_697",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_727",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_741",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1075",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1193",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_1361",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1390",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1535",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1596",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1726",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1803",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1886",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_1989",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2003",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2260",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_2344",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_2490",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2576",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2582",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_2642",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2851",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2884",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2907",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2951",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2971",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2990",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_2994",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3133",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_3258",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3432",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3442",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3448",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3506",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3520",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_3669",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3724",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3814",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3853",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3860",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_3920",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4084",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4152",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4177",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4217",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4266",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4270",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4311",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4326",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4332",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4399",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4411",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4488",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4493",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4524",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4542",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4579",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4622",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4661",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4726",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4734",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4848",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4850",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4876",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_4883",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4954",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_4987",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5057",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5183",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5197",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5207",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5219",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5235",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5241",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5262",
+        "reason": "test_overlap"
+      },
+      {
+        "id": "trec50_official_train_5271",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5276",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5335",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5358",
+        "reason": "duplicate_train"
+      },
+      {
+        "id": "trec50_official_train_5378",
+        "reason": "duplicate_train"
+      }
+    ],
+    "counts": {
+      "train": 2048,
+      "dev": 256,
+      "test": 500
+    },
+    "train_per_class": {
+      "ABBR:abb": 13,
+      "ABBR:exp": 60,
+      "DESC:def": 74,
+      "DESC:desc": 74,
+      "DESC:manner": 74,
+      "DESC:reason": 74,
+      "ENTY:animal": 74,
+      "ENTY:body": 13,
+      "ENTY:color": 33,
+      "ENTY:cremat": 73,
+      "ENTY:currency": 4,
+      "ENTY:dismed": 73,
+      "ENTY:event": 48,
+      "ENTY:food": 73,
+      "ENTY:instru": 8,
+      "ENTY:lang": 13,
+      "ENTY:letter": 8,
+      "ENTY:other": 73,
+      "ENTY:plant": 11,
+      "ENTY:product": 34,
+      "ENTY:religion": 4,
+      "ENTY:sport": 55,
+      "ENTY:substance": 34,
+      "ENTY:symbol": 9,
+      "ENTY:techmeth": 31,
+      "ENTY:termeq": 73,
+      "ENTY:veh": 22,
+      "ENTY:word": 21,
+      "HUM:desc": 39,
+      "HUM:gr": 73,
+      "HUM:ind": 73,
+      "HUM:title": 20,
+      "LOC:city": 73,
+      "LOC:country": 73,
+      "LOC:mount": 17,
+      "LOC:other": 73,
+      "LOC:state": 59,
+      "NUM:code": 4,
+      "NUM:count": 73,
+      "NUM:date": 73,
+      "NUM:dist": 25,
+      "NUM:money": 60,
+      "NUM:ord": 3,
+      "NUM:other": 35,
+      "NUM:perc": 19,
+      "NUM:period": 67,
+      "NUM:speed": 6,
+      "NUM:temp": 7,
+      "NUM:volsize": 11,
+      "NUM:weight": 9
+    },
+    "test_unique_texts": 500,
+    "decoding": "latin-1 author file; official test order-independent full 500"
+  },
+  "squad2": {
+    "eligibility_reference": "Qwen2.5-1.5B pinned tokenizer; prompt <=768 tokens and all normalized-nonempty gold targets <=128 including EOS; no truncation",
+    "eligible_counts": {
+      "train": 130281,
+      "test": 11841
+    },
+    "excluded_length": {
+      "train": {
+        "prompt_over_768": 38
+      },
+      "test": {
+        "prompt_over_768": 32
+      }
+    },
+    "duplicate_or_test_context_train_removed": [
+      "56bfa087a10cfb14005511d9",
+      "56d3123b59d6e41400146205",
+      "56d3227259d6e41400146280",
+      "56d3a9bb2ccc5a1400d82ddc",
+      "56d375b859d6e4140014646b",
+      "56d38ba459d6e414001466e7",
+      "56d38ba459d6e414001466e8",
+      "56d38cc659d6e4140014672d",
+      "56d3a9282ccc5a1400d82dca",
+      "5a8dab7cdf8bba001a0f9b5c",
+      "56d5185a9d1b871400ae061c",
+      "56d525192593cc1400307ab4",
+      "56d6696d1c850414009470fc",
+      "56cff6a7234ae51400d9c18e",
+      "56d0c933234ae51400d9c43c",
+      "56d1d7cbe7d4791d00902292",
+      "56d3661659d6e414001462d7",
+      "56d3665c59d6e414001462e1",
+      "56d3665c59d6e414001462e3",
+      "56db410fe7c41114004b4fc6",
+      "56db6ae2e7c41114004b50bd",
+      "56db7c94e7c41114004b51a5",
+      "5ad3eb5a604f3c001a3ff714",
+      "56de1377cffd8e1900b4b5b3",
+      "56de31f34396321400ee2680",
+      "56f6eff93d8e2e1400e372c9",
+      "56f954c09b226e1400dd133b",
+      "5acfc0d277cf76001a685cba",
+      "5ad3c735604f3c001a3ff03f",
+      "5a5d04505e8782001a9d5e69",
+      "570a49376d058f1900182d34",
+      "5ad1787c645df0001a2d1d72",
+      "5ad35d86604f3c001a3fdebb",
+      "571aa01210f8ca14003051d3",
+      "571cfbd6dd7acb1400e4c1df",
+      "571d1e58dd7acb1400e4c225",
+      "572413c70ba9f01400d97b6c",
+      "572431470ba9f01400d97b77",
+      "57257a9769ff041400e58df4",
+      "5724d4c80ba9f01400d97b87",
+      "5723d221f6b826140030fc96",
+      "5725817a69ff041400e58e1d",
+      "57262ed2271a42140099d71b",
+      "5724e4370ba9f01400d97b9f",
+      "5724ea4d0a492a1900435666",
+      "5ad179eb645df0001a2d1dc6",
+      "572663fbf1498d1400e8ddff",
+      "5ad17ae9645df0001a2d1de4",
+      "5ad17ae9645df0001a2d1de5",
+      "5726768af1498d1400e8e082",
+      "5ad17a6a645df0001a2d1dd1",
+      "57264b0f5951b619008f6f31",
+      "57261df0ec44d21400f3d905",
+      "5ad0c9d5645df0001a2d035c",
+      "5ad1580b645df0001a2d181f",
+      "5ad1668c645df0001a2d19cd",
+      "5ad1668c645df0001a2d19ce",
+      "5acd59a007355d001abf3e3d",
+      "5acea28132bba1001ae4ae38",
+      "5729340aaf94a219006aa186",
+      "5acf5c7f77cf76001a684c2c",
+      "5acf8ff377cf76001a685276",
+      "5acf8ff377cf76001a685279",
+      "5ad4124d604f3c001a400238",
+      "5727b47d2ca10214002d945c",
+      "5a8c77bffd22b3001a8d886d",
+      "5a8253d031013a001a335404",
+      "5727bdeeff5b5019007d93f4",
+      "5a514a03ce860b001aa3fcb6",
+      "5ad2d01cd7d075001a42a32e",
+      "5ad2d01cd7d075001a42a32f",
+      "5ad2d117d7d075001a42a345",
+      "5ad2d351d7d075001a42a3a4",
+      "5727cc1b2ca10214002d968c",
+      "5a80d3a18f0597001ac001bb",
+      "5acfbc1277cf76001a685b35",
+      "5acfbf7c77cf76001a685c48",
+      "572c010e750c471900ed4c72",
+      "572c0112dfb02c14005c6b45",
+      "5ad2385dd7d075001a428832",
+      "5729636c3f37b31900478309",
+      "57296497af94a219006aa374",
+      "5a3ea2aa5a76c5001a3a83e9",
+      "572b4999be1ee31400cb8301",
+      "5acd409f07355d001abf3a6a",
+      "572f5b9da23a5019007fc595",
+      "57318ba805b4da19006bd28c",
+      "5a7511ea97ca42001a521e58",
+      "5ad27a22d7d075001a4295de",
+      "5ad27a8bd7d075001a429603",
+      "5733dfd24776f419006613eb",
+      "5733e19dd058e614000b64ad",
+      "57331bdad058e614000b5704",
+      "57331bdad058e614000b5707",
+      "5a7784ed2d6d7f001a4a9ffa",
+      "5acecee632bba1001ae4b4cc",
+      "5aced07232bba1001ae4b538",
+      "5735e8736c16ec1900b9288a",
+      "5735ec17012e2f140011a0dd",
+      "573610e9012e2f140011a18a"
+    ],
+    "counts": {
+      "train": 2048,
+      "dev": 256,
+      "test": 1024
+    },
+    "answerable_unanswerable_balance": "exact 50/50 each split",
+    "article_groups": {
+      "train": 405,
+      "dev": 29,
+      "test": 35
+    },
+    "public_dev_as_heldout": true
+  },
+  "lengths": {
+    "trec50_qwen25_3b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen25_3b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen25_3b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen25_3b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen25_3b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen25_3b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    },
+    "trec50_qwen25_7b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen25_7b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen25_7b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen25_7b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen25_7b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen25_7b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    },
+    "trec50_qwen3_06b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen3_06b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen3_06b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen3_06b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen3_06b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen3_06b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    },
+    "trec50_qwen25_15b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen25_15b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen25_15b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen25_15b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen25_15b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen25_15b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    },
+    "trec50_qwen25_05b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen25_05b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen25_05b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen25_05b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen25_05b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen25_05b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    },
+    "trec50_qwen3_17b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen3_17b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen3_17b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen3_17b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen3_17b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen3_17b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    },
+    "trec50_qwen3_4b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen3_4b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen3_4b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen3_4b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen3_4b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen3_4b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    },
+    "trec50_qwen3_8b_base_train": {
+      "n": 2048,
+      "max_prompt": 618,
+      "max_target": 3
+    },
+    "trec50_qwen3_8b_base_dev": {
+      "n": 256,
+      "max_prompt": 597,
+      "max_target": 3
+    },
+    "trec50_qwen3_8b_base_test": {
+      "n": 500,
+      "max_prompt": 586,
+      "max_target": 3
+    },
+    "squad2_qwen3_8b_base_train": {
+      "n": 2048,
+      "max_prompt": 718,
+      "max_target": 50
+    },
+    "squad2_qwen3_8b_base_dev": {
+      "n": 256,
+      "max_prompt": 556,
+      "max_target": 36
+    },
+    "squad2_qwen3_8b_base_test": {
+      "n": 1024,
+      "max_prompt": 617,
+      "max_target": 35
+    }
+  },
+  "status": "passed"
+}

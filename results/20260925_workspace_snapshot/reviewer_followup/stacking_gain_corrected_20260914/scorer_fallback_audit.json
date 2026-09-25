@@ -1,0 +1,33 @@
+{
+  "examples": 541,
+  "randomized_instruction_descriptions": [
+    {
+      "key": 1122,
+      "instruction": "keywords:letter_frequency",
+      "kwargs": {
+        "let_relation": "at least",
+        "letter": "#",
+        "let_frequency": 4
+      },
+      "resolved": {
+        "letter": "k",
+        "let_frequency": 4,
+        "let_relation": "at least"
+      }
+    },
+    {
+      "key": 1129,
+      "instruction": "keywords:letter_frequency",
+      "kwargs": {
+        "let_relation": "at least",
+        "letter": "!",
+        "let_frequency": 6
+      },
+      "resolved": {
+        "letter": "q",
+        "let_frequency": 6,
+        "let_relation": "at least"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "model": "qwen3_06b_chat",
+  "conditions": {
+    "plain_answer": {
+      "n": 998,
+      "candidate_accuracy": 43.987975951903806,
+      "unrestricted_accuracy": 0.7014028056112225,
+      "valid_label_rate": 0.9018036072144289,
+      "prediction_counts": {
+        "1": 66,
+        "3": 141,
+        "0": 770,
+        "2": 21
+      },
+      "seconds": 6.069524113088846,
+      "sha256": "50a92b07dc94f5950d6fc2859e1acad3f30ee55f303f1c9da483b99189010d3b"
+    },
+    "plain_no_cue": {
+      "n": 998,
+      "candidate_accuracy": 41.38276553106213,
+      "unrestricted_accuracy": 0.0,
+      "valid_label_rate": 0.0,
+      "prediction_counts": {
+        "0": 733,
+        "3": 200,
+        "2": 45,
+        "1": 20
+      },
+      "seconds": 5.5983644388616085,
+      "sha256": "3de5f2bf3346eeaeccebe0c9bc01a75330e3be31d73c934b349f3898b1682eb2"
+    },
+    "chat": {
+      "n": 998,
+      "candidate_accuracy": 62.5250501002004,
+      "unrestricted_accuracy": 62.5250501002004,
+      "valid_label_rate": 100.0,
+      "prediction_counts": {
+        "1": 146,
+        "3": 181,
+        "0": 563,
+        "2": 108
+      },
+      "seconds": 6.281930722296238,
+      "sha256": "2c0b4b0b7ce9c399d976e6db59fa2160e4d51097bf1dd8242daa9c91571d560f",
+      "original_reference_max_logit_error": 0.000232696533203125,
+      "original_prediction_flips": 0
+    },
+    "chat_answer": {
+      "n": 998,
+      "candidate_accuracy": 69.73947895791584,
+      "unrestricted_accuracy": 69.73947895791584,
+      "valid_label_rate": 100.0,
+      "prediction_counts": {
+        "1": 176,
+        "3": 215,
+        "0": 464,
+        "2": 143
+      },
+      "seconds": 6.3529348857700825,
+      "sha256": "68b118416e8b25119c4597e2fbdd5367f449576b1ec5aad0008a1d3fe656d7a1"
+    }
+  },
+  "original_generation_reparsed": {
+    "n": 998,
+    "leading_letter_accuracy": 62.5250501002004,
+    "leading_letter_validity": 100.0,
+    "strict_accuracy": 0.0,
+    "length_cap_rate": 0.10020040080160321,
+    "examples": [
+      {
+        "id": "test_0",
+        "gold": 1,
+        "text": "B. oxidants",
+        "strict_correct": false
+      },
+      {
+        "id": "test_1",
+        "gold": 3,
+        "text": "D. clone",
+        "strict_correct": false
+      },
+      {
+        "id": "test_2",
+        "gold": 0,
+        "text": "A. backbone",
+        "strict_correct": false
+      },
+      {
+        "id": "test_3",
+        "gold": 1,
+        "text": "D. depth",
+        "strict_correct": false
+      },
+      {
+        "id": "test_4",
+        "gold": 3,
+        "text": "D. tree rings",
+        "strict_correct": false
+      },
+      {
+        "id": "test_5",
+        "gold": 0,
+        "text": "A. plant hormones",
+        "strict_correct": false
+      },
+      {
+        "id": "test_6",
+        "gold": 0,
+        "text": "A. sperm and eggs",
+        "strict_correct": false
+      },
+      {
+        "id": "test_7",
+        "gold": 1,
+        "text": "A. shrubs",
+        "strict_correct": false
+      }
+    ]
+  },
+  "model_files_verified": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen3-0.6B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen3-0.6B/config.json": "660db3b73d788119c04535e48cf9be5f55bc3100841a718637ae695b442f27dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen3-0.6B/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen3-0.6B/generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen3-0.6B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen3-0.6B/model.safetensors": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen3-0.6B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  "independent_full_forward": true,
+  "adapter_installed": false
+}

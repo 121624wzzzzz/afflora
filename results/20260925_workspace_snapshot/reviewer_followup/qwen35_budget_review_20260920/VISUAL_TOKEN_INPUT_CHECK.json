@@ -1,0 +1,82 @@
+[
+  {
+    "size": "08b",
+    "rows": 7924,
+    "tokens": 3124241,
+    "visual_special_token_occurrences": {
+      "248053": 0,
+      "248054": 0,
+      "248055": 0,
+      "248056": 0,
+      "248057": 0
+    },
+    "files_sha256": {
+      "trec50_qwen35_08b_base_confirm.json": "340c57e8c63efd3a7b305ed657e34f6753fa2f82e5f60101c8813081da952576",
+      "trec50_qwen35_08b_base_dev.json": "1108ba9fdb102dfd446858b31f534cd9dcc5a4c17d6d022c14f3351bc55bb111",
+      "trec50_qwen35_08b_base_train.json": "ae88d98bbfa004127b58f09de36baed469c4e46b55b40295633d05bd32a21d6a",
+      "wikisql_qwen35_08b_base_confirm.json": "b27e9bbcca7d83b7fcb961a79e61a3416ad9a1b88cddd2a4abf15642d730fb61",
+      "wikisql_qwen35_08b_base_dev.json": "6ec5b3c1ad1468974c776a42688ea4ce7c6eeb47a1be84860d54666ef2002c44",
+      "wikisql_qwen35_08b_base_train.json": "ea042eb499a1cd45d754ea4d23705f3bac6fc05994cf94398ca7a6fbf0a3c99e"
+    }
+  },
+  {
+    "size": "2b",
+    "rows": 7924,
+    "tokens": 3124241,
+    "visual_special_token_occurrences": {
+      "248053": 0,
+      "248054": 0,
+      "248055": 0,
+      "248056": 0,
+      "248057": 0
+    },
+    "files_sha256": {
+      "trec50_qwen35_2b_base_confirm.json": "340c57e8c63efd3a7b305ed657e34f6753fa2f82e5f60101c8813081da952576",
+      "trec50_qwen35_2b_base_dev.json": "1108ba9fdb102dfd446858b31f534cd9dcc5a4c17d6d022c14f3351bc55bb111",
+      "trec50_qwen35_2b_base_train.json": "ae88d98bbfa004127b58f09de36baed469c4e46b55b40295633d05bd32a21d6a",
+      "wikisql_qwen35_2b_base_confirm.json": "b27e9bbcca7d83b7fcb961a79e61a3416ad9a1b88cddd2a4abf15642d730fb61",
+      "wikisql_qwen35_2b_base_dev.json": "6ec5b3c1ad1468974c776a42688ea4ce7c6eeb47a1be84860d54666ef2002c44",
+      "wikisql_qwen35_2b_base_train.json": "ea042eb499a1cd45d754ea4d23705f3bac6fc05994cf94398ca7a6fbf0a3c99e"
+    }
+  },
+  {
+    "size": "4b",
+    "rows": 7924,
+    "tokens": 3124241,
+    "visual_special_token_occurrences": {
+      "248053": 0,
+      "248054": 0,
+      "248055": 0,
+      "248056": 0,
+      "248057": 0
+    },
+    "files_sha256": {
+      "trec50_qwen35_4b_base_confirm.json": "340c57e8c63efd3a7b305ed657e34f6753fa2f82e5f60101c8813081da952576",
+      "trec50_qwen35_4b_base_dev.json": "1108ba9fdb102dfd446858b31f534cd9dcc5a4c17d6d022c14f3351bc55bb111",
+      "trec50_qwen35_4b_base_train.json": "ae88d98bbfa004127b58f09de36baed469c4e46b55b40295633d05bd32a21d6a",
+      "wikisql_qwen35_4b_base_confirm.json": "b27e9bbcca7d83b7fcb961a79e61a3416ad9a1b88cddd2a4abf15642d730fb61",
+      "wikisql_qwen35_4b_base_dev.json": "6ec5b3c1ad1468974c776a42688ea4ce7c6eeb47a1be84860d54666ef2002c44",
+      "wikisql_qwen35_4b_base_train.json": "ea042eb499a1cd45d754ea4d23705f3bac6fc05994cf94398ca7a6fbf0a3c99e"
+    }
+  },
+  {
+    "size": "9b",
+    "rows": 7924,
+    "tokens": 3124241,
+    "visual_special_token_occurrences": {
+      "248053": 0,
+      "248054": 0,
+      "248055": 0,
+      "248056": 0,
+      "248057": 0
+    },
+    "files_sha256": {
+      "trec50_qwen35_9b_base_confirm.json": "340c57e8c63efd3a7b305ed657e34f6753fa2f82e5f60101c8813081da952576",
+      "trec50_qwen35_9b_base_dev.json": "1108ba9fdb102dfd446858b31f534cd9dcc5a4c17d6d022c14f3351bc55bb111",
+      "trec50_qwen35_9b_base_train.json": "ae88d98bbfa004127b58f09de36baed469c4e46b55b40295633d05bd32a21d6a",
+      "wikisql_qwen35_9b_base_confirm.json": "b27e9bbcca7d83b7fcb961a79e61a3416ad9a1b88cddd2a4abf15642d730fb61",
+      "wikisql_qwen35_9b_base_dev.json": "6ec5b3c1ad1468974c776a42688ea4ce7c6eeb47a1be84860d54666ef2002c44",
+      "wikisql_qwen35_9b_base_train.json": "ea042eb499a1cd45d754ea4d23705f3bac6fc05994cf94398ca7a6fbf0a3c99e"
+    }
+  }
+]

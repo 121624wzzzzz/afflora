@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-18T12:36:11.268677+08:00",
+  "status": "passed",
+  "reviewed_report_sha256": "842183c4d2864cd81facfd6e7201555c3f94fb73a5b36cc0fd7d973db7629bdd",
+  "formal_csv_rows": 80,
+  "complete_conditions": 4,
+  "primary_tables_checked_against_audited_outputs": true,
+  "all_negative_seed_differences_retained": true,
+  "all_eight_adjusted_and_unadjusted_intervals_cross_zero": true,
+  "budget_excess_disclosed": true,
+  "posthoc_reporting_scope_disclosed": true,
+  "scientific_manifests_unchanged": true
+}

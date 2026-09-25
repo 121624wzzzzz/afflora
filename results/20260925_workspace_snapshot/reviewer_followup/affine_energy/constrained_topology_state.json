@@ -1,0 +1,27 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-13T03:52:43+08:00",
+  "rhos": {
+    "llama31_8b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006251487670948868
+    },
+    "llama31_8b_decoupled_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006253334186375295,
+      "output": 0.0062053396236457425
+    },
+    "llama32_3b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006224548736166038
+    },
+    "llama32_3b_output_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "output": 0.00629216508013683
+    },
+    "llama32_3b_decoupled_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.0062454270952048176,
+      "output": 0.0062899003027792125
+    },
+    "llama32_3b_shared_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006243111571186137
+    }
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/CONSTRAINED_TOPOLOGY_RESULTS.md"
+}

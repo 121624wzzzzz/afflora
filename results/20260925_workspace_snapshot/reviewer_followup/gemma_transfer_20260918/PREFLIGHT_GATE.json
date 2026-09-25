@@ -1,0 +1,80 @@
+{
+  "at": "2026-09-18T22:24:51+08:00",
+  "status": "passed",
+  "smokes": 10,
+  "shared_tensors_compared": 5292,
+  "native_formula_audit_sha256": "2dcbbdcdd023d4c8255062254cc0ffed4e1108bb4b9b088885a2c56d2fb687d7",
+  "technical_repetition": [
+    {
+      "run": "smoke_wikisql_hidden_c0_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_wikisql_hidden_budget_c0_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_wikisql_hidden_both_c0_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_wikisql_hidden_both_c3_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_wikisql_hidden_both_c5_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_trec50_hidden_c0_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_trec50_hidden_budget_c0_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_trec50_hidden_both_c0_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_trec50_hidden_both_c3_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    },
+    {
+      "run": "smoke_trec50_hidden_both_c5_s7399",
+      "initialization_exact": true,
+      "order_exact": true,
+      "final_adapter_exact": true,
+      "step_losses_exact": true
+    }
+  ],
+  "preflight_revision_sha256": "17bcc4cbd250f77acfa0bb75a8affeadec52e7f8b60739714b8a8d082efa5a16"
+}

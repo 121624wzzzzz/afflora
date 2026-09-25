@@ -1,0 +1,112 @@
+{
+  "sealed_sources": {
+    "standalone_base_native_sciq_20260916": {
+      "manifest_sha256": "4c1ffbfed5bb54e531a47e6a8e76a6a46f1068d5f8850d10aaa8484c6369f3ff",
+      "verified_files": 700
+    },
+    "standalone_single_boundary_sciq_20260915": {
+      "manifest_sha256": "e6a385d607150482ae8769162af7bc01146666243abddf8ff6980ed5ffe67b89",
+      "verified_files": 475
+    },
+    "sciq_protocol_cross_audit_20260916": {
+      "manifest_sha256": "3cfc55f51403f37d5ba390eac31a63946f77705d90f7f80132b74fd12e4697f3",
+      "verified_files": 69
+    }
+  },
+  "copied": {
+    "common.py": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/common.py",
+      "sha256_before_local_changes": "b33190bbfafc747381dcebdd3695d4870ba89581c45d09f1dcda6fd7eb8e1885"
+    },
+    "modeling.py": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/modeling.py",
+      "sha256_before_local_changes": "e549920197199b37efc59dcfc4059250fc1fddab9236a6086ea0b681b78644e1"
+    },
+    "train.py": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/train.py",
+      "sha256_before_local_changes": "4d9d35734eccb76030c625e4cc55f7e830af62bd63b18a346446066d6bdc3bb7"
+    },
+    "source/affine_adapter.py": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/source/affine_adapter.py",
+      "sha256_before_local_changes": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805"
+    },
+    "data/validation.jsonl": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/data/validation.jsonl",
+      "sha256": "dfb5048ec71a2ff7cfd75a04d8b408759ca9d36dc2f60473436ee3e204243566"
+    },
+    "data/train.jsonl": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/data/train.jsonl",
+      "sha256": "0dd2a20eff76fc2d250a369697ef26c37059b9dc8c372e633c052a02a7882c4d"
+    },
+    "data/test.jsonl": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/data/test.jsonl",
+      "sha256": "639b98a7258df93e9eef41577dc86197b9f1ced5e019526d27bb2836cb85ab42"
+    },
+    "tokens/qwen25_15b_base_test.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen25_15b_base_test.json",
+      "sha256": "c0acfa6af589c76912a6201dc214fa27a7286fc09d1d48889442e71a6b793505"
+    },
+    "tokens/qwen3_06b_base_test.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen3_06b_base_test.json",
+      "sha256": "c0acfa6af589c76912a6201dc214fa27a7286fc09d1d48889442e71a6b793505"
+    },
+    "tokens/qwen25_15b_base_test_rotations.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen25_15b_base_test_rotations.json",
+      "sha256": "6c4aea347b5b0b588d376e7b8fa1e47fccbce8f8978ffe1103f7bd2e1c60d846"
+    },
+    "tokens/qwen3_06b_base_test_rotations.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen3_06b_base_test_rotations.json",
+      "sha256": "6c4aea347b5b0b588d376e7b8fa1e47fccbce8f8978ffe1103f7bd2e1c60d846"
+    },
+    "tokens/qwen25_15b_base_train.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen25_15b_base_train.json",
+      "sha256": "4a97a5795b368aaf6ee3d661d3d55dd456382fb89e589387e82fa1ea85e356a3"
+    },
+    "tokens/qwen25_15b_base_validation.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen25_15b_base_validation.json",
+      "sha256": "92f16a4186200eddcdb2f23c604a049b56b6b0f87900d21a781aac2bf4d8ab9d"
+    },
+    "tokens/qwen3_06b_base_validation.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen3_06b_base_validation.json",
+      "sha256": "92f16a4186200eddcdb2f23c604a049b56b6b0f87900d21a781aac2bf4d8ab9d"
+    },
+    "tokens/qwen3_06b_base_train.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/tokens/qwen3_06b_base_train.json",
+      "sha256": "4a97a5795b368aaf6ee3d661d3d55dd456382fb89e589387e82fa1ea85e356a3"
+    },
+    "tokens/qwen3_06b_chat_test.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen3_06b_chat_test.json",
+      "sha256": "af03b394b972eabb1ee18e9bda52e6d91ff8598aef14f437517c0bb77de76537"
+    },
+    "tokens/qwen3_06b_chat_validation.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen3_06b_chat_validation.json",
+      "sha256": "0f21c523876023a21d46b881a5b9f6488bca3ffe8fe0aecb2ebf1fd6abc7329a"
+    },
+    "tokens/qwen3_06b_chat_train.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen3_06b_chat_train.json",
+      "sha256": "2af0fad2c152b3d3ad7e753a0e672e22bb4fcbdabf9987a067ed739d2bdc011b"
+    },
+    "tokens/qwen25_15b_chat_train.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen25_15b_chat_train.json",
+      "sha256": "b9a10222884d048ad281a916e43402fe6a1b5696d78d68a26807b7b57dfea9b5"
+    },
+    "tokens/qwen3_06b_chat_test_rotations.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen3_06b_chat_test_rotations.json",
+      "sha256": "3d720c945a946dcdb252a06aafe42618e419b13d0cf5f7edc7830cc1d60f8559"
+    },
+    "tokens/qwen25_15b_chat_test.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen25_15b_chat_test.json",
+      "sha256": "6daf105eb2a8e725f39969b242dc3836ac2f35fb231b6e183f765a6c49638577"
+    },
+    "tokens/qwen25_15b_chat_validation.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen25_15b_chat_validation.json",
+      "sha256": "8b1f40e4733d4b9c1f169500793a5f01ca8a4e629025a77cd4206c1e51fc5474"
+    },
+    "tokens/qwen25_15b_chat_test_rotations.json": {
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/tokens/qwen25_15b_chat_test_rotations.json",
+      "sha256": "d1328be008c96e6b6abc5fa18f3542fa690bcfba9c3260a3bb336908b2b88557"
+    }
+  },
+  "new_training": "small_q control only; existing verified fitted adapters reused unchanged",
+  "scope": "post hoc repair on an already inspected benchmark"
+}

@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-09-15T12:38:19.877585+08:00",
+  "status": "complete",
+  "sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/FINAL_INTERPRETATION_ZH.md": "249ebb721399a719ecfe059cb3fdef51eda6ed379e1b067ddc5cf850f6b01c47",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/FINAL_AUDIT.json": "6f3ba1fb5e2f6e48092f283bb54c5e7dd1f7de64d14b5695ffc47f0ec45a1dc7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/RESULTS.json": "ad03e2c4f0c795f98266f014f6fd7fd582c72e81cb861cc4217a6eaff7d55e6d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/RESULTS.md": "3b269ec6b6124dec3a0994229b9c4e15dd7844e0bc7de52d08e13218391810ef",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/paired_effects.csv": "8940fdc7cc7aa1628d6e6b4989f38fc913a91c03dcaf915e5809bec800833954",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/GENERATION_DIAGNOSTICS.json": "bb0f38b6072d9afd478a0b797a1336757103634e322d089cb547b50b7a3cc5af",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/GENERATION_REPLAY_AUDIT.json": "9014bdb81d19ae9525fe7c4156bbaacff48627c38d4761f800d5f59bf7133e76",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/diagnose_generation.py": "7cf46740ab495ad697de6e4289fd4746ed44a55c0c3c56fa4f2fcb0358a8fb16",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/plot.py": "e30ddbbf6fc8403d88c409b8eb915fccff370a60623c26b938fee23e0001406a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/figures/paired_increments.pdf": "c1497e0d7415997b71591f2b8c28f404e8554cf073a73253443d6a577c9f82be",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/figures/sources.json": "bba69209636561cdc25a53dba360044f295aba79469976fc9fecd086cd843ec1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/figures/paired_increments.png": "ce2ff2e207f1dd27aee1463aad8c34742add5c596a976c781d0410977c0bbb14"
+  }
+}

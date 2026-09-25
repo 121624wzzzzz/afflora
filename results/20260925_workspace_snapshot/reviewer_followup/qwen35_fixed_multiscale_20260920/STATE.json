@@ -1,0 +1,48 @@
+{
+  "started_at": "2026-09-20T00:44:07+08:00",
+  "at": "2026-09-20T17:22:01+08:00",
+  "failed": false,
+  "admission_paused": false,
+  "studies": {
+    "08b": {
+      "phase": "confirmation",
+      "counts": {
+        "pending": 27,
+        "running": 2,
+        "auditing": 0,
+        "passed": 85,
+        "failed": 0
+      }
+    },
+    "2b": {
+      "phase": "confirmation",
+      "counts": {
+        "pending": 31,
+        "running": 1,
+        "auditing": 0,
+        "passed": 82,
+        "failed": 0
+      }
+    },
+    "4b": {
+      "phase": "search",
+      "counts": {
+        "pending": 9,
+        "running": 3,
+        "auditing": 0,
+        "passed": 70,
+        "failed": 0
+      }
+    },
+    "9b": {
+      "phase": "search",
+      "counts": {
+        "pending": 34,
+        "running": 1,
+        "auditing": 0,
+        "passed": 47,
+        "failed": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,770 @@
+[
+  {
+    "name": "adapter_toolace_qwen3_06b_base_input_s6100",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_output_s6100",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6100",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6100",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_input_s6100",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_output_s6100",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6100",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6100",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_input_s6100",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_output_s6100",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6100",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6100",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_input_s6100",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_output_s6100",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6100",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6100",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6100,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_s6101",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_input_s6101",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_output_s6101",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6101",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6101",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_s6101",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_input_s6101",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_output_s6101",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6101",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6101",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_s6101",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_input_s6101",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_output_s6101",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6101",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6101",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_s6101",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_input_s6101",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_output_s6101",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6101",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6101",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6101,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_s6102",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_input_s6102",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_output_s6102",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6102",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6102",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_s6102",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_input_s6102",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_output_s6102",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6102",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6102",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_s6102",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_input_s6102",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_output_s6102",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6102",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6102",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_s6102",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_input_s6102",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_output_s6102",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6102",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6102",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6102,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_s6103",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_input_s6103",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_output_s6103",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6103",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6103",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_s6103",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_input_s6103",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_output_s6103",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6103",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6103",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_s6103",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_input_s6103",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_output_s6103",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6103",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6103",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_s6103",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_input_s6103",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_output_s6103",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6103",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6103",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6103,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_s6104",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_input_s6104",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_output_s6104",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6104",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6104",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_s6104",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_input_s6104",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "input",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_output_s6104",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "output",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6104",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6104",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_budget",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_s6104",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_input_s6104",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_output_s6104",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6104",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6104",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_s6104",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_input_s6104",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "input",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_output_s6104",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "output",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6104",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_both",
+    "seed": 6104,
+    "lr": 0.0002
+  },
+  {
+    "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6104",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6104,
+    "lr": 0.0002
+  }
+]

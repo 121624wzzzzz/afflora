@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-09-19T23:05:16+08:00",
+  "at": "2026-09-20T00:05:46+08:00",
+  "failed": false,
+  "studies": {
+    "08b": {
+      "phase": "search",
+      "counts": {
+        "pending": 58,
+        "running": 3,
+        "auditing": 0,
+        "passed": 21,
+        "failed": 0
+      }
+    },
+    "2b": {
+      "phase": "search",
+      "counts": {
+        "pending": 71,
+        "running": 1,
+        "auditing": 0,
+        "passed": 10,
+        "failed": 0
+      }
+    },
+    "9b": {
+      "phase": "preflight",
+      "counts": {
+        "pending": 76,
+        "running": 1,
+        "auditing": 0,
+        "passed": 5,
+        "failed": 0
+      }
+    }
+  }
+}

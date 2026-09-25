@@ -1,0 +1,239 @@
+{
+  "_id": "66e6d032663c452ad2400439",
+  "id": "Qwen/Qwen2.5-1.5B",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "qwen2",
+    "text-generation",
+    "conversational",
+    "en",
+    "arxiv:2407.10671",
+    "license:apache-2.0",
+    "eval-results",
+    "text-generation-inference",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 903384,
+  "likes": 218,
+  "modelId": "Qwen/Qwen2.5-1.5B",
+  "author": "Qwen",
+  "sha": "8faed761d45a263340a0528343f099c05c9a4323",
+  "lastModified": "2024-10-08T10:56:50.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ],
+    "model_type": "qwen2",
+    "tokenizer_config": {
+      "bos_token": null,
+      "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+      "eos_token": "<|endoftext|>",
+      "pad_token": "<|endoftext|>",
+      "unk_token": null
+    }
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "license_link": "https://huggingface.co/Qwen/Qwen2.5-1.5B/blob/main/LICENSE",
+    "language": [
+      "en"
+    ],
+    "pipeline_tag": "text-generation",
+    "library_name": "transformers"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "LICENSE",
+      "blobId": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "size": 11343
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "b2861f7da85a5af5e321b57c7bbf98ae17255992",
+      "size": 3850
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "169d606d5cf502a5628a52381586679a6d0caaab",
+      "size": 684
+    },
+    {
+      "rfilename": "generation_config.json",
+      "blobId": "cbbb3133034e192527e5321b4c679154e4819ab8",
+      "size": 138
+    },
+    {
+      "rfilename": "merges.txt",
+      "blobId": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "size": 1671839
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "de4b04359b427ed291b005f62b749531d45e3e5f",
+      "size": 3087467144,
+      "lfs": {
+        "sha256": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796",
+        "size": 3087467144,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "443909a61d429dff23010e5bddd28ff530edda00",
+      "size": 7031645
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "ba7e4c5637b9732dadcd66286ce48334e8b31e9e",
+      "size": 7228
+    },
+    {
+      "rfilename": "vocab.json",
+      "blobId": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "size": 2776833
+    }
+  ],
+  "spaces": [
+    "pliny-the-prompter/obliteratus",
+    "anycoderapps/VibeVoice-Realtime-0.5B",
+    "VIDraft/global-llm-leaderboard",
+    "seawolf2357/LLM_Quantization",
+    "baconnier/prompt-plus-plus",
+    "eduagarcia/open_pt_llm_leaderboard",
+    "yasserrmd/VibeVoice",
+    "multimodalart/kugelaudio",
+    "Steveeeeeeen/VibeVoice-Large",
+    "vibingvoice/vibe-voice-custom-voices",
+    "KBaba7/Quant",
+    "ACloudCenter/Conference-Generator-VibeVoice",
+    "NeuralFalcon/VibeVoice-Colab",
+    "FallnAI/Quantize-HF-Models",
+    "Kentuss/vibe-voice-custom-voices-api",
+    "openfree/LLM_Quantization",
+    "AlexWortega/activation-oracle",
+    "bhaskartripathi/LLM_Quantization",
+    "ruslanmv/convert_to_gguf",
+    "hfmlsoc/different-flops",
+    "stanley-00/slm-testing",
+    "stats-powered-ai/StatDetectLLM",
+    "totolook/Quant",
+    "K00B404/LLM_Quantization",
+    "Kentuss/vibe-voice-custom-voices",
+    "Deddy/PromptSuite-AI",
+    "Kentuss/vibe-voice-custom-voices-2",
+    "Kentuss/vibe-voice-custom-voices-test",
+    "devignite/vibe-voice-custom-voices-api",
+    "D4RKN3SS/VibeVoice-Realtime-0.5B",
+    "JymNils/VibeVoice-Realtime-0.5B",
+    "Kodacoda/obliteratus",
+    "dumbordumber/obliteratus",
+    "jaypandit24/JPHackX-Custom-Qwen",
+    "AsadIsmail/ternary-quant-demo",
+    "bountyhunterzain/NiceAi",
+    "SatyamD31/cai_assignment_2",
+    "rahul7star/Qwen-Training",
+    "xdghgjghchg/Qwen-Training",
+    "rrrealizm/vibe-voice-custom-voices-1",
+    "MySafeCode/VibeVoice-Realtime-0.5B",
+    "MySafeCode/Vision-to-VibeVoice-en",
+    "abdelati88/VibeVoice-Realtime-0.5B",
+    "Oss11/Quantize-HF-Models",
+    "Xlnk/Quantize-HF-Models",
+    "exploitz3r0bbd/Quantize-HF-Models",
+    "CultriX/kugelaudio",
+    "shsbjsvwkbbkedbo/Inferkit",
+    "dhlak/llm-vram-calc",
+    "dromero14521/obliteratus",
+    "kicfk/obliteratus",
+    "aaahmet/obliteratus",
+    "rbinrs/obliteratus",
+    "Ngixdev/obliteratus",
+    "Deadmon/obliteratus",
+    "banao-tech/vibe-voice-custom-voices",
+    "Shaurya-Noodle/Supplymind",
+    "zpenct/llm-probability-inspector",
+    "RavichandranJ/obliteratus",
+    "S-Dreamer/obliteratus",
+    "AlanaSky/asgaard",
+    "marchkamal51/obliteratus",
+    "Kansasfan/vibe-voice-custom-voices",
+    "Lkkash/AI-Email-Writer",
+    "Alipapel/ALP311",
+    "jaddy22/Qwen-Qwen2.5-1.5B",
+    "mployee8/Qwen-Qwen2.5-1.5B",
+    "Adoetz/qwen1.5b",
+    "marcusinect/First_agent_template",
+    "ElvisTsang/OnceUponATime",
+    "csayanta/caibot",
+    "tuandunghcmut/Multiple-Chatbots",
+    "fcasadei/AURA-chatbot",
+    "shubhammjha/brainwave-agent",
+    "fcasadei/AURA-Suite",
+    "K00B404/convert_to_gguf",
+    "toksuite/quick-tokenizer-accuracy",
+    "vishaljoshi24/trl-4-dnd",
+    "unfiltrdfreedom/promptwizard-qwen-training",
+    "khanhanai/pdf-qwen-app",
+    "Shadowfita/VibeVoice",
+    "huleski1/VibeVoice-Colab",
+    "lths/VibeVoice-Demo",
+    "casperbankerson/VibeVoice-Large",
+    "Hudson-Hh-magic/posy",
+    "banao-tech/VibeVoice",
+    "diabolic6045/Sanskrit-English-qwen2-tokenizer-demo",
+    "rootxenon/vibevoice-demo",
+    "peterlllmm/vibe-voice-custom-voices",
+    "Echo-AI-official/VibeVoice-Colab",
+    "FresherDifference/VibeVoice-Colab",
+    "shibbir24/SmartReviewAI",
+    "AmirRghp/Recommend_daraie",
+    "modular-ai/Interface",
+    "rrrealizm/vibe-voice-custom-voices-2",
+    "rrrealizm/vibe-voice-custom-voices-3",
+    "rrrealizm/vibe-voice-custom-voices-4",
+    "xishaoji/my_llmtest",
+    "ShreePion/VibeVoice_finetyne",
+    "Sagarxmaxtor/Data"
+  ],
+  "createdAt": "2024-09-15T12:16:50.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 1543714304
+    },
+    "total": 1543714304
+  },
+  "usedStorage": 3087467144
+}

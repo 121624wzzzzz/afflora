@@ -1,0 +1,38 @@
+[
+  {
+    "size": "0.8B",
+    "ids": {
+      "image_token_id": 248056,
+      "video_token_id": 248057,
+      "vision_start_token_id": 248053,
+      "vision_end_token_id": 248054
+    }
+  },
+  {
+    "size": "2B",
+    "ids": {
+      "image_token_id": 248056,
+      "video_token_id": 248057,
+      "vision_start_token_id": 248053,
+      "vision_end_token_id": 248054
+    }
+  },
+  {
+    "size": "4B",
+    "ids": {
+      "image_token_id": 248056,
+      "video_token_id": 248057,
+      "vision_start_token_id": 248053,
+      "vision_end_token_id": 248054
+    }
+  },
+  {
+    "size": "9B",
+    "ids": {
+      "image_token_id": 248056,
+      "video_token_id": 248057,
+      "vision_start_token_id": 248053,
+      "vision_end_token_id": 248054
+    }
+  }
+]

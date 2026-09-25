@@ -1,0 +1,9 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-12T23:12:30+08:00",
+  "rhos": {
+    "llama31_8b_frozen_hr4_then_lmhead_ar16_s1_unconstrained_seed42": 0.011182113997859452,
+    "llama31_8b_frozen_hr4_then_lmhead_ar16_s1_energy_tau0p00625_l100_seed42": 0.00602632584880968
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/STAGED_FROZEN_HIDDEN_ALORA_RESULTS.md"
+}

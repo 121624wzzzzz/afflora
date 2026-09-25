@@ -1,0 +1,33 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-13T05:20:48+08:00",
+  "rhos": {
+    "qwen3_06b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006248798966756902
+    },
+    "qwen3_06b_output_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "output": 0.006294620793510891
+    },
+    "qwen3_06b_shared_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.00624495025962623
+    },
+    "qwen3_06b_decoupled_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006236886554892944,
+      "output": 0.006295876311764957
+    },
+    "qwen25_15b_input_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006252847920878559
+    },
+    "qwen25_15b_output_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "output": 0.006241116545804789
+    },
+    "qwen25_15b_shared_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006253525996842746
+    },
+    "qwen25_15b_decoupled_ar16_s1_hr4_energy_tau0p00625_l100_seed42": {
+      "input": 0.006253235606222778,
+      "output": 0.006201011639635055
+    }
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/QWEN_CONSTRAINED_TOPOLOGY_RESULTS.md"
+}

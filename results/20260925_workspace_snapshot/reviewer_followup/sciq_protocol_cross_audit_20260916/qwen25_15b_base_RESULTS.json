@@ -1,0 +1,128 @@
+{
+  "model": "qwen25_15b_base",
+  "conditions": {
+    "plain_answer": {
+      "n": 998,
+      "candidate_accuracy": 89.17835671342685,
+      "unrestricted_accuracy": 89.17835671342685,
+      "valid_label_rate": 100.0,
+      "prediction_counts": {
+        "1": 274,
+        "3": 236,
+        "0": 225,
+        "2": 263
+      },
+      "seconds": 14.123347170650959,
+      "sha256": "d42ad74902c693954f8c7198c6dcbff1a251d50fb40283da272601c0c83b34d4",
+      "original_reference_max_logit_error": 2.47955322265625e-05,
+      "original_prediction_flips": 0
+    },
+    "plain_no_cue": {
+      "n": 998,
+      "candidate_accuracy": 86.67334669338678,
+      "unrestricted_accuracy": 84.66933867735472,
+      "valid_label_rate": 94.98997995991984,
+      "prediction_counts": {
+        "1": 269,
+        "3": 209,
+        "0": 293,
+        "2": 227
+      },
+      "seconds": 13.655466694384813,
+      "sha256": "89296996ad3fc257d35d9058690aac3de399faead3e88c713e8a6dcec53f796f"
+    },
+    "chat": {
+      "n": 998,
+      "candidate_accuracy": 24.448897795591183,
+      "unrestricted_accuracy": 0.0,
+      "valid_label_rate": 0.0,
+      "prediction_counts": {
+        "0": 998
+      },
+      "seconds": 17.712040476500988,
+      "sha256": "21de44ede0435d1b654db122f5f54428c47b00052294c4c86fef86e2195664a5"
+    },
+    "chat_answer": {
+      "n": 998,
+      "candidate_accuracy": 81.66332665330661,
+      "unrestricted_accuracy": 80.66132264529058,
+      "valid_label_rate": 98.49699398797596,
+      "prediction_counts": {
+        "1": 250,
+        "3": 148,
+        "0": 337,
+        "2": 263
+      },
+      "seconds": 18.017067041248083,
+      "sha256": "4493b0fe514a31c54d94f8519bc08889ea64be9a218118539a91771b9a5b2cf8"
+    }
+  },
+  "original_generation_reparsed": {
+    "n": 998,
+    "leading_letter_accuracy": 89.17835671342685,
+    "leading_letter_validity": 100.0,
+    "strict_accuracy": 5.110220440881764,
+    "length_cap_rate": 0.0,
+    "examples": [
+      {
+        "id": "test_0",
+        "gold": 1,
+        "text": "B. oxidants",
+        "strict_correct": false
+      },
+      {
+        "id": "test_1",
+        "gold": 3,
+        "text": "D. clone",
+        "strict_correct": false
+      },
+      {
+        "id": "test_2",
+        "gold": 0,
+        "text": "A. backbone",
+        "strict_correct": false
+      },
+      {
+        "id": "test_3",
+        "gold": 1,
+        "text": "B. elevation",
+        "strict_correct": false
+      },
+      {
+        "id": "test_4",
+        "gold": 3,
+        "text": "D. tree rings",
+        "strict_correct": false
+      },
+      {
+        "id": "test_5",
+        "gold": 0,
+        "text": "A. plant hormones",
+        "strict_correct": false
+      },
+      {
+        "id": "test_6",
+        "gold": 0,
+        "text": "A. sperm and eggs",
+        "strict_correct": false
+      },
+      {
+        "id": "test_7",
+        "gold": 1,
+        "text": "B. deciduous",
+        "strict_correct": false
+      }
+    ]
+  },
+  "model_files_verified": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/config.json": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/model.safetensors": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "independent_full_forward": true,
+  "adapter_installed": false
+}

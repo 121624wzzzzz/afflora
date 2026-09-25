@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_none_hr8_sd42",
+  "stop_ids": [
+    151643,
+    151645
+  ],
+  "checkpoint_files": {
+    "run_args.json": "3e8b04777edc189b808bb79dea7531094825c5f1ca261c25acc20f81c39744fd",
+    "adapter_config.json": "e72edd2e389aa43f76e47e2c89a59c470e0b44df3cea82462d08d973b0bec84e",
+    "adapter_model.safetensors": "6015953bc4567edf0d515d35cb8e85a49e0e01d962a23b0dae1a9029ed8aee00"
+  },
+  "evaluator_sha256": "ae23c1e8db7c0ce864341f9c13fae549404ff2592f80800d6fbfe4815afd026a",
+  "controlled_batched_eos_check": "passed: native turn-end and base EOS stop at expected lengths",
+  "natural_outputs_are_diagnostics": true,
+  "records": [
+    {
+      "prompt": "Reply with exactly the word yes.",
+      "generated_tokens": 128,
+      "terminal_token_id": null,
+      "hit_token_cap": true,
+      "raw_response": "是的。�\n\n请告诉我您想了解的内容。�\n\n请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我您想了解的内容。力还是自\n\n我需要帮助吗？请告诉我"
+    },
+    {
+      "prompt": "Write one short sentence about the sky.",
+      "generated_tokens": 128,
+      "terminal_token_id": null,
+      "hit_token_cap": true,
+      "raw_response": "夕阳斜照，云朵如纱，星辰点缀着天际，仿佛在诉说着宇宙的温柔。 bakeka\n\n（注：此句以简洁的意象描绘了天空的宁静与神秘，适合用于描述自然景观或情感场景。） dóla\n\n（注：此句以简洁的意象描绘了天空的宁静与神秘，适合用于描述自然景观或情感场景。） dóla\n\n（注：此句以简洁的意象描绘了天空的宁静与神秘，适合用于描述自然景观或情感场景。） dóla\n\n（注：此句以简洁的意象描绘了天空"
+    }
+  ]
+}

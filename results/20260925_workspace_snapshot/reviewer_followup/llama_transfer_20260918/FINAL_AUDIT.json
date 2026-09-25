@@ -1,0 +1,143 @@
+{
+  "at": "2026-09-18T12:31:17+08:00",
+  "status": "passed",
+  "frozen_files_checked": 621,
+  "tokens_reencoded": 13838,
+  "runs": 48,
+  "responses_checked": 56652,
+  "official_sql_checks": 23656,
+  "paired_groups": [
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "seed": 6100,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12357632,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "seed": 6101,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12357632,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "seed": 6102,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12357632,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "seed": 7100,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12357632,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "seed": 7101,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12357632,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "seed": 7102,
+      "counts": {
+        "hidden": 12156928,
+        "hidden_budget": 12357632,
+        "hidden_both": 12356608
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "seed": 6100,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "seed": 6101,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "seed": 6102,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "seed": 7100,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "seed": 7101,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "seed": 7102,
+      "counts": {
+        "hidden": 20971520,
+        "hidden_budget": 21237760,
+        "hidden_both": 21237760
+      },
+      "status": "passed"
+    }
+  ]
+}

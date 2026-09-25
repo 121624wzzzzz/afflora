@@ -1,0 +1,69 @@
+{
+  "purpose": "Posthoc FP32 boundary-map evaluation on native training token frequencies. Not downstream evidence.",
+  "models": {
+    "llama31_8b_base": [
+      {
+        "seed": 7100,
+        "adapter_sha256": "30ac073cc7e09db7c959c6aa62beaeb893f46ae49f68945df48f1574d04a026c",
+        "embedding_rms": 0.008488400237353498,
+        "input_bias_rms": 0.0012013480300083756,
+        "input_bias_rms_over_embedding_rms": 0.14152820277274417,
+        "input_low_rank_delta_rms_over_embedding_rms": 0.0368535191055659,
+        "input_total_delta_rms_over_embedding_rms": 0.15380827577638131,
+        "output_linear_delta_frobenius_over_identity_frobenius": 0.02137836255133152
+      },
+      {
+        "seed": 7101,
+        "adapter_sha256": "ef3ee9bdb3bdc2ca60ab54de39bb46fcf3e19a69a89b12e64d9bab315302d0d3",
+        "embedding_rms": 0.008488400237353498,
+        "input_bias_rms": 0.0012134619755670428,
+        "input_bias_rms_over_embedding_rms": 0.1429553203944321,
+        "input_low_rank_delta_rms_over_embedding_rms": 0.03642874996543737,
+        "input_total_delta_rms_over_embedding_rms": 0.1484382468163235,
+        "output_linear_delta_frobenius_over_identity_frobenius": 0.022061239928007126
+      },
+      {
+        "seed": 7102,
+        "adapter_sha256": "a481d38130e84ed22116bd4a0640973c28f5e9b00332800d15228cf6c01c0c93",
+        "embedding_rms": 0.008488400237353498,
+        "input_bias_rms": 0.001182248815894127,
+        "input_bias_rms_over_embedding_rms": 0.13927816583054134,
+        "input_low_rank_delta_rms_over_embedding_rms": 0.0365261946482599,
+        "input_total_delta_rms_over_embedding_rms": 0.14780729337427412,
+        "output_linear_delta_frobenius_over_identity_frobenius": 0.021533967927098274
+      }
+    ],
+    "qwen3_8b_base": [
+      {
+        "seed": 7100,
+        "adapter_sha256": "55fcf1c8d6f754f1a9e86eb8d57c7b2b51e9ec7cd6446f906e4989023d88efcf",
+        "embedding_rms": 0.026193552378898737,
+        "input_bias_rms": 0.0012058070860803127,
+        "input_bias_rms_over_embedding_rms": 0.04603449996540747,
+        "input_low_rank_delta_rms_over_embedding_rms": 0.0363593904069359,
+        "input_total_delta_rms_over_embedding_rms": 0.06026949404109658,
+        "output_linear_delta_frobenius_over_identity_frobenius": 0.019111989066004753
+      },
+      {
+        "seed": 7101,
+        "adapter_sha256": "23315a0ebe22dc67a7c781d5903c10a535e7d591363f263ee3845c87b929285f",
+        "embedding_rms": 0.026193552378898737,
+        "input_bias_rms": 0.0011666974751278758,
+        "input_bias_rms_over_embedding_rms": 0.044541399282204866,
+        "input_low_rank_delta_rms_over_embedding_rms": 0.027624765057067978,
+        "input_total_delta_rms_over_embedding_rms": 0.05967306449031809,
+        "output_linear_delta_frobenius_over_identity_frobenius": 0.020170435309410095
+      },
+      {
+        "seed": 7102,
+        "adapter_sha256": "30127b95774776bbb631b3a63bd1a72fdffd1067a0043f747fdcd57de9467eee",
+        "embedding_rms": 0.026193552378898737,
+        "input_bias_rms": 0.0012712838361039758,
+        "input_bias_rms_over_embedding_rms": 0.04853422772575549,
+        "input_low_rank_delta_rms_over_embedding_rms": 0.04033593937027707,
+        "input_total_delta_rms_over_embedding_rms": 0.06921132686995804,
+        "output_linear_delta_frobenius_over_identity_frobenius": 0.019806066527962685
+      }
+    ]
+  }
+}

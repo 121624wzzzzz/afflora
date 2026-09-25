@@ -1,0 +1,13 @@
+# Operational scheduling amendment, 2026-09-17
+
+This changes resource admission only. The original `PROTOCOL.md`, data, model identity, fitting, decoding, scoring, seed order, run list, and statistical family remain frozen and their original hashes continue to be checked. This document supplements the GPU-admission sentence of the original protocol; it does not rewrite that record.
+
+The scheduler initially acquired GPUs 2–6 while they had less than 512 MiB allocated. Another user's eight-GPU job started at 16:35:53 and subsequently occupied approximately 3–5 GiB per card. Our already-started workers continued to run alongside it. Once an existing worker finished, the original near-empty-memory rule could not admit its successor, leaving 56 planned jobs queued although these 80 GiB GPUs still had approximately 75 GiB free. This was a resource admission restriction, not an experiment failure.
+
+Under the user's existing authorization to run the expanded GPU experiments, resume on the same five originally allocated GPUs, 2–6, when **at least 48 GiB is free immediately before launch**. There is still at most one worker from this study per GPU. GPUs 0, 1, and 7 remain outside this amended pool. Existing external processes are not terminated or modified. The four earlier memory probes and completed full evaluations fit within this margin; the largest smoke training probe used about 30.78 GiB. No quantization, smaller batches, shorter outputs, or changed precision are introduced.
+
+Finish the current 7B Base evaluation, confirm that the original scheduler has no active workers, record its state, and terminate only that study scheduler while it waits. Resume through `pipeline_shared.py`, which imports the original frozen pipeline and overrides only its resource-availability function. Completed checkpoints, specs, and evaluation response files are checked before reuse; no fitted run is repeated. The original scheduler's deliberate shutdown is not a model-run failure or a result-based retry.
+
+The new scheduler source hash, time, prior scheduler PID, original code/data manifest hashes, and resource snapshot are recorded in `RESOURCE_AMENDMENT.json` before resumption. `OPERATIONAL_RESUME_CHECK.json` records the reuse checks. The final full audit still covers every planned run and output. The original scheduling state is retained in `SCHEDULER_PAUSE_SNAPSHOT.json`.
+
+Co-tenancy affects throughput. Wall-clock values in this study must not be used as a controlled method-speed comparison. This operational change is motivated by resource availability, applies identically to all remaining arms and seeds, and does not change the pre-specified effect comparisons or outcome thresholds.

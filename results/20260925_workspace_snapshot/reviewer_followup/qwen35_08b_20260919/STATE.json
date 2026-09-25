@@ -1,0 +1,1749 @@
+{
+  "started_at": "2026-09-19T23:05:16+08:00",
+  "at": "2026-09-20T00:05:46+08:00",
+  "phase": "search",
+  "jobs": [
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_c0_s7599",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7599,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3853897,
+      "started_at": "2026-09-19T23:05:57+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:07:28+08:00",
+      "audit_pid": 3860302,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:07:38+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_budget_c0_s7599",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7599,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3853899,
+      "started_at": "2026-09-19T23:05:57+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:07:28+08:00",
+      "audit_pid": 3860303,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:07:38+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_both_c0_s7599",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7599,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3853900,
+      "started_at": "2026-09-19T23:05:57+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:07:08+08:00",
+      "audit_pid": 3858900,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:07:18+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_both_c3_s7599",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7599,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3858905,
+      "started_at": "2026-09-19T23:07:08+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:08:19+08:00",
+      "audit_pid": 3863875,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:08:29+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_both_c5_s7599",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7599,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3860309,
+      "started_at": "2026-09-19T23:07:28+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:09:00+08:00",
+      "audit_pid": 3866908,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:09:10+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_c0_s7599",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7599,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3860310,
+      "started_at": "2026-09-19T23:07:28+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:09:10+08:00",
+      "audit_pid": 3867731,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:09:20+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_budget_c0_s7599",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7599,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3863894,
+      "started_at": "2026-09-19T23:08:19+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:09:31+08:00",
+      "audit_pid": 3868927,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:09:41+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_both_c0_s7599",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7599,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3866915,
+      "started_at": "2026-09-19T23:09:00+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:10:32+08:00",
+      "audit_pid": 3873711,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:10:42+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_both_c3_s7599",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7599,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3867749,
+      "started_at": "2026-09-19T23:09:10+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:10:42+08:00",
+      "audit_pid": 3874209,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:10:52+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_both_c5_s7599",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7599,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3868954,
+      "started_at": "2026-09-19T23:09:31+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:10:42+08:00",
+      "audit_pid": 3874210,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:10:52+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c0_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3876812,
+      "started_at": "2026-09-19T23:11:03+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:27:00+08:00",
+      "audit_pid": 3952371,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:27:21+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c0_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3876813,
+      "started_at": "2026-09-19T23:11:03+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:27:00+08:00",
+      "audit_pid": 3952372,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:27:10+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c0_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3876814,
+      "started_at": "2026-09-19T23:11:03+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:22:25+08:00",
+      "audit_pid": 3931745,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:22:36+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c0_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 3912979,
+      "started_at": "2026-09-19T23:18:41+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:32:58+08:00",
+      "audit_pid": 3981785,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:33:08+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c0_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3937549,
+      "started_at": "2026-09-19T23:23:47+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:35:21+08:00",
+      "audit_pid": 3992653,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:35:31+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c0_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3952422,
+      "started_at": "2026-09-19T23:27:00+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:40:56+08:00",
+      "audit_pid": 4019371,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:41:07+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c1_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3969407,
+      "started_at": "2026-09-19T23:30:35+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:51:18+08:00",
+      "audit_pid": 4068524,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:51:39+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c1_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 3991088,
+      "started_at": "2026-09-19T23:35:00+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:55:44+08:00",
+      "audit_pid": 4088559,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:55:54+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c1_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 4001495,
+      "started_at": "2026-09-19T23:37:13+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:53:11+08:00",
+      "audit_pid": 4077037,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:53:21+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c1_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 4019386,
+      "started_at": "2026-09-19T23:40:57+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T23:55:23+08:00",
+      "audit_pid": 4087099,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T23:55:33+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c1_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 4062318,
+      "started_at": "2026-09-19T23:50:17+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-20T00:04:35+08:00",
+      "audit_pid": 4132061,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-20T00:04:45+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c1_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "running",
+      "gpu": 3,
+      "pid": 4079926,
+      "started_at": "2026-09-19T23:53:51+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c2_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "running",
+      "gpu": 7,
+      "pid": 4090941,
+      "started_at": "2026-09-19T23:56:14+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c2_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "running",
+      "gpu": 1,
+      "pid": 4105466,
+      "started_at": "2026-09-19T23:59:28+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c2_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c2_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c2_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c2_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c3_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c3_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c3_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c3_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c3_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c3_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c4_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c4_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c4_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c4_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c4_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c4_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c5_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c5_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c5_s7600",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c5_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c5_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c5_s7600",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7600,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c0_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c0_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c0_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c0_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c0_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c0_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c1_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c1_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c1_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c1_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c1_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c1_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c2_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c2_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c2_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c2_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c2_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c2_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c3_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c3_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c3_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c3_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c3_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c3_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c4_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c4_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c4_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c4_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c4_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c4_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c5_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c5_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c5_s7601",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c5_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c5_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_budget",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c5_s7601",
+        "stage": "search",
+        "task": "trec50",
+        "model": "qwen35_08b_base",
+        "arm": "hidden_both",
+        "seed": 7601,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "pending"
+    }
+  ],
+  "counts": {
+    "pending": 58,
+    "running": 3,
+    "auditing": 0,
+    "passed": 21,
+    "failed": 0
+  }
+}

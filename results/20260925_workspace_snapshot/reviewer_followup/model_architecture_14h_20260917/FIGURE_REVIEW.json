@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-18T02:02:03.429547+00:00",
+  "status": "passed",
+  "reviewed_pngs": {
+    "figures/core_model_series.png": "069029545fb067380c662234279e7bb062a553f44e8c85f519b9f807c5ea2f8f",
+    "figures/standalone_model_series.png": "65800c187816023f98466e3b7ed2d34e39d1e6823eee21b9fad3b0f4836e89b1",
+    "figures/untied_side_effects.png": "6ff44a0f9022c4ca2b493331b751c5dd1ce8cdc7dbf08098187e423d233a9fc4",
+    "figures/new_task_effects.png": "58f76c8da5d202707c6e929821891966502a087ab5e13b16fe02e1fef2a9e77b"
+  },
+  "checks": [
+    "All four PNGs inspected at final data coverage; unchanged core PNG hash matched the inspected image.",
+    "Missing conditions retain NaN gaps and visible labels without covering data points.",
+    "Signed seed-level effects, zero reference and n=3 labels are legible; error bars are seed SD, not confidence intervals.",
+    "Paired differences involving H+E/H+U use parenthesized control labels."
+  ]
+}

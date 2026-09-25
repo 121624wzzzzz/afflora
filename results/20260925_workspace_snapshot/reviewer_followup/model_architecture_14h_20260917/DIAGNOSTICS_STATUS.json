@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-18T01:56:50.344361+00:00",
+  "status": "passed",
+  "metric_rows": 4291,
+  "training_rows": 473,
+  "interaction_conditions": 14,
+  "trec_error_groups": 20
+}

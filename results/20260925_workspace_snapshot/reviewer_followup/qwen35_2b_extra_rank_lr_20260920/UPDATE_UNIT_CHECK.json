@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "max_absolute_difference_separate_AdamW": 4.470348358154297e-08,
+  "steps_per_case": 10,
+  "ranks": [
+    9,
+    10
+  ],
+  "sides": [
+    "A",
+    "B"
+  ],
+  "shared_coordinates_bitwise_unchanged": true,
+  "ratio_one_identity": true
+}

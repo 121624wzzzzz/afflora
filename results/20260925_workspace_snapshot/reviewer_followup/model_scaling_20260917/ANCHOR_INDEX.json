@@ -1,0 +1,1254 @@
+[
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 6102,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_both_s6102",
+    "summary": {
+      "content_correct": 30.081906180193595,
+      "schema_valid": 96.94713328369322,
+      "json_valid": 99.47877885331347,
+      "strict_json": 99.47877885331347,
+      "span_micro_f1": 61.87073209464825,
+      "span_counts": {
+        "tp": 1948,
+        "pred": 3225,
+        "gold": 3072
+      },
+      "text_micro_f1": 62.76004446561855,
+      "text_counts": {
+        "tp": 1976,
+        "pred": 3225,
+        "gold": 3072
+      },
+      "primary": 61.87073209464825,
+      "n": 1343,
+      "native_eos_pct": 99.47877885331347,
+      "capped_pct": 0.5212211466865228,
+      "mean_generated_tokens": 41.55174981384959,
+      "seconds": 257.1896478757262,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6102",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_both",
+        "seed": 6102,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "4ecbc878092069f040092f696ddda7395e3e3b107ccc26a082986a6d282c48f5"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "base",
+    "seed": 6100,
+    "directory": "anchors/cluener/pilot_cluener_qwen25_15b_base_base",
+    "summary": {
+      "content_correct": 0.0,
+      "schema_valid": 98.80863737900223,
+      "json_valid": 98.8830975428146,
+      "strict_json": 87.63961280714818,
+      "span_micro_f1": 0.0,
+      "span_counts": {
+        "tp": 0,
+        "pred": 4,
+        "gold": 3072
+      },
+      "text_micro_f1": 0.0,
+      "text_counts": {
+        "tp": 0,
+        "pred": 4,
+        "gold": 3072
+      },
+      "primary": 0.0,
+      "n": 1343,
+      "native_eos_pct": 97.98957557706628,
+      "capped_pct": 2.0104244229337302,
+      "mean_generated_tokens": 32.1705137751303,
+      "seconds": 482.1803746856749,
+      "spec": {
+        "name": "pilot_cluener_qwen25_15b_base_base",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "base",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": []
+      },
+      "tag": "baseline",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "f05eee74bc9ca1ab36800e19357dac2b687499fb25ed3096f73c17adcb639f47"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 6100,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_budget_s6100",
+    "summary": {
+      "content_correct": 28.145941921072225,
+      "schema_valid": 97.02159344750558,
+      "json_valid": 99.47877885331347,
+      "strict_json": 99.47877885331347,
+      "span_micro_f1": 59.19339472848523,
+      "span_counts": {
+        "tp": 1864,
+        "pred": 3226,
+        "gold": 3072
+      },
+      "text_micro_f1": 60.146078120038105,
+      "text_counts": {
+        "tp": 1894,
+        "pred": 3226,
+        "gold": 3072
+      },
+      "primary": 59.19339472848523,
+      "n": 1343,
+      "native_eos_pct": 99.47877885331347,
+      "capped_pct": 0.5212211466865228,
+      "mean_generated_tokens": 41.52196574832465,
+      "seconds": 264.57803865894675,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6100",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_budget",
+        "seed": 6100,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "09e7f13fb749cdfd6f993a0dcdc753f674171b90f11a8f6287dce53219f808af"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 6104,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_both_s6104",
+    "summary": {
+      "content_correct": 32.98585256887565,
+      "schema_valid": 97.61727475800447,
+      "json_valid": 99.40431868950111,
+      "strict_json": 99.40431868950111,
+      "span_micro_f1": 62.52433484750162,
+      "span_counts": {
+        "tp": 1927,
+        "pred": 3092,
+        "gold": 3072
+      },
+      "text_micro_f1": 63.49772874756651,
+      "text_counts": {
+        "tp": 1957,
+        "pred": 3092,
+        "gold": 3072
+      },
+      "primary": 62.52433484750162,
+      "n": 1343,
+      "native_eos_pct": 99.40431868950111,
+      "capped_pct": 0.5956813104988831,
+      "mean_generated_tokens": 40.50856291883842,
+      "seconds": 461.0706966482103,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6104",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_both",
+        "seed": 6104,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "b3362729c8dafc1e61d4f42608c84c772d457cac6133e06970984aece0612540"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 6100,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_both_s6100",
+    "summary": {
+      "content_correct": 31.422189128816083,
+      "schema_valid": 97.54281459419211,
+      "json_valid": 99.77661950856292,
+      "strict_json": 99.77661950856292,
+      "span_micro_f1": 62.10542683874981,
+      "span_counts": {
+        "tp": 1997,
+        "pred": 3359,
+        "gold": 3072
+      },
+      "text_micro_f1": 63.318301974809515,
+      "text_counts": {
+        "tp": 2036,
+        "pred": 3359,
+        "gold": 3072
+      },
+      "primary": 62.10542683874981,
+      "n": 1343,
+      "native_eos_pct": 99.77661950856292,
+      "capped_pct": 0.22338049143708116,
+      "mean_generated_tokens": 41.40878629932986,
+      "seconds": 235.03860469907522,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6100",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_both",
+        "seed": 6100,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "b59ebdb1eb32d7a4c1aec18a29c6621add80f2844f33dfccc18870f95b373eca"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 6101,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_both_s6101",
+    "summary": {
+      "content_correct": 33.13477289650037,
+      "schema_valid": 97.61727475800447,
+      "json_valid": 99.85107967237528,
+      "strict_json": 99.85107967237528,
+      "span_micro_f1": 62.766295707472175,
+      "span_counts": {
+        "tp": 1974,
+        "pred": 3218,
+        "gold": 3072
+      },
+      "text_micro_f1": 63.97456279809221,
+      "text_counts": {
+        "tp": 2012,
+        "pred": 3218,
+        "gold": 3072
+      },
+      "primary": 62.766295707472175,
+      "n": 1343,
+      "native_eos_pct": 99.85107967237528,
+      "capped_pct": 0.14892032762472077,
+      "mean_generated_tokens": 39.52717795979151,
+      "seconds": 222.97118351608515,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6101",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_both",
+        "seed": 6101,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "4fd6896d601b94b9aad8e4508743455fe41e2c44c47f0d3c4f6f82cee9132d15"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 6102,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_budget_s6102",
+    "summary": {
+      "content_correct": 27.326880119136263,
+      "schema_valid": 96.87267311988086,
+      "json_valid": 99.55323901712583,
+      "strict_json": 99.55323901712583,
+      "span_micro_f1": 58.957497995188454,
+      "span_counts": {
+        "tp": 1838,
+        "pred": 3163,
+        "gold": 3072
+      },
+      "text_micro_f1": 59.855653568564556,
+      "text_counts": {
+        "tp": 1866,
+        "pred": 3163,
+        "gold": 3072
+      },
+      "primary": 58.957497995188454,
+      "n": 1343,
+      "native_eos_pct": 99.55323901712583,
+      "capped_pct": 0.4467609828741623,
+      "mean_generated_tokens": 40.55696202531646,
+      "seconds": 244.1760040074587,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6102",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_budget",
+        "seed": 6102,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "21b90debea321af469871d94ca4e914728917265baa2a60c3e99e8f5f8c26bc3"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 6100,
+    "directory": "anchors/cluener/pilot_cluener_qwen25_15b_base_hidden",
+    "summary": {
+      "content_correct": 28.220402084884586,
+      "schema_valid": 97.09605361131794,
+      "json_valid": 99.55323901712583,
+      "strict_json": 99.55323901712583,
+      "span_micro_f1": 59.159397303727204,
+      "span_counts": {
+        "tp": 1865,
+        "pred": 3233,
+        "gold": 3072
+      },
+      "text_micro_f1": 60.07930214115781,
+      "text_counts": {
+        "tp": 1894,
+        "pred": 3233,
+        "gold": 3072
+      },
+      "primary": 59.159397303727204,
+      "n": 1343,
+      "native_eos_pct": 99.55323901712583,
+      "capped_pct": 0.4467609828741623,
+      "mean_generated_tokens": 41.21742367833209,
+      "seconds": 248.89502116665244,
+      "spec": {
+        "name": "pilot_cluener_qwen25_15b_base_hidden",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "cb46a488f5e3e34e61b62e7235ad6be5a89fff39f94f94174a3e0c1893c80342"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 6104,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_budget_s6104",
+    "summary": {
+      "content_correct": 28.145941921072225,
+      "schema_valid": 97.46835443037975,
+      "json_valid": 99.40431868950111,
+      "strict_json": 99.40431868950111,
+      "span_micro_f1": 59.337833494053356,
+      "span_counts": {
+        "tp": 1846,
+        "pred": 3150,
+        "gold": 3072
+      },
+      "text_micro_f1": 60.2378656380585,
+      "text_counts": {
+        "tp": 1874,
+        "pred": 3150,
+        "gold": 3072
+      },
+      "primary": 59.337833494053356,
+      "n": 1343,
+      "native_eos_pct": 99.40431868950111,
+      "capped_pct": 0.5956813104988831,
+      "mean_generated_tokens": 40.96276991809382,
+      "seconds": 514.0540284216404,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6104",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_budget",
+        "seed": 6104,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "fe7fdf00cb09802baf3afc99678541663a551519c9414eae16c5bf5495480b75"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 6104,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_s6104",
+    "summary": {
+      "content_correct": 28.145941921072225,
+      "schema_valid": 97.46835443037975,
+      "json_valid": 99.32985852568876,
+      "strict_json": 99.32985852568876,
+      "span_micro_f1": 59.33075933075933,
+      "span_counts": {
+        "tp": 1844,
+        "pred": 3144,
+        "gold": 3072
+      },
+      "text_micro_f1": 60.23166023166023,
+      "text_counts": {
+        "tp": 1872,
+        "pred": 3144,
+        "gold": 3072
+      },
+      "primary": 59.33075933075933,
+      "n": 1343,
+      "native_eos_pct": 99.32985852568876,
+      "capped_pct": 0.6701414743112435,
+      "mean_generated_tokens": 41.28592702903946,
+      "seconds": 537.8727021478117,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_s6104",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6104,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "f2e0f82509c91f96fb3550011a81c33de37dc4d685b9ab6066d06711c7a11b0c"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 6103,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_both_s6103",
+    "summary": {
+      "content_correct": 32.762472077438574,
+      "schema_valid": 98.21295606850335,
+      "json_valid": 99.85107967237528,
+      "strict_json": 99.85107967237528,
+      "span_micro_f1": 63.559322033898304,
+      "span_counts": {
+        "tp": 1950,
+        "pred": 3064,
+        "gold": 3072
+      },
+      "text_micro_f1": 64.30899608865711,
+      "text_counts": {
+        "tp": 1973,
+        "pred": 3064,
+        "gold": 3072
+      },
+      "primary": 63.559322033898304,
+      "n": 1343,
+      "native_eos_pct": 99.85107967237528,
+      "capped_pct": 0.14892032762472077,
+      "mean_generated_tokens": 37.79895755770663,
+      "seconds": 338.7482680566609,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6103",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_both",
+        "seed": 6103,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "59c2323d3c695fa89df8a5fa741d681baf0d35c2aeaafd1aaad29199ce8ac065"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 6103,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_s6103",
+    "summary": {
+      "content_correct": 28.220402084884586,
+      "schema_valid": 97.46835443037975,
+      "json_valid": 99.92553983618764,
+      "strict_json": 99.92553983618764,
+      "span_micro_f1": 59.527255185721174,
+      "span_counts": {
+        "tp": 1851,
+        "pred": 3147,
+        "gold": 3072
+      },
+      "text_micro_f1": 60.2990834539315,
+      "text_counts": {
+        "tp": 1875,
+        "pred": 3147,
+        "gold": 3072
+      },
+      "primary": 59.527255185721174,
+      "n": 1343,
+      "native_eos_pct": 99.92553983618764,
+      "capped_pct": 0.07446016381236038,
+      "mean_generated_tokens": 38.1578555472822,
+      "seconds": 336.2826437726617,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_s6103",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6103,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "5370fff7c0c571c5657c98e05072ac3b5869baced842b218cba9ca299c265fee"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 6101,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_s6101",
+    "summary": {
+      "content_correct": 27.401340282948624,
+      "schema_valid": 96.87267311988086,
+      "json_valid": 99.70215934475056,
+      "strict_json": 99.70215934475056,
+      "span_micro_f1": 58.995750039351485,
+      "span_counts": {
+        "tp": 1874,
+        "pred": 3281,
+        "gold": 3072
+      },
+      "text_micro_f1": 59.94018573902093,
+      "text_counts": {
+        "tp": 1904,
+        "pred": 3281,
+        "gold": 3072
+      },
+      "primary": 58.995750039351485,
+      "n": 1343,
+      "native_eos_pct": 99.70215934475056,
+      "capped_pct": 0.29784065524944153,
+      "mean_generated_tokens": 40.918838421444526,
+      "seconds": 241.96645042672753,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_s6101",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6101,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "81bf6d672c0787d3da57af5d2afbdfb6f71ef6d3e931009d1239071e4d5ffabb"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 6102,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_s6102",
+    "summary": {
+      "content_correct": 27.2524199553239,
+      "schema_valid": 96.94713328369322,
+      "json_valid": 99.6276991809382,
+      "strict_json": 99.6276991809382,
+      "span_micro_f1": 58.84991190132949,
+      "span_counts": {
+        "tp": 1837,
+        "pred": 3171,
+        "gold": 3072
+      },
+      "text_micro_f1": 59.74691654653211,
+      "text_counts": {
+        "tp": 1865,
+        "pred": 3171,
+        "gold": 3072
+      },
+      "primary": 58.84991190132949,
+      "n": 1343,
+      "native_eos_pct": 99.6276991809382,
+      "capped_pct": 0.37230081906180196,
+      "mean_generated_tokens": 40.27177959791511,
+      "seconds": 235.9811136573553,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_s6102",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6102,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "7eeb82fb22b1b223bea584d90cced43b9c69cd9b167fcef7233b2236baeb8c39"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 6103,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_budget_s6103",
+    "summary": {
+      "content_correct": 28.59270290394639,
+      "schema_valid": 97.39389426656739,
+      "json_valid": 99.92553983618764,
+      "strict_json": 99.92553983618764,
+      "span_micro_f1": 59.70004837929366,
+      "span_counts": {
+        "tp": 1851,
+        "pred": 3129,
+        "gold": 3072
+      },
+      "text_micro_f1": 60.37735849056604,
+      "text_counts": {
+        "tp": 1872,
+        "pred": 3129,
+        "gold": 3072
+      },
+      "primary": 59.70004837929366,
+      "n": 1343,
+      "native_eos_pct": 99.92553983618764,
+      "capped_pct": 0.07446016381236038,
+      "mean_generated_tokens": 37.99851079672375,
+      "seconds": 329.8610306456685,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6103",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_budget",
+        "seed": 6103,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "bdcd341a5496201de2e67e825c6b1bd87fb91b281cb4e77c4db134da80bf5b70"
+    }
+  },
+  {
+    "task": "cluener",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 6101,
+    "directory": "anchors/cluener/adapter_cluener_qwen25_15b_base_hidden_budget_s6101",
+    "summary": {
+      "content_correct": 27.47580044676098,
+      "schema_valid": 96.64929262844379,
+      "json_valid": 99.55323901712583,
+      "strict_json": 99.55323901712583,
+      "span_micro_f1": 59.0122680088078,
+      "span_counts": {
+        "tp": 1876,
+        "pred": 3286,
+        "gold": 3072
+      },
+      "text_micro_f1": 59.95596099402328,
+      "text_counts": {
+        "tp": 1906,
+        "pred": 3286,
+        "gold": 3072
+      },
+      "primary": 59.0122680088078,
+      "n": 1343,
+      "native_eos_pct": 99.55323901712583,
+      "capped_pct": 0.4467609828741623,
+      "mean_generated_tokens": 41.72077438570365,
+      "seconds": 282.17828841134906,
+      "spec": {
+        "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6101",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden_budget",
+        "seed": 6101,
+        "lr": 0.0002
+      },
+      "tag": "final",
+      "eval_split": "test",
+      "batch_size": 32,
+      "input_ids_sha256": "bc77bc48f8facb31f812907ee2f60ec8b14168fba0ff9df0be52b9b3cfe55c74",
+      "responses_sha256": "30b5c5d19e8831078ae718fa4e944e791a16fdb26e5825246a58569f5e1857a4"
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7103,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_s7103",
+    "summary": {
+      "n": 1024,
+      "primary": 70.703125,
+      "lf_correct_pct": 64.453125,
+      "query_valid_pct": 99.4140625,
+      "strict_json_pct": 100.0,
+      "execution_ok_pct": 98.828125,
+      "empty_prediction_pct": 14.16015625,
+      "duplicate_condition_column_pct": 0.1953125,
+      "distinct_parameter_execution_correct_pct": 70.703125,
+      "seconds": 149.47546337917447,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_s7103",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden",
+        "seed": 7103,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "397ad0a0c46d4d2c4dd46efe442ecf83fb9975f3499b6cf8ab04c8a7dffc1ac3",
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "mean_generated_tokens": 25.76171875
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7104,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_budget_s7104",
+    "summary": {
+      "n": 1024,
+      "primary": 68.9453125,
+      "lf_correct_pct": 63.57421875,
+      "query_valid_pct": 98.6328125,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 98.33984375,
+      "empty_prediction_pct": 15.4296875,
+      "duplicate_condition_column_pct": 0.1953125,
+      "distinct_parameter_execution_correct_pct": 68.84765625,
+      "seconds": 161.1438749320805,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_budget_s7104",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_budget",
+        "seed": 7104,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "8109daf051f1d77c2ff7e60560584db471135d60c443378fddfe3bc6b1cd26a5",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.0693359375
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7100,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_s7100",
+    "summary": {
+      "n": 1024,
+      "primary": 70.80078125,
+      "lf_correct_pct": 64.94140625,
+      "query_valid_pct": 98.4375,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 97.94921875,
+      "empty_prediction_pct": 15.13671875,
+      "duplicate_condition_column_pct": 0.1953125,
+      "distinct_parameter_execution_correct_pct": 70.80078125,
+      "seconds": 152.21198853477836,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_s7100",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden",
+        "seed": 7100,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "7f75f24546651e2682957cc6c6d6ea63b03fabde01d516636c479223ec22ac32",
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "mean_generated_tokens": 25.826171875
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7100,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_budget_s7100",
+    "summary": {
+      "n": 1024,
+      "primary": 70.8984375,
+      "lf_correct_pct": 64.94140625,
+      "query_valid_pct": 98.4375,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 98.046875,
+      "empty_prediction_pct": 15.33203125,
+      "duplicate_condition_column_pct": 0.1953125,
+      "distinct_parameter_execution_correct_pct": 70.8984375,
+      "seconds": 151.70865054056048,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_budget_s7100",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_budget",
+        "seed": 7100,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "a39edf5938b2f2c4dc93c2bbc18b092b601f8cc0aa1f60f4cc42247eaa2dfa10",
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "mean_generated_tokens": 25.8486328125
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7102,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_s7102",
+    "summary": {
+      "n": 1024,
+      "primary": 70.80078125,
+      "lf_correct_pct": 65.33203125,
+      "query_valid_pct": 98.6328125,
+      "strict_json_pct": 99.8046875,
+      "execution_ok_pct": 98.2421875,
+      "empty_prediction_pct": 15.4296875,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 70.80078125,
+      "seconds": 160.16713585332036,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_s7102",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden",
+        "seed": 7102,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "c76dc2727a5edcb570a51944695cb0a3b418d7dabdfe9d5ed46b56917429c0a1",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.1728515625
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7104,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_s7104",
+    "summary": {
+      "n": 1024,
+      "primary": 69.140625,
+      "lf_correct_pct": 63.76953125,
+      "query_valid_pct": 98.73046875,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 98.33984375,
+      "empty_prediction_pct": 15.52734375,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 69.140625,
+      "seconds": 161.74717182293534,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_s7104",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden",
+        "seed": 7104,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "ba685cb6f5ad182ab169cc3f63cfcfd0f81132cdeb51ffca200d6b8ac90ba594",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.03515625
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7101,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_s7101",
+    "summary": {
+      "n": 1024,
+      "primary": 69.82421875,
+      "lf_correct_pct": 64.0625,
+      "query_valid_pct": 98.4375,
+      "strict_json_pct": 99.8046875,
+      "execution_ok_pct": 98.33984375,
+      "empty_prediction_pct": 14.55078125,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 69.82421875,
+      "seconds": 160.9131004959345,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_s7101",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden",
+        "seed": 7101,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "778cd109769e137f082a04cd0d39a017f894976852c66e3d478d0702be1c33ad",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.1572265625
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7102,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_both_s7102",
+    "summary": {
+      "n": 1024,
+      "primary": 72.16796875,
+      "lf_correct_pct": 67.1875,
+      "query_valid_pct": 98.6328125,
+      "strict_json_pct": 100.0,
+      "execution_ok_pct": 98.4375,
+      "empty_prediction_pct": 13.28125,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 72.16796875,
+      "seconds": 151.90263021364808,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_both_s7102",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_both",
+        "seed": 7102,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "19e90d31a00ab6383d7eb60207eee6583ff8ad7fa44817142b87e5f2aa64ee98",
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "mean_generated_tokens": 25.8779296875
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7104,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_both_s7104",
+    "summary": {
+      "n": 1024,
+      "primary": 70.99609375,
+      "lf_correct_pct": 65.0390625,
+      "query_valid_pct": 98.53515625,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 98.4375,
+      "empty_prediction_pct": 14.2578125,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 70.99609375,
+      "seconds": 160.2579365670681,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_both_s7104",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_both",
+        "seed": 7104,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "8a2bd0f3490b2e0241b4c21cffc3358281db7e0a96b11ca220d0cf52669aae4e",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.07421875
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7101,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_both_s7101",
+    "summary": {
+      "n": 1024,
+      "primary": 73.14453125,
+      "lf_correct_pct": 68.75,
+      "query_valid_pct": 98.046875,
+      "strict_json_pct": 99.4140625,
+      "execution_ok_pct": 97.75390625,
+      "empty_prediction_pct": 12.98828125,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 73.14453125,
+      "seconds": 162.85700643062592,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_both_s7101",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_both",
+        "seed": 7101,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "9ae33aa47333a5bc6068ccb8091189aac3620116c1448bd84a35ad64a861e954",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.2294921875
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "base",
+    "seed": 7100,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_base",
+    "summary": {
+      "n": 1024,
+      "primary": 7.12890625,
+      "lf_correct_pct": 1.26953125,
+      "query_valid_pct": 95.1171875,
+      "strict_json_pct": 94.921875,
+      "execution_ok_pct": 94.7265625,
+      "empty_prediction_pct": 28.02734375,
+      "duplicate_condition_column_pct": 1.7578125,
+      "distinct_parameter_execution_correct_pct": 7.03125,
+      "seconds": 215.8333489522338,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_base",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "base",
+        "seed": 7100,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "58ab7ff8e938bf94bd85be8450d40db4d9a17aed3ff160c790a9ccad999151b6",
+      "native_eos_pct": 97.4609375,
+      "capped_pct": 2.5390625,
+      "mean_generated_tokens": 30.6572265625
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7101,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_budget_s7101",
+    "summary": {
+      "n": 1024,
+      "primary": 70.1171875,
+      "lf_correct_pct": 64.35546875,
+      "query_valid_pct": 98.53515625,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 98.4375,
+      "empty_prediction_pct": 14.35546875,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 70.1171875,
+      "seconds": 159.82625138387084,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_budget_s7101",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_budget",
+        "seed": 7101,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "19268f4d177865ae13c20ed883aa9cab0934548aeaec54202e8c9d49361ea4a6",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.16796875
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7103,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_budget_s7103",
+    "summary": {
+      "n": 1024,
+      "primary": 70.8984375,
+      "lf_correct_pct": 64.55078125,
+      "query_valid_pct": 99.4140625,
+      "strict_json_pct": 100.0,
+      "execution_ok_pct": 98.828125,
+      "empty_prediction_pct": 13.8671875,
+      "duplicate_condition_column_pct": 0.1953125,
+      "distinct_parameter_execution_correct_pct": 70.8984375,
+      "seconds": 149.87976614385843,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_budget_s7103",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_budget",
+        "seed": 7103,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "b42a438be4f58c7f228f7622c0b212263b99af27bd9fd75c57136e280be5e1c0",
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "mean_generated_tokens": 25.7353515625
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7102,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_budget_s7102",
+    "summary": {
+      "n": 1024,
+      "primary": 71.38671875,
+      "lf_correct_pct": 65.8203125,
+      "query_valid_pct": 98.53515625,
+      "strict_json_pct": 99.70703125,
+      "execution_ok_pct": 98.14453125,
+      "empty_prediction_pct": 15.0390625,
+      "duplicate_condition_column_pct": 0.09765625,
+      "distinct_parameter_execution_correct_pct": 71.38671875,
+      "seconds": 161.4648999236524,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_budget_s7102",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_budget",
+        "seed": 7102,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "10f7a5a04d3bbf70dd7d0bcd47d35fcebfbba4d5f86a9d5dfb47d7ceb33c1def",
+      "native_eos_pct": 99.90234375,
+      "capped_pct": 0.09765625,
+      "mean_generated_tokens": 26.14453125
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7103,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_both_s7103",
+    "summary": {
+      "n": 1024,
+      "primary": 73.92578125,
+      "lf_correct_pct": 67.96875,
+      "query_valid_pct": 99.4140625,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 99.31640625,
+      "empty_prediction_pct": 12.79296875,
+      "duplicate_condition_column_pct": 0.1953125,
+      "distinct_parameter_execution_correct_pct": 73.92578125,
+      "seconds": 151.1761772222817,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_both_s7103",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_both",
+        "seed": 7103,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "8fa10036356e90bf4502a238530ddf7235e0e552de318b68d9c0e769c9240b1d",
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "mean_generated_tokens": 25.75390625
+    }
+  },
+  {
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7100,
+    "directory": "anchors/wikisql/wikisql_qwen25_15b_base_hidden_both_s7100",
+    "summary": {
+      "n": 1024,
+      "primary": 73.046875,
+      "lf_correct_pct": 67.67578125,
+      "query_valid_pct": 98.33984375,
+      "strict_json_pct": 99.90234375,
+      "execution_ok_pct": 98.33984375,
+      "empty_prediction_pct": 13.0859375,
+      "duplicate_condition_column_pct": 0.1953125,
+      "distinct_parameter_execution_correct_pct": 73.046875,
+      "seconds": 153.35996858030558,
+      "spec": {
+        "name": "wikisql_qwen25_15b_base_hidden_both_s7100",
+        "task": "wikisql",
+        "model": "qwen25_15b_base",
+        "arm": "hidden_both",
+        "seed": 7100,
+        "lr": 0.0002,
+        "eval_split": "test"
+      },
+      "tag": "test",
+      "input_ids_sha256": "66fb63bc1a6cf03e06f0ebd99f2c269204ca3e889c38c0932bad4a9616723a9b",
+      "responses_sha256": "f8688a0de492da8d2ceb047c9555004ef8d9265e36e71c3136a42fc789e03d69",
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "mean_generated_tokens": 25.8955078125
+    }
+  }
+]

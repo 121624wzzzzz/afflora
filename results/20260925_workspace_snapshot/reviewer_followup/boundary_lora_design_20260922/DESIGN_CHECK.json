@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "scope": "Design-only parameter accounting and CPU algebra; no new training launched",
+  "budgets": [
+    {
+      "model": "qwen3_06b_base",
+      "d": 1024,
+      "V": 151936,
+      "tied": true,
+      "standard_E_or_U_rank1": 152960,
+      "standard_independent_EU_rank1": 305920,
+      "standard_shared_rank1": 152960,
+      "affine_E_rank16": 33792,
+      "affine_U_rank16": 32768,
+      "affine_independent_EU_rank16": 66560,
+      "affine_shared_rank16": 33792,
+      "affine_shared_rank32": 66560
+    },
+    {
+      "model": "qwen25_15b_base",
+      "d": 1536,
+      "V": 151936,
+      "tied": true,
+      "standard_E_or_U_rank1": 153472,
+      "standard_independent_EU_rank1": 306944,
+      "standard_shared_rank1": 153472,
+      "affine_E_rank16": 50688,
+      "affine_U_rank16": 49152,
+      "affine_independent_EU_rank16": 99840,
+      "affine_shared_rank16": 50688,
+      "affine_shared_rank32": 99840
+    },
+    {
+      "model": "qwen25_7b_base",
+      "d": 3584,
+      "V": 152064,
+      "tied": false,
+      "standard_E_or_U_rank1": 155648,
+      "standard_independent_EU_rank1": 311296,
+      "standard_shared_rank1": 155648,
+      "affine_E_rank16": 118272,
+      "affine_U_rank16": 114688,
+      "affine_independent_EU_rank16": 232960,
+      "affine_shared_rank16": 118272,
+      "affine_shared_rank32": 232960
+    },
+    {
+      "model": "qwen3_8b_base",
+      "d": 4096,
+      "V": 151936,
+      "tied": false,
+      "standard_E_or_U_rank1": 156032,
+      "standard_independent_EU_rank1": 312064,
+      "standard_shared_rank1": 156032,
+      "affine_E_rank16": 135168,
+      "affine_U_rank16": 131072,
+      "affine_independent_EU_rank16": 266240,
+      "affine_shared_rank16": 135168,
+      "affine_shared_rank32": 266240
+    }
+  ],
+  "algebra_errors": {
+    "E_factorization": 5.684341886080802e-14,
+    "U_factorization": 1.1368683772161603e-13
+  },
+  "free_LoRA_factor_outside_embedding_span_residual": 7.061008485109926,
+  "interpretation": "Without E bias, affine E update=(E A)B and U update=A(B U), rank<=r. These are constrained effective low-rank weight updates, not identical optimization parameterizations to unrestricted vocabulary-matrix LoRA. Input bias adds a possible rank-one term."
+}

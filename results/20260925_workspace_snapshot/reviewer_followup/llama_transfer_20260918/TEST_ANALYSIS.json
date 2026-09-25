@@ -1,0 +1,624 @@
+{
+  "at": "2026-09-18T12:30:13+08:00",
+  "scope": "exploratory fixed Llama extension, complete audited three-seed blocks only",
+  "coverage": [
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "seed": null,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "seed": null,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "seed": null,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "seed": null,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 6100,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 6100,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 6100,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 6100,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 6100,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 6100,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 7100,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 7100,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 7100,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 7100,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 7100,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 7100,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 6101,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 6101,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 6101,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 6101,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 6101,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 6101,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 7101,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 7101,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 7101,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 7101,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 7101,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 7101,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 6102,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 6102,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 6102,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 6102,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 6102,
+      "available": true
+    },
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 6102,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 7102,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 7102,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 7102,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 7102,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 7102,
+      "available": true
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 7102,
+      "available": true
+    }
+  ],
+  "conditions": [
+    {
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "seeds": [
+        6100,
+        6101,
+        6102
+      ],
+      "complete": true,
+      "missing": [],
+      "family": 8,
+      "values": {
+        "base": [
+          5.62358276643991
+        ],
+        "hidden": [
+          63.28463637823086,
+          64.57831325301204,
+          62.65060240963855
+        ],
+        "hidden_budget": [
+          63.37528234914488,
+          64.61439794773128,
+          62.642478728527855
+        ],
+        "hidden_both": [
+          64.77073014858604,
+          66.5159101922145,
+          65.9550008211529
+        ]
+      },
+      "means": {
+        "base": 5.62358276643991,
+        "hidden": 63.50451734696048,
+        "hidden_budget": 63.544053008468005,
+        "hidden_both": 65.74721372065115
+      },
+      "comparisons": [
+        {
+          "treatment": "hidden_both",
+          "control": "hidden",
+          "differences": [
+            1.4860937703551826,
+            1.9375969392024643,
+            3.3043984115143417
+          ],
+          "mean": 2.242696373690663,
+          "sd": 0.9467693439845835,
+          "positive_seeds": 3,
+          "zero_seeds": 0,
+          "negative_seeds": 0,
+          "descriptive_unadjusted_95_ci": [
+            -0.109209058001416,
+            4.594601805382742
+          ],
+          "bonferroni8_95_ci": [
+            -4.639076585835683,
+            9.124469333217009
+          ]
+        },
+        {
+          "treatment": "hidden_both",
+          "control": "hidden_budget",
+          "differences": [
+            1.3954477994411576,
+            1.9015122444832286,
+            3.312522092625038
+          ],
+          "mean": 2.2031607121831414,
+          "sd": 0.9934975138096207,
+          "positive_seeds": 3,
+          "zero_seeds": 0,
+          "negative_seeds": 0,
+          "descriptive_unadjusted_95_ci": [
+            -0.2648239283709479,
+            4.671145352737231
+          ],
+          "bonferroni8_95_ci": [
+            -5.018264832836437,
+            9.42458625720272
+          ]
+        }
+      ]
+    },
+    {
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "seeds": [
+        6100,
+        6101,
+        6102
+      ],
+      "complete": true,
+      "missing": [],
+      "family": 8,
+      "values": {
+        "base": [
+          20.380987608655445
+        ],
+        "hidden": [
+          70.42707493956486,
+          71.03258226616956,
+          69.72536348949919
+        ],
+        "hidden_budget": [
+          70.3953712632594,
+          71.33840427253601,
+          70.01129214389418
+        ],
+        "hidden_both": [
+          71.61614524234074,
+          71.45656433703462,
+          71.49959903769046
+        ]
+      },
+      "means": {
+        "base": 20.380987608655445,
+        "hidden": 70.3950068984112,
+        "hidden_budget": 70.5816892265632,
+        "hidden_both": 71.52410287235527
+      },
+      "comparisons": [
+        {
+          "treatment": "hidden_both",
+          "control": "hidden",
+          "differences": [
+            1.1890703027758747,
+            0.42398207086506545,
+            1.774235548191271
+          ],
+          "mean": 1.1290959739440705,
+          "sd": 0.6771217049740738,
+          "positive_seeds": 3,
+          "zero_seeds": 0,
+          "negative_seeds": 0,
+          "descriptive_unadjusted_95_ci": [
+            -0.5529675888058625,
+            2.8111595366940034
+          ],
+          "bonferroni8_95_ci": [
+            -3.792691860870777,
+            6.050883808758918
+          ]
+        },
+        {
+          "treatment": "hidden_both",
+          "control": "hidden_budget",
+          "differences": [
+            1.2207739790813292,
+            0.1181600644986105,
+            1.4883068937962776
+          ],
+          "mean": 0.9424136457920724,
+          "sd": 0.7262499155389225,
+          "positive_seeds": 3,
+          "zero_seeds": 0,
+          "negative_seeds": 0,
+          "descriptive_unadjusted_95_ci": [
+            -0.8616911575312998,
+            2.7465184491154444
+          ],
+          "bonferroni8_95_ci": [
+            -4.336471926885945,
+            6.22129921847009
+          ]
+        }
+      ]
+    },
+    {
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "seeds": [
+        7100,
+        7101,
+        7102
+      ],
+      "complete": true,
+      "missing": [],
+      "family": 8,
+      "values": {
+        "base": [
+          0.87890625
+        ],
+        "hidden": [
+          77.44140625,
+          75.78125,
+          77.1484375
+        ],
+        "hidden_budget": [
+          77.734375,
+          76.26953125,
+          76.7578125
+        ],
+        "hidden_both": [
+          77.9296875,
+          78.125,
+          76.66015625
+        ]
+      },
+      "means": {
+        "base": 0.87890625,
+        "hidden": 76.79036458333333,
+        "hidden_budget": 76.92057291666667,
+        "hidden_both": 77.57161458333333
+      },
+      "comparisons": [
+        {
+          "treatment": "hidden_both",
+          "control": "hidden",
+          "differences": [
+            0.48828125,
+            2.34375,
+            -0.48828125
+          ],
+          "mean": 0.78125,
+          "sd": 1.438566392837523,
+          "positive_seeds": 2,
+          "zero_seeds": 0,
+          "negative_seeds": 1,
+          "descriptive_unadjusted_95_ci": [
+            -2.7923470272600452,
+            4.354847027260045
+          ],
+          "bonferroni8_95_ci": [
+            -9.675243300731358,
+            11.237743300731358
+          ]
+        },
+        {
+          "treatment": "hidden_both",
+          "control": "hidden_budget",
+          "differences": [
+            0.1953125,
+            1.85546875,
+            -0.09765625
+          ],
+          "mean": 0.6510416666666666,
+          "sd": 1.0533001098543904,
+          "positive_seeds": 2,
+          "zero_seeds": 0,
+          "negative_seeds": 1,
+          "descriptive_unadjusted_95_ci": [
+            -1.965500857980965,
+            3.267584191314298
+          ],
+          "bonferroni8_95_ci": [
+            -7.005070416299238,
+            8.30715374963257
+          ]
+        }
+      ]
+    },
+    {
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "seeds": [
+        7100,
+        7101,
+        7102
+      ],
+      "complete": true,
+      "missing": [],
+      "family": 8,
+      "values": {
+        "base": [
+          15.8203125
+        ],
+        "hidden": [
+          81.0546875,
+          82.2265625,
+          79.296875
+        ],
+        "hidden_budget": [
+          81.54296875,
+          81.0546875,
+          80.17578125
+        ],
+        "hidden_both": [
+          81.0546875,
+          80.46875,
+          80.37109375
+        ]
+      },
+      "means": {
+        "base": 15.8203125,
+        "hidden": 80.859375,
+        "hidden_budget": 80.92447916666667,
+        "hidden_both": 80.63151041666667
+      },
+      "comparisons": [
+        {
+          "treatment": "hidden_both",
+          "control": "hidden",
+          "differences": [
+            0.0,
+            -1.7578125,
+            1.07421875
+          ],
+          "mean": -0.22786458333333334,
+          "sd": 1.4296999515623534,
+          "positive_seeds": 1,
+          "zero_seeds": 1,
+          "negative_seeds": 1,
+          "descriptive_unadjusted_95_ci": [
+            -3.7794361494529833,
+            3.3237069827863164
+          ],
+          "bonferroni8_95_ci": [
+            -10.619910470127635,
+            10.164181303460968
+          ]
+        },
+        {
+          "treatment": "hidden_both",
+          "control": "hidden_budget",
+          "differences": [
+            -0.48828125,
+            -0.5859375,
+            0.1953125
+          ],
+          "mean": -0.29296875,
+          "sd": 0.4256737249551439,
+          "positive_seeds": 1,
+          "zero_seeds": 0,
+          "negative_seeds": 2,
+          "descriptive_unadjusted_95_ci": [
+            -1.3504009030492063,
+            0.7644634030492063
+          ],
+          "bonferroni8_95_ci": [
+            -3.38705914127577,
+            2.80112164127577
+          ]
+        }
+      ]
+    }
+  ]
+}

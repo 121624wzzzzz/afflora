@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-15T13:38:42+08:00",
+  "identity_checks": {
+    "evaluate.py": {
+      "current_sha256": "449199347f26300edc7e1551882c6d158c99046054ec668097e88a0e071e3610",
+      "reference_sha256": "98050ea2b12720bef8e0d99286fead8fa1dc3d01ff3be4a391d5a97178724ca7",
+      "identical_function_asts": [
+        "generation",
+        "batches",
+        "likelihood",
+        "scoring_items",
+        "score_batch",
+        "task_summary"
+      ]
+    },
+    "common.py": {
+      "current_sha256": "05856068ae32262e6837f1d50a87d79a213553ae2ea2f2741b62899fd131cb82",
+      "reference_sha256": "bae5bc3fb5598f3fc059514a3ac7eb54c04b5e8d06cd3cb5ee26c1822a1311c6",
+      "identical_function_asts": [
+        "prompt_text",
+        "prompt_ids"
+      ]
+    }
+  },
+  "source_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_scores.json": "b0b61fd4dbc05044c166b4634a2b9f7a87cb82657b37697290d9e4eeb3d0f6c7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_likelihood.jsonl": "6c34f7bbb71d330bb7262fcd3b8b894d2a08a0e07768c3b2dc5401424ae9430a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen3_06b_chat_none_hr0_base/cmrc_generation.jsonl": "702e8a3b65a25c9b5453a768483ace4927bee4c8d7019893b631fa73ceaf19dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_scores.json": "b1985deb47eec17387c23057087ee1d994b6467f7e1ec661a414ef334c2564ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_likelihood.jsonl": "22a2e63a82aec99cb5839b00ab9c624c182a2fada3f6c150d3c02f5833dff9cb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/outputs/qwen25_15b_chat_none_hr0_base/cmrc_generation.jsonl": "6422d725f39577e72a800eba9e71469f97f2a1dfc2f1826054cab6bf4b5c49f9"
+  },
+  "scope": "Reuse unadapted model outputs with identical data, prompt, token-scoring, generation and scoring function ASTs. No trained adapter reused."
+}

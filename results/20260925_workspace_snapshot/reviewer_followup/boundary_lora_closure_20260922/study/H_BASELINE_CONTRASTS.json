@@ -1,0 +1,834 @@
+{
+  "at": "2026-09-23T07:05:03+08:00",
+  "contrasts": [
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "shared",
+      "mean_delta": 1.11328125,
+      "ci95": [
+        0.7434993865586466,
+        1.4830631134413534
+      ],
+      "p_unadjusted": 0.0011199943610621093,
+      "differences": [
+        0.87890625,
+        0.9765625,
+        1.5625,
+        1.26953125,
+        0.87890625
+      ],
+      "baseline_mean": 81.5234375,
+      "method_mean": 82.63671875,
+      "p_holm": 0.007839960527434764
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "eu",
+      "mean_delta": 1.043933704160645,
+      "ci95": [
+        0.31975667537625885,
+        1.768110732945031
+      ],
+      "p_unadjusted": 0.016098326807306194,
+      "differences": [
+        1.512554906683036,
+        0.8630325553792915,
+        1.639018091002967,
+        0.17562070636806482,
+        1.0294422613698657
+      ],
+      "baseline_mean": 70.58507176317886,
+      "method_mean": 71.62900546733951,
+      "p_holm": 0.09390781072960058
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "shared",
+      "mean_delta": 1.10135406317724,
+      "ci95": [
+        0.27376484007458224,
+        1.9289432862798979
+      ],
+      "p_unadjusted": 0.02092890212901236,
+      "differences": [
+        0.6411523679649349,
+        2.023954275983712,
+        0.4134079637068737,
+        0.8860324686290824,
+        1.5422232396015971
+      ],
+      "baseline_mean": 68.29255823697775,
+      "method_mean": 69.393912300155,
+      "p_holm": 0.09390781072960058
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "eu",
+      "mean_delta": 0.95703125,
+      "ci95": [
+        0.028015272885841935,
+        1.8860472271141582
+      ],
+      "p_unadjusted": 0.04592154944432962,
+      "differences": [
+        0.48828125,
+        1.5625,
+        -0.09765625,
+        1.66015625,
+        1.171875
+      ],
+      "baseline_mean": 80.72265625,
+      "method_mean": 81.6796875,
+      "p_holm": 0.09390781072960058
+    },
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "eu",
+      "mean_delta": 1.1804908925358688,
+      "ci95": [
+        0.24524137407511815,
+        2.1157404109966196
+      ],
+      "p_unadjusted": 0.024795280436405213,
+      "differences": [
+        0.8813707165176936,
+        0.990883665594751,
+        0.5663088173612749,
+        2.4930401486876548,
+        0.9708511145179699
+      ],
+      "baseline_mean": 68.7532144277293,
+      "method_mean": 69.93370532026518,
+      "p_holm": 0.13756227172331847
+    },
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "eu",
+      "mean_delta": 0.6640625,
+      "ci95": [
+        -0.4386362624233171,
+        1.766761262423317
+      ],
+      "p_unadjusted": 0.16983821366263124,
+      "differences": [
+        -0.29296875,
+        1.66015625,
+        0.1953125,
+        0.1953125,
+        1.5625
+      ],
+      "baseline_mean": 83.41796875,
+      "method_mean": 84.08203125,
+      "p_holm": 0.5095146409878937
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "eu",
+      "mean_delta": 0.72265625,
+      "ci95": [
+        0.1696426652412989,
+        1.275669834758701
+      ],
+      "p_unadjusted": 0.02219626443116535,
+      "differences": [
+        1.3671875,
+        0.29296875,
+        0.5859375,
+        0.9765625,
+        0.390625
+      ],
+      "baseline_mean": 81.5234375,
+      "method_mean": 82.24609375,
+      "p_holm": 0.09390781072960058
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "eu",
+      "mean_delta": 1.2708836126434477,
+      "ci95": [
+        0.9386898300452424,
+        1.603077395241653
+      ],
+      "p_unadjusted": 0.00044473581225811437,
+      "differences": [
+        1.5489275046050892,
+        1.37225043809336,
+        1.3279595595007265,
+        0.8288018681000011,
+        1.2764786929180616
+      ],
+      "baseline_mean": 70.40351675075533,
+      "method_mean": 71.67440036339876,
+      "p_holm": 0.003557886498064915
+    },
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "eu",
+      "mean_delta": 0.19726653265033461,
+      "ci95": [
+        -0.8592571456231219,
+        1.2537902109237913
+      ],
+      "p_unadjusted": 0.631536674368913,
+      "differences": [
+        0.914793554911256,
+        0.17025879293787227,
+        1.1550053019371802,
+        -0.8558416287556554,
+        -0.39788335777898
+      ],
+      "baseline_mean": 70.58507176317886,
+      "method_mean": 70.78233829582919,
+      "p_holm": 0.8396041446273141
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "eu",
+      "mean_delta": 0.91796875,
+      "ci95": [
+        -0.18872289970321732,
+        2.024660399703217
+      ],
+      "p_unadjusted": 0.08266756014333244,
+      "differences": [
+        0.68359375,
+        1.7578125,
+        0.09765625,
+        0.09765625,
+        1.953125
+      ],
+      "baseline_mean": 83.41796875,
+      "method_mean": 84.3359375,
+      "p_holm": 0.09390781072960058
+    },
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "eu",
+      "mean_delta": 0.546875,
+      "ci95": [
+        0.000548645275181836,
+        1.093201354724818
+      ],
+      "p_unadjusted": 0.04985758510134042,
+      "differences": [
+        1.26953125,
+        0.1953125,
+        0.48828125,
+        0.5859375,
+        0.1953125
+      ],
+      "baseline_mean": 81.5234375,
+      "method_mean": 82.0703125,
+      "p_holm": 0.19943034040536167
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "shared",
+      "mean_delta": 0.9765625,
+      "ci95": [
+        0.3349347361036491,
+        1.6181902638963508
+      ],
+      "p_unadjusted": 0.013415401532800082,
+      "differences": [
+        0.390625,
+        0.78125,
+        1.7578125,
+        1.171875,
+        0.78125
+      ],
+      "baseline_mean": 81.5234375,
+      "method_mean": 82.5,
+      "p_holm": 0.09390781072960058
+    },
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "eu",
+      "mean_delta": 0.3515625,
+      "ci95": [
+        -0.7350179954803215,
+        1.4381429954803215
+      ],
+      "p_unadjusted": 0.41980207231365707,
+      "differences": [
+        0.09765625,
+        -0.390625,
+        0.5859375,
+        1.7578125,
+        -0.29296875
+      ],
+      "baseline_mean": 80.72265625,
+      "method_mean": 81.07421875,
+      "p_holm": 0.8396041446273141
+    },
+    {
+      "family": "prior_affine_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "eu",
+      "mean_delta": 0.9299535268988791,
+      "ci95": [
+        0.3070970749390356,
+        1.5528099788587226
+      ],
+      "p_unadjusted": 0.014314063724086785,
+      "differences": [
+        0.6972626691909198,
+        0.6471490265656001,
+        0.4685901307444169,
+        1.7203980177045253,
+        1.1163677902889333
+      ],
+      "baseline_mean": 68.7532144277293,
+      "method_mean": 69.68316795462817,
+      "p_holm": 0.09390781072960058
+    },
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "eu",
+      "mean_delta": 0.803124714435367,
+      "ci95": [
+        0.18229565271589743,
+        1.4239537761548366
+      ],
+      "p_unadjusted": 0.022927045287219748,
+      "differences": [
+        -0.04766297188241708,
+        1.0086047120817625,
+        1.0230884096462773,
+        1.2338403272996032,
+        0.7977530950316094
+      ],
+      "baseline_mean": 70.40351675075533,
+      "method_mean": 71.20664146519069,
+      "p_holm": 0.13756227172331847
+    },
+    {
+      "family": "prior_vocab_vs_H",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "shared",
+      "mean_delta": 1.1256817364786655,
+      "ci95": [
+        0.7662292895999275,
+        1.4851341833574034
+      ],
+      "p_unadjusted": 0.000963251331991764,
+      "differences": [
+        1.072866848255245,
+        1.055575442437572,
+        1.1206064538789064,
+        0.7901164077591716,
+        1.5892435300624328
+      ],
+      "baseline_mean": 68.29255823697775,
+      "method_mean": 69.41823997345642,
+      "p_holm": 0.007706010655934112
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "shared",
+      "mean_delta": 1.066677338111171,
+      "ci95": [
+        0.23317016637532484,
+        1.900184509847017
+      ],
+      "p_unadjusted": 0.02373151277137337,
+      "differences": [
+        1.1300382809484262,
+        1.2065807396108923,
+        -0.03793095941921365,
+        1.793503842114042,
+        1.2411947873017084
+      ],
+      "baseline_mean": 61.734320637363815,
+      "method_mean": 62.80099797547499,
+      "p_holm": 0.18985210217098697
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "u",
+      "mean_delta": 0.44921875,
+      "ci95": [
+        -0.2660903570502212,
+        1.164527857050221
+      ],
+      "p_unadjusted": 0.15617492711370246,
+      "differences": [
+        0.87890625,
+        0.0,
+        1.171875,
+        0.390625,
+        -0.1953125
+      ],
+      "baseline_mean": 83.33984375,
+      "method_mean": 83.7890625,
+      "p_holm": 0.3123498542274049
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "u",
+      "mean_delta": 1.03515625,
+      "ci95": [
+        0.08966846594958122,
+        1.9806440340504188
+      ],
+      "p_unadjusted": 0.03841131855103143,
+      "differences": [
+        1.7578125,
+        1.7578125,
+        1.171875,
+        0.1953125,
+        0.29296875
+      ],
+      "baseline_mean": 83.33984375,
+      "method_mean": 84.375,
+      "p_holm": 0.11523395565309429
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "u",
+      "mean_delta": 0.3708434358139499,
+      "ci95": [
+        0.02331108800962378,
+        0.718375783618276
+      ],
+      "p_unadjusted": 0.04144413267128006,
+      "differences": [
+        0.5471356598967105,
+        0.38053249287210633,
+        0.4280943580083232,
+        -0.1038503005825504,
+        0.6023049688751598
+      ],
+      "baseline_mean": 70.52850246673992,
+      "method_mean": 70.89934590255389,
+      "p_holm": 0.18985210217098697
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "shared",
+      "mean_delta": 1.97265625,
+      "ci95": [
+        0.8501350720196099,
+        3.0951774279803903
+      ],
+      "p_unadjusted": 0.008165493384657444,
+      "differences": [
+        1.26953125,
+        1.171875,
+        1.85546875,
+        3.41796875,
+        2.1484375
+      ],
+      "baseline_mean": 70.56640625,
+      "method_mean": 72.5390625,
+      "p_holm": 0.073489440461917
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "u",
+      "mean_delta": -0.02498045408409553,
+      "ci95": [
+        -0.3157276952987107,
+        0.2657667871305196
+      ],
+      "p_unadjusted": 0.8231796057124796,
+      "differences": [
+        -0.2238850223470621,
+        0.2518555265116049,
+        -0.26698428267825136,
+        -0.06763485339781994,
+        0.18174636149105083
+      ],
+      "baseline_mean": 70.65036927453897,
+      "method_mean": 70.6253888204549,
+      "p_holm": 0.8231796057124796
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "u",
+      "mean_delta": 0.56640625,
+      "ci95": [
+        0.11759429576431013,
+        1.0152182042356899
+      ],
+      "p_unadjusted": 0.024808233949156905,
+      "differences": [
+        0.78125,
+        0.68359375,
+        0.29296875,
+        0.09765625,
+        0.9765625
+      ],
+      "baseline_mean": 81.23046875,
+      "method_mean": 81.796875,
+      "p_holm": 0.18985210217098697
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "llama31_8b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "u",
+      "mean_delta": 0.05859375,
+      "ci95": [
+        -0.9061367020395205,
+        1.0233242020395203
+      ],
+      "p_unadjusted": 0.8742713223376262,
+      "differences": [
+        -0.87890625,
+        0.0,
+        0.68359375,
+        -0.48828125,
+        0.9765625
+      ],
+      "baseline_mean": 81.23046875,
+      "method_mean": 81.2890625,
+      "p_holm": 0.8742713223376262
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "u",
+      "mean_delta": 0.56640625,
+      "ci95": [
+        -0.230571149208895,
+        1.3633836492088949
+      ],
+      "p_unadjusted": 0.11972991099031877,
+      "differences": [
+        1.07421875,
+        0.390625,
+        1.3671875,
+        0.1953125,
+        -0.1953125
+      ],
+      "baseline_mean": 81.9140625,
+      "method_mean": 82.48046875,
+      "p_holm": 0.23945982198063753
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "shared",
+      "mean_delta": 3.000453950832804,
+      "ci95": [
+        2.0104283883298644,
+        3.9904795133357434
+      ],
+      "p_unadjusted": 0.0010919650970586904,
+      "differences": [
+        3.7008942829766838,
+        3.637458021256755,
+        2.936638478163232,
+        3.0084112606109414,
+        1.7188677111564061
+      ],
+      "baseline_mean": 58.82223425839301,
+      "method_mean": 61.82268820922582,
+      "p_holm": 0.010919650970586904
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "shared",
+      "mean_delta": 2.51953125,
+      "ci95": [
+        1.3027321840744377,
+        3.7363303159255623
+      ],
+      "p_unadjusted": 0.004538376498509966,
+      "differences": [
+        3.61328125,
+        3.02734375,
+        2.5390625,
+        2.44140625,
+        0.9765625
+      ],
+      "baseline_mean": 70.234375,
+      "method_mean": 72.75390625,
+      "p_holm": 0.03176863548956976
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "shared",
+      "mean_delta": 1.5237500167922833,
+      "ci95": [
+        0.8866505697942004,
+        2.160849463790366
+      ],
+      "p_unadjusted": 0.0026693410403964258,
+      "differences": [
+        1.2516574382646652,
+        1.6870717046493837,
+        0.8076291675621974,
+        1.71333798791769,
+        2.1590537855674796
+      ],
+      "baseline_mean": 61.734320637363815,
+      "method_mean": 63.25807065415611,
+      "p_holm": 0.021354728323171406
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "llama31_8b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "u",
+      "mean_delta": 0.8978053485536975,
+      "ci95": [
+        0.4129501845404383,
+        1.3826605125669569
+      ],
+      "p_unadjusted": 0.006785934468351974,
+      "differences": [
+        0.5730617931486677,
+        1.4339253707022976,
+        0.5202586407405647,
+        1.1550934435235405,
+        0.806687494653417
+      ],
+      "baseline_mean": 70.65036927453897,
+      "method_mean": 71.54817462309268,
+      "p_holm": 0.04071560681011184
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "u",
+      "mean_delta": 0.546875,
+      "ci95": [
+        0.08834035884649621,
+        1.0054096411535038
+      ],
+      "p_unadjusted": 0.029617031061836628,
+      "differences": [
+        1.07421875,
+        0.1953125,
+        0.78125,
+        0.390625,
+        0.29296875
+      ],
+      "baseline_mean": 81.9140625,
+      "method_mean": 82.4609375,
+      "p_holm": 0.18985210217098697
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "method": "vocab",
+      "placement": "shared",
+      "mean_delta": 1.07421875,
+      "ci95": [
+        0.0706447112144728,
+        2.077792788785527
+      ],
+      "p_unadjusted": 0.0410674012102507,
+      "differences": [
+        0.48828125,
+        1.46484375,
+        0.09765625,
+        2.1484375,
+        1.171875
+      ],
+      "baseline_mean": 70.234375,
+      "method_mean": 71.30859375,
+      "p_holm": 0.18985210217098697
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "u",
+      "mean_delta": 1.4390938470848398,
+      "ci95": [
+        0.905124327849853,
+        1.9730633663198267
+      ],
+      "p_unadjusted": 0.0017056361562939003,
+      "differences": [
+        1.5228076111442448,
+        0.8218057106836909,
+        1.3202029721411037,
+        1.5156201571916057,
+        2.0150327842635534
+      ],
+      "baseline_mean": 70.52850246673992,
+      "method_mean": 71.96759631382477,
+      "p_holm": 0.015350725406645102
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "u",
+      "mean_delta": 1.2219155664950307,
+      "ci95": [
+        0.338938715449846,
+        2.1048924175402153
+      ],
+      "p_unadjusted": 0.018424736098310256,
+      "differences": [
+        1.884468424122332,
+        0.883828435666814,
+        0.14184222854287043,
+        1.6932055503765753,
+        1.5062331937665618
+      ],
+      "baseline_mean": 69.18779139851361,
+      "method_mean": 70.40970696500865,
+      "p_holm": 0.07369894439324103
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "method": "affine",
+      "placement": "shared",
+      "mean_delta": 2.890625,
+      "ci95": [
+        1.06250857673203,
+        4.71874142326797
+      ],
+      "p_unadjusted": 0.011781456315891089,
+      "differences": [
+        0.78125,
+        3.125,
+        4.78515625,
+        3.41796875,
+        2.34375
+      ],
+      "baseline_mean": 70.56640625,
+      "method_mean": 73.45703125,
+      "p_holm": 0.05890728157945544
+    },
+    {
+      "family": "new_affine_vs_H",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "method": "affine",
+      "placement": "shared",
+      "mean_delta": 5.330086281034835,
+      "ci95": [
+        3.869935518715169,
+        6.790237043354502
+      ],
+      "p_unadjusted": 0.0005335499767206806,
+      "differences": [
+        4.1038614040673025,
+        5.149406177576452,
+        5.506422671757292,
+        7.211671865865284,
+        4.679069285907843
+      ],
+      "baseline_mean": 58.82223425839301,
+      "method_mean": 64.15232053942785,
+      "p_holm": 0.0053354997672068055
+    },
+    {
+      "family": "new_vocab_vs_H",
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "method": "vocab",
+      "placement": "u",
+      "mean_delta": 0.5581022865002069,
+      "ci95": [
+        0.09498027552759164,
+        1.021224297472822
+      ],
+      "p_unadjusted": 0.02867905896657755,
+      "differences": [
+        0.42552935344893683,
+        0.6248459989298425,
+        0.15406379235446366,
+        1.154149637585519,
+        0.4319226501822726
+      ],
+      "baseline_mean": 69.18779139851361,
+      "method_mean": 69.74589368501381,
+      "p_holm": 0.18985210217098697
+    }
+  ],
+  "note": "Five paired seeds, H fixed LR 2e-4; this is not a tuned-H optimality comparison."
+}

@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-16T11:42:30.887623+08:00",
+  "status": "passed",
+  "aborted_archive": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916",
+  "sealed_files_verified": 220,
+  "manifest_sha256": "5f226067a012c2d1f72a02dc49af9e279340c469f117d484a429708b765ec2d2",
+  "aborted_protocol_sha256": "3ce78a2a3bf55fe392fd5d751ff31c2c6874ed73b9799424b0f04b60709d9ba7",
+  "special_token_diagnostic_matches_archive": true
+}

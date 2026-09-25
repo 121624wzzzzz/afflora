@@ -1,0 +1,48 @@
+{
+  "at": "2026-09-20T00:30:40.595447+08:00",
+  "reason": "Numerical-policy revision following exact zero-update reproduction; retain every partial fit, uniformly restart effects in new roots. No active workers remain. No dev scores used to choose policy.",
+  "workers_finished_during_pause": [
+    {
+      "model": "08b",
+      "name": "search_trec50_hidden_both_c1_s7600",
+      "pid": 4079926,
+      "proc_state": "Z",
+      "raw_wait_status": 0,
+      "complete_sha256": "6bd04850c5aaaac334bcb8493d5fec2201c610e6b2b88f202817f01d71a7499a"
+    },
+    {
+      "model": "08b",
+      "name": "search_wikisql_hidden_c2_s7600",
+      "pid": 4090941,
+      "proc_state": "Z",
+      "raw_wait_status": 0,
+      "complete_sha256": "f4647c461f4e08dc242892f0b01a05ed21a332eaf66f9a4a2685bb59c9d966c9"
+    },
+    {
+      "model": "08b",
+      "name": "search_wikisql_hidden_budget_c2_s7600",
+      "pid": 4105466,
+      "proc_state": "Z",
+      "raw_wait_status": 0,
+      "complete_sha256": "234d6e91155a9a2912b2558c5a6890cccc15aecfc9383e77fc4853f126fb8ca6"
+    },
+    {
+      "model": "2b",
+      "name": "search_wikisql_hidden_c0_s7600",
+      "pid": 4117566,
+      "proc_state": "Z",
+      "raw_wait_status": 0,
+      "complete_sha256": "f389cf34b81c78f88abec11be354b7bf10bd7e12d4910f8e1a07fc09b9f18e7a"
+    },
+    {
+      "model": "9b",
+      "name": "smoke_trec50_hidden_c0_s7599",
+      "pid": 4132075,
+      "proc_state": "Z",
+      "raw_wait_status": 0,
+      "complete_sha256": "5bfb9b9ef6a33bc353ed80f310a0898b26b4930e65c00078ccec4d88fd580b5a"
+    }
+  ],
+  "controller_pid": 3850523,
+  "idle_closeout_pid": 4013213
+}

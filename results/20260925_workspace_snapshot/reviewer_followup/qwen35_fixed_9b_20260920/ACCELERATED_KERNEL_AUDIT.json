@@ -1,0 +1,113 @@
+{
+  "at": "2026-09-20T00:37:23+08:00",
+  "status": "passed",
+  "scope": "Synthetic BF16 native FLA versus native PyTorch recurrence; no task score.",
+  "thresholds": {
+    "output_and_state_relative_rms": 0.03,
+    "gradient_relative_rms": 0.05
+  },
+  "records": [
+    {
+      "length": 64,
+      "output": {
+        "max_abs": 0.0009765625,
+        "relative_rms": 0.005588729400187731
+      },
+      "state": {
+        "max_abs": 0.007152736186981201,
+        "relative_rms": 0.003894794499501586
+      },
+      "gradients": {
+        "q": {
+          "max_abs": 0.001953125,
+          "relative_rms": 0.006622660905122757
+        },
+        "k": {
+          "max_abs": 0.001953125,
+          "relative_rms": 0.006891884841024876
+        },
+        "v": {
+          "max_abs": 0.001953125,
+          "relative_rms": 0.005420039873570204
+        },
+        "g": {
+          "max_abs": 0.002993673086166382,
+          "relative_rms": 0.0043732356280088425
+        },
+        "beta": {
+          "max_abs": 0.00390625,
+          "relative_rms": 0.00534577202051878
+        }
+      },
+      "initial_compile_and_run_seconds": 0.5622207410633564
+    },
+    {
+      "length": 131,
+      "output": {
+        "max_abs": 0.001953125,
+        "relative_rms": 0.005561472848057747
+      },
+      "state": {
+        "max_abs": 0.004852950572967529,
+        "relative_rms": 0.004037228878587484
+      },
+      "gradients": {
+        "q": {
+          "max_abs": 0.00390625,
+          "relative_rms": 0.006686949171125889
+        },
+        "k": {
+          "max_abs": 0.00390625,
+          "relative_rms": 0.00682755745947361
+        },
+        "v": {
+          "max_abs": 0.00146484375,
+          "relative_rms": 0.005252751987427473
+        },
+        "g": {
+          "max_abs": 0.002798736095428467,
+          "relative_rms": 0.0050919740460813046
+        },
+        "beta": {
+          "max_abs": 0.0078125,
+          "relative_rms": 0.00522862421348691
+        }
+      },
+      "initial_compile_and_run_seconds": 0.009031139314174652
+    },
+    {
+      "length": 671,
+      "output": {
+        "max_abs": 0.0029296875,
+        "relative_rms": 0.005646997597068548
+      },
+      "state": {
+        "max_abs": 0.006773948669433594,
+        "relative_rms": 0.004408774431794882
+      },
+      "gradients": {
+        "q": {
+          "max_abs": 0.0029296875,
+          "relative_rms": 0.006612546741962433
+        },
+        "k": {
+          "max_abs": 0.00390625,
+          "relative_rms": 0.006811119616031647
+        },
+        "v": {
+          "max_abs": 0.001953125,
+          "relative_rms": 0.0053911469876766205
+        },
+        "g": {
+          "max_abs": 0.004770219326019287,
+          "relative_rms": 0.0049634166061878204
+        },
+        "beta": {
+          "max_abs": 0.015625,
+          "relative_rms": 0.005642513278871775
+        }
+      },
+      "initial_compile_and_run_seconds": 0.008284680545330048
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-14T11:16:52+08:00",
+  "new_rank8_initializations_matched_to_verified_P0": [
+    "qwen3_06b_both_hr8_sd42",
+    "qwen3_06b_hidden_budget_hr8_sd42",
+    "qwen25_7b_both_hr8_sd42"
+  ]
+}

@@ -1,0 +1,139 @@
+from common import *
+
+p=read(HERE/'PREDICTION_ANALYSIS.json');a=read(HERE/'ABLATION_ANALYSIS.json');o=read(HERE/'OBJECTIVE_ANALYSIS.json')
+models=['qwen3_06b_chat','qwen25_15b_chat'];names=['Qwen3-0.6B','Qwen2.5-1.5B-Instruct']
+def fmt(r):return f"{r['mean']:+.5f} [{r['ci95'][0]:+.5f}, {r['ci95'][1]:+.5f}]"
+lines=['''# A-LoRA 为什么没有稳定转化为额外任务收益
+
+当前最直接的解释是：**A-LoRA 改变了模型的分数，但在已有内部 LoRA 的条件下，没有形成稳定、有方向的额外纠错。** 新消融也没有发现强烈的任务依赖。部分原因可以用架构和目标函数解释；究竟是哪一种训练机制造成，当前结果仍不能唯一确定。
+
+这份报告是看到 SciQ 确认结果后的解释性分析。所有原始训练、选择规则、测试结果和封存产物保持不变；没有重新训练或从消融结果选择配置。新增工作是两模型各五个已训练 bilateral checkpoint 的推理消融，以及逐题和矩阵分析。两端模块独立，不能把本结果推广成 shared/tied adapter 的实验结论。
+
+## 1. 关掉模块后，任务表现也没有稳定下降
+
+以下是 998 道无 gold 别名歧义测试题的四种循环选项顺序平均准确率。它是本轮机制诊断指标；原研究的主要指标仍是固定原始顺序，不能事后替换。
+
+“只开输入/只开输出/全部关闭”均保留 bilateral checkpoint 中联合训练后的内部 LoRA，**不是独立重训的单侧方法或普通 LoRA**。
+
+| 推理状态 / 训练对照 | Qwen3 准确率 % | Qwen2.5 准确率 % |
+|---|---:|---:|''']
+for label,mode in [('完整 bilateral','full'),('只开输入端','input_only'),('只开输出端','output_only'),('两端全部关闭','both_off')]:
+    lines.append(f"| {label} | "+' | '.join(f"{a['models'][m]['modes'][mode]['rotations']['accuracy']['mean']:.5f}" for m in models)+' |')
+for label,arm in [('独立训练的普通内部 LoRA','none'),('独立训练的等预算内部 LoRA','hidden_budget')]:
+    lines.append(f"| {label} | "+' | '.join(f"{p['method_stats'][m][arm]['rotation_accuracy']['mean']:.5f}" for m in models)+' |')
+lines.append('| 未适配聊天模型（各一次） | '+' | '.join(f"{a['models'][m]['unadapted_base']['rotations']['accuracy']:.5f}" for m in models)+' |')
+lines.append('\n完整模型减去“两端全部关闭”的准确率差，单位为百分点，括号为五种子的名义配对 95% t 区间：\n')
+for m,name in zip(models,names):lines.append(f"- {name}：{fmt(a['models'][m]['paired_effects']['full_minus_both_off']['rotations']['accuracy'])}。")
+lines.append('''
+两条区间均包含 0。因此不能用“训练后关掉就明显掉分”来支撑必要性，也不能把模块确实有非零参数当成额外任务收益。区间仍容许小幅正负效应，不能宣布严格等效或效果精确为零。
+
+未适配 Qwen3 从 63.40% 经普通 LoRA 提高到 87.86%，Qwen2.5 从 89.70% 提高到 92.59%。任务有适配空间，当前结果不能简单归因为全模型已经达到天花板；更具体的问题是已有内部 LoRA 之后还剩什么可以被边界参数化有效补充。
+
+## 2. 准确率不稳的直接来源：纠正和退步抵消
+
+下面始终比较 bilateral 与等参数预算内部 LoRA。统计分母为每模型 998×4×5=19,960 次评测；同一道题在不同种子、顺序下重复出现，不是 19,960 个独立样本。
+
+| 模型 | 预测相同 % | 从错变对次数 | 从对变错次数 | 改变预测的题原 top-2 gap 中位数 | 未改变题中位数 |
+|---|---:|---:|---:|---:|---:|''')
+for m,name in zip(models,names):
+    c=next(c for c in p['comparisons'] if c['model']==m and c['control']=='hidden_budget');t=c['totals'];g=c['baseline_top_two_margin']
+    lines.append(f"| {name} | {c['all_rotation_same_prediction_percent']:.3f} | {t['all_rotations_corrected']} | {t['all_rotations_regressed']} | {g['disagreed']['median']:.3f} | {g['agreed']['median']:.3f} |")
+lines.append('''
+Qwen3 发生预测变化的案例中，95.5% 的原始前两名差距小于 1 logit；Qwen2.5 为 93.3%。两模型原始顺序下都没有任何一道题在五个种子里一直被 bilateral 从错纠正为对。改变集中在犹豫题，尚未显示五个种子都一致的纠错集合。
+
+准确率取决于 gold 是否超过最强竞争项，变化是离散的。提高正确答案概率可能只让已经答对的题更确信；小幅移动另一道临界题却可能造成退步。因此，小幅概率收益、种子间正负反转与几乎零净准确率增益可以同时出现。这是逐题现象的解释，不是说所有变化都来自随机噪声。
+
+## 3. 输出端确实改善了结束符，但没有解释掉答案损失
+
+训练目标为答案字母的全词表 CE 与紧接其后的 EOS CE 的等权平均。新增 EOS 探针使用 gold 字母作为前缀，因此是 teacher-forced 目标分解，不是自由生成结果。
+
+下表是输入端保持开启时，**开启输出端减去关闭输出端**的损失变化。正值表示变差。统计使用四种顺序，区间为五种子的名义配对 95% t 区间。
+
+| 模型 | 答案字母全词表 NLL 差 | EOS NLL 差 | 两 token 平均 NLL 差 |
+|---|---|---|---|''')
+for m,name in zip(models,names):
+    r=o['models'][m]['effects']['output_effect_input_on']['rotations']
+    lines.append(f"| {name} | {fmt(r['full_vocab_label_nll'])} | {fmt(r['eos_nll'])} | {fmt(r['two_token_mean_nll'])} |")
+lines.append('''
+输出端在两模型全部五个种子中均降低 EOS NLL，但其均值改善不足以抵消答案字母 NLL 的均值退化。Qwen2.5 的答案字母和两 token 总目标在五个种子上均变差；这是小幅的、事后观察到的负面结果，不能升级为新的预注册显著性主张。Qwen3 的两 token 总目标变化区间跨 0。
+
+所有四种 trained 推理状态在整个干净测试集上的第一 token 都属于 A/B/C/D。完整模型的候选字母集合概率惩罚 −log P(A/B/C/D) 仅约 0.000307（Qwen3）和 0.000124（Qwen2.5）。所以本轮 SciQ 的微弱结果无法主要归咎于解析失败或输出格式。EOS 的部分改善说明目标分量可以分化，但不能据此反推早期训练梯度主要由 EOS 驱动。
+
+## 4. 论文最需要补上的推理环节：权重结构与剩余任务收益
+
+论文的结构探针观察 Base→Instruct 的词表矩阵漂移，问这种漂移能否被 affine 子空间解释。当前叠加实验问的是：**内部 LoRA 已经学过任务之后，再加这类参数，能否减少尚未解决的任务误差。** 两个问题的目标残差不同。
+
+即使观测矩阵变化能被 A-LoRA 更省参数地拟合，也不保证它对应有用的剩余函数变化。若矩阵近似误差为 E、实际隐藏状态二阶矩为 Σ=E[h hᵀ]，那么平均分数误差是
+
+    E_h ||E h||² = tr(E Σ Eᵀ)，
+
+而不是未经激活加权的 ||E||²_F。对小扰动，输出分布 KL 还受 softmax Fisher 矩阵 diag(p)−ppᵀ 加权；最终准确率又只取决于关键相对分数是否越过判决边界。这三层指标不能相互替代。
+
+还有一个坐标变化的反例：若 W₁=W₀A、h₁=A⁻¹h₀，则 W₁h₁=W₀h₀。词表矩阵发生很清晰的 affine 变化，函数却完全不变。这是数学反例，不是说已经测出真实模型只做了坐标变换；它说明只看 head 权重漂移不足以证明额外能力。
+
+因此，论文 03_analysis.tex 中的 affine-friendly 结构证据仍有价值，但从“同预算能覆盖更多 affine 方向”到“叠加后更有效”需要激活、任务残差和下游结果共同支持。这里不修改论文原文，也不抹去既有结构结果。
+
+## 5. 架构约束解释了为什么高 rank 未必带来新能力
+
+输出端计算 z=W₀(I+sUD)h。边界更新的词表方向仍落在冻结 W₀ 的列空间内；内部 LoRA 最终也通过同一个 W₀ 投影。A-LoRA 改变的是如何从输入得到这些分数，不会增加 W₀ 列空间之外的输出方向。普通 Vocab LoRA 的加性 BC 可以引入额外词表方向。
+
+这不是内部 LoRA 与 A-LoRA 函数类完全相同的证明：中间有归一化、非线性、有限 rank 和优化路径差异。它解释的是为什么“又增加了一组参数”不能被理解为“必然多出同样数量的独立任务能力”。
+
+对 SciQ 还可以得出更强、但范围更窄的表示结论。令
+
+    R = [W_A−W_D; W_B−W_D; W_C−W_D]，形状为 3×d。
+
+两个模型的 R 均为 rank 3，条件数约 2.17 / 2.21。固定 h 后，三个相对分数为 R(I+sUD)h。任意目标线性修正 ΔR 都可取 U=R⁺、D=ΔR/s 实现，超过 rank 3 的位置补零即可。数值右逆构造的最大误差分别为 1.78e−15 / 4.00e−15。
+
+当前输出 rank 16 已足以表达任意四标签相对线性读出修正。因此“单纯提高输出 rank”缺乏这个任务上的容量依据。不过这不保证优化器能学到理想修正，不保证泛化，也不意味着 rank 3 与 rank 16 的训练效果相同；全词表 CE、EOS 和输入端表达能力不在该证明范围内。
+
+## 6. 其他机制：哪些有线索，哪些尚未被证明
+
+**选项顺序影响只解释一部分。** 对 bilateral−等预算 LoRA 的中心化分数变化做精确正交分解，Qwen3 的语义选项上跨顺序稳定成分 / 全局字母偏好 / 剩余顺序相关成分为 70.5% / 3.0% / 26.5%；Qwen2.5 为 58.7% / 11.1% / 30.3%。所以不能把全部效果说成模型偏爱 A 或 B；但约四分之一至三分之一的能量有题目相关的顺序敏感性。跨顺序稳定也不等于更正确。
+
+已有研究也观察到选择题选项顺序会影响 LLM 决策，本轮数值来自我们自己的固定预测，不能挪用其他论文的效应量。[Pezeshkpour & Hruschka, Findings NAACL 2024](https://aclanthology.org/2024.findings-naacl.130/)。
+
+**内部与边界更新的部分抵消有描述性线索，但不是统一因果解释。** 将分数差写成 (full−both_off)+(both_off−独立普通 LoRA)，两项余弦均值在 Qwen3 为 −0.470，Qwen2.5 为 −0.098。Qwen3 的变化在这个分解下部分抵消，Qwen2.5 很弱。两项共享并相反使用 both_off，差分结构本身可以引入负相关，故不能仅凭余弦证明训练主动形成补偿或内部 LoRA 吸收了 A-LoRA。联合训练轨迹与冻结内部的干预才有助于识别该机制。
+
+**优化尺度尚未完全排除。** Qwen3 的 median gradient norm 从普通 LoRA 的 1.78 增至 bilateral 的 4.31；Qwen2.5 从 0.97 增至 2.82，超过全局 clip=1 的训练步骤比例约由 46.8% 增至 96.5%。参数化改变会改变参数梯度的尺度，同一个学习率并不对应同样的函数更新。现有两点学习率搜索不是穷尽优化。另一方面，梯度范数跨参数化不可直接比较，Adam 会改变缩放关系；这些日志不足以证明 clipping 导致退化。
+
+**没有清晰的“大幅训练收益、泛化损失”模式。** 两模型 bilateral 前 20 步平均训练 loss 较低，但最后 100 步与普通/等预算内部 LoRA 基本接近。当前更缺少的是稳定的目标优势，而不是已经证实的严重过拟合。这里比较的是保存的训练曲线，不是相同固定训练批次的因果损失评估。
+
+## 7. 与此前 CMRC / SFT 的结果放在一起看
+
+CMRC 五个新种子的确认实验仍支持平均完整参考答案概率的小幅增量。Qwen2.5 对普通 LoRA 的平均概率提高约 0.514 个百分点，其中双方都 EM 正确的案例贡献约 +0.515；从错变对 228 次，从对变错 269 次。正确答案概率总量提高与生成准确率下降并不矛盾，且平均概率不是完整的校准或 proper scoring 质量结论。
+
+此前固定内部 LoRA、FP32 边界残差、无 clipping 的 Qwen2.5 SFT 对照已经发现：A-LoRA 对相同起点的 CE 均值下降约 0.00617，近似等原始参数预算的 Vocab LoRA 约下降 0.10631（预算差 128 个参数，约 0.0834%）。它证明某个明确条件下 A-LoRA 有 loss 增量，同时也表明“高 hidden rank 的参数效率”并不会自动超过直接词表方向。
+
+这些结果共同支持有条件的小幅概率/损失收益；尚不支持稳定的额外任务准确率或生成质量收益。SciQ 的阴性结果应保留，不能通过更换评价指标把它改写成阳性。
+
+相关原始报告：
+
+- [SciQ 原确认结论](../stacking_sciq_placement_20260915/FINAL_INTERPRETATION_ZH.md)
+- [CMRC 五种子确认与逐题分解](../stacking_cmrc_probability_confirmation_20260915/FINAL_INTERPRETATION_ZH.md)
+- [固定内部 LoRA 的 A-LoRA / Vocab LoRA 对照](../fixed_hidden_boundary_fp32_qwen25/RESULTS.md)
+
+## 8. 更能区分机制的下一轮实验
+
+下一轮应先写出预期在哪种残差下获益、在哪种残差下不获益，再固定训练/验证选择和未使用的最终测试；目前测试集已经用于诊断，不能再承担同一主张的独立发现与确认。
+
+1. **从已学内部 LoRA 的剩余误差出发。** 在训练/验证分割上分析 gold−最强竞争项的 margin，分别测已对题与仍错题上的 NLL、纠正和退步。冻结相同内部 checkpoint 加边界模块，并与继续训练同一内部 LoRA、同预算增加内部参数、直接 Vocab LoRA 比较。此前固定内部研究已有重要负面证据；新研究应复用其严格控制思路，增加“到底补了哪些错题”的预先定义分析。
+
+2. **做能被证伪的几何正/负对照。** 构造已知 hidden 仿射漂移的 teacher，以及直接词表方向漂移的 teacher，预先预测 A-LoRA 与 Vocab LoRA 各自适用条件，在未见输入上测 KL。它只能验证实现与归纳偏置，不能替代真实任务收益。随后测真实目标残差的激活加权可解释度是否能预测下游增量；不要用测试集拟合可解释度后又在同一批数据宣称预测成功。
+
+3. **真实任务优先测全词表残差，并控制训练目标。** 使用有独立留出数据的领域文本适配/答案生成，同时报告 proper NLL 与实际答案正确率；在验证集上对称比较边界学习率、缩放，以及字母/内容与 EOS 的目标权重。每个方法得到相同搜索预算，最终冻结选择后跑新种子。当前 SciQ rank 证明提示，继续只堆四标签头 rank 的信息价值有限。
+
+这三个方案的价值是区分“参数化的适用条件”“优化是否到位”和“额外正确答案”，不承诺会得到正结果。
+
+## 9. 复用与数值审计
+
+本轮消融复用的代码、tokens、模型文件、checkpoint 和旧预测均对照原哈希检查。完整开启路径的 40,000 条四候选预测与旧结果逐位一致；新 EOS 探针还检查了添加 gold 前缀后的因果位置。所有适配参数前后摘要不变。
+
+新增 20 组推理作业已经结束，无新增训练。最终审计重新核对原研究封存文件、新的 168,000 条答案分数记录与 160,000 条 EOS 记录。具体数量、误差和状态见 [FINAL_AUDIT.json](FINAL_AUDIT.json)。
+
+机器可读分析：[逐题与训练曲线](PREDICTION_ANALYSIS.json)、[输入/输出消融](ABLATION_ANALYSIS.json)、[答案与 EOS 目标分解](OBJECTIVE_ANALYSIS.json)。所有事后区间均为名义描述区间，不代替原确认实验的多重比较校正。
+
+![机制诊断图](figures/mechanism_diagnosis.png)
+''')
+(HERE/'DEEP_ANALYSIS_ZH.md').write_text('\n'.join(lines)+'\n')
+print(HERE/'DEEP_ANALYSIS_ZH.md')

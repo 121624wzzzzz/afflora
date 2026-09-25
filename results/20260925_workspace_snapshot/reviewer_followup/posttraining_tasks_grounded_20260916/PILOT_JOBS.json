@@ -1,0 +1,82 @@
+[
+  {
+    "name": "pilot_toolace_qwen3_06b_base_base",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "base",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": []
+  },
+  {
+    "name": "pilot_toolace_qwen3_06b_base_hidden",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": [
+      16
+    ]
+  },
+  {
+    "name": "pilot_toolace_qwen25_15b_base_base",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "base",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": []
+  },
+  {
+    "name": "pilot_toolace_qwen25_15b_base_hidden",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": [
+      16
+    ]
+  },
+  {
+    "name": "pilot_cluener_qwen3_06b_base_base",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "base",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": []
+  },
+  {
+    "name": "pilot_cluener_qwen3_06b_base_hidden",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": [
+      16
+    ]
+  },
+  {
+    "name": "pilot_cluener_qwen25_15b_base_base",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "base",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": []
+  },
+  {
+    "name": "pilot_cluener_qwen25_15b_base_hidden",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden",
+    "seed": 6100,
+    "lr": 0.0002,
+    "curve_steps": [
+      16
+    ]
+  }
+]

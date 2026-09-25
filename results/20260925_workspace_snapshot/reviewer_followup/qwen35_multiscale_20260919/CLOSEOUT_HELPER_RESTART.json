@@ -1,0 +1,5 @@
+{
+  "at": "2026-09-19T23:39:50.649957+08:00",
+  "pid": 3873255,
+  "reason": "Restart still-idle closeout watcher to load final documentation update. No experiment controller, worker, result, selection or frozen file changed."
+}

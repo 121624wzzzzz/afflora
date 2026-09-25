@@ -1,0 +1,259 @@
+{
+  "at": "2026-09-17T21:16:40+08:00",
+  "counts": {
+    "cluener_train": 2048,
+    "cluener_dev": 200,
+    "cluener_test": 1343,
+    "wikisql_train": 2048,
+    "wikisql_dev": 256,
+    "wikisql_test": 1024
+  },
+  "lengths": {
+    "cluener_qwen25_3b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen25_7b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen3_06b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen25_15b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen25_05b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen3_17b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen3_4b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen3_8b_base_train": {
+      "n": 2048,
+      "max_prompt": 168,
+      "max_target": 160
+    },
+    "cluener_qwen25_3b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen25_7b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen3_06b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen25_15b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen25_05b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen3_17b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen3_4b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen3_8b_base_dev": {
+      "n": 200,
+      "max_prompt": 162,
+      "max_target": 126
+    },
+    "cluener_qwen25_3b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen25_7b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen3_06b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen25_15b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen25_05b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen3_17b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen3_4b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "cluener_qwen3_8b_base_test": {
+      "n": 1343,
+      "max_prompt": 165,
+      "max_target": 138
+    },
+    "wikisql_qwen25_3b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen25_7b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen3_06b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen25_15b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen25_05b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen3_17b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen3_4b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen3_8b_base_train": {
+      "n": 2048,
+      "max_prompt": 502,
+      "max_target": 65
+    },
+    "wikisql_qwen25_3b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen25_7b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen3_06b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen25_15b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen25_05b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen3_17b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen3_4b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen3_8b_base_dev": {
+      "n": 256,
+      "max_prompt": 366,
+      "max_target": 46
+    },
+    "wikisql_qwen25_3b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen25_7b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen3_06b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen25_15b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen25_05b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen3_17b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen3_4b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    },
+    "wikisql_qwen3_8b_base_test": {
+      "n": 1024,
+      "max_prompt": 454,
+      "max_target": 62
+    }
+  },
+  "reused_responses_rescored": 178348,
+  "source_files_checked": 1238,
+  "status": "passed",
+  "reused_runs": 148,
+  "new_formal_jobs": 360,
+  "smoke_jobs": 16
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_base",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 1
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_base",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "base",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 1
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_base",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 1
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_base",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "base",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 1
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_base",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "base",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 1
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_base",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "base",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 1
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_s6100",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_both_s6100",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_budget_s6100",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_s6100",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_both_s6100",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden_both",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_budget_s6100",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden_budget",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_s6100",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_both_s6100",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_budget_s6100",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_s7100",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_both_s7100",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_budget_s7100",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_s7100",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_both_s7100",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden_both",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_budget_s7100",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden_budget",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_s7100",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_both_s7100",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_budget_s7100",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 2
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_s6101",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_both_s6101",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_budget_s6101",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_s6101",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_both_s6101",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden_both",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_budget_s6101",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden_budget",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_s6101",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_both_s6101",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_budget_s6101",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_s7101",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_both_s7101",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_budget_s7101",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_s7101",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_both_s7101",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden_both",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_budget_s7101",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden_budget",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_s7101",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_both_s7101",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_budget_s7101",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 3
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_s6102",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_both_s6102",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama31_8b_base_hidden_budget_s6102",
+      "task": "cluener",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_s6102",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_both_s6102",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden_both",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_1b_base_hidden_budget_s6102",
+      "task": "cluener",
+      "model": "llama32_1b_base",
+      "arm": "hidden_budget",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_s6102",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_both_s6102",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "cluener_llama32_3b_base_hidden_budget_s6102",
+      "task": "cluener",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_s7102",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_both_s7102",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_both",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama31_8b_base_hidden_budget_s7102",
+      "task": "wikisql",
+      "model": "llama31_8b_base",
+      "arm": "hidden_budget",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_s7102",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_both_s7102",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden_both",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_1b_base_hidden_budget_s7102",
+      "task": "wikisql",
+      "model": "llama32_1b_base",
+      "arm": "hidden_budget",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_s7102",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_both_s7102",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_both",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": true,
+    "priority": 4
+  },
+  {
+    "spec": {
+      "name": "wikisql_llama32_3b_base_hidden_budget_s7102",
+      "task": "wikisql",
+      "model": "llama32_3b_base",
+      "arm": "hidden_budget",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    "reused": false,
+    "priority": 4
+  }
+]

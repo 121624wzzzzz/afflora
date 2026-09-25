@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-17T13:42:55+08:00",
+  "status": "passed",
+  "public_corpus_equals_sufficient_statistics": true,
+  "multireference_gold_bleu": 100,
+  "empty_bleu": 0,
+  "slots_exact_missing_wrong_repeated_verified": true,
+  "bleu_config": "nrefs:var|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+  "chrf_config": "nrefs:var|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.5.1"
+}

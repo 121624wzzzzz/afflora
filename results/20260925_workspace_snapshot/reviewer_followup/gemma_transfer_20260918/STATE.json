@@ -1,0 +1,3092 @@
+{
+  "started_at": "2026-09-18T22:18:51+08:00",
+  "at": "2026-09-19T06:05:29+08:00",
+  "phase": "confirmation",
+  "jobs": [
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_c0_s7399",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7399,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 1932428,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:20:55+08:00",
+      "audit_pid": 1942853,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:05+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_budget_c0_s7399",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7399,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 1932429,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:21:05+08:00",
+      "audit_pid": 1943617,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:15+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_both_c0_s7399",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7399,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 1932430,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:21:15+08:00",
+      "audit_pid": 1944283,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:26+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_both_c3_s7399",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7399,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 1932431,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:21:15+08:00",
+      "audit_pid": 1944284,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:26+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_wikisql_hidden_both_c5_s7399",
+        "stage": "smoke",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7399,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 1932432,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:21:46+08:00",
+      "audit_pid": 1946159,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:57+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_c0_s7399",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7399,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 1932433,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:21:26+08:00",
+      "audit_pid": 1945037,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:36+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_budget_c0_s7399",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7399,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 1932434,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:21:26+08:00",
+      "audit_pid": 1945038,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:36+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_both_c0_s7399",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7399,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 1932435,
+      "started_at": "2026-09-18T22:18:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:21:26+08:00",
+      "audit_pid": 1945039,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:21:36+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_both_c3_s7399",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7399,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 1942863,
+      "started_at": "2026-09-18T22:20:55+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:23:28+08:00",
+      "audit_pid": 1952334,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:23:38+08:00"
+    },
+    {
+      "spec": {
+        "name": "smoke_trec50_hidden_both_c5_s7399",
+        "stage": "smoke",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7399,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": true,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 1943622,
+      "started_at": "2026-09-18T22:21:05+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:24:39+08:00",
+      "audit_pid": 1956350,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:24:50+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c0_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 1957206,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:46:17+08:00",
+      "audit_pid": 2044488,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:46:27+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c0_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 1957207,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:01:27+08:00",
+      "audit_pid": 2114864,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:01:38+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c0_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 1957208,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:59:56+08:00",
+      "audit_pid": 2107230,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:00:06+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c0_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 1957209,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:16:07+08:00",
+      "audit_pid": 2173267,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:16:17+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c0_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 1957210,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:16:27+08:00",
+      "audit_pid": 2174548,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:16:38+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c0_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 1957211,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:49:52+08:00",
+      "audit_pid": 2058598,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:50:02+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c1_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 1957212,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:42:43+08:00",
+      "audit_pid": 2030239,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:42:54+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c1_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 1957213,
+      "started_at": "2026-09-18T22:24:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T22:42:33+08:00",
+      "audit_pid": 2029656,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T22:42:43+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c1_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2029661,
+      "started_at": "2026-09-18T22:42:33+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:00:16+08:00",
+      "audit_pid": 2108824,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:00:26+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c1_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2030319,
+      "started_at": "2026-09-18T22:42:44+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:07:45+08:00",
+      "audit_pid": 2139170,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:07:55+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c1_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2044494,
+      "started_at": "2026-09-18T22:46:17+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:12:53+08:00",
+      "audit_pid": 2160398,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:13:03+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c1_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2058609,
+      "started_at": "2026-09-18T22:49:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:14:56+08:00",
+      "audit_pid": 2168648,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:15:06+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c2_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 2107235,
+      "started_at": "2026-09-18T22:59:56+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:34:51+08:00",
+      "audit_pid": 2248112,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:35:01+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c2_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2108840,
+      "started_at": "2026-09-18T23:00:16+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:19:00+08:00",
+      "audit_pid": 2184675,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:19:11+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c2_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 2114880,
+      "started_at": "2026-09-18T23:01:28+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:37:55+08:00",
+      "audit_pid": 2260308,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:38:05+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c2_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2139187,
+      "started_at": "2026-09-18T23:07:45+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:32:28+08:00",
+      "audit_pid": 2238648,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:32:38+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c2_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2160425,
+      "started_at": "2026-09-18T23:12:53+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:38:35+08:00",
+      "audit_pid": 2262845,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:38:46+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c2_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2168653,
+      "started_at": "2026-09-18T23:14:56+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:39:36+08:00",
+      "audit_pid": 2266925,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:39:46+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c3_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 2173300,
+      "started_at": "2026-09-18T23:16:07+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:50:29+08:00",
+      "audit_pid": 2309751,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:50:39+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c3_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 2174558,
+      "started_at": "2026-09-18T23:16:28+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:50:50+08:00",
+      "audit_pid": 2312475,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:51:00+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c3_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2184707,
+      "started_at": "2026-09-18T23:19:01+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:39:26+08:00",
+      "audit_pid": 2266348,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:39:36+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c3_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2238656,
+      "started_at": "2026-09-18T23:32:28+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:57:07+08:00",
+      "audit_pid": 2337147,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:57:17+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c3_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 2248126,
+      "started_at": "2026-09-18T23:34:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:26:31+08:00",
+      "audit_pid": 2454071,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:26:41+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c3_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 2260315,
+      "started_at": "2026-09-18T23:37:55+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:32:18+08:00",
+      "audit_pid": 2477104,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:32:28+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c4_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2262859,
+      "started_at": "2026-09-18T23:38:36+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:56:16+08:00",
+      "audit_pid": 2333481,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:56:26+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c4_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2266353,
+      "started_at": "2026-09-18T23:39:26+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:59:40+08:00",
+      "audit_pid": 2347133,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:59:50+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c4_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2266990,
+      "started_at": "2026-09-18T23:39:36+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-18T23:57:07+08:00",
+      "audit_pid": 2337148,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-18T23:57:17+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c4_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 2309795,
+      "started_at": "2026-09-18T23:50:29+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:42:00+08:00",
+      "audit_pid": 2516263,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:42:10+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c4_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 2312480,
+      "started_at": "2026-09-18T23:50:50+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:42:30+08:00",
+      "audit_pid": 2518109,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:42:41+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c4_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2333486,
+      "started_at": "2026-09-18T23:56:16+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:21:04+08:00",
+      "audit_pid": 2433082,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:21:14+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c5_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2337177,
+      "started_at": "2026-09-18T23:57:07+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:14:37+08:00",
+      "audit_pid": 2406784,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:14:47+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c5_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2337178,
+      "started_at": "2026-09-18T23:57:07+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:15:18+08:00",
+      "audit_pid": 2409494,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:15:28+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c5_s7400",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2347147,
+      "started_at": "2026-09-18T23:59:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:19:53+08:00",
+      "audit_pid": 2426972,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:20:03+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c5_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7400,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2406789,
+      "started_at": "2026-09-19T00:14:37+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:39:16+08:00",
+      "audit_pid": 2504282,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:39:27+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c5_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7400,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2409499,
+      "started_at": "2026-09-19T00:15:18+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:40:07+08:00",
+      "audit_pid": 2507727,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:40:18+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c5_s7400",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7400,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2427016,
+      "started_at": "2026-09-19T00:19:53+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:49:28+08:00",
+      "audit_pid": 2544229,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:49:39+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c0_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2433087,
+      "started_at": "2026-09-19T00:21:04+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T00:38:45+08:00",
+      "audit_pid": 2502197,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T00:38:56+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c0_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 2454076,
+      "started_at": "2026-09-19T00:26:31+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:01:53+08:00",
+      "audit_pid": 2593793,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:02:03+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c0_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 2477109,
+      "started_at": "2026-09-19T00:32:18+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:08:41+08:00",
+      "audit_pid": 2621397,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:08:51+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c0_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2502210,
+      "started_at": "2026-09-19T00:38:46+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:03:35+08:00",
+      "audit_pid": 2600615,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:03:45+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c0_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2504288,
+      "started_at": "2026-09-19T00:39:17+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:04:05+08:00",
+      "audit_pid": 2602710,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:04:16+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c0_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2507749,
+      "started_at": "2026-09-19T00:40:08+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:04:46+08:00",
+      "audit_pid": 2605148,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:04:56+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c1_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 2516268,
+      "started_at": "2026-09-19T00:42:00+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:16:30+08:00",
+      "audit_pid": 2654079,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:16:40+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c1_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 2518114,
+      "started_at": "2026-09-19T00:42:30+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:17:00+08:00",
+      "audit_pid": 2656371,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:17:11+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c1_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2544235,
+      "started_at": "2026-09-19T00:49:29+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:09:52+08:00",
+      "audit_pid": 2626728,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:10:02+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c1_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 2593814,
+      "started_at": "2026-09-19T01:01:53+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:53:24+08:00",
+      "audit_pid": 2805057,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:53:35+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c1_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2600620,
+      "started_at": "2026-09-19T01:03:35+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:28:25+08:00",
+      "audit_pid": 2702543,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:28:35+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c1_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c1",
+        "lr": 0.0001,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2602715,
+      "started_at": "2026-09-19T01:04:06+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:28:55+08:00",
+      "audit_pid": 2704502,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:29:05+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c2_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2605157,
+      "started_at": "2026-09-19T01:04:46+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:22:27+08:00",
+      "audit_pid": 2678744,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:22:37+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c2_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 2621416,
+      "started_at": "2026-09-19T01:08:41+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:45:14+08:00",
+      "audit_pid": 2770686,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:45:24+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c2_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2626748,
+      "started_at": "2026-09-19T01:09:52+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:30:17+08:00",
+      "audit_pid": 2709541,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:30:27+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c2_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 2654134,
+      "started_at": "2026-09-19T01:16:30+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:07:51+08:00",
+      "audit_pid": 2863759,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:08:01+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c2_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 2656376,
+      "started_at": "2026-09-19T01:17:01+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:08:42+08:00",
+      "audit_pid": 2867136,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:08:52+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c2_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2678776,
+      "started_at": "2026-09-19T01:22:27+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:47:17+08:00",
+      "audit_pid": 2779420,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:47:27+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c3_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2702561,
+      "started_at": "2026-09-19T01:28:25+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:46:15+08:00",
+      "audit_pid": 2775051,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:46:26+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c3_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2704507,
+      "started_at": "2026-09-19T01:28:55+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:46:46+08:00",
+      "audit_pid": 2777192,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:46:56+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c3_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2709548,
+      "started_at": "2026-09-19T01:30:17+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T01:50:41+08:00",
+      "audit_pid": 2792787,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T01:50:51+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c3_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 2770700,
+      "started_at": "2026-09-19T01:45:14+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:39:41+08:00",
+      "audit_pid": 2994240,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:39:51+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c3_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2775057,
+      "started_at": "2026-09-19T01:46:16+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:11:04+08:00",
+      "audit_pid": 2878214,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:11:14+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c3_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c3",
+        "lr": 5e-05,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2777209,
+      "started_at": "2026-09-19T01:46:46+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:11:35+08:00",
+      "audit_pid": 2880499,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:11:45+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c4_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2779476,
+      "started_at": "2026-09-19T01:47:17+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:04:57+08:00",
+      "audit_pid": 2851227,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:05:07+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c4_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2792792,
+      "started_at": "2026-09-19T01:50:41+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:11:14+08:00",
+      "audit_pid": 2878914,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:11:25+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c4_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 2805066,
+      "started_at": "2026-09-19T01:53:24+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:28:05+08:00",
+      "audit_pid": 2946382,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:28:15+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c4_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 2851232,
+      "started_at": "2026-09-19T02:04:57+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:29:37+08:00",
+      "audit_pid": 2953081,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:29:47+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c4_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 2863764,
+      "started_at": "2026-09-19T02:07:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:59:12+08:00",
+      "audit_pid": 3069550,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:59:22+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c4_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c4",
+        "lr": 0.0003,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 2867141,
+      "started_at": "2026-09-19T02:08:42+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:00:24+08:00",
+      "audit_pid": 3074039,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:00:34+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_c5_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2878228,
+      "started_at": "2026-09-19T02:11:04+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:28:56+08:00",
+      "audit_pid": 2949888,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:29:06+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_budget_c5_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 2878920,
+      "started_at": "2026-09-19T02:11:15+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:31:50+08:00",
+      "audit_pid": 2962780,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:32:00+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_wikisql_hidden_both_c5_s7401",
+        "stage": "search",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2880528,
+      "started_at": "2026-09-19T02:11:35+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:29:17+08:00",
+      "audit_pid": 2951210,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:29:27+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_c5_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7401,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 2946387,
+      "started_at": "2026-09-19T02:28:05+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:15:30+08:00",
+      "audit_pid": 3130354,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:15:40+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_budget_c5_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7401,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 2949899,
+      "started_at": "2026-09-19T02:28:56+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:53:56+08:00",
+      "audit_pid": 3050312,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:54:07+08:00"
+    },
+    {
+      "spec": {
+        "name": "search_trec50_hidden_both_c5_s7401",
+        "stage": "search",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7401,
+        "candidate": "c5",
+        "lr": 0.0008,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "dev"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 2951252,
+      "started_at": "2026-09-19T02:29:17+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T02:54:07+08:00",
+      "audit_pid": 3050819,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T02:54:17+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_c0_s7500",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7500,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 3130820,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:44:34+08:00",
+      "audit_pid": 3244506,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:44:44+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_c0_s7501",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7501,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 3130821,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:49:51+08:00",
+      "audit_pid": 3264831,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:50:01+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_c0_s7502",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7502,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 3130822,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:44:03+08:00",
+      "audit_pid": 3241993,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:44:13+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_c0_s7503",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7503,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3130823,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:44:13+08:00",
+      "audit_pid": 3242792,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:44:24+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_c0_s7504",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7504,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3130824,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:44:24+08:00",
+      "audit_pid": 3243642,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:44:34+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_budget_c2_s7500",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7500,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 3130825,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:44:03+08:00",
+      "audit_pid": 3241994,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:44:13+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_budget_c2_s7501",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7501,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 3130826,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:44:24+08:00",
+      "audit_pid": 3243643,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:44:34+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_budget_c2_s7502",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7502,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3130827,
+      "started_at": "2026-09-19T03:15:40+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T03:49:30+08:00",
+      "audit_pid": 3263302,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T03:49:41+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_budget_c2_s7503",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7503,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 3242028,
+      "started_at": "2026-09-19T03:44:03+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:12:28+08:00",
+      "audit_pid": 3354436,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:12:39+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_budget_c2_s7504",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7504,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 3242029,
+      "started_at": "2026-09-19T03:44:03+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:12:18+08:00",
+      "audit_pid": 3353494,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:12:28+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_both_c0_s7500",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7500,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3242910,
+      "started_at": "2026-09-19T03:44:14+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:12:18+08:00",
+      "audit_pid": 3353495,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:12:28+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_both_c0_s7501",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7501,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3243665,
+      "started_at": "2026-09-19T03:44:24+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:13:10+08:00",
+      "audit_pid": 3358185,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:13:20+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_both_c0_s7502",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7502,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 3243666,
+      "started_at": "2026-09-19T03:44:24+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:12:49+08:00",
+      "audit_pid": 3356059,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:12:59+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_both_c0_s7503",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7503,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 3244512,
+      "started_at": "2026-09-19T03:44:34+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:12:59+08:00",
+      "audit_pid": 3357170,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:13:10+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_wikisql_hidden_both_c0_s7504",
+        "stage": "confirmation",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7504,
+        "candidate": "c0",
+        "lr": 0.0002,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3263307,
+      "started_at": "2026-09-19T03:49:31+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:23:13+08:00",
+      "audit_pid": 3397393,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:23:23+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_c2_s7500",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7500,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 3264836,
+      "started_at": "2026-09-19T03:49:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:36:28+08:00",
+      "audit_pid": 3448428,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:36:38+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_c2_s7501",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7501,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3353512,
+      "started_at": "2026-09-19T04:12:18+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:50:13+08:00",
+      "audit_pid": 3499708,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:50:23+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_c2_s7502",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7502,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 3353513,
+      "started_at": "2026-09-19T04:12:18+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:50:23+08:00",
+      "audit_pid": 3500518,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:50:33+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_c2_s7503",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7503,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 3354452,
+      "started_at": "2026-09-19T04:12:29+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:50:13+08:00",
+      "audit_pid": 3499709,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:50:23+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_c2_s7504",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden",
+        "seed": 7504,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 3356120,
+      "started_at": "2026-09-19T04:12:49+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:50:43+08:00",
+      "audit_pid": 3502298,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:50:54+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_budget_c2_s7500",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7500,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 3357183,
+      "started_at": "2026-09-19T04:13:00+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:50:54+08:00",
+      "audit_pid": 3504154,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:51:04+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_budget_c2_s7501",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7501,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3358197,
+      "started_at": "2026-09-19T04:13:10+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T04:50:54+08:00",
+      "audit_pid": 3504155,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T04:51:04+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_budget_c2_s7502",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7502,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3397398,
+      "started_at": "2026-09-19T04:23:13+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:08:44+08:00",
+      "audit_pid": 3572847,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:08:55+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_budget_c2_s7503",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7503,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 3448438,
+      "started_at": "2026-09-19T04:36:28+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:23:51+08:00",
+      "audit_pid": 3630481,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:24:01+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_budget_c2_s7504",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_budget",
+        "seed": 7504,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 2,
+      "pid": 3499720,
+      "started_at": "2026-09-19T04:50:13+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:27:56+08:00",
+      "audit_pid": 3645696,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:28:06+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_both_c2_s7500",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7500,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 3,
+      "pid": 3499721,
+      "started_at": "2026-09-19T04:50:13+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:27:56+08:00",
+      "audit_pid": 3645697,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:28:06+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_both_c2_s7501",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7501,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 5,
+      "pid": 3500558,
+      "started_at": "2026-09-19T04:50:23+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:28:16+08:00",
+      "audit_pid": 3646782,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:28:27+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_both_c2_s7502",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7502,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 6,
+      "pid": 3502362,
+      "started_at": "2026-09-19T04:50:44+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:28:16+08:00",
+      "audit_pid": 3646783,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:28:27+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_both_c2_s7503",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7503,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 0,
+      "pid": 3504174,
+      "started_at": "2026-09-19T04:50:54+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:28:37+08:00",
+      "audit_pid": 3647774,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:28:47+08:00"
+    },
+    {
+      "spec": {
+        "name": "confirmation_trec50_hidden_both_c2_s7504",
+        "stage": "confirmation",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "hidden_both",
+        "seed": 7504,
+        "candidate": "c2",
+        "lr": 0.0004,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 4,
+      "pid": 3504175,
+      "started_at": "2026-09-19T04:50:54+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:28:37+08:00",
+      "audit_pid": 3647775,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:28:47+08:00"
+    },
+    {
+      "spec": {
+        "name": "base_wikisql_base_base_s7398",
+        "stage": "base",
+        "task": "wikisql",
+        "model": "gemma2_9b_base",
+        "arm": "base",
+        "seed": 7398,
+        "candidate": "base",
+        "lr": 0.0,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 7,
+      "pid": 3572863,
+      "started_at": "2026-09-19T05:08:45+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T06:05:18+08:00",
+      "audit_pid": 3774416,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T06:05:29+08:00"
+    },
+    {
+      "spec": {
+        "name": "base_trec50_base_base_s7398",
+        "stage": "base",
+        "task": "trec50",
+        "model": "gemma2_9b_base",
+        "arm": "base",
+        "seed": 7398,
+        "candidate": "base",
+        "lr": 0.0,
+        "boundary_lr_ratio": 1.0,
+        "microbatch": 2,
+        "smoke": false,
+        "eval_splits": [
+          "confirm"
+        ]
+      },
+      "state": "passed",
+      "gpu": 1,
+      "pid": 3630487,
+      "started_at": "2026-09-19T05:23:51+08:00",
+      "returncode": 0,
+      "worker_finished_at": "2026-09-19T05:57:50+08:00",
+      "audit_pid": 3748624,
+      "audit_returncode": 0,
+      "finished_at": "2026-09-19T05:58:00+08:00"
+    }
+  ],
+  "counts": {
+    "pending": 0,
+    "running": 0,
+    "auditing": 0,
+    "passed": 114,
+    "failed": 0
+  }
+}

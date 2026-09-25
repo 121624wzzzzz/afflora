@@ -1,0 +1,22 @@
+{
+  "source_root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915",
+  "original_manifest_sha256": "37adfea6f74d483ee0d6ac7222a1cff5f6313a5289a84f191a0cd26396c49e60",
+  "copied_source_sha256": {
+    "common.py": "b33190bbfafc747381dcebdd3695d4870ba89581c45d09f1dcda6fd7eb8e1885",
+    "models.json": "a943c4d419da4cf1bcf7b097b6718bc70dcd8cff6563b090b3577845d1fab7f1",
+    "DATA_AUDIT.json": "947b923fa249dc28ce1dc8c83c1f112d252a56adbaa1cd46aea8c8f1b06c662b",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "tokens/qwen3_06b_chat_test.json": "af03b394b972eabb1ee18e9bda52e6d91ff8598aef14f437517c0bb77de76537",
+    "tokens/qwen3_06b_chat_validation.json": "0f21c523876023a21d46b881a5b9f6488bca3ffe8fe0aecb2ebf1fd6abc7329a",
+    "tokens/qwen3_06b_chat_train.json": "2af0fad2c152b3d3ad7e753a0e672e22bb4fcbdabf9987a067ed739d2bdc011b",
+    "tokens/qwen25_15b_chat_train.json": "b9a10222884d048ad281a916e43402fe6a1b5696d78d68a26807b7b57dfea9b5",
+    "tokens/qwen3_06b_chat_test_rotations.json": "3d720c945a946dcdb252a06aafe42618e419b13d0cf5f7edc7830cc1d60f8559",
+    "tokens/qwen25_15b_chat_test.json": "6daf105eb2a8e725f39969b242dc3836ac2f35fb231b6e183f765a6c49638577",
+    "tokens/qwen25_15b_chat_validation.json": "8b1f40e4733d4b9c1f169500793a5f01ca8a4e629025a77cd4206c1e51fc5474",
+    "tokens/qwen25_15b_chat_test_rotations.json": "d1328be008c96e6b6abc5fa18f3542fa690bcfba9c3260a3bb336908b2b88557",
+    "data/validation.jsonl": "dfb5048ec71a2ff7cfd75a04d8b408759ca9d36dc2f60473436ee3e204243566",
+    "data/train.jsonl": "0dd2a20eff76fc2d250a369697ef26c37059b9dc8c372e633c052a02a7882c4d",
+    "data/test.jsonl": "639b98a7258df93e9eef41577dc86197b9f1ced5e019526d27bb2836cb85ab42"
+  },
+  "scope": "Only verified code/data/model metadata reused. No trained adapter is reused."
+}

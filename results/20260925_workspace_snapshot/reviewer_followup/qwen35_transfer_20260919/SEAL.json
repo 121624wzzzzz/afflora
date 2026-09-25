@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-19T21:58:59.398618+08:00",
+  "status": "sealed",
+  "manifest_sha256": "35af1951cb22c7c414927a847b3aa7848cc2ce0be052633d6b6b052543f114d9",
+  "file_count": 2447,
+  "jobs": 114,
+  "responses": 86908,
+  "independently_recomputed_contrasts": 4
+}

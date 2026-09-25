@@ -1,0 +1,10 @@
+{
+  "started_at": "2026-07-12T01:37:48+08:00",
+  "phase": "complete",
+  "jobs": [
+    "llama32_3b_mergeable_ar32_s1_hr4_alr0p5_seed42",
+    "llama32_3b_mergeable_ar32_s1_hr4_alr0p5_seed43",
+    "llama32_3b_mergeable_ar32_s1_hr4_alr0p5_seed44"
+  ],
+  "finished_at": "2026-07-12T02:53:53+08:00"
+}

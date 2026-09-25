@@ -1,0 +1,21 @@
+{
+  "both": {
+    "zero_start_max_logit_error": 0.0,
+    "hook_counts": {
+      "input": 1,
+      "output": 1
+    },
+    "positions": null
+  },
+  "interior": {
+    "zero_start_max_logit_error": 0.0,
+    "hook_counts": {
+      "input": 1,
+      "output": 1
+    },
+    "positions": [
+      6,
+      20
+    ]
+  }
+}

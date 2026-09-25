@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "plan_sha256": "ad5c90b3f834a4dc7ccf7e60301ef7ffdd139ddc0057380ae55dca7fb56443e9",
+  "replicates": 20000,
+  "seed": 19260918,
+  "table_clusters": 1628,
+  "examples": 2048,
+  "comparisons": [
+    {
+      "a": "tuned_heu",
+      "b": "tuned_hidden",
+      "original_mean_pp": 0.458984375,
+      "bootstrap_sd_pp": 0.27217262400037534,
+      "percentile_ci95": [
+        -0.06835937500000003,
+        0.9965803615046408
+      ],
+      "bonferroni5_percentile_ci95": [
+        -0.23324299137334017,
+        1.1627924169312414
+      ],
+      "identity": false
+    },
+    {
+      "a": "tuned_heu",
+      "b": "tuned_budget",
+      "original_mean_pp": 0.654296875,
+      "bootstrap_sd_pp": 0.2847618485089631,
+      "percentile_ci95": [
+        0.10550174364325345,
+        1.2208436724565757
+      ],
+      "bonferroni5_percentile_ci95": [
+        -0.07936241991220962,
+        1.3969537571023012
+      ],
+      "identity": false
+    },
+    {
+      "a": "tuned_heu",
+      "b": "anchor_heu",
+      "original_mean_pp": 1.54296875,
+      "bootstrap_sd_pp": 0.30348837590403516,
+      "percentile_ci95": [
+        0.9570195731911909,
+        2.1460079546641104
+      ],
+      "bonferroni5_percentile_ci95": [
+        0.77556916442729,
+        2.3265238751209822
+      ],
+      "identity": false
+    },
+    {
+      "a": "tuned_budget",
+      "b": "anchor_budget",
+      "original_mean_pp": 2.138671875,
+      "bootstrap_sd_pp": 0.2881713040567626,
+      "percentile_ci95": [
+        1.5763546798029557,
+        2.698969551865043
+      ],
+      "bonferroni5_percentile_ci95": [
+        1.4041930765480255,
+        2.895000858864415
+      ],
+      "identity": false
+    },
+    {
+      "a": "anchor_heu",
+      "b": "anchor_budget",
+      "original_mean_pp": 1.25,
+      "bootstrap_sd_pp": 0.23189495509973826,
+      "percentile_ci95": [
+        0.7969256192648473,
+        1.7099052538459008
+      ],
+      "bonferroni5_percentile_ci95": [
+        0.6486483870123755,
+        1.853133222032371
+      ],
+      "identity": false
+    }
+  ],
+  "interpretation": "Resample tables and keep all sampled questions in each chosen table; paired across methods; average over the same five fitted models. Captures table-sampling variability conditional on fitted models, not training-seed or model-selection uncertainty.",
+  "limitations": [
+    "Supplementary finite-sample percentile bootstrap, separate from the frozen primary seed t intervals.",
+    "Assumes the observed eligible tables represent the relevant filtered population; no claim about unfiltered WikiSQL or other tasks.",
+    "Does not combine every source of uncertainty or establish causal mechanisms."
+  ]
+}

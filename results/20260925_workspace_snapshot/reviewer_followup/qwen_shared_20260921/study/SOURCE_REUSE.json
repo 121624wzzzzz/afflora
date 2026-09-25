@@ -1,0 +1,19 @@
+{
+  "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/model_architecture_14h_20260917/core",
+  "manifest_sha256": "e0c21b5788e013a90b9700fe8dcdf0c55959afb5e35fd1d69d8107f581262e00",
+  "code_hashes": {
+    "scoring_ner.py": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab",
+    "common.py": "1b0d39f7c987201c552114bd143d5cb63577c1bb72a3d2661bd05c52698d8ba4",
+    "freeze.py": "621229cd45d14e387d77606d6e0907667555e321f6f83d1cb2d85e1020842a57",
+    "scoring_sql.py": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb",
+    "scoring.py": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2",
+    "test_scoring.py": "3bb070f31631c12b550d3a1e11af924d69f8e0c3a7d2fd8404ae8cbb28820fcc",
+    "run.py": "c04f4a3dc023b96f5a2d4f868abc43dc14704d2e7e45f39d2ca87c38f0447739",
+    "audit_one.py": "e28325c0bd7dcd46271eb6e316b2b49ffc43e0a7cb4481c9fda0016dbf6998af",
+    "analyze.py": "d2cfa31815d917e042849f684d24388bb1f4eaff1d60f262ddee60ab2189c267",
+    "modeling.py": "3e655cf2b2f6176947acb2f926411a218ea4b66d5e93caafa1fcda5cb44d34ab",
+    "prepare.py": "000ac9906b2d8c2bd6a5fdcdef4c9e172f22c89eb9d31a980a8cb65e92a862ae",
+    "source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805"
+  }
+}

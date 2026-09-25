@@ -1,0 +1,9 @@
+{
+  "verified_source_files": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/source/src/affine_vocab_lora/adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80"
+  },
+  "trained_adapters_reused": false,
+  "model_hash_check": "passed full SHA256; see DATA_AUDIT.json",
+  "data_audit_sha256": "947b923fa249dc28ce1dc8c83c1f112d252a56adbaa1cd46aea8c8f1b06c662b"
+}

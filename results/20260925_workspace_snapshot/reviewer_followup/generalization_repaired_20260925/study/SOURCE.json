@@ -1,0 +1,16 @@
+{
+  "implementation_source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/clinc150_generalization_20260925/study",
+  "clinc": {
+    "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/data_full.json",
+    "revision": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+    "implementation_source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study"
+  },
+  "emotion": {
+    "revision": "cab853a1dbdf4c42c2b3ef2173804746df8825fe",
+    "urls": {
+      "train": "https://huggingface.co/datasets/dair-ai/emotion/resolve/cab853a1dbdf4c42c2b3ef2173804746df8825fe/split/train-00000-of-00001.parquet",
+      "validation": "https://huggingface.co/datasets/dair-ai/emotion/resolve/cab853a1dbdf4c42c2b3ef2173804746df8825fe/split/validation-00000-of-00001.parquet",
+      "test": "https://huggingface.co/datasets/dair-ai/emotion/resolve/cab853a1dbdf4c42c2b3ef2173804746df8825fe/split/test-00000-of-00001.parquet"
+    }
+  }
+}

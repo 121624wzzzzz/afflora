@@ -1,0 +1,563 @@
+{
+  "at": "2026-09-16T18:55:37+08:00",
+  "status": "passed",
+  "model_files_verified": 14,
+  "original_weight_tensor_digests": {
+    "qwen25_15b_base": "7a6ee153d6c8060bb94910efd0c36790db8e1808268c8c6da090d5644d29e453",
+    "qwen3_06b_base": "aa66ed39dae901f3f27bea22a0959fdb6a9208adce243ce87cb3cb29a249c42e"
+  },
+  "runs": [
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6100",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6101",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6102",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6103",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_both_s6104",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_budget_s6104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_s6101",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_s6102",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_s6103",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_hidden_s6104",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_input_s6100",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_input_s6101",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_input_s6102",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_input_s6103",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_input_s6104",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_output_s6100",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_output_s6101",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_output_s6102",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_output_s6103",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_cluener_qwen25_15b_base_output_s6104",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6100",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6101",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6102",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6103",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_both_s6104",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_budget_s6104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_s6101",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_s6102",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_s6103",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_hidden_s6104",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_input_s6100",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_input_s6101",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_input_s6102",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_input_s6103",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_input_s6104",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_output_s6100",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_output_s6101",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_output_s6102",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_output_s6103",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_cluener_qwen3_06b_base_output_s6104",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6100",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6101",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6102",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6103",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_both_s6104",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_budget_s6104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_s6101",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_s6102",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_s6103",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_hidden_s6104",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_input_s6100",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_input_s6101",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_input_s6102",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_input_s6103",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_input_s6104",
+      "arm": "input",
+      "trainable_parameters": 50688
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_output_s6100",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_output_s6101",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_output_s6102",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_output_s6103",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_toolace_qwen25_15b_base_output_s6104",
+      "arm": "output",
+      "trainable_parameters": 49152
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6100",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6101",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6102",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6103",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_both_s6104",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_budget_s6104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_s6101",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_s6102",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_s6103",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_hidden_s6104",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_input_s6100",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_input_s6101",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_input_s6102",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_input_s6103",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_input_s6104",
+      "arm": "input",
+      "trainable_parameters": 33792
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_output_s6100",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_output_s6101",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_output_s6102",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_output_s6103",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "adapter_toolace_qwen3_06b_base_output_s6104",
+      "arm": "output",
+      "trainable_parameters": 32768
+    },
+    {
+      "name": "diagnostic_cluener_qwen25_15b_base_two_shot_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "diagnostic_cluener_qwen3_06b_base_two_shot_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "pilot_cluener_qwen25_15b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "pilot_cluener_qwen25_15b_base_hidden",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "pilot_cluener_qwen3_06b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "pilot_cluener_qwen3_06b_base_hidden",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "pilot_toolace_qwen25_15b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "pilot_toolace_qwen25_15b_base_hidden",
+      "arm": "hidden",
+      "trainable_parameters": 9232384
+    },
+    {
+      "name": "pilot_toolace_qwen3_06b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "pilot_toolace_qwen3_06b_base_hidden",
+      "arm": "hidden",
+      "trainable_parameters": 5046272
+    },
+    {
+      "name": "smoke_qwen25_15b_base_hidden_both",
+      "arm": "hidden_both",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "smoke_qwen25_15b_base_hidden_budget",
+      "arm": "hidden_budget",
+      "trainable_parameters": 9332224
+    },
+    {
+      "name": "smoke_qwen3_06b_base_hidden_both",
+      "arm": "hidden_both",
+      "trainable_parameters": 5112832
+    },
+    {
+      "name": "smoke_qwen3_06b_base_hidden_budget",
+      "arm": "hidden_budget",
+      "trainable_parameters": 5112832
+    }
+  ],
+  "token_files_checked": 24,
+  "token_records_checked": 46168
+}

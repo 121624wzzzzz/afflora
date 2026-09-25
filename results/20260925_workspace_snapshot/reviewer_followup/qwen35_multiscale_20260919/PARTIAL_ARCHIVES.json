@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "studies": [
+    {
+      "model": "08b",
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_08b_20260919",
+      "completed_jobs": 24,
+      "manifest_sha256": "b6b48b9736578ec0a6e7b48405c7b70ad498553b3fc942908706cefe547caa2f"
+    },
+    {
+      "model": "2b",
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_20260919",
+      "completed_jobs": 11,
+      "manifest_sha256": "7c1b98e63858098f7495f00185f026ee3bf5d80d732539efbc88f22e41b80b3d"
+    },
+    {
+      "model": "9b",
+      "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_9b_20260919",
+      "completed_jobs": 6,
+      "manifest_sha256": "6515b0ad4c5b3b96022e4a8844599d423521665c08a0bf6c710c6f1f82393827"
+    }
+  ]
+}

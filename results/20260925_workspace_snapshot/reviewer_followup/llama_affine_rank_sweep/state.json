@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-11T22:12:59+08:00",
+  "updated_at": "2026-07-11T23:53:52+08:00",
+  "phase": "complete",
+  "jobs": {
+    "llama31_8b_lmhead_ar4_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T22:17:02+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-11T23:53:34+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 8
+    },
+    "llama31_8b_lmhead_ar8_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T22:17:02+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-11T23:53:52+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 8
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 0,
+      "gpu": null,
+      "reused": true,
+      "eval_attempt": 1,
+      "eval_batch_size": 8,
+      "finished_at": "2026-07-11T22:17:43+08:00"
+    },
+    "llama31_8b_lmhead_ar32_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T22:17:02+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-11T23:53:19+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 8
+    },
+    "llama32_3b_mergeable_ar4_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T22:17:02+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-11T23:15:01+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 16
+    },
+    "llama32_3b_mergeable_ar8_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T22:17:02+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-11T23:15:27+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 16
+    },
+    "llama32_3b_mergeable_ar16_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 0,
+      "gpu": null,
+      "reused": true,
+      "eval_attempt": 1,
+      "eval_batch_size": 16,
+      "finished_at": "2026-07-11T22:17:31+08:00"
+    },
+    "llama32_3b_mergeable_ar32_s1_hr4_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "started_at": "2026-07-11T22:17:02+08:00",
+      "returncode": 0,
+      "finished_at": "2026-07-11T23:15:44+08:00",
+      "eval_attempt": 1,
+      "eval_batch_size": 16
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "at": "2026-09-16T15:47:56+08:00",
+  "status": "passed",
+  "smoke": [
+    {
+      "spec": {
+        "phase": "smoke",
+        "name": "smoke_qwen3_06b_base_small_q_sd5000_lr5e-05_attempt2",
+        "model": "qwen3_06b_base",
+        "arm": "small_q",
+        "seed": 5000,
+        "lr": 5e-05,
+        "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/checkpoints/smoke_qwen3_06b_base_small_q_sd5000_lr5e-05_attempt2"
+      },
+      "initialization": {
+        "arm": "small_q",
+        "trainable_parameters": 33792,
+        "trainable_names": [
+          "model.layers.14.self_attn.q_proj.lora_A.default.weight",
+          "model.layers.14.self_attn.q_proj.lora_B.default.weight"
+        ],
+        "base_parameter_count": 596049920,
+        "hidden_lora_installed": true,
+        "adapter_init_sha256": "50099f5740b0bc693f1b2fe15cb85f03909e6875c11c8369c7129be9fc8ce47e",
+        "linear_init_sha256": "50099f5740b0bc693f1b2fe15cb85f03909e6875c11c8369c7129be9fc8ce47e",
+        "tie_word_embeddings": true,
+        "target_layer": 14,
+        "target_projection": "q_proj",
+        "rank": 11,
+        "alpha": 22,
+        "input_alora_budget": 33792,
+        "budget_fraction": 1.0,
+        "frozen_parameters_before_sha256": "aa66ed39dae901f3f27bea22a0959fdb6a9208adce243ce87cb3cb29a249c42e",
+        "zero_start_max_abs_logit_error": 0.0
+      },
+      "checks": {
+        "status": "passed",
+        "reload_max_logit_error": 0.0,
+        "standard_shifted_loss_error": 2.5033950805664062e-06,
+        "independent_full_forward_error": 2.47955322265625e-05,
+        "trainable_parameters": 33792,
+        "standard_mask_error": 1.1920928955078125e-07,
+        "target_logit_error": 4.00543212890625e-05,
+        "exact_training_mask_identity_error": 0.0
+      }
+    },
+    {
+      "spec": {
+        "phase": "smoke",
+        "name": "smoke_qwen25_15b_base_small_q_sd5000_lr5e-05_attempt2",
+        "model": "qwen25_15b_base",
+        "arm": "small_q",
+        "seed": 5000,
+        "lr": 5e-05,
+        "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/checkpoints/smoke_qwen25_15b_base_small_q_sd5000_lr5e-05_attempt2"
+      },
+      "initialization": {
+        "arm": "small_q",
+        "trainable_parameters": 49152,
+        "trainable_names": [
+          "model.layers.14.self_attn.q_proj.lora_A.default.weight",
+          "model.layers.14.self_attn.q_proj.lora_B.default.weight"
+        ],
+        "base_parameter_count": 1543714304,
+        "hidden_lora_installed": true,
+        "adapter_init_sha256": "664cc9e0726e68ff4c709552a562bad877c567c49d1a51ae62ff45d490f5fcb4",
+        "linear_init_sha256": "664cc9e0726e68ff4c709552a562bad877c567c49d1a51ae62ff45d490f5fcb4",
+        "tie_word_embeddings": true,
+        "target_layer": 14,
+        "target_projection": "q_proj",
+        "rank": 16,
+        "alpha": 32,
+        "input_alora_budget": 50688,
+        "budget_fraction": 0.9696969696969697,
+        "frozen_parameters_before_sha256": "7a6ee153d6c8060bb94910efd0c36790db8e1808268c8c6da090d5644d29e453",
+        "zero_start_max_abs_logit_error": 0.0
+      },
+      "checks": {
+        "status": "passed",
+        "reload_max_logit_error": 0.0,
+        "standard_shifted_loss_error": 3.2186508178710938e-06,
+        "independent_full_forward_error": 1.9073486328125e-05,
+        "trainable_parameters": 49152,
+        "standard_mask_error": 1.1920928955078125e-07,
+        "target_logit_error": 4.38690185546875e-05,
+        "exact_training_mask_identity_error": 0.0
+      }
+    }
+  ]
+}

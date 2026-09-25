@@ -1,0 +1,8 @@
+{
+  "training_total": 480,
+  "dev_only_tuning": 336,
+  "confirmation": 120,
+  "smokes": 24,
+  "base_evaluations": 8,
+  "checkpoint_GiB": 29.004833221435547
+}

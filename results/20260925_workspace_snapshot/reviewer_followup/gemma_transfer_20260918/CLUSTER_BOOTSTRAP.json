@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "family": 4,
+  "comparisons": [
+    {
+      "task": "wikisql",
+      "a": "hidden_both",
+      "b": "hidden",
+      "mean_pp": 0.458984375,
+      "clusters": 1628,
+      "replicates": 20000,
+      "seed": 20300918,
+      "percentile_ci95": [
+        -0.04892547684407037,
+        0.976101153626191
+      ],
+      "bonferroni4_percentile_ci95": [
+        -0.19675842427113135,
+        1.1067990560016137
+      ]
+    },
+    {
+      "task": "wikisql",
+      "a": "hidden_both",
+      "b": "hidden_budget",
+      "mean_pp": -0.263671875,
+      "clusters": 1628,
+      "replicates": 20000,
+      "seed": 20300918,
+      "percentile_ci95": [
+        -0.8390328615297731,
+        0.3148134558707948
+      ],
+      "bonferroni4_percentile_ci95": [
+        -0.9926473384087977,
+        0.47480620155038766
+      ]
+    },
+    {
+      "task": "trec50",
+      "a": "hidden_both",
+      "b": "hidden",
+      "mean_pp": -1.5999999999999972,
+      "clusters": 500,
+      "replicates": 20000,
+      "seed": 20300919,
+      "percentile_ci95": [
+        -2.5200000000000005,
+        -0.7190000000000871
+      ],
+      "bonferroni4_percentile_ci95": [
+        -2.76,
+        -0.44000000000000006
+      ]
+    },
+    {
+      "task": "trec50",
+      "a": "hidden_both",
+      "b": "hidden_budget",
+      "mean_pp": -1.4,
+      "clusters": 500,
+      "replicates": 20000,
+      "seed": 20300919,
+      "percentile_ci95": [
+        -2.3200000000000003,
+        -0.44000000000000006
+      ],
+      "bonferroni4_percentile_ci95": [
+        -2.5999999999999996,
+        -0.19999999999999996
+      ]
+    }
+  ],
+  "interpretation": "Paired table clusters for WikiSQL and question clusters for TREC50, conditional on the same five fitted models."
+}

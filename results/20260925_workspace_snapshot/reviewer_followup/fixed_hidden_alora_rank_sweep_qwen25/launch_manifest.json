@@ -1,0 +1,35 @@
+{
+  "marker": "fixed_hidden_alora_rank_sweep_launch_v1",
+  "ranks": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    50
+  ],
+  "new_training_ranks": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "functional_scale": 16,
+  "seed": 42,
+  "training_entry": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/train_fixed_hidden_alora_rank_sweep.py",
+  "training_entry_sha256": "5ccb4dd298560b38feb65c6e48271ed52f15448e81e29f642db3c348868c0863",
+  "base_training_implementation_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81",
+  "evaluator_sha256": "3219212c16b0e7cf460f466fc1764ef693206dedbe5ba0301364a19f94532427",
+  "base_evaluator_sha256": "b3f6e631f498ec9369bb864e737c62bb508bac47c3616c06109839aff045ebe7",
+  "summarizer_sha256": "219a7a553ed84c3699310c5dff7f777bbe9f00c3fbff09d71bfd1750b359626b",
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rank50_policy": "reuse prior validated fixed-hidden endpoint"
+}

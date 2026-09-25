@@ -1,0 +1,20 @@
+[
+  {
+    "phase": "reference",
+    "name": "reference_qwen3_06b_chat_base_sd3001_lr0",
+    "model": "qwen3_06b_chat",
+    "arm": "base",
+    "seed": 3001,
+    "lr": 0.0,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/reference_qwen3_06b_chat_base_sd3001_lr0"
+  },
+  {
+    "phase": "reference",
+    "name": "reference_qwen25_15b_chat_base_sd3001_lr0",
+    "model": "qwen25_15b_chat",
+    "arm": "base",
+    "seed": 3001,
+    "lr": 0.0,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/reference_qwen25_15b_chat_base_sd3001_lr0"
+  }
+]

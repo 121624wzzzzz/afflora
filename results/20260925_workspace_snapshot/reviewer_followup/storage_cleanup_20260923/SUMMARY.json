@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-24T00:06:31.651738+08:00",
+  "status": "passed",
+  "initial_checkpoint_duplicates": 120,
+  "model_weight_duplicates": 7,
+  "released_bytes": 26127867904,
+  "released_GiB": 24.333473205566406,
+  "project_free_GiB": 43.541236877441406,
+  "preserved": "Original file paths, tensor bytes and audit hashes preserved; no unique checkpoints, weights, datasets, predictions or reports deleted."
+}

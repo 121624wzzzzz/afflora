@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-15T11:57:56+08:00",
+  "endpoints": {
+    "qwen25_15b_chat_both_hr8_sd42": {
+      "n": 3219,
+      "f1": 60.523851911216546,
+      "em": 22.087604846225535,
+      "source_sha256": "2e15151394c14a705bd2ad177dc95c47d9207dd937dee225ccb4f825f8867489"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd42": {
+      "n": 3219,
+      "f1": 59.39707820565991,
+      "em": 20.09940975458217,
+      "source_sha256": "a1383c14fec5b8b70d3233c29a77f075cc903ee2149c3e12c7e1a28c66fe7b35"
+    },
+    "qwen25_15b_chat_none_hr8_sd42": {
+      "n": 3219,
+      "f1": 59.136145629803885,
+      "em": 19.60236098167133,
+      "source_sha256": "3df6d41ed467f83bb1edd4fc00fb514cbbdc742304104469420fb84f018fef80"
+    },
+    "qwen25_15b_chat_output_hr8_sd42": {
+      "n": 3219,
+      "f1": 59.648697956821735,
+      "em": 20.72072072072072,
+      "source_sha256": "2ec2e0a5d3fa7b37c71a4a808704b3afc64248c0f38376f7630aac52100af2e6"
+    },
+    "qwen3_06b_chat_both_hr8_sd42": {
+      "n": 3219,
+      "f1": 64.10030870097319,
+      "em": 30.071450761105933,
+      "source_sha256": "acd81c8222ad5e3bfec6ad92066dcbce4c7b4c0e71b361b905426143ee9f0c2b"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd42": {
+      "n": 3219,
+      "f1": 62.72957777991284,
+      "em": 28.54923889406648,
+      "source_sha256": "799e1aa7f37cf14e058b4b2ae7c7da50ea749e192e30cbd6f0d1b9f09b1079ae"
+    },
+    "qwen3_06b_chat_none_hr8_sd42": {
+      "n": 3219,
+      "f1": 62.593761875124244,
+      "em": 28.30071450761106,
+      "source_sha256": "31dd9c51ca9eba57dca25aa1213302e70fb1b90021216f4291f5d1ec02fc4fe2"
+    },
+    "qwen3_06b_chat_output_hr8_sd42": {
+      "n": 3219,
+      "f1": 63.04144933133499,
+      "em": 28.890959925442683,
+      "source_sha256": "9bee7493fdf0c0f469661f76651d1a9658cb1f1d8d5a3143e9f5e5df428357b7"
+    }
+  }
+}

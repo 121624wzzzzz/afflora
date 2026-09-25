@@ -1,0 +1,47 @@
+{
+  "phase": "complete",
+  "started_at": "2026-09-15T13:55:46+08:00",
+  "jobs": {
+    "qwen3_06b_chat_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    },
+    "qwen3_06b_chat_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    },
+    "qwen3_06b_chat_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    },
+    "qwen25_15b_chat_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    },
+    "qwen25_15b_chat_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    },
+    "qwen25_15b_chat_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null
+    }
+  },
+  "updated_at": "2026-09-15T13:56:04+08:00"
+}

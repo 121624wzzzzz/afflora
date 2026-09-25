@@ -1,0 +1,131 @@
+{
+  "model": "qwen25_15b_chat",
+  "conditions": {
+    "plain_answer": {
+      "n": 998,
+      "candidate_accuracy": 88.97795591182364,
+      "unrestricted_accuracy": 88.97795591182364,
+      "valid_label_rate": 100.0,
+      "prediction_counts": {
+        "1": 241,
+        "3": 264,
+        "0": 227,
+        "2": 266
+      },
+      "seconds": 14.166357859969139,
+      "sha256": "0bd64ba204cc8921d13835a7a9991e80d52236fb8fd7cd89d752b26e6cce2507"
+    },
+    "plain_no_cue": {
+      "n": 998,
+      "candidate_accuracy": 82.96593186372745,
+      "unrestricted_accuracy": 76.75350701402806,
+      "valid_label_rate": 86.57314629258516,
+      "prediction_counts": {
+        "1": 236,
+        "3": 186,
+        "0": 351,
+        "2": 225
+      },
+      "seconds": 13.659685991704464,
+      "sha256": "ab68098d36915e27cdbc2ce853c36d44fb0718ccc0636639a000e8b6171e328b"
+    },
+    "chat": {
+      "n": 998,
+      "candidate_accuracy": 89.27855711422846,
+      "unrestricted_accuracy": 88.77755511022045,
+      "valid_label_rate": 98.79759519038076,
+      "prediction_counts": {
+        "1": 248,
+        "3": 256,
+        "0": 251,
+        "2": 243
+      },
+      "seconds": 17.736612316221,
+      "sha256": "8e6808dc7be20514f72516543a0ccad6fcfbfc7d537aeab5f8dd1fb41c25718f",
+      "original_reference_max_logit_error": 7.62939453125e-05,
+      "original_prediction_flips": 0
+    },
+    "chat_answer": {
+      "n": 998,
+      "candidate_accuracy": 89.77955911823648,
+      "unrestricted_accuracy": 89.77955911823648,
+      "valid_label_rate": 100.0,
+      "prediction_counts": {
+        "1": 246,
+        "3": 257,
+        "0": 243,
+        "2": 252
+      },
+      "seconds": 18.013322729617357,
+      "sha256": "c4153f61d7b40b5cdbd6abee44b63a82d434c4323e8845c53d2e9ed3e506aae3"
+    }
+  },
+  "original_generation_reparsed": {
+    "n": 998,
+    "leading_letter_accuracy": 88.77755511022045,
+    "leading_letter_validity": 98.79759519038076,
+    "strict_accuracy": 0.0,
+    "length_cap_rate": 1.2024048096192386,
+    "examples": [
+      {
+        "id": "test_0",
+        "gold": 1,
+        "text": "B.",
+        "strict_correct": false
+      },
+      {
+        "id": "test_1",
+        "gold": 3,
+        "text": "D. clone",
+        "strict_correct": false
+      },
+      {
+        "id": "test_2",
+        "gold": 0,
+        "text": "A. backbone",
+        "strict_correct": false
+      },
+      {
+        "id": "test_3",
+        "gold": 1,
+        "text": "B. elevation",
+        "strict_correct": false
+      },
+      {
+        "id": "test_4",
+        "gold": 3,
+        "text": "D. tree rings",
+        "strict_correct": false
+      },
+      {
+        "id": "test_5",
+        "gold": 0,
+        "text": "A. plant hormones",
+        "strict_correct": false
+      },
+      {
+        "id": "test_6",
+        "gold": 0,
+        "text": "A. sperm and eggs",
+        "strict_correct": false
+      },
+      {
+        "id": "test_7",
+        "gold": 1,
+        "text": "B. deciduous",
+        "strict_correct": false
+      }
+    ]
+  },
+  "model_files_verified": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen2.5-1.5B-Instruct/tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen2.5-1.5B-Instruct/config.json": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen2.5-1.5B-Instruct/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen2.5-1.5B-Instruct/generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen2.5-1.5B-Instruct/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen2.5-1.5B-Instruct/model.safetensors": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/verified_models/Qwen2.5-1.5B-Instruct/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  "independent_full_forward": true,
+  "adapter_installed": false
+}

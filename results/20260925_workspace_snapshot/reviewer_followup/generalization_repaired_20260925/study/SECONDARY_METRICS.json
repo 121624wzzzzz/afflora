@@ -1,0 +1,330 @@
+{
+  "at": "2026-09-25T17:40:52+08:00",
+  "groups": [
+    {
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "method": "affine",
+      "n": 5,
+      "metrics": {
+        "primary": 83.92888888888888,
+        "strict_accuracy": 83.92888888888888,
+        "macro_f1": 84.14296962581172,
+        "valid_pct": 98.35111111111111,
+        "strict_valid_pct": 98.35111111111111,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 5703680,
+        "boundary": 67584
+      }
+    },
+    {
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "method": "none",
+      "n": 5,
+      "metrics": {
+        "primary": 83.06666666666668,
+        "strict_accuracy": 83.06666666666668,
+        "macro_f1": 83.3157033182233,
+        "valid_pct": 98.27111111111111,
+        "strict_valid_pct": 98.27111111111111,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 5636096,
+        "boundary": 0
+      }
+    },
+    {
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "method": "vocab",
+      "n": 5,
+      "metrics": {
+        "primary": 83.07111111111112,
+        "strict_accuracy": 83.07111111111112,
+        "macro_f1": 83.25323403336502,
+        "valid_pct": 98.35111111111111,
+        "strict_valid_pct": 98.35111111111111,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 5766400,
+        "boundary": 130304
+      }
+    },
+    {
+      "model": "llama32_1b_base",
+      "task": "emotion",
+      "method": "affine",
+      "n": 5,
+      "metrics": {
+        "primary": 77.72,
+        "strict_accuracy": 77.72,
+        "macro_f1": 69.86738175296202,
+        "valid_pct": 100.0,
+        "strict_valid_pct": 100.0,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 5703680,
+        "boundary": 67584
+      }
+    },
+    {
+      "model": "llama32_1b_base",
+      "task": "emotion",
+      "method": "none",
+      "n": 5,
+      "metrics": {
+        "primary": 73.74,
+        "strict_accuracy": 73.74,
+        "macro_f1": 64.83916907553956,
+        "valid_pct": 99.97999999999999,
+        "strict_valid_pct": 99.97999999999999,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 5636096,
+        "boundary": 0
+      }
+    },
+    {
+      "model": "llama32_1b_base",
+      "task": "emotion",
+      "method": "vocab",
+      "n": 4,
+      "metrics": {
+        "primary": 74.10000000000001,
+        "strict_accuracy": 74.10000000000001,
+        "macro_f1": 65.6716439825569,
+        "valid_pct": 100.0,
+        "strict_valid_pct": 100.0,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 5766400,
+        "boundary": 130304
+      }
+    },
+    {
+      "model": "llama32_3b_base",
+      "task": "clinc150",
+      "method": "affine",
+      "n": 5,
+      "metrics": {
+        "primary": 91.09777777777778,
+        "strict_accuracy": 91.09777777777778,
+        "macro_f1": 91.0606288559227,
+        "valid_pct": 99.55999999999999,
+        "strict_valid_pct": 99.55999999999999,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 12258304,
+        "boundary": 101376
+      }
+    },
+    {
+      "model": "llama32_3b_base",
+      "task": "clinc150",
+      "method": "none",
+      "n": 5,
+      "metrics": {
+        "primary": 91.08,
+        "strict_accuracy": 91.08,
+        "macro_f1": 91.03226122021539,
+        "valid_pct": 99.58666666666666,
+        "strict_valid_pct": 99.58666666666666,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 12156928,
+        "boundary": 0
+      }
+    },
+    {
+      "model": "llama32_3b_base",
+      "task": "clinc150",
+      "method": "vocab",
+      "n": 5,
+      "metrics": {
+        "primary": 91.16,
+        "strict_accuracy": 91.16,
+        "macro_f1": 91.13562283929144,
+        "valid_pct": 99.56888888888889,
+        "strict_valid_pct": 99.56888888888889,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 12288256,
+        "boundary": 131328
+      }
+    },
+    {
+      "model": "llama32_3b_base",
+      "task": "emotion",
+      "method": "affine",
+      "n": 5,
+      "metrics": {
+        "primary": 73.9,
+        "strict_accuracy": 73.9,
+        "macro_f1": 67.06959665726129,
+        "valid_pct": 99.99,
+        "strict_valid_pct": 99.99,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 12258304,
+        "boundary": 101376
+      }
+    },
+    {
+      "model": "llama32_3b_base",
+      "task": "emotion",
+      "method": "none",
+      "n": 5,
+      "metrics": {
+        "primary": 73.32000000000001,
+        "strict_accuracy": 73.32000000000001,
+        "macro_f1": 66.62784337396621,
+        "valid_pct": 99.99,
+        "strict_valid_pct": 99.99,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 12156928,
+        "boundary": 0
+      }
+    },
+    {
+      "model": "llama32_3b_base",
+      "task": "emotion",
+      "method": "vocab",
+      "n": 5,
+      "metrics": {
+        "primary": 72.88000000000001,
+        "strict_accuracy": 72.88000000000001,
+        "macro_f1": 65.54351417954909,
+        "valid_pct": 100.0,
+        "strict_valid_pct": 100.0,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 12288256,
+        "boundary": 131328
+      }
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "clinc150",
+      "method": "affine",
+      "n": 5,
+      "metrics": {
+        "primary": 84.9511111111111,
+        "strict_accuracy": 84.9511111111111,
+        "macro_f1": 85.16492787926933,
+        "valid_pct": 98.34222222222222,
+        "strict_valid_pct": 98.34222222222222,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 9283072,
+        "boundary": 50688
+      }
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "clinc150",
+      "method": "none",
+      "n": 5,
+      "metrics": {
+        "primary": 84.2,
+        "strict_accuracy": 84.2,
+        "macro_f1": 84.41026512320327,
+        "valid_pct": 98.46666666666667,
+        "strict_valid_pct": 98.46666666666667,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 9232384,
+        "boundary": 0
+      }
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "clinc150",
+      "method": "vocab",
+      "n": 5,
+      "metrics": {
+        "primary": 84.15111111111112,
+        "strict_accuracy": 84.14666666666668,
+        "macro_f1": 84.05853680042271,
+        "valid_pct": 99.07555555555555,
+        "strict_valid_pct": 99.07111111111111,
+        "capped_pct": 0.0044444444444444444
+      },
+      "parameters": {
+        "total": 9385856,
+        "boundary": 153472
+      }
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "emotion",
+      "method": "affine",
+      "n": 5,
+      "metrics": {
+        "primary": 71.88999999999999,
+        "strict_accuracy": 71.88999999999999,
+        "macro_f1": 61.94637357713269,
+        "valid_pct": 99.97999999999999,
+        "strict_valid_pct": 99.97999999999999,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 9283072,
+        "boundary": 50688
+      }
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "emotion",
+      "method": "none",
+      "n": 5,
+      "metrics": {
+        "primary": 72.14999999999999,
+        "strict_accuracy": 72.14999999999999,
+        "macro_f1": 59.568087511943965,
+        "valid_pct": 100.0,
+        "strict_valid_pct": 100.0,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 9232384,
+        "boundary": 0
+      }
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "emotion",
+      "method": "vocab",
+      "n": 5,
+      "metrics": {
+        "primary": 71.50999999999999,
+        "strict_accuracy": 71.50999999999999,
+        "macro_f1": 58.85748910423079,
+        "valid_pct": 100.0,
+        "strict_valid_pct": 100.0,
+        "capped_pct": 0.0
+      },
+      "parameters": {
+        "total": 9385856,
+        "boundary": 153472
+      }
+    }
+  ],
+  "note": "Content accuracy is prespecified primary; strict metrics are diagnostics; n<5 is incomplete."
+}

@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "models": {
+    "qwen3_06b_base": {
+      "repo": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "official_metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3-0.6B-Base?blobs=true",
+      "files": {
+        "config.json": {
+          "sha256": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+          "bytes": 727,
+          "official_blob": "43c79dcb3766612b23cbed17d0a56ce63efe4e74",
+          "local_reused": true
+        },
+        "generation_config.json": {
+          "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+          "bytes": 138,
+          "official_blob": "cbbb3133034e192527e5321b4c679154e4819ab8",
+          "local_reused": true
+        },
+        "merges.txt": {
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "bytes": 1671853,
+          "official_blob": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+          "local_reused": true
+        },
+        "model.safetensors": {
+          "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+          "bytes": 1192135096,
+          "official_blob": "a3d64c4f6cf2400d4fd37953c3bc8ade675fe97b",
+          "local_reused": true
+        },
+        "tokenizer.json": {
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "bytes": 7031645,
+          "official_blob": "443909a61d429dff23010e5bddd28ff530edda00",
+          "local_reused": true
+        },
+        "tokenizer_config.json": {
+          "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+          "bytes": 9678,
+          "official_blob": "6a3829ee9491f36113e64df37573be81df0366f5",
+          "local_reused": true
+        },
+        "vocab.json": {
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "bytes": 2776833,
+          "official_blob": "4783fe10ac3adce15ac8f358ef5462739852c569",
+          "local_reused": true
+        }
+      }
+    },
+    "qwen25_15b_base": {
+      "repo": "Qwen/Qwen2.5-1.5B",
+      "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+      "official_metadata_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B?blobs=true",
+      "files": {
+        "config.json": {
+          "sha256": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77",
+          "bytes": 684,
+          "official_blob": "169d606d5cf502a5628a52381586679a6d0caaab",
+          "local_reused": true
+        },
+        "generation_config.json": {
+          "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+          "bytes": 138,
+          "official_blob": "cbbb3133034e192527e5321b4c679154e4819ab8",
+          "local_reused": true
+        },
+        "merges.txt": {
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "bytes": 1671839,
+          "official_blob": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+          "local_reused": true
+        },
+        "model.safetensors": {
+          "sha256": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796",
+          "bytes": 3087467144,
+          "official_blob": "de4b04359b427ed291b005f62b749531d45e3e5f",
+          "local_reused": true
+        },
+        "tokenizer.json": {
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "bytes": 7031645,
+          "official_blob": "443909a61d429dff23010e5bddd28ff530edda00",
+          "local_reused": true
+        },
+        "tokenizer_config.json": {
+          "sha256": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+          "bytes": 7228,
+          "official_blob": "ba7e4c5637b9732dadcd66286ce48334e8b31e9e",
+          "local_reused": true
+        },
+        "vocab.json": {
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "bytes": 2776833,
+          "official_blob": "4783fe10ac3adce15ac8f358ef5462739852c569",
+          "local_reused": true
+        }
+      }
+    }
+  }
+}

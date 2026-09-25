@@ -1,0 +1,402 @@
+[
+  {
+    "name": "confirmation_hidden_c2_s7300",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden",
+    "seed": 7300,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_c2_s7301",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden",
+    "seed": 7301,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_c2_s7302",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden",
+    "seed": 7302,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_c2_s7303",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden",
+    "seed": 7303,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_c2_s7304",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden",
+    "seed": 7304,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c2_s7300",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7300,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c2_s7301",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7301,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c2_s7302",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7302,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c2_s7303",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7303,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c2_s7304",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7304,
+    "candidate": "c2",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c4_s7300",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7300,
+    "candidate": "c4",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c4_s7301",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7301,
+    "candidate": "c4",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c4_s7302",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7302,
+    "candidate": "c4",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c4_s7303",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7303,
+    "candidate": "c4",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c4_s7304",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7304,
+    "candidate": "c4",
+    "lr": 0.0004,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c0_s7300",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7300,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c0_s7301",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7301,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c0_s7302",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7302,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c0_s7303",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7303,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_budget_c0_s7304",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_budget",
+    "seed": 7304,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c0_s7300",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7300,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c0_s7301",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7301,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c0_s7302",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7302,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c0_s7303",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7303,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  },
+  {
+    "name": "confirmation_hidden_both_c0_s7304",
+    "stage": "confirmation",
+    "task": "wikisql",
+    "model": "llama31_8b_base",
+    "arm": "hidden_both",
+    "seed": 7304,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 4,
+    "smoke": false,
+    "eval_splits": [
+      "confirm"
+    ]
+  }
+]

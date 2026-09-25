@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-17T20:56:35+08:00",
+  "status": "passed",
+  "files": {
+    "figures/model_size_scores.pdf": "bd0e48996ac4a9e8ae222158d12b33acca984fb9cdb3e775e13f15bd4e4294d9",
+    "figures/model_size_scores.png": "479fae1f1746242c9419e21e5d524508bfd757de39aaa732d0acf8545b1bb456",
+    "figures/model_size_scores.svg": "2e00b6812ba596a2614d9c03dd7e2af5413886da92a34011a654ff27fa5c2245",
+    "figures/new_model_effects.pdf": "cb67f79a4fae30c6fa8772bd2c67c1f2994eba1e7c008388f7d5f614e00d4e13",
+    "figures/new_model_effects.png": "2f4e0567c1321fbb1980bcc59a53c05d89c75d411a147783292ab1fd4e01fb25",
+    "figures/new_model_effects.svg": "4dab19e488080b63206140fc253b1e2d7aa38cbbc4f8e25e7cf72565d5d2b8e8"
+  },
+  "notes": "Both PNG figures visually inspected. Labels, legends and footnotes are readable and unclipped. Six exported files are hashed. Score error bars are seed SD; effect intervals use frozen Bonferroni-8 analysis. Historical anchors and 7B +512 budget difference are explicit."
+}

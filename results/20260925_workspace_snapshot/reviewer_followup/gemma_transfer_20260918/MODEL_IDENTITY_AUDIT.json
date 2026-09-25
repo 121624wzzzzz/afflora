@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "repo": "google/gemma-2-9b",
+  "revision": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
+  "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base",
+  "training_stage": "pretrained_base",
+  "distribution": "public google/gemma-2-9b on ModelScope; every runtime file verified against official Google HF revision",
+  "files": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/config.json": "800e3f504f8e76ef4d6295db8616b92d039cf2e6a3de15b4db45e4eff4e9a4dc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/generation_config.json": "99b4f0bfe91aa4a78fc10018c17de56706db39d6ca87bc76f9be17aed7fe18c9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model.safetensors.index.json": "089409e405cbc109a2b2a74f0bd4ccfa07d902fdc683e28782bdf9e9dd8a2f7b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/special_tokens_map.json": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/tokenizer.json": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/tokenizer.model": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/tokenizer_config.json": "bb8245b8d39a065fdf869ee4fce48db9cc491473eb7ff1b41d321fb4caf540d1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00001-of-00008.safetensors": "72e486c145f30afdc43a507764a146fd545d26f166e60232c25d01a1510738c0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00002-of-00008.safetensors": "73b2e0b94e18b25a2f7a3abda70ab350053be6c615599cb3772f27efb2ae21eb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00003-of-00008.safetensors": "95310f8181c07b98a18facfbbbdaa7bcf28aafaddb9c33cd9dfa008706206970",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00004-of-00008.safetensors": "f4aa5f7d5510456fba5eb22421432a65487b1d0864fbd59ca6f8dfac65184d32",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00005-of-00008.safetensors": "96336ba3f200b986fa952df49998420a9ca1185853449b10a26eccc9bc7fc581",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00006-of-00008.safetensors": "25d2f65b06a3ffc288fc1653554fa33b9d913f47f9b797be7785db19d3ed1f08",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00007-of-00008.safetensors": "d0804ef42bdca870b9f5da75fe222448906bfccfddbebbbf61a5361b2f7a46b3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00008-of-00008.safetensors": "18e1cb9107e250c97ac91ad62bd950449f75de4a427092319ff368164d4617b2"
+  },
+  "hidden_size": 3584,
+  "tie_word_embeddings": true,
+  "tying_declaration": "Gemma2Config default; checked again by actual parameter pointer at runtime",
+  "bos_token_id": 2,
+  "eos_token_id": 1,
+  "pad_token_id": 0
+}

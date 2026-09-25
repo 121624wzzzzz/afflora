@@ -1,0 +1,9 @@
+{
+  "status": "specified_before_corrected_fits",
+  "changes": [
+    "Common explicit numerical policy for 0.8B/2B/4B/9B.",
+    "Fresh all-arm rerun; no old fit reused. First-batch cross-process reference required before updates.",
+    "Family of 16 comparisons across all four corrected sizes."
+  ],
+  "retained": "Same benchmark data/prompts, exact-budget architecture rule, six LRs, 2 selection seeds, 5 confirmation seeds, 2048 examples and 64 updates."
+}

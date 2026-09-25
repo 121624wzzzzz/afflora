@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "note": "Equal aggregate scores do not mean identical predictions or reused adapters",
+  "hashes": {
+    "hidden_input": {
+      "responses_sha256": "c8d7006a9a464ea6225ef6694d768122da7d40ca344161ed2cc783f551084c32",
+      "adapter_sha256": "c439bd65765db39ac3ae06446de416933f005a7c18f6aeadb67b318d40d08678"
+    },
+    "hidden_output": {
+      "responses_sha256": "458c3bb407c2cafd12c9d7f93101d6225afdf5940e6e58654a6bfc46b6972dbe",
+      "adapter_sha256": "a05a6a0a3bec6a93314091261209cb16ca59588bf75b889ddced0742b4773fef"
+    },
+    "hidden_both": {
+      "responses_sha256": "68afdede40f2ca0fab62c7f5f669531a411b47cc4308f2215562976a179032ea",
+      "adapter_sha256": "213cc20a0b18801bd305e5c0303d74022a980f8f4c1d320250bcfdc370a90e5a"
+    }
+  },
+  "comparisons": {
+    "hidden_input__hidden_output": {
+      "texts_differ": 100,
+      "a_only_correct": 19,
+      "b_only_correct": 19
+    },
+    "hidden_input__hidden_both": {
+      "texts_differ": 79,
+      "a_only_correct": 21,
+      "b_only_correct": 21
+    },
+    "hidden_output__hidden_both": {
+      "texts_differ": 99,
+      "a_only_correct": 21,
+      "b_only_correct": 21
+    }
+  }
+}

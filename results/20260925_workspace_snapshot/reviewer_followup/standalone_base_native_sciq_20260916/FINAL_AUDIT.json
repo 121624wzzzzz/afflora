@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-16T11:43:01+08:00",
+  "status": "passed",
+  "training_jobs": 54,
+  "all_frozen_weights_bitwise_unchanged": true,
+  "one_frozen_base_digest_per_model": {
+    "qwen3_06b_base": "aa66ed39dae901f3f27bea22a0959fdb6a9208adce243ce87cb3cb29a249c42e",
+    "qwen25_15b_base": "7a6ee153d6c8060bb94910efd0c36790db8e1808268c8c6da090d5644d29e453"
+  },
+  "prediction_rows_recomputed": 146000,
+  "generation_rows_redecoded": 32000,
+  "near_tie_prediction_flips": 0,
+  "generation_first_token_shape_disagreements": 0,
+  "generation_stop_ids": {
+    "qwen3_06b_base": [
+      151643
+    ],
+    "qwen25_15b_base": [
+      151643
+    ]
+  },
+  "original_sealed_files_rechecked": 475,
+  "single_side_trainable_whitelist_verified": true,
+  "separate_hidden_lora_control_verified": true
+}

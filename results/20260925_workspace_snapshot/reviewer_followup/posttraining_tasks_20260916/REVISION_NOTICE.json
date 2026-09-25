@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-16T17:10:19.515367+08:00",
+  "v2": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_grounded_20260916",
+  "v1_stage_b_started": false,
+  "reasons": [
+    "unanchored relative-date ToolACE gold discovered during development inspection",
+    "numeric character-position generation confounds entity recognition"
+  ]
+}

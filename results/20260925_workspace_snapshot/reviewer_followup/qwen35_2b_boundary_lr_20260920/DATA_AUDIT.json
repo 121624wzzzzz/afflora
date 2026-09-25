@@ -1,0 +1,65 @@
+{
+  "at": "2026-09-20T00:36:39+08:00",
+  "tokenizer_files": {
+    "tokenizer.json": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+    "tokenizer_config.json": "e611fbccc7c29ef3b1cafb1cb7ea548d189968632901d678fd62be68c47885de",
+    "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+    "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+    "config.json": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4"
+  },
+  "splits": {
+    "wikisql_train": {
+      "n": 2048,
+      "groups": 1938,
+      "max_prompt": 507,
+      "max_target": 65,
+      "data_sha256": "4d7805b13a6628c3e4fbd7957484eeb58e1f5a22560a4cd746fc0ca7537a2383",
+      "prompt_sha256": "665d22d7d261f598720e20b47d7324665b33489889d9101fc8747df854ca4f0e"
+    },
+    "wikisql_dev": {
+      "n": 1024,
+      "groups": 854,
+      "max_prompt": 397,
+      "max_target": 54,
+      "data_sha256": "563c04582a3b0e0c3de41b874dac5f99ba08fdbd30ef4797df1fb1982e7d696c",
+      "prompt_sha256": "179f995132c3f90faeff7c13027e652d188ec1117079568d74315bfab5ef91a7"
+    },
+    "wikisql_confirm": {
+      "n": 2048,
+      "groups": 1628,
+      "max_prompt": 509,
+      "max_target": 68,
+      "data_sha256": "0bb8d04ac934d724601d8137254e07399a19199733683bf51f3319c2beea0ff6",
+      "prompt_sha256": "a2318511638e7f524a76203dd5b03da804161cc1055be6fb60db5b8777286a0f"
+    },
+    "trec50_train": {
+      "n": 2048,
+      "groups": 2048,
+      "max_prompt": 668,
+      "max_target": 3,
+      "data_sha256": "b0825d42cc4da1a6d2cf7a63815cec08714873bf52424cec17d04e3d7eca3a3d",
+      "prompt_sha256": "ff0c27d9d0640b6a777347f086e82531203fc1b44da18a4313fa3a36e2faaa35"
+    },
+    "trec50_dev": {
+      "n": 256,
+      "groups": 256,
+      "max_prompt": 647,
+      "max_target": 3,
+      "data_sha256": "529978559003374ffddc5b147cb034808ce31b54ad93cd12d9149b8ed8f9848c",
+      "prompt_sha256": "8f90c42b2956ef251e18ea8efea58aee5fd5ffb8e8635609109c891d098cc733"
+    },
+    "trec50_confirm": {
+      "n": 500,
+      "groups": 500,
+      "max_prompt": 636,
+      "max_target": 3,
+      "data_sha256": "8980814f73c6d1b093b77492566715ea62659ebb4aa6d1760e80be0cb25b9856",
+      "prompt_sha256": "cc2868e1aa6618fe2c990265f530691b5096dd5b1923c6a463516c52afa708e7"
+    }
+  },
+  "scope": "Shared previously evaluated benchmark splits; no previous Qwen3.5 task fit/prediction is reused.",
+  "status": "passed",
+  "gold_checks": 7924,
+  "mutation_checks": 1152,
+  "prompt_checks": 7924
+}

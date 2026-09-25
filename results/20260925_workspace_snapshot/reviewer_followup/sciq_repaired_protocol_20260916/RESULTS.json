@@ -1,0 +1,2041 @@
+{
+  "at": "2026-09-16T16:07:50+08:00",
+  "scope": "post hoc corrected SciQ task adaptation; no general-SFT or stacking inference",
+  "models": {
+    "qwen3_06b_base": {
+      "reference": {
+        "spec": {
+          "phase": "reference",
+          "name": "reference_qwen3_06b_base_base_sd5001_lr0",
+          "model": "qwen3_06b_base",
+          "arm": "base",
+          "seed": 5001,
+          "lr": 0.0,
+          "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/reference_qwen3_06b_base_base_sd5001_lr0"
+        },
+        "split": "test",
+        "primary": {
+          "n": 998,
+          "candidate_accuracy": 85.07014028056112,
+          "unrestricted_first_token_accuracy": 83.66733466933867,
+          "valid_label_rate": 96.79358717434869,
+          "candidate_nll": 0.41515353060138405,
+          "answer_ce": 0.7047274947718891,
+          "eos_ce": 2.860187701806277
+        },
+        "parameters": 0,
+        "prediction_sha256": "c569d7e722f5addbde2ff2decd124b0244cdd643341c82734445f4efd4bb09de",
+        "input_tokens_sha256": "c0acfa6af589c76912a6201dc214fa27a7286fc09d1d48889442e71a6b793505",
+        "original_candidate_replay": {
+          "max_logit_error": 3.24249267578125e-05,
+          "prediction_flips": 0,
+          "source_sha256": "ff61250d084809aac3fcee21b54f127bbb185297414d87c52bf41f9474c8a088"
+        },
+        "generation": {
+          "n": 998,
+          "answer_accuracy": 83.86773547094188,
+          "valid_answer_rate": 97.29458917835672,
+          "exact_letter_format_rate": 0.0,
+          "strict_accuracy": 0.0,
+          "terminated_rate": 99.6993987975952,
+          "length_cap_rate": 0.30060120240480964,
+          "completed_answer_accuracy": 83.86773547094188,
+          "mean_generated_tokens": 10.195390781563127,
+          "extraction_routes": {
+            "letter": 971,
+            "unparseable": 27
+          }
+        },
+        "generation_sha256": "0987f016d3699ee3d106d7ec49ba11ec1e109d9f744e47e517815a4e1843ee44",
+        "generation_settings": {
+          "do_sample": false,
+          "num_beams": 1,
+          "max_new_tokens": 128,
+          "use_cache": true,
+          "repetition_penalty": 1.0,
+          "eos_token_id": [
+            151643
+          ],
+          "pad_token_id": 151643,
+          "temperature": null,
+          "top_p": null,
+          "top_k": null
+        },
+        "first_token_disagreements": [],
+        "adapter_tensors_unchanged": true,
+        "original_weights_unchanged_during_eval": true
+      },
+      "arms": {
+        "input": {
+          "parameters": 33792,
+          "primary": {
+            "candidate_accuracy": 86.65330661322645,
+            "unrestricted_first_token_accuracy": 86.65330661322645,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.3468099280453011,
+            "answer_ce": 0.34692153598273423,
+            "eos_ce": 8.045556995782675e-05
+          },
+          "generation": {
+            "answer_accuracy": 86.65330661322645,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 86.65330661322645,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 86.65330661322645,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_input_sd5002_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_input_sd5003_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_input_sd5004_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_input_sd5005_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_input_sd5006_lr0.0002"
+          ]
+        },
+        "output": {
+          "parameters": 32768,
+          "primary": {
+            "candidate_accuracy": 85.03006012024048,
+            "unrestricted_first_token_accuracy": 85.03006012024048,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.38379808672056115,
+            "answer_ce": 0.38414384461004175,
+            "eos_ce": 0.0
+          },
+          "generation": {
+            "answer_accuracy": 85.03006012024048,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 85.03006012024048,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 85.03006012024048,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_output_sd5002_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_output_sd5003_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_output_sd5004_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_output_sd5005_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_output_sd5006_lr0.0008"
+          ]
+        },
+        "hidden_r8": {
+          "parameters": 5046272,
+          "primary": {
+            "candidate_accuracy": 89.57915831663327,
+            "unrestricted_first_token_accuracy": 89.57915831663327,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.2754011109977259,
+            "answer_ce": 0.27558601812505723,
+            "eos_ce": 6.493808054363123e-06
+          },
+          "generation": {
+            "answer_accuracy": 89.57915831663327,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 89.57915831663327,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 89.57915831663327,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_hidden_r8_sd5002_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_hidden_r8_sd5003_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_hidden_r8_sd5004_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_hidden_r8_sd5005_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_hidden_r8_sd5006_lr0.0002"
+          ]
+        },
+        "small_q": {
+          "parameters": 33792,
+          "primary": {
+            "candidate_accuracy": 87.11422845691382,
+            "unrestricted_first_token_accuracy": 87.11422845691382,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.3516378226049544,
+            "answer_ce": 0.35262813380135616,
+            "eos_ce": 0.0006439332692193027
+          },
+          "generation": {
+            "answer_accuracy": 87.11422845691382,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 87.11422845691382,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 87.11422845691382,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_small_q_sd5002_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_small_q_sd5003_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_small_q_sd5004_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_small_q_sd5005_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_base_small_q_sd5006_lr0.0008"
+          ]
+        }
+      }
+    },
+    "qwen25_15b_base": {
+      "reference": {
+        "spec": {
+          "phase": "reference",
+          "name": "reference_qwen25_15b_base_base_sd5001_lr0",
+          "model": "qwen25_15b_base",
+          "arm": "base",
+          "seed": 5001,
+          "lr": 0.0,
+          "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/reference_qwen25_15b_base_base_sd5001_lr0"
+        },
+        "split": "test",
+        "primary": {
+          "n": 998,
+          "candidate_accuracy": 89.17835671342685,
+          "unrestricted_first_token_accuracy": 89.17835671342685,
+          "valid_label_rate": 100.0,
+          "candidate_nll": 0.30849806479442987,
+          "answer_ce": 0.376167113472799,
+          "eos_ce": 1.1992215583761612
+        },
+        "parameters": 0,
+        "prediction_sha256": "07504d6491919d88ac6cf22076297c4d0e99a8a4c89e581e69dc4fe0028011c7",
+        "input_tokens_sha256": "c0acfa6af589c76912a6201dc214fa27a7286fc09d1d48889442e71a6b793505",
+        "original_candidate_replay": {
+          "max_logit_error": 2.86102294921875e-05,
+          "prediction_flips": 0,
+          "source_sha256": "c30470f4d34ecf895b2ed0728680403667553ce3cffddc0397b5366fe496ee0a"
+        },
+        "generation": {
+          "n": 998,
+          "answer_accuracy": 89.17835671342685,
+          "valid_answer_rate": 100.0,
+          "exact_letter_format_rate": 5.410821643286573,
+          "strict_accuracy": 5.110220440881764,
+          "terminated_rate": 100.0,
+          "length_cap_rate": 0.0,
+          "completed_answer_accuracy": 89.17835671342685,
+          "mean_generated_tokens": 4.8687374749499,
+          "extraction_routes": {
+            "letter": 998
+          }
+        },
+        "generation_sha256": "d33e1665a2aef2da54954b2a6081e2f40e09222736b978e27e82a6e230954149",
+        "generation_settings": {
+          "do_sample": false,
+          "num_beams": 1,
+          "max_new_tokens": 128,
+          "use_cache": true,
+          "repetition_penalty": 1.0,
+          "eos_token_id": [
+            151643
+          ],
+          "pad_token_id": 151643,
+          "temperature": null,
+          "top_p": null,
+          "top_k": null
+        },
+        "first_token_disagreements": [],
+        "adapter_tensors_unchanged": true,
+        "original_weights_unchanged_during_eval": true
+      },
+      "arms": {
+        "input": {
+          "parameters": 50688,
+          "primary": {
+            "candidate_accuracy": 91.08216432865731,
+            "unrestricted_first_token_accuracy": 91.08216432865731,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.25232824267160164,
+            "answer_ce": 0.2524540103898921,
+            "eos_ce": 0.00016672938160001852
+          },
+          "generation": {
+            "answer_accuracy": 91.08216432865731,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 91.08216432865731,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 91.08216432865731,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_input_sd5002_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_input_sd5003_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_input_sd5004_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_input_sd5005_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_input_sd5006_lr0.0008"
+          ]
+        },
+        "output": {
+          "parameters": 49152,
+          "primary": {
+            "candidate_accuracy": 88.79759519038076,
+            "unrestricted_first_token_accuracy": 88.79759519038076,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.28844024402560614,
+            "answer_ce": 0.28890907412629574,
+            "eos_ce": 1.9243570870174495e-05
+          },
+          "generation": {
+            "answer_accuracy": 88.79759519038076,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 88.79759519038076,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 88.79759519038076,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_output_sd5002_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_output_sd5003_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_output_sd5004_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_output_sd5005_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_output_sd5006_lr5e-05"
+          ]
+        },
+        "hidden_r8": {
+          "parameters": 9232384,
+          "primary": {
+            "candidate_accuracy": 92.30460921843687,
+            "unrestricted_first_token_accuracy": 92.30460921843687,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.2057820678796139,
+            "answer_ce": 0.20599342294161338,
+            "eos_ce": 7.229934291204901e-07
+          },
+          "generation": {
+            "answer_accuracy": 92.30460921843687,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 92.30460921843687,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 92.30460921843687,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_hidden_r8_sd5002_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_hidden_r8_sd5003_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_hidden_r8_sd5004_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_hidden_r8_sd5005_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_hidden_r8_sd5006_lr0.0008"
+          ]
+        },
+        "small_q": {
+          "parameters": 49152,
+          "primary": {
+            "candidate_accuracy": 89.5190380761523,
+            "unrestricted_first_token_accuracy": 89.5190380761523,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.2825180370819352,
+            "answer_ce": 0.3014713410767755,
+            "eos_ce": 0.04572307052882108
+          },
+          "generation": {
+            "answer_accuracy": 89.5190380761523,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 89.5190380761523,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 89.5190380761523,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_small_q_sd5002_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_small_q_sd5003_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_small_q_sd5004_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_small_q_sd5005_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_base_small_q_sd5006_lr5e-05"
+          ]
+        }
+      }
+    },
+    "qwen3_06b_chat": {
+      "reference": {
+        "spec": {
+          "phase": "reference",
+          "name": "reference_qwen3_06b_chat_base_sd3001_lr0",
+          "model": "qwen3_06b_chat",
+          "arm": "base",
+          "seed": 3001,
+          "lr": 0.0,
+          "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/reference_qwen3_06b_chat_base_sd3001_lr0"
+        },
+        "split": "test",
+        "primary": {
+          "n": 998,
+          "candidate_accuracy": 62.525050100200396,
+          "unrestricted_first_token_accuracy": 62.525050100200396,
+          "valid_label_rate": 100.0,
+          "candidate_nll": 1.4765531439216464,
+          "answer_ce": 1.4771424208620685,
+          "eos_ce": 10.000370919823885
+        },
+        "parameters": 0,
+        "prediction_sha256": "862e60ec2d517c40780836e4f19a4ba695182ff3a96a9e3c676532943c8217a2",
+        "input_tokens_sha256": "af03b394b972eabb1ee18e9bda52e6d91ff8598aef14f437517c0bb77de76537",
+        "original_candidate_replay": {
+          "max_logit_error": 0.000225067138671875,
+          "prediction_flips": 0,
+          "source_sha256": "aebde936b37deb2988cbb5e76227ef1cf2161d346a24f1008af2b1caa1d5885e"
+        },
+        "generation": {
+          "n": 998,
+          "answer_accuracy": 61.923847695390776,
+          "valid_answer_rate": 92.68537074148297,
+          "exact_letter_format_rate": 0.0,
+          "strict_accuracy": 0.0,
+          "terminated_rate": 100.0,
+          "length_cap_rate": 0.0,
+          "completed_answer_accuracy": 61.923847695390776,
+          "mean_generated_tokens": 5.127254509018036,
+          "extraction_routes": {
+            "letter": 925,
+            "letter_option_conflict": 73
+          }
+        },
+        "generation_sha256": "18068b9dd343073ea931834dfab30c9ed4d8479b840e9605c7e184fa88bb8227",
+        "generation_settings": {
+          "do_sample": false,
+          "num_beams": 1,
+          "max_new_tokens": 128,
+          "use_cache": true,
+          "repetition_penalty": 1.0,
+          "eos_token_id": [
+            151643,
+            151645
+          ],
+          "pad_token_id": 151643,
+          "temperature": null,
+          "top_p": null,
+          "top_k": null
+        },
+        "first_token_disagreements": [],
+        "adapter_tensors_unchanged": true,
+        "original_weights_unchanged_during_eval": true
+      },
+      "arms": {
+        "input": {
+          "parameters": 33792,
+          "primary": {
+            "candidate_accuracy": 82.40480961923848,
+            "unrestricted_first_token_accuracy": 82.40480961923848,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.4502527577421554,
+            "answer_ce": 0.45034777742114784,
+            "eos_ce": 0.00019542962337821564
+          },
+          "generation": {
+            "answer_accuracy": 82.40480961923848,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 82.40480961923848,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 82.40480961923848,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_input_sd3002_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_input_sd3003_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_input_sd3004_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_input_sd3005_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_input_sd3006_lr0.0008"
+          ]
+        },
+        "output": {
+          "parameters": 32768,
+          "primary": {
+            "candidate_accuracy": 78.61723446893787,
+            "unrestricted_first_token_accuracy": 78.61723446893787,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.5989188054807106,
+            "answer_ce": 0.5991200692642294,
+            "eos_ce": 2.8787538310521027e-07
+          },
+          "generation": {
+            "answer_accuracy": 78.61723446893787,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 78.61723446893787,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 78.61723446893787,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_output_sd3002_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_output_sd3003_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_output_sd3004_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_output_sd3005_lr0.0008",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen3_06b_chat_output_sd3006_lr0.0008"
+          ]
+        }
+      }
+    },
+    "qwen25_15b_chat": {
+      "reference": {
+        "spec": {
+          "phase": "reference",
+          "name": "reference_qwen25_15b_chat_base_sd3001_lr0",
+          "model": "qwen25_15b_chat",
+          "arm": "base",
+          "seed": 3001,
+          "lr": 0.0,
+          "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/reference_qwen25_15b_chat_base_sd3001_lr0"
+        },
+        "split": "test",
+        "primary": {
+          "n": 998,
+          "candidate_accuracy": 89.27855711422845,
+          "unrestricted_first_token_accuracy": 88.77755511022045,
+          "valid_label_rate": 98.79759519038076,
+          "candidate_nll": 0.4499413935767696,
+          "answer_ce": 0.5258001371309906,
+          "eos_ce": 4.230999172331098
+        },
+        "parameters": 0,
+        "prediction_sha256": "5cf97841d51aee4620603cf13012cbeb8c8e72369763ff0a0de6b08eb5178a6d",
+        "input_tokens_sha256": "6daf105eb2a8e725f39969b242dc3836ac2f35fb231b6e183f765a6c49638577",
+        "original_candidate_replay": {
+          "max_logit_error": 7.2479248046875e-05,
+          "prediction_flips": 0,
+          "source_sha256": "0afff0e29440be9282fae99fed80eabc3066b491a3b4a63253d9f84785c6c855"
+        },
+        "generation": {
+          "n": 998,
+          "answer_accuracy": 88.87775551102204,
+          "valid_answer_rate": 98.89779559118237,
+          "exact_letter_format_rate": 0.0,
+          "strict_accuracy": 0.0,
+          "terminated_rate": 100.0,
+          "length_cap_rate": 0.0,
+          "completed_answer_accuracy": 88.87775551102204,
+          "mean_generated_tokens": 5.673346693386773,
+          "extraction_routes": {
+            "letter": 987,
+            "unparseable": 11
+          }
+        },
+        "generation_sha256": "064745dc6b07948b280e3a50c7735d3bf60b0c7dcd0216de7d768193c033a821",
+        "generation_settings": {
+          "do_sample": false,
+          "num_beams": 1,
+          "max_new_tokens": 128,
+          "use_cache": true,
+          "repetition_penalty": 1.0,
+          "eos_token_id": [
+            151643,
+            151645
+          ],
+          "pad_token_id": 151643,
+          "temperature": null,
+          "top_p": null,
+          "top_k": null
+        },
+        "first_token_disagreements": [],
+        "adapter_tensors_unchanged": true,
+        "original_weights_unchanged_during_eval": true
+      },
+      "arms": {
+        "input": {
+          "parameters": 50688,
+          "primary": {
+            "candidate_accuracy": 90.1803607214429,
+            "unrestricted_first_token_accuracy": 90.1803607214429,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.27619583855068475,
+            "answer_ce": 0.2767073490046257,
+            "eos_ce": 0.0005482057353154101
+          },
+          "generation": {
+            "answer_accuracy": 90.1803607214429,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 90.1803607214429,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 90.1803607214429,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_input_sd3002_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_input_sd3003_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_input_sd3004_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_input_sd3005_lr0.0002",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_input_sd3006_lr0.0002"
+          ]
+        },
+        "output": {
+          "parameters": 49152,
+          "primary": {
+            "candidate_accuracy": 89.3386773547094,
+            "unrestricted_first_token_accuracy": 89.3386773547094,
+            "valid_label_rate": 100.0,
+            "candidate_nll": 0.36972367819168434,
+            "answer_ce": 0.37143091124369365,
+            "eos_ce": 0.0026027003103963526
+          },
+          "generation": {
+            "answer_accuracy": 89.3386773547094,
+            "valid_answer_rate": 100.0,
+            "exact_letter_format_rate": 100.0,
+            "strict_accuracy": 89.3386773547094,
+            "terminated_rate": 100.0,
+            "length_cap_rate": 0.0,
+            "completed_answer_accuracy": 89.3386773547094,
+            "mean_generated_tokens": 2.0
+          },
+          "runs": [
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_output_sd3002_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_output_sd3003_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_output_sd3004_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_output_sd3005_lr5e-05",
+            "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/confirmation_qwen25_15b_chat_output_sd3006_lr5e-05"
+          ]
+        }
+      }
+    }
+  },
+  "primary_contrasts": [
+    {
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 1.5831663326653307,
+      "per_seed_delta_pp": [
+        1.6032064128256514,
+        1.7034068136272544,
+        1.7034068136272544,
+        1.7034068136272544,
+        1.2024048096192386
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        0.9648894159674988,
+        2.2014432493631624
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        0.18036072144288579,
+        3.006012024048096
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 41,
+          "regressed": 25
+        },
+        {
+          "seed": 5003,
+          "corrected": 41,
+          "regressed": 24
+        },
+        {
+          "seed": 5004,
+          "corrected": 42,
+          "regressed": 25
+        },
+        {
+          "seed": 5005,
+          "corrected": 42,
+          "regressed": 25
+        },
+        {
+          "seed": 5006,
+          "corrected": 39,
+          "regressed": 27
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 2.785571142284569,
+      "per_seed_delta_pp": [
+        2.80561122244489,
+        2.905811623246493,
+        2.905811623246493,
+        2.905811623246493,
+        2.404809619238477
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        2.167294225586737,
+        3.403848058982401
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        1.282565130260521,
+        4.3086172344689375
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 50,
+          "regressed": 22
+        },
+        {
+          "seed": 5003,
+          "corrected": 51,
+          "regressed": 22
+        },
+        {
+          "seed": 5004,
+          "corrected": 50,
+          "regressed": 21
+        },
+        {
+          "seed": 5005,
+          "corrected": 51,
+          "regressed": 22
+        },
+        {
+          "seed": 5006,
+          "corrected": 48,
+          "regressed": 24
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": -0.04008016032064128,
+      "per_seed_delta_pp": [
+        -0.30060120240480964,
+        0.501002004008016,
+        0.30060120240480964,
+        -0.20040080160320642,
+        -0.501002004008016
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -1.2432975628869483,
+        1.1631372422456656
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -1.3226452905811623,
+        1.2024048096192386
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 24,
+          "regressed": 27
+        },
+        {
+          "seed": 5003,
+          "corrected": 25,
+          "regressed": 20
+        },
+        {
+          "seed": 5004,
+          "corrected": 33,
+          "regressed": 30
+        },
+        {
+          "seed": 5005,
+          "corrected": 33,
+          "regressed": 35
+        },
+        {
+          "seed": 5006,
+          "corrected": 25,
+          "regressed": 30
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 1.162324649298597,
+      "per_seed_delta_pp": [
+        0.9018036072144289,
+        1.7034068136272544,
+        1.503006012024048,
+        1.002004008016032,
+        0.7014028056112225
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -0.040892753267709914,
+        2.365542051864904
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -0.22044088176352705,
+        2.565130260521042
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 33,
+          "regressed": 24
+        },
+        {
+          "seed": 5003,
+          "corrected": 36,
+          "regressed": 19
+        },
+        {
+          "seed": 5004,
+          "corrected": 43,
+          "regressed": 28
+        },
+        {
+          "seed": 5005,
+          "corrected": 42,
+          "regressed": 32
+        },
+        {
+          "seed": 5006,
+          "corrected": 34,
+          "regressed": 27
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "hidden_r8",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 4.509018036072144,
+      "per_seed_delta_pp": [
+        5.410821643286573,
+        4.709418837675351,
+        4.008016032064128,
+        3.8076152304609217,
+        4.609218436873747
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        2.705318892122669,
+        6.312717180021618
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        2.8456913827655312,
+        6.232464929859719
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 72,
+          "regressed": 18
+        },
+        {
+          "seed": 5003,
+          "corrected": 75,
+          "regressed": 28
+        },
+        {
+          "seed": 5004,
+          "corrected": 62,
+          "regressed": 22
+        },
+        {
+          "seed": 5005,
+          "corrected": 64,
+          "regressed": 26
+        },
+        {
+          "seed": 5006,
+          "corrected": 69,
+          "regressed": 23
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "hidden_r8",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 5.7114228456913825,
+      "per_seed_delta_pp": [
+        6.613226452905812,
+        5.9118236472945895,
+        5.210420841683367,
+        5.01002004008016,
+        5.811623246492986
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        3.907723701741908,
+        7.515121989640857
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        3.967935871743487,
+        7.49498997995992
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 82,
+          "regressed": 16
+        },
+        {
+          "seed": 5003,
+          "corrected": 85,
+          "regressed": 26
+        },
+        {
+          "seed": 5004,
+          "corrected": 71,
+          "regressed": 19
+        },
+        {
+          "seed": 5005,
+          "corrected": 74,
+          "regressed": 24
+        },
+        {
+          "seed": 5006,
+          "corrected": 79,
+          "regressed": 21
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "small_q",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 2.0440881763527052,
+      "per_seed_delta_pp": [
+        2.004008016032064,
+        2.004008016032064,
+        3.006012024048096,
+        1.6032064128256514,
+        1.6032064128256514
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        0.4107691341735802,
+        3.6774072185318305
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        0.7214428857715431,
+        3.3667334669338675
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 39,
+          "regressed": 19
+        },
+        {
+          "seed": 5003,
+          "corrected": 38,
+          "regressed": 18
+        },
+        {
+          "seed": 5004,
+          "corrected": 45,
+          "regressed": 15
+        },
+        {
+          "seed": 5005,
+          "corrected": 35,
+          "regressed": 19
+        },
+        {
+          "seed": 5006,
+          "corrected": 34,
+          "regressed": 18
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "small_q",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 3.246492985971944,
+      "per_seed_delta_pp": [
+        3.2064128256513027,
+        3.2064128256513027,
+        4.208416833667335,
+        2.80561122244489,
+        2.80561122244489
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        1.6131739437928185,
+        4.879812028151069
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        1.8236472945891784,
+        4.669338677354709
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 50,
+          "regressed": 18
+        },
+        {
+          "seed": 5003,
+          "corrected": 48,
+          "regressed": 16
+        },
+        {
+          "seed": 5004,
+          "corrected": 56,
+          "regressed": 14
+        },
+        {
+          "seed": 5005,
+          "corrected": 45,
+          "regressed": 17
+        },
+        {
+          "seed": 5006,
+          "corrected": 44,
+          "regressed": 16
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 1.9038076152304608,
+      "per_seed_delta_pp": [
+        1.8036072144288577,
+        2.7054108216432864,
+        0.9018036072144289,
+        2.404809619238477,
+        1.7034068136272544
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -0.08231004361667615,
+        3.889925274077598
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        0.561122244488978,
+        3.306613226452906
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 48,
+          "regressed": 30
+        },
+        {
+          "seed": 5003,
+          "corrected": 46,
+          "regressed": 19
+        },
+        {
+          "seed": 5004,
+          "corrected": 40,
+          "regressed": 31
+        },
+        {
+          "seed": 5005,
+          "corrected": 43,
+          "regressed": 19
+        },
+        {
+          "seed": 5006,
+          "corrected": 46,
+          "regressed": 29
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 1.9038076152304608,
+      "per_seed_delta_pp": [
+        1.8036072144288577,
+        2.7054108216432864,
+        0.9018036072144289,
+        2.404809619238477,
+        1.7034068136272544
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -0.08231004361667615,
+        3.889925274077598
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        0.561122244488978,
+        3.306613226452906
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 48,
+          "regressed": 30
+        },
+        {
+          "seed": 5003,
+          "corrected": 46,
+          "regressed": 19
+        },
+        {
+          "seed": 5004,
+          "corrected": 40,
+          "regressed": 31
+        },
+        {
+          "seed": 5005,
+          "corrected": 43,
+          "regressed": 19
+        },
+        {
+          "seed": 5006,
+          "corrected": 46,
+          "regressed": 29
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": -0.38076152304609223,
+      "per_seed_delta_pp": [
+        -0.30060120240480964,
+        -0.40080160320641284,
+        -0.7014028056112225,
+        -0.30060120240480964,
+        -0.20040080160320642
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -0.9293352014834343,
+        0.16781215539124983
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -1.0821643286573146,
+        0.32064128256513025
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 7,
+          "regressed": 10
+        },
+        {
+          "seed": 5003,
+          "corrected": 6,
+          "regressed": 10
+        },
+        {
+          "seed": 5004,
+          "corrected": 10,
+          "regressed": 17
+        },
+        {
+          "seed": 5005,
+          "corrected": 9,
+          "regressed": 12
+        },
+        {
+          "seed": 5006,
+          "corrected": 6,
+          "regressed": 8
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": -0.38076152304609223,
+      "per_seed_delta_pp": [
+        -0.30060120240480964,
+        -0.40080160320641284,
+        -0.7014028056112225,
+        -0.30060120240480964,
+        -0.20040080160320642
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -0.9293352014834343,
+        0.16781215539124983
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -1.0821643286573146,
+        0.32064128256513025
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 7,
+          "regressed": 10
+        },
+        {
+          "seed": 5003,
+          "corrected": 6,
+          "regressed": 10
+        },
+        {
+          "seed": 5004,
+          "corrected": 10,
+          "regressed": 17
+        },
+        {
+          "seed": 5005,
+          "corrected": 9,
+          "regressed": 12
+        },
+        {
+          "seed": 5006,
+          "corrected": 6,
+          "regressed": 8
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "hidden_r8",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 3.1262525050100196,
+      "per_seed_delta_pp": [
+        3.306613226452906,
+        2.404809619238477,
+        2.905811623246493,
+        3.2064128256513027,
+        3.8076152304609217
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        1.6526181620478266,
+        4.599886847972213
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        1.6833667334669338,
+        4.649298597194389
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 58,
+          "regressed": 25
+        },
+        {
+          "seed": 5003,
+          "corrected": 51,
+          "regressed": 27
+        },
+        {
+          "seed": 5004,
+          "corrected": 57,
+          "regressed": 28
+        },
+        {
+          "seed": 5005,
+          "corrected": 54,
+          "regressed": 22
+        },
+        {
+          "seed": 5006,
+          "corrected": 60,
+          "regressed": 22
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "hidden_r8",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 3.1262525050100196,
+      "per_seed_delta_pp": [
+        3.306613226452906,
+        2.404809619238477,
+        2.905811623246493,
+        3.2064128256513027,
+        3.8076152304609217
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        1.6526181620478266,
+        4.599886847972213
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        1.6833667334669338,
+        4.649298597194389
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 58,
+          "regressed": 25
+        },
+        {
+          "seed": 5003,
+          "corrected": 51,
+          "regressed": 27
+        },
+        {
+          "seed": 5004,
+          "corrected": 57,
+          "regressed": 28
+        },
+        {
+          "seed": 5005,
+          "corrected": 54,
+          "regressed": 22
+        },
+        {
+          "seed": 5006,
+          "corrected": 60,
+          "regressed": 22
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "small_q",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 0.3406813627254509,
+      "per_seed_delta_pp": [
+        0.30060120240480964,
+        0.6012024048096193,
+        0.30060120240480964,
+        0.10020040080160321,
+        0.40080160320641284
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -0.17739177367078762,
+        0.8587544991216894
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -0.7214428857715431,
+        1.402805611222445
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 17,
+          "regressed": 14
+        },
+        {
+          "seed": 5003,
+          "corrected": 18,
+          "regressed": 12
+        },
+        {
+          "seed": 5004,
+          "corrected": 18,
+          "regressed": 15
+        },
+        {
+          "seed": 5005,
+          "corrected": 18,
+          "regressed": 17
+        },
+        {
+          "seed": 5006,
+          "corrected": 18,
+          "regressed": 14
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "small_q",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 0.3406813627254509,
+      "per_seed_delta_pp": [
+        0.30060120240480964,
+        0.6012024048096193,
+        0.30060120240480964,
+        0.10020040080160321,
+        0.40080160320641284
+      ],
+      "family_size": 16,
+      "corrected_seed_ci95_pp": [
+        -0.17739177367078762,
+        0.8587544991216894
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -0.7214428857715431,
+        1.402805611222445
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 17,
+          "regressed": 14
+        },
+        {
+          "seed": 5003,
+          "corrected": 18,
+          "regressed": 12
+        },
+        {
+          "seed": 5004,
+          "corrected": 18,
+          "regressed": 15
+        },
+        {
+          "seed": 5005,
+          "corrected": 18,
+          "regressed": 17
+        },
+        {
+          "seed": 5006,
+          "corrected": 18,
+          "regressed": 14
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    }
+  ],
+  "efficiency_contrasts": [
+    {
+      "model": "qwen3_06b_base",
+      "arm": "input_minus_small_q",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": -0.4609218436873748,
+      "per_seed_delta_pp": [
+        -0.40080160320641284,
+        -0.30060120240480964,
+        -1.3026052104208417,
+        0.10020040080160321,
+        -0.40080160320641284
+      ],
+      "family_size": 4,
+      "corrected_seed_ci95_pp": [
+        -1.4524579001080733,
+        0.5306142127333235
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -1.723446893787575,
+        0.781563126252505
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 32,
+          "regressed": 36
+        },
+        {
+          "seed": 5003,
+          "corrected": 29,
+          "regressed": 32
+        },
+        {
+          "seed": 5004,
+          "corrected": 22,
+          "regressed": 35
+        },
+        {
+          "seed": 5005,
+          "corrected": 32,
+          "regressed": 31
+        },
+        {
+          "seed": 5006,
+          "corrected": 30,
+          "regressed": 34
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "arm": "input_minus_small_q",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": -0.4609218436873748,
+      "per_seed_delta_pp": [
+        -0.40080160320641284,
+        -0.30060120240480964,
+        -1.3026052104208417,
+        0.10020040080160321,
+        -0.40080160320641284
+      ],
+      "family_size": 4,
+      "corrected_seed_ci95_pp": [
+        -1.4524579001080733,
+        0.5306142127333235
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -1.723446893787575,
+        0.781563126252505
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 32,
+          "regressed": 36
+        },
+        {
+          "seed": 5003,
+          "corrected": 29,
+          "regressed": 32
+        },
+        {
+          "seed": 5004,
+          "corrected": 22,
+          "regressed": 35
+        },
+        {
+          "seed": 5005,
+          "corrected": 32,
+          "regressed": 31
+        },
+        {
+          "seed": 5006,
+          "corrected": 30,
+          "regressed": 34
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "input_minus_small_q",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 1.56312625250501,
+      "per_seed_delta_pp": [
+        1.503006012024048,
+        2.1042084168336674,
+        0.6012024048096193,
+        2.3046092184368736,
+        1.3026052104208417
+      ],
+      "family_size": 4,
+      "corrected_seed_ci95_pp": [
+        0.2546574378437443,
+        2.8715950671662758
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        0.40080160320641284,
+        2.7655310621242486
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 42,
+          "regressed": 27
+        },
+        {
+          "seed": 5003,
+          "corrected": 35,
+          "regressed": 14
+        },
+        {
+          "seed": 5004,
+          "corrected": 37,
+          "regressed": 31
+        },
+        {
+          "seed": 5005,
+          "corrected": 40,
+          "regressed": 17
+        },
+        {
+          "seed": 5006,
+          "corrected": 38,
+          "regressed": 25
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "arm": "input_minus_small_q",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 1.56312625250501,
+      "per_seed_delta_pp": [
+        1.503006012024048,
+        2.1042084168336674,
+        0.6012024048096193,
+        2.3046092184368736,
+        1.3026052104208417
+      ],
+      "family_size": 4,
+      "corrected_seed_ci95_pp": [
+        0.2546574378437443,
+        2.8715950671662758
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        0.40080160320641284,
+        2.7655310621242486
+      ],
+      "paired_changes": [
+        {
+          "seed": 5002,
+          "corrected": 42,
+          "regressed": 27
+        },
+        {
+          "seed": 5003,
+          "corrected": 35,
+          "regressed": 14
+        },
+        {
+          "seed": 5004,
+          "corrected": 37,
+          "regressed": 31
+        },
+        {
+          "seed": 5005,
+          "corrected": 40,
+          "regressed": 17
+        },
+        {
+          "seed": 5006,
+          "corrected": 38,
+          "regressed": 25
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    }
+  ],
+  "secondary_chat_contrasts": [
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "input",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 19.87975951903808,
+      "per_seed_delta_pp": [
+        19.739478957915832,
+        19.939879759519037,
+        19.539078156312627,
+        19.939879759519037,
+        20.240480961923847
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        19.264990508292186,
+        20.49452852978397
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        16.973947895791582,
+        22.805611222444888
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 242,
+          "regressed": 45
+        },
+        {
+          "seed": 3003,
+          "corrected": 251,
+          "regressed": 52
+        },
+        {
+          "seed": 3004,
+          "corrected": 245,
+          "regressed": 50
+        },
+        {
+          "seed": 3005,
+          "corrected": 252,
+          "regressed": 53
+        },
+        {
+          "seed": 3006,
+          "corrected": 247,
+          "regressed": 45
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "input",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 20.480961923847694,
+      "per_seed_delta_pp": [
+        20.34068136272545,
+        20.541082164328657,
+        20.140280561122246,
+        20.541082164328657,
+        20.841683366733466
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        19.866192913101802,
+        21.095730934593586
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        17.595190380761522,
+        23.386773547094187
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 244,
+          "regressed": 41
+        },
+        {
+          "seed": 3003,
+          "corrected": 253,
+          "regressed": 48
+        },
+        {
+          "seed": 3004,
+          "corrected": 247,
+          "regressed": 46
+        },
+        {
+          "seed": 3005,
+          "corrected": 253,
+          "regressed": 48
+        },
+        {
+          "seed": 3006,
+          "corrected": 251,
+          "regressed": 43
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 16.092184368737474,
+      "per_seed_delta_pp": [
+        16.132264529058116,
+        15.831663326653306,
+        16.33266533066132,
+        15.93186372745491,
+        16.23246492985972
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        15.603316224108235,
+        16.58105251336671
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        13.146292585170341,
+        18.997995991983966
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 206,
+          "regressed": 45
+        },
+        {
+          "seed": 3003,
+          "corrected": 211,
+          "regressed": 53
+        },
+        {
+          "seed": 3004,
+          "corrected": 203,
+          "regressed": 40
+        },
+        {
+          "seed": 3005,
+          "corrected": 214,
+          "regressed": 55
+        },
+        {
+          "seed": 3006,
+          "corrected": 215,
+          "regressed": 53
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "arm": "output",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 16.693386773547093,
+      "per_seed_delta_pp": [
+        16.733466933867735,
+        16.432865731462925,
+        16.93386773547094,
+        16.53306613226453,
+        16.83366733466934
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        16.204518628917857,
+        17.18225491817633
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        13.76753507014028,
+        19.559619238476945
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 207,
+          "regressed": 40
+        },
+        {
+          "seed": 3003,
+          "corrected": 211,
+          "regressed": 47
+        },
+        {
+          "seed": 3004,
+          "corrected": 204,
+          "regressed": 35
+        },
+        {
+          "seed": 3005,
+          "corrected": 214,
+          "regressed": 49
+        },
+        {
+          "seed": 3006,
+          "corrected": 215,
+          "regressed": 47
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "input",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 0.9018036072144288,
+      "per_seed_delta_pp": [
+        1.2024048096192386,
+        0.8016032064128257,
+        0.8016032064128257,
+        1.002004008016032,
+        0.7014028056112225
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        0.43029729974399433,
+        1.3733099146848633
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        -0.12024048096192384,
+        1.9839679358717435
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 25,
+          "regressed": 13
+        },
+        {
+          "seed": 3003,
+          "corrected": 25,
+          "regressed": 17
+        },
+        {
+          "seed": 3004,
+          "corrected": 25,
+          "regressed": 17
+        },
+        {
+          "seed": 3005,
+          "corrected": 25,
+          "regressed": 15
+        },
+        {
+          "seed": 3006,
+          "corrected": 21,
+          "regressed": 14
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "input",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 1.3026052104208419,
+      "per_seed_delta_pp": [
+        1.6032064128256514,
+        1.2024048096192386,
+        1.2024048096192386,
+        1.402805611222445,
+        1.1022044088176353
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        0.8310989029504074,
+        1.7741115178912763
+      ],
+      "positive_corrected_seed_interval": true,
+      "question_bootstrap95_pp": [
+        0.20040080160320642,
+        2.464929859719439
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 29,
+          "regressed": 13
+        },
+        {
+          "seed": 3003,
+          "corrected": 29,
+          "regressed": 17
+        },
+        {
+          "seed": 3004,
+          "corrected": 28,
+          "regressed": 16
+        },
+        {
+          "seed": 3005,
+          "corrected": 29,
+          "regressed": 15
+        },
+        {
+          "seed": 3006,
+          "corrected": 25,
+          "regressed": 14
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "metric": "candidate_accuracy",
+      "mean_delta_pp": 0.06012024048096195,
+      "per_seed_delta_pp": [
+        0.0,
+        0.10020040080160321,
+        0.40080160320641284,
+        -0.501002004008016,
+        0.30060120240480964
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        -0.7666980338708097,
+        0.8869385148327337
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -0.561122244488978,
+        0.7014028056112225
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 9,
+          "regressed": 9
+        },
+        {
+          "seed": 3003,
+          "corrected": 8,
+          "regressed": 7
+        },
+        {
+          "seed": 3004,
+          "corrected": 10,
+          "regressed": 6
+        },
+        {
+          "seed": 3005,
+          "corrected": 5,
+          "regressed": 10
+        },
+        {
+          "seed": 3006,
+          "corrected": 9,
+          "regressed": 6
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "arm": "output",
+      "metric": "generated_answer_accuracy",
+      "mean_delta_pp": 0.4609218436873748,
+      "per_seed_delta_pp": [
+        0.40080160320641284,
+        0.501002004008016,
+        0.8016032064128257,
+        -0.10020040080160321,
+        0.7014028056112225
+      ],
+      "family_size": 8,
+      "corrected_seed_ci95_pp": [
+        -0.365896430664397,
+        1.2877401180391466
+      ],
+      "positive_corrected_seed_interval": false,
+      "question_bootstrap95_pp": [
+        -0.2605210420841683,
+        1.2024048096192386
+      ],
+      "paired_changes": [
+        {
+          "seed": 3002,
+          "corrected": 13,
+          "regressed": 9
+        },
+        {
+          "seed": 3003,
+          "corrected": 12,
+          "regressed": 7
+        },
+        {
+          "seed": 3004,
+          "corrected": 13,
+          "regressed": 5
+        },
+        {
+          "seed": 3005,
+          "corrected": 9,
+          "regressed": 10
+        },
+        {
+          "seed": 3006,
+          "corrected": 13,
+          "regressed": 6
+        }
+      ],
+      "interpretation": "post hoc; seed CI conditional on fixed questions, question CI conditional on fitted seeds"
+    }
+  ]
+}

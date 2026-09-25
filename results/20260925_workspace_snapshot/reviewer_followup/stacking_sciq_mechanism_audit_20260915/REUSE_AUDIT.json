@@ -1,0 +1,17 @@
+{
+  "source_root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915",
+  "source_manifest_sha256": "37adfea6f74d483ee0d6ac7222a1cff5f6313a5289a84f191a0cd26396c49e60",
+  "verified_copies": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/common.py": "b33190bbfafc747381dcebdd3695d4870ba89581c45d09f1dcda6fd7eb8e1885",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/modeling.py": "b9b48e1c65b89465cb522925828386988d19e00d5fdcd3c29897bc9dcab9e608",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/models.json": "a943c4d419da4cf1bcf7b097b6718bc70dcd8cff6563b090b3577845d1fab7f1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/DATA_AUDIT.json": "947b923fa249dc28ce1dc8c83c1f112d252a56adbaa1cd46aea8c8f1b06c662b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/data/test.jsonl": "639b98a7258df93e9eef41577dc86197b9f1ced5e019526d27bb2836cb85ab42",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen3_06b_chat_test_rotations.json": "3d720c945a946dcdb252a06aafe42618e419b13d0cf5f7edc7830cc1d60f8559",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen3_06b_chat_train.json": "2af0fad2c152b3d3ad7e753a0e672e22bb4fcbdabf9987a067ed739d2bdc011b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen25_15b_chat_test_rotations.json": "d1328be008c96e6b6abc5fa18f3542fa690bcfba9c3260a3bb336908b2b88557",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen25_15b_chat_train.json": "b9a10222884d048ad281a916e43402fe6a1b5696d78d68a26807b7b57dfea9b5"
+  }
+}

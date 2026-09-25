@@ -42,3 +42,7 @@ corrected_sft_experiment/**/__pycache__/
 corrected_sft_experiment/**/*.py[cod]
 corrected_sft_experiment/**/*.safetensors
 corrected_sft_experiment/**/*.pt
+
+# Live reviewer experiments (~399 GB): archive selected code/reports under results/.
+# This preserves local runs and prevents accidental weight/data uploads.
+/reviewer_followup/

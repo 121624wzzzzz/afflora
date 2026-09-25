@@ -1,0 +1,70 @@
+{
+  "at": "2026-09-16T17:26:34+08:00",
+  "status": "passed",
+  "runs": [
+    {
+      "name": "pilot_toolace_qwen3_06b_base_hidden",
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "files": {
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/PROGRESS.json": "09d7f2e41136d375ed211bcabbeeda54bf499aadd9ea2961075ddd9ea6662186",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/initial_adapter.safetensors": "f9859ebe72b967bc3ab81b406397f864f5073060aee2a312aa6b28d2d3b1295f",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/INITIALIZATION.json": "2e76fb291d79c975f47a9cc540ab8cc1998726d0c36a6b4be2826829cfe4f65d",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/adapter_step16.safetensors": "485371dd0206db7c656eb845882fcd027afaa93f646f696637bf705d2c549d85",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/TRAIN_ORDER.json": "05942bb7a5f47ebc75dff62bbbca2efd2d4cff6c773bf2c27c2ca9e8e583df3b",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/adapter.safetensors": "03335f895caec9f4426f58a92bb0800deff552b4998510eb20394afaf5bed159",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/COMPLETE.json": "d17398ee0f41276340553c8c02b5135d470ba9c16351278c1fca12a1788aa5f4",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/spec.json": "93716061b859882e575c10737d9e8e565f4629c0c67255ea7f0cf85b2d917927",
+        "checkpoints/pilot_toolace_qwen3_06b_base_hidden/TRAINING.json": "44f1f9754c587dbe24fffc12738d35432950171f37a1d375eda39729b2b1bd89"
+      }
+    },
+    {
+      "name": "pilot_toolace_qwen25_15b_base_hidden",
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "files": {
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/PROGRESS.json": "cba0e4b7c35ef1d49e1724d5e3484cb889b7b911cd3ae68a9c0e4d475cbc9d00",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/initial_adapter.safetensors": "0ce3516a827891477659fdeec6d2cbb25f00caa0039694aec1f0177c7e790247",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/INITIALIZATION.json": "6160a3628748ed0eb091e18a181eddeeb18b228c18613b767f862c8e80568fb9",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/adapter_step16.safetensors": "daae1add7a815b6632463ec4c7d2e0c9cbc03441eeaaa02e221d70ece4a3cf03",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/TRAIN_ORDER.json": "05942bb7a5f47ebc75dff62bbbca2efd2d4cff6c773bf2c27c2ca9e8e583df3b",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/adapter.safetensors": "ae49df117f43b24970800a2ced08aaaa353ebf5f7bc6505f8f53d28596a59143",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/COMPLETE.json": "501e0fbe5d518c3cc26c24b1e7ce758be722968a7b59f6c034e1aef208b5ca56",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/spec.json": "2810850d337f8dac629b04e67c80111bf7489e3044b3ddc2232523a0ab305a49",
+        "checkpoints/pilot_toolace_qwen25_15b_base_hidden/TRAINING.json": "45e9a9757122ee0e424f021aa3055c8f761b3e516c12631821b6b5a87abd4ca0"
+      }
+    },
+    {
+      "name": "pilot_cluener_qwen3_06b_base_hidden",
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "files": {
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/PROGRESS.json": "36c00fd8892b121303aa034bad4e39b4101e10c6ee7375f335dcf143dfb53e03",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/initial_adapter.safetensors": "f9859ebe72b967bc3ab81b406397f864f5073060aee2a312aa6b28d2d3b1295f",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/INITIALIZATION.json": "05dc6f5afe8126958f4012531fdb1d1042fe32c84c639fffce81fb7c6006544b",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/adapter_step16.safetensors": "f7615b17f92a8bddfda7392a06b40c872c4b01c5438d68c68454440350a6fd85",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/TRAIN_ORDER.json": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/adapter.safetensors": "c190b3a0449b6087dedd6070c56d34703ed4141eadd8975381fea43c1685988f",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/COMPLETE.json": "f6386db0fed0b573354c6b8665daa53b7cfd957d1126b5ede2f342ccff6ef0b1",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/spec.json": "eedf65dd6efd07e7b5f5d839f44480a52672e98536f5feca32cc748d62bb7d84",
+        "checkpoints/pilot_cluener_qwen3_06b_base_hidden/TRAINING.json": "d5e6e143d1a572455503a18531bd1cec825b4b705ef6a5579f8c13e6d729737e"
+      }
+    },
+    {
+      "name": "pilot_cluener_qwen25_15b_base_hidden",
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "files": {
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/PROGRESS.json": "2e62ce23e70d7f75acefed3e2c141415fe8fb901cf1f002c4c9a989bd923f2e4",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/initial_adapter.safetensors": "0ce3516a827891477659fdeec6d2cbb25f00caa0039694aec1f0177c7e790247",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/INITIALIZATION.json": "9e24b2fc01bafa15fd7b44cdf081f14a016eca6d68e01804ed016e526c93dfa2",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/adapter_step16.safetensors": "c0a1d9db769773fd8d819f01d25e73a5bc5b4dd76ab76f585426ccc2443f6f44",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/TRAIN_ORDER.json": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/adapter.safetensors": "9b4bc33059c59ba3fc2ef91822ddd8bf7dfb78be92f2ed0cd34ad547165bb3e8",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/COMPLETE.json": "757af44eddd392c66eba3a73ae95247a24355835947b0b89f74ea00807af3216",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/spec.json": "030134bc89043b5293a6d8224cd6a3a9087bbcd2efbc051989be77bb95bc2692",
+        "checkpoints/pilot_cluener_qwen25_15b_base_hidden/TRAINING.json": "849edece1502444215bfbdbff974ad3507ac887f3ed54be44e714eabfde23384"
+      }
+    }
+  ]
+}

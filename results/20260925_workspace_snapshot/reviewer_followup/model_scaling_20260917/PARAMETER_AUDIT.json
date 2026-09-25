@@ -1,0 +1,353 @@
+{
+  "at": "2026-09-17T20:51:32+08:00",
+  "status": "passed",
+  "model_files_verified": 24,
+  "original_weight_tensor_digests": {
+    "qwen25_3b_base": "54a2d5705e2bac8e7a63ab93ee5d57e83221eb57ed3afc262984ed86bf8639ec",
+    "qwen25_7b_base": "85950a8860eadb07569f0a57164d07d206a8cf74d52bc8e5405e57db6f63dbfc"
+  },
+  "runs": [
+    {
+      "name": "cluener_qwen25_3b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6100",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6101",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6102",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6103",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6104",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6100",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6101",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6102",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6103",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6104",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "cluener_qwen25_7b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6100",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6101",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6102",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6103",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6104",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6100",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6101",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6102",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6103",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6104",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "smoke_cluener_qwen25_3b_base_hidden_both",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "smoke_cluener_qwen25_7b_base_hidden_both",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "smoke_wikisql_qwen25_3b_base_hidden_budget",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "smoke_wikisql_qwen25_7b_base_hidden_budget",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7100",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7101",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7102",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7103",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7104",
+      "arm": "hidden_both",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 15099904
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7100",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7101",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7102",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7103",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7104",
+      "arm": "hidden",
+      "trainable_parameters": 14966784
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_base",
+      "arm": "base",
+      "trainable_parameters": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7100",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7101",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7102",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7103",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7104",
+      "arm": "hidden_both",
+      "trainable_parameters": 20418048
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7100",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7101",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7102",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7103",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7104",
+      "arm": "hidden_budget",
+      "trainable_parameters": 20418560
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7100",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7101",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7102",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7103",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7104",
+      "arm": "hidden",
+      "trainable_parameters": 20185088
+    }
+  ],
+  "token_files_checked": 12,
+  "token_records_checked": 13838
+}

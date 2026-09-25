@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "runs": [
+    {
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "seed": 6100,
+      "rank": 16,
+      "primary": 62.035132141161576,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen25_15b_base_hidden_shared16_s6100/test/SUMMARY.json",
+      "summary_sha256": "c48b25d3c00ead3574db5a1cb685727b3c9f41579363af8a5596a1e27eec5279"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "seed": 6100,
+      "rank": 32,
+      "primary": 61.919504643962846,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen25_15b_base_hidden_shared32_s6100/test/SUMMARY.json",
+      "summary_sha256": "d0cea72bcc4da1ef5d46c21916bbca6afa6c514635d8a38380c5fbd5102a51d5"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "seed": 6101,
+      "rank": 16,
+      "primary": 62.13065005590161,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen25_15b_base_hidden_shared16_s6101/test/SUMMARY.json",
+      "summary_sha256": "8b190610d170d40095e84be48a936601a3fc2188ebfa150f574d8baf61fe3f4c"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "seed": 6101,
+      "rank": 32,
+      "primary": 62.843450479233226,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen25_15b_base_hidden_shared32_s6101/test/SUMMARY.json",
+      "summary_sha256": "e8e5fc0d1c3489805f227d90fc8cb657c8891a87547b212f5d4f34374d0787ca"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "seed": 6102,
+      "rank": 16,
+      "primary": 61.00459515132309,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen25_15b_base_hidden_shared16_s6102/test/SUMMARY.json",
+      "summary_sha256": "de66d98c27226272a20754963b13147cd6e9c99a071055a35bba11aa71b0fead"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "seed": 6102,
+      "rank": 32,
+      "primary": 62.52164331811743,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen25_15b_base_hidden_shared32_s6102/test/SUMMARY.json",
+      "summary_sha256": "beef93f73141c07e559075d706810e304de75617103d5d19535d27ebc30919e9"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "seed": 7100,
+      "rank": 16,
+      "primary": 72.4609375,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen25_15b_base_hidden_shared16_s7100/test/SUMMARY.json",
+      "summary_sha256": "668d6c59b6a38d37d3ece3903c48bff7e214ddbde1fc47ba12e8aa1a2a3d828a"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "seed": 7100,
+      "rank": 32,
+      "primary": 72.55859375,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen25_15b_base_hidden_shared32_s7100/test/SUMMARY.json",
+      "summary_sha256": "6986a1b5aad5dee31e7a37639fb2c362bc599b4af496a38ff9f02bc74da5edbc"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "seed": 7101,
+      "rank": 16,
+      "primary": 72.94921875,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen25_15b_base_hidden_shared16_s7101/test/SUMMARY.json",
+      "summary_sha256": "53ea8a32beae7b879e7584716ba112c1753a0d6560f4e4f9d98ff40fda9e08f0"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "seed": 7101,
+      "rank": 32,
+      "primary": 72.94921875,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen25_15b_base_hidden_shared32_s7101/test/SUMMARY.json",
+      "summary_sha256": "f860a25a2d9f7b1d1286e0f294f953217cffe8fdadddd968330b7402ebeb8f0b"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "seed": 7102,
+      "rank": 16,
+      "primary": 70.99609375,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen25_15b_base_hidden_shared16_s7102/test/SUMMARY.json",
+      "summary_sha256": "091a10235d2fbd3d0fbd9f2544daa754bd12482a6ed6842302b58cd32c8ffcdf"
+    },
+    {
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "seed": 7102,
+      "rank": 32,
+      "primary": 71.09375,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen25_15b_base_hidden_shared32_s7102/test/SUMMARY.json",
+      "summary_sha256": "a1b3cff82a91a1fee8f6adc1cfbb6073ee5bcbf176f924a0c2681e594e194f24"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "seed": 6100,
+      "rank": 16,
+      "primary": 61.21546961325967,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen3_06b_base_hidden_shared16_s6100/test/SUMMARY.json",
+      "summary_sha256": "2b2f81b78c74c5b4e25f4c255f37462bfa8abdc27a445eef8488026ca09e8dfc"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "seed": 6100,
+      "rank": 32,
+      "primary": 61.88914910226386,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen3_06b_base_hidden_shared32_s6100/test/SUMMARY.json",
+      "summary_sha256": "82977dd0a98469c540cb8a4b86636a22dfe263b546a0524c9c2dcc204706f76a"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "seed": 6101,
+      "rank": 16,
+      "primary": 62.567353407290014,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen3_06b_base_hidden_shared16_s6101/test/SUMMARY.json",
+      "summary_sha256": "98234230b65c86dfad9ac9e491e815d8d277bbc95f2d2dcf225d4fea9d433b3a"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "seed": 6101,
+      "rank": 32,
+      "primary": 62.76697481670386,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen3_06b_base_hidden_shared32_s6101/test/SUMMARY.json",
+      "summary_sha256": "0048cb3354aba5d412ee01ae9963934a0b95b979c14af0469bd588988b479f16"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "seed": 6102,
+      "rank": 16,
+      "primary": 62.654418751979726,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen3_06b_base_hidden_shared16_s6102/test/SUMMARY.json",
+      "summary_sha256": "0dfc631e617618c0a8091b807324fde6b7ed44c1f27ff233f1fe42cceff8e139"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "seed": 6102,
+      "rank": 32,
+      "primary": 62.68277177368086,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/cluener_qwen3_06b_base_hidden_shared32_s6102/test/SUMMARY.json",
+      "summary_sha256": "369f55179b5d13e10092f88dfb5088d8c2bba49ccef93de8265a650e80dcc79e"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "seed": 7100,
+      "rank": 16,
+      "primary": 73.73046875,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen3_06b_base_hidden_shared16_s7100/test/SUMMARY.json",
+      "summary_sha256": "ad54cd6a91adb82a67471670e4310b878411d72ae608c6e21ef884d80e7b2119"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "seed": 7100,
+      "rank": 32,
+      "primary": 72.75390625,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen3_06b_base_hidden_shared32_s7100/test/SUMMARY.json",
+      "summary_sha256": "bb53e41c47985ae27cb9b332d3181c8d114c98778a878ee8146e0ac38229fa40"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "seed": 7101,
+      "rank": 16,
+      "primary": 70.8984375,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen3_06b_base_hidden_shared16_s7101/test/SUMMARY.json",
+      "summary_sha256": "b9a6821d86679fd23a19d80dc48c46cf6438f5a8b50788d586bd351d9a32b3cb"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "seed": 7101,
+      "rank": 32,
+      "primary": 71.484375,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen3_06b_base_hidden_shared32_s7101/test/SUMMARY.json",
+      "summary_sha256": "de53725397df63ee8bc1e4ccc97325bdad81bbe6dd7874de3fffe814b02b611c"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "seed": 7102,
+      "rank": 16,
+      "primary": 72.265625,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen3_06b_base_hidden_shared16_s7102/test/SUMMARY.json",
+      "summary_sha256": "9c31700bb1c0bdcf31da97e3529c68c6a824b87199af5ee025139a50c41aeb4f"
+    },
+    {
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "seed": 7102,
+      "rank": 32,
+      "primary": 71.97265625,
+      "summary": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen_shared_20260921/study/evaluations/wikisql_qwen3_06b_base_hidden_shared32_s7102/test/SUMMARY.json",
+      "summary_sha256": "0e8e4d417b6b395026a01bff05513c039cacb99b9a10a2c395260ffd0d1b11d7"
+    }
+  ],
+  "source_final_audit_sha256": "a4d71b5941cb45c97d7430f90df61326dba865efd9ac78e067f36c3b308abb24"
+}

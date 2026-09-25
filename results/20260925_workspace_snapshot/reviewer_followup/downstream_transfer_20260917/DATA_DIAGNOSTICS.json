@@ -1,0 +1,55 @@
+{
+  "at": "2026-09-17T11:13:10+08:00",
+  "anli_premise_overlap": {
+    "train_dev": 0,
+    "train_test": 0,
+    "dev_test": 274
+  },
+  "sql": {
+    "train": {
+      "n": 2048,
+      "tables": 1938,
+      "empty_gold": 0,
+      "aggregation_counts": {
+        "3": 214,
+        "0": 1454,
+        "1": 116,
+        "4": 79,
+        "5": 77,
+        "2": 108
+      },
+      "duplicate_condition_column_gold": 0,
+      "official_vs_distinct_parameter_gold_disagreement": 0
+    },
+    "dev": {
+      "n": 256,
+      "tables": 244,
+      "empty_gold": 0,
+      "aggregation_counts": {
+        "0": 188,
+        "1": 18,
+        "3": 22,
+        "5": 9,
+        "4": 10,
+        "2": 9
+      },
+      "duplicate_condition_column_gold": 0,
+      "official_vs_distinct_parameter_gold_disagreement": 0
+    },
+    "test": {
+      "n": 1024,
+      "tables": 928,
+      "empty_gold": 0,
+      "aggregation_counts": {
+        "3": 112,
+        "0": 696,
+        "2": 68,
+        "1": 59,
+        "4": 50,
+        "5": 39
+      },
+      "duplicate_condition_column_gold": 0,
+      "official_vs_distinct_parameter_gold_disagreement": 0
+    }
+  }
+}

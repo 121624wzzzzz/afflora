@@ -1,0 +1,127 @@
+{
+  "at": "2026-09-21T14:13:15+08:00",
+  "counts": {
+    "cluener_train": 2048,
+    "cluener_dev": 200,
+    "cluener_test": 1343,
+    "wikisql_train": 2048,
+    "wikisql_dev": 256,
+    "wikisql_test": 1024
+  },
+  "lengths": {
+    "cluener_llama32_1b_base_train": {
+      "n": 2048,
+      "max_prompt": 190,
+      "max_target": 167,
+      "max_sequence": 354
+    },
+    "cluener_llama32_1b_base_dev": {
+      "n": 200,
+      "max_prompt": 187,
+      "max_target": 135,
+      "max_sequence": 308
+    },
+    "cluener_llama32_1b_base_test": {
+      "n": 1343,
+      "max_prompt": 184,
+      "max_target": 145,
+      "max_sequence": 327
+    },
+    "wikisql_llama32_1b_base_train": {
+      "n": 2048,
+      "max_prompt": 455,
+      "max_target": 54,
+      "max_sequence": 475
+    },
+    "wikisql_llama32_1b_base_dev": {
+      "n": 256,
+      "max_prompt": 332,
+      "max_target": 43,
+      "max_sequence": 372
+    },
+    "wikisql_llama32_1b_base_test": {
+      "n": 1024,
+      "max_prompt": 405,
+      "max_target": 50,
+      "max_sequence": 450
+    },
+    "cluener_llama32_3b_base_train": {
+      "n": 2048,
+      "max_prompt": 190,
+      "max_target": 167,
+      "max_sequence": 354
+    },
+    "cluener_llama32_3b_base_dev": {
+      "n": 200,
+      "max_prompt": 187,
+      "max_target": 135,
+      "max_sequence": 308
+    },
+    "cluener_llama32_3b_base_test": {
+      "n": 1343,
+      "max_prompt": 184,
+      "max_target": 145,
+      "max_sequence": 327
+    },
+    "wikisql_llama32_3b_base_train": {
+      "n": 2048,
+      "max_prompt": 455,
+      "max_target": 54,
+      "max_sequence": 475
+    },
+    "wikisql_llama32_3b_base_dev": {
+      "n": 256,
+      "max_prompt": 332,
+      "max_target": 43,
+      "max_sequence": 372
+    },
+    "wikisql_llama32_3b_base_test": {
+      "n": 1024,
+      "max_prompt": 405,
+      "max_target": 50,
+      "max_sequence": 450
+    },
+    "cluener_llama31_8b_base_train": {
+      "n": 2048,
+      "max_prompt": 190,
+      "max_target": 167,
+      "max_sequence": 354
+    },
+    "cluener_llama31_8b_base_dev": {
+      "n": 200,
+      "max_prompt": 187,
+      "max_target": 135,
+      "max_sequence": 308
+    },
+    "cluener_llama31_8b_base_test": {
+      "n": 1343,
+      "max_prompt": 184,
+      "max_target": 145,
+      "max_sequence": 327
+    },
+    "wikisql_llama31_8b_base_train": {
+      "n": 2048,
+      "max_prompt": 455,
+      "max_target": 54,
+      "max_sequence": 475
+    },
+    "wikisql_llama31_8b_base_dev": {
+      "n": 256,
+      "max_prompt": 332,
+      "max_target": 43,
+      "max_sequence": 372
+    },
+    "wikisql_llama31_8b_base_test": {
+      "n": 1024,
+      "max_prompt": 405,
+      "max_target": 50,
+      "max_sequence": 450
+    }
+  },
+  "reused_fits": 0,
+  "native_bos": 128000,
+  "native_eos": 128001,
+  "status": "passed",
+  "new_formal_jobs": 60,
+  "smoke_jobs": 12
+}

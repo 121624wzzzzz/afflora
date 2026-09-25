@@ -1,0 +1,162 @@
+[
+  {
+    "name": "smoke_wikisql_hidden_c0_s7599",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "qwen35_2b_base",
+    "arm": "hidden",
+    "seed": 7599,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_wikisql_hidden_budget_c0_s7599",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_budget",
+    "seed": 7599,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_wikisql_hidden_both_c0_s7599",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7599,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_wikisql_hidden_both_c3_s7599",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7599,
+    "candidate": "c3",
+    "lr": 5e-05,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_wikisql_hidden_both_c5_s7599",
+    "stage": "smoke",
+    "task": "wikisql",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7599,
+    "candidate": "c5",
+    "lr": 0.0008,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_trec50_hidden_c0_s7599",
+    "stage": "smoke",
+    "task": "trec50",
+    "model": "qwen35_2b_base",
+    "arm": "hidden",
+    "seed": 7599,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_trec50_hidden_budget_c0_s7599",
+    "stage": "smoke",
+    "task": "trec50",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_budget",
+    "seed": 7599,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_trec50_hidden_both_c0_s7599",
+    "stage": "smoke",
+    "task": "trec50",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7599,
+    "candidate": "c0",
+    "lr": 0.0002,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_trec50_hidden_both_c3_s7599",
+    "stage": "smoke",
+    "task": "trec50",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7599,
+    "candidate": "c3",
+    "lr": 5e-05,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  },
+  {
+    "name": "smoke_trec50_hidden_both_c5_s7599",
+    "stage": "smoke",
+    "task": "trec50",
+    "model": "qwen35_2b_base",
+    "arm": "hidden_both",
+    "seed": 7599,
+    "candidate": "c5",
+    "lr": 0.0008,
+    "boundary_lr_ratio": 1.0,
+    "microbatch": 2,
+    "smoke": true,
+    "eval_splits": [
+      "dev"
+    ]
+  }
+]

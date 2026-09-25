@@ -1,0 +1,15 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-12T19:01:11+08:00",
+  "rhos": {
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p00729014_l10_seed42": 0.007334548037560252,
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p00729014_l30_seed42": 0.0072781620299078005,
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p00729014_l300_seed42": 0.007230465548405774,
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p00729014_l1000_seed42": 0.0072359520334492914,
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p00519388_l100_seed42": 0.0051777717184343305,
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p00625_l100_seed42": 0.006234160027143074,
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p0085_l100_seed42": 0.00843998973758718,
+    "llama31_8b_lmhead_ar16_s1_hr4_energy_tau0p0095_l100_seed42": 0.009400598780742089
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/ENERGY_STRENGTH_SWEEP_RESULTS.md"
+}

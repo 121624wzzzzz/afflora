@@ -1,0 +1,459 @@
+{
+  "at": "2026-09-16T17:19:10+08:00",
+  "summaries": [
+    {
+      "content_correct": 0.0,
+      "schema_valid": 99.0,
+      "json_valid": 99.5,
+      "strict_json": 81.0,
+      "span_micro_f1": 0.0,
+      "span_counts": {
+        "tp": 0,
+        "pred": 8,
+        "gold": 490
+      },
+      "text_micro_f1": 0.0,
+      "text_counts": {
+        "tp": 0,
+        "pred": 8,
+        "gold": 490
+      },
+      "primary": 0.0,
+      "n": 200,
+      "native_eos_pct": 94.0,
+      "capped_pct": 6.0,
+      "mean_generated_tokens": 59.335,
+      "answer_ce": 0.9644790448242478,
+      "eos_ce": 0.01371208048891276,
+      "seconds": 211.3793197311461,
+      "spec": {
+        "name": "pilot_cluener_qwen25_15b_base_base",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "base",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": []
+      },
+      "tag": "baseline",
+      "input_ids_sha256": "82f3c153d27a893ed7ec35bf5de32c5d6d7e74f3a04a218a017156ef09979b9b",
+      "responses_sha256": "1c6d1e269070324c5cfbb1b4d92bb370c2eaf6f1bf0101ec2d2ff0878b14b708"
+    },
+    {
+      "content_correct": 0.0,
+      "schema_valid": 0.0,
+      "json_valid": 98.5,
+      "strict_json": 98.5,
+      "span_micro_f1": 1.8581081081081081,
+      "span_counts": {
+        "tp": 11,
+        "pred": 694,
+        "gold": 490
+      },
+      "text_micro_f1": 52.027027027027025,
+      "text_counts": {
+        "tp": 308,
+        "pred": 694,
+        "gold": 490
+      },
+      "primary": 1.8581081081081081,
+      "n": 200,
+      "native_eos_pct": 98.5,
+      "capped_pct": 1.5,
+      "mean_generated_tokens": 76.775,
+      "answer_ce": 0.3048360581250535,
+      "eos_ce": 0.0004035216764896177,
+      "seconds": 175.75479805469513,
+      "spec": {
+        "name": "pilot_cluener_qwen25_15b_base_hidden",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "final",
+      "input_ids_sha256": "82f3c153d27a893ed7ec35bf5de32c5d6d7e74f3a04a218a017156ef09979b9b",
+      "responses_sha256": "6d2a97575583b582cacaea16ff3ef801b14abab24d96459906aefa61f401e46d"
+    },
+    {
+      "content_correct": 0.0,
+      "schema_valid": 0.0,
+      "json_valid": 97.5,
+      "strict_json": 97.5,
+      "span_micro_f1": 1.3297872340425532,
+      "span_counts": {
+        "tp": 10,
+        "pred": 1014,
+        "gold": 490
+      },
+      "text_micro_f1": 32.97872340425532,
+      "text_counts": {
+        "tp": 248,
+        "pred": 1014,
+        "gold": 490
+      },
+      "primary": 1.3297872340425532,
+      "n": 200,
+      "native_eos_pct": 97.5,
+      "capped_pct": 2.5,
+      "mean_generated_tokens": 111.505,
+      "answer_ce": 0.34604131078833533,
+      "eos_ce": 0.0012069270221400075,
+      "seconds": 290.03988666832447,
+      "spec": {
+        "name": "pilot_cluener_qwen25_15b_base_hidden",
+        "model": "qwen25_15b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "step16",
+      "input_ids_sha256": "82f3c153d27a893ed7ec35bf5de32c5d6d7e74f3a04a218a017156ef09979b9b",
+      "responses_sha256": "da9d5955407f48c96e458d17dcf829262cbbc41514fa75998874a527c2962795"
+    },
+    {
+      "content_correct": 0.0,
+      "schema_valid": 2.5,
+      "json_valid": 29.0,
+      "strict_json": 28.0,
+      "span_micro_f1": 0.0,
+      "span_counts": {
+        "tp": 0,
+        "pred": 276,
+        "gold": 490
+      },
+      "text_micro_f1": 8.355091383812011,
+      "text_counts": {
+        "tp": 32,
+        "pred": 276,
+        "gold": 490
+      },
+      "primary": 0.0,
+      "n": 200,
+      "native_eos_pct": 30.5,
+      "capped_pct": 69.5,
+      "mean_generated_tokens": 400.185,
+      "answer_ce": 1.0113718878362596,
+      "eos_ce": 0.08327874038368463,
+      "seconds": 449.8819285109639,
+      "spec": {
+        "name": "pilot_cluener_qwen3_06b_base_base",
+        "model": "qwen3_06b_base",
+        "task": "cluener",
+        "arm": "base",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": []
+      },
+      "tag": "baseline",
+      "input_ids_sha256": "82f3c153d27a893ed7ec35bf5de32c5d6d7e74f3a04a218a017156ef09979b9b",
+      "responses_sha256": "25351609a9b8a502b8b766cc761f6559579cb3c69409c1a7a8b22bd82533593e"
+    },
+    {
+      "content_correct": 0.0,
+      "schema_valid": 0.0,
+      "json_valid": 97.5,
+      "strict_json": 97.5,
+      "span_micro_f1": 2.0236087689713322,
+      "span_counts": {
+        "tp": 12,
+        "pred": 696,
+        "gold": 490
+      },
+      "text_micro_f1": 50.75885328836425,
+      "text_counts": {
+        "tp": 301,
+        "pred": 696,
+        "gold": 490
+      },
+      "primary": 2.0236087689713322,
+      "n": 200,
+      "native_eos_pct": 97.5,
+      "capped_pct": 2.5,
+      "mean_generated_tokens": 81.655,
+      "answer_ce": 0.3113048995514884,
+      "eos_ce": 0.00010725439340149023,
+      "seconds": 204.36429729312658,
+      "spec": {
+        "name": "pilot_cluener_qwen3_06b_base_hidden",
+        "model": "qwen3_06b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "final",
+      "input_ids_sha256": "82f3c153d27a893ed7ec35bf5de32c5d6d7e74f3a04a218a017156ef09979b9b",
+      "responses_sha256": "0e72f71c862cb6f4d192775a274943adcc6277432e7a066f5f82045454827515"
+    },
+    {
+      "content_correct": 0.0,
+      "schema_valid": 0.0,
+      "json_valid": 98.5,
+      "strict_json": 98.5,
+      "span_micro_f1": 0.9057971014492754,
+      "span_counts": {
+        "tp": 5,
+        "pred": 614,
+        "gold": 490
+      },
+      "text_micro_f1": 35.869565217391305,
+      "text_counts": {
+        "tp": 198,
+        "pred": 614,
+        "gold": 490
+      },
+      "primary": 0.9057971014492754,
+      "n": 200,
+      "native_eos_pct": 98.5,
+      "capped_pct": 1.5,
+      "mean_generated_tokens": 69.545,
+      "answer_ce": 0.36565117236643346,
+      "eos_ce": 0.00022149997312226333,
+      "seconds": 281.41113007441163,
+      "spec": {
+        "name": "pilot_cluener_qwen3_06b_base_hidden",
+        "model": "qwen3_06b_base",
+        "task": "cluener",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "step16",
+      "input_ids_sha256": "82f3c153d27a893ed7ec35bf5de32c5d6d7e74f3a04a218a017156ef09979b9b",
+      "responses_sha256": "af09c097986cd170b8d0b517eaf639abb6d797e9df09285145c1efabd3988b20"
+    },
+    {
+      "content_correct": 14.0,
+      "schema_valid": 41.0,
+      "json_valid": 63.5,
+      "strict_json": 60.5,
+      "function_correct": 36.5,
+      "call_required": {
+        "n": 173,
+        "accuracy": 16.184971098265898
+      },
+      "no_call": {
+        "n": 27,
+        "accuracy": 0.0
+      },
+      "primary": 14.0,
+      "n": 200,
+      "native_eos_pct": 94.0,
+      "capped_pct": 6.0,
+      "mean_generated_tokens": 132.215,
+      "answer_ce": 0.39725726675342027,
+      "eos_ce": 0.1738689181674272,
+      "seconds": 411.6733290478587,
+      "spec": {
+        "name": "pilot_toolace_qwen25_15b_base_base",
+        "model": "qwen25_15b_base",
+        "task": "toolace",
+        "arm": "base",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": []
+      },
+      "tag": "baseline",
+      "input_ids_sha256": "0e9a2270aeedf67ada4efa3eb7542777232340169d1d7ff888b557be7f3716dd",
+      "responses_sha256": "4e0b01af707a888c0c8b86bf487b6cc16e23c34ff1c33137281040ced2bd8418"
+    },
+    {
+      "content_correct": 45.0,
+      "schema_valid": 81.5,
+      "json_valid": 93.0,
+      "strict_json": 93.0,
+      "function_correct": 70.0,
+      "call_required": {
+        "n": 173,
+        "accuracy": 50.28901734104046
+      },
+      "no_call": {
+        "n": 27,
+        "accuracy": 11.11111111111111
+      },
+      "primary": 45.0,
+      "n": 200,
+      "native_eos_pct": 97.5,
+      "capped_pct": 2.5,
+      "mean_generated_tokens": 96.035,
+      "answer_ce": 0.07371533197941445,
+      "eos_ce": 0.0008947271673969226,
+      "seconds": 291.60675771161914,
+      "spec": {
+        "name": "pilot_toolace_qwen25_15b_base_hidden",
+        "model": "qwen25_15b_base",
+        "task": "toolace",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "final",
+      "input_ids_sha256": "0e9a2270aeedf67ada4efa3eb7542777232340169d1d7ff888b557be7f3716dd",
+      "responses_sha256": "c7d7b90ab7b433e384469768a930a7da0a7763701843a091618715a62df1759d"
+    },
+    {
+      "content_correct": 35.0,
+      "schema_valid": 74.0,
+      "json_valid": 90.5,
+      "strict_json": 90.5,
+      "function_correct": 62.0,
+      "call_required": {
+        "n": 173,
+        "accuracy": 40.46242774566474
+      },
+      "no_call": {
+        "n": 27,
+        "accuracy": 0.0
+      },
+      "primary": 35.0,
+      "n": 200,
+      "native_eos_pct": 98.5,
+      "capped_pct": 1.5,
+      "mean_generated_tokens": 90.905,
+      "answer_ce": 0.08674063763909597,
+      "eos_ce": 0.006889670383097837,
+      "seconds": 456.5071730911732,
+      "spec": {
+        "name": "pilot_toolace_qwen25_15b_base_hidden",
+        "model": "qwen25_15b_base",
+        "task": "toolace",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "step16",
+      "input_ids_sha256": "0e9a2270aeedf67ada4efa3eb7542777232340169d1d7ff888b557be7f3716dd",
+      "responses_sha256": "3c82bc6c5f8857adfa07b28c431996391e95f8ff026551ac23ad0fee49062c27"
+    },
+    {
+      "content_correct": 15.0,
+      "schema_valid": 63.5,
+      "json_valid": 87.0,
+      "strict_json": 86.0,
+      "function_correct": 40.5,
+      "call_required": {
+        "n": 173,
+        "accuracy": 17.341040462427745
+      },
+      "no_call": {
+        "n": 27,
+        "accuracy": 0.0
+      },
+      "primary": 15.0,
+      "n": 200,
+      "native_eos_pct": 96.5,
+      "capped_pct": 3.5,
+      "mean_generated_tokens": 83.265,
+      "answer_ce": 0.3961793624866958,
+      "eos_ce": 0.024081834461539983,
+      "seconds": 305.877523612231,
+      "spec": {
+        "name": "pilot_toolace_qwen3_06b_base_base",
+        "model": "qwen3_06b_base",
+        "task": "toolace",
+        "arm": "base",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": []
+      },
+      "tag": "baseline",
+      "input_ids_sha256": "0e9a2270aeedf67ada4efa3eb7542777232340169d1d7ff888b557be7f3716dd",
+      "responses_sha256": "f47d861946a84efa0b939c8d952696a66ade3550377cd7dd62b1d33f1737f69b"
+    },
+    {
+      "content_correct": 40.0,
+      "schema_valid": 84.0,
+      "json_valid": 93.5,
+      "strict_json": 93.5,
+      "function_correct": 67.5,
+      "call_required": {
+        "n": 173,
+        "accuracy": 46.24277456647399
+      },
+      "no_call": {
+        "n": 27,
+        "accuracy": 0.0
+      },
+      "primary": 40.0,
+      "n": 200,
+      "native_eos_pct": 99.5,
+      "capped_pct": 0.5,
+      "mean_generated_tokens": 85.77,
+      "answer_ce": 0.08193035557591412,
+      "eos_ce": 0.0021353076683590187,
+      "seconds": 227.36622649803758,
+      "spec": {
+        "name": "pilot_toolace_qwen3_06b_base_hidden",
+        "model": "qwen3_06b_base",
+        "task": "toolace",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "final",
+      "input_ids_sha256": "0e9a2270aeedf67ada4efa3eb7542777232340169d1d7ff888b557be7f3716dd",
+      "responses_sha256": "fdf2e812b1a177a2021ac2f111ebacaa0a451975b15eb08d489b4f763d9ef2f2"
+    },
+    {
+      "content_correct": 33.0,
+      "schema_valid": 71.5,
+      "json_valid": 88.0,
+      "strict_json": 88.0,
+      "function_correct": 58.0,
+      "call_required": {
+        "n": 173,
+        "accuracy": 38.15028901734104
+      },
+      "no_call": {
+        "n": 27,
+        "accuracy": 0.0
+      },
+      "primary": 33.0,
+      "n": 200,
+      "native_eos_pct": 99.0,
+      "capped_pct": 1.0,
+      "mean_generated_tokens": 77.65,
+      "answer_ce": 0.10049694943488821,
+      "eos_ce": 0.009248698386363685,
+      "seconds": 370.69118381664157,
+      "spec": {
+        "name": "pilot_toolace_qwen3_06b_base_hidden",
+        "model": "qwen3_06b_base",
+        "task": "toolace",
+        "arm": "hidden",
+        "seed": 6100,
+        "lr": 0.0002,
+        "curve_steps": [
+          16
+        ]
+      },
+      "tag": "step16",
+      "input_ids_sha256": "0e9a2270aeedf67ada4efa3eb7542777232340169d1d7ff888b557be7f3716dd",
+      "responses_sha256": "4bc72151298255dee8e66f1c1f2f5ca5cbf63c3b3313765ffbef9083ad8c3134"
+    }
+  ]
+}

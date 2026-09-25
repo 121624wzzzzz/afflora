@@ -1,0 +1,7 @@
+{
+  "synthetic_only": true,
+  "forward_s": 0.7621954940259457,
+  "backward_s": 0.15394147485494614,
+  "finite_gradient": true,
+  "max_allocated_bytes": 956047872
+}

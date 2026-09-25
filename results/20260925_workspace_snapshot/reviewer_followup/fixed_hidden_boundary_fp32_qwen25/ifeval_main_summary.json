@@ -1,0 +1,735 @@
+{
+  "marker": "fixed_hidden_boundary_fp32_qwen25_ifeval_summary_v1",
+  "experiment_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25",
+  "ifeval_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main",
+  "protocol_manifest": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/protocol_manifest.json",
+  "protocol_manifest_sha256": "3455b4fc450f01afe2cd522ac67a492ed7b67c39ddb4e74782de2d9edc9f5d99",
+  "endpoint_policy": {
+    "alora": "output A-LoRA rank 50, scale 16",
+    "vocab_lora": "direct output Vocab-LoRA rank 1, scale 32",
+    "hidden_seed_pairs": [
+      42,
+      43,
+      44
+    ],
+    "ifeval_used_for_endpoint_selection": false
+  },
+  "metric": {
+    "name": "IFEval prompt-level all-instructions-followed accuracy",
+    "modes": [
+      "strict",
+      "loose"
+    ],
+    "difference": "A-LoRA minus Vocab-LoRA",
+    "better_direction": "positive"
+  },
+  "uncertainty_interpretation": {
+    "prompt_level": "Within each trained seed, paired bootstrap and exact McNemar use the 541 prompt pairs; they do not estimate training-seed variation.",
+    "seed_level_primary": "The primary interval is a paired-t interval over the three independently trained frozen-hidden seed pairs 42,43,44."
+  },
+  "primary_all_predeclared_seeds": {
+    "strict": {
+      "per_seed": [
+        {
+          "hidden_seed": 42,
+          "boundary_seed": 42,
+          "mode": "strict",
+          "n_paired_prompts": 541,
+          "alora_correct": 121,
+          "vocab_lora_correct": 125,
+          "alora_accuracy": 0.22365988909426987,
+          "vocab_lora_accuracy": 0.23105360443622922,
+          "delta_accuracy_alora_minus_vocab_lora": -0.007393715341959345,
+          "delta_percentage_points_alora_minus_vocab_lora": -0.7393715341959345,
+          "direction": "vocab_lora_better",
+          "paired_prompt_contingency": {
+            "both_correct": 86,
+            "alora_only_correct": 35,
+            "vocab_lora_only_correct": 39,
+            "both_incorrect": 381
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant prompt pairs",
+            "discordant_prompts": 74,
+            "null_probability_alora_only": 0.5,
+            "p_value": 0.72754708348947
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "paired IFEval prompt within this trained hidden seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 2000420,
+            "ci95_delta_accuracy_alora_minus_vocab_lora": [
+              -0.038817005545286505,
+              0.024029574861367836
+            ],
+            "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+              -3.8817005545286505,
+              2.4029574861367835
+            ]
+          }
+        },
+        {
+          "hidden_seed": 43,
+          "boundary_seed": 43,
+          "mode": "strict",
+          "n_paired_prompts": 541,
+          "alora_correct": 137,
+          "vocab_lora_correct": 116,
+          "alora_accuracy": 0.2532347504621072,
+          "vocab_lora_accuracy": 0.2144177449168207,
+          "delta_accuracy_alora_minus_vocab_lora": 0.0388170055452865,
+          "delta_percentage_points_alora_minus_vocab_lora": 3.88170055452865,
+          "direction": "alora_better",
+          "paired_prompt_contingency": {
+            "both_correct": 87,
+            "alora_only_correct": 50,
+            "vocab_lora_only_correct": 29,
+            "both_incorrect": 375
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant prompt pairs",
+            "discordant_prompts": 79,
+            "null_probability_alora_only": 0.5,
+            "p_value": 0.023819792858001267
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "paired IFEval prompt within this trained hidden seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 2000430,
+            "ci95_delta_accuracy_alora_minus_vocab_lora": [
+              0.0073937153419593345,
+              0.07024029574861368
+            ],
+            "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+              0.7393715341959335,
+              7.024029574861368
+            ]
+          }
+        },
+        {
+          "hidden_seed": 44,
+          "boundary_seed": 44,
+          "mode": "strict",
+          "n_paired_prompts": 541,
+          "alora_correct": 126,
+          "vocab_lora_correct": 110,
+          "alora_accuracy": 0.23290203327171904,
+          "vocab_lora_accuracy": 0.2033271719038817,
+          "delta_accuracy_alora_minus_vocab_lora": 0.029574861367837352,
+          "delta_percentage_points_alora_minus_vocab_lora": 2.9574861367837353,
+          "direction": "alora_better",
+          "paired_prompt_contingency": {
+            "both_correct": 77,
+            "alora_only_correct": 49,
+            "vocab_lora_only_correct": 33,
+            "both_incorrect": 382
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant prompt pairs",
+            "discordant_prompts": 82,
+            "null_probability_alora_only": 0.5,
+            "p_value": 0.09703091129729906
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "paired IFEval prompt within this trained hidden seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 2000440,
+            "ci95_delta_accuracy_alora_minus_vocab_lora": [
+              -0.0036968576709796672,
+              0.06284658040665435
+            ],
+            "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+              -0.36968576709796674,
+              6.284658040665435
+            ]
+          }
+        }
+      ],
+      "seed_level_summary": {
+        "inferential_unit": "independently trained frozen-hidden seed pair",
+        "n_seed_pairs": 3,
+        "hidden_seeds": [
+          42,
+          43,
+          44
+        ],
+        "alora_accuracy_mean": 0.2365988909426987,
+        "alora_accuracy_sample_sd": 0.015130042092185665,
+        "vocab_lora_accuracy_mean": 0.21626617375231053,
+        "vocab_lora_accuracy_sample_sd": 0.013955331673328568,
+        "delta_accuracy_alora_minus_vocab_lora_mean": 0.020332717190388167,
+        "delta_accuracy_alora_minus_vocab_lora_sample_sd": 0.024452415074534117,
+        "delta_percentage_points_alora_minus_vocab_lora_mean": 2.0332717190388165,
+        "directions": {
+          "alora_better": 2,
+          "vocab_lora_better": 1,
+          "ties": 0
+        },
+        "paired_t_df": 2,
+        "paired_t_critical_975": 4.302652729696142,
+        "paired_t_ci95_delta_accuracy_alora_minus_vocab_lora": [
+          -0.04041044923888154,
+          0.08107588361965788
+        ],
+        "paired_t_ci95_delta_percentage_points_alora_minus_vocab_lora": [
+          -4.041044923888154,
+          8.107588361965789
+        ],
+        "paired_t_ci95_contains_zero": true
+      }
+    },
+    "loose": {
+      "per_seed": [
+        {
+          "hidden_seed": 42,
+          "boundary_seed": 42,
+          "mode": "loose",
+          "n_paired_prompts": 541,
+          "alora_correct": 136,
+          "vocab_lora_correct": 143,
+          "alora_accuracy": 0.2513863216266174,
+          "vocab_lora_accuracy": 0.2643253234750462,
+          "delta_accuracy_alora_minus_vocab_lora": -0.012939001848428833,
+          "delta_percentage_points_alora_minus_vocab_lora": -1.2939001848428833,
+          "direction": "vocab_lora_better",
+          "paired_prompt_contingency": {
+            "both_correct": 96,
+            "alora_only_correct": 40,
+            "vocab_lora_only_correct": 47,
+            "both_incorrect": 358
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant prompt pairs",
+            "discordant_prompts": 87,
+            "null_probability_alora_only": 0.5,
+            "p_value": 0.5202915935750737
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "paired IFEval prompt within this trained hidden seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 2000421,
+            "ci95_delta_accuracy_alora_minus_vocab_lora": [
+              -0.04621072088724584,
+              0.02033271719038817
+            ],
+            "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+              -4.621072088724584,
+              2.033271719038817
+            ]
+          }
+        },
+        {
+          "hidden_seed": 43,
+          "boundary_seed": 43,
+          "mode": "loose",
+          "n_paired_prompts": 541,
+          "alora_correct": 147,
+          "vocab_lora_correct": 128,
+          "alora_accuracy": 0.27171903881700554,
+          "vocab_lora_accuracy": 0.2365988909426987,
+          "delta_accuracy_alora_minus_vocab_lora": 0.03512014787430684,
+          "delta_percentage_points_alora_minus_vocab_lora": 3.512014787430684,
+          "direction": "alora_better",
+          "paired_prompt_contingency": {
+            "both_correct": 90,
+            "alora_only_correct": 57,
+            "vocab_lora_only_correct": 38,
+            "both_incorrect": 356
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant prompt pairs",
+            "discordant_prompts": 95,
+            "null_probability_alora_only": 0.5,
+            "p_value": 0.06421280662713101
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "paired IFEval prompt within this trained hidden seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 2000431,
+            "ci95_delta_accuracy_alora_minus_vocab_lora": [
+              0.0,
+              0.07024029574861368
+            ],
+            "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+              0.0,
+              7.024029574861368
+            ]
+          }
+        },
+        {
+          "hidden_seed": 44,
+          "boundary_seed": 44,
+          "mode": "loose",
+          "n_paired_prompts": 541,
+          "alora_correct": 145,
+          "vocab_lora_correct": 120,
+          "alora_accuracy": 0.2680221811460259,
+          "vocab_lora_accuracy": 0.22181146025878004,
+          "delta_accuracy_alora_minus_vocab_lora": 0.04621072088724584,
+          "delta_percentage_points_alora_minus_vocab_lora": 4.621072088724584,
+          "direction": "alora_better",
+          "paired_prompt_contingency": {
+            "both_correct": 86,
+            "alora_only_correct": 59,
+            "vocab_lora_only_correct": 34,
+            "both_incorrect": 362
+          },
+          "mcnemar_exact": {
+            "test": "two-sided exact binomial test on discordant prompt pairs",
+            "discordant_prompts": 93,
+            "null_probability_alora_only": 0.5,
+            "p_value": 0.012400602797937595
+          },
+          "paired_prompt_bootstrap": {
+            "unit": "paired IFEval prompt within this trained hidden seed",
+            "method": "paired nonparametric percentile bootstrap",
+            "samples": 10000,
+            "rng_seed": 2000441,
+            "ci95_delta_accuracy_alora_minus_vocab_lora": [
+              0.011090573012939002,
+              0.08133086876155268
+            ],
+            "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+              1.1090573012939002,
+              8.133086876155268
+            ]
+          }
+        }
+      ],
+      "seed_level_summary": {
+        "inferential_unit": "independently trained frozen-hidden seed pair",
+        "n_seed_pairs": 3,
+        "hidden_seeds": [
+          42,
+          43,
+          44
+        ],
+        "alora_accuracy_mean": 0.26370918052988296,
+        "alora_accuracy_sample_sd": 0.01083080457871037,
+        "vocab_lora_accuracy_mean": 0.24091189155884166,
+        "vocab_lora_accuracy_sample_sd": 0.021582599985381392,
+        "delta_accuracy_alora_minus_vocab_lora_mean": 0.022797288971041284,
+        "delta_accuracy_alora_minus_vocab_lora_sample_sd": 0.03144140683221953,
+        "delta_percentage_points_alora_minus_vocab_lora_mean": 2.2797288971041283,
+        "directions": {
+          "alora_better": 2,
+          "vocab_lora_better": 1,
+          "ties": 0
+        },
+        "paired_t_df": 2,
+        "paired_t_critical_975": 4.302652729696142,
+        "paired_t_ci95_delta_accuracy_alora_minus_vocab_lora": [
+          -0.05530749545039182,
+          0.1009020733924744
+        ],
+        "paired_t_ci95_delta_percentage_points_alora_minus_vocab_lora": [
+          -5.530749545039182,
+          10.09020733924744
+        ],
+        "paired_t_ci95_contains_zero": true
+      }
+    }
+  },
+  "per_seed": {
+    "42": {
+      "strict": {
+        "hidden_seed": 42,
+        "boundary_seed": 42,
+        "mode": "strict",
+        "n_paired_prompts": 541,
+        "alora_correct": 121,
+        "vocab_lora_correct": 125,
+        "alora_accuracy": 0.22365988909426987,
+        "vocab_lora_accuracy": 0.23105360443622922,
+        "delta_accuracy_alora_minus_vocab_lora": -0.007393715341959345,
+        "delta_percentage_points_alora_minus_vocab_lora": -0.7393715341959345,
+        "direction": "vocab_lora_better",
+        "paired_prompt_contingency": {
+          "both_correct": 86,
+          "alora_only_correct": 35,
+          "vocab_lora_only_correct": 39,
+          "both_incorrect": 381
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant prompt pairs",
+          "discordant_prompts": 74,
+          "null_probability_alora_only": 0.5,
+          "p_value": 0.72754708348947
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "paired IFEval prompt within this trained hidden seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 2000420,
+          "ci95_delta_accuracy_alora_minus_vocab_lora": [
+            -0.038817005545286505,
+            0.024029574861367836
+          ],
+          "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+            -3.8817005545286505,
+            2.4029574861367835
+          ]
+        }
+      },
+      "loose": {
+        "hidden_seed": 42,
+        "boundary_seed": 42,
+        "mode": "loose",
+        "n_paired_prompts": 541,
+        "alora_correct": 136,
+        "vocab_lora_correct": 143,
+        "alora_accuracy": 0.2513863216266174,
+        "vocab_lora_accuracy": 0.2643253234750462,
+        "delta_accuracy_alora_minus_vocab_lora": -0.012939001848428833,
+        "delta_percentage_points_alora_minus_vocab_lora": -1.2939001848428833,
+        "direction": "vocab_lora_better",
+        "paired_prompt_contingency": {
+          "both_correct": 96,
+          "alora_only_correct": 40,
+          "vocab_lora_only_correct": 47,
+          "both_incorrect": 358
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant prompt pairs",
+          "discordant_prompts": 87,
+          "null_probability_alora_only": 0.5,
+          "p_value": 0.5202915935750737
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "paired IFEval prompt within this trained hidden seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 2000421,
+          "ci95_delta_accuracy_alora_minus_vocab_lora": [
+            -0.04621072088724584,
+            0.02033271719038817
+          ],
+          "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+            -4.621072088724584,
+            2.033271719038817
+          ]
+        }
+      }
+    },
+    "43": {
+      "strict": {
+        "hidden_seed": 43,
+        "boundary_seed": 43,
+        "mode": "strict",
+        "n_paired_prompts": 541,
+        "alora_correct": 137,
+        "vocab_lora_correct": 116,
+        "alora_accuracy": 0.2532347504621072,
+        "vocab_lora_accuracy": 0.2144177449168207,
+        "delta_accuracy_alora_minus_vocab_lora": 0.0388170055452865,
+        "delta_percentage_points_alora_minus_vocab_lora": 3.88170055452865,
+        "direction": "alora_better",
+        "paired_prompt_contingency": {
+          "both_correct": 87,
+          "alora_only_correct": 50,
+          "vocab_lora_only_correct": 29,
+          "both_incorrect": 375
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant prompt pairs",
+          "discordant_prompts": 79,
+          "null_probability_alora_only": 0.5,
+          "p_value": 0.023819792858001267
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "paired IFEval prompt within this trained hidden seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 2000430,
+          "ci95_delta_accuracy_alora_minus_vocab_lora": [
+            0.0073937153419593345,
+            0.07024029574861368
+          ],
+          "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+            0.7393715341959335,
+            7.024029574861368
+          ]
+        }
+      },
+      "loose": {
+        "hidden_seed": 43,
+        "boundary_seed": 43,
+        "mode": "loose",
+        "n_paired_prompts": 541,
+        "alora_correct": 147,
+        "vocab_lora_correct": 128,
+        "alora_accuracy": 0.27171903881700554,
+        "vocab_lora_accuracy": 0.2365988909426987,
+        "delta_accuracy_alora_minus_vocab_lora": 0.03512014787430684,
+        "delta_percentage_points_alora_minus_vocab_lora": 3.512014787430684,
+        "direction": "alora_better",
+        "paired_prompt_contingency": {
+          "both_correct": 90,
+          "alora_only_correct": 57,
+          "vocab_lora_only_correct": 38,
+          "both_incorrect": 356
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant prompt pairs",
+          "discordant_prompts": 95,
+          "null_probability_alora_only": 0.5,
+          "p_value": 0.06421280662713101
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "paired IFEval prompt within this trained hidden seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 2000431,
+          "ci95_delta_accuracy_alora_minus_vocab_lora": [
+            0.0,
+            0.07024029574861368
+          ],
+          "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+            0.0,
+            7.024029574861368
+          ]
+        }
+      }
+    },
+    "44": {
+      "strict": {
+        "hidden_seed": 44,
+        "boundary_seed": 44,
+        "mode": "strict",
+        "n_paired_prompts": 541,
+        "alora_correct": 126,
+        "vocab_lora_correct": 110,
+        "alora_accuracy": 0.23290203327171904,
+        "vocab_lora_accuracy": 0.2033271719038817,
+        "delta_accuracy_alora_minus_vocab_lora": 0.029574861367837352,
+        "delta_percentage_points_alora_minus_vocab_lora": 2.9574861367837353,
+        "direction": "alora_better",
+        "paired_prompt_contingency": {
+          "both_correct": 77,
+          "alora_only_correct": 49,
+          "vocab_lora_only_correct": 33,
+          "both_incorrect": 382
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant prompt pairs",
+          "discordant_prompts": 82,
+          "null_probability_alora_only": 0.5,
+          "p_value": 0.09703091129729906
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "paired IFEval prompt within this trained hidden seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 2000440,
+          "ci95_delta_accuracy_alora_minus_vocab_lora": [
+            -0.0036968576709796672,
+            0.06284658040665435
+          ],
+          "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+            -0.36968576709796674,
+            6.284658040665435
+          ]
+        }
+      },
+      "loose": {
+        "hidden_seed": 44,
+        "boundary_seed": 44,
+        "mode": "loose",
+        "n_paired_prompts": 541,
+        "alora_correct": 145,
+        "vocab_lora_correct": 120,
+        "alora_accuracy": 0.2680221811460259,
+        "vocab_lora_accuracy": 0.22181146025878004,
+        "delta_accuracy_alora_minus_vocab_lora": 0.04621072088724584,
+        "delta_percentage_points_alora_minus_vocab_lora": 4.621072088724584,
+        "direction": "alora_better",
+        "paired_prompt_contingency": {
+          "both_correct": 86,
+          "alora_only_correct": 59,
+          "vocab_lora_only_correct": 34,
+          "both_incorrect": 362
+        },
+        "mcnemar_exact": {
+          "test": "two-sided exact binomial test on discordant prompt pairs",
+          "discordant_prompts": 93,
+          "null_probability_alora_only": 0.5,
+          "p_value": 0.012400602797937595
+        },
+        "paired_prompt_bootstrap": {
+          "unit": "paired IFEval prompt within this trained hidden seed",
+          "method": "paired nonparametric percentile bootstrap",
+          "samples": 10000,
+          "rng_seed": 2000441,
+          "ci95_delta_accuracy_alora_minus_vocab_lora": [
+            0.011090573012939002,
+            0.08133086876155268
+          ],
+          "ci95_delta_percentage_points_alora_minus_vocab_lora": [
+            1.1090573012939002,
+            8.133086876155268
+          ]
+        }
+      }
+    }
+  },
+  "validated_artifacts": [
+    {
+      "run_name": "qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42",
+      "kind": "alora",
+      "hidden_seed": 42,
+      "checkpoint_identity": {
+        "run_name": "qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42",
+        "kind": "alora",
+        "hidden_seed": 42,
+        "boundary_seed": 42,
+        "hidden_canonical_tensor_sha256": "92fe20f386d39b89e99591108b5fbcf464b0705423fa379e48e6361950381b44",
+        "hidden_adapter_file_sha256": "354ed4961fb4d6dc7cf77d5e1e0ef528726b90cd71776e533088fa6d9b77e167",
+        "boundary_file_sha256": "ed29c5568c171710fd0cf8f85f7ab483fd41037e4f2c5a32835060b0e9cf2dbf",
+        "boundary_parameter_count": 153600,
+        "frozen_native_weight_sha256": "15eea567d71805884a49191e04210363eb9fe4af05cdc5e6a58765698e0805a9",
+        "training_entry_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81"
+      },
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/responses/qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42.jsonl",
+      "response_sha256": "aa6eecc9246c988f5963bc9edabeba910639b3b3a3b38d3bd7a1d7c45548d511",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42/eval_results_strict.jsonl",
+      "strict_score_sha256": "c4fff4b1399dd6b202708b5cd832642220ac4a1db56950c5df3eb8a80e016368",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd42_alora_r50_s16_bsd42/eval_results_loose.jsonl",
+      "loose_score_sha256": "b7499ece9196cdb5d29cab9832228b5904a7be6e618e8fa3feaf369c779d59cd"
+    },
+    {
+      "run_name": "qwen25_15b_fhfp32_hsd42_vocab_lora_r1_s32_bsd42",
+      "kind": "vocab_lora",
+      "hidden_seed": 42,
+      "checkpoint_identity": {
+        "run_name": "qwen25_15b_fhfp32_hsd42_vocab_lora_r1_s32_bsd42",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd42_vocab_lora_r1_s32_bsd42",
+        "kind": "vocab_lora",
+        "hidden_seed": 42,
+        "boundary_seed": 42,
+        "hidden_canonical_tensor_sha256": "92fe20f386d39b89e99591108b5fbcf464b0705423fa379e48e6361950381b44",
+        "hidden_adapter_file_sha256": "354ed4961fb4d6dc7cf77d5e1e0ef528726b90cd71776e533088fa6d9b77e167",
+        "boundary_file_sha256": "02c1221927c9227678af1d2c85c90155dd0b733eb7a5ded3039d575d67049cae",
+        "boundary_parameter_count": 153472,
+        "frozen_native_weight_sha256": "15eea567d71805884a49191e04210363eb9fe4af05cdc5e6a58765698e0805a9",
+        "training_entry_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81"
+      },
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/responses/qwen25_15b_fhfp32_hsd42_vocab_lora_r1_s32_bsd42.jsonl",
+      "response_sha256": "48a76298b8d7f0b6e4e5ecb52295ff709bbee4d22c752faac52b947951e084e2",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd42_vocab_lora_r1_s32_bsd42/eval_results_strict.jsonl",
+      "strict_score_sha256": "7090ea3db4cdf1cc77622dabf3643bb1bc9561ccd44e64fac543f0eaed05b3b9",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd42_vocab_lora_r1_s32_bsd42/eval_results_loose.jsonl",
+      "loose_score_sha256": "d0f2f907c37367edacfd2d8de237b3d0cc36913b55645112bcd93f80f6220291"
+    },
+    {
+      "run_name": "qwen25_15b_fhfp32_hsd43_alora_r50_s16_bsd43",
+      "kind": "alora",
+      "hidden_seed": 43,
+      "checkpoint_identity": {
+        "run_name": "qwen25_15b_fhfp32_hsd43_alora_r50_s16_bsd43",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd43_alora_r50_s16_bsd43",
+        "kind": "alora",
+        "hidden_seed": 43,
+        "boundary_seed": 43,
+        "hidden_canonical_tensor_sha256": "5485e347c6315cbef11099fd17e6a9b03431b33b3beaa0b15e00a9791f0f3d1f",
+        "hidden_adapter_file_sha256": "16958535a58d7cb3dd6c536fd1ff89beb7f88e053a9a67fb20eeb8a90135a093",
+        "boundary_file_sha256": "03b22381527d0470d88568ff024a277ee537ff2ae549fa15152eabe62c229bde",
+        "boundary_parameter_count": 153600,
+        "frozen_native_weight_sha256": "15eea567d71805884a49191e04210363eb9fe4af05cdc5e6a58765698e0805a9",
+        "training_entry_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81"
+      },
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/responses/qwen25_15b_fhfp32_hsd43_alora_r50_s16_bsd43.jsonl",
+      "response_sha256": "d10e98bc145427bcadbb0338271496e5fe8e6b2db83642cbd5163d72ba0031b0",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd43_alora_r50_s16_bsd43/eval_results_strict.jsonl",
+      "strict_score_sha256": "dcd826f702213edb6dcc283d747d9c7aeef92231ce8559dc9e0dc512deb457e1",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd43_alora_r50_s16_bsd43/eval_results_loose.jsonl",
+      "loose_score_sha256": "18c165289bb679c28618f059e574c0f81583e8c46a8d5c16b404589782c87ed5"
+    },
+    {
+      "run_name": "qwen25_15b_fhfp32_hsd43_vocab_lora_r1_s32_bsd43",
+      "kind": "vocab_lora",
+      "hidden_seed": 43,
+      "checkpoint_identity": {
+        "run_name": "qwen25_15b_fhfp32_hsd43_vocab_lora_r1_s32_bsd43",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd43_vocab_lora_r1_s32_bsd43",
+        "kind": "vocab_lora",
+        "hidden_seed": 43,
+        "boundary_seed": 43,
+        "hidden_canonical_tensor_sha256": "5485e347c6315cbef11099fd17e6a9b03431b33b3beaa0b15e00a9791f0f3d1f",
+        "hidden_adapter_file_sha256": "16958535a58d7cb3dd6c536fd1ff89beb7f88e053a9a67fb20eeb8a90135a093",
+        "boundary_file_sha256": "0f12be956086b7d7fe17d929e4d7769a7377c547f83dea2e43ac35c0e70b2159",
+        "boundary_parameter_count": 153472,
+        "frozen_native_weight_sha256": "15eea567d71805884a49191e04210363eb9fe4af05cdc5e6a58765698e0805a9",
+        "training_entry_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81"
+      },
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/responses/qwen25_15b_fhfp32_hsd43_vocab_lora_r1_s32_bsd43.jsonl",
+      "response_sha256": "bab144401898ebb6c2ef5ec1811022a91bc11accb574b38edabf48d169ea9501",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd43_vocab_lora_r1_s32_bsd43/eval_results_strict.jsonl",
+      "strict_score_sha256": "500bda6fd62f8a9f5966b30fffe0d48e9b0b3cffae3cc1637ead861a9bbe70fd",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd43_vocab_lora_r1_s32_bsd43/eval_results_loose.jsonl",
+      "loose_score_sha256": "2f79a0bf2a4c1dde7ed8bcd5f1e7aaaac330e8dd02256421dfaa956c6717bf3b"
+    },
+    {
+      "run_name": "qwen25_15b_fhfp32_hsd44_alora_r50_s16_bsd44",
+      "kind": "alora",
+      "hidden_seed": 44,
+      "checkpoint_identity": {
+        "run_name": "qwen25_15b_fhfp32_hsd44_alora_r50_s16_bsd44",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd44_alora_r50_s16_bsd44",
+        "kind": "alora",
+        "hidden_seed": 44,
+        "boundary_seed": 44,
+        "hidden_canonical_tensor_sha256": "baceb5f2f02f3327aeae089f103e7faa792121b732d3b55b1c5078f189404d62",
+        "hidden_adapter_file_sha256": "2890f3f5c0eef7104616179d36916aa3ce1999047247e27e06d2c31b4d379476",
+        "boundary_file_sha256": "2523e74afbf07c46606f53ef6db241f8ec6a33ab02bb7849a50362e4694a6f8f",
+        "boundary_parameter_count": 153600,
+        "frozen_native_weight_sha256": "15eea567d71805884a49191e04210363eb9fe4af05cdc5e6a58765698e0805a9",
+        "training_entry_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81"
+      },
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/responses/qwen25_15b_fhfp32_hsd44_alora_r50_s16_bsd44.jsonl",
+      "response_sha256": "974e9d396a41eb463a81267d05c9fd5a749ca126a3379ff8c21a34acff7d2ff0",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd44_alora_r50_s16_bsd44/eval_results_strict.jsonl",
+      "strict_score_sha256": "df821d7804291705d54c60777260959dac56d0be709325425896afe5996cc681",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd44_alora_r50_s16_bsd44/eval_results_loose.jsonl",
+      "loose_score_sha256": "af786e616bd769c0312dc5024969abe4029ba75c2f8d93615fd163094648cfcd"
+    },
+    {
+      "run_name": "qwen25_15b_fhfp32_hsd44_vocab_lora_r1_s32_bsd44",
+      "kind": "vocab_lora",
+      "hidden_seed": 44,
+      "checkpoint_identity": {
+        "run_name": "qwen25_15b_fhfp32_hsd44_vocab_lora_r1_s32_bsd44",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/checkpoints/qwen25_15b_fhfp32_hsd44_vocab_lora_r1_s32_bsd44",
+        "kind": "vocab_lora",
+        "hidden_seed": 44,
+        "boundary_seed": 44,
+        "hidden_canonical_tensor_sha256": "baceb5f2f02f3327aeae089f103e7faa792121b732d3b55b1c5078f189404d62",
+        "hidden_adapter_file_sha256": "2890f3f5c0eef7104616179d36916aa3ce1999047247e27e06d2c31b4d379476",
+        "boundary_file_sha256": "5c9ddec4c9277e12e98b23cabde852da828df7796434c78cfff345becf27ae0f",
+        "boundary_parameter_count": 153472,
+        "frozen_native_weight_sha256": "15eea567d71805884a49191e04210363eb9fe4af05cdc5e6a58765698e0805a9",
+        "training_entry_sha256": "b493235315646d96ff27d8da373aa79eb216eb333375756e770270709da8fa81"
+      },
+      "response_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/responses/qwen25_15b_fhfp32_hsd44_vocab_lora_r1_s32_bsd44.jsonl",
+      "response_sha256": "deefd733dfd516f8b461075abc136003410691c69151efcd39ddc604f60b971c",
+      "strict_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd44_vocab_lora_r1_s32_bsd44/eval_results_strict.jsonl",
+      "strict_score_sha256": "000f5caa0d553c857bcb29b1933edc92b15119bc48690a08e9896f6f217c47ed",
+      "loose_score_path": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/fixed_hidden_boundary_fp32_qwen25/ifeval_main/scores/qwen25_15b_fhfp32_hsd44_vocab_lora_r1_s32_bsd44/eval_results_loose.jsonl",
+      "loose_score_sha256": "a3f4759348a89a8311f9b15751bfedcfe357e796cf8be666ff787c5a1ef1b958"
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "canonical_prompts": 541,
+    "canonical_sha256": "4d49ac039cbebdfc4beb3f9f30435c4fa25320caffaae441c6b9d868126744eb",
+    "run_count": 6,
+    "checkpoint_protocol_bindings": 6,
+    "strict_score_rows": 3246,
+    "loose_score_rows": 3246
+  }
+}

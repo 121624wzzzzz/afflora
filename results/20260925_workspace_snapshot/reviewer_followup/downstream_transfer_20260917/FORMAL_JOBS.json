@@ -1,0 +1,514 @@
+[
+  {
+    "name": "anli_r1_qwen3_06b_base_base",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "base",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_base",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "base",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_base",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "base",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_base",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "base",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_s7100",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_budget_s7100",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_both_s7100",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_s7100",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_budget_s7100",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_both_s7100",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_s7100",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_budget_s7100",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_both_s7100",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_s7100",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_budget_s7100",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_both_s7100",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7100,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_s7101",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_budget_s7101",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_both_s7101",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_s7101",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_budget_s7101",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_both_s7101",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_s7101",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_budget_s7101",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_both_s7101",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_s7101",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_budget_s7101",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_both_s7101",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7101,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_s7102",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_budget_s7102",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_both_s7102",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_s7102",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_budget_s7102",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_both_s7102",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_s7102",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_budget_s7102",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_both_s7102",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_s7102",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_budget_s7102",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_both_s7102",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7102,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_s7103",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_budget_s7103",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_both_s7103",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_s7103",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_budget_s7103",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_both_s7103",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_s7103",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_budget_s7103",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_both_s7103",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_s7103",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_budget_s7103",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_both_s7103",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7103,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_s7104",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_budget_s7104",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen3_06b_base_hidden_both_s7104",
+    "task": "anli_r1",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_s7104",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_budget_s7104",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "anli_r1_qwen25_15b_base_hidden_both_s7104",
+    "task": "anli_r1",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_s7104",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_budget_s7104",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_budget",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_both_s7104",
+    "task": "wikisql",
+    "model": "qwen3_06b_base",
+    "arm": "hidden_both",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_s7104",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_budget_s7104",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_budget",
+    "seed": 7104,
+    "lr": 0.0002
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_both_s7104",
+    "task": "wikisql",
+    "model": "qwen25_15b_base",
+    "arm": "hidden_both",
+    "seed": 7104,
+    "lr": 0.0002
+  }
+]

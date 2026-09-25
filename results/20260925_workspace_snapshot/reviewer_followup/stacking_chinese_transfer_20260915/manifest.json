@@ -1,0 +1,470 @@
+{
+  "created_at": "2026-09-15T11:31:23+08:00",
+  "scope": "Chinese transfer with existing adapters, no task-specific training",
+  "endpoints": [
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_none_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "7cb2af8a7908f5dea987c89405c42e26325221a9b6ca13b828f435a8ce02195c",
+        "adapter_model.safetensors": "5384ec5054b242bac2a8ea7a7deadbab123b8b0b2562df8373acf8f2b949c973",
+        "run_args.json": "a8f21049684e295b1ad6a3f5999d51fb9eb8b46a7ba1140f90f251aca538e24b"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_output_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "7dbdbddacce54c87ba41c1146c1cef824a1da60e53449f18ea0f5975070ab203",
+        "adapter_config.json": "d946d50f28a6d0120e97bdcb8c01d0c68398f35e1e08e6177846fb6aacecbaec",
+        "adapter_model.safetensors": "71525dd72c80ee99ff4bb6de51867168c4ad55676544343b6cf2d0d458895110",
+        "affine_vocab_config.json": "c36e6dc26658b379efe6bfbe14efbe975ee00d2b51a06617514ae27102feea2b",
+        "run_args.json": "9a766e15f97d6735e5465615e3ad7e16e10b0ae9030b0e6a58feb5d09dc397d7"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_both_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "40ae0fc458a6560b3434d85861940b75851846db0be32558a0dd7b731c390a86",
+        "adapter_config.json": "5ad0f50051bb811df8eaa3da4e242bffd6fb0c8364357d082baa1e7db1c35871",
+        "adapter_model.safetensors": "b82b73d432c6a3332860e8e1e75a1f3f1be2eaafd8239397c0aca6aa02e1592c",
+        "affine_vocab_config.json": "6c7a29fa9b2143747cd895d3ab0e8c200f15719b5fc8ca4579cbcfc49f38bb30",
+        "run_args.json": "4456d56cd620286312214094f48b8eb2cc248b734ca13336ad12153ccfc7e6da"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd42",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_hidden_budget_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "c74b602a833cfffe159e7530a691ae4f77c97bdf2e5b595689cddf9966cda4b4",
+        "adapter_model.safetensors": "3f65f520c9c50a1cad52c0aae818cd84048355c5011fa8d92632755322bc269c",
+        "run_args.json": "23b33e64973f322c8ebe0287162aeb4a5ce52a6e7f57d02f3dcc5d7af8c4be9e"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_none_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "f656b289373c6b7cc29ecb9e80dc012d60c3dcd889abc69442e7afaf9feade02",
+        "adapter_model.safetensors": "e04fcd076bf8a7c40c2b786a284356878f899a788f3f55806283690f55edaee7",
+        "run_args.json": "fcfdd387d9e1efe3b31930fa98ad3356fbedf0fce747dc44466c8854c9d8001a"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_output_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "79c79c9ae1778b4ea7b7a315fd86e4e7c609a039d8a8a4313bf66d967121c13b",
+        "adapter_config.json": "9197a1fcc10bb459fb9f04e8aac1edb587174cd1e6799326bd3e5eebb196e7c6",
+        "adapter_model.safetensors": "26876894fe0e68fd031e7013d2e27015911f2cf40df45a80407ec5a6e12adc28",
+        "affine_vocab_config.json": "180d9032eaa55003ebbf90b9d5f028d25873587c1f723bff1730b51e6f9a26d0",
+        "run_args.json": "5f27141583b868d955ebbf0bcca5a37722889c808ad1df4d9f3f001a6bb6814d"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_both_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "7478918be8eb5564f5654b319362ecaf57a135a0f03fff1a9c3a5e26c5a0bf49",
+        "adapter_config.json": "096c4a1f41ed66961ed4547cdcca65c462f5c86703f1df37524a32959863fe6b",
+        "adapter_model.safetensors": "f944e6868d189fc0219e33a92bcb5841719a993c7fc26fb1c969cbe85f8d75df",
+        "affine_vocab_config.json": "321ad19c4c18f7d4172e58eb5739a4a525dffc543766d656922069ea8518d428",
+        "run_args.json": "ebdde04c2e3673ec8321a78ccc67e70756263faf312d74de6035ab58cd16fc8f"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd42",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_hidden_budget_hr8_sd42",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "8f2a7b9c598f546de3963e0f637afdc9d8ce8d20ea9ff26b801d03d4d50589d4",
+        "adapter_model.safetensors": "b72614395a883efc86eaf73336b584437ea7a1e262b8760ab58abc7bd799267f",
+        "run_args.json": "d59ffb1f1c23bbf03d245db68d8e39a2e4827b40eb5e9d0b1c0ba416504844b2"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_none_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "e269b887385705575785d2f87ab5c545f69c15d0022ef1ee032041a86caf96ea",
+        "adapter_model.safetensors": "d5c4d39a822df1836a0f71341da9d0312bd997d7bceca9ed16e07224d9e1eb5b",
+        "run_args.json": "dc899cf2d2d738a8127418a668643989ee640c3d16b5b3d82194423b251ae84b"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_output_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "569dad92336d920af947bd3e554ace5a197bac300fb414528b0ec7b3e1327668",
+        "adapter_config.json": "22fd976943ecc0326c2640b1fd1d8939f1d581079b2fa8a196aefc9b6ad832df",
+        "adapter_model.safetensors": "89db238d8682c3b14aca4d38219db6e2afbe96ae1f43a00ed82e5aca5a10f7b1",
+        "affine_vocab_config.json": "c36e6dc26658b379efe6bfbe14efbe975ee00d2b51a06617514ae27102feea2b",
+        "run_args.json": "fc67668f07ca55c23d285e35608fe47731d0c36e4775eae462ba0777b542703c"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_both_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "ee93be38effd59a8cd40f4a4916a4ce4299b9cd2357712560cce7c8dd8781e80",
+        "adapter_config.json": "100c43f608d1c3604b656e0e422647e3973eb1c5896e810827062199263e6019",
+        "adapter_model.safetensors": "c9bce82709b53d61b59ab66626fa0182de28a5a834b2f523f9e7ed7b76b133fd",
+        "affine_vocab_config.json": "6c7a29fa9b2143747cd895d3ab0e8c200f15719b5fc8ca4579cbcfc49f38bb30",
+        "run_args.json": "9c3d8e624ac6b7787a6a1e933e66e40de6ad9071e886db68e1879ed24de3c0c7"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd43",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_hidden_budget_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "02edd734b5edb03c22f7e7ba01b6343cd83930b91d7724c205002fb08ea0d6d8",
+        "adapter_model.safetensors": "ba780312221599369f6cdfd6d1dee800732dcc09dd6f44009896090d1cee8a81",
+        "run_args.json": "a233607a50896f4e862f6c28586a9a7522019a7724ac405e79ec28b274b69868"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_none_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "0567e44aeeb5fb7ae754008c5e8d3b8af5280bc0d9d020493d9cb1e85cf25d34",
+        "adapter_model.safetensors": "e44ba2b199015e30b7ea66c6bab8998c76d5a2e9aef3d7eb81a44882973bbc75",
+        "run_args.json": "da6d8fb75f464175c629714d070b59aaefe62ebc3e412c5eb95bcd463e034aa4"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_output_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "4df544c1d8fb76aac6fb41327a1020c6630d5a1702446306fdb9c0eefd7b10ca",
+        "adapter_config.json": "2b3031a2df5f99d0019908c5020af725c57c28dc430a76cf168017764825a6b8",
+        "adapter_model.safetensors": "788708753f5e31e10f29bf0305a8c4735124aed091d95b9a4ba77085d9be0afc",
+        "affine_vocab_config.json": "180d9032eaa55003ebbf90b9d5f028d25873587c1f723bff1730b51e6f9a26d0",
+        "run_args.json": "14ac720d6ed1883bd6c92f6a3b9cb915204acde5b793882dc145ca98b9bdfe93"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_both_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "70f01b3c0a1195a435f522aa08bffbc718f916118b403b083510ae7d65d2fd7a",
+        "adapter_config.json": "877c4cd4f5f7914d8bcb8a302f0d75d6f845f0c0368346b408a96d1413fe2287",
+        "adapter_model.safetensors": "08d0997394e59680e1f221cd174aeb88ce6628b15e9e2dd0ac1e56811fe88a08",
+        "affine_vocab_config.json": "321ad19c4c18f7d4172e58eb5739a4a525dffc543766d656922069ea8518d428",
+        "run_args.json": "e315cec38e9acde380259ec83e3e8ca3529524f1d72b5141e86d293358ef65a0"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd43",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_hidden_budget_hr8_sd43",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "80e18b8c60006205a08901a062c49bdca171a98ef5858d5ca52df5724ac31240",
+        "adapter_model.safetensors": "84ee59ea2776d2de71615dc5e187cc6fb1def8a5e122269c160d8665df40d084",
+        "run_args.json": "2d59f8dde48423ef82da78adea2d9a2ccdb9bee6843abce36f2869752032a22a"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_none_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_none_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "12f68aa1deba5f5b1ec9dee39ca63ede13820255124e3c8becc9985f8186aa36",
+        "adapter_model.safetensors": "08756b00787599763725f4a7c61b9b2e44eb4a76719718e5efb3208406b00a61",
+        "run_args.json": "0f9d9559c300bdcf9ac6e1db7c6cde5887cdc218a670655b8c918142a77550f5"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_output_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_output_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "e4264e46d970d89c91b280778dc1d3d6f654fa050fc58b4f7fa2fdc5ec4c9a35",
+        "adapter_config.json": "73cc81f57847d7e83eaac8532a6606c73dd3aca4dd6ad543c5c2df1dfe29e6e2",
+        "adapter_model.safetensors": "23278be43c7c2970217143dfe074d42c595951d8af834194186b7d8deafbe3bf",
+        "affine_vocab_config.json": "c36e6dc26658b379efe6bfbe14efbe975ee00d2b51a06617514ae27102feea2b",
+        "run_args.json": "651fad40a3277465b3ac90f37d97b82693f5e9c49d33ae0a69d4930dcdd6f9b6"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_both_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_both_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "a3d123ee9bedf7d34f14948bbf2f5c856338188dcb08e263eb38fd5e2e6174e8",
+        "adapter_config.json": "a4eb4a79cbbe48f7888cc029f40c85fa80e32ee9ca2df337f9d8cfb21aee27a9",
+        "adapter_model.safetensors": "edb0805d4c06b55115cf622625352874ae7f6f5ad19ddfc6bb6ee4249d8110e5",
+        "affine_vocab_config.json": "6c7a29fa9b2143747cd895d3ab0e8c200f15719b5fc8ca4579cbcfc49f38bb30",
+        "run_args.json": "8c87bde6666e2a5d494e65807f51fc3e682ad874bcfc0de38c272240cd6047cb"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_hidden_budget_hr8_sd44",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_hidden_budget_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "7dd72430a9ef168c4e847b3ee527ed0c1af06ea0d5d74e603a82960f983bdc4b",
+        "adapter_model.safetensors": "2c06b829a3d8580d1dfd350e337a7851003cb34e7530d2e93ff9ad9fce4a6b29",
+        "run_args.json": "7ac260f8d066fff5186b71f7cd57ab96546c24cfc1313f386c1524e83d178d9c"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_none_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "d65dec3f4a9deffd292677194f6d293380fb8888e3181b18eb3d8db3b0f69c7c",
+        "adapter_model.safetensors": "c0dd6425a2b329d29c467a9f5a1a1e93ad9bf8182a778d2376d2548faa51e610",
+        "run_args.json": "c9acc8197edf9720961fb060d5b5281e1fff6adc669ac7987e1f404639eb18dd"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_output_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_output_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "4daf30da8fd380a326cf0dea589a605771c1adfa368273d08e23014b8a6e705b",
+        "adapter_config.json": "bf031f9dc3930196c746f469581b201007b5e8983ce1155f5db1acec687ccc11",
+        "adapter_model.safetensors": "59e1d65839ac8708b3013b7ae1abf483e75431bcc58163afbf35a0cd2cef4567",
+        "affine_vocab_config.json": "180d9032eaa55003ebbf90b9d5f028d25873587c1f723bff1730b51e6f9a26d0",
+        "run_args.json": "5c671b93d2c44a374abdb0d3f87004710f1e0c1cca7875abca7742aa2ecc3968"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_both_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_both_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "d2096d2d667c2e7530cb6ecc13537460e48c8c5435b7a0aaaa8f95fefce80dab",
+        "adapter_config.json": "e6ddf8374761bd427288c4b9992d2801f3e9af2d8fcc5bc4b6d8aa831a00cf40",
+        "adapter_model.safetensors": "4ddb9bb670e16bb106ef65cb2298247ad0e580e686dbdb50aca358cda30bfe94",
+        "affine_vocab_config.json": "321ad19c4c18f7d4172e58eb5739a4a525dffc543766d656922069ea8518d428",
+        "run_args.json": "877eed5d7f487bb6372cb1df25e485a36e83816cb00ab10d7bd5761791858f23"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_hidden_budget_hr8_sd44",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_hidden_budget_hr8_sd44",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "adapter_config.json": "9a88330de1100c8c1244e48848e08759353e575dcb7afcc9f1db29ed0a445a9f",
+        "adapter_model.safetensors": "3547ff40403977b1a7324a90b39029287bdc466af8dd305a1b04e64d121b3a3d",
+        "run_args.json": "c508ff4a4c6d4c13f33e63b41d11d70710cf8013ca95ef0677a42e0a89b92f95"
+      }
+    },
+    {
+      "name": "qwen3_06b_chat_none_hr0_base",
+      "model": "qwen3_06b_chat",
+      "hidden_rank": 0,
+      "placement": "none",
+      "seed": null,
+      "smoke": false,
+      "reference": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen3_06b_chat_none_hr0_base",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "run_args.json": "48d7eb691365cf810fe0fa019dd1b53d23088cb2ab794499b86299eff59a3dd2"
+      }
+    },
+    {
+      "name": "qwen25_15b_chat_none_hr0_base",
+      "model": "qwen25_15b_chat",
+      "hidden_rank": 0,
+      "placement": "none",
+      "seed": null,
+      "smoke": false,
+      "reference": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/checkpoints/qwen25_15b_chat_none_hr0_base",
+      "reuse": true,
+      "checkpoint_hashes": {
+        "run_args.json": "3856e8dc32df6651d36687c3855c657fbb7b697a73702d1c8c51eddd961875fa"
+      }
+    }
+  ],
+  "local_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/common.py": "bae5bc3fb5598f3fc059514a3ac7eb54c04b5e8d06cd3cb5ee26c1822a1311c6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/evaluate.py": "98050ea2b12720bef8e0d99286fead8fa1dc3d01ff3be4a391d5a97178724ca7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/run.py": "830c94bfa2f30bd39d44c32f79ef1da32011fe4b5be89e56fef39aac2e9f1727",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/prepare.py": "e27cc6fc70b9cdc6d9292fd32644011127d09fcdcd86c56eb8fc2f70b2b6a3af",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/fetch_data.py": "758c7a9f65076aaee59db74bab0fe8311aaf44940e9359c1df98d64e9ff1fc2d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/freeze.py": "2b37268181f199e0031d71f288bce552511a0b13bcee406f3675aca0b444bcc7",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/cmrc_official_py3.py": "92c6e90c50d1f43cbe78496deccda84beda391420039735de8079cbd33b38c66",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/DESIGN.md": "e4ec7f92b5154096326ff639c1cd4e03447a61a2a5f525bd661c72df3e38fde9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/DATA_PROVENANCE.json": "81726340f395b8fdb2a93ddd1840e7cf18c56a706546ba5d4c49eb91053d84d0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/DATA_AUDIT.json": "125f75ace73241bbcdc20dceff8014487f5426c77ae2ec27d1bc5abe21660b71",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/REUSE_AUDIT.json": "83425cbb9035a64d43546e30665b1fab0e3b8c4cabdd36c709e2bf2cf1eaf29c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/LENGTH_AUDIT.json": "1de8ba72cd7bfdcb2ae5971c31dcf649bf44a84dfbf7e00f3a66ca77e85e281d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/data/c3_dev.jsonl": "8ada225940796204f932792b596eb6e64375c8aaae1557dd3aff20b6eb2c2d47",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/data/cmrc_train.jsonl": "d9800017d55100749f81d887b449a5149b7663e5574edcb3ae18c11af65882ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/data/c3_eval.jsonl": "914dd1c5d6c4f3aaf6a17f6786c61afd3a6253ad5eef76344719a0d5b09c4eb8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/data/cmrc_eval.jsonl": "13414108e31166bdba88fb91324ec6814a884f7d90cd46836e4c3feebc3719ac",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/data/c3_train.jsonl": "a309e3d527bcb1618b5a8266166322ccb0d8adc2d1a1e121086be810f299d9ae",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/README.md": "07047da7471a21f70b4fbe6756450fff761bf59cf4ccb8c1d5994724c661a436",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/LICENCE": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/squad-style-data/cmrc2018_train.json": "5497aa2f81908e31d6b0e27d99b1f90ab63a8f58fa92fffe5d17cf62eba0c212",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/squad-style-data/cmrc2018_dev.json": "e9ff74231f05c230c6fa88b84441ee334d97234cbb610991cd94b82db00c7f1f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/cmrc2018/squad-style-data/cmrc2018_evaluate.py": "56da606758e4d8607c37af6acecfb4811ede6eb10dd54031deb75231324ba783",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/README.md": "d38793da899a714935228f10f747a0fe088dfb1f7c8da5cb8f4e6c9cc3774d9b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/license.txt": "660d0b99093abbd8b3a2614a20630000586d9d5c207c0ccf8f0143f462b53014",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-d-dev.json": "8c7054930a40aeb288ad7c51c42fa93d54aef678ccab29c75d46a7432f4f6278",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-m-dev.json": "357d0d8d2a29bc845cbe50e048c263629f5e527b70f24c3e0838c387c8d3cb54",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-d-train.json": "baf81f327dee84c6f451c9a4dd662e6193c67473b8791ffb72cce75cdb528f20",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-m-train.json": "4c84a534f1eec2c72e5f60f0c044cc39e2e42a88df01134e677e03217472d6af",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-m-test.json": "7d8074be56cf574536a3284bc2d6b04d137694d5e5f5b1368143c0cf3e336822",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/vendor/c3/data/c3-d-test.json": "e9920491b31f9d00ecf31e51727b495dd6b0d05f4a96f273a343e81b6775a8f0"
+  },
+  "smoke_complete_sha256": {
+    "qwen3_06b_chat_none_hr8_sd42": "f60e36b8da15f714fa3c9d1c4a775cc6aa274fd767cf47b0eeb14ea66135d7af",
+    "qwen3_06b_chat_output_hr8_sd42": "99e126441a875774225c4d75cb245a55857992484b3b31607da4f97c7fe53adf",
+    "qwen3_06b_chat_both_hr8_sd42": "5846bd493c625def82ac9483ddc15664364fb8025cbdf2a2fcfcd53b60dc24e6",
+    "qwen3_06b_chat_hidden_budget_hr8_sd42": "1e9cf127b3e6772f285114678f92a43e7dee9e7c2bbbb713e5d8a923f74b6d7c",
+    "qwen25_15b_chat_none_hr8_sd42": "c13382d2de492fa6f302b9f21c273ef985705b8a740dbc6385fb847393c49761",
+    "qwen25_15b_chat_output_hr8_sd42": "057c3a1e4a302b2338b18291cf4f534309a986e2169b9738d5d604e1bd459553",
+    "qwen25_15b_chat_both_hr8_sd42": "da958978de3e09717f92c4c223a45e5ea6f32942fbfbb9aae60737b007eec689",
+    "qwen25_15b_chat_hidden_budget_hr8_sd42": "c70a9ad971682fdedeb5f90136ce4ea5c8267987fcdca18e20c0ba133fad8033",
+    "qwen3_06b_chat_none_hr0_base": "e0fdd9f40ae8fa70feeaf7e065630d8213a8cb08d6a07616b83d5e4b7768f9bc",
+    "qwen25_15b_chat_none_hr0_base": "8fdb3ec077d2431463fa307ec36a44122528f5ce92b8a085b16b8a8f89993470"
+  },
+  "reuse_audit_sha256": "83425cbb9035a64d43546e30665b1fab0e3b8c4cabdd36c709e2bf2cf1eaf29c",
+  "versions": {
+    "torch": "2.4.1+cu124",
+    "transformers": "5.6.2",
+    "peft": "0.19.1",
+    "datasets": "4.8.4",
+    "safetensors": "0.7.0"
+  }
+}

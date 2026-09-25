@@ -1,0 +1,243 @@
+{
+  "created_at": "2026-09-15T16:56:05+08:00",
+  "revision": "2c94ad3e1aafab77146f384e23536f97a4849815",
+  "source": {
+    "train": {
+      "upstream": "data/train-00000-of-00001.parquet",
+      "sha256": "19644360954006d06e9ad3df07bddb34f8535c081b831d48f604603c713ac167"
+    },
+    "validation": {
+      "upstream": "data/validation-00000-of-00001.parquet",
+      "sha256": "455dd9f1d725cd3ecbce369799a2fbbdbbfecf51ab84a86d56ba3370dc847b8a"
+    },
+    "test": {
+      "upstream": "data/test-00000-of-00001.parquet",
+      "sha256": "3a719356a29b127fc54ef3c7f51a034db4bd105d5717215e8c85d2aa58d60667"
+    }
+  },
+  "splits": {
+    "train": {
+      "rows": 11646,
+      "unique_questions": 11576,
+      "gold_positions": {
+        "0": 2884,
+        "3": 2926,
+        "2": 2884,
+        "1": 2952
+      },
+      "duplicate_option_indices": [
+        161,
+        272,
+        279,
+        1353,
+        1391,
+        1481,
+        1498,
+        1828,
+        1906,
+        2175,
+        2707,
+        2719,
+        3174,
+        3610,
+        3656,
+        4398,
+        4795,
+        4997,
+        5247,
+        5387,
+        5558,
+        6460,
+        6495,
+        6951,
+        7060,
+        7174,
+        7220,
+        8098,
+        8177,
+        8343,
+        8618,
+        10853,
+        10862,
+        10943,
+        11108,
+        11116
+      ],
+      "ambiguous_gold_indices": [
+        272,
+        279,
+        1481,
+        2175,
+        2707,
+        4795,
+        4997,
+        5247,
+        5387,
+        5558,
+        7174,
+        8177,
+        11108,
+        11116
+      ],
+      "sha256": "0dd2a20eff76fc2d250a369697ef26c37059b9dc8c372e633c052a02a7882c4d"
+    },
+    "validation": {
+      "rows": 1000,
+      "unique_questions": 1000,
+      "gold_positions": {
+        "3": 259,
+        "0": 245,
+        "1": 270,
+        "2": 226
+      },
+      "duplicate_option_indices": [
+        332,
+        479,
+        545
+      ],
+      "ambiguous_gold_indices": [],
+      "sha256": "dfb5048ec71a2ff7cfd75a04d8b408759ca9d36dc2f60473436ee3e204243566"
+    },
+    "test": {
+      "rows": 1000,
+      "unique_questions": 1000,
+      "gold_positions": {
+        "1": 254,
+        "3": 259,
+        "0": 244,
+        "2": 243
+      },
+      "duplicate_option_indices": [
+        67,
+        124,
+        318,
+        469,
+        526,
+        659,
+        718,
+        884,
+        926
+      ],
+      "ambiguous_gold_indices": [
+        718,
+        884
+      ],
+      "sha256": "639b98a7258df93e9eef41577dc86197b9f1ced5e019526d27bb2836cb85ab42"
+    }
+  },
+  "normalized_question_overlap_before_filter": {
+    "train:validation": 12,
+    "train:test": 7,
+    "validation:test": 0
+  },
+  "removed_training_indices": [
+    263,
+    1718,
+    2027,
+    2357,
+    3222,
+    3368,
+    3576,
+    3734,
+    4583,
+    5014,
+    5088,
+    5380,
+    6672,
+    7247,
+    7341,
+    9205,
+    9536,
+    10374,
+    10818
+  ],
+  "tokenization": {
+    "qwen3_06b_base": {
+      "label_ids": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "eos_id": 151643,
+      "pad_id": 151643,
+      "splits": {
+        "train": {
+          "rows": 11646,
+          "max_prompt_tokens": 146
+        },
+        "validation": {
+          "rows": 1000,
+          "max_prompt_tokens": 113
+        },
+        "test": {
+          "rows": 1000,
+          "max_prompt_tokens": 112
+        }
+      },
+      "serialization": "plain task completion: common.prompt + newline newline Answer: newline; no chat template or chat special tokens"
+    },
+    "qwen25_15b_base": {
+      "label_ids": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "eos_id": 151643,
+      "pad_id": 151643,
+      "splits": {
+        "train": {
+          "rows": 11646,
+          "max_prompt_tokens": 146
+        },
+        "validation": {
+          "rows": 1000,
+          "max_prompt_tokens": 113
+        },
+        "test": {
+          "rows": 1000,
+          "max_prompt_tokens": 112
+        }
+      },
+      "serialization": "plain task completion: common.prompt + newline newline Answer: newline; no chat template or chat special tokens"
+    }
+  },
+  "model_files_verified": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/config.json": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/model.safetensors": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/tokenizer_config.json": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen3-0.6B-Base/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/config.json": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/model.safetensors": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916/verified_models/Qwen2.5-1.5B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "evaluation_labels_used_for_preflight_only": true,
+  "native_base_protocol": {
+    "reason": "Avoid indistinguishable unused ChatML target rows in frozen Base vocabulary",
+    "encodings": {
+      "qwen3_06b_base": {
+        "example_training_prompt": "Answer the science question. Select the best option and respond with only its letter (A, B, C, or D).\n\nQuestion: What type of organism is commonly used in preparation of foods such as cheese and yogurt?\n\nA. mesophilic organisms\nB. gymnosperms\nC. protozoa\nD. viruses\n\nAnswer:\n",
+        "native_eos_id": 151643,
+        "unique_native_eos_row_verified": true,
+        "full_prompt_answer_boundary_roundtrip": true
+      },
+      "qwen25_15b_base": {
+        "example_training_prompt": "Answer the science question. Select the best option and respond with only its letter (A, B, C, or D).\n\nQuestion: What type of organism is commonly used in preparation of foods such as cheese and yogurt?\n\nA. mesophilic organisms\nB. gymnosperms\nC. protozoa\nD. viruses\n\nAnswer:\n",
+        "native_eos_id": 151643,
+        "unique_native_eos_row_verified": true,
+        "full_prompt_answer_boundary_roundtrip": true
+      }
+    },
+    "previous_chat_tokens_reused": false,
+    "data_split_and_labels_reused": true,
+    "prior_attempt": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_sciq_20260916"
+  }
+}

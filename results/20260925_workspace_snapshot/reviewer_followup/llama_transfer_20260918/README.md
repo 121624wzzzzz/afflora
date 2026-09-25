@@ -1,0 +1,17 @@
+# Llama transfer extension, 2026-09-18
+
+Status: completed and fully audited. All 40 formal jobs (36 fits plus 4 Base evaluations) and all 8 technical smokes passed. The scheduler exited on 2026-09-18 at 12:30:13 Asia/Shanghai, after starting at 11:15:56. FINAL_AUDIT.json verifies 56,652 output records, 23,656 official SQL predictions, 13,838 token records and 12 paired initialization/order groups. There are no active, failed or missing jobs. Previous Qwen study remains sealed and unchanged. Once SEAL.json exists, this directory is read-only; independent verification is recorded in the sibling llama_transfer_20260918_verification.log.
+
+Read FINAL_INTERPRETATION_ZH.md for the final Chinese report. CLUENER gains over budget H are +2.203 F1 (3B) and +0.942 (8B), all three seeds positive against both controls. WikiSQL is +0.651 pp (3B, two positive seeds) and −0.293 (8B, one positive seed). All eight unadjusted and Bonferroni-8 seed intervals cross zero. No universal superiority claim. ALL_FORMAL_RESULTS.csv contains all 80 formal dev/test summaries; SECONDARY_READOUT.json explicitly marks its valid-query partition as post hoc and descriptive.
+
+Question: do the CLUENER and WikiSQL stacking gains transfer to two independently verified official Llama Base checkpoints? See PROTOCOL.md for the fixed pre-output design. Eight technical smokes precede 36 fits and 4 Base evaluations. No fitted checkpoints or scores are reused. Exact source-data/code reuse is documented in SOURCE_REUSE.json; model identity in MODEL_IDENTITY_AUDIT.json.
+
+Budget H may have slightly more parameters under the same integer q/k-rank allocation rule: 3B +1,024 (0.00829%); 8B exactly equal. Every extra parameter is trainable and functional. Shared rank8 initialization and scaling are preserved. This addresses the user's explicit acceptance of a slightly larger control; it is not described as exact equality for 3B.
+
+Official references: https://huggingface.co/meta-llama/Llama-3.2-3B and https://huggingface.co/meta-llama/Llama-3.1-8B . Pinned revisions and all consumed file hashes are stored in models.json, with public upstream metadata in provenance/.
+
+The fixed matrix uses three seeds, not five. Statistical family: four model/task conditions times two stacking comparisons = eight. Existing Qwen inference is separate; this extension is exploratory. Raw per-seed differences and both unadjusted and family-adjusted intervals are reported. Do not select seeds or tune settings using these outputs.
+
+Execution: scheduler.py runs at most one study worker per GPU on GPUs 0–7 if sufficient memory is free. It retains every worker's log, starts a separate CPU audit after success, and halts new admission on any failure. Do not restart the scheduler or overwrite existing checkpoints. A failure requires diagnosis and an explicitly recorded amendment; any scientific change requires a new study version.
+
+Final scientific audit and analysis have completed; do not restart the scheduler or rerun writing scripts inside a sealed archive. Scientific code manifest: 08626fb3d8d003cfcf9b35488386b3427b10e1f63ffe0ac095de0b0569da8138 . Data manifest: 960e99ee4428b436c450c6bebec91048fb5e7df1737f1226e33b1b87c1f0cf9c . report_posthoc.py is a later reporting-only source, explicitly tracked in REPORTING_PROVENANCE.json; it does not change the frozen fitting/scoring/statistical analysis. The sealing/verification source snapshot is provenance/seal_tool_source.py.txt.

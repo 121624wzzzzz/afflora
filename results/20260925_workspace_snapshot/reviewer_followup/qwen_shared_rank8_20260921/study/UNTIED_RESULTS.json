@@ -1,0 +1,365 @@
+{
+  "at": "2026-09-21T22:15:54+08:00",
+  "groups": [
+    {
+      "model": "qwen25_7b_base",
+      "task": "cluener",
+      "paired_seeds": [
+        {
+          "seed": 6100,
+          "rank8": {
+            "hidden_input": 69.20624800765061,
+            "hidden_output": 70.13153673403914,
+            "hidden_both": 70.62590043220746
+          },
+          "prior_rank16_and_H": {
+            "hidden": 68.26556543837357,
+            "hidden_budget": 68.35081029551954,
+            "hidden_both": 70.4669887278583,
+            "hidden_input": 69.06543544021653,
+            "hidden_output": 70.38529743672417,
+            "input": 51.14318144965137,
+            "output": 54.066008846546445,
+            "both": 59.996670551023804
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.940682569277044,
+            "hidden_output": 1.8659712956655738,
+            "hidden_both": 2.360334993833888
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": 0.14081256743408233,
+            "hidden_output": -0.25376070268502815,
+            "hidden_both": 0.15891170434916546
+          }
+        },
+        {
+          "seed": 6101,
+          "rank8": {
+            "hidden_input": 69.47604550552796,
+            "hidden_output": 69.87567739878865,
+            "hidden_both": 69.76446082358596
+          },
+          "prior_rank16_and_H": {
+            "hidden": 69.14175506268082,
+            "hidden_budget": 69.00208902458621,
+            "hidden_both": 70.29972752043597,
+            "hidden_input": 69.36231420808694,
+            "hidden_output": 70.74417119131267,
+            "input": 52.242302543507364,
+            "output": 53.74241402562374,
+            "both": 60.19041471679845
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.3342904428471485,
+            "hidden_output": 0.7339223361078382,
+            "hidden_both": 0.6227057609051485
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": 0.11373129744102073,
+            "hidden_output": -0.8684937925240206,
+            "hidden_both": -0.5352666968500017
+          }
+        },
+        {
+          "seed": 6102,
+          "rank8": {
+            "hidden_input": 69.88261778420969,
+            "hidden_output": 70.20696293919461,
+            "hidden_both": 70.21923507761242
+          },
+          "prior_rank16_and_H": {
+            "hidden": 69.44533504328311,
+            "hidden_budget": 69.31836407377706,
+            "hidden_both": 70.29275315949448,
+            "hidden_input": 69.77116338614178,
+            "hidden_output": 69.66580976863753,
+            "input": 51.24338199903738,
+            "output": 53.41098169717138,
+            "both": 59.170477842611575
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.4372827409265767,
+            "hidden_output": 0.7616278959115022,
+            "hidden_both": 0.7739000343293156
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": 0.11145439806790591,
+            "hidden_output": 0.5411531705570809,
+            "hidden_both": -0.07351808188205666
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen25_7b_base",
+      "task": "wikisql",
+      "paired_seeds": [
+        {
+          "seed": 7100,
+          "rank8": {
+            "hidden_input": 82.03125,
+            "hidden_output": 82.03125,
+            "hidden_both": 82.03125
+          },
+          "prior_rank16_and_H": {
+            "hidden": 81.4453125,
+            "hidden_budget": 81.0546875,
+            "hidden_both": 82.6171875,
+            "hidden_input": 81.25,
+            "hidden_output": 81.8359375,
+            "input": 62.79296875,
+            "output": 52.9296875,
+            "both": 71.484375
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.5859375,
+            "hidden_output": 0.5859375,
+            "hidden_both": 0.5859375
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": 0.78125,
+            "hidden_output": 0.1953125,
+            "hidden_both": -0.5859375
+          }
+        },
+        {
+          "seed": 7101,
+          "rank8": {
+            "hidden_input": 82.71484375,
+            "hidden_output": 81.93359375,
+            "hidden_both": 82.51953125
+          },
+          "prior_rank16_and_H": {
+            "hidden": 81.8359375,
+            "hidden_budget": 81.8359375,
+            "hidden_both": 82.8125,
+            "hidden_input": 82.91015625,
+            "hidden_output": 82.32421875,
+            "input": 64.0625,
+            "output": 51.07421875,
+            "both": 70.1171875
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.87890625,
+            "hidden_output": 0.09765625,
+            "hidden_both": 0.68359375
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": -0.1953125,
+            "hidden_output": -0.390625,
+            "hidden_both": -0.29296875
+          }
+        },
+        {
+          "seed": 7102,
+          "rank8": {
+            "hidden_input": 81.73828125,
+            "hidden_output": 81.4453125,
+            "hidden_both": 81.8359375
+          },
+          "prior_rank16_and_H": {
+            "hidden": 81.25,
+            "hidden_budget": 81.0546875,
+            "hidden_both": 81.8359375,
+            "hidden_input": 81.4453125,
+            "hidden_output": 81.4453125,
+            "input": 61.71875,
+            "output": 50.1953125,
+            "both": 69.7265625
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.48828125,
+            "hidden_output": 0.1953125,
+            "hidden_both": 0.5859375
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": 0.29296875,
+            "hidden_output": 0.0,
+            "hidden_both": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "cluener",
+      "paired_seeds": [
+        {
+          "seed": 6100,
+          "rank8": {
+            "hidden_input": 71.35694646611677,
+            "hidden_output": 71.67015622483491,
+            "hidden_both": 72.26863753213368
+          },
+          "prior_rank16_and_H": {
+            "hidden": 70.52563689132538,
+            "hidden_budget": 71.11039380245319,
+            "hidden_both": 72.3589001447178,
+            "hidden_input": 71.58232931726907,
+            "hidden_output": 72.49432371067142,
+            "input": 53.36182804537235,
+            "output": 58.2059123343527,
+            "both": 62.76067527308838
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.8313095747913906,
+            "hidden_output": 1.1445193335095354,
+            "hidden_both": 1.7430006408083045
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": -0.22538285115230394,
+            "hidden_output": -0.8241674858365116,
+            "hidden_both": -0.09026261258411239
+          }
+        },
+        {
+          "seed": 6101,
+          "rank8": {
+            "hidden_input": 70.06287280348218,
+            "hidden_output": 71.15198451113262,
+            "hidden_both": 71.44464084846537
+          },
+          "prior_rank16_and_H": {
+            "hidden": 71.09311740890688,
+            "hidden_budget": 71.03559870550161,
+            "hidden_both": 71.82712465731333,
+            "hidden_input": 70.07861382961656,
+            "hidden_output": 71.41479099678456,
+            "input": 52.10587647744298,
+            "output": 58.98866903433113,
+            "both": 61.87141947803946
+          },
+          "deltas_vs_H": {
+            "hidden_input": -1.0302446054246985,
+            "hidden_output": 0.0588671022257472,
+            "hidden_both": 0.3515234395584912
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": -0.015741026134378444,
+            "hidden_output": -0.2628064856519359,
+            "hidden_both": -0.3824838088479652
+          }
+        },
+        {
+          "seed": 6102,
+          "rank8": {
+            "hidden_input": 70.43801519314692,
+            "hidden_output": 71.20283779425992,
+            "hidden_both": 71.04247104247104
+          },
+          "prior_rank16_and_H": {
+            "hidden": 70.24249237192869,
+            "hidden_budget": 70.45344521542683,
+            "hidden_both": 71.74052665382145,
+            "hidden_input": 70.87222401029932,
+            "hidden_output": 71.04544724586478,
+            "input": 53.49222111883482,
+            "output": 58.049509885363015,
+            "both": 63.26002587322122
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.1955228212182334,
+            "hidden_output": 0.9603454223312298,
+            "hidden_both": 0.7999786705423446
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": -0.43420881715239545,
+            "hidden_output": 0.1573905483951421,
+            "hidden_both": -0.6980556113504122
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen3_8b_base",
+      "task": "wikisql",
+      "paired_seeds": [
+        {
+          "seed": 7100,
+          "rank8": {
+            "hidden_input": 82.2265625,
+            "hidden_output": 81.8359375,
+            "hidden_both": 82.91015625
+          },
+          "prior_rank16_and_H": {
+            "hidden": 82.91015625,
+            "hidden_budget": 82.8125,
+            "hidden_both": 83.10546875,
+            "hidden_input": 82.8125,
+            "hidden_output": 82.2265625,
+            "input": 62.109375,
+            "output": 61.1328125,
+            "both": 67.67578125
+          },
+          "deltas_vs_H": {
+            "hidden_input": -0.68359375,
+            "hidden_output": -1.07421875,
+            "hidden_both": 0.0
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": -0.5859375,
+            "hidden_output": -0.390625,
+            "hidden_both": -0.1953125
+          }
+        },
+        {
+          "seed": 7101,
+          "rank8": {
+            "hidden_input": 83.203125,
+            "hidden_output": 83.59375,
+            "hidden_both": 83.69140625
+          },
+          "prior_rank16_and_H": {
+            "hidden": 82.91015625,
+            "hidden_budget": 82.51953125,
+            "hidden_both": 83.59375,
+            "hidden_input": 82.91015625,
+            "hidden_output": 83.984375,
+            "input": 59.86328125,
+            "output": 59.765625,
+            "both": 67.7734375
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.29296875,
+            "hidden_output": 0.68359375,
+            "hidden_both": 0.78125
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": 0.29296875,
+            "hidden_output": -0.390625,
+            "hidden_both": 0.09765625
+          }
+        },
+        {
+          "seed": 7102,
+          "rank8": {
+            "hidden_input": 83.69140625,
+            "hidden_output": 84.66796875,
+            "hidden_both": 84.375
+          },
+          "prior_rank16_and_H": {
+            "hidden": 83.59375,
+            "hidden_budget": 83.7890625,
+            "hidden_both": 83.984375,
+            "hidden_input": 83.49609375,
+            "hidden_output": 84.47265625,
+            "input": 60.15625,
+            "output": 60.3515625,
+            "both": 67.67578125
+          },
+          "deltas_vs_H": {
+            "hidden_input": 0.09765625,
+            "hidden_output": 1.07421875,
+            "hidden_both": 0.78125
+          },
+          "deltas_vs_same_arm_rank16": {
+            "hidden_input": 0.1953125,
+            "hidden_output": 0.1953125,
+            "hidden_both": 0.390625
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-20T00:35:01.376791+08:00",
+  "status": "running",
+  "models": [
+    "0.8B",
+    "2B",
+    "4B",
+    "9B"
+  ],
+  "jobs": 456,
+  "family": 16,
+  "selection_seeds": [
+    7600,
+    7601
+  ],
+  "confirmation_seeds": [
+    7700,
+    7701,
+    7702,
+    7703,
+    7704
+  ],
+  "tasks": [
+    "wikisql",
+    "trec50"
+  ],
+  "comparison": "H, exact-budget H, H+E+U; all old-policy results retained separately; no outcome reuse",
+  "numerical_policy": "fixed FLA configs, explicit deterministic Torch math, exact cross-process first-batch admission",
+  "resource_rule": "One study worker/GPU; size-specific free-memory thresholds32/40/56/68GiB for0.8B/2B/4B/9B, established before any freeze or fit. Other workloads untouched.",
+  "technical_preparation_complete_at": "2026-09-20T01:02:21.366821+08:00",
+  "updated_at": "2026-09-20T01:25:59.666100+08:00"
+}

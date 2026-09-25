@@ -1,0 +1,58 @@
+[
+  {
+    "rank": 4,
+    "centered_base_energy": 103454.19689941406,
+    "centered_update_energy": 2.790823439636893,
+    "rho_squared": 2.6976415875620217e-05,
+    "rho": 0.00519388254349482,
+    "cross_relative": 9.425122650101356e-07,
+    "relative_total_energy_change": 2.8861440405640488e-05,
+    "relative_total_energy": 1.0000288614404056,
+    "g_frobenius": 0.3275301848878164,
+    "g_spectral": 0.20782252767649256,
+    "math_accuracy": 25.865865865865867,
+    "gsm8k_accuracy": 75.28430629264595
+  },
+  {
+    "rank": 8,
+    "centered_base_energy": 103454.19689941406,
+    "centered_update_energy": 5.49819348381054,
+    "rho_squared": 5.3146161766219075e-05,
+    "rho": 0.007290141409205934,
+    "cross_relative": -1.2474023998337335e-06,
+    "relative_total_energy_change": 5.065135696655161e-05,
+    "relative_total_energy": 1.0000506513569665,
+    "g_frobenius": 0.44439414145738226,
+    "g_spectral": 0.22182621481703854,
+    "math_accuracy": 26.106106106106107,
+    "gsm8k_accuracy": 73.69219105382865
+  },
+  {
+    "rank": 16,
+    "centered_base_energy": 103454.19689941406,
+    "centered_update_energy": 10.471546335013878,
+    "rho_squared": 0.00010121915445532965,
+    "rho": 0.010060773054558464,
+    "cross_relative": -2.1690791341463983e-05,
+    "relative_total_energy_change": 5.7837571772401685e-05,
+    "relative_total_energy": 1.0000578375717724,
+    "g_frobenius": 0.6255815481625869,
+    "g_spectral": 0.24400562124649125,
+    "math_accuracy": 26.066066066066067,
+    "gsm8k_accuracy": 74.45034116755117
+  },
+  {
+    "rank": 32,
+    "centered_base_energy": 103454.19689941406,
+    "centered_update_energy": 20.78351715189723,
+    "rho_squared": 0.00020089583385490416,
+    "rho": 0.014173772745987715,
+    "cross_relative": -2.4949069443699124e-05,
+    "relative_total_energy_change": 0.00015099769496750592,
+    "relative_total_energy": 1.0001509976949674,
+    "g_frobenius": 0.8707685909485628,
+    "g_spectral": 0.3448168858857573,
+    "math_accuracy": 26.586586586586588,
+    "gsm8k_accuracy": 75.0568612585292
+  }
+]

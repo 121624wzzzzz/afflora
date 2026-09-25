@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-16T16:58:25+08:00",
+  "files": {
+    "common.py": "b34d9a3ddb8334f5779b84ac1527e446d5b9c9201f2fcab8d49aa4969ae85f68",
+    "pipeline.py": "765b80f407302e35e73a9878353cc28e006cf3f3ba26263560472be4acd6cd76",
+    "scoring.py": "184cc351326d78bab881b6b4c6c4879fe1f5372200272b94e4e30401792ffbf3",
+    "test_scoring.py": "86cd388f7d9a96227245e7912ed2a8252f20fc19b6f158947158dba3fcafa868",
+    "run.py": "65890f2b559bf401c9e4155dbd78dd5c33d10e454003815f9f3e40b8dfe88f34",
+    "modeling.py": "0afd05e07f58098e40137f747aa3f086baeac37eb677cd229555d58dc02e92b8",
+    "prepare.py": "92a8a130aac3c6f066fa584acd32696919b5e017c43fe4377cc52edeaa7015ab",
+    "source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "PILOT_PROTOCOL.json": "5d7f7333fb71c204f97fdfb44bd7a49dee85a59387a54765b6c983e473b9f574",
+    "DESIGN.md": "45eeaa0422015a36bdc56b7cad7000e4cf6ac46607c0c8d0cf1998e542c8ddb0",
+    "DATA_FROZEN.json": "f439ae0fb382eacde2b273bc2a77734a8bc027020cfdb2c49678e0263bb999c2",
+    "models.json": "264951df8029ffa98c749e7e4c7cee030fffe8fd33de27b70bec85c7bf934330",
+    "REUSE_CHECK.json": "cc31ea0d2b001d708c45fe7044352d438550a43d7235422d2268a75f89277cd7"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-15T16:59:27+08:00",
+  "sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/DATA_AUDIT.json": "947b923fa249dc28ce1dc8c83c1f112d252a56adbaa1cd46aea8c8f1b06c662b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/DESIGN.md": "60da2a0a86f19cf4ccf277b13a1ef0521ec8131b38a5a589bac43ca49f6b48ef",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/analyze.py": "c4178fddd413d0cf682d6fe9c9aafe8dded3c2e4a6171079bf21b0d1822ed3d9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/check_boundary_equivalence.py": "d68e15b1267ea1f3cdc969d6ec68b6510bc4dfbda92ddceeba5d6cbaf64557a1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/common.py": "b33190bbfafc747381dcebdd3695d4870ba89581c45d09f1dcda6fd7eb8e1885",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/data/test.jsonl": "639b98a7258df93e9eef41577dc86197b9f1ced5e019526d27bb2836cb85ab42",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/data/train.jsonl": "0dd2a20eff76fc2d250a369697ef26c37059b9dc8c372e633c052a02a7882c4d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/data/validation.jsonl": "dfb5048ec71a2ff7cfd75a04d8b408759ca9d36dc2f60473436ee3e204243566",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/evaluate.py": "9a74d05eba270509fe62fa20ad6dbed7ee1c675701f1fda3eb70281f5545dd4e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/final_audit.py": "32cf23b47cad8dd801f1aeb3c2780e5cd60b8767843cdbfd1b3996d7438f24e9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/modeling.py": "b9b48e1c65b89465cb522925828386988d19e00d5fdcd3c29897bc9dcab9e608",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/models.json": "a943c4d419da4cf1bcf7b097b6718bc70dcd8cff6563b090b3577845d1fab7f1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/preflight.py": "c76fdd4964b0abe64507e0a6140424ba891b08ae7763a53eb03ff3c1c25f49d4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/prepare.py": "32be6787f7e3ec8b00f997dc93f8ea547790301f0cab74e682c9854e0d48562e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/run.py": "1a6f3db4906a580d3e84adeabf1b9f613e27cf17f30e1df03553503023e545dd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen25_15b_chat_test.json": "6daf105eb2a8e725f39969b242dc3836ac2f35fb231b6e183f765a6c49638577",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen25_15b_chat_test_rotations.json": "d1328be008c96e6b6abc5fa18f3542fa690bcfba9c3260a3bb336908b2b88557",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen25_15b_chat_train.json": "b9a10222884d048ad281a916e43402fe6a1b5696d78d68a26807b7b57dfea9b5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen25_15b_chat_validation.json": "8b1f40e4733d4b9c1f169500793a5f01ca8a4e629025a77cd4206c1e51fc5474",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen3_06b_chat_test.json": "af03b394b972eabb1ee18e9bda52e6d91ff8598aef14f437517c0bb77de76537",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen3_06b_chat_test_rotations.json": "3d720c945a946dcdb252a06aafe42618e419b13d0cf5f7edc7830cc1d60f8559",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen3_06b_chat_train.json": "2af0fad2c152b3d3ad7e753a0e672e22bb4fcbdabf9987a067ed739d2bdc011b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/tokens/qwen3_06b_chat_validation.json": "0f21c523876023a21d46b881a5b9f6488bca3ffe8fe0aecb2ebf1fd6abc7329a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/train.py": "128befef23cd6a8f58f580ec8553c1ebf08da029462d6de6afdf020aafc5111c"
+  },
+  "confirmation_seeds": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+  ],
+  "primary_family_size": 6,
+  "rules": "DESIGN.md, analyze.py, run.py; no test outcome accessed"
+}

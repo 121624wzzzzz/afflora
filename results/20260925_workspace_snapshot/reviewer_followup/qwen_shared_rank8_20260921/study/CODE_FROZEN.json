@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-21T19:28:17+08:00",
+  "files": {
+    "shared_boundary.py": "f791c08c27a3f64644ac6c236dbcebae1469cd9a0977aa8cefcca304c87d4e5b",
+    "scoring_ner.py": "2dccb4f32d845ab50e4f9ff43934d0620dc5036fea380239bd98b5f2503884ab",
+    "common.py": "b1216b408de97c72fcf9ebba49e76481fce550976ef9c057a2cf72a43c7f840f",
+    "freeze.py": "621229cd45d14e387d77606d6e0907667555e321f6f83d1cb2d85e1020842a57",
+    "scheduler.py": "091dbd1508c9f74993ff2f80c941ad670c7437fba19e6ff587d04c0b98c9dfab",
+    "scoring_sql.py": "222b30f360c5ff7cf60f5164ee3af9dd4cee93c66f5a74e2f44f37172c7487fb",
+    "scoring.py": "e901697b30611c58d7a8a1601aaf6a87a42c3fa4a7c1245cc2da9ba218d0fec2",
+    "test_shared.py": "2f8d9436f7707ed42ca94894b1cbdebfe31e62f943f95d420464765a12341d9b",
+    "test_scoring.py": "3bb070f31631c12b550d3a1e11af924d69f8e0c3a7d2fd8404ae8cbb28820fcc",
+    "run.py": "aa6fb3e286c296a53683a9e4006bc8439147a6181d112e5d88d675e0bb870827",
+    "audit_one.py": "88918d9d651c290dd47e223c36705a126e34077cc6a4154ce0f55b92ef815dd1",
+    "analyze.py": "d2cfa31815d917e042849f684d24388bb1f4eaff1d60f262ddee60ab2189c267",
+    "report.py": "d954fe0064c3ae48025d39f07c5d77a789e78fe7923147caa62b82e049262689",
+    "modeling.py": "a38bf9fa63919444acc672fde7cdf8eb61ea9e0cbcf48d75dd7388734889a0a6",
+    "prepare.py": "000ac9906b2d8c2bd6a5fdcdef4c9e172f22c89eb9d31a980a8cb65e92a862ae",
+    "source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "PROTOCOL.md": "0e268c1adc905d410aa94642008b373126de265e60e00b03abe530ac48f432eb",
+    "models.json": "fa77eccd6775dc044ed92815c65c2ae8547db49e535744dc44ec28817641d306",
+    "BUDGET_PLAN.json": "f3620fcbbb969c04c6d5621d70e763761329c293c3dbd7d4fa1b5b7f79032822",
+    "FORMAL_JOBS.json": "2194e2e692e7c0d59fd4a17db82334f3fe3f8c9b2c033d9072af023749505cfd",
+    "SMOKE_JOBS.json": "e3726e17f15fb1b2456c0165e478ebb2b43c89b976691b46b04a0f7d83d7f242",
+    "REUSE_AUDIT.json": "82082b2b5b264ccbcfa5a0ba8a1f55aa40be147c9162ef8d617b25baf2ea8f3c",
+    "MODEL_IDENTITY_AUDIT.json": "abd21d4cc11d2a401a09d0c38ddeb43163807e12a6de8224cfde1ac6eba205f3",
+    "PRIOR_SHARED_AUDIT.json": "4e33623a0eb26f4f33fd385d8dee0fd16974101826b46ad6a0c3bc9a851d40ce",
+    "SHARED_ALGEBRA_AUDIT.json": "36adcf24e90cd8d45d2c6c321c764b09db1f0b3328ae62bb6adec5e5691d3559",
+    "SOURCE_REUSE.json": "0bee6a0570677b91d50d301db4502cde8dd1112548ebe718a49446d321d32eb8"
+  }
+}

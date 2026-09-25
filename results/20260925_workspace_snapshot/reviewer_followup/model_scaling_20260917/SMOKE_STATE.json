@@ -1,0 +1,24 @@
+{
+  "at": "2026-09-17T16:21:53+08:00",
+  "pending": [],
+  "active": [],
+  "finished": [
+    {
+      "name": "smoke_cluener_qwen25_3b_base_hidden_both",
+      "code": 0
+    },
+    {
+      "name": "smoke_wikisql_qwen25_3b_base_hidden_budget",
+      "code": 0
+    },
+    {
+      "name": "smoke_wikisql_qwen25_7b_base_hidden_budget",
+      "code": 0
+    },
+    {
+      "name": "smoke_cluener_qwen25_7b_base_hidden_both",
+      "code": 0
+    }
+  ],
+  "failed": []
+}

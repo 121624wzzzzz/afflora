@@ -1,0 +1,6 @@
+{
+  "artifacts": "/home/wz/experiment_artifacts/tied_model_expansion_20260923",
+  "checkpoint_path": "/home/wz/experiment_artifacts/tied_model_expansion_20260923/checkpoints",
+  "evaluation_path": "/home/wz/experiment_artifacts/tied_model_expansion_20260923/evaluations",
+  "retention": "Keep initial and final checkpoints. No old results deleted."
+}

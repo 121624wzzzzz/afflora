@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "repo": "Qwen/Qwen3.5-2B-Base",
+  "revision": "b1485b2fa6dfa1287294f269f5fb618e03d52d7c",
+  "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base",
+  "training_stage": "pretrained_base",
+  "distribution": "public Qwen/Qwen3.5-2B-Base on ModelScope; every runtime file verified against official Qwen HF revision",
+  "files": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/LICENSE": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/README.md": "50ca45b87d976d9850de95ad00e76fba77e105c2cdef1093b8e3bb261d9a1787",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/config.json": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/model.safetensors.index.json": "74d2ddfe79f10f35b27b498632f02b97b60dd9ec39b35d7c5a890c399284e319",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/tokenizer.json": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/tokenizer_config.json": "e611fbccc7c29ef3b1cafb1cb7ea548d189968632901d678fd62be68c47885de",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/video_preprocessor_config.json": "d039cd7d88b3502a99edd455496b75b44ecf7dd3b3669748bafac37e6cecc085",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Qwen3.5-2B-Base/model.safetensors-00001-of-00001.safetensors": "928acbf11878c32185bbd863514d191769285065ab9ea14fbfe431303f5fdf2d"
+  },
+  "hidden_size": 2048,
+  "tie_word_embeddings": true,
+  "tying_declaration": "Qwen3.5 text config; checked again by actual parameter pointer at runtime",
+  "bos_token_id": null,
+  "eos_token_id": 248044,
+  "pad_token_id": null
+}

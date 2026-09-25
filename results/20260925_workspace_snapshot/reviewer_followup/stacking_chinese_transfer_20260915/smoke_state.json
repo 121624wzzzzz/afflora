@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-15T11:30:06+08:00",
+  "jobs": {
+    "qwen3_06b_chat_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen3_06b_chat_both_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:22+08:00"
+    },
+    "qwen3_06b_chat_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen3_06b_chat_output_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:22+08:00"
+    },
+    "qwen3_06b_chat_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen3_06b_chat_none_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:21+08:00"
+    },
+    "qwen3_06b_chat_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen3_06b_chat_hidden_budget_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:22+08:00"
+    },
+    "qwen25_15b_chat_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen25_15b_chat_none_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:22+08:00"
+    },
+    "qwen25_15b_chat_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen25_15b_chat_output_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:22+08:00"
+    },
+    "qwen25_15b_chat_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen25_15b_chat_both_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:23+08:00"
+    },
+    "qwen25_15b_chat_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen25_15b_chat_hidden_budget_hr8_sd42.log",
+      "started_at": "2026-09-15T11:30:06+08:00",
+      "completed_at": "2026-09-15T11:30:21+08:00"
+    },
+    "qwen3_06b_chat_none_hr0_base": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen3_06b_chat_none_hr0_base.log",
+      "started_at": "2026-09-15T11:30:21+08:00",
+      "completed_at": "2026-09-15T11:30:30+08:00"
+    },
+    "qwen25_15b_chat_none_hr0_base": {
+      "status": "complete",
+      "gpu": null,
+      "pid": null,
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_chinese_transfer_20260915/logs/smoke.qwen25_15b_chat_none_hr0_base.log",
+      "started_at": "2026-09-15T11:30:21+08:00",
+      "completed_at": "2026-09-15T11:30:30+08:00"
+    }
+  },
+  "scheduler_pid": 2255849,
+  "phase": "complete",
+  "updated_at": "2026-09-15T11:30:30+08:00"
+}

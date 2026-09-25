@@ -1,0 +1,1080 @@
+{
+  "at": "2026-09-24T16:53:48+08:00",
+  "criterion": "mean dev primary over three fixed seeds; ties favor ratio closest to 1",
+  "candidates": [
+    0.015625,
+    0.0625,
+    0.25,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "selection": [
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "cluener",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 0.0625,
+      "dev_scores": {
+        "0.015625": [
+          72.07392197125257,
+          71.02803738317758,
+          72.1102863202545
+        ],
+        "0.0625": [
+          72.01646090534979,
+          71.14788004136504,
+          72.45762711864407
+        ],
+        "0.25": [
+          71.82662538699691,
+          70.94105480868666,
+          72.03389830508475
+        ],
+        "1.0": [
+          70.79463364293086,
+          70.97435897435898,
+          71.29337539432177
+        ],
+        "2.0": [
+          70.70914696813978,
+          72.34927234927235,
+          71.29337539432177
+        ],
+        "4.0": [
+          69.60081883316275,
+          71.32429614181439,
+          71.30801687763713
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "cluener",
+        "affine",
+        "shared",
+        30,
+        true
+      ],
+      "ratio": 1.0,
+      "dev_scores": {
+        "0.015625": [
+          71.53134635149024,
+          70.80745341614907,
+          72.1102863202545
+        ],
+        "0.0625": [
+          70.96114519427402,
+          71.01449275362319,
+          72.78481012658227
+        ],
+        "0.25": [
+          71.04722792607802,
+          70.94105480868666,
+          72.49736564805058
+        ],
+        "1.0": [
+          71.75257731958763,
+          70.98765432098766,
+          72.99893276414087
+        ],
+        "2.0": [
+          69.72477064220183,
+          72.09062821833162,
+          71.76220806794055
+        ],
+        "4.0": [
+          71.77914110429448,
+          71.32579650565262,
+          71.45877378435517
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "cluener",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 0.015625,
+      "dev_scores": {
+        "0.015625": [
+          71.81069958847736,
+          71.90082644628099,
+          73.10924369747899
+        ],
+        "0.0625": [
+          72.03302373581012,
+          71.39917695473251,
+          72.78481012658227
+        ],
+        "0.25": [
+          71.42857142857143,
+          71.19341563786008,
+          72.30443974630022
+        ],
+        "1.0": [
+          71.32579650565262,
+          70.97435897435898,
+          71.57894736842105
+        ],
+        "2.0": [
+          69.92715920915713,
+          70.04132231404958,
+          70.80745341614907
+        ],
+        "4.0": [
+          69.63730569948187,
+          69.52965235173824,
+          69.11764705882354
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "cluener",
+        "vocab",
+        "shared",
+        2,
+        false
+      ],
+      "ratio": 0.0625,
+      "dev_scores": {
+        "0.015625": [
+          72.04968944099379,
+          70.44284243048403,
+          72.9362591431557
+        ],
+        "0.0625": [
+          71.99170124481327,
+          71.07438016528926,
+          73.98119122257053
+        ],
+        "0.25": [
+          71.02803738317758,
+          70.73422957600827,
+          72.42105263157895
+        ],
+        "1.0": [
+          69.31106471816284,
+          68.38842975206612,
+          70.30430220356769
+        ],
+        "2.0": [
+          71.00103199174407,
+          69.65589155370178,
+          71.17212249208025
+        ],
+        "4.0": [
+          67.55373592630501,
+          69.38349007314524,
+          65.95059076262083
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "ratio": 4.0,
+      "dev_scores": {
+        "0.015625": [
+          82.8125,
+          83.59375,
+          82.8125
+        ],
+        "0.0625": [
+          82.03125,
+          83.203125,
+          83.203125
+        ],
+        "0.25": [
+          82.8125,
+          84.375,
+          82.03125
+        ],
+        "1.0": [
+          80.46875,
+          82.421875,
+          80.078125
+        ],
+        "2.0": [
+          82.03125,
+          83.984375,
+          83.203125
+        ],
+        "4.0": [
+          82.8125,
+          86.71875,
+          80.46875
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "affine",
+        "shared",
+        30,
+        true
+      ],
+      "ratio": 2.0,
+      "dev_scores": {
+        "0.015625": [
+          82.421875,
+          83.203125,
+          82.8125
+        ],
+        "0.0625": [
+          81.640625,
+          82.03125,
+          82.8125
+        ],
+        "0.25": [
+          82.8125,
+          82.421875,
+          82.8125
+        ],
+        "1.0": [
+          83.59375,
+          84.375,
+          81.640625
+        ],
+        "2.0": [
+          83.984375,
+          83.203125,
+          83.984375
+        ],
+        "4.0": [
+          82.8125,
+          84.375,
+          80.46875
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "ratio": 2.0,
+      "dev_scores": {
+        "0.015625": [
+          82.421875,
+          85.15625,
+          82.03125
+        ],
+        "0.0625": [
+          83.203125,
+          83.984375,
+          82.421875
+        ],
+        "0.25": [
+          82.421875,
+          83.203125,
+          82.03125
+        ],
+        "1.0": [
+          82.421875,
+          83.203125,
+          82.8125
+        ],
+        "2.0": [
+          82.8125,
+          83.984375,
+          83.203125
+        ],
+        "4.0": [
+          80.859375,
+          80.859375,
+          79.296875
+        ]
+      }
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "vocab",
+        "shared",
+        2,
+        false
+      ],
+      "ratio": 0.25,
+      "dev_scores": {
+        "0.015625": [
+          82.8125,
+          83.203125,
+          83.203125
+        ],
+        "0.0625": [
+          83.203125,
+          84.765625,
+          82.421875
+        ],
+        "0.25": [
+          83.203125,
+          84.375,
+          83.59375
+        ],
+        "1.0": [
+          81.640625,
+          83.59375,
+          82.8125
+        ],
+        "2.0": [
+          80.859375,
+          82.03125,
+          82.8125
+        ],
+        "4.0": [
+          71.484375,
+          73.828125,
+          74.609375
+        ]
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r16_b1_lr1_s406100_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r16_b1_lr1_s406101_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r16_b1_lr1_s406102_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r16_b1_lr1_s406103_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r16_b1_lr1_s406104_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r30_b1_lr1_s406100_selected1",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r30_b1_lr1_s406101_selected1",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r30_b1_lr1_s406102_selected1",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r30_b1_lr1_s406103_selected1",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_affine_shared_r30_b1_lr1_s406104_selected1",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 1.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r1_b0_lr1_s406100_selected0.015625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r1_b0_lr1_s406101_selected0.015625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r1_b0_lr1_s406102_selected0.015625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r1_b0_lr1_s406103_selected0.015625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r1_b0_lr1_s406104_selected0.015625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.015625,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r2_b0_lr1_s406100_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r2_b0_lr1_s406101_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r2_b0_lr1_s406102_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r2_b0_lr1_s406103_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406103,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_cluener_qwen3_4b_base_vocab_shared_r2_b0_lr1_s406104_selected0.0625",
+      "model": "qwen3_4b_base",
+      "task": "cluener",
+      "arm": "hidden",
+      "seed": 406104,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.0625,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s407100_selected4",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s407101_selected4",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s407102_selected4",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s407103_selected4",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s407104_selected4",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 4.0,
+      "expected_total_parameters": 16599552,
+      "expected_boundary_parameters": 84480,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 16,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s407100_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s407101_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s407102_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s407103_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s407104_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16671232,
+      "expected_boundary_parameters": 156160,
+      "method": "affine",
+      "placement": "shared",
+      "rank": 30,
+      "bias": true
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s407100_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s407101_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s407102_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s407103_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s407104_selected2",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 2.0,
+      "expected_total_parameters": 16669568,
+      "expected_boundary_parameters": 154496,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 1,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s407100_selected0.25",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s407101_selected0.25",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s407102_selected0.25",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s407103_selected0.25",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407103,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    },
+    {
+      "name": "confirmation_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s407104_selected0.25",
+      "model": "qwen3_4b_base",
+      "task": "wikisql",
+      "arm": "hidden",
+      "seed": 407104,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false,
+      "stage": "confirmation",
+      "boundary_lr_ratio": 0.25,
+      "expected_total_parameters": 16824064,
+      "expected_boundary_parameters": 308992,
+      "method": "vocab",
+      "placement": "shared",
+      "rank": 2,
+      "bias": false
+    }
+  ]
+}

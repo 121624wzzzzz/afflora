@@ -1,0 +1,272 @@
+{
+  "at": "2026-09-17T20:51:10+08:00",
+  "pending": [],
+  "active": [],
+  "finished": [
+    {
+      "name": "cluener_qwen25_3b_base_base",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "cluener_qwen25_7b_base_base",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_base",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_base",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6100",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6100",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6100",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6100",
+      "code": 0,
+      "existing_complete": true
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7100",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7100",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7100",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6100",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6100",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7100",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7100",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7100",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6101",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6101",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6101",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7101",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6101",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6101",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6101",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7101",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7101",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7101",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7101",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7101",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6102",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6102",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6102",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6102",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7102",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6102",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6102",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7102",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7102",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7102",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7102",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7102",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6103",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6103",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6103",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7103",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6103",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6103",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6103",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7103",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7103",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7103",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7103",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7103",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_s6104",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_budget_s6104",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_s6104",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_3b_base_hidden_both_s6104",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_budget_s6104",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_s7104",
+      "code": 0
+    },
+    {
+      "name": "cluener_qwen25_7b_base_hidden_both_s6104",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_budget_s7104",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_3b_base_hidden_both_s7104",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_s7104",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_budget_s7104",
+      "code": 0
+    },
+    {
+      "name": "wikisql_qwen25_7b_base_hidden_both_s7104",
+      "code": 0
+    }
+  ],
+  "failed": []
+}

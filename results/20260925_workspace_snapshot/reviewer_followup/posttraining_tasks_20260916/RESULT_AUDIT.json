@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-16T17:19:10+08:00",
+  "status": "passed",
+  "source_checks": [
+    {
+      "manifest": "CODE_FROZEN.json",
+      "status": "passed"
+    },
+    {
+      "manifest": "DATA_FROZEN.json",
+      "status": "passed"
+    }
+  ],
+  "response_counts": {
+    "evaluations/pilot_cluener_qwen25_15b_base_base/baseline": 200,
+    "evaluations/pilot_cluener_qwen25_15b_base_hidden/final": 200,
+    "evaluations/pilot_cluener_qwen25_15b_base_hidden/step16": 200,
+    "evaluations/pilot_cluener_qwen3_06b_base_base/baseline": 200,
+    "evaluations/pilot_cluener_qwen3_06b_base_hidden/final": 200,
+    "evaluations/pilot_cluener_qwen3_06b_base_hidden/step16": 200,
+    "evaluations/pilot_toolace_qwen25_15b_base_base/baseline": 200,
+    "evaluations/pilot_toolace_qwen25_15b_base_hidden/final": 200,
+    "evaluations/pilot_toolace_qwen25_15b_base_hidden/step16": 200,
+    "evaluations/pilot_toolace_qwen3_06b_base_base/baseline": 200,
+    "evaluations/pilot_toolace_qwen3_06b_base_hidden/final": 200,
+    "evaluations/pilot_toolace_qwen3_06b_base_hidden/step16": 200
+  },
+  "responses_verified": 2400,
+  "training_runs": [
+    "pilot_cluener_qwen25_15b_base_hidden",
+    "pilot_cluener_qwen3_06b_base_hidden",
+    "pilot_toolace_qwen25_15b_base_hidden",
+    "pilot_toolace_qwen3_06b_base_hidden",
+    "smoke_qwen25_15b_base_hidden_both",
+    "smoke_qwen25_15b_base_hidden_budget",
+    "smoke_qwen3_06b_base_hidden_both",
+    "smoke_qwen3_06b_base_hidden_budget"
+  ]
+}

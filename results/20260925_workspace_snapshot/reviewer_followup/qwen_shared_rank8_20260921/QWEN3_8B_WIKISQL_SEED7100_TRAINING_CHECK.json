@@ -1,0 +1,95 @@
+{
+  "scope": "Descriptive paired training records; online losses are not fixed-checkpoint train-set evaluation and cannot isolate generalization from optimization",
+  "rows": [
+    {
+      "arm": "hidden_input",
+      "rank": 8,
+      "max_grad_norm": 1.872826337814331,
+      "max_online_loss": 0.6904726549983025,
+      "last8_online_loss": 0.0676647505024448,
+      "initial_loss": 0.6904726549983025,
+      "frozen_base_verified": true,
+      "changed_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "historical_hidden_initialization_matched": true
+    },
+    {
+      "arm": "hidden_input",
+      "rank": 16,
+      "max_grad_norm": 1.908585548400879,
+      "max_online_loss": 0.6904726549983025,
+      "last8_online_loss": 0.0656880200986052,
+      "initial_loss": 0.6904726549983025,
+      "frozen_base_verified": true,
+      "changed_groups": {
+        "hidden": true,
+        "input": true,
+        "output": false
+      },
+      "historical_hidden_initialization_matched": null
+    },
+    {
+      "arm": "hidden_output",
+      "rank": 8,
+      "max_grad_norm": 5.528778553009033,
+      "max_online_loss": 0.6904726549983025,
+      "last8_online_loss": 0.06484143089619465,
+      "initial_loss": 0.6904726549983025,
+      "frozen_base_verified": true,
+      "changed_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "historical_hidden_initialization_matched": true
+    },
+    {
+      "arm": "hidden_output",
+      "rank": 16,
+      "max_grad_norm": 10.895939826965332,
+      "max_online_loss": 0.6904726549983025,
+      "last8_online_loss": 0.06441226360038854,
+      "initial_loss": 0.6904726549983025,
+      "frozen_base_verified": true,
+      "changed_groups": {
+        "hidden": true,
+        "input": false,
+        "output": true
+      },
+      "historical_hidden_initialization_matched": null
+    },
+    {
+      "arm": "hidden_both",
+      "rank": 8,
+      "max_grad_norm": 5.6229681968688965,
+      "max_online_loss": 0.6904726549983025,
+      "last8_online_loss": 0.06365333615394775,
+      "initial_loss": 0.6904726549983025,
+      "frozen_base_verified": true,
+      "changed_groups": {
+        "hidden": true,
+        "input": true,
+        "output": true
+      },
+      "historical_hidden_initialization_matched": true
+    },
+    {
+      "arm": "hidden_both",
+      "rank": 16,
+      "max_grad_norm": 10.989218711853027,
+      "max_online_loss": 0.6904726549983025,
+      "last8_online_loss": 0.06559384069987573,
+      "initial_loss": 0.6904726549983025,
+      "frozen_base_verified": true,
+      "changed_groups": {
+        "hidden": true,
+        "input": true,
+        "output": true
+      },
+      "historical_hidden_initialization_matched": null
+    }
+  ]
+}

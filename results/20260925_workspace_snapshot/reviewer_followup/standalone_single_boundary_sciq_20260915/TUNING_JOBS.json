@@ -1,0 +1,110 @@
+[
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen3_06b_chat_input_sd3001_lr5e-05",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen3_06b_chat_input_sd3001_lr5e-05"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen3_06b_chat_input_sd3001_lr0.0002",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen3_06b_chat_input_sd3001_lr0.0002"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen3_06b_chat_input_sd3001_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen3_06b_chat_input_sd3001_lr0.0008"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen3_06b_chat_output_sd3001_lr5e-05",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen3_06b_chat_output_sd3001_lr5e-05"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen3_06b_chat_output_sd3001_lr0.0002",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen3_06b_chat_output_sd3001_lr0.0002"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen3_06b_chat_output_sd3001_lr0.0008",
+    "model": "qwen3_06b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen3_06b_chat_output_sd3001_lr0.0008"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen25_15b_chat_input_sd3001_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen25_15b_chat_input_sd3001_lr5e-05"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen25_15b_chat_input_sd3001_lr0.0002",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen25_15b_chat_input_sd3001_lr0.0002"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen25_15b_chat_input_sd3001_lr0.0008",
+    "model": "qwen25_15b_chat",
+    "arm": "input",
+    "seed": 3001,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen25_15b_chat_input_sd3001_lr0.0008"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen25_15b_chat_output_sd3001_lr5e-05",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen25_15b_chat_output_sd3001_lr5e-05"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen25_15b_chat_output_sd3001_lr0.0002",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 0.0002,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen25_15b_chat_output_sd3001_lr0.0002"
+  },
+  {
+    "phase": "tuning",
+    "name": "tuning_qwen25_15b_chat_output_sd3001_lr0.0008",
+    "model": "qwen25_15b_chat",
+    "arm": "output",
+    "seed": 3001,
+    "lr": 0.0008,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/tuning_qwen25_15b_chat_output_sd3001_lr0.0008"
+  }
+]

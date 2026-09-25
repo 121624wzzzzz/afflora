@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-17T17:08:54.616169+00:00",
+  "files": {
+    "coverage_scheduler_v3.py": "cb14ae012bd1fd32064c48db4b72db311c6f2943576bc1af814740fc398ca08d",
+    "handoff_coverage_v3.py": "60860eaea2ed57b8c305391bf56472a8e11ebf2ac231271340e8bf9edf12b4c3",
+    "COVERAGE_AMENDMENT_V3.json": "03802c8845ee1925173d96ab1b1e7aff07e5c5462549bca1e4a352391eb3f4a7",
+    "STATE_COVERAGE_REVIEW_V3.json": "d21f0b220ff8ec57a298ad0d8ccb41f97a9f2a0f9c99d284ff84214737da5cd1",
+    "STATE_HANDOFF_PRE_V3.json": "84c0bea4c7831c160906f16ff071ca92c10eb6ad0c2fc982b3ec3f844b65118a",
+    "HANDOFF_PROCESS_PROOF_V3.json": "a529591d750e854b0bf3edcd9d155c2622e04ceeb61098f47f692018229888c5"
+  }
+}

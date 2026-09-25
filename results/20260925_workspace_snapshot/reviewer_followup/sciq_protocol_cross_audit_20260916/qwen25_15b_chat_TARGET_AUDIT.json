@@ -1,0 +1,11 @@
+{
+  "model": "qwen25_15b_chat",
+  "examples": 8,
+  "supervised_tokens_per_example": 2,
+  "targets": "answer letter, native source-study end token",
+  "native_hf_shifted_loss": 2.391543388366699,
+  "two_position_loss": 2.39154314994812,
+  "abs_loss_error": 2.384185791015625e-07,
+  "standard_shift_check_passed": true,
+  "eos_id": 151645
+}

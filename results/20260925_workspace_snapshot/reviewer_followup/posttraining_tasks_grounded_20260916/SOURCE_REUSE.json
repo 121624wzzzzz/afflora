@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-16T17:10:19.515185+08:00",
+  "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/posttraining_tasks_20260916",
+  "files": {
+    "common.py": "b34d9a3ddb8334f5779b84ac1527e446d5b9c9201f2fcab8d49aa4969ae85f68",
+    "modeling.py": "0afd05e07f58098e40137f747aa3f086baeac37eb677cd229555d58dc02e92b8",
+    "run.py": "65890f2b559bf401c9e4155dbd78dd5c33d10e454003815f9f3e40b8dfe88f34",
+    "scoring.py": "184cc351326d78bab881b6b4c6c4879fe1f5372200272b94e4e30401792ffbf3",
+    "models.json": "264951df8029ffa98c749e7e4c7cee030fffe8fd33de27b70bec85c7bf934330",
+    "source/affine_adapter.py": "ccb5231842a4714b8b6340465e934c354180754d8cc083b793e2925e961aa805",
+    "source/budget.py": "dbb0703debf92b3b6a9215c8c961235cb444fad9bafd1f4171985ed48bc4bc80",
+    "monitor.py": "0e4845b24dc567ad5a3691012369191e187318fb886bc5f680718126a3740797",
+    "audit_results.py": "1e65418c8f0db99adbdb5e9d64b3b2fc3b5005a0f6eb1fecb75100185ec1b8b9",
+    "analyze.py": "893dd5a9fe76979b2c8268345d05367b4d3ce2134951af117b554db1ecb371a4",
+    "adapter_pipeline.py": "2a8a928ddbe06b95622354852f876fc33a77dcb5f7123a77f23c1fc5cfa34e53",
+    "pipeline.py": "765b80f407302e35e73a9878353cc28e006cf3f3ba26263560472be4acd6cd76",
+    "ADAPTER_PILOT_PROTOCOL.json": "e9ed80c407f1b3c5d2403f8e1dad349d4bc0db7ef3a2f7b0c8be2f659c51dbbc",
+    "PILOT_PROTOCOL.json": "5d7f7333fb71c204f97fdfb44bd7a49dee85a59387a54765b6c983e473b9f574"
+  },
+  "fitted_adapters_reused": false,
+  "reason": "A new version with literal-grounded positive tool calls and entity occurrence alignment; all V1 outputs retained."
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-09-17T17:19:47+08:00",
+  "status": "recorded_before_resumption",
+  "previous_scheduler_pid": 2215207,
+  "new_scheduler_sha256": "faadb8b0334afae7dcdebeefcf442666287f5b487d5088b98c77048dbac41abc",
+  "code_manifest_sha256": "92e3d1374a89e18ea9631b6f8adf319fb2a38e10ea240b344eee841c7865c51e",
+  "data_manifest_sha256": "3951b884f72b6fd0135f5ad2ccfe41c88e3a651e933e67bf5780fc6de3feb21b",
+  "completed_formal_jobs": 8,
+  "pending_formal_jobs": 56,
+  "active_workers_at_shutdown": [],
+  "gpu_pool": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "minimum_free_memory_before_launch_MiB": 49152,
+  "resource_snapshot_index_totalMiB_usedMiB_utilization": "0, 81920, 65337, 99\n1, 81920, 5031, 100\n2, 81920, 4865, 100\n3, 81920, 3725, 100\n4, 81920, 4255, 100\n5, 81920, 3718, 100\n6, 81920, 4272, 100\n7, 81920, 34423, 100\n",
+  "reason": "Resource admission only: original five GPUs are now shared; frozen fitting, scoring, and statistics unchanged."
+}

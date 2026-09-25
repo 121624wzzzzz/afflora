@@ -1,0 +1,123 @@
+{
+  "status": "complete",
+  "checked_at": "2026-09-15T16:34:07+08:00",
+  "scope": "Post-hoc descriptive sensitivity only; full fixed-256-token scores remain the reported experiment results. No new generations.",
+  "capped_outputs": [
+    {
+      "job": "qwen3_06b_chat_none_hr8_sd1003",
+      "id": "DEV_28_QUERY_2",
+      "em": 0,
+      "f1": 0.02826855123674912,
+      "response_prefix": "沼鹿的繁殖期是在9月至4月，妊娠期为240-250日。每胎会产一只幼鹿。饲养的沼鹿寿命可达23岁。在中央邦，群族内雄鹿与雌鹿的比例是2:1。平均成员数量为8-20头，最多可达60头"
+    },
+    {
+      "job": "qwen3_06b_chat_none_hr8_sd1003",
+      "id": "DEV_503_QUERY_3",
+      "em": 0,
+      "f1": 0.018518518518518517,
+      "response_prefix": "荨麻所含的毒性组成上没有完全研究确定，大部分荨麻种类中含有蚁酸、色胺和组胺，但根据最新研究证明咬人荨麻（\"Urtica thunbergiana\"）中还含有草酸和酒石酸 (Fu e"
+    },
+    {
+      "job": "qwen3_06b_chat_both_hr8_sd1003",
+      "id": "DEV_503_QUERY_3",
+      "em": 0,
+      "f1": 0.018518518518518517,
+      "response_prefix": "荨麻所含的毒性组成上没有完全研究确定，大部分荨麻种类中含有蚁酸、色胺和组胺，但根据最新研究证明咬人荨麻（\"Urtica thunbergiana\"）中还含有草酸和酒石酸 (Fu e"
+    },
+    {
+      "job": "qwen3_06b_chat_hidden_budget_hr8_sd1003",
+      "id": "DEV_28_QUERY_2",
+      "em": 0,
+      "f1": 0.02826855123674912,
+      "response_prefix": "沼鹿的繁殖期是在9月至4月，妊娠期为240-250日。每胎会产一只幼鹿。饲养的沼鹿寿命可达23岁。在中央邦，群族内雄鹿与雌鹿的比例是2:1。平均成员数量为8-20头，最多可达60头"
+    },
+    {
+      "job": "qwen3_06b_chat_hidden_budget_hr8_sd1003",
+      "id": "DEV_503_QUERY_3",
+      "em": 0,
+      "f1": 0.018518518518518517,
+      "response_prefix": "荨麻所含的毒性组成上没有完全研究确定，大部分荨麻种类中含有蚁酸、色胺和组胺，但根据最新研究证明咬人荨麻（\"Urtica thunbergiana\"）中还含有草酸和酒石酸 (Fu e"
+    },
+    {
+      "job": "qwen3_06b_chat_none_hr8_sd1005",
+      "id": "DEV_28_QUERY_2",
+      "em": 0,
+      "f1": 0.02826855123674912,
+      "response_prefix": "沼鹿的繁殖期是在9月至4月，妊娠期为240-250日。每胎会产一只幼鹿。饲养的沼鹿寿命可达23岁。在中央邦，群族内雄鹿与雌鹿的比例是2:1。平均成员数量为8-20头，最多可达60头"
+    }
+  ],
+  "sensitivity": [
+    {
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "omitted_seed_question_pairs": 3,
+      "mean_deltas_without_any_paired_cap": {
+        "em": 0.0021130945239021858,
+        "f1": 0.0018646979017253027,
+        "avg": 0.0019888962128137436
+      }
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "omitted_seed_question_pairs": 2,
+      "mean_deltas_without_any_paired_cap": {
+        "em": 0.0024859005189790994,
+        "f1": 0.002041695059730219,
+        "avg": 0.002263797789354659
+      }
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "omitted_seed_question_pairs": 0,
+      "mean_deltas_without_any_paired_cap": {
+        "em": -0.0025473749611680642,
+        "f1": 0.0002976400968660936,
+        "avg": -0.0011248674321509855
+      }
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "omitted_seed_question_pairs": 0,
+      "mean_deltas_without_any_paired_cap": {
+        "em": -0.00260950605778192,
+        "f1": 0.000620448447032098,
+        "avg": -0.000994528805374911
+      }
+    }
+  ],
+  "sources_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1001/generation.jsonl": "c98073230b6694618abbc34a302170f5d91ebdcbf7e1cf545a5ec73c5699ba81",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1001/generation.jsonl": "6801c8906f136deff25a54a72d5cad46c6fb6c28a15000a423ec2b5cb83e2c33",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1001/generation.jsonl": "684216d2c98f0bd32e343d17ad12609184f6473ca474bd63fcd863ed0ee24ebc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1001/generation.jsonl": "ce1fad2cc7ad01bbaca3049496913c0b52f5e05726a6237d50551ef4a2728edd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1001/generation.jsonl": "b56dfdf26e6822f9f8130166fada1a46295d63ebd019773fd247e5bbceb5a5a5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1001/generation.jsonl": "065e9f427803a69060af9c8b594cebbc2d01480f3a581740a84e7900960a060c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1002/generation.jsonl": "8289b6067b3e0b333975eca5c063080f234ff34404a6b19601657b8f63ee2416",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1002/generation.jsonl": "047e74afc7140448a5e39cca0c1a644e2d52304f179af470f8ac1ea00e858bec",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1002/generation.jsonl": "363e12767e44cd8a511b3cd75effc5d1b51b051b83e2c9c5a20075d00d167505",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1002/generation.jsonl": "0db97a27099635c7aa66d6e44f3f18c67c0c1c3088359a380a14979c13b57558",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1002/generation.jsonl": "744d5e3965c67cfa3c667cb9deee27aad03ae71fc2e9ced47f7cdaecfa104974",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1002/generation.jsonl": "4fdb020268aecc893a36cb93b38047c2b05a7cdc5b28b3a26db81583fc780bdc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1003/generation.jsonl": "9f8fdd12db53d8fbea8bee0f55434b8ea27c6af94efd0a08929ca7e911e5f78c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1003/generation.jsonl": "cbba9f54c1997d928dade0afc2219261f8f406afeca113c6cd37cd506739de60",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1003/generation.jsonl": "2c6dd216d11f00cf695c8ef0097742946b2ed9e28812132295ef9a25a4b15557",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1003/generation.jsonl": "d9949bd5fee14a3760fa77fd86b7dc15b3ead42030649ad0341f6dc05dd2ccea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1003/generation.jsonl": "9981874ec53102138e4f31445291104efb3d9c688de285fd3463dfdb95f62888",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1003/generation.jsonl": "7ff392a361a22714d69a4b1fa6a1146109f7741d695c329d1a0c7d03cd22eefe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1004/generation.jsonl": "7ed6f28a1288fa95a040a9e5068792306eef1788acd7d0367259c53bb6dcbb06",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1004/generation.jsonl": "c4999b1b39f3793826f49980aee72326a0775765897c3b6051d10d2aa47b1696",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1004/generation.jsonl": "e46c138c96951a5858a294c7ed3df0300d8b7545add257254b3cf8656de18ceb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1004/generation.jsonl": "294108eb1966ef528bd70f9aea447af1c0cbfd34435045f46d48f0dab6adf999",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1004/generation.jsonl": "b6d5be506ddd864a2a6041f211f013b2967d033680ae44aacc4a7ba467b0a8b8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1004/generation.jsonl": "64d6b785bc490fbbbf17b6352e5fda599708fa5f17c738d643eb0ed6507bd368",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1005/generation.jsonl": "cfaccc4302522b96ee6494ed2cc48f4bc3573659aac0a25ebd15fd64239b17e4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1005/generation.jsonl": "913682ad3c189e17d3d8d8cf978b5f95e9c3cd9e0351d9fcd49108872772236a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1005/generation.jsonl": "49c40aa93ffe20fd08e8dda845dc749a9de88c4e0c6b01b9af4790925b06a314",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1005/generation.jsonl": "bb6621ba26f586c5133c55ef069cd1fceb5bdc316973bbb41f8a0ad5083a54ad",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1005/generation.jsonl": "674f1bb9ed51cb59389c2cf9a82a62ab6e2801ff130bc09ce782064e9c48b89a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1005/generation.jsonl": "c5609498aa171e1f1e1809c3badd17840a035ca193a08918f14de19158185ba3"
+  }
+}

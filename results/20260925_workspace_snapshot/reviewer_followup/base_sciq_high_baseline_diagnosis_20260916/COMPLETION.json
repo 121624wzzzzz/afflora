@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-16T14:37:47+08:00",
+  "status": "complete",
+  "scope": "read-only post-hoc diagnosis of high SciQ Base accuracy",
+  "training_jobs": 0,
+  "inference_conditions": 6,
+  "prediction_rows": 6000,
+  "source_sealed_files_reverified": 700,
+  "report": "INTERPRETATION_ZH.md",
+  "audit": "AUDIT.json"
+}

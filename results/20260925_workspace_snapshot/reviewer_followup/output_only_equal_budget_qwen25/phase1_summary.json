@@ -1,0 +1,170 @@
+{
+  "experiment": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25",
+  "selection_protocol": {
+    "split": "corrected dev",
+    "seed": 42,
+    "candidate_scales": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "criterion": "minimum token-weighted dev cross-entropy per method",
+    "tie_break": "smaller scale",
+    "test_used_for_selection": false
+  },
+  "validation": {
+    "status": "passed",
+    "runs_validated": 8,
+    "paired_dev_examples": 1000,
+    "paired_supervised_tokens": 267252,
+    "boundary_parameter_difference_aff_minus_vocab": 128
+  },
+  "methods": {
+    "aff_r50": {
+      "label": "output-only A-LoRA r50",
+      "runs": [
+        {
+          "scale": 1,
+          "alpha": 50,
+          "rank": 50,
+          "run_name": "qwen25_15b_out_aff_r50_s1_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s1_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s1_sd42/dev_report.json",
+          "dev_avg_ce": 1.1103085889044502,
+          "dev_perplexity": 3.0352949082597793,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600
+        },
+        {
+          "scale": 2,
+          "alpha": 100,
+          "rank": 50,
+          "run_name": "qwen25_15b_out_aff_r50_s2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s2_sd42/dev_report.json",
+          "dev_avg_ce": 1.1088786864850582,
+          "dev_perplexity": 3.030957834262164,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600
+        },
+        {
+          "scale": 4,
+          "alpha": 200,
+          "rank": 50,
+          "run_name": "qwen25_15b_out_aff_r50_s4_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s4_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s4_sd42/dev_report.json",
+          "dev_avg_ce": 1.1064526841599542,
+          "dev_perplexity": 3.0236136356324432,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600
+        },
+        {
+          "scale": 8,
+          "alpha": 400,
+          "rank": 50,
+          "run_name": "qwen25_15b_out_aff_r50_s8_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_sd42/dev_report.json",
+          "dev_avg_ce": 1.1034065319977828,
+          "dev_perplexity": 3.0144172623060643,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600
+        }
+      ],
+      "selected": {
+        "scale": 8,
+        "alpha": 400,
+        "rank": 50,
+        "run_name": "qwen25_15b_out_aff_r50_s8_sd42",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_sd42",
+        "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_sd42/dev_report.json",
+        "dev_avg_ce": 1.1034065319977828,
+        "dev_perplexity": 3.0144172623060643,
+        "dev_supervised_tokens": 267252,
+        "trainable_parameters": 9385984,
+        "boundary_parameters": 153600
+      }
+    },
+    "vocab_r1": {
+      "label": "output-only Vocab-LoRA r1",
+      "runs": [
+        {
+          "scale": 1,
+          "alpha": 1,
+          "rank": 1,
+          "run_name": "qwen25_15b_out_vocab_r1_s1_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s1_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s1_sd42/dev_report.json",
+          "dev_avg_ce": 1.0064380237892856,
+          "dev_perplexity": 2.73583864650133,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472
+        },
+        {
+          "scale": 2,
+          "alpha": 2,
+          "rank": 1,
+          "run_name": "qwen25_15b_out_vocab_r1_s2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s2_sd42/dev_report.json",
+          "dev_avg_ce": 1.0061065504990674,
+          "dev_perplexity": 2.734931939346572,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472
+        },
+        {
+          "scale": 4,
+          "alpha": 4,
+          "rank": 1,
+          "run_name": "qwen25_15b_out_vocab_r1_s4_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s4_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s4_sd42/dev_report.json",
+          "dev_avg_ce": 1.005487837996343,
+          "dev_perplexity": 2.7332403261266855,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472
+        },
+        {
+          "scale": 8,
+          "alpha": 8,
+          "rank": 1,
+          "run_name": "qwen25_15b_out_vocab_r1_s8_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_sd42/dev_report.json",
+          "dev_avg_ce": 1.0045938187896748,
+          "dev_perplexity": 2.7307978487522138,
+          "dev_supervised_tokens": 267252,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472
+        }
+      ],
+      "selected": {
+        "scale": 8,
+        "alpha": 8,
+        "rank": 1,
+        "run_name": "qwen25_15b_out_vocab_r1_s8_sd42",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_sd42",
+        "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_sd42/dev_report.json",
+        "dev_avg_ce": 1.0045938187896748,
+        "dev_perplexity": 2.7307978487522138,
+        "dev_supervised_tokens": 267252,
+        "trainable_parameters": 9385856,
+        "boundary_parameters": 153472
+      }
+    }
+  },
+  "selected_scales": {
+    "aff_r50": 8,
+    "vocab_r1": 8
+  },
+  "selected_dev_delta_ce_aff_minus_vocab": 0.09881271320810803
+}

@@ -1,0 +1,34 @@
+{
+  "qwen3_06b_chat": {
+    "cmrc": {
+      "questions": 3219,
+      "max_prompt_tokens": 914,
+      "max_answer_tokens": 71,
+      "max_total_tokens": 1170,
+      "truncation_needed": false
+    },
+    "c3": {
+      "questions": 3892,
+      "max_prompt_tokens": 812,
+      "max_answer_tokens": 27,
+      "max_total_tokens": 818,
+      "truncation_needed": false
+    }
+  },
+  "qwen25_15b_chat": {
+    "cmrc": {
+      "questions": 3219,
+      "max_prompt_tokens": 931,
+      "max_answer_tokens": 71,
+      "max_total_tokens": 1187,
+      "truncation_needed": false
+    },
+    "c3": {
+      "questions": 3892,
+      "max_prompt_tokens": 829,
+      "max_answer_tokens": 27,
+      "max_total_tokens": 835,
+      "truncation_needed": false
+    }
+  }
+}

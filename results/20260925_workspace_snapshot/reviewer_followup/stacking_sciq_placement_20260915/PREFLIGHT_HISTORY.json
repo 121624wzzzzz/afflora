@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T16:57:21+08:00",
+  "changes_before_any_formal_training": [
+    "Official HF download initially failed through environment proxy; direct TLS with proxies removed succeeded at pinned official revision.",
+    "Data audit discovered duplicated options. Removed 14 ambiguous-gold training rows and predesignated 998 unambiguous test questions as primary; full1000 retained as supporting.",
+    "Explicit return_dict=False added after native template preflight caught Transformers returning BatchEncoding rather than token lists.",
+    "19 train rows overlapping normalized validation/test questions removed; 11646 training rows retained. No model evaluation scores used for any data exclusion."
+  ]
+}

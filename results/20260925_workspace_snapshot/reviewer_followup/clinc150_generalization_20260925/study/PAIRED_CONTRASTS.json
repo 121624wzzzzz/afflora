@@ -1,0 +1,130 @@
+{
+  "at": "2026-09-25T01:29:02+08:00",
+  "note": "Only complete paired five-seed cells. Holm appears only when the entire prespecified family is complete.",
+  "contrasts": [
+    {
+      "stage": "confirmation",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "907100",
+        "907101",
+        "907102",
+        "907103",
+        "907104"
+      ],
+      "differences": [
+        1.2666666666666657,
+        0.8888888888888999,
+        2.422222222222217,
+        0.022222222222225696,
+        2.6666666666666714
+      ],
+      "mean": 1.453333333333336,
+      "ci95": [
+        0.09139652384040553,
+        2.8152701428262663
+      ],
+      "p_unadjusted": 0.04144050961328082,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.08288101922656164
+    },
+    {
+      "stage": "confirmation",
+      "model": "qwen3_06b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "907100",
+        "907101",
+        "907102",
+        "907103",
+        "907104"
+      ],
+      "differences": [
+        1.0222222222222115,
+        0.24444444444445423,
+        0.86666666666666,
+        0.08888888888888857,
+        1.1111111111111143
+      ],
+      "mean": 0.6666666666666657,
+      "ci95": [
+        0.08558337591681353,
+        1.2477499574165178
+      ],
+      "p_unadjusted": 0.03336356880577388,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.03336356880577388
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "ordinary",
+      "affine_rank": 16,
+      "seeds": [
+        "907100",
+        "907101",
+        "907102",
+        "907103",
+        "907104"
+      ],
+      "differences": [
+        0.7111111111111228,
+        0.9111111111111114,
+        -0.13333333333332575,
+        0.04444444444445139,
+        1.0222222222222115
+      ],
+      "mean": 0.5111111111111143,
+      "ci95": [
+        -0.13833999022428634,
+        1.160562212446515
+      ],
+      "p_unadjusted": 0.09421320410661539,
+      "positive": 4,
+      "negative": 1,
+      "p_holm": 0.09421320410661539
+    },
+    {
+      "stage": "confirmation",
+      "model": "llama32_1b_base",
+      "task": "clinc150",
+      "placement": "shared",
+      "comparison": "hidden",
+      "affine_rank": 16,
+      "seeds": [
+        "907100",
+        "907101",
+        "907102",
+        "907103",
+        "907104"
+      ],
+      "differences": [
+        1.3333333333333428,
+        0.9777777777777743,
+        0.5777777777777828,
+        0.8222222222222229,
+        1.5111111111111057
+      ],
+      "mean": 1.0444444444444456,
+      "ci95": [
+        0.574560534176161,
+        1.5143283547127302
+      ],
+      "p_unadjusted": 0.0035008861461070105,
+      "positive": 5,
+      "negative": 0,
+      "p_holm": 0.007001772292214021
+    }
+  ]
+}

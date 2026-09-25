@@ -1,0 +1,2206 @@
+{
+  "jobs": {
+    "smoke_qwen3_06b_none_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen3_06b_none_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen3_06b_none_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen3_06b_none_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:43:55+08:00"
+    },
+    "smoke_qwen3_06b_output_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen3_06b_output_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen3_06b_output_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen3_06b_output_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:43:55+08:00"
+    },
+    "smoke_qwen3_06b_both_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen3_06b_both_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen3_06b_both_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen3_06b_both_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:43:56+08:00"
+    },
+    "smoke_qwen3_06b_hidden_budget_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen3_06b_hidden_budget_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen3_06b_hidden_budget_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen3_06b_hidden_budget_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:43:55+08:00"
+    },
+    "smoke_qwen25_7b_none_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen25_7b_none_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen25_7b_none_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen25_7b_none_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:44:01+08:00"
+    },
+    "smoke_qwen25_7b_output_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen25_7b_output_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen25_7b_output_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen25_7b_output_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:44:01+08:00"
+    },
+    "smoke_qwen25_7b_both_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen25_7b_both_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen25_7b_both_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen25_7b_both_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:44:01+08:00"
+    },
+    "smoke_qwen25_7b_hidden_budget_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/smoke_qwen25_7b_hidden_budget_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/smoke_qwen25_7b_hidden_budget_hr64_sd42",
+        "--batch-size",
+        "8",
+        "--limit",
+        "8",
+        "--max-new-tokens",
+        "32"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/smoke_qwen25_7b_hidden_budget_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T11:44:12+08:00"
+    },
+    "qwen25_7b_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T13:18:05+08:00"
+    },
+    "qwen3_06b_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_none_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:11:31+08:00"
+    },
+    "qwen3_06b_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:09:59+08:00"
+    },
+    "qwen25_7b_none_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_none_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:08:23+08:00"
+    },
+    "qwen25_7b_output_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:08:37+08:00"
+    },
+    "qwen3_06b_both_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:14:46+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:15:09+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr8_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr8_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr8_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr8_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T13:42:16+08:00"
+    },
+    "qwen3_06b_none_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:58:20+08:00"
+    },
+    "qwen3_06b_output_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T12:59:23+08:00"
+    },
+    "qwen3_06b_both_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T13:00:56+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T13:11:54+08:00"
+    },
+    "qwen25_7b_none_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T13:48:38+08:00"
+    },
+    "qwen25_7b_output_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:33:06+08:00"
+    },
+    "qwen25_7b_both_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:33:19+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr32_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr32_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr32_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr32_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:34:54+08:00"
+    },
+    "qwen3_06b_none_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T13:51:13+08:00"
+    },
+    "qwen3_06b_output_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:07:00+08:00"
+    },
+    "qwen3_06b_both_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:09:27+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:32:58+08:00"
+    },
+    "qwen25_7b_none_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:22:44+08:00"
+    },
+    "qwen25_7b_output_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:26:15+08:00"
+    },
+    "qwen25_7b_both_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:41:25+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr64_sd42": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr64_sd42",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr64_sd42",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr64_sd42.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:44:32+08:00"
+    },
+    "qwen3_06b_none_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_none_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:58:09+08:00"
+    },
+    "qwen3_06b_output_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T14:58:31+08:00"
+    },
+    "qwen3_06b_both_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:22:37+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:23:53+08:00"
+    },
+    "qwen25_7b_none_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_none_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:21:47+08:00"
+    },
+    "qwen25_7b_output_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T15:22:23+08:00"
+    },
+    "qwen25_7b_both_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T16:54:52+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr8_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr8_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr8_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr8_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T16:55:52+08:00"
+    },
+    "qwen3_06b_none_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T16:13:07+08:00"
+    },
+    "qwen3_06b_output_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T16:11:21+08:00"
+    },
+    "qwen3_06b_both_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T16:13:00+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T16:15:05+08:00"
+    },
+    "qwen25_7b_none_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:14:31+08:00"
+    },
+    "qwen25_7b_output_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:18:00+08:00"
+    },
+    "qwen25_7b_both_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:46:04+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr32_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr32_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr32_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr32_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:46:59+08:00"
+    },
+    "qwen3_06b_none_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:01:35+08:00"
+    },
+    "qwen3_06b_output_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:03:46+08:00"
+    },
+    "qwen3_06b_both_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:44:05+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T17:44:38+08:00"
+    },
+    "qwen25_7b_none_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:36:12+08:00"
+    },
+    "qwen25_7b_output_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:38:51+08:00"
+    },
+    "qwen25_7b_both_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:49:01+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr64_sd43": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr64_sd43",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr64_sd43",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr64_sd43.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:54:03+08:00"
+    },
+    "qwen3_06b_none_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_none_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:08:59+08:00"
+    },
+    "qwen3_06b_output_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:11:02+08:00"
+    },
+    "qwen3_06b_both_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:35:06+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:36:20+08:00"
+    },
+    "qwen25_7b_none_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_none_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:32:32+08:00"
+    },
+    "qwen25_7b_output_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T18:35:15+08:00"
+    },
+    "qwen25_7b_both_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:05:22+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr8_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr8_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr8_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr8_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:08:32+08:00"
+    },
+    "qwen3_06b_none_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T19:25:23+08:00"
+    },
+    "qwen3_06b_output_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T19:25:04+08:00"
+    },
+    "qwen3_06b_both_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T19:26:14+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T19:29:10+08:00"
+    },
+    "qwen25_7b_none_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:22:13+08:00"
+    },
+    "qwen25_7b_output_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:33:08+08:00"
+    },
+    "qwen25_7b_both_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:59:01+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr32_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr32_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr32_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr32_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T21:04:23+08:00"
+    },
+    "qwen3_06b_none_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_none_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_none_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:15:36+08:00"
+    },
+    "qwen3_06b_output_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_output_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_output_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:19:40+08:00"
+    },
+    "qwen3_06b_both_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_both_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_both_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:54:45+08:00"
+    },
+    "qwen3_06b_hidden_budget_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen3_06b_hidden_budget_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen3_06b_hidden_budget_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T20:58:21+08:00"
+    },
+    "qwen25_7b_none_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_none_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_none_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T21:50:23+08:00"
+    },
+    "qwen25_7b_output_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_output_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_output_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T21:58:05+08:00"
+    },
+    "qwen25_7b_both_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_both_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_both_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T21:56:24+08:00"
+    },
+    "qwen25_7b_hidden_budget_hr64_sd44": {
+      "status": "complete",
+      "gpu": null,
+      "command": [
+        "/home/wz/anaconda3/envs/torch24/bin/python",
+        "-u",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/evaluate_generation.py",
+        "--run-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr64_sd44",
+        "--output-dir",
+        "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/ifeval/qwen25_7b_hidden_budget_hr64_sd44",
+        "--batch-size",
+        "8"
+      ],
+      "log": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/logs/qwen25_7b_hidden_budget_hr64_sd44.ifeval.log",
+      "pid": null,
+      "completed_at": "2026-09-14T22:11:57+08:00"
+    }
+  },
+  "phase": "complete",
+  "prior_attempt": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/protocol_history/generation_without_native_stop",
+  "matrix": [
+    {
+      "name": "qwen3_06b_none_hr8_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_none_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_output_hr8_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_both_hr8_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr8_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr8_sd42"
+    },
+    {
+      "name": "qwen25_7b_none_hr8_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_none_hr8_sd42"
+    },
+    {
+      "name": "qwen25_7b_output_hr8_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr8_sd42"
+    },
+    {
+      "name": "qwen25_7b_both_hr8_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr8_sd42"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr8_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr8_sd42"
+    },
+    {
+      "name": "qwen3_06b_none_hr32_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr32_sd42"
+    },
+    {
+      "name": "qwen3_06b_output_hr32_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr32_sd42"
+    },
+    {
+      "name": "qwen3_06b_both_hr32_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr32_sd42"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr32_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr32_sd42"
+    },
+    {
+      "name": "qwen25_7b_none_hr32_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr32_sd42"
+    },
+    {
+      "name": "qwen25_7b_output_hr32_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr32_sd42"
+    },
+    {
+      "name": "qwen25_7b_both_hr32_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr32_sd42"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr32_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr32_sd42"
+    },
+    {
+      "name": "qwen3_06b_none_hr64_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr64_sd42"
+    },
+    {
+      "name": "qwen3_06b_output_hr64_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr64_sd42"
+    },
+    {
+      "name": "qwen3_06b_both_hr64_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr64_sd42"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr64_sd42",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr64_sd42"
+    },
+    {
+      "name": "qwen25_7b_none_hr64_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "none",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr64_sd42"
+    },
+    {
+      "name": "qwen25_7b_output_hr64_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "output",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr64_sd42"
+    },
+    {
+      "name": "qwen25_7b_both_hr64_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "both",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr64_sd42"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr64_sd42",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "hidden_budget",
+      "seed": 42,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr64_sd42"
+    },
+    {
+      "name": "qwen3_06b_none_hr8_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_none_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_output_hr8_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_both_hr8_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr8_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr8_sd43"
+    },
+    {
+      "name": "qwen25_7b_none_hr8_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_none_hr8_sd43"
+    },
+    {
+      "name": "qwen25_7b_output_hr8_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr8_sd43"
+    },
+    {
+      "name": "qwen25_7b_both_hr8_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr8_sd43"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr8_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr8_sd43"
+    },
+    {
+      "name": "qwen3_06b_none_hr32_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr32_sd43"
+    },
+    {
+      "name": "qwen3_06b_output_hr32_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr32_sd43"
+    },
+    {
+      "name": "qwen3_06b_both_hr32_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr32_sd43"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr32_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr32_sd43"
+    },
+    {
+      "name": "qwen25_7b_none_hr32_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr32_sd43"
+    },
+    {
+      "name": "qwen25_7b_output_hr32_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr32_sd43"
+    },
+    {
+      "name": "qwen25_7b_both_hr32_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr32_sd43"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr32_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr32_sd43"
+    },
+    {
+      "name": "qwen3_06b_none_hr64_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr64_sd43"
+    },
+    {
+      "name": "qwen3_06b_output_hr64_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr64_sd43"
+    },
+    {
+      "name": "qwen3_06b_both_hr64_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr64_sd43"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr64_sd43",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr64_sd43"
+    },
+    {
+      "name": "qwen25_7b_none_hr64_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "none",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr64_sd43"
+    },
+    {
+      "name": "qwen25_7b_output_hr64_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "output",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr64_sd43"
+    },
+    {
+      "name": "qwen25_7b_both_hr64_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "both",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr64_sd43"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr64_sd43",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "hidden_budget",
+      "seed": 43,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr64_sd43"
+    },
+    {
+      "name": "qwen3_06b_none_hr8_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_none_hr8_sd44"
+    },
+    {
+      "name": "qwen3_06b_output_hr8_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen3_06b_output_hr8_sd44"
+    },
+    {
+      "name": "qwen3_06b_both_hr8_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr8_sd44"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr8_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr8_sd44"
+    },
+    {
+      "name": "qwen25_7b_none_hr8_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_none_hr8_sd44"
+    },
+    {
+      "name": "qwen25_7b_output_hr8_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "reuse": true,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/placement_capacity_corrected_20260911/checkpoints/qwen25_7b_output_hr8_sd44"
+    },
+    {
+      "name": "qwen25_7b_both_hr8_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr8_sd44"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr8_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 8,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr8_sd44"
+    },
+    {
+      "name": "qwen3_06b_none_hr32_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr32_sd44"
+    },
+    {
+      "name": "qwen3_06b_output_hr32_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr32_sd44"
+    },
+    {
+      "name": "qwen3_06b_both_hr32_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr32_sd44"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr32_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 32,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr32_sd44"
+    },
+    {
+      "name": "qwen25_7b_none_hr32_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr32_sd44"
+    },
+    {
+      "name": "qwen25_7b_output_hr32_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr32_sd44"
+    },
+    {
+      "name": "qwen25_7b_both_hr32_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr32_sd44"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr32_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 32,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr32_sd44"
+    },
+    {
+      "name": "qwen3_06b_none_hr64_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_none_hr64_sd44"
+    },
+    {
+      "name": "qwen3_06b_output_hr64_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_output_hr64_sd44"
+    },
+    {
+      "name": "qwen3_06b_both_hr64_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_both_hr64_sd44"
+    },
+    {
+      "name": "qwen3_06b_hidden_budget_hr64_sd44",
+      "model": "qwen3_06b",
+      "hidden_rank": 64,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen3_06b_hidden_budget_hr64_sd44"
+    },
+    {
+      "name": "qwen25_7b_none_hr64_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "none",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_none_hr64_sd44"
+    },
+    {
+      "name": "qwen25_7b_output_hr64_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "output",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_output_hr64_sd44"
+    },
+    {
+      "name": "qwen25_7b_both_hr64_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "both",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_both_hr64_sd44"
+    },
+    {
+      "name": "qwen25_7b_hidden_budget_hr64_sd44",
+      "model": "qwen25_7b",
+      "hidden_rank": 64,
+      "placement": "hidden_budget",
+      "seed": 44,
+      "smoke": false,
+      "reuse": false,
+      "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_gain_corrected_20260914/checkpoints/qwen25_7b_hidden_budget_hr64_sd44"
+    }
+  ],
+  "scheduler_pid": 827914,
+  "started_at": "2026-09-14T11:43:41+08:00",
+  "reuse_approval_sha256": "22e904b52c11bd593b37b12c05bb0846141c50c19885a4b8a3bcd966fae029b0",
+  "updated_at": "2026-09-14T22:11:57+08:00",
+  "finished_at": "2026-09-14T22:11:58+08:00",
+  "failures": []
+}

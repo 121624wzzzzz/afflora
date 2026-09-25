@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-20T00:37:13+08:00",
+  "status": "passed",
+  "scope": "Synthetic tiny CPU Qwen3.5 hybrid decoder; no pretrained benchmark outputs.",
+  "zero_adapter_logits_exact": true,
+  "nonzero_effective_vocabulary_logits_max_abs_error": 1.7881393432617188e-07,
+  "native_selected_target_loss_error": 0.0,
+  "native_text_vs_vlm_valid_logit_error": 0.0,
+  "finite_boundary_gradients": true,
+  "base_parameters_unchanged": true,
+  "physical_base_tying_preserved": true,
+  "native_tie_word_embeddings": true,
+  "input_oracle": "E_eff = E @ (I + scale * up @ down).T + bias",
+  "output_oracle": "U_eff = U @ (I + scale * up @ down)",
+  "native_sources": {
+    "/home/wz/anaconda3/envs/qwen35_t26/lib/python3.10/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py": "3e2b6239e4b2c3e512d4f9836a1dba12e975ae652407e84f2d3c2beebf0c9528",
+    "/home/wz/anaconda3/envs/qwen35_t26/lib/python3.10/site-packages/transformers/models/qwen3_5/configuration_qwen3_5.py": "e2ca3e05c3f3e7ed2c4f452043bc33640c67a24799adb054ba24fab6badfbd8c",
+    "/home/wz/anaconda3/envs/qwen35_t26/lib/python3.10/site-packages/transformers/conversion_mapping.py": "1924629e3fb595f30ae22626894971d8cd5236df8cd9a1c2db77bc166ea39d63"
+  }
+}

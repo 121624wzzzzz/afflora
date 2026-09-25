@@ -1,0 +1,12 @@
+{
+  "baseline": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/corrected_sft_experiment/outputs/formal/qwen25_15b_hidden_sd42/test_report.json",
+  "treatment": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/equal_budget_qwen25/checkpoints/qwen25_15b_afflora_r48_sd42/test_report.json",
+  "examples": 1000,
+  "delta_ce_treatment_minus_baseline": -0.010526819315422105,
+  "bootstrap_samples": 10000,
+  "ci95": [
+    -0.011300058866774773,
+    -0.009781330236208169
+  ],
+  "probability_treatment_better": 1.0
+}

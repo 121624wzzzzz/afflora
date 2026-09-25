@@ -1,0 +1,3809 @@
+{
+  "at": "2026-09-21T22:20:40+08:00",
+  "status": "passed",
+  "planned_specs_and_actual_configs_matched": true,
+  "formal_runs": 48,
+  "smokes": 16,
+  "files": {
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "fa1d084801234b0b942b73f8d559f11a37eb23671b0020d080ba1df00394b962"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "939566fe7fe7d9ba1a0bb6168a0c39be3ced0190c9009d20e24d12c97762ead8"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/INITIALIZATION.json": {
+      "bytes": 24689,
+      "sha256": "3740219c8d1cd16da2b85420c8b21a3a46ffe29a009b2fcc48dca74055161798"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "231ebd996f9a0aad97101cdf49a46dd64bf111d60a89b251abd2f5a399fb7683"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "86a651e440f0f7c9bca3f3b108a764890ae77554ab6972bff325af0baf998505"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/spec.json": {
+      "bytes": 205,
+      "sha256": "0235d7e7797ec56ce79b03fea906c753f9269b5c401f89fb92d3f789c51182d6"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7102/TRAINING.json": {
+      "bytes": 11118,
+      "sha256": "9e440108ec34056a782dde14d71e5d8858bf22b922909cf8afd63396e6ffebe9"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "1220ba8a47a0c6f06ec9de8d3a98481c023958f1d46b40594fdf1b25c9f433b7"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "0b9f1c171b402f18e7af97307197bca8b9655dbffe1586f22fc33a60af22c073"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/INITIALIZATION.json": {
+      "bytes": 24689,
+      "sha256": "6148f0d5393e14b6e15c635f8f90ec15e1398e300c1e6f8ce2dd06ad7e2eefc3"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "c439bd65765db39ac3ae06446de416933f005a7c18f6aeadb67b318d40d08678"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "26079269056ed888961acafc42e80753a0f02e7c3597172cf003252b749dc545"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/spec.json": {
+      "bytes": 205,
+      "sha256": "38cd1a04ad3e1e9f00d2809cfaa900e618b037d9c5892cd9a26197b9afa41f99"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100/TRAINING.json": {
+      "bytes": 11107,
+      "sha256": "788734d15fc84a33baa9990fb58ec3d334314a92b4770f47a1294288d5ac76ce"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "cb20673f99c81b4db9f2dcb26826c04c32a89f5656716df29d17e6cfa7f2f71e"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "807d12b7bb4396cd20e37f2589b8a35b61b47ca73bb706ad76505eb55b50bb86"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/INITIALIZATION.json": {
+      "bytes": 31689,
+      "sha256": "cdb777d3acdb6b4a6bad2df80eb37a3e97570bfa45357410baf7985feaf49835"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "29326915e778dc98a1541a43a07f8b6b9e5abefcd78efde58a06e690280dd6be"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "d3a2468a8c4a09ee6991a6694fe211fd0e0c3ee98458f3acacf8e7a2a1f117be"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/spec.json": {
+      "bytes": 201,
+      "sha256": "0b601f883daa7ad287e22ef8f88487dc39aaaab46f13cb88520a61f6e3b17c82"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100/TRAINING.json": {
+      "bytes": 11108,
+      "sha256": "66b0292356d62e1b908914420d51de2b2b04797063d6b77ae73bb578ab0622b1"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "8aef1216e6730d952680012b8449e5fd1ccffb3809e361c5f890937042a6257b"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "1f28986038cbaa5f75d8cffb313884e30f88e4f86e2fd2dc0bdbce7f3af33211"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/INITIALIZATION.json": {
+      "bytes": 24667,
+      "sha256": "ccb4bcd2430c60169f7a05328321b7ebf479a36b7070d20e3c496d6e33050ee2"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "bccea701501021d925cf3d5d7a7e369659d6c2b01698f41316564b95c7ea55bb"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "2c0580773126634c3d0255967382016d2bd563058ba5a94be8255005c8db5f8a"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/spec.json": {
+      "bytes": 207,
+      "sha256": "f1262050911f44aea080d2ac51864fc0661418be7efc4ba4f0861b7dea9d0c03"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7102/TRAINING.json": {
+      "bytes": 11104,
+      "sha256": "832e5661ae9df8abd909ab15523b6510e627e5cf43631d82229b73edbc91a4e1"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "1f1fb756ccd5265a813a739f6b0d15ec933c661dfabfefa1340335a8bf9fec6a"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "cfbe9c8a74511683c439f405e47c33288982d37824e77020bb2023cea399026c"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/INITIALIZATION.json": {
+      "bytes": 31438,
+      "sha256": "929536b821df3563edec32dd41ea1a4d118de49f1037fd26afe1ddf7a77c900b"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "abe76cf9a2fb97d1718c49cd1da52e28d3fd539a2bf0899fe014ef8590587f64"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "151eb6e83a0402d643f1f988c24c796858c01b49d33de0fe02459056bf3a5a37"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/spec.json": {
+      "bytes": 203,
+      "sha256": "24d8fdb54746774894a60117403025ee1f97453d768ea9799437d6dd04996b9c"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100/TRAINING.json": {
+      "bytes": 11128,
+      "sha256": "821f449ff4f5fdc6ba3f58b34a48cd635981240aa78782d3bf78af3a80c97b6d"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "9de475dbdf1f11c62afd04ce3df931080e703bd281d819e9d83153cbe5853e6d"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "406a38e47627e5b002b9afac3f72ee65457d0ce1b5ea2930010f93e76dd77600"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/INITIALIZATION.json": {
+      "bytes": 24698,
+      "sha256": "f4731f1c6c66f32a6705ee398c10856287a02f6b8d52fbc0ff1a73506a223f6d"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "e05fb32175a323d9b658a9cc9a9c4b3e001d1f7c13654f705b5ded113c69dfc4"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "787cc05acbad2bbce418346c6f09a508297b0402000c731ee3a712b057c7215d"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/SHARED_RUNTIME.json": {
+      "bytes": 110,
+      "sha256": "2e98cd822b5c0e3cad73403f4f93c214704a4db44c484f8f9f700d21d37207ca"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/spec.json": {
+      "bytes": 208,
+      "sha256": "f31c1e7950abd7b3807ecf472308ae1c51193a110b63c5d15ca7901f98a3e758"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100/TRAINING.json": {
+      "bytes": 11074,
+      "sha256": "eafffc8a8b63f2e2ba2d321c319f539ad73fa19d47247d76068aa017b3db5c13"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "1cd4b7fcfa61d5ff08f98209fec97e2e78b9ee4218053019a2fb7e5831306c86"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "29c4b64883a0997c04f5dc7f9814f854f57daab204c0624e1e66d40da5f5c633"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/INITIALIZATION.json": {
+      "bytes": 31416,
+      "sha256": "2fbeb2d37ae276809d52845d00a24343b7e3e488688c7346e5d8b3ef5e6e4a3e"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "9192777d457f45b0d624fc0cadaf7d1d90726fef482646c5a2fe7c255dfd13b1"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "696d09230b7ee1d914d0267a130bdc09460d2dacfedd9351b6c44de5f656fdd1"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/spec.json": {
+      "bytes": 205,
+      "sha256": "cffbb5991956784ecd7785d060612f1babec09b32d6e1c0ca33d4557d8631769"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6102/TRAINING.json": {
+      "bytes": 11118,
+      "sha256": "ba16b47ab607c2c51478b8683f1b68eb781db21bdd7af30e04d6aa783c4712f8"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/PROGRESS.json": {
+      "bytes": 131,
+      "sha256": "ccc2ab4b5e287217bf0c34dceb3a43eaa3c0ea2a182d962fcbf30a329662e5b0"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "f461f163be16182fdab6af3891b62747091235fa0d81fc99732b98b93c04c462"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/INITIALIZATION.json": {
+      "bytes": 31416,
+      "sha256": "9052c2237cfb8e91e1de9b5220ff62aa9f2a5b6724cef60af36faf4841beb63b"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "72f84420e6ca379e7dce8cf4b9832226d6415d13e9a1e34f26dd9b8264101ccf"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "7213c1e065d59bb9334ff07a9abb58050d8746c3154b23f1ff4a6e921bc85541"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/spec.json": {
+      "bytes": 205,
+      "sha256": "f232e56314e1e48d658cdc4790e1592d6abcbd056c9b294e11cfc4f1c9c650ff"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100/TRAINING.json": {
+      "bytes": 11113,
+      "sha256": "b1c9033087b39d7c1f278a33b94998a89a5aafee24108da225ccc63ff0a8b25a"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/PROGRESS.json": {
+      "bytes": 130,
+      "sha256": "59299bfa9bf57a9d484417f60d06ce5f9dd3fbe4a15888862f0f3909220cb416"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "e2a990abdf121f2de2491d9d0a4015eca9c9277229b7c0448f2e128fb96f1234"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 24848,
+      "sha256": "689f35f9f30c58405c93c2218450de4d00858365dcb715fd27cab02c344d6c38"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "f2716b52122203aeb6094572bcee58aa67ca01a5c8045e2e435fd457de0fb532"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "514794ef2682a293eba6dea676d3e37e96ce49b4ce5562b2f171ba20c4d38b01"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/SHARED_RUNTIME.json": {
+      "bytes": 106,
+      "sha256": "4598adaeedecec1cb2e3f10d886da77f555e98de4a41cc1e22304909bf78e109"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/spec.json": {
+      "bytes": 211,
+      "sha256": "129ea6f3c8cf3e35f749131c9320098db49c1ef13e84dbf1937028b493a2d05b"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/TRAINING.json": {
+      "bytes": 1092,
+      "sha256": "9a381b3afee7132837ad6967e74e05ee82af2d8aa750aaef5279ffad176ec1cb"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "2762ee48398659f63715364b0360b30a9568ad4c79484e1c3d076c528f2a08b3"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "53d3851d39cf04ccae55acd3de37e5109c47e52b217f52992cf91c5416db5f37"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/INITIALIZATION.json": {
+      "bytes": 24699,
+      "sha256": "cbe6d06c291800c89069e8652f199c4fc753965b5df3158493bf6916d8e706db"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "42c5e87d8b8932a572f4b5165f743997ad5089a7bc296b1f5af5c3e92a5b52b2"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "01747ed7cbbee09c8ba9d74bb0c429b6d2b1545e051a5fdd593db05df0dadb2d"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/SHARED_RUNTIME.json": {
+      "bytes": 110,
+      "sha256": "2e98cd822b5c0e3cad73403f4f93c214704a4db44c484f8f9f700d21d37207ca"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/spec.json": {
+      "bytes": 206,
+      "sha256": "a81c642a00a996e39909d19fb43ce445edb77b1858b4ec3ee15df574977271a8"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6101/TRAINING.json": {
+      "bytes": 11071,
+      "sha256": "20c6fb1b2fe0acc3ea284dd465b1c2e5b33fa14deda5e21c9335be504826356b"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "c18ce60a4708b6eb57a8ceac7758411f4081078990084fe0f69e543b77d2adbe"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "e8394eddfdf79461edaaf9bba1e08161500cc0ea89a56793f5126bcf50531f9e"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/INITIALIZATION.json": {
+      "bytes": 24922,
+      "sha256": "1ec09293815be0df4fec1a50cb6c05193fc9e80f05633f541da527533ff257bd"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "cb85015081e6010887710ebacf30fd889b6dcc141648a60cb305f2a56cbc7b3b"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "e61877ca5d1202cea8941cfec4486eb0eed3911dba1ec284a4e8996974dd573c"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/spec.json": {
+      "bytes": 203,
+      "sha256": "568fd35dce3dfdee97e8640d52d3d528f1121b21fdd5fb89881c8c28e2928810"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6102/TRAINING.json": {
+      "bytes": 11116,
+      "sha256": "890c5a5b40465f0c140d76fd41015ff8b9e29257b65c970047c0d54d90bd6215"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/PROGRESS.json": {
+      "bytes": 135,
+      "sha256": "86af3c7f230344990b37c398362d0cd741478e7bc51754dc0237fd1686ce2819"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "308eabfde52f1d818a48baba7db0763f1955a5bfbc6eaf61b365882cc728a66b"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/INITIALIZATION.json": {
+      "bytes": 31452,
+      "sha256": "d0f5075acb92d4ad43d76a8794e1dbfee240c4facb3dfcf0d27402c0b45c366a"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "89e530b4313f728142e872d0ac3350b4841d7a874ac24e7d99b2838c998e88dd"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "20edb4f79c97e76945f81a7cdf9c16302b97c0a55230aefde2a50195d60005cf"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/spec.json": {
+      "bytes": 205,
+      "sha256": "1841e30ac48d15489818801fff23289cd11408a18613a241cb9790069b9a1e46"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100/TRAINING.json": {
+      "bytes": 11118,
+      "sha256": "bf6803ddc77762f3e9ccac95d5ff285b8e3dc5df4eaa644a38f066820463cbc7"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "112a34cd27f8a273465f6be20bd450b9d9a5d4000b4267b7a6adcd06086609fe"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "1f2fc51df5060d8a1710e0c27d28cab34e1842fb97834e5d00eeeed48a6c337b"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/INITIALIZATION.json": {
+      "bytes": 31416,
+      "sha256": "e8da865d17d66b3b6a6373be701eb9032564368e3ab36f09c82e12311cca4dbb"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "4abe4426a42cd767b0f46dbc9addd478615f7b27436cc043e0433ccea7e673b8"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "720a200680fbe38bb4ec19fc4fd1134929445afebbabbe60273eb4004fa42027"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/spec.json": {
+      "bytes": 205,
+      "sha256": "07d8bf8a316c8c4df2be82b6676c7d9c06590b7de141d12ff5ffe1089cd2dbd2"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6101/TRAINING.json": {
+      "bytes": 11118,
+      "sha256": "40338e1903dff965a8b1fb12c0c995fe8d9ffab020d2a439e074353d239461b9"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/PROGRESS.json": {
+      "bytes": 129,
+      "sha256": "6ed9b57ac3b729934a41cc29eb823f0e3e8996e0749229fd1f5a360fbe5f7bd0"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "179d09ddcdea6858e081e47b5ec205030203f7a48c45a0f173754cc345e628b2"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 31803,
+      "sha256": "eee6be1bd0ddf79fedd614101d5d0c9cea9c96741818ea8d4a1d085dfb2e5183"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "85d5de105ba9b7b62f669e74996a49668e1bd5490fc890975f0add24a98141af"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "0d862a0668ba9782514012a34f17778d2702ac52171f10f3feffbd268fcfafbd"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/spec.json": {
+      "bytes": 206,
+      "sha256": "95a36baaa6e1582a50d8ecbfbc07bd22b590b35ac7a2a22fc4b89466a4938c8b"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/TRAINING.json": {
+      "bytes": 1090,
+      "sha256": "63987537a94ce5cb0bde1d452cffe9529b3d8e35f28de1857b6b7eaf3688a5f7"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "d5ab24fa02acb15180b80292f462c705a6207c273ef638c0323789acf3e52afb"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "8704ca143689d6db0d272f4402e9984c90e141f458c7128954c1a8fb79fe53db"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/INITIALIZATION.json": {
+      "bytes": 24904,
+      "sha256": "5eebf553fdb1996d595a4f1e15f6d9eb60676d3f40575529bb15d29c7d79ae88"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "8180a75029cd1a278f5adb4ccf17f2bfbe9f554f116c8354d91dff9f3d2ab7a4"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "29674770cbf135f5cde1ee1933a5b6bf84e4a0ba9d4ff3d48d280ad4e5f5f007"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/spec.json": {
+      "bytes": 203,
+      "sha256": "1d9bee9e0bff64b1f991c5e46a646c9e7c735ef59d3d65df2a0840606781664a"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7101/TRAINING.json": {
+      "bytes": 11104,
+      "sha256": "4e1b4274d9ac2b6b846d9411770a21bd21311affc18d38f76737e0123e59d182"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/PROGRESS.json": {
+      "bytes": 128,
+      "sha256": "a08cfa477c3399d9af94bcdd56442e8ec746c198caf1348f31b98c27703ff594"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "30e4643e82b8524402aa6d3e1efb053e6bfba62d5e93af6c738276162a92626d"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 24830,
+      "sha256": "5c56c85fd76f4a6761f65cce4583182efccf0f36cd417033d1cd21ef12b2729e"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "136df11c0c6e9e1b31ceb00452dbc01e9c1ae28e5c6f0961a063f852c071a810"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "a1f7482d210b7948ecca9bad2166df78b62ccc4a61b6f06b5bef44c6567279a2"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/SHARED_RUNTIME.json": {
+      "bytes": 106,
+      "sha256": "3cb09eafa3ce303932c7d262b4903ee2e899f42e3168d84942865cab66a5a427"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/spec.json": {
+      "bytes": 213,
+      "sha256": "f4dad1021635cd43bbb4c268065370c8d69ca8870e8b6bb9d95a7a9268dcf5cf"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/TRAINING.json": {
+      "bytes": 1090,
+      "sha256": "846d8caef2e2b71e4e74a68f554e39d219f81d4a14c01c002ca3f43033fad5da"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "2b68041009b77e9238897703c5f9d76890c9d2a7c1645e97c54ab895e007fbba"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "1c5f79099b6dbb52e8f0000e9ac578e9d2808af84aa5dcced4c58ab813b10ba2"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/INITIALIZATION.json": {
+      "bytes": 24685,
+      "sha256": "83aaf74ddd62fd654028afcb2fecec3def2ae19caabb0632ab41092e82b1c926"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "73e66aa774beb6f0de0ed75d06b49507b14f866f93632cfd9817b1e516567aa2"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "2b151169a9e584bb2294041576b7d08d40c8b88d3254e0a5b5b4087d4782c168"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/spec.json": {
+      "bytes": 207,
+      "sha256": "49d0f84605dc17d97dc8d6c092652dbc29ea8163d3fe8039c87d94c68ba22eae"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100/TRAINING.json": {
+      "bytes": 11110,
+      "sha256": "2b66dc0564880038b9d7d70de9b737c84e98963a66ba5a1100d59f2d55554fd6"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "a23f5bea17847511115f88c6db61253282ef4dcee97a15b987b0d0f7c794bc30"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "dfb6d05fd798f3f2e4e537806a98b3ca4b3033a1b605c6dda8c792ce1df7799e"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/INITIALIZATION.json": {
+      "bytes": 24904,
+      "sha256": "de4538566be7805d453aea86c61b9569510d2a079060174da51c7aa670b3c206"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "31ae3fa223bfa5759a137e388d7656e5ad95ba3ff830f786c810e0fd3226431c"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "93de62b7f14a1738389b78da1e2e1e884b1648813f633682ae0acfc54ae91a1b"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/spec.json": {
+      "bytes": 203,
+      "sha256": "30cb21689055487ec865b92ba7a5e5c334540ccc5526dc516767957f19112fa8"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7102/TRAINING.json": {
+      "bytes": 11096,
+      "sha256": "94452a00ebbeb7ce863e8adfe3638d39f448a23af2c2a8eb6de621e6c8013648"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "218835cba8b94945082f28ca39110f20d91c487e07600ff8e39ffb07e23cb421"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "d4373afd7ea84572e46e2172f6ade7f269dd9c65a9fe795c948ff1fc20f58536"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/INITIALIZATION.json": {
+      "bytes": 24707,
+      "sha256": "40393bc7e4c4fd588d7f478c4fc469203355d3fd0602fb536ac840f7726a7c22"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "5be688de63e502a7542780f951de0b6e0d511ecb336530a31e8b5dece7ce5f4d"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "e9158bdb623059edcf335927a384e82c8b4a177f6eb03dfe348b09c93d0266f2"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/spec.json": {
+      "bytes": 205,
+      "sha256": "46741378a6797bed94a99297b9768eb6c0377d23a449c16afdb26b56bb6c95cc"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6102/TRAINING.json": {
+      "bytes": 11127,
+      "sha256": "81c06492b42b64e489ea529c296e51d1824872f7ddc063550919bceae0fad399"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "dc4685b80b2f15469e2b42774d5abd0970da4f6ba8fa7b45e64aefb7251f44f4"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "234bc3de1423df7dc9177001d5565ea738479cdb075611ba5abc5ba49afefad6"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/INITIALIZATION.json": {
+      "bytes": 24680,
+      "sha256": "d775be2d85a32633c2716885b0c5de34863466da76e63bcc6a97056f6c2449b4"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "760e1a54d6182d2062f8f8ea99fa42f8c3208812ea42085806621a13d8df563e"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "d87753be98d6863ba1615e1372ed3343cedab744accad5b896d0e1f31a0078b7"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/SHARED_RUNTIME.json": {
+      "bytes": 108,
+      "sha256": "df409d3163ffb794080acbc758a12c2fc9190015dd3432b649040d5b11e516d8"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/spec.json": {
+      "bytes": 208,
+      "sha256": "2b21f7aa289c2b9f1bb612a947a78d9a177eae962936c6beea7f1c95c28b05d8"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7101/TRAINING.json": {
+      "bytes": 11063,
+      "sha256": "628c6c8df840e27e3f452a28a7823af108aa93899d85c72c6cf32beb30db2af8"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/PROGRESS.json": {
+      "bytes": 131,
+      "sha256": "9cd812b3908ce12e24fb7dfcdc9c9eac95930c8fdda84560d6142a3322444604"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "7420e0d9a26a83924f093ec1e89f52dee0be0d968574fdc9381390e8b8eeebf5"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 24817,
+      "sha256": "e2a0eae6c0cb5c73243e8aa0c5b0d3a1153dd8345d2d3787f4c4db7569f9867b"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "ea9dd1e720f1278840da5b326d780cc149d34bd733b5a5a31c33561f096b26cc"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "1cd52e59f19b4d63037195d809528c100babf0e2fc600151635cfffd7c7ca90f"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/spec.json": {
+      "bytes": 212,
+      "sha256": "93b58cb06d11b11ed53fc230964f41d7509f7ee677d37f2bb8398255e76e389c"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/TRAINING.json": {
+      "bytes": 1093,
+      "sha256": "1afcd9398c9d1ad9e4a3b28e5508bc08e440bc377bb35a9bacf92dee82ebf1d8"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/PROGRESS.json": {
+      "bytes": 129,
+      "sha256": "06ad60955026e4fa940d5026c3caf3f632a9627f438a76405a041a60c9eb0f1d"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "cfbe9c8a74511683c439f405e47c33288982d37824e77020bb2023cea399026c"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 31588,
+      "sha256": "00bee72b50deb193cdc497dd0b02a8cfb37e3991ab515596c2e70ec6d46894da"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "bf92f30ea6bdbf5edf63d03950a837607925ef8f75a4744e11384849c3f4c31d"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "a71aa05d86f8c713e3f240149330fc97d059c665414925b39ab8f3266eaaf51b"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/spec.json": {
+      "bytes": 208,
+      "sha256": "d09294dc7e97fa02f5a0a9b10cd5f3764f394d804e79eaf97b3de61aa6a2b4ca"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/TRAINING.json": {
+      "bytes": 1092,
+      "sha256": "ce78e531007285f50b58920eebc984832ecf60b17496eb3c8133ad36cb40116f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/PROGRESS.json": {
+      "bytes": 128,
+      "sha256": "8046edeec0bf03d5ddd7fd9692381c2e2dcf402c090ca3ae32566538f80be9b4"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "1c5f79099b6dbb52e8f0000e9ac578e9d2808af84aa5dcced4c58ab813b10ba2"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 24835,
+      "sha256": "d454a6ba90f25d53e8131f45955211ba415e4b7e6664d78f31027c35e619cac4"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "9d919f45fe677555781f6ed46b6a6ce2f0ff8fe42dbf42c8449c305135023416"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "c468797ed8e788c439e55d5e2970eaecc059536214c9a05f23eb359872ca69f1"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/spec.json": {
+      "bytes": 212,
+      "sha256": "da17e5e1d6e9a98cae1ddda921e5194a47feb4d786be368bd592ae3d3993f9e5"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/TRAINING.json": {
+      "bytes": 1090,
+      "sha256": "31ce357a678ee51a22c3999c8f0b4405b902850e9fffd902509d356d725ba6f0"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "0115be100325a7d728729a02b68a768f6f6b88359b04d38f7e2ae7d9878883d3"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "177c995b1623276af8729792b36d6abec3e788fdaaad3a8a23fd763a314c0b4f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/INITIALIZATION.json": {
+      "bytes": 24707,
+      "sha256": "74b0a9bff38b2539d2cb135508d61987494d83762bed8902cd2d44ea6a5d56ae"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "93c102ac33209785ae796e2a3a8290bf5e8ed3d66e7e2f0625aed607f98ea4b8"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "f3d180b8e878ea16a6579265d1c5a3c92c51572bd6e163351dd377361b41e713"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/spec.json": {
+      "bytes": 205,
+      "sha256": "152bf216465797a9d2cef2001c2e1737081e7270f4fe18da2c6acaa9973b4927"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100/TRAINING.json": {
+      "bytes": 11118,
+      "sha256": "843f798c9ccc39c606572e554612371e306f7508fd0e56c3f61f8d1f1d622f5f"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/PROGRESS.json": {
+      "bytes": 131,
+      "sha256": "1e4dfa00fdb348cddae956b6fa76f086c51b67ac9d11815db6e4d78777d0bd69"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "a0088de950bc4d5071647f309936977d5040b6c83aba236b8e0ff752b075016d"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/INITIALIZATION.json": {
+      "bytes": 24699,
+      "sha256": "3aec64e3ab9bb1ff899798b89b0b3feda99ec94891e85a82d9558163a2792831"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "69c92a7165fdce44ad11caaac1ad57cde8bfa02f7eaa57ebb398a171a0019025"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "c1f9aa19adf28e3b6884a5aff8ba593e3178d0a255252e7b58764a02bc55608d"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/SHARED_RUNTIME.json": {
+      "bytes": 110,
+      "sha256": "2e98cd822b5c0e3cad73403f4f93c214704a4db44c484f8f9f700d21d37207ca"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/spec.json": {
+      "bytes": 206,
+      "sha256": "17aee10946727a5f23e159fc3754c0ccbc4e07f55b367e975c702531c1e3ff46"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6102/TRAINING.json": {
+      "bytes": 11079,
+      "sha256": "366dd0594ec1f53cfdcde7211bb9acee083ee8e36c96d899c2b4710bae2a00ac"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/PROGRESS.json": {
+      "bytes": 135,
+      "sha256": "4da41966ad60175afee4c8d5f4dbbd78ebf5059ce00abf68f189eab6b0531dd5"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "87de929dced515220040884287709ce6be38f25cca5acdd16066ceef267fcae3"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/INITIALIZATION.json": {
+      "bytes": 31474,
+      "sha256": "0204180508218277863dacecbe66708bae53d60a4d361e0ced0e86a671525634"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "1740befd9a82fa396033497aad1b37cbbc557403e7102819a5765db65e99bae0"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "10e1ac62416589b7c8a832437af5189f93b23be9a4c569078649d3ac068d1ab0"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/spec.json": {
+      "bytes": 203,
+      "sha256": "89fbc2823b40e54bc8d962f4de2460244328e40a0ad10df92d54f116dd897425"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7102/TRAINING.json": {
+      "bytes": 11119,
+      "sha256": "4de7762666d4dd0cd412886d832d1508b45ef37a8ba89341c4b09fed87bbd529"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "e1657edb896da1d0c0222e77584615963ae65cc9339632088136298d80b53605"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "67aa0b72b78454da77dc040bbd059e5b58f7b6b84238fbf11c9f61d8c1c7fedb"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/INITIALIZATION.json": {
+      "bytes": 24680,
+      "sha256": "9c06ef1be153685491c35f17ef8f3b0b8ce370824c08eb6b2eab6d2934d63779"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "bfbf5ce98518dd9e34f9f63f3969982641e0f8aca2954a657a94f2bd920a259c"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "a60f2cff424a0bde9f5760811c649e39ecf17193f2e673c33eb6290f755dc59e"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/SHARED_RUNTIME.json": {
+      "bytes": 108,
+      "sha256": "df409d3163ffb794080acbc758a12c2fc9190015dd3432b649040d5b11e516d8"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/spec.json": {
+      "bytes": 208,
+      "sha256": "ef74b4a6e5d3b42f126cdc42f2389db0a32bb902bdeb3d959cf7299fd51c4fc2"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7102/TRAINING.json": {
+      "bytes": 11080,
+      "sha256": "8c3b906a458ef87044e489cdecd9b65d26ae77f8a2f49e754254df928020017c"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/PROGRESS.json": {
+      "bytes": 129,
+      "sha256": "7197f9610bf0ebcaf926346c648417410a42537858c203ff4fa9a9494ec90239"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "406a38e47627e5b002b9afac3f72ee65457d0ce1b5ea2930010f93e76dd77600"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 24847,
+      "sha256": "0a167e12ae9a6d6944404a00d4f8886d62c1d6524d56b393a9b04e0350869312"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "c504d119eddf6b74a9ae1eafaf1a4f91461c6b237ddb271935530d114f151919"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "6b6f9301ef8378425d12bc694b586435e8714f142c9eb8b0541a33966deb5e1f"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/SHARED_RUNTIME.json": {
+      "bytes": 106,
+      "sha256": "4598adaeedecec1cb2e3f10d886da77f555e98de4a41cc1e22304909bf78e109"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/spec.json": {
+      "bytes": 213,
+      "sha256": "fd3473a686c8daba52017f9fd8a6f4f40d13978e69525fc691a59715d235c6a3"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/TRAINING.json": {
+      "bytes": 1091,
+      "sha256": "827284183b3f91e4316453781df32522b72722a337ea0b05eccb31660604db86"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/PROGRESS.json": {
+      "bytes": 128,
+      "sha256": "e5a0497a8ba30ac432c5fb472d2710d2e2da1b9e56966b7c9bc2a897173c3ff1"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "177c995b1623276af8729792b36d6abec3e788fdaaad3a8a23fd763a314c0b4f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 24857,
+      "sha256": "180789c99db382ec48b0ad213dbb52ea75aa82e50bbbc4a1a2f5954279645c48"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "424907aa8de04a86d27ddea7f59d906f1f9aaaeb9fd0ac817152c0c49d225a62"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "d2dfd5456e361c907f30cb192d6aa057cbb1a8846d842670600e6501942e57cf"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/spec.json": {
+      "bytes": 210,
+      "sha256": "e53c47169c953ca55d66fc63b0bd105eef74afe761a5be07cba950137eb66351"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/TRAINING.json": {
+      "bytes": 1091,
+      "sha256": "ce10709f0d2c8207da5624de2ab79f62f075c3252f34e0416e1f462d9c8f7829"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "703b419ab330ad586ffbde6eb33105d652c0cdd81e4557fb4b468ee23a2f32da"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "1fb62d5b5197706dc1c6b4636b94d368dcb11c8bf065960d6fb4f3ffc42d41e6"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/INITIALIZATION.json": {
+      "bytes": 24698,
+      "sha256": "493e77d348c8c1c7f742f4c8d529eee3499ac1bebdd0a270cc8cd66bfe147524"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "996f0b6a8a3abb95c49e37255a46250acea0558c19e7b446574f2feadcba6368"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "34cc7f513f95125ad8b746a7639e3bb61d75ff955bad3e95901f0c8027feb48b"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/SHARED_RUNTIME.json": {
+      "bytes": 110,
+      "sha256": "2e98cd822b5c0e3cad73403f4f93c214704a4db44c484f8f9f700d21d37207ca"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/spec.json": {
+      "bytes": 208,
+      "sha256": "0323f2e857993658020d43c3b6de5f79a39785f355b31367f9b08e8e4be7b966"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6102/TRAINING.json": {
+      "bytes": 11085,
+      "sha256": "bbd21b24701d29647999912410b3f8a9a70ac767740398941d44109d3ede2f52"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "d0e547a6f8099ca4ba667dc0c13b5700324ae7e2b34ff81684349e39d24d7608"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "edf22e95e140700ac10c93bf5ec9c8463b5140b0ba059e1fc8f41d6b38a83f13"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/INITIALIZATION.json": {
+      "bytes": 24707,
+      "sha256": "a133a92c00e7bebd9a7fa8f712b612e4b4aaad1bbedd9ed2d4de18eee3fdcb57"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "9843f7136d6965b5c362badbd3249b28e487aac1c1f908692671b17fa5d3e02a"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "63b6af5b03baba3427467409b202d1999fb37033b783145a36639c9b2a9065dd"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/spec.json": {
+      "bytes": 205,
+      "sha256": "977bf955765e3acc445a2c21ee6c8d35e439ea037b38cd8d21057fed621ffc0e"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_input_r8_s6101/TRAINING.json": {
+      "bytes": 11124,
+      "sha256": "56a224f5f8187cde699a57c5e194902c927f53aae62f0ac1036edf167c64c3aa"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "116c041f31477d0198add37d3a03fe9703a453e848291a93fb6a58c92c5be8ee"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "4d52d827c0434f3621361b9ca80ab500cdfbde9711f54c685a923db5bf018d83"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/INITIALIZATION.json": {
+      "bytes": 24667,
+      "sha256": "90655417e212db356eeb0f3689d37717c9b5d320e8f4828b0cb830af600e72e1"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "32534947bc15ee45395368661490c623425f763cc6df08f2875569a3d974460e"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "45452a025f125dee977a947d728cbe9f04b833f0ac1a31c53b62e3c11094a9f6"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/spec.json": {
+      "bytes": 207,
+      "sha256": "4263f07380e02f1bd0a32f45d58e9ba118bb6e34aa761e74d3101099449d85e6"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7101/TRAINING.json": {
+      "bytes": 11107,
+      "sha256": "0c74675406564c6de165509e69b3ff7f14a89103053d6ddcd527f3ee6c97643f"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/PROGRESS.json": {
+      "bytes": 129,
+      "sha256": "2b7733d0c4f6da8b9d6e447be33595a6ef6385e198cc0afff24cd2beac257a25"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "0b9f1c171b402f18e7af97307197bca8b9655dbffe1586f22fc33a60af22c073"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 24839,
+      "sha256": "2fd031dd6a5fe448cd67b41e9ac281d0c6f2f2cc30408354d1a6de49e6c1570b"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "e292c724fede6c635fcc4dd87e382b19cecbef62f69a6f6889287c4a507c6aee"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "fdd988be9c405a16bf71472ef4b495d6dcf3fa8841770f675c0bcdf8e09a2ffa"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/spec.json": {
+      "bytes": 210,
+      "sha256": "168f8a7014fae111e2b2dc2cbf63caa4088e36045f8d77c623392bede56dae77"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/TRAINING.json": {
+      "bytes": 1090,
+      "sha256": "db17a2b83c60c36c3400dd6849d85f7cddad3b98eafd6aa71ad0eeadbb4de24f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "d8c346cbe3c1bdd178f3219bdf7019b521d1ccb77293de73d05ed2b53fc4e05a"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "59db79c4f552bb8d7ff082f8d6d9229de8124ff1f2acc7a987000d143f3c2bc7"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/INITIALIZATION.json": {
+      "bytes": 24685,
+      "sha256": "9cb3a53934554e70ffc293b13ed51b2f96364dd32d775062a3553e4b5e962ea4"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "24264baf28814225d0c4f3af58764f7cbff43e0c3800e80a5ed6bbfccaa81138"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "d1ec788f364a4c8aaee5c42bfc71103daca9f13995c0f3c03cfd1269439ad701"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/spec.json": {
+      "bytes": 207,
+      "sha256": "78902f29531b46cab2a9ec645d8af02c62fbd7e72248647cab639129238c2cda"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6102/TRAINING.json": {
+      "bytes": 11112,
+      "sha256": "cff9fc91ff38ea3c893b710fba89a099b49e2edfd8f2408f4ae7e8c91468c9d9"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "7b88101aa9950972b8d43651a3020b23d21fa3ec7a1bf3c9a02c900c1a1b0d03"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "776c63785576abee29bf333a36d9917705798af8d0263bb791315098a595896b"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/INITIALIZATION.json": {
+      "bytes": 24662,
+      "sha256": "a0500bef119dd1eed02096b3dba05c0a591846b9fc6e57a9360205352feb9e1d"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "e47dfd6df558d7e2d9c636bd5c46121b1df53a19135394517a1688d97fe62c52"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "9398d5aabf97adc3d982125e482cc61adc0504ec8fd07b8cdb219b1426d5352f"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/SHARED_RUNTIME.json": {
+      "bytes": 108,
+      "sha256": "df409d3163ffb794080acbc758a12c2fc9190015dd3432b649040d5b11e516d8"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/spec.json": {
+      "bytes": 206,
+      "sha256": "b238585c3e396f2d53cffa9786ca32c7e5657a0649878eece3b2b14653ecf55a"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100/TRAINING.json": {
+      "bytes": 11062,
+      "sha256": "841dd4dd772d67bc918b024831ebde6fde3927c0f19e27a17fdbdfc67380f5c4"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "051154d769bcfc65a1778528c90ab9034c3cedad8424294b8c939d22d25e1025"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "d0b416183500887d26ec481198cf270a719257bdd64eb932021d1e5615e1416f"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/INITIALIZATION.json": {
+      "bytes": 31689,
+      "sha256": "371370b918d9a817140d6054c2ec2e48cbd19127689d98ccd4662b836470e938"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "25b19be83241237c08b14f0d16e0322ed42da229ab7ab592c1ff44922e98240e"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "f3692e64b458b2c1c1b8c7a8aa9343a48144f719de62affdddaf890e7d67f9d2"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/spec.json": {
+      "bytes": 201,
+      "sha256": "de24cbf2a01ac057e45ca537c6a5add445e1cef63b890f657df00ea03e6d9a72"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7102/TRAINING.json": {
+      "bytes": 11099,
+      "sha256": "8ac367c4c8bad8e94fc3c8c56a6f68f956b793649251e85062389a74072c41d3"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/PROGRESS.json": {
+      "bytes": 135,
+      "sha256": "bb6e5d37a7a951788f74048070179b4d5cc7aba3ea1a2d9614fcaa974e5256ab"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "8b7fb67590c7aebf9d8f4285bce1351aa1cedfa8c7d0a62d880d6a906c9bbc71"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/INITIALIZATION.json": {
+      "bytes": 31689,
+      "sha256": "395329b991308fcafc438ea57197875821d0ea5f203d107553277242f1bdd614"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "110ce05e4edb68f030e675ddd3fd6fe014a8c1c5d8de9992adc66161a1043c55"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "7ed3fcb7a401939f031e70154c684a627d82cacb63d80c12ceaf1b98d3b5ea60"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/spec.json": {
+      "bytes": 201,
+      "sha256": "67cdb25b16e7ed0da19a5987d1ad5a5dc8f362db2818d2fd953d35eba89ef3c8"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7101/TRAINING.json": {
+      "bytes": 11104,
+      "sha256": "1b171e3a8f9d6092073d3d1f1017d92dc7dcbd68bc92a8eceeeeb63193ba4a55"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "1bc106879f53782026f204a12f37c46fc1a528e3c657944c9ff55b1a7d5664bf"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/initial_adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "d935b2b5eb755df05c6adf52e01a37aeb3aee4afd18aece4495c8701a587db43"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/INITIALIZATION.json": {
+      "bytes": 24689,
+      "sha256": "a9b61c0dd5430b2e0bd456c3d1b3dfe44d111a0e1fbc53a8e5678f4a5ca1c63e"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/adapter.safetensors": {
+      "bytes": 81032512,
+      "sha256": "67c0f721f0808536c85e28ecc5d8d9a68fb5e199fd69725616661b4f4c483d37"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "965459e9e9316d64b0ad2115062588aa10b703f69d8c70c6c40a64cf9e28b816"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/spec.json": {
+      "bytes": 205,
+      "sha256": "e9892cbba8f5afe57c9c46e0af2b9885e94a68587128395e4809412fb7290ace"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_input_r8_s7101/TRAINING.json": {
+      "bytes": 11116,
+      "sha256": "9877f7330c9c9e0f7d79bfed37293358eae27fc13decd4e1563b3181394347cf"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "fef889244a43eaee2475d652dbf5b3dcee7315f84b3bc2d1b36bc3ed9230c8a1"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "6a6460664380704db57c2584ff9bb12774d3c2d190c15ca810f43814d314d986"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/INITIALIZATION.json": {
+      "bytes": 24698,
+      "sha256": "7083f1c9cc0f14bf6fb520cd5942013d8aeee4323f34a619693e54240f2093e0"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "1d1f7d7ba83875db640255d7c06ee6946d926f7f27be947170f84ca70a6b33d3"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "367194242acf66a1ad0a7e5be86900e559af165a2203496195cbe54571ba1f61"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/SHARED_RUNTIME.json": {
+      "bytes": 110,
+      "sha256": "2e98cd822b5c0e3cad73403f4f93c214704a4db44c484f8f9f700d21d37207ca"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/spec.json": {
+      "bytes": 208,
+      "sha256": "e4e807c9e5f469bbf998d0a2dbbf92dbd28b55ba401c3015d92242c547dfd1e0"
+    },
+    "study/checkpoints/cluener_qwen25_15b_base_hidden_shared8_s6101/TRAINING.json": {
+      "bytes": 11086,
+      "sha256": "ef2e1efcf0d882a1cd5211a30f7e258b40d8f7922beaaf53a43549a42da12181"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/PROGRESS.json": {
+      "bytes": 128,
+      "sha256": "4378039880d9aa6f0663c2571d03d13d6e3851f87a77d2a0f7ffa4c0f325585c"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "776c63785576abee29bf333a36d9917705798af8d0263bb791315098a595896b"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 24811,
+      "sha256": "67d451e9cd28771f040fa3ed674c7f4b55e09714fa08831ad3c07bfbea2706fb"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "c4f8b065af62c707453e788a54065fe8ccec9b5644a69e7d6613d5801263f77a"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "7026a73d2e866ac50909a0e2537470482769cad0cb72eb4fb76c89c6b5a2287d"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/SHARED_RUNTIME.json": {
+      "bytes": 106,
+      "sha256": "3cb09eafa3ce303932c7d262b4903ee2e899f42e3168d84942865cab66a5a427"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/spec.json": {
+      "bytes": 211,
+      "sha256": "f9677c0cadf3eeba4a514ed414ab3a3ef31feb9a041bd26d19e6b89c5e243070"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/TRAINING.json": {
+      "bytes": 1088,
+      "sha256": "fb6d36d62b6bbabfdec65e13192866f062314722c4b18f7c02bd317bcd3bbb0d"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/PROGRESS.json": {
+      "bytes": 135,
+      "sha256": "d09deb0e212fc0398b1acf22bdfb069939feafbfe1e575a94a752f6d48f65b60"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "7420e0d9a26a83924f093ec1e89f52dee0be0d968574fdc9381390e8b8eeebf5"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/INITIALIZATION.json": {
+      "bytes": 24667,
+      "sha256": "d8f637165fcf6cae77bf6a95c46c0e5350e9c6a2ae0c2b0cca5a435c212046f3"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "a05a6a0a3bec6a93314091261209cb16ca59588bf75b889ddced0742b4773fef"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "13322c7106183f094b335d0522b40609ed0c2724023e5811eb5c17377f797a5f"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/spec.json": {
+      "bytes": 207,
+      "sha256": "a800f102116fc8a7aa19d946119746b90f8bbc7010a94abb4d7e028ea45a0515"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_output_r8_s7100/TRAINING.json": {
+      "bytes": 11107,
+      "sha256": "820f5fe3d93ce6e8d468b239ffc8d276b5b2271ff97c3ec2f73ff17aa085abe5"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "43be581e085d981fed54eb738c847eb9bc095d8049f03e77c90551ce70368a6c"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "4d3658a30efd62a77d48657598fa4c7c63cfba2321c9fa8e786036f76b6ecac0"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/INITIALIZATION.json": {
+      "bytes": 24922,
+      "sha256": "359623a34c087a391504d3cb98be08e95e708f7f314af6a4a7db6e509f98d094"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "7cf610ea74f8f750c1690b86648fd91c56e64cabe339b1b2ba3548e9213bae5f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "2fb21faf6474c5dfcc95510d54381fa74fc3c97f42692eb4d5d8f4a868257bdd"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/spec.json": {
+      "bytes": 203,
+      "sha256": "e1d2cdc8f63dc892ef4db54ec0ff4972c7b172ebaf8174e72a34871391dc1617"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100/TRAINING.json": {
+      "bytes": 11115,
+      "sha256": "936b0fea678372331ddaf9b244ed92f7f12fa2bf193f48153cb7a9790f9d2d97"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "f7163762688b417d750d0435b775b0cc9e67ff7df886890314652be42c9eb4bd"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "6e634bad4e20c59b9b0e7eb87f8a11e8ea167e6d1a9164eee9faabce2d3e68b5"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/INITIALIZATION.json": {
+      "bytes": 31438,
+      "sha256": "a4fa34e5616671122378209018f375b3762f87af0449e93aa7ed69a48a8bff8a"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "ae9235751153faf0452f7f11252c73edfe64257cc4242c227ae020ef84ca8fa8"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "13f0dccde36ed95582aef7d9abf04fb013fce12177b5d7b8fac4f8f7e8b6ad93"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/spec.json": {
+      "bytes": 203,
+      "sha256": "37db2ccfe0d63748184171a30cef41c57548e2c946a73889e6e29e73bc2bb5bc"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6102/TRAINING.json": {
+      "bytes": 11123,
+      "sha256": "9fbc49ba89022601ff25dbf639ef77a9ceb26e09287ceeafb8cb266e6c327e7f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/PROGRESS.json": {
+      "bytes": 131,
+      "sha256": "0ac627cd65f9c496557f1da9141eda5e8eeb77ea7bf5407ea9d40ae19681a93d"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "caab7326dc17736a7e7d7e5f8bd7bf1769c4084e8f4076a2b5add28131cb1fb6"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/INITIALIZATION.json": {
+      "bytes": 24922,
+      "sha256": "6b540bbf86f7e5608ed9aa09e22ebd756d6f61259f040436748a4131191a2c0b"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "39ff1cd9c171a555288bf9d61a21d84a04ba607ae2b7178f446312e537c03c06"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "c5f0d4ab0f1b5d9d2f46257630aa2b520d8c45da1bc1ca736b213b4dbd0a670a"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/spec.json": {
+      "bytes": 203,
+      "sha256": "9f73c80d527d2543e897e6ce0795c087c81c17c9a82fec7aa9038833c8947640"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6101/TRAINING.json": {
+      "bytes": 11102,
+      "sha256": "20c24c0878eeb3c3cc86a83a4bd41eafd09f81401779c2e0289ce5478fc6a28a"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/PROGRESS.json": {
+      "bytes": 129,
+      "sha256": "cc46d9433a24210566c9077bafbb1beffc26fa880f023c9eb6e3cbe0452f182b"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "1c435352d8d9875de17423ae0cc4a2a1c72a1c166c4d9fef0564d2fed5e65d2f"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 31624,
+      "sha256": "6137065a56dcb1e796ece653911bb9996762dc9982acd070315cdade8a0da1f6"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "9f1e3c390e170b6546e4bef3c8858e687c464bfb92b6d5a8602d4e18731ded28"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "ac336cc72c7b0dcfdad414c8246ef9f2b77e2fbfe9db6b846071926020a1ac4f"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/spec.json": {
+      "bytes": 208,
+      "sha256": "f89cc8c35da74e9d9bfaa5710845c5b58dbb973bb32bb1a96c66769c6ed56dd5"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/TRAINING.json": {
+      "bytes": 1090,
+      "sha256": "a4f623faf9fd3c1bf57e6ff2ac5155267ae2892b95732d3f033b43f27ccc266f"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "028f14667a1ea404f8b9fbd5731191ef95bb5f3c47c1c148a7b0ddc9bfbba856"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "871ad7e0fa67cd3c8515085c35106d8f40e74be534113a850454b054658c2932"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/INITIALIZATION.json": {
+      "bytes": 31438,
+      "sha256": "537376174bfc360ea32ac302c73ce3a7f239b4540d874ca2637d7406cc098b4c"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "1602e9707daa7fbf87c46a4da1d6f93d5d2b7224d065adb4a8ce9cc532204a2d"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "a58a5b88f0bf008b256fa654b34906e216437a8c2df0ed36ba8aa9d1f43d35a7"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/spec.json": {
+      "bytes": 203,
+      "sha256": "a17438462d38aba989d253cdba28afbd1a2aa472fd05dfde8cd812956f4654cd"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_input_r8_s6101/TRAINING.json": {
+      "bytes": 11136,
+      "sha256": "4f8d875aa70aedbead8838c51ff19e369c47602a89df8c51799055c4014c0c1d"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "528a5d00ed4ed6351bf43333394ce0c26b16b4f66d67e9d936acbdfe6ed07d47"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "c2f0484f7bc6d079c6fdacfb9b96a3e28aada75ffc19f99d2e93ad31965cff26"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/INITIALIZATION.json": {
+      "bytes": 31653,
+      "sha256": "2c605f2f509686b583162eb31842871c471c888c026078e51eb32ff9babfe3d1"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "e1158a0ce5efc877c9c12f0113bb7db52118d0ce14158bcc65990d9a15dea2d6"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "41bc698867f7d591a9e653207c6f1ea14aebd1a5aa28cb2b9b2bbacd824e687a"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/spec.json": {
+      "bytes": 201,
+      "sha256": "3ad52291e6fde407699e03f6c499e73ab01cfb6e0ff731053b66e25b3692b854"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6101/TRAINING.json": {
+      "bytes": 11104,
+      "sha256": "401bc51cd23b29c58ac0bcf1a93e45c4cb273cc80f1710dc80b47ad2a83c734e"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "2dcdbaf8c0ff37330fcea31a69454291f253e7ce1e2dfdd87a474ff72a315376"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "89e0d4257885e1d85d968fed3198037071af034c9e4c607ee59e9039952bf43b"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/INITIALIZATION.json": {
+      "bytes": 24662,
+      "sha256": "77bc8ea151d4e22e07d8149775427a40774dd2b78c4e869a5fc92066f544c280"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "64724090ba16e746927582c7a0a95671b80a9075cc32326c798650a66301cb4f"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "304da29bbc04b6d496457ee4e25c9cb5e410ed2420abda748476a242b970ed48"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/SHARED_RUNTIME.json": {
+      "bytes": 108,
+      "sha256": "df409d3163ffb794080acbc758a12c2fc9190015dd3432b649040d5b11e516d8"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/spec.json": {
+      "bytes": 206,
+      "sha256": "da37ff36845521a85c8e17dd9868d707e66f707c403cbc8e6808a471e54f08f3"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7102/TRAINING.json": {
+      "bytes": 11080,
+      "sha256": "49f78b3c291044a1349d2bde7c0e3b250ff468f6c37166dfc383ef22bf67118d"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "65fe731375c1fb933a07a595ab7f055361576c30eae06e7b9deefdee2a8776b9"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/initial_adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "ca840597983e8626496e0eed8dd9e7dbc9634f43146592decd4e0c7941c1d4c8"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/INITIALIZATION.json": {
+      "bytes": 24685,
+      "sha256": "3499f2f89d48c5a0ea599eebe05729fa7ab4a7934fa8eca0aa8262082c2c77bf"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "d97837de7aa67e838c0d701e0e3e7961e74e375b3d7c4afa86dd3fbab10439d3"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/adapter.safetensors": {
+      "bytes": 81018096,
+      "sha256": "e0ebc395b9d3198801e8605197898068cdbbc0c48946e202392e9001985b36c6"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "a95a9c8f0b022449b86d12c4d99503193904f4456c9e5cd7be6046bdbeb2ecd1"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/spec.json": {
+      "bytes": 207,
+      "sha256": "d4dc47c74ea3fe15e7abbec63e621bb646c8cdc8cc6933b9626d0708f957e867"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_output_r8_s6101/TRAINING.json": {
+      "bytes": 11122,
+      "sha256": "d46af3738bce371d3308fb7300ea780fb0cccd440cdaaa070b25877662acf825"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "c38effa082c3b03869e5a61b4320173cb02787436c2ed211ce6b598ad0e275db"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "4129a4288226e7198544619730aebfee1794c78c04cfa38c1e589fc81c80c3c8"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/INITIALIZATION.json": {
+      "bytes": 24904,
+      "sha256": "5797bf201b864a583e752df9c1e3135cf826308f46b1ecc84aca48ee5d287816"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "213cc20a0b18801bd305e5c0303d74022a980f8f4c1d320250bcfdc370a90e5a"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "4b677736b0a31f5dff9bffab7867a2072d572fca5cef72a6c4b0b2dd08e8d47c"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/spec.json": {
+      "bytes": 203,
+      "sha256": "4505c031b2dc267e3205e13b796663b44331e160e44af6a1262b95285d75a08e"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100/TRAINING.json": {
+      "bytes": 11102,
+      "sha256": "05165021827077ee2d3722fb39addf722d5459bf33bab4304479627870bcaac7"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "6bddc4f6d27a9b1c850f6aa03fd9e136b4f387f1511eefc7955259c8de04c77c"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "179d09ddcdea6858e081e47b5ec205030203f7a48c45a0f173754cc345e628b2"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/INITIALIZATION.json": {
+      "bytes": 31653,
+      "sha256": "4e6c2518ffeaf4d8b2f42fa4a6ca5ee8c9552b598690520fca894fc26cae67ec"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "e290074468414e16b22cf74fc00dd18a1acbbdae15c8374ef00defdc1deebd98"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "5a78857a5cbc92b0b681332fded1414e30c402d8f90bc597ed4ff506034dae3b"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/spec.json": {
+      "bytes": 201,
+      "sha256": "ffaa416d92d11bb20e03311830be8ac6d72588ad8d9f0bf64ab38a5ff0515508"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6100/TRAINING.json": {
+      "bytes": 11111,
+      "sha256": "eb3f86b9786a6b497636027ee32ad526e18681a6a5face44abecc1fac9aaca31"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/PROGRESS.json": {
+      "bytes": 131,
+      "sha256": "fa20e169c562de714d9172f2ced4bfdeb6b2526e9ae98bc6ffebc9075b3732c6"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "807d12b7bb4396cd20e37f2589b8a35b61b47ca73bb706ad76505eb55b50bb86"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 31839,
+      "sha256": "7ba5d8a7d859cf508f29a54d9f5fa0781b60ea5290e40fd283a8d24cd7c85d1f"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "d4d4fc146f98b1162ca6aa8bb90e94e433c0784f1d7ed10388025258e49f8a36"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "a9e510c99ca83845054cbfbc1769d5ef9838f835043f7ed123af36b043fdb419"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/spec.json": {
+      "bytes": 206,
+      "sha256": "842f600865cd9b3701c0a1d9a413c38f2b111c199c676298b07a08497995af59"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/TRAINING.json": {
+      "bytes": 1090,
+      "sha256": "2c944239e0e329d72a0d0f945c76ce49ad1c3d13edd245440936323cd5a9d96e"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/PROGRESS.json": {
+      "bytes": 129,
+      "sha256": "203e5d27ed4a8f93730dd2c42946e6ebafae732c184ec93a208603783bf46421"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "4d3658a30efd62a77d48657598fa4c7c63cfba2321c9fa8e786036f76b6ecac0"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 25072,
+      "sha256": "986a373f30046c44f6e74e840f6afdfe94e89575407fe8e7fcd7ff6b5a6e6f64"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "1fc5c56290c6d76e50827b3ccc7455c703daf35d1fba289e88b2a659bd5af286"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "78b03bd9e64fae919bfea6da767c9893ddf5393a6b41c1c3b8892f22137513db"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/spec.json": {
+      "bytes": 208,
+      "sha256": "9da88dfe94c61a96525928619b701dec756a82b6d0b3be2e28735ac0b723dfd7"
+    },
+    "study/checkpoints/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/TRAINING.json": {
+      "bytes": 1091,
+      "sha256": "764a68885491bbeee5e5cf8b524a7ea1bc9f5938ab3d8a986f36e434c2a67922"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/PROGRESS.json": {
+      "bytes": 128,
+      "sha256": "9d5d392ef1d5a8bb267e387af38f9c3c02330e67ae4b078d878bd6e664326dab"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "4129a4288226e7198544619730aebfee1794c78c04cfa38c1e589fc81c80c3c8"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 25054,
+      "sha256": "3c96a16a68423684f190c3eaf5db487c723a9aad2dca783cecb16790aa6dc402"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/adapter.safetensors": {
+      "bytes": 81262080,
+      "sha256": "ee76d15839d8b63655229eab9a7c85f831a6ddcfda0010adde453e6b1fed5420"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "a02ff46ee832454747684abacea11a56f2b3dd3defd1cafe6d03146c4149ed23"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/spec.json": {
+      "bytes": 208,
+      "sha256": "400ee6b9e9017940a1b9569482d8df1a44fb23af402bd0efb07ae46bb4aa1f60"
+    },
+    "study/checkpoints/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/TRAINING.json": {
+      "bytes": 1086,
+      "sha256": "36fb309384832eaff726aedcc00ab1871b68c077fcfaf1a81082abde70726ef5"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/PROGRESS.json": {
+      "bytes": 133,
+      "sha256": "c9429029faccb97dd923f808d29600f11ba6694a463e76724cffbdba0796695c"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "f848a5db332a633e01f5a5fa87acde8f7bf95b4f884227ee9a806f88bd501088"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/INITIALIZATION.json": {
+      "bytes": 31474,
+      "sha256": "44f48ee33cdceec777710ba849569853bdda7de785b6a48c3834bc56243b3d1a"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "9869004a02f75c746a6a6ead68b591ddb5484bb2e1e9f6fd8adc7a526793df2a"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "3828655421c8809cc288f24342f112f28d7dc049aa916c039deccd1c58aa4fc2"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/spec.json": {
+      "bytes": 203,
+      "sha256": "d6a07a2dcf241adbc52c776a2c790d6b8da5ec8265decf8d44b57201747a2ae6"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7101/TRAINING.json": {
+      "bytes": 11122,
+      "sha256": "3622d463a37d420dd00faef22911c65de3e5f01ce7d597b73017fbbec3ba1862"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "7e73933d81fe884e7eda42ca81b4e6f39784ffb37d823859e0ca1e02b49a59ef"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/initial_adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "30e4643e82b8524402aa6d3e1efb053e6bfba62d5e93af6c738276162a92626d"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/INITIALIZATION.json": {
+      "bytes": 24680,
+      "sha256": "9353233027833f484929a2b5da242fd7945ce65fe662172446d33f59c2f794f5"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/adapter.safetensors": {
+      "bytes": 37082224,
+      "sha256": "cc683c37cd201678abb9e4c7a2bc84362c0a762a4e110e99b2b9b217036245df"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "66282a2e3cba15e22aae9f4fb548da1d7e5850ed60ab880da5cc0d13920fce9d"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/SHARED_RUNTIME.json": {
+      "bytes": 108,
+      "sha256": "df409d3163ffb794080acbc758a12c2fc9190015dd3432b649040d5b11e516d8"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/spec.json": {
+      "bytes": 208,
+      "sha256": "f4a8c97da5d39e3505e7fb32fb673015ac53457ee02a1a8d01618e32c32a1963"
+    },
+    "study/checkpoints/wikisql_qwen25_15b_base_hidden_shared8_s7100/TRAINING.json": {
+      "bytes": 11063,
+      "sha256": "30b6c953679e37b28a628deef78033c06f5d02aa364f0779acd0f0275a0f6c76"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/PROGRESS.json": {
+      "bytes": 128,
+      "sha256": "ec6752229d054b8fac1f4fba17b3ba48dd657bd835f03d324a6d5b03b6eea1dc"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "f461f163be16182fdab6af3891b62747091235fa0d81fc99732b98b93c04c462"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/INITIALIZATION.json": {
+      "bytes": 31566,
+      "sha256": "aeee5c50c867ce77d04ec0519832c24c81ef6bbc15f12af92ab7feb463d2e9c3"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2297,
+      "sha256": "3a6d590e6bf1e0410eea61ad8f61addbaf3428e507b36eebb8a63b932f79bb9f"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "cd998afb46271afbf43a53c7b71f105a8d803903308b6d70e1e5253350ca9ef5"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "4d0db23a12a88066e1eeae9740842e1daeb0f57ebed447266e4163685d585530"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/spec.json": {
+      "bytes": 210,
+      "sha256": "6dbba12a7d9f3959ec4652cc41c4c5a6ef88a8ede7ccdeaa0cefc06b5501eefa"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/TRAINING.json": {
+      "bytes": 1091,
+      "sha256": "e9586bdd7498120ebcc011ff1db0f5f9d16531d7a1b7309a89ac22b76b89d5ec"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "0ff97c96e39e604caf36f9ba233ba65b6182e28aab760712e3c5c7188dfd801f"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/initial_adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "a02622e7822a84ba0dc918bce9df053a11316af4f8980a0e8896839c3a0e6929"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/INITIALIZATION.json": {
+      "bytes": 31653,
+      "sha256": "19a8d374f45204034e3f9d3fcd305cc2966d457fba2dd69df6b30bf37182975a"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "1a1034f72711fd944370eeed666e8576e923489dcdf0ebc8eda3580f1d94d5a6"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/adapter.safetensors": {
+      "bytes": 87897152,
+      "sha256": "85342066f0d2cc926c2892c27f54a70337c925c95d72a34cc9c8a5bdff122fb3"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "4804ceffab0d498e54ef1e65529ed82af790635f162a9e3e20f6b46cf080a9ea"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/spec.json": {
+      "bytes": 201,
+      "sha256": "d176640d3a2fa013a21e952bdc8b21c0b667d9215b3b8324a2bc88f0124797dc"
+    },
+    "study/checkpoints/cluener_qwen3_8b_base_hidden_both_r8_s6102/TRAINING.json": {
+      "bytes": 11107,
+      "sha256": "054cae838f9c32c884fbaba3d1b8661b49367682fa76139e2990f54cf7764921"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "aec69bab54c52e9a09fe7d36cc72988f29b63404eda92c629ddc57184d369717"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/initial_adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "1c435352d8d9875de17423ae0cc4a2a1c72a1c166c4d9fef0564d2fed5e65d2f"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/INITIALIZATION.json": {
+      "bytes": 31474,
+      "sha256": "3b2086f7e4dd4686acde4aac1498954dce48f4260bc63d1a599e70820f3b98e0"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "788d432fc7e90085b996d57c67685d649e114f66e7d1091f64fa9d4c4d02a720"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/adapter.safetensors": {
+      "bytes": 87634808,
+      "sha256": "7e006e868208a8888767a6bec50de10e44184235e9df3d511515c7186b73f839"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "27ae463ba85d6520cddb24668032a70b9a52dff33f2bdcfbc031616a40d304d9"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/spec.json": {
+      "bytes": 203,
+      "sha256": "a892c09a2dd2d5d791fe418ceb1c92cfebe17ca1640c1d355ba5b20850e332a5"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_input_r8_s7100/TRAINING.json": {
+      "bytes": 11137,
+      "sha256": "0f132d412bed72be6f577ca0bf5b759b3de91a86ef43d757a81618197060a408"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "d43ec33cab6c95cf7ef24713f2d8695580d69acbe8b5d5ab2ec4e7ebaee8830b"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "e2a990abdf121f2de2491d9d0a4015eca9c9277229b7c0448f2e128fb96f1234"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/INITIALIZATION.json": {
+      "bytes": 24699,
+      "sha256": "f19e8ab1f95da9b276db0b70570d884aa835944dffa80df2895e48213869a53e"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/TRAIN_ORDER.json": {
+      "bytes": 72608,
+      "sha256": "7e6710db9485dea0e3dd0e4c30e50fdd429d36cbb2cd4aabc39ca688e9daeda4"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "ec5477321ebd2072299fae176aa255ad89c5f1a7924e3dc99202ad3639d8c089"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "0817f9d98f6c48ccf2ddbc592d5837bbbb6b21f9dd585d7357543a6448b14248"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/SHARED_RUNTIME.json": {
+      "bytes": 110,
+      "sha256": "2e98cd822b5c0e3cad73403f4f93c214704a4db44c484f8f9f700d21d37207ca"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/spec.json": {
+      "bytes": 206,
+      "sha256": "319d608ac8b1681f108c98c1c064d6ceb20d70315b979c7b8332144ae6ef7268"
+    },
+    "study/checkpoints/cluener_qwen3_06b_base_hidden_shared8_s6100/TRAINING.json": {
+      "bytes": 11081,
+      "sha256": "5b48184d09c74e3d52887ceacdd1826e6a6ef7ddf83dd5dd17463f682ad1e168"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/PROGRESS.json": {
+      "bytes": 135,
+      "sha256": "dded90352766f6226e09562a05528a92b05a69f3019e912273870f450b85c6d9"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "009e9f78a7e8dc8288a8e05477b975c8b8d32bc25ca8fd0aef3f350d958364c6"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/INITIALIZATION.json": {
+      "bytes": 31452,
+      "sha256": "1dd4f1bb0deda1a6b9010c13bff17d11043b24d1a4cb95082c8115925f445dd0"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "48bbdfa2abd3cd0d301732ca0e52c74f3b6a9dd58b63af3cadac2bd199398804"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "d0bfb95247c0295d9e5aa7d1fa1c4f8e8a662e3ea08cd3574ad392a21e4930b1"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "aa043f63098efda0c1697ce5cef3c4a76ed07fa2f61cecae8a7e5b8a450bda39"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/spec.json": {
+      "bytes": 205,
+      "sha256": "8fdb152451674405997b3c9908f324eebc9132f87c7333d8907b050fbca4f0f1"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7102/TRAINING.json": {
+      "bytes": 11120,
+      "sha256": "8b79f5e05394acf5c78a0fba24ba34e9f1b4d8061b62f2a9dffeb76530800c20"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/PROGRESS.json": {
+      "bytes": 132,
+      "sha256": "1e12b75d0c961b56ab79574605a33491083c8b76d38a82eba402451a8e05b8c1"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/initial_adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "f88693f08f0cdcfd39d12bd4d2919ff1cad9b7cf147d00c1dcad4facb7691c29"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/INITIALIZATION.json": {
+      "bytes": 24662,
+      "sha256": "86e27332dc6d85f5e57b7797090af5ee757eb71e828769c09eae412e1887451b"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/adapter.safetensors": {
+      "bytes": 20302808,
+      "sha256": "58027465f860593115fa83fa63dadf6b87204744e8ae4841b078244acf3a22ac"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "34df7801e426805cb4c48b6bea4abe7347ebb781f1d2dbeb6af6f61404ac46b7"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/SHARED_RUNTIME.json": {
+      "bytes": 108,
+      "sha256": "df409d3163ffb794080acbc758a12c2fc9190015dd3432b649040d5b11e516d8"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/spec.json": {
+      "bytes": 206,
+      "sha256": "f76ba03d4bfb936b8af4a118dbb2291d9a0f22781a930d766818b6a47a26af49"
+    },
+    "study/checkpoints/wikisql_qwen3_06b_base_hidden_shared8_s7101/TRAINING.json": {
+      "bytes": 11070,
+      "sha256": "d7c9cf8fd64b6bfa7216e58200443767491eaec0e4790b1264ab369d3ab30c43"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/PROGRESS.json": {
+      "bytes": 134,
+      "sha256": "2e66656a8779ce5789653dc3dedb88df50738d8c668fe354bec85f25aab96968"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "a4ee9be9dcf4ab00c7dc94305274b25333807df07cda5241a573448aa3421596"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/INITIALIZATION.json": {
+      "bytes": 31452,
+      "sha256": "eac79d72036ed2b7dcc1bb324a727831bf7ab54434726ad259085dadc0140938"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/TRAIN_ORDER.json": {
+      "bytes": 74307,
+      "sha256": "b0c415ca891e0edd64a5db0cfc5ac430fe5f3faa80c4852b78012bec0b5d8af7"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "9255aa8a4de55acef410145c395c4068ec24188a6ca5269e14b5245a7daee205"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "5322a13717df681e2b92d71baae6a46842ae9225d973617119ba9b5f146ed85b"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/spec.json": {
+      "bytes": 205,
+      "sha256": "4390d987b0e6cc50a4702d8f0d7b4e95559f4a32a40ab79ed1846f91579da6bf"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7101/TRAINING.json": {
+      "bytes": 11105,
+      "sha256": "743e3a1ab057aec55b8ef9a831d368e33bdd7989bf5d27f9f6f8cd6a611da478"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/PROGRESS.json": {
+      "bytes": 128,
+      "sha256": "cb212ca415c40006d47ed8ee50719b2fe1295f8e27869263ea4417ea72e1b6c5"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/initial_adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "308eabfde52f1d818a48baba7db0763f1955a5bfbc6eaf61b365882cc728a66b"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/INITIALIZATION.json": {
+      "bytes": 31602,
+      "sha256": "38e6ddb61ae9791a176ed6e9bd667d9fccb0d3d31e4454c66d2c66170fec5d1d"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/TRAIN_ORDER.json": {
+      "bytes": 2358,
+      "sha256": "7490cf74a7f1f9f47d462e6675dc9531a3ef715e8e06014c61b8bfc61a993e62"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/adapter.safetensors": {
+      "bytes": 87618344,
+      "sha256": "1bdd030885743f9416f9f9a696b2fb6954e5ec06821a877f9639976faad46096"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/COMPLETE.json": {
+      "bytes": 62,
+      "sha256": "0ad7ee3eeeac35d39aa09fd4522468111c5c484b8191484c2fb16468fe4147ff"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/spec.json": {
+      "bytes": 210,
+      "sha256": "cad69ed576377980777c34b1e41b0c565a185518b83e701db572666f02a3b298"
+    },
+    "study/checkpoints/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/TRAINING.json": {
+      "bytes": 1090,
+      "sha256": "2c5ca281617949370da80919da9376c4fff20b369636bf3ef222db9ed1c2a171"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "dec6ae438765941462dd78fb66607456679b4feececa2c4864dc0488ad798816"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7102/test/SUMMARY.json": {
+      "bytes": 898,
+      "sha256": "3fe31086e4e49715a78c45aedd2b44bbd3d16330484c620542b7d9dfa08d6329"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7102/test/responses.jsonl": {
+      "bytes": 474444,
+      "sha256": "a12889227026ff25f572e2a21d277dcf918c73a20ff56d435fdf4f58abc8a3dd"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7102/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "0ac6d4e1ba1e1c6826d58a3e681f160abc0160ee306a464b0c40da0cf89f3d53"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7102/dev/SUMMARY.json": {
+      "bytes": 880,
+      "sha256": "46f36467c227e0c7b67d0d6a5915abc45f47b988ee2c39c66cbf7a29093b0f84"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7102/dev/responses.jsonl": {
+      "bytes": 118084,
+      "sha256": "efbb16b856eb867b6c850ea7192f66eadb3a6bd5610323100939129661b306e9"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "4251e1125f7883cccf34187c21ebd62be0a104e39d4434c798033182c83c7b97"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100/test/SUMMARY.json": {
+      "bytes": 914,
+      "sha256": "15dfb77958153a1de6ea5fdda3d5ad78071d5b9bd297a5c0228a70457dfedf4f"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100/test/responses.jsonl": {
+      "bytes": 474742,
+      "sha256": "c8d7006a9a464ea6225ef6694d768122da7d40ca344161ed2cc783f551084c32"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "f516e8c5724439a343b417d77bea5c6a9a339a7b0170701d24a4a08814c8b8c6"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100/dev/SUMMARY.json": {
+      "bytes": 882,
+      "sha256": "9a1dda2fab2a316aa7720f0143d452c2b0233257b0258f6ae6d41721dda771d8"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100/dev/responses.jsonl": {
+      "bytes": 117962,
+      "sha256": "53d7a8df6a2cdc02fb9d80b46fa61a897b81e6199eeb3369bb92bad65426ffb9"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "65b1831872d15bea7a224d2622e0f1ff9e5652e05de594e4812b96273730ad11"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100/test/SUMMARY.json": {
+      "bytes": 931,
+      "sha256": "f9852f39cc5d38940196c935cf1040240480acdbb947f415d499e3faf6758456"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100/test/responses.jsonl": {
+      "bytes": 476149,
+      "sha256": "7fa0bc3f8fe01f254332c520835f3f23681da3a3410b11991533f992027e6c62"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "8e68303fc397127a5c6cbbc895681f7de447092bb11c2e8ce4e01abe84832fd4"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100/dev/SUMMARY.json": {
+      "bytes": 877,
+      "sha256": "c3590b3fe91ff40354500412ae343ab94c0f9de73dcfd3f2fa883acb86e230fe"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100/dev/responses.jsonl": {
+      "bytes": 118187,
+      "sha256": "edd0ddb682a20811258df0748b2d27a52479278843313c160298fc9bd5607d4b"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "e22e8ec1fd3d235fc9ebfc2ffd12827e0d2f2d6e9e0aec05d11a15ce0b4379e1"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7102/test/SUMMARY.json": {
+      "bytes": 913,
+      "sha256": "c78ec25bf230b46c0050d4a7e13ca760059c2b544d816f047fbc12b2c730d7fb"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7102/test/responses.jsonl": {
+      "bytes": 474661,
+      "sha256": "ba8c1cfbf198ca0641eb3def46a21630fc8c741752703d46fc48679748231cf9"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7102/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "493fb12d249f48e5399651cb7e40bf6404db28f5d0314736e3be85f8bd875c13"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7102/dev/SUMMARY.json": {
+      "bytes": 890,
+      "sha256": "6dcab3ec2e731c152249ef2d4d7c27ab4563cc8f64b01da32659aa4cb15b109f"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7102/dev/responses.jsonl": {
+      "bytes": 118201,
+      "sha256": "cec92d39fb682ececcbffe4b4d77d435ea568e924584e1ee201ac085f1ddcd60"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "e29d794b883d1e801c0178da855f0d14a4301e7514bb5f0e0ce98da7a4ced3a3"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100/test/SUMMARY.json": {
+      "bytes": 999,
+      "sha256": "d82f7551e66bb39547694345bf31f5ebf2b4a26a132be1f684deb3387f968c33"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100/test/responses.jsonl": {
+      "bytes": 847595,
+      "sha256": "b5b6a76f47293d7f2ffee5d881ebff87eb853e597d17ef97d25a346d29b27fbe"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "0d5143d1c97ec9e6f4c3b2b75a14218f526c9b42f5709609aa2374549d98ade4"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100/dev/SUMMARY.json": {
+      "bytes": 952,
+      "sha256": "9df23f0e2393c48928d40cafb0464c1d3d5993967da270ab3608f1587df2694f"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100/dev/responses.jsonl": {
+      "bytes": 130130,
+      "sha256": "40a0a42e6ffc0c82890f7bbfa13347b70f53377094f4443ecb627e3611fdd244"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "09e7ca3be72460a7ca3ac5abee0f1251b5ab663aae9ed9c97b98676dd48617ba"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100/test/SUMMARY.json": {
+      "bytes": 1056,
+      "sha256": "3d32f528c3e63316cf02ca1019d11bc09ef14ba0e4238282cbd2050cfe555901"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100/test/responses.jsonl": {
+      "bytes": 880628,
+      "sha256": "ae00b3421044047cefb1164f54f10f8ca3318f17c604781f5483afef31524d3b"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "60dfc6f59a3e778097bb9cf7ae03bd92b72f8fb5e2ef4cc431ed18087d29a281"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100/dev/SUMMARY.json": {
+      "bytes": 957,
+      "sha256": "5456acb11f5df56da09bee15d571997740e60f656b13afd44166b977153eb35b"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100/dev/responses.jsonl": {
+      "bytes": 127882,
+      "sha256": "c51ad8561b38798f4fbf83dc82494d1f105c227d6f671c36a707f2f4be65e9ba"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "9ede4d094defd5a9ebd0d5f065d67e001c365a0a2e9cbdd00e553c57439b92d0"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6102/test/SUMMARY.json": {
+      "bytes": 1002,
+      "sha256": "00d86c72412835fd7703d5962326a975b40fc684e7d2bd518eed1587a24454a0"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6102/test/responses.jsonl": {
+      "bytes": 850631,
+      "sha256": "6178d31f431bce81ff381d217c2261c5509fd002be56cf4b624f8b20f7891bf0"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "3ee1de306b72c391de2b0cb897cdf75921f3698362d70a3dcd6c969552680f04"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6102/dev/SUMMARY.json": {
+      "bytes": 954,
+      "sha256": "fb5c2ebced525c827bd2299d317d9471e49a8fc78bc85230a9b23c32f3f72031"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6102/dev/responses.jsonl": {
+      "bytes": 128618,
+      "sha256": "7e6c5cc52b2aaf322a3d45cde2ca65e73fdcebc66b1707cbca449702e6fd62f9"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "dd0e8cfd6b763ade5fcc15fde2e9457ef2951540f291154d919bcc55cd0982f3"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100/test/SUMMARY.json": {
+      "bytes": 1003,
+      "sha256": "1083675041406cbe50259df856922c8c62d8e0a097b81fe9c86ee0b6310a31a4"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100/test/responses.jsonl": {
+      "bytes": 851932,
+      "sha256": "94061589df6051db66d9275b69d9247a292cea0bc92e1c66466d7b864f1da306"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "20e0ce607b13788f17ebd9340adb7dec31ab267e84986891c16940d75181839a"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100/dev/SUMMARY.json": {
+      "bytes": 955,
+      "sha256": "7108c7d12f65e66d9fc7eb0b4b6c603cdfe4e0134a293f8f3b19781374a8ce22"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100/dev/responses.jsonl": {
+      "bytes": 130528,
+      "sha256": "5cc50ea9a65c222223bd5dcdfafdee566a4399da5b30ef848ad6345aa96d4646"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "99aed67f2520033a5a089fd4f04af5d9ab641e88a7b26ba6aba855820b829017"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 974,
+      "sha256": "84e7ef45c0dd464b00d248cb5422bd8cbda1391751fb01fdff2f8bd3f975be15"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 18748,
+      "sha256": "eb9286cfb2ef58c527d5b9c55bf82a43b214b474b7a80cb5e5b8e2c88e4f7311"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "e34469da4b323e8ead43226f0ecfa4e8c6165f2d7fbbfe3eb93994f964b5d8ec"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6101/test/SUMMARY.json": {
+      "bytes": 1057,
+      "sha256": "da37595267acec1ab8af45fa7abc6cf945302685edf1f79413ecaf24a2216108"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6101/test/responses.jsonl": {
+      "bytes": 895353,
+      "sha256": "34cfc22387aed524b0f8afc1de445f55339517d51dad22d8f0cd561d294435fb"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "ffdd0881b209c95c8e192cc6c68143fea656110bbd47dfaf8176c778b58757d9"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6101/dev/SUMMARY.json": {
+      "bytes": 953,
+      "sha256": "e3c21464092156396f97dbb3227507f7e967c8bb447750201de8047bf2f7695c"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6101/dev/responses.jsonl": {
+      "bytes": 130040,
+      "sha256": "d7e5c7a35db8e56cb50e6f58d9f90f4bd9dc4951d0a98b2141cd45820e6c02e5"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "06851d0b7c05ebd9b261f2ab42be7b594276d856df6f57ba02f3eb06559b4c5b"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6102/test/SUMMARY.json": {
+      "bytes": 1024,
+      "sha256": "85390f01de6b5c2e4cf7bf1545bc3057a4c53c7b5dc6f0ea29a2d7daaa35bcfb"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6102/test/responses.jsonl": {
+      "bytes": 856496,
+      "sha256": "0e49dc680a73a3c5f2c91cc64d7a8fed25582ec5444a90acb36469fef139c30d"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "df3ab30cdb535733d6df77d918b52ab085d843f8c10c1663aa47ed37fd400f6e"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6102/dev/SUMMARY.json": {
+      "bytes": 950,
+      "sha256": "c80a9726751b59755d49575c1a58ce518b647bd7af743a6b322918ef8ff51364"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6102/dev/responses.jsonl": {
+      "bytes": 131336,
+      "sha256": "664a90773fba0edaa587088d19eecc61de51bdace20fdab255b02434e5e5b186"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "dd95208fe1b6d7680d2272ee46d9e57613cca91442a45090c44e98262eeb6636"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100/test/SUMMARY.json": {
+      "bytes": 931,
+      "sha256": "6c7819587b29a7d01808692b9a3e7b9326314ce791cd00d08d53311b80867066"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100/test/responses.jsonl": {
+      "bytes": 476240,
+      "sha256": "42c1ed1d24aa49b8a8c1c6882066aae006a6f7b0fcac647c34f1a2f823d59f0b"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "1158079fc1f496eba2057538887909dcf2ea7890a5b54634753e4041e3f859c6"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100/dev/SUMMARY.json": {
+      "bytes": 882,
+      "sha256": "bdc3738d749da51f9a20ec421afede6f4de3291e835de0c532e71c7f805f722a"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100/dev/responses.jsonl": {
+      "bytes": 118219,
+      "sha256": "45dba223d2e4cc4da0bdbc7ce366d572877892bb74624e242be5a8b1dcd1a4b1"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "943e3175448dc09cc1a615d6097c8d00967380d71ecb8ca22843b44cf9266a01"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6101/test/SUMMARY.json": {
+      "bytes": 1002,
+      "sha256": "488fb8e359e2b7ca8687af71883ee09d7c673940e7b419514f4f97fd4f58c1de"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6101/test/responses.jsonl": {
+      "bytes": 850571,
+      "sha256": "b86baa11a7e1f1dc49f7591ba6f537e7100b193c2f601372102c9aefacc05aa8"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "c0d9fe68948f77ad0f360e1fa61ea83978e56f9f34c439ada7a27ca10b0fae35"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6101/dev/SUMMARY.json": {
+      "bytes": 955,
+      "sha256": "d3202dccacce7504dad4f4c2bdf277750912d5b8baca66530e2822501a0ad655"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6101/dev/responses.jsonl": {
+      "bytes": 129684,
+      "sha256": "312b057f23103f08f7f98053f8c12eedc39e57a064e690bc723d4894bb1dd601"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "44f00bd84ed8fbee713a76ab88c548b167b7a692d2cf4b6155147654235ca99a"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 966,
+      "sha256": "b2f93184fcbd8b0668fa91fba333cbd2174e923d4048f741ad4b1ad6aa0733a7"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 26443,
+      "sha256": "2f7f0b78350404e3f3f93ee6b1187a96e2f5489c377c33689967f50b743c5d49"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7101/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "418b6597f8047f61ab359b7a60152b74ccc8ee465e7d02995d4e6db92e75eede"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7101/test/SUMMARY.json": {
+      "bytes": 902,
+      "sha256": "cfa71ed3f399429a176886d26f01c7fe4233c978f005b8ae7b919645956aa102"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7101/test/responses.jsonl": {
+      "bytes": 474614,
+      "sha256": "1d4a52f1360eb5fef0c4b63f20a917efc55dc801d831a3c854cc89e02f8799f1"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7101/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "bf0a3da317588cdc783f0fc74b9752fe7e6880a71318c49fe5f70c1b674ae87d"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7101/dev/SUMMARY.json": {
+      "bytes": 879,
+      "sha256": "6652e0299fe453e84c9034475bb27b5052017d3030858cc6ef745929d362382b"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7101/dev/responses.jsonl": {
+      "bytes": 118025,
+      "sha256": "2a0c35a03badf6c823e63bf1f0f4ab5a43b083d0a9162d5341993b6fcc359bd8"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "6514f4dcb960327f04c7759fcfac77799121ef5953c8175816aec9fa8bbabbd1"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 876,
+      "sha256": "5cb546796a3017d8f540ffed58c17054daac08fed5bae6a4a77ef1fe6545873d"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 7284,
+      "sha256": "f9abb22e31794ac86c3242db5059c1ed3a63907ac4198d8499171b98154dec69"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "4ea719b0e582b5dd42f47342ec853ee94214748275c5e0aa2aa7f209eb15f569"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100/test/SUMMARY.json": {
+      "bytes": 1026,
+      "sha256": "08de41cda9999be5d3202f50b40cb4f553c5f1eb3aa1a7077e07b2c09c8b9d01"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100/test/responses.jsonl": {
+      "bytes": 854949,
+      "sha256": "619af4440448a67f8f44e02299558a15fbd189eb62a050ec61cf6e758f9efa15"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "1f456611a928436085b602059a155e796077042e4846c0effebce237c34c62a4"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100/dev/SUMMARY.json": {
+      "bytes": 954,
+      "sha256": "7fad69a7a41225d1474c97b08d739e142966762c80865479a4f8d6d0fbc3826d"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100/dev/responses.jsonl": {
+      "bytes": 130671,
+      "sha256": "5ddd58bb3fd2de02893ecb47b6f7be95632e8460256445dce95044f7c4bc2581"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7102/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "b81a52cfa297485702ba100d1090fdf479e6f2f2e7d4412ed3584186900b674b"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7102/test/SUMMARY.json": {
+      "bytes": 899,
+      "sha256": "e820d7f413bbabe3271e6066c6daa26c7aafec0a11047a8a45b7adc685806385"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7102/test/responses.jsonl": {
+      "bytes": 474578,
+      "sha256": "91b8a8cc5c72a136573fda26ba386e56f0ee7f95a05454f393b5f6d609debd5a"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7102/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "9e15fbc58e05dae0d79d1175b735021311fe1dcfaa3b1a54c2cdec6e7e45a94f"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7102/dev/SUMMARY.json": {
+      "bytes": 875,
+      "sha256": "3b84f3a6e3433bb122eed0e3c70674e0f94d3f956c67972040cb83fc85d603d4"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7102/dev/responses.jsonl": {
+      "bytes": 118169,
+      "sha256": "09e78f11e099a5773ba09885ea12ef863870e4b6a9385495425925fdf78acf64"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "836c92c156d99fb4152274d632e42257c02ed9c7df96e9fa9fb3f7f2faa02c10"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6102/test/SUMMARY.json": {
+      "bytes": 1004,
+      "sha256": "1bee64202ef8cd1f9f4d67dcd3adc9887a1022d88aa083ebd81a5954af0600c8"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6102/test/responses.jsonl": {
+      "bytes": 851922,
+      "sha256": "b67f95aae53a0c0fde6d5e2869351c78c0bf30a8781baa080ecea858bb3609a1"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "6ffd466406e506a3fbcafe30ac036df0852f8e3ca0dc1d73c843be34c03b928a"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6102/dev/SUMMARY.json": {
+      "bytes": 952,
+      "sha256": "89c09a4d62dc371374020952ceaad815538970b2cc521f92ac3be655d6a31f20"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6102/dev/responses.jsonl": {
+      "bytes": 131147,
+      "sha256": "bf5cf5d6f18293c382ced3de940de2d956aaba323287173b9129b341715d6868"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7101/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "4fa6150d49ed9f0d787353831ffaaeb92085e25be0e28b4f7bd25cb0be16810d"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7101/test/SUMMARY.json": {
+      "bytes": 936,
+      "sha256": "8475b5caa74b4357289adfa30fdb12a93e805e03051da4fcacf99cfe3b41708f"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7101/test/responses.jsonl": {
+      "bytes": 476531,
+      "sha256": "e98ec133acf1a13aa7a240feac7b32da55460521b81b22b23833c698c3a888a9"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7101/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "8a78e5711a64782199fab92c2c78da2ab5e695c90191c049b8adbebc90c26a9b"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7101/dev/SUMMARY.json": {
+      "bytes": 891,
+      "sha256": "062ecdb2215674f341cf414858df85849c3b4d89fe1f10dc72b7401856bd83a4"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7101/dev/responses.jsonl": {
+      "bytes": 118190,
+      "sha256": "c4325d526a9332ffe0d72cbb62f1a2d79c8813465604a4cd18be12f9bd67cc55"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "3890eea49424b0ee5f29157d8da28cc19ec5cc4ad0b3f0d0be7960cd00220cc4"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 871,
+      "sha256": "dbf52326a562ab71f5421e899d563928902f195d21af2493492d158dff870972"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 8053,
+      "sha256": "8f0732a357f7461e7558c70b1a6d25379574a64a21489b8a54cb59faa1ea0304"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 65,
+      "sha256": "8c2cd9eaa0fb6ad0d8ff2b573125ea230b36bc1f0e40153a2d56edda2db05318"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 963,
+      "sha256": "29d8f6b59aa1b8fcac7957e3fd67a5d211a2638f7f6976602b5e2f71754209c3"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 21583,
+      "sha256": "5cf28d31a46e2b88bfcee69bd4b9e94b81aae715a4d5cc578cce091c71bc9c41"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 63,
+      "sha256": "434f832c782814ae6317768398826c7cfb634a7788aea9e099ed669aeabcf59a"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 968,
+      "sha256": "3f455e221213ce4d7945c6e04f7142b9f4c7231ed7b84d77755891ad7dbe8538"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 20713,
+      "sha256": "d2d21c05e0e80d0aaa614bde58259edc8d714a150ddf14daa321e44f19722788"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "c53152774ad504fbe84dcfb2c7785ada46506616dd86a6a89159d767121f6dcd"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100/test/SUMMARY.json": {
+      "bytes": 1000,
+      "sha256": "1f824e9fd1db876001f3583942928aafafbb6a818c9400bc0edce3e0f1619ee7"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100/test/responses.jsonl": {
+      "bytes": 859476,
+      "sha256": "3b9f9d188f1953de720829bbb1e21ada197f121d3f5e7521b93ee7108df4096e"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "858f32ac6ada077b03211c7b25dcf0c28b9955be52d6edb05c511c175d7f1efb"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100/dev/SUMMARY.json": {
+      "bytes": 954,
+      "sha256": "d81de381b5e5f194b1ffd60bae6ed7e2bb4b65c116f0e8ab4ae735d84cc4d682"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100/dev/responses.jsonl": {
+      "bytes": 132635,
+      "sha256": "d1067c923739fb7a2801e9ed2f720af3695bb9d6ea4cd776fe7dc2418f345b03"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6102/test/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "98ab6a255be42fd70dcca9ff5c2b8f939ef6081751fe4bc050292f498ee32314"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6102/test/SUMMARY.json": {
+      "bytes": 1055,
+      "sha256": "66c71b1a9058e9ca1d7998e1a7ce378160e1e7430cd49ed7fa84a605fdcb44d6"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6102/test/responses.jsonl": {
+      "bytes": 880177,
+      "sha256": "100e4f80f2c5a9b4df5733834b365b44974ac168b18798bc54acc313afee6724"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6102/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "311114c2173e6bad316103f34dcb52c318cf9829b01b31b0fbd4fc2e23f75074"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6102/dev/SUMMARY.json": {
+      "bytes": 955,
+      "sha256": "00f8c1327fbedfab9cb92bce174bac26df8fa067b9f519b90061e1822b137604"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6102/dev/responses.jsonl": {
+      "bytes": 129748,
+      "sha256": "7b64f6efd5a9e29266f91d21e51895a7ea5a5652e24a68ae6fd5567926d54653"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "76ed2ae9a842e89a139a51ca3584b31e1a7cb55f0571d3a26f15ece64042b3bf"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7102/test/SUMMARY.json": {
+      "bytes": 912,
+      "sha256": "c5b1c34cd0773c22816a39e0161926817c4b03bee1a1c8997c28cdaedb63d745"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7102/test/responses.jsonl": {
+      "bytes": 474263,
+      "sha256": "53552ecba2b2897bf7cd8e6fa6ada38c95582a37326943573f943493247cda98"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "3caedd70c9748d3480d5f97914257bc778735a6b3791d06d2ba81dd8416c6add"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7102/dev/SUMMARY.json": {
+      "bytes": 877,
+      "sha256": "94cc06c2c993f3ed5ef773a09b2ac7187876254be45f8081478557ee41bb9c77"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7102/dev/responses.jsonl": {
+      "bytes": 118006,
+      "sha256": "7b5b5980567eb67d60ae6a57236dbbec4c591a1e571b489fbbda71a404de6b9c"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7102/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "2429803992304e5905d314c90c7fcd1adc8c460ec270cdff0fd9e9cbeb3fdf7d"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7102/test/SUMMARY.json": {
+      "bytes": 913,
+      "sha256": "df8967d6a60d177e3f1b08c8e5382cb5b891862b46b9c5c06af73a64c8268e91"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7102/test/responses.jsonl": {
+      "bytes": 475316,
+      "sha256": "6775b22604c0e91240268b4eedcd5ae3fcd8a583eba3e9950fcd57f54ef03e97"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "a852f0238834aa270c2d64d694b6f6dddc33b143729e244749fee7040e6c7ede"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7102/dev/SUMMARY.json": {
+      "bytes": 892,
+      "sha256": "80ecdabe333064df22a719441a295089f17a096178a65de06c14c74f5428331b"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7102/dev/responses.jsonl": {
+      "bytes": 118303,
+      "sha256": "79f27b89432fe253738d7a213ce3dfc76f8f6496bcc5667e30d610b2ee526992"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "9d93600e213311748c47060e2bb12267d27a1c245ce0bb936b8facb91ef3dc9c"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 969,
+      "sha256": "f413e34205bc3852c62bc87e8c49ab42426cb309c37d7186f6906a50385e3ef4"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 41669,
+      "sha256": "6d99f821c9bb304c409b7dc064f63dde1d2685cd6dbe9b128097e317902483d6"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "7d4148f61d69168c29bdabddba20559ddb2c6c0ad7f1084418338c3233d14788"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 967,
+      "sha256": "8a515abb1c54ecf02d2e9fe1e47a4488aee095a09c584d3d7d3ec081ba393ddb"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 24577,
+      "sha256": "240789fcc112a31c10df2d5463a3ad96fa917a2bac565907e7bb147153dd4760"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6102/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "403d1fd901570935bcbac66bc0746d6c864a1e1d8064bfb761ea298f40a48afd"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6102/test/SUMMARY.json": {
+      "bytes": 1060,
+      "sha256": "538d47829859896e55cb244143857dea214c13a517781f9ff1acc2b9446dc52b"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6102/test/responses.jsonl": {
+      "bytes": 874082,
+      "sha256": "1863205591015202a4dbcf406dce9669612de4969448b19f56aa21e4dafa1400"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "5b11105660ab3e803063b7cfb258ad27caffd7ecc6a46f96f67eafba480c19b1"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6102/dev/SUMMARY.json": {
+      "bytes": 957,
+      "sha256": "0150923149d34f23dd9f08aee47f149584ca6957f4b006f8d0cd25fa24d497a2"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6102/dev/responses.jsonl": {
+      "bytes": 126607,
+      "sha256": "21a27769a957a25b01ecd49916b8fe015f6011c330b56c4fad0c19fbfeeac404"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "f8ebb77810195342a13a09e124bd7f5c59b1b862c35d99af5c3ef74b14c46131"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6101/test/SUMMARY.json": {
+      "bytes": 1025,
+      "sha256": "e11df80430e3395df8c6e2eec27ee098ed0504fa9be716f12a5144c41b446003"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6101/test/responses.jsonl": {
+      "bytes": 856588,
+      "sha256": "65916ae065e563e5add25b0187e1944a06f96c3c790859ba29be32fa6f30f938"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "bd00dfda3fc205414fe6b071f3513a3a37bb11c11fa408afee962d3a2d0c46dd"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6101/dev/SUMMARY.json": {
+      "bytes": 954,
+      "sha256": "89965b913948dd2dd5ed33e932c37afd93fa8694e622020a6b94aee78c55c342"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_input_r8_s6101/dev/responses.jsonl": {
+      "bytes": 133024,
+      "sha256": "b6f4165ffa3fc9fd5c1ba87788a785ea4bc0ce7fcc1fc4c614ffd8f902a59824"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7101/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "79722975dfbf70e6d53c871aa51a26f3bfb5e571f2bd2ba9e347674e8578a310"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7101/test/SUMMARY.json": {
+      "bytes": 905,
+      "sha256": "9305748e95816a36b83e734ee8388e51c03812ef02016631a3616cda0e7758d5"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7101/test/responses.jsonl": {
+      "bytes": 474437,
+      "sha256": "2e9f0720ef75a61db3f955c09e71f0aa0bda9c7ca770a08dc080f24caf8fadd6"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7101/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "45a8b345e799ed2f47e58943b515cfea8a321004bfd39aff7d9d46deed97f184"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7101/dev/SUMMARY.json": {
+      "bytes": 878,
+      "sha256": "a574d2cf2c9332f6e3a148d26b306e7afef8ac0096dd4165949e080fab41c1e3"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7101/dev/responses.jsonl": {
+      "bytes": 118042,
+      "sha256": "9df337189ab8ec830e3703d0be51742c1998f1d7fa4396d81090077abe3866d2"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 65,
+      "sha256": "d926abcefe893cac5a976d7ce8891b8b466d1f9ae47d995791aa5065199857de"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 870,
+      "sha256": "4c6f28be35d06176f2d539e63476c77be7988bb3a98823b12484a3b710b3d475"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 7846,
+      "sha256": "0ccfc32f5b6740da81a1cab98b18ba751ad27fde3efdf43925373c66078f05bf"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6102/test/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "461070986bedb42d5b2a049b6612eba55b56de6786ea0e1c67b8ea2d69820b3f"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6102/test/SUMMARY.json": {
+      "bytes": 1003,
+      "sha256": "f4472d1e1bfbffcb10deceb68c482134d23470d3bd18b5cb82ccd9382f23abcd"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6102/test/responses.jsonl": {
+      "bytes": 853619,
+      "sha256": "72f9d4f7f5aec25de6d9939f470ef9d621644ba2868ca38ecac4b1d5e5b5b7df"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6102/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "344086ef48f5cf473476ff2eb74e8a9090c84da4258380f372aeb6fd66fb2562"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6102/dev/SUMMARY.json": {
+      "bytes": 955,
+      "sha256": "4bd6faff9292b68b597524b13dccc27b84f451032b3e10c89d0b84904d1cc54d"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6102/dev/responses.jsonl": {
+      "bytes": 130220,
+      "sha256": "fd44415c2344329c64e01e21fed4f7ffca9e30a2bca18e986be9c68028ad5f96"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "35c0dcf44663d1ff1a6119ea00324aa6193fdbc88803e8dc4db0e8a0702b1d35"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100/test/SUMMARY.json": {
+      "bytes": 911,
+      "sha256": "67e25c6526686f1be63d8663f8b66ec1862511111f8634671d9536aec474a729"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100/test/responses.jsonl": {
+      "bytes": 475039,
+      "sha256": "943d773796ebf0c0729b9819420014cbc2a43c30d81fec983af36292483ad921"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "184047abfa03c60a03d71e26296cbc288c4d5531c67f965a3527bf1b993b64cc"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100/dev/SUMMARY.json": {
+      "bytes": 895,
+      "sha256": "afc05df4bdcf92ec632fad04ef2b92e3b35016df643850ca909bc9601ceae33a"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100/dev/responses.jsonl": {
+      "bytes": 118136,
+      "sha256": "6a23bb01ded7430ebaddaf1f050f3c0a71c136eb98d659c005a18ec1e245eac0"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "040cec2d2484d4cc585130e091793483e814d10f82cde654876fc8dbfdb7fce0"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7102/test/SUMMARY.json": {
+      "bytes": 889,
+      "sha256": "00684e2eecba2371f576605cd768dedf9e3249d8dd5c14fb78c8b9db2c56319b"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7102/test/responses.jsonl": {
+      "bytes": 474496,
+      "sha256": "7e69de84cdc23d0a16c7cd67f6749fb77f7476d959917ca2734811b93813fa60"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "921e0ea49a09f0103efb59bd12731b151613b582732ed36b9cb16f851b766322"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7102/dev/SUMMARY.json": {
+      "bytes": 875,
+      "sha256": "1631a83567a7a25c9563519cfc6daa84be3ad72b4cf0bda9a0333a8e57483f61"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7102/dev/responses.jsonl": {
+      "bytes": 118239,
+      "sha256": "8c028c062892a653a86f14794fe6dbd68892d2e31f808e583f492646bea7425c"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "8a6b78ee734a4430cb858f8202def9fd323a6855dc1a5cd6d4728e32837b2e03"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7101/test/SUMMARY.json": {
+      "bytes": 897,
+      "sha256": "ed7a1e4c874eac0c9529e1a76b9cff4f0df331dedc0ff4d9a730488dcec19893"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7101/test/responses.jsonl": {
+      "bytes": 474717,
+      "sha256": "ab293db401c5db7427029e22f857306e8b0897358ff4c769c56836ab123dc5a6"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "f10f20912ded76b37eab7c2e9460c9c1326443343b5fb7f14a0a91c742cdb9bb"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7101/dev/SUMMARY.json": {
+      "bytes": 873,
+      "sha256": "4ca4ebf3d8c4c904109800beb3510d73085058d0971d86b47922114d8d3cb16e"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7101/dev/responses.jsonl": {
+      "bytes": 118013,
+      "sha256": "3274fa28a2e526584665142a74cffb62fcd7a2f3bdd0bf38d5d40cfbe57fe446"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "47e8f44788d259efd5d7eea2ac6b77a1deb254b9ff2a4768c5ec3d8f5faf0ee2"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7101/test/SUMMARY.json": {
+      "bytes": 917,
+      "sha256": "1b2cd47cfda39fc68254538cc84bd6d2326879c3e96a68ca713b7a0fe8dd9523"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7101/test/responses.jsonl": {
+      "bytes": 474535,
+      "sha256": "247699441cf395ef2016e0f354798c884c75bc854ab9fa983b0c5ef06e8675e8"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7101/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "4f7423e0ae70e884eb3358cc1562a942940d654e5337101c550ca2aa17aac83e"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7101/dev/SUMMARY.json": {
+      "bytes": 878,
+      "sha256": "7cf9b503edaeec5c16bf6516f933d76b9d50020f3d3f924f3f182fa608fe135b"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_input_r8_s7101/dev/responses.jsonl": {
+      "bytes": 118074,
+      "sha256": "2daf25162514384c1ca474d3a7df4bc29deed80e4ae9941c005dc7f18c0c1d43"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "65b47f8f72879572ca6d9d7eea8577214acf89784709fb364ade860345af6cfa"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6101/test/SUMMARY.json": {
+      "bytes": 1053,
+      "sha256": "f25f680a577901f51bc61fb46dcea85e753d25df61a2ee623edb2a219b3d9ffb"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6101/test/responses.jsonl": {
+      "bytes": 888702,
+      "sha256": "1463d4fe0e4742e88014da05ab589c051423a86f5ca39dd3934d19b49df0a4f6"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6101/dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "359ece032b98233e205cc2d421ecd8f6dc9d639c21363b8647ff0c871c7eec49"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6101/dev/SUMMARY.json": {
+      "bytes": 958,
+      "sha256": "5283076414f1d96347e0fa4454f6a3c87f5c68ff51255c08b90d249d6e9b8c74"
+    },
+    "study/evaluations/cluener_qwen25_15b_base_hidden_shared8_s6101/dev/responses.jsonl": {
+      "bytes": 127080,
+      "sha256": "bb58e1a199bd9329d2336dcf58f122170382f7a95a83650d2fbae1260059d5be"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 65,
+      "sha256": "857b4cc5894c2eacf47571de0bbd51ab4a9b3cc73f580ecf8da9c6823f857c23"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 869,
+      "sha256": "e992cfa368641cc60dd2c7ad620662ca05e562744dae30be6c81b6b2ed4d65fb"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 9282,
+      "sha256": "16d2ec7100cc445913044720131d7c17a36202703e026966e7e99a9c3f7caf43"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "5be576f68c808b184a88837ac174d50ddf0cc377b6e0dd42ea8ce47f907c0022"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100/test/SUMMARY.json": {
+      "bytes": 905,
+      "sha256": "c23e0d2d39d4d464e8b423384cccbee0316e4c51e62f7f50830254f586ce4bf2"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100/test/responses.jsonl": {
+      "bytes": 474554,
+      "sha256": "458c3bb407c2cafd12c9d7f93101d6225afdf5940e6e58654a6bfc46b6972dbe"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "3a960e35857768af0da456e030be255c83d6af2c6882625d603ba4af2fede949"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100/dev/SUMMARY.json": {
+      "bytes": 876,
+      "sha256": "4452a32d96ac7ff91b4d265dfe0a1b9d57d4edf0eadcbcb031e029c08615860a"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_output_r8_s7100/dev/responses.jsonl": {
+      "bytes": 118022,
+      "sha256": "dc25f245c32f6701298a52c1df5b0d8e9284a00ce2b41bf55f7026985b86086a"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "d5a67a5042f53f86620236bb240d9b1ead043019760ca65995f3635b83f19e76"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100/test/SUMMARY.json": {
+      "bytes": 998,
+      "sha256": "a21ad9fb78859ae5c4ef3637b0806e3b0663753930fbec1e942f95028fa546c3"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100/test/responses.jsonl": {
+      "bytes": 856583,
+      "sha256": "5d4796291f8778cdc14c73c70d8ea9836914d371a5ef00b129898a23c34c24a3"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "f6837ba0d924af0e42f40306c3c7294ee29e81d5923f93900c348eccb470ed88"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100/dev/SUMMARY.json": {
+      "bytes": 952,
+      "sha256": "b7cdb80600452ec9b89a23b1bb6dc21f229fe87a875b9de51e509cfbd7e8ef24"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100/dev/responses.jsonl": {
+      "bytes": 130993,
+      "sha256": "e026bdcdc5079e2780c093aba9285afc7cebb8aaa23189eb3ea9517a2ec7bc7d"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6102/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "dfee227438332aee21a66784ecd8a5203fcee21ca3445d2867bc8e1cd97b9c90"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6102/test/SUMMARY.json": {
+      "bytes": 1000,
+      "sha256": "36f2c277c68154e2b8b5616b6175459abf9515f981eecd0adf1cf1c7440dc627"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6102/test/responses.jsonl": {
+      "bytes": 848918,
+      "sha256": "f8181759b280dac0b448b06f29b032a29a337b6b2dd38215de710da16193e8ce"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "5ea48182e8943b4a7b0bc44d05bd06be8a6670d15c5b78e740c8ee68ec1b1228"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6102/dev/SUMMARY.json": {
+      "bytes": 951,
+      "sha256": "ce784df767b43bb8454f25beb169f6df08746f7cc65310d2ecf64bd905e90398"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6102/dev/responses.jsonl": {
+      "bytes": 129565,
+      "sha256": "14f20ecc164dd4bf9a49ed9ddc316df2e4a0126449b4308f79c11800cf12cc25"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6101/test/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "1b061e1f09ef1ef724b9fd1fde2f985ce255016200febbfd781a700a9206744c"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6101/test/SUMMARY.json": {
+      "bytes": 1001,
+      "sha256": "8de7d0f7589873ca8465322435d37e82849b488c4050367c05dbe25d14d696e2"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6101/test/responses.jsonl": {
+      "bytes": 855889,
+      "sha256": "70ad463a51c0b40e87d50f511ef95bff27fca2411e60efab668b981ab32fd6ef"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "e3e0c2c6d06551c2fc617e6c9f5da8d950d30a83abb8f40d4519415081195e6a"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6101/dev/SUMMARY.json": {
+      "bytes": 951,
+      "sha256": "f8f182efeeae7faaeecc1068885b9f37e43c0cfe0ef0a418b029f9902a263688"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6101/dev/responses.jsonl": {
+      "bytes": 133218,
+      "sha256": "86512f36b85d30f439af1218c81f821e643dc23476246908a626139ae983bc47"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "a9fdf7533b1cf3acebeafe4f58e0432983ae5a49f171daef601c479f901496cc"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 869,
+      "sha256": "75f4f5b84c572b6394c3a0708bd00f6e0c47d1033ac8ab2012be9e43a9255963"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 7268,
+      "sha256": "aa51a7556b723079a77a8fd9ecdc698d9fd0943d74714fb9e141d7f447ede151"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "9413662cbf85a0b114fe9a8c00ffd9caa1fb6f3ea2db38040f1a5fddb723cbd9"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6101/test/SUMMARY.json": {
+      "bytes": 1001,
+      "sha256": "87fcb3cd0308c8e36c2a28bdf4f9db00e2b4f2d75bbe0a71ddedbbeb6b41f29c"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6101/test/responses.jsonl": {
+      "bytes": 850868,
+      "sha256": "33da3228fabb9ec4454d252879ae5c38aab939ecc23324d1ae21dcc4eb7af3c5"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "7090e4be1621cab6e369f3ff53a228dffbbcf7e33fe3fcd8199f82758963c931"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6101/dev/SUMMARY.json": {
+      "bytes": 952,
+      "sha256": "072c32a003670bcdd427d367007766849f6cdf215fc0bcf5db7701d939c0a2e7"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_input_r8_s6101/dev/responses.jsonl": {
+      "bytes": 130050,
+      "sha256": "7a335a9d8dff6a3b73820412793e26b92756830766b26425a25c6ecc2e124458"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6101/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "4c86f189805563ea6d3c8212757030bada47e5f6b5c703e36342169298eb5309"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6101/test/SUMMARY.json": {
+      "bytes": 998,
+      "sha256": "02afc97e80a0acac3adff512800a3e51753ae9c9ddc4b5b49aba5fd1bad930d4"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6101/test/responses.jsonl": {
+      "bytes": 853350,
+      "sha256": "3c999db23c95714d1efcf4b601990705b0041a69513291d93a5666e2452a124f"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "aa3c139206c6595286ff1bc1545b9eebf2b0047ecf2bfde79a7254a5ecdc7f24"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6101/dev/SUMMARY.json": {
+      "bytes": 952,
+      "sha256": "22bad9334d1e77263e3918cf4daaacfb99f390c36c29beadce0ea8c209234c10"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6101/dev/responses.jsonl": {
+      "bytes": 129913,
+      "sha256": "bbfa74186eb49e79b9ddbdb589bca0d6a44b79200272296e97fa263d10535acd"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7102/test/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "678a472729253af9fccc9e7a7ce3fc57eca8d01b2ede5fe406899e1952c9682e"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7102/test/SUMMARY.json": {
+      "bytes": 914,
+      "sha256": "478037a639f7cb49801c1de423dd3c13bab0902bda4fdeee62e86a2198a3fe06"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7102/test/responses.jsonl": {
+      "bytes": 475401,
+      "sha256": "efdc762818fcf1b0d5704e1a623934e483701ce787f25cb06f7d142ea33d8ce9"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7102/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "687b1521caab4e102ee5b8c78c6b64208ecc97253a6fb3a40ede4f03a854bc3d"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7102/dev/SUMMARY.json": {
+      "bytes": 891,
+      "sha256": "337dff104bbd82879d4dc3e579c3c6f63797c7b4d41f657035241ef043d83052"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7102/dev/responses.jsonl": {
+      "bytes": 118332,
+      "sha256": "0b7a58a735cc5f93dfe9712fc87eaeda927c7076c6fc0c5c884146cc9e689597"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "36e1a470b47d4dc64e03d63addc053ae29b92d242f210493fba1e56ab8569ad5"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6101/test/SUMMARY.json": {
+      "bytes": 1003,
+      "sha256": "76efe87c45c637261bced5e7eb88dc5c80b35adb498752f067bb38a301ad44de"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6101/test/responses.jsonl": {
+      "bytes": 860009,
+      "sha256": "5554cfbc340ffe0638e45280457e737a990ee8242ed9fce63f1ed1ff872bdf6d"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "d85c508a111bce814d77c138fe2ee1c61b5e463368e118954ae85e2def4ba83d"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6101/dev/SUMMARY.json": {
+      "bytes": 955,
+      "sha256": "1ca6b9c13bea764b69a86d649662048e84a041b08064c7899ad5a6bec6688eb4"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_output_r8_s6101/dev/responses.jsonl": {
+      "bytes": 133594,
+      "sha256": "69c57c6401e39a10448c950fa29e9c6b46239565127081ff11f3ed163430b137"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "56a9f11b1c5091bf68a2ba313672399f89b9228fe60b0c37ca3d74447701ea3c"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100/test/SUMMARY.json": {
+      "bytes": 899,
+      "sha256": "707d35ad53034db29dccd2f5ad4f985346dcbe453421e9ec375f040e2decc07d"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100/test/responses.jsonl": {
+      "bytes": 474611,
+      "sha256": "68afdede40f2ca0fab62c7f5f669531a411b47cc4308f2215562976a179032ea"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "66cc4d5ff695b624227bc09c49e5e262912989ec0f97a36a3ad248f7499ce5b8"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100/dev/SUMMARY.json": {
+      "bytes": 893,
+      "sha256": "d2b04e4e0fe6e5aefd5de3b2b739694e8f40f681f1ec2aa234db718543073b5c"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100/dev/responses.jsonl": {
+      "bytes": 118150,
+      "sha256": "dbde1f3ed007249a2ead01e340e5f7d73a32c9c344a7bf50c74ef01308e97d65"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "9593e684f2b2e5192f1932c05bc663757f8e6d0d8c0f70aff44e49311a901791"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100/test/SUMMARY.json": {
+      "bytes": 997,
+      "sha256": "e02a5c0aaefff913e94f791f18f41749dc5f2cd5b3c343c5007c581a2a8c2fed"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100/test/responses.jsonl": {
+      "bytes": 853975,
+      "sha256": "27de6a0a10aaa06d32d72f535d195f8300973332bfeeb5e967473969c6ba0ee2"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "94d20054dcb9ddfe295253678969f770537b51b365c2a7c544957104c87f79d0"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100/dev/SUMMARY.json": {
+      "bytes": 950,
+      "sha256": "550a0116079dfb4595bf5ed2a3b07320c18f4196a1f88e2de9d9e05dd9c3bad1"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6100/dev/responses.jsonl": {
+      "bytes": 130346,
+      "sha256": "66e6aaeaa845daee2fde9bb36d36d233aa66f1919279b87ca30b63070943fed2"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 65,
+      "sha256": "f096c21515afd875872101e857b4b2dc98b6ad48d7d926d1503d46b93e386392"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 868,
+      "sha256": "554912551ec831c83868c4857e1bede1a208cb057abd7ce3aedf6bf4c23c3ef3"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 7285,
+      "sha256": "69d709038fc729f12a00d267940c9eaf86724d6ac0908338638d8b933410e08f"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 65,
+      "sha256": "f7078003aa723a32a755086c213a13790856e4ee19d96234eba16076810c8c88"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 964,
+      "sha256": "14f6268952d7efe20ca8db2baafc400b26ed67acd0e8daafeedc6f0edf009df3"
+    },
+    "study/evaluations/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 20567,
+      "sha256": "a1e1a5499c0ac02d9bcb9dffd3e89e883232c6dc3e16eecb4d59a6d7795c6eb7"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 64,
+      "sha256": "b044147b27c00d196c490d426a3c060b2b55da4c1cd2acecefadf7178bf75de1"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 865,
+      "sha256": "3c136c424fca27ebed5d312568860fa9367e8db766542851c637587e27b51199"
+    },
+    "study/evaluations/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 7968,
+      "sha256": "672afc2ab6f4e61754e8075071db437bbf7eabeb267149639169d6c77a59ecac"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7101/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "7e45aae9f2c98a7e0bcc14412f8115455c0d73aef1db8fc883cc288fe8425593"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7101/test/SUMMARY.json": {
+      "bytes": 904,
+      "sha256": "b42ede389ba81973208691a71a15f6704237e6493a4cbc2912b94c1219cd8e08"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7101/test/responses.jsonl": {
+      "bytes": 474633,
+      "sha256": "cba555c2b7b9ef308ecf95ca046d5932ff7e8badd2b9941afbb4e00c0e3bcfa7"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "9c919b73ca1f60cc1054218a90383e393abc759b40c17fc2d3e44665b23ccfdb"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7101/dev/SUMMARY.json": {
+      "bytes": 879,
+      "sha256": "469c28cba9dc0784d59e3bc134a2b85598526ede48349b3fc128891fd0bc9b27"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7101/dev/responses.jsonl": {
+      "bytes": 118098,
+      "sha256": "786214cc7217140c8d6637d9c958ed24739a8511f1223fd83ac6da9334f756e3"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "697dd404fe1f028a92e07a7c97a46abfe9ca087bce9b2e4e2bd857e8486ea383"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100/test/SUMMARY.json": {
+      "bytes": 921,
+      "sha256": "dd8eb9db3d5022049ecf13fa143b6d9cdb6813ac2242e56a1ae3acce814977ca"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100/test/responses.jsonl": {
+      "bytes": 475497,
+      "sha256": "db670d0ac406c019dab8802611f79eddfd492bc0b1d945dcbfd778f8298efad3"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "af59847568b252f93eaabbf0149132b2cf315a1621ce111c78f885a09a6f5dac"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100/dev/SUMMARY.json": {
+      "bytes": 893,
+      "sha256": "260a927b9ec7bab995052e50e3f682d1d9431fee27e0111c45ccbbc8e3368384"
+    },
+    "study/evaluations/wikisql_qwen25_15b_base_hidden_shared8_s7100/dev/responses.jsonl": {
+      "bytes": 118234,
+      "sha256": "0c6e80e69b8a9ea71e14fda58b8249a021343820ce531512f2f56113a5f3cf92"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 65,
+      "sha256": "b8e47032578d8551ef6fa5bcdfd5182a0eaa31917bf1376dabc13a4019c7f053"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 970,
+      "sha256": "5519b874038fc81340a3b40303251772a660a704f89315d585b1ab789664a2df"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 26443,
+      "sha256": "2f7f0b78350404e3f3f93ee6b1187a96e2f5489c377c33689967f50b743c5d49"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "dd0c4b54c6aa52ea8708bfd3a9b45b3a5ece09d01eba1555c45f8e6709599d77"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6102/test/SUMMARY.json": {
+      "bytes": 995,
+      "sha256": "90eed3d0521f8fe6902aa52c7e3ea4e51bd08d9253d377e4d0230a5f46620551"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6102/test/responses.jsonl": {
+      "bytes": 853060,
+      "sha256": "726ce369c18bbe082b555c90f3096eb2633ea49c19316475e451a12f38006270"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "70f0883aa8160cb4fc4599576d9015de35ac87fae3ca3a046b943eff63c61c30"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6102/dev/SUMMARY.json": {
+      "bytes": 947,
+      "sha256": "f9cd02019453c15cc4366ab02eb63d11ded76eeb2df2d4acaa22005eb2f10d10"
+    },
+    "study/evaluations/cluener_qwen3_8b_base_hidden_both_r8_s6102/dev/responses.jsonl": {
+      "bytes": 129139,
+      "sha256": "a35aa8a2beebdd488492eaf4dd8cd65d995abad93e6c083789d368b45795a743"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "b6d040effa223049973e6078ffe17f2869320cb747d0a0d4f82673b0dc77e33f"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100/test/SUMMARY.json": {
+      "bytes": 903,
+      "sha256": "45bc93341727b6fb389daba86abe4619919e17266c47556bec497c11a03c928a"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100/test/responses.jsonl": {
+      "bytes": 475126,
+      "sha256": "303120814ec93fb27134b029e0c954e574d42d484e6f74accf03c5883b6018b4"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "9232c851c77d038aa766e91055cce136935da531142cfc0150ec21ad9be4d40e"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100/dev/SUMMARY.json": {
+      "bytes": 883,
+      "sha256": "2be5553e42a749e0b630c2f1ec35bfba2d02ff5e5dd5352a5d204f0864ac7c4f"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_input_r8_s7100/dev/responses.jsonl": {
+      "bytes": 118160,
+      "sha256": "ad841f12aa8dd99fdb53913fcdfee6d8ae7cb9ae2e7b4d2f3128ea0a23d11627"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "d881b59646cd90b0f889a061152c8b4ca612feb127d536d1077e30097cd2a81b"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100/test/SUMMARY.json": {
+      "bytes": 1053,
+      "sha256": "aecce6c3abc7ecb7febba7723ba00bbc5f4a4eb18692825a3ee87fbd04d90a7a"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100/test/responses.jsonl": {
+      "bytes": 905337,
+      "sha256": "ecbcc4a069c5e4dc174121fb3f09a3b1381ef6f1a56213313e76b6e55561685d"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "65530bb25702a2882ffa59c9c3ef3766c6dc4151aed2355062645dcf8923cf53"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100/dev/SUMMARY.json": {
+      "bytes": 956,
+      "sha256": "3f3de7291f2f87666b7a5dfe8ace4090a217986b0fe2c2ab28c12198ea4cb775"
+    },
+    "study/evaluations/cluener_qwen3_06b_base_hidden_shared8_s6100/dev/responses.jsonl": {
+      "bytes": 129999,
+      "sha256": "e3992967256f6efd4718efd1784316efb6f7cf8ada44168b3440da88bb9507ec"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7102/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "3fbc3d891d512f628065ff2b72457415f88e07a12ad901cb1d9f16b162c57a10"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7102/test/SUMMARY.json": {
+      "bytes": 903,
+      "sha256": "80d5a58457bb701c5b5c40b0f7fc1e2e352a2855809fb386bbaef377ed681482"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7102/test/responses.jsonl": {
+      "bytes": 474207,
+      "sha256": "60cfd6de571c420a63e53a0b2a8cf14713fa8cd92ac494f5abf9908b93b7a9ac"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7102/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "b02ebceaea94e8c78245c0e33143a7d9b248555866d55b20105eecd6b6b0f5b9"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7102/dev/SUMMARY.json": {
+      "bytes": 885,
+      "sha256": "a12c17f3945c61deb89945069de96b22afe476e6b8d9c742f5cc6dc4456ff6d8"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7102/dev/responses.jsonl": {
+      "bytes": 118220,
+      "sha256": "525183dde2fcd0e179647350ea6180372847c24ce97d64ef9f6eecef7552be7b"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7101/test/PROGRESS.json": {
+      "bytes": 69,
+      "sha256": "8daf6cdd6f0e42e172ed94206ce9d9620e0d26bfcfa4fbf7f71e1876ed57faf7"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7101/test/SUMMARY.json": {
+      "bytes": 917,
+      "sha256": "f58797363ab54f349d48f700b783c91d0285a60f32bcc8abc67caddfdac09119"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7101/test/responses.jsonl": {
+      "bytes": 474755,
+      "sha256": "4f99176c4ad470f049be0e789e2cb2b1160b20a66827f2dc83a567a66664e117"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7101/dev/PROGRESS.json": {
+      "bytes": 66,
+      "sha256": "1ace8523b0ff19eb5774b829ade2802e4a51e2e34909cf5be5ec8f8eb2f03d05"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7101/dev/SUMMARY.json": {
+      "bytes": 891,
+      "sha256": "e35bd9e8f44d6ae54f1ce751262d6ce99e63cb512c45dc564031662de2ee855e"
+    },
+    "study/evaluations/wikisql_qwen3_06b_base_hidden_shared8_s7101/dev/responses.jsonl": {
+      "bytes": 118167,
+      "sha256": "7f663314e4f89ed4de71b492e4abe170f1121c92f49ef23e18248c1f24835dae"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7101/test/PROGRESS.json": {
+      "bytes": 68,
+      "sha256": "e42b898fc855477d68c6a9175e032c54b315ff3dcd7bc8d9f1c4aca98b79c1a7"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7101/test/SUMMARY.json": {
+      "bytes": 903,
+      "sha256": "4e94ae75edf5c42caaeb94b578db8a97e44f7211e4fae11b41c97a810eba5a74"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7101/test/responses.jsonl": {
+      "bytes": 474781,
+      "sha256": "f285c7dcc355781ec1c5b30250da4e92ee4a385d12ec119c88d52e03ea1bfcdf"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7101/dev/PROGRESS.json": {
+      "bytes": 67,
+      "sha256": "7402e97832c93bb73e0ec3d3448b32dde9e80312a13b42b6b98cab22c1cc5cc9"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7101/dev/SUMMARY.json": {
+      "bytes": 879,
+      "sha256": "a42e5a64eee5aef8bbf21a1643b72eaa4fd53f70c901c1ea74dc0a32fca5801d"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7101/dev/responses.jsonl": {
+      "bytes": 118024,
+      "sha256": "5129bc563a288be2a4ddcfe8eed3bd29d142262dc7192ba2983a77f26c5f75f5"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/smoke_dev/PROGRESS.json": {
+      "bytes": 65,
+      "sha256": "a9d36118fd5b214f50bcb22b7a7d97f2b6ef8c3cda9897384f5e9cd7ba41afa4"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/smoke_dev/SUMMARY.json": {
+      "bytes": 871,
+      "sha256": "f8de8369a0e7150f21bc82cd630ee69b44745c13aa3de6f91a8c85377febbbfd"
+    },
+    "study/evaluations/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke/smoke_dev/responses.jsonl": {
+      "bytes": 8219,
+      "sha256": "6a1b3672ab0a5e5bf041005bc7283e47a7cc39dafd3f5453de298a7c7ba7a722"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_output_r8_s7100_smoke.json": {
+      "bytes": 320,
+      "sha256": "bc7db669c105a68e26258df2738f4d1136870811d9cc24c7b67a1a489dfa5c36"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_both_r8_s7101.json": {
+      "bytes": 390,
+      "sha256": "b89eacdd658d6accb1bd2f03138c146c5122b4d556b5045c1baf390843e95948"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_input_r8_s7100_smoke.json": {
+      "bytes": 319,
+      "sha256": "09ba72f7de8d4efbc87a2fb51e96225bfdd75c8ceeb0f7c7a72b173eb1380a50"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_output_r8_s7102.json": {
+      "bytes": 392,
+      "sha256": "66740728ba57020bf667f252333aa4dbd86fbfa85ca69c323ca35f3133c3e5e4"
+    },
+    "study/audits/cluener_qwen25_15b_base_hidden_shared8_s6102.json": {
+      "bytes": 388,
+      "sha256": "67ff446c2bf13878dd2836ff1c6f4f154a881a665a41144f0ba4061f5d17b9f1"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_both_r8_s6102.json": {
+      "bytes": 387,
+      "sha256": "83678d326592c878f7b77a6d27bda1d7623553439e7b77f987bebfca209b4ba7"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_input_r8_s7100.json": {
+      "bytes": 392,
+      "sha256": "3c6bdc727ccbf6110e4cbb0d7bc50cca4b72b7bad7754cb038167988e43410ba"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_output_r8_s7102.json": {
+      "bytes": 393,
+      "sha256": "286b385b8892c9cca239edf57af024ff2fd13725ef9699e50e9aa6a3c8e520f9"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_input_r8_s7101.json": {
+      "bytes": 392,
+      "sha256": "06e59454ee90af11f882650f685eb90b2e3a97efe009d1144f9417cb25531cbb"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_both_r8_s6101.json": {
+      "bytes": 387,
+      "sha256": "ccc44443eff7344a2168f90d9bfa8215462123bb436ab99b091fc718cb70b7df"
+    },
+    "study/audits/wikisql_qwen25_15b_base_hidden_shared8_s7100.json": {
+      "bytes": 391,
+      "sha256": "610c34afe4cedc7886e28c45381691cd656c86c9b86cc2c0bc0fc46c0a973359"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_both_r8_s7102.json": {
+      "bytes": 391,
+      "sha256": "f3b1ed5c60d3c32ca42bd29c7b7296673ac5a2342c55c01dc049d7d69735a1ca"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_both_r8_s6100.json": {
+      "bytes": 388,
+      "sha256": "43a8dbb3d51bc56ce47c864dd87c3c61b50d8866308acabad781e375b61a1f83"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_output_r8_s6100_smoke.json": {
+      "bytes": 319,
+      "sha256": "4fb82265f7b2b3d28f762fa66ba808f7822ae32d50a24f879aa37b31e9ff2195"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_both_r8_s7100.json": {
+      "bytes": 391,
+      "sha256": "1e8ac13fe4f88ee58a1a394a6340fef0a4d608b1c73f1a25cb84d76b45bd9464"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_output_r8_s7100_smoke.json": {
+      "bytes": 320,
+      "sha256": "ceff9859f1f9707d306dfa2025ff3383548a215d6aeb41eafe499401ec1b127c"
+    },
+    "study/audits/cluener_qwen3_06b_base_hidden_shared8_s6100.json": {
+      "bytes": 387,
+      "sha256": "be2d7207a281b70c6bd72f3277eff5e6d8f89804d929ff3272d3c56b55afb8ef"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_output_r8_s6100.json": {
+      "bytes": 389,
+      "sha256": "81e72cb4255c7c0d1042fb9975ee8622c04b4b26aec581e41e761cc72a33fbaa"
+    },
+    "study/audits/cluener_qwen25_15b_base_hidden_shared8_s6100.json": {
+      "bytes": 388,
+      "sha256": "28d94269274c944b2e6b1a4057834fdcb14af4433feda46ef3078695c588d8cd"
+    },
+    "study/audits/wikisql_qwen25_15b_base_hidden_shared8_s7100_smoke.json": {
+      "bytes": 319,
+      "sha256": "6c9c5d3fa280960c9d5f3664e220f5e6874ed4a03e4529a45a523f7dc99b3e9b"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_input_r8_s7102.json": {
+      "bytes": 392,
+      "sha256": "d08c8221d44ec493ecc0d00741c3d67877f013d5edf5cb7d0c1b2ac8d2bfd3d9"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_both_r8_s6100_smoke.json": {
+      "bytes": 317,
+      "sha256": "e82d213d2cb8dcfa03fb785ef0f3a15f4d1d832bcffea57cb18ec856881162f6"
+    },
+    "study/audits/wikisql_qwen3_06b_base_hidden_shared8_s7101.json": {
+      "bytes": 390,
+      "sha256": "4ea44c81e5f800505cdeb48408cafed8f370e29a944e1611dd4a4e5f2440dbd1"
+    },
+    "study/audits/cluener_qwen3_06b_base_hidden_shared8_s6100_smoke.json": {
+      "bytes": 317,
+      "sha256": "c50a4bd243b6668363f1687f6a1cd40171c0e7e7d1cce1ee0ef5d869fdf22120"
+    },
+    "study/audits/cluener_qwen25_15b_base_hidden_shared8_s6100_smoke.json": {
+      "bytes": 318,
+      "sha256": "bf96f575f4318f5123b3ef9d0753937b0391996f7849cfb5930f8319b50a0159"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_both_r8_s7102.json": {
+      "bytes": 390,
+      "sha256": "5059fa7f88fc00a71232db27dd097285713777641a1db622fd550a083297e072"
+    },
+    "study/audits/wikisql_qwen3_06b_base_hidden_shared8_s7102.json": {
+      "bytes": 390,
+      "sha256": "2dda54a1167c2968dcd40d3b9dd22ec15376ff17d52d21b4362e6f1d8ef971ec"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_input_r8_s6101.json": {
+      "bytes": 388,
+      "sha256": "9b5482b6272d9403d562db0e8948d26721416d5a48e3b8172a716ee56c4e233f"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_input_r8_s6102.json": {
+      "bytes": 388,
+      "sha256": "2f30f55037517f703c742c87af1a9e5fd3c5a5897b2647b9f91a55f5c7b481e6"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_output_r8_s7100.json": {
+      "bytes": 393,
+      "sha256": "1edf6f98693972f19bf03fa9c4b19c97dbd5ebccc63f3cd5aadeb7a6ee0eec27"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_both_r8_s7101.json": {
+      "bytes": 391,
+      "sha256": "b06943f101ce983b238da7ea4919664bb66dd9c6f658cb9b5fa6a10a7967281c"
+    },
+    "study/audits/cluener_qwen3_06b_base_hidden_shared8_s6101.json": {
+      "bytes": 387,
+      "sha256": "35a2beef5a200654c2efb71d4fcaa3721ae09874e32a621fad4982bcb148c0c6"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_output_r8_s6102.json": {
+      "bytes": 390,
+      "sha256": "c6a6ea57a9b07148d66e95d171be16bbcda4c5c2eb9538dba3092f30f4117664"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_both_r8_s6102.json": {
+      "bytes": 388,
+      "sha256": "da739fd5509c7f68d38310901d3e16689fc97d4c5f05e661ac972b2d0de8604c"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_output_r8_s6101.json": {
+      "bytes": 389,
+      "sha256": "209d4165f797d17bbd47e1315caf061dc178fc6b2aa6be3d18d4cf681e7aca35"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_both_r8_s7100_smoke.json": {
+      "bytes": 318,
+      "sha256": "e05c7e0f2586cca05a772fed6375101c4018119b2a865abd868a73383490f240"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_output_r8_s7101.json": {
+      "bytes": 393,
+      "sha256": "671a7f746e6d7a24e5b535af19bfeec99b5afd78c07fb45ea7fe96b0f8930995"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_both_r8_s6100.json": {
+      "bytes": 387,
+      "sha256": "410810e788db0f20bb4362306df94ff786357a5c9eb7dff53a0dbc22b527c29f"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_output_r8_s6102.json": {
+      "bytes": 389,
+      "sha256": "11fc7b9da502571258d827c93a54623eb33cefd533c5749bfb614c0a71e0ab71"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_input_r8_s6100_smoke.json": {
+      "bytes": 318,
+      "sha256": "b5b47354b71fdc557b39a3ce083d842dd49d68c47a289fb57bbe851af32aa1f9"
+    },
+    "study/audits/wikisql_qwen3_06b_base_hidden_shared8_s7100.json": {
+      "bytes": 390,
+      "sha256": "dfcb0663dfeaf0f3b4d316195d07c2f989d3da5f165c8d1f71ab103c4f847bae"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_output_r8_s6100_smoke.json": {
+      "bytes": 320,
+      "sha256": "2940d7c11c0a0e2391f6fa8cf737554725d7b65481b867b0b403bf1d6d9cf4fd"
+    },
+    "study/audits/wikisql_qwen3_06b_base_hidden_shared8_s7100_smoke.json": {
+      "bytes": 318,
+      "sha256": "8fbdaaba5da9ddf36bb7b703498a3722225db2d917e4796723f4fe7c72b4d158"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_input_r8_s7102.json": {
+      "bytes": 391,
+      "sha256": "fc97de8f9fd28fd9d5fdba676ba4a214f2f29fc4eea0f5479fc4bc9b0f70ec4c"
+    },
+    "study/audits/wikisql_qwen25_15b_base_hidden_shared8_s7102.json": {
+      "bytes": 391,
+      "sha256": "a955ee29a43a333f241ad563f652336da7726f436e9226a1ab56637bfa41ac90"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_input_r8_s7101.json": {
+      "bytes": 391,
+      "sha256": "c91a1f422e418668bfb687eefb9f9f254111deeea9f4f19e04b8658e02ea1091"
+    },
+    "study/audits/cluener_qwen3_06b_base_hidden_shared8_s6102.json": {
+      "bytes": 387,
+      "sha256": "f780f1e6098c786e115f098a512c69bcf53e4fc0228dc1b4af8761ddad1c3f1b"
+    },
+    "study/audits/cluener_qwen25_15b_base_hidden_shared8_s6101.json": {
+      "bytes": 388,
+      "sha256": "d4c888082d36119d96d2f560a7e84021b1a0b0a3efa6660b993247ae7c2052d2"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_output_r8_s6100.json": {
+      "bytes": 390,
+      "sha256": "f88e99f9920752f960a12c679c28734deaa7aae40745d26b60457a99602d88d9"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_input_r8_s6102.json": {
+      "bytes": 389,
+      "sha256": "800ccbbf2ae8b6949c55f0d142a34119e402dbb33167248dd2c2f65a1929a5fe"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_input_r8_s6100_smoke.json": {
+      "bytes": 319,
+      "sha256": "96f18fe3005a21322f926a6791903eb3be7cae13a26b7e47e0e0508ae2d28054"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_both_r8_s6101.json": {
+      "bytes": 388,
+      "sha256": "d6a90f295fddb4764a9b1a7b612d998f1187d09faacb26626851f1764d9cc9a9"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_output_r8_s6101.json": {
+      "bytes": 390,
+      "sha256": "8b7dc57801567fe2056261bd3bc039d99fae6129c5ff3e55ebc080b3ee12cc9a"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_input_r8_s7100_smoke.json": {
+      "bytes": 319,
+      "sha256": "dbdfe172f9eedc801b37aa92f21e3488156a59a6e5e4d104c1c067178fc1c008"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_input_r8_s7100.json": {
+      "bytes": 391,
+      "sha256": "ef64f0a72577a15500acb3c0def3b89778edd5b660c1556b53c722087cbe24d2"
+    },
+    "study/audits/cluener_qwen3_8b_base_hidden_input_r8_s6100.json": {
+      "bytes": 388,
+      "sha256": "e9bde883f0d1b36dbed507edbea4d567b489b6010e7e78b51c77f43b9354a805"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_output_r8_s7101.json": {
+      "bytes": 392,
+      "sha256": "4377edde686dddb827fc3a33b13cfc99849d0a1869a357006cc5dd77d5a2f34a"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_input_r8_s6101.json": {
+      "bytes": 389,
+      "sha256": "dd1366e299a9d9c6677d02fbf4b66931eca84f6920ce1853c04066661fbc8e99"
+    },
+    "study/audits/wikisql_qwen25_15b_base_hidden_shared8_s7101.json": {
+      "bytes": 391,
+      "sha256": "91a28bfa8d5dab90846314b034500a4e2909c323c4c32a0069c0ca1d7a9ff57c"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_both_r8_s7100.json": {
+      "bytes": 390,
+      "sha256": "4fe59571976ba34af7b125ab7005b5092c06ae3ebc3581faf02098ff0f60c189"
+    },
+    "study/audits/wikisql_qwen3_8b_base_hidden_output_r8_s7100.json": {
+      "bytes": 392,
+      "sha256": "df0a8fd5f7e526dc1ccf64211af72e2d8ae63ba29fc38fbae26d6ecee45c9b62"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_both_r8_s6100_smoke.json": {
+      "bytes": 318,
+      "sha256": "f797381c4b80c1eefffb1cac87fce3bcc03ad690e188a8a462da609a8da5c0ad"
+    },
+    "study/audits/wikisql_qwen25_7b_base_hidden_both_r8_s7100_smoke.json": {
+      "bytes": 318,
+      "sha256": "cafefc63f09aa62d09d0ca7d5cc9e9092e324c73c23417defdc3d722299b74e2"
+    },
+    "study/audits/cluener_qwen25_7b_base_hidden_input_r8_s6100.json": {
+      "bytes": 389,
+      "sha256": "77b8bc03f34c83195b09538f9da188955098a697dfa1ab67c807f0d9c62c8fad"
+    },
+    "study/CODE_FROZEN.json": {
+      "bytes": 2497,
+      "sha256": "f3d74bec105ce88ac2dd10388e00f310c64d07ae609b69023fdb145efb9f340e"
+    },
+    "study/DATA_FROZEN.json": {
+      "bytes": 78417,
+      "sha256": "8c04f1408fe955126e63814aa9e8748b3cff9e38978d7df8fe47f4a4c24f9282"
+    },
+    "study/FINAL_AUDIT.json": {
+      "bytes": 249,
+      "sha256": "7aa57afc45037261303b6e9bfa90c5bdd1807f7e22cda55d4b8f4bfb0bf19e35"
+    },
+    "study/RESULTS.json": {
+      "bytes": 7544,
+      "sha256": "77aaf1ec37e98db23a313ef2cca68d2c115a0f5ed272b558fb4a8c9e6f5a6140"
+    },
+    "study/UNTIED_RESULTS.json": {
+      "bytes": 11600,
+      "sha256": "0bdad1d7f5b98165598647a751cbab915c8a8423cdde6274ce760ae7a25e4884"
+    },
+    "study/STATE.json": {
+      "bytes": 3520,
+      "sha256": "48f936a4c621299de7d0a46a74aef4b262a9b34f1dee9e00c3910a06a3ff19ce"
+    },
+    "QWEN3_8B_WIKISQL_SEED7100_TRAINING_CHECK.json": {
+      "bytes": 2782,
+      "sha256": "b495eeff30788dcb720f60fa88b11e415c5647abeee0aaff45b6c6e05b20db4a"
+    },
+    "SHARED_RANK8_FINAL_SNAPSHOT.json": {
+      "bytes": 7544,
+      "sha256": "77aaf1ec37e98db23a313ef2cca68d2c115a0f5ed272b558fb4a8c9e6f5a6140"
+    },
+    "prepare_rank8.py": {
+      "bytes": 3721,
+      "sha256": "c380a3f2bdd249a6b8654edc30501c31fca90bb63e55ffdf956552cc94f2dcc4"
+    },
+    "SHARED_RANK8_COMPLETE_AUDIT.json": {
+      "bytes": 1242,
+      "sha256": "17b0589966a4cf03e8034cd8a8bcbe767192fb482fb67c36c434d5036acccf9e"
+    },
+    "PLANNED_CROSS_RANK_CONTRAST.md": {
+      "bytes": 829,
+      "sha256": "62a04a7fe25fafe09ee2d6374153143e9c25c77f879fb3cad90efa0c1740e568"
+    },
+    "add_untied.py": {
+      "bytes": 2370,
+      "sha256": "f3d676166c27b208b0ddb9e6f9373788abc2027d959d5cab21b94992be17db6e"
+    },
+    "launch.py": {
+      "bytes": 2265,
+      "sha256": "ad52821911f0d1d32f53b9c847a10f914c4da8c57b328c81ae12a3cb962a03e6"
+    },
+    "WIKISQL_EQUAL_SCORE_CHECK.json": {
+      "bytes": 1170,
+      "sha256": "10a97cd07c263f1e79019ad018c3b4f257caa74d6ef49aaca51f3775622b2ff0"
+    },
+    "FORMAL_RESULTS.csv": {
+      "bytes": 2843,
+      "sha256": "9e708f7ecf5196e4e79283dd6155296dedda87aa4d31b118cbb9b052d0e61793"
+    },
+    "analyze_complete.py": {
+      "bytes": 4688,
+      "sha256": "1003c98208fb9da1f07d2b7ff7e23bb794420788e052740ce4925bd35f0b2a2a"
+    },
+    "README.md": {
+      "bytes": 721,
+      "sha256": "54a2ead5532e257be37199a6126a470193a1ef19338b4c84fdf95b13738e68d4"
+    },
+    "report_rank8.py": {
+      "bytes": 3372,
+      "sha256": "d954fe0064c3ae48025d39f07c5d77a789e78fe7923147caa62b82e049262689"
+    },
+    "PAIRED_CONTRASTS.json": {
+      "bytes": 18805,
+      "sha256": "25abce6cc156e2522b21491b929f1678373981a9affdcf5618a4f102a7f010fb"
+    },
+    "LAUNCH_PID.json": {
+      "bytes": 17,
+      "sha256": "8b8ea82c29b84d9e9864d36372e7d6bbb65ff2c0ef72b4c7a6cb3a6ab0a954e5"
+    },
+    "SHARED_RANK8_COMPLETE_ZH.md": {
+      "bytes": 865,
+      "sha256": "470c5a2962dbb91657af8530939368b20559c0c53cd51008cae80a8a080249e8"
+    },
+    "FINAL_INTERPRETATION_ZH.md": {
+      "bytes": 2622,
+      "sha256": "5bc715ac35c03676a2fdded60a14fd3f72c0024c35b1a49b60cd156e8276d326"
+    }
+  }
+}

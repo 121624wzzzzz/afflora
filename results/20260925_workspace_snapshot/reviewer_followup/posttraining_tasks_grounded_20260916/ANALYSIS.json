@@ -1,0 +1,701 @@
+{
+  "at": "2026-09-16T18:55:49+08:00",
+  "scope": "five-seed, one-LR small-data development pilot",
+  "tables": [
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 29.5,
+      "text_micro_f1": null,
+      "json_valid": 90.5,
+      "capped_pct": 1.0,
+      "answer_ce": 0.48815442286960475,
+      "eos_ce": 0.01945433804765344
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        66.5,
+        68.0,
+        65.0,
+        64.5,
+        66.0
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 66.0,
+      "text_micro_f1": null,
+      "json_valid": 95.7,
+      "strict_json": 95.5,
+      "schema_valid": 82.8,
+      "native_eos_pct": 98.7,
+      "capped_pct": 1.3,
+      "answer_ce": 0.03942307826378517,
+      "eos_ce": 0.0028825271182377037
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        43.5,
+        44.5,
+        45.0,
+        43.0,
+        40.5
+      ],
+      "trainable_parameters": 33792,
+      "primary": 43.3,
+      "text_micro_f1": null,
+      "json_valid": 92.0,
+      "strict_json": 92.0,
+      "schema_valid": 65.0,
+      "native_eos_pct": 99.3,
+      "capped_pct": 0.7,
+      "answer_ce": 0.07947458777307184,
+      "eos_ce": 0.003764108413946815
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        34.0,
+        31.5,
+        32.5,
+        31.5,
+        32.5
+      ],
+      "trainable_parameters": 32768,
+      "primary": 32.4,
+      "text_micro_f1": null,
+      "json_valid": 90.6,
+      "strict_json": 90.3,
+      "schema_valid": 55.3,
+      "native_eos_pct": 94.7,
+      "capped_pct": 5.3,
+      "answer_ce": 0.10318312108537324,
+      "eos_ce": 0.010851226705126466
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        67.0,
+        68.0,
+        62.5,
+        65.0,
+        67.5
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 66.0,
+      "text_micro_f1": null,
+      "json_valid": 97.0,
+      "strict_json": 96.9,
+      "schema_valid": 84.3,
+      "native_eos_pct": 99.6,
+      "capped_pct": 0.4,
+      "answer_ce": 0.03737617235446356,
+      "eos_ce": 0.0001359562056386494
+    },
+    {
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        67.5,
+        68.0,
+        64.5,
+        65.0,
+        67.0
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 66.4,
+      "text_micro_f1": null,
+      "json_valid": 95.8,
+      "strict_json": 95.5,
+      "schema_valid": 83.4,
+      "native_eos_pct": 98.9,
+      "capped_pct": 1.1,
+      "answer_ce": 0.039413260091734445,
+      "eos_ce": 0.002571320022287182
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 29.5,
+      "text_micro_f1": null,
+      "json_valid": 70.0,
+      "capped_pct": 3.0,
+      "answer_ce": 0.4949866027805623,
+      "eos_ce": 0.08995800372213125
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        66.0,
+        68.5,
+        68.0,
+        68.5,
+        66.5
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 67.5,
+      "text_micro_f1": null,
+      "json_valid": 96.8,
+      "strict_json": 96.8,
+      "schema_valid": 87.4,
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "answer_ce": 0.03383646201336381,
+      "eos_ce": 0.0006657101528053318
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        48.5,
+        52.5,
+        44.5,
+        49.0,
+        48.0
+      ],
+      "trainable_parameters": 50688,
+      "primary": 48.5,
+      "text_micro_f1": null,
+      "json_valid": 94.4,
+      "strict_json": 94.1,
+      "schema_valid": 75.8,
+      "native_eos_pct": 99.4,
+      "capped_pct": 0.6,
+      "answer_ce": 0.06437244837199085,
+      "eos_ce": 0.007665885445283493
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        40.0,
+        44.5,
+        39.5,
+        44.5,
+        41.0
+      ],
+      "trainable_parameters": 49152,
+      "primary": 41.9,
+      "text_micro_f1": null,
+      "json_valid": 92.5,
+      "strict_json": 92.1,
+      "schema_valid": 62.9,
+      "native_eos_pct": 97.8,
+      "capped_pct": 2.2,
+      "answer_ce": 0.08194357102905106,
+      "eos_ce": 0.008612657483608928
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        65.5,
+        67.5,
+        68.0,
+        66.5,
+        66.5
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 66.8,
+      "text_micro_f1": null,
+      "json_valid": 96.5,
+      "strict_json": 96.5,
+      "schema_valid": 87.2,
+      "native_eos_pct": 99.9,
+      "capped_pct": 0.1,
+      "answer_ce": 0.032457761906423306,
+      "eos_ce": 0.000729013294512697
+    },
+    {
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        66.5,
+        68.0,
+        68.5,
+        68.5,
+        67.0
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 67.7,
+      "text_micro_f1": null,
+      "json_valid": 96.7,
+      "strict_json": 96.7,
+      "schema_valid": 87.4,
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "answer_ce": 0.033829676953194984,
+      "eos_ce": 0.0006572732646218355
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 0.4884004884004884,
+      "text_micro_f1": 7.326007326007326,
+      "json_valid": 27.0,
+      "capped_pct": 71.5,
+      "answer_ce": 0.6781528340335952,
+      "eos_ce": 0.06468356683850289
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        59.75359342915811,
+        62.18144750254842,
+        62.06896551724138,
+        61.802575107296136,
+        60.10471204188482
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 61.18225871962577,
+      "text_micro_f1": 61.38959165889257,
+      "json_valid": 100.0,
+      "strict_json": 100.0,
+      "schema_valid": 98.8,
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "answer_ce": 0.10900268402142681,
+      "eos_ce": 8.848838569247162e-05
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        31.912964641885765,
+        33.830845771144276,
+        33.661417322834644,
+        29.845313921747042,
+        32.098765432098766
+      ],
+      "trainable_parameters": 33792,
+      "primary": 32.269861417942096,
+      "text_micro_f1": 32.917238815150014,
+      "json_valid": 99.0,
+      "strict_json": 98.7,
+      "schema_valid": 90.6,
+      "native_eos_pct": 99.1,
+      "capped_pct": 0.9,
+      "answer_ce": 0.21898082409041422,
+      "eos_ce": 0.012136539122089745
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        21.15987460815047,
+        20.663650075414782,
+        21.2142358688067,
+        22.471910112359552,
+        22.22222222222222
+      ],
+      "trainable_parameters": 32768,
+      "primary": 21.546378577390744,
+      "text_micro_f1": 22.39985254195441,
+      "json_valid": 96.9,
+      "strict_json": 96.9,
+      "schema_valid": 86.7,
+      "native_eos_pct": 97.6,
+      "capped_pct": 2.4,
+      "answer_ce": 0.24522691871931168,
+      "eos_ce": 0.004127932749921456
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        62.054933875890136,
+        62.97435897435897,
+        63.94279877425945,
+        64.30868167202573,
+        64.60554371002132
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 63.57726340131112,
+      "text_micro_f1": 63.783569293475615,
+      "json_valid": 99.9,
+      "strict_json": 99.9,
+      "schema_valid": 98.6,
+      "native_eos_pct": 99.9,
+      "capped_pct": 0.1,
+      "answer_ce": 0.1037959687923072,
+      "eos_ce": 0.0001442829087973223
+    },
+    {
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        60.06191950464396,
+        62.97435897435897,
+        62.51319957761352,
+        61.587982832618025,
+        60.020986358866736
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 61.43168944962024,
+      "text_micro_f1": 61.599151863707405,
+      "json_valid": 100.0,
+      "strict_json": 100.0,
+      "schema_valid": 98.9,
+      "native_eos_pct": 100.0,
+      "capped_pct": 0.0,
+      "answer_ce": 0.10869808280921134,
+      "eos_ce": 9.162367680983151e-05
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "seed_count": 0,
+      "primary": 0.0,
+      "text_micro_f1": 0.0,
+      "json_valid": 99.5,
+      "capped_pct": 2.5,
+      "answer_ce": 0.7433878963586752,
+      "eos_ce": 0.008753149663098156
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        64.87603305785125,
+        60.90621707060063,
+        62.93558606124604,
+        62.20806794055202,
+        64.18703506907545
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 63.02258783986508,
+      "text_micro_f1": 63.90786533748263,
+      "json_valid": 99.9,
+      "strict_json": 99.9,
+      "schema_valid": 97.6,
+      "native_eos_pct": 99.9,
+      "capped_pct": 0.1,
+      "answer_ce": 0.10655267409706426,
+      "eos_ce": 0.00045861738135135965
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "input",
+      "seed_count": 5,
+      "primary_seeds": [
+        32.874015748031496,
+        37.021716649431234,
+        34.27377220480669,
+        35.964035964035965,
+        35.38928210313448
+      ],
+      "trainable_parameters": 50688,
+      "primary": 35.10456453388797,
+      "text_micro_f1": 36.08036602024304,
+      "json_valid": 99.4,
+      "strict_json": 99.4,
+      "schema_valid": 91.6,
+      "native_eos_pct": 99.4,
+      "capped_pct": 0.6,
+      "answer_ce": 0.18292956777564734,
+      "eos_ce": 0.00039024313085246826
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "output",
+      "seed_count": 5,
+      "primary_seeds": [
+        34.550839091806516,
+        33.17445185891325,
+        33.62151777137368,
+        34.27458617332035,
+        34.926829268292686
+      ],
+      "trainable_parameters": 49152,
+      "primary": 34.109644832741296,
+      "text_micro_f1": 35.73832579810072,
+      "json_valid": 97.1,
+      "strict_json": 97.1,
+      "schema_valid": 94.8,
+      "native_eos_pct": 97.1,
+      "capped_pct": 2.9,
+      "answer_ce": 0.18892856399472482,
+      "eos_ce": 0.001592300915741362
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        66.32231404958678,
+        64.01673640167364,
+        65.05771248688353,
+        64.84784889821616,
+        65.40084388185655
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 65.12909114364332,
+      "text_micro_f1": 65.92419809847104,
+      "json_valid": 99.7,
+      "strict_json": 99.7,
+      "schema_valid": 98.0,
+      "native_eos_pct": 99.7,
+      "capped_pct": 0.3,
+      "answer_ce": 0.09883725040605924,
+      "eos_ce": 0.000195909829941229
+    },
+    {
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        65.07772020725389,
+        61.05263157894737,
+        62.857142857142854,
+        62.046908315565034,
+        63.347457627118644
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 62.87637211720555,
+      "text_micro_f1": 63.76284236875616,
+      "json_valid": 99.9,
+      "strict_json": 99.9,
+      "schema_valid": 97.8,
+      "native_eos_pct": 99.9,
+      "capped_pct": 0.1,
+      "answer_ce": 0.10640909549747593,
+      "eos_ce": 0.00044830640377767854
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "mean": 0.0,
+      "lower": -3.5292247114162016,
+      "upper": 3.5292247114162016,
+      "seed_deltas": [
+        0.5,
+        0.0,
+        -2.5,
+        0.5,
+        1.5
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        -1.6080402010050254,
+        1.5922388059701467
+      ],
+      "clusters": 179,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": -0.4,
+      "lower": -2.6628664254677283,
+      "upper": 1.8628664254677285,
+      "seed_deltas": [
+        -0.5,
+        0.0,
+        -2.0,
+        0.0,
+        0.5
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        -2.21105527638191,
+        1.2501509661835726
+      ],
+      "clusters": 179,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": -0.7,
+      "lower": -2.668507493798796,
+      "upper": 1.2685074937987961,
+      "seed_deltas": [
+        -0.5,
+        -1.0,
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        -2.7411167512690353,
+        1.3861386138613863
+      ],
+      "clusters": 179,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": -0.9,
+      "lower": -2.4338486818110083,
+      "upper": 0.6338486818110082,
+      "seed_deltas": [
+        -1.0,
+        -0.5,
+        -0.5,
+        -2.0,
+        -0.5
+      ],
+      "family_size": 8,
+      "task": "toolace",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        -2.9666019233502294,
+        1.2060301507537687
+      ],
+      "clusters": 179,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 2.3950046816853487,
+      "lower": -0.7821571398954079,
+      "upper": 5.572166503266105,
+      "seed_deltas": [
+        2.301340446732027,
+        0.7929114718105481,
+        1.8738332570180702,
+        2.506106564729592,
+        4.500831668136506
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        0.6363768601190926,
+        4.15687247591407
+      ],
+      "clusters": 200,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 2.145573951690879,
+      "lower": -1.8297095803248054,
+      "upper": 6.120857483706564,
+      "seed_deltas": [
+        1.9930143712461756,
+        0.0,
+        1.4295991966459312,
+        2.720698839407703,
+        4.5845573511545865
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen3_06b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        0.3938023360519485,
+        3.9169918518179765
+      ],
+      "clusters": 200,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 2.106503303778253,
+      "lower": 0.23698581835433585,
+      "upper": 3.9760207892021695,
+      "seed_deltas": [
+        1.4462809917355344,
+        3.1105193310730073,
+        2.1221264256374894,
+        2.6397809576641365,
+        1.213808812781096
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden",
+      "paired_cluster_bootstrap_95": [
+        0.17292756057335112,
+        4.044010833821536
+      ],
+      "clusters": 200,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    },
+    {
+      "mean": 2.2527190264377723,
+      "lower": 0.6459907828167799,
+      "upper": 3.859447270058765,
+      "seed_deltas": [
+        1.2445938423328897,
+        2.96410482272627,
+        2.200569629740677,
+        2.8009405826511227,
+        2.0533862547379016
+      ],
+      "family_size": 8,
+      "task": "cluener",
+      "model": "qwen25_15b_base",
+      "treatment": "hidden_both",
+      "control": "hidden_budget",
+      "paired_cluster_bootstrap_95": [
+        0.29523416011206033,
+        4.228824712341733
+      ],
+      "clusters": 200,
+      "bootstrap_scope": "conditional on five fitted seeds, nominal 95%; not a substitute for seed variation"
+    }
+  ],
+  "all_pairing_and_budget_checks": "passed"
+}

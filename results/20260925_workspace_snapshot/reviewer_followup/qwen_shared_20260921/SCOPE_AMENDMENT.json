@@ -1,0 +1,367 @@
+{
+  "at": "2026-09-21T17:18:30+08:00",
+  "reason": "User: untied models must not run tied/shared aLoRA; preserve independent single/dual-side ablations only.",
+  "models": [
+    "qwen25_15b_base",
+    "qwen3_06b_base"
+  ],
+  "formal_runs": 24,
+  "smokes": 8,
+  "jobs": [
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared16_s6100_smoke",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": true
+    },
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared32_s6100_smoke",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": true
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared16_s7100_smoke",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": true
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared32_s7100_smoke",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": true
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared16_s6100_smoke",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": true
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared32_s6100_smoke",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": true
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared16_s7100_smoke",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": true
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared32_s7100_smoke",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": true
+    },
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared16_s6100",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared32_s6100",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared16_s7100",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared32_s7100",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared16_s6100",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared32_s6100",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6100,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared16_s7100",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared32_s7100",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7100,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared16_s6101",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared32_s6101",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared16_s7101",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared32_s7101",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared16_s6101",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared32_s6101",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6101,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared16_s7101",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared32_s7101",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7101,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared16_s6102",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen25_15b_base_hidden_shared32_s6102",
+      "model": "qwen25_15b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared16_s7102",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen25_15b_base_hidden_shared32_s7102",
+      "model": "qwen25_15b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared16_s6102",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared16",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "cluener_qwen3_06b_base_hidden_shared32_s6102",
+      "model": "qwen3_06b_base",
+      "task": "cluener",
+      "arm": "hidden_shared32",
+      "seed": 6102,
+      "lr": 0.0002,
+      "microbatch": 2,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared16_s7102",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared16",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    },
+    {
+      "name": "wikisql_qwen3_06b_base_hidden_shared32_s7102",
+      "model": "qwen3_06b_base",
+      "task": "wikisql",
+      "arm": "hidden_shared32",
+      "seed": 7102,
+      "lr": 0.0002,
+      "microbatch": 4,
+      "smoke": false
+    }
+  ],
+  "excluded_jobs": [
+    "cluener_qwen25_7b_base_hidden_shared16_s6100_smoke",
+    "cluener_qwen25_7b_base_hidden_shared32_s6100_smoke",
+    "wikisql_qwen25_7b_base_hidden_shared16_s7100_smoke",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7100_smoke",
+    "cluener_qwen3_8b_base_hidden_shared16_s6100_smoke",
+    "cluener_qwen3_8b_base_hidden_shared32_s6100_smoke",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7100_smoke",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7100_smoke",
+    "cluener_qwen25_7b_base_hidden_shared16_s6100",
+    "cluener_qwen25_7b_base_hidden_shared32_s6100",
+    "wikisql_qwen25_7b_base_hidden_shared16_s7100",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7100",
+    "cluener_qwen3_8b_base_hidden_shared16_s6100",
+    "cluener_qwen3_8b_base_hidden_shared32_s6100",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7100",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7100",
+    "cluener_qwen25_7b_base_hidden_shared16_s6101",
+    "cluener_qwen25_7b_base_hidden_shared32_s6101",
+    "wikisql_qwen25_7b_base_hidden_shared16_s7101",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7101",
+    "cluener_qwen3_8b_base_hidden_shared16_s6101",
+    "cluener_qwen3_8b_base_hidden_shared32_s6101",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7101",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7101",
+    "cluener_qwen25_7b_base_hidden_shared16_s6102",
+    "cluener_qwen25_7b_base_hidden_shared32_s6102",
+    "wikisql_qwen25_7b_base_hidden_shared16_s7102",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7102",
+    "cluener_qwen3_8b_base_hidden_shared16_s6102",
+    "cluener_qwen3_8b_base_hidden_shared32_s6102",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7102",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7102"
+  ],
+  "original_protocol_preserved": true
+}

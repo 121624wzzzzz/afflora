@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "rank": 8,
+      "merge_max_abs_error": 1.4210854715202004e-14,
+      "parameters": 680,
+      "gradient_sum": true,
+      "reload": true
+    }
+  ]
+}

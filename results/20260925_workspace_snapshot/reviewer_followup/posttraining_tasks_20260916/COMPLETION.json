@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-16T17:19:36+08:00",
+  "status": "complete",
+  "scope": "V1 task-quality pilot only",
+  "evaluation_configurations": 12,
+  "response_rows": 2400,
+  "training_runs_including_smoke": 8,
+  "A_LoRA_task_evaluations": 0,
+  "revision": "../posttraining_tasks_grounded_20260916",
+  "result_audit_sha256": "15d84e833908e2146aa5ce4b42fd57932beee29efd3b4e855820c5974b187b15"
+}

@@ -1,0 +1,259 @@
+{
+  "status": "complete",
+  "checked_at": "2026-09-14T23:44:35.208160+08:00",
+  "scope": "Exact and whitespace-normalized duplicates only. This does not establish absence of semantic near-duplicates or pretraining contamination. No rows are removed.",
+  "split_rows": {
+    "train": 22780,
+    "dev": 1000,
+    "test": 1000,
+    "ifeval": 541
+  },
+  "within_split": {
+    "train": {
+      "record_id": {
+        "total": 22780,
+        "unique": 22780,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "conversation_exact": {
+        "total": 22780,
+        "unique": 22780,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "conversation_whitespace_normalized": {
+        "total": 22780,
+        "unique": 22780,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "user_prompt_whitespace_normalized": {
+        "total": 81169,
+        "unique": 43180,
+        "duplicate_occurrences_beyond_first": 37989
+      },
+      "first_user_prompt_whitespace_normalized": {
+        "total": 22780,
+        "unique": 8198,
+        "duplicate_occurrences_beyond_first": 14582
+      },
+      "assistant_prediction_context_whitespace_normalized": {
+        "total": 81169,
+        "unique": 66542,
+        "duplicate_occurrences_beyond_first": 14627
+      },
+      "assistant_context_and_target_whitespace_normalized": {
+        "total": 81169,
+        "unique": 80402,
+        "duplicate_occurrences_beyond_first": 767
+      }
+    },
+    "dev": {
+      "record_id": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "conversation_exact": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "conversation_whitespace_normalized": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "user_prompt_whitespace_normalized": {
+        "total": 3564,
+        "unique": 3080,
+        "duplicate_occurrences_beyond_first": 484
+      },
+      "first_user_prompt_whitespace_normalized": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "assistant_prediction_context_whitespace_normalized": {
+        "total": 3564,
+        "unique": 3564,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "assistant_context_and_target_whitespace_normalized": {
+        "total": 3564,
+        "unique": 3564,
+        "duplicate_occurrences_beyond_first": 0
+      }
+    },
+    "test": {
+      "record_id": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "conversation_exact": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "conversation_whitespace_normalized": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "user_prompt_whitespace_normalized": {
+        "total": 3564,
+        "unique": 3129,
+        "duplicate_occurrences_beyond_first": 435
+      },
+      "first_user_prompt_whitespace_normalized": {
+        "total": 1000,
+        "unique": 1000,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "assistant_prediction_context_whitespace_normalized": {
+        "total": 3564,
+        "unique": 3564,
+        "duplicate_occurrences_beyond_first": 0
+      },
+      "assistant_context_and_target_whitespace_normalized": {
+        "total": 3564,
+        "unique": 3564,
+        "duplicate_occurrences_beyond_first": 0
+      }
+    }
+  },
+  "between_splits": {
+    "train:dev": {
+      "record_id": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "dev_occurrences": 0
+      },
+      "conversation_exact": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "dev_occurrences": 0
+      },
+      "conversation_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "dev_occurrences": 0
+      },
+      "user_prompt_whitespace_normalized": {
+        "shared_unique": 441,
+        "train_occurrences": 11240,
+        "dev_occurrences": 865
+      },
+      "first_user_prompt_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "dev_occurrences": 0
+      },
+      "assistant_prediction_context_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "dev_occurrences": 0
+      },
+      "assistant_context_and_target_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "dev_occurrences": 0
+      }
+    },
+    "train:test": {
+      "record_id": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "conversation_exact": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "conversation_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "user_prompt_whitespace_normalized": {
+        "shared_unique": 431,
+        "train_occurrences": 11856,
+        "test_occurrences": 812
+      },
+      "first_user_prompt_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "assistant_prediction_context_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "assistant_context_and_target_whitespace_normalized": {
+        "shared_unique": 0,
+        "train_occurrences": 0,
+        "test_occurrences": 0
+      }
+    },
+    "dev:test": {
+      "record_id": {
+        "shared_unique": 0,
+        "dev_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "conversation_exact": {
+        "shared_unique": 0,
+        "dev_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "conversation_whitespace_normalized": {
+        "shared_unique": 0,
+        "dev_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "user_prompt_whitespace_normalized": {
+        "shared_unique": 125,
+        "dev_occurrences": 499,
+        "test_occurrences": 438
+      },
+      "first_user_prompt_whitespace_normalized": {
+        "shared_unique": 0,
+        "dev_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "assistant_prediction_context_whitespace_normalized": {
+        "shared_unique": 0,
+        "dev_occurrences": 0,
+        "test_occurrences": 0
+      },
+      "assistant_context_and_target_whitespace_normalized": {
+        "shared_unique": 0,
+        "dev_occurrences": 0,
+        "test_occurrences": 0
+      }
+    }
+  },
+  "ifeval_vs_sft_user_prompts": {
+    "train": {
+      "matching_ifeval_keys": [],
+      "count": 0
+    },
+    "dev": {
+      "matching_ifeval_keys": [],
+      "count": 0
+    },
+    "test": {
+      "matching_ifeval_keys": [],
+      "count": 0
+    }
+  },
+  "source_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/audit_data_overlap.py": "0221e3bf4e644c4436058b5e17530dd6d0aef75bc777968a56ef2916aa030abc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/data/train.jsonl": "e56c2eb28a09aa409015b9b809d79403c0e43f33741d56d7df28bf76e11a00ed",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/data/dev.jsonl": "6435023ea79c637f1307dbe7de32891406d3f5722ed3c1a02c1c290394da82ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/data/test.jsonl": "25b6bae84df967eb15a5fdd205df15c55b41e2a35ea0956f598bf4e0b645fdf1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_claim_checks_20260914/chat/data/ifeval.jsonl": "f4f4269278e7121da68a08302cd8cec62f2727b5f6989dc396dcf24613f81cac"
+  },
+  "all_cross_split_conversations_disjoint": true
+}

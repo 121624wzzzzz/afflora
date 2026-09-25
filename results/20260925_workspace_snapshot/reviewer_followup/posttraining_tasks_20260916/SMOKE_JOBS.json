@@ -1,0 +1,38 @@
+[
+  {
+    "name": "smoke_qwen3_06b_base_hidden_both",
+    "model": "qwen3_06b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6099,
+    "lr": 0.0002,
+    "smoke": true
+  },
+  {
+    "name": "smoke_qwen3_06b_base_hidden_budget",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6099,
+    "lr": 0.0002,
+    "smoke": true
+  },
+  {
+    "name": "smoke_qwen25_15b_base_hidden_both",
+    "model": "qwen25_15b_base",
+    "task": "toolace",
+    "arm": "hidden_both",
+    "seed": 6099,
+    "lr": 0.0002,
+    "smoke": true
+  },
+  {
+    "name": "smoke_qwen25_15b_base_hidden_budget",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_budget",
+    "seed": 6099,
+    "lr": 0.0002,
+    "smoke": true
+  }
+]

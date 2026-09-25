@@ -1,0 +1,624 @@
+{
+  "confirmation_qwen25_15b_base_small_q_sd5004_lr5e-05": [],
+  "confirmation_qwen3_06b_base_hidden_r8_sd5006_lr0.0002": [],
+  "confirmation_qwen25_15b_chat_output_sd3005_lr5e-05": [],
+  "confirmation_qwen3_06b_chat_input_sd3006_lr0.0008": [],
+  "confirmation_qwen25_15b_chat_input_sd3002_lr0.0002": [],
+  "confirmation_qwen3_06b_base_hidden_r8_sd5005_lr0.0002": [],
+  "confirmation_qwen25_15b_base_small_q_sd5006_lr5e-05": [],
+  "confirmation_qwen25_15b_chat_input_sd3006_lr0.0002": [],
+  "confirmation_qwen25_15b_base_hidden_r8_sd5003_lr0.0008": [],
+  "reference_qwen3_06b_base_base_sd5001_lr0": [
+    {
+      "id": "test_18",
+      "text": "The two most common silicates are **quartz** and **feldspar**. \n\nSo, the correct answer is:  \n**D. feldspar and quartz**",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_52",
+      "text": "The best option is **A. cranial**.\n\nCollateral ganglia are associated with the cranial nerves, which control various organs and structures in the head and neck region. Therefore, the correct answer is **A. cranial**.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_58",
+      "text": "The best option is **A. CENTRAL NERVOUS SYSTEM**.\n\nSensory nerves carry nerve impulses from sensory receptors to the **central nervous system (CNS)**, which includes the brain and spinal cord. The CNS processes and interprets these signals to send appropriate responses to the body.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_79",
+      "text": "The best option is **A. California condor**. The California condor is the largest living species of raptor, with a wingspan of up to 10 feet (3 meters).",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_182",
+      "text": "The best option is **A. moray**. \n\nThe moray eel is known for its unique sucker, which is a long, ribbon-like structure that it uses to capture and suck the blood of other fish. This sucker is a key adaptation for its predatory lifestyle.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_200",
+      "text": "The best option is **A. galvanic cell**.\n\nExplanation: In a galvanic cell, the anode is the electrode where oxidation occurs, and the cathode is the electrode where reduction occurs. In this scenario, the magnesium rod (anode) is oxidized, and the steel pipeline (cathode) is reduced. The magnesium rod acts as the anode because it is more easily oxidized than the iron in the pipeline. Therefore, the correct answer is **A. galvanic cell**.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_207",
+      "text": "The best option for the development that is less risky for the mother is:\n\n**A. gastrointestinal**\n\nThe gastrointestinal system is generally less risky for the mother compared to other developmental stages. While it can be affected by various factors, it is typically less prone to complications compared to other systems like the reproductive or immune systems.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_259",
+      "text": "The process that is in many ways the opposite of photosynthesis and shows the interdependence of producers and consumers is **B. cellular respiration**.\n\n### Explanation:\n- **Photosynthesis** is the process by which plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and oxygen.\n- **Cellular respiration** is the process by which cells break down glucose to release energy, producing carbon dioxide and water, and releasing energy in the form of ATP (adenosine triphosphate).\n\nBoth processes are essential for life, as they provide the energy and oxygen needed for the survival of producers (plants) and",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_267",
+      "text": "The speed of a wave through connected harmonic oscillators depends on the distance between them, the spring constant, and the **mass**. \n\nThe correct answer is:  \n**D. mass**",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_284",
+      "text": "The dinosaur genus that is closest to modern birds is **C. deinonychus**. \n\nDeinonychus, commonly known as the \"bird-like dinosaur,\" is a genus of theropod dinosaur that lived during the Late Cretaceous period. It is characterized by its elongated, bird-like features, such as a long neck and a relatively short, narrow body, which are adaptations for flight. This genus is often considered the closest living relative of birds.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_379",
+      "text": "The best option is **B. hemodialysis**. \n\nHemodialysis involves the patient's blood passing through a length of tubing that travels through an artificial kidney machine. This process is used to remove waste products and excess fluids from the blood when the kidneys are not functioning properly.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_393",
+      "text": "The best option for the cure of cancer is:\n\n**A. remission**\n\nRemission is a state where cancer is no longer detectable, and the patient is free from the disease. It is a significant improvement over the earlier stages of cancer, where the disease may still be present but not yet detectable.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_431",
+      "text": "The best option is **A. equilibrium**.\n\nExplanation: When a gas expands into a vacuum, the external pressure is significantly lower than the internal pressure of the gas. This pressure difference creates a net force that tends to restore the gas to its original state. Since the gas cannot return to its initial state without external intervention, the expansion is irreversible. This process is analogous to the concept of equilibrium in thermodynamics, where a system tends to return to a state of balance or equilibrium.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_471",
+      "text": "The best option is **A. the passenger pigeon**. The passenger pigeon became extinct in the 1800s due to overhunting by humans.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_501",
+      "text": "The chemist who developed a process to remove carbon and dust particles in smoke is **C. Roger Granger**. He is known for his work on smoke control systems, which include the use of filters and other technologies to reduce the harmful effects of smoke.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_504",
+      "text": "The muscles that control the anus are **A. circular**. These muscles are responsible for the movement of the anus and are essential for defecation.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_533",
+      "text": "The term used to describe the minerals and vitamins that are not needed for providing the body with energy but are still essential for good health is **A. micronutrients**. \n\nMicronutrients are essential for various bodily functions, including energy production, but they are not required for energy synthesis. Examples include vitamins (e.g., B vitamins, vitamin C) and minerals (e.g., iron, zinc).",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_566",
+      "text": "The photic zone extends to a depth of approximately 200 meters in most marine environments. Therefore, the correct answer is:\n\nB. 200",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_574",
+      "text": "The best option is **A. eight**.\n\nThe number of ways a species can go extinct is not a fixed number but depends on various factors such as the species' population size, habitat, and the rate of extinction. However, based on general knowledge, there are typically **eight** ways a species can go extinct: \n1. **Natural causes** (e.g., disease, climate change, competition, predation).\n2. **Human activities** (e.g., habitat destruction, pollution, overexploitation).\n3. **Volcanic eruptions**.\n4. **Comet impacts**.\n5. **Meteorite",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_589",
+      "text": "The best option is **D. central**.\n\nThe central nervous system (CNS) is divided into two parts: the **sensory division** and the **motor division**. The sensory division receives information from the environment, while the motor division sends signals to control bodily functions.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_623",
+      "text": "The correct answer is:\n\n**A. pyloric sphincter**\n\nThe pyloric sphincter is located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_784",
+      "text": "The structure that collects fluid that leaks out from blood capillaries is **D. varicose veins**. \n\nVaricose veins are enlarged, twisted veins that can cause blood to leak from the capillaries and accumulate in the veins, leading to fluid leakage.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_918",
+      "text": "The best option is **C. five**.\n\nThe five major mass extinctions that have occurred throughout Earth's history are:\n1. The Ordovician-Silurian extinction (443–441 million years ago).\n2. The Devonian extinction (360–350 million years ago).\n3. The Permian-Triassic extinction (252–251 million years ago).\n4. The Cretaceous-Paleogene extinction (66 million years ago).\n5. The Cenozoic mass extinction (252 million years ago).\n\nSo, the correct answer is **",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_933",
+      "text": "The best option is **A. diabetes**.\n\nType one diabetes is an autoimmune condition where the body's immune system attacks the beta cells in the pancreas, leading to a lack of insulin production. This type of diabetes is unpreventable. However, type two diabetes, which is more common and often associated with lifestyle factors, can be prevented or managed through a healthy diet, regular physical activity, and weight management.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_942",
+      "text": "The best option is **D. nuclear**.\n\nNuclear bombs, such as those used in the atomic bombings of Hiroshima and Nagasaki, release a much larger fraction of their energy as thermal energy compared to conventional bombs. This is because nuclear reactions produce a significant amount of heat and light, which is why they are often referred to as \"thermal\" bombs.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_983",
+      "text": "The best option is **A. sensory**.\n\nThe **sensory division** of the peripheral nervous system interprets signals from the environment, such as touch, pain, temperature, and other sensory inputs. The **motor division**, on the other hand, sends signals to control and coordinate muscle movements and organ functions.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_989",
+      "text": "The best option is **C. tertiary**.\n\nExplanation: Carnivores that eat herbivores are classified as tertiary consumers because they feed on the intermediate level of the food chain, which is herbivores. This classification is based on the trophic level of the food chain, where primary consumers (herbivores) are at the base, secondary consumers (carnivores) are at the second level, and tertiary consumers (carnivores that eat secondary consumers) are at the third level.",
+      "route": "unparseable"
+    }
+  ],
+  "confirmation_qwen25_15b_base_input_sd5002_lr0.0008": [],
+  "confirmation_qwen3_06b_base_input_sd5004_lr0.0002": [],
+  "confirmation_qwen3_06b_base_output_sd5006_lr0.0008": [],
+  "confirmation_qwen25_15b_chat_input_sd3003_lr0.0002": [],
+  "confirmation_qwen3_06b_chat_output_sd3003_lr0.0008": [],
+  "confirmation_qwen25_15b_chat_output_sd3002_lr5e-05": [],
+  "confirmation_qwen25_15b_base_output_sd5002_lr5e-05": [],
+  "confirmation_qwen25_15b_base_input_sd5006_lr0.0008": [],
+  "confirmation_qwen3_06b_base_small_q_sd5006_lr0.0008": [],
+  "confirmation_qwen3_06b_base_output_sd5005_lr0.0008": [],
+  "confirmation_qwen3_06b_base_output_sd5003_lr0.0008": [],
+  "confirmation_qwen25_15b_base_small_q_sd5002_lr5e-05": [],
+  "confirmation_qwen3_06b_chat_output_sd3006_lr0.0008": [],
+  "confirmation_qwen25_15b_base_input_sd5005_lr0.0008": [],
+  "confirmation_qwen25_15b_chat_input_sd3004_lr0.0002": [],
+  "confirmation_qwen3_06b_base_input_sd5002_lr0.0002": [],
+  "confirmation_qwen3_06b_base_small_q_sd5005_lr0.0008": [],
+  "confirmation_qwen25_15b_base_input_sd5003_lr0.0008": [],
+  "confirmation_qwen25_15b_chat_output_sd3003_lr5e-05": [],
+  "confirmation_qwen25_15b_base_hidden_r8_sd5002_lr0.0008": [],
+  "confirmation_qwen25_15b_base_output_sd5004_lr5e-05": [],
+  "confirmation_qwen3_06b_base_hidden_r8_sd5004_lr0.0002": [],
+  "confirmation_qwen3_06b_base_small_q_sd5002_lr0.0008": [],
+  "confirmation_qwen25_15b_base_small_q_sd5003_lr5e-05": [],
+  "confirmation_qwen25_15b_chat_output_sd3004_lr5e-05": [],
+  "confirmation_qwen3_06b_chat_input_sd3004_lr0.0008": [],
+  "confirmation_qwen25_15b_base_input_sd5004_lr0.0008": [],
+  "confirmation_qwen3_06b_chat_input_sd3002_lr0.0008": [],
+  "confirmation_qwen25_15b_base_hidden_r8_sd5005_lr0.0008": [],
+  "confirmation_qwen3_06b_chat_input_sd3005_lr0.0008": [],
+  "confirmation_qwen25_15b_chat_input_sd3005_lr0.0002": [],
+  "confirmation_qwen3_06b_base_small_q_sd5003_lr0.0008": [],
+  "confirmation_qwen25_15b_base_output_sd5006_lr5e-05": [],
+  "confirmation_qwen3_06b_base_small_q_sd5004_lr0.0008": [],
+  "confirmation_qwen25_15b_chat_output_sd3006_lr5e-05": [],
+  "confirmation_qwen3_06b_base_input_sd5003_lr0.0002": [],
+  "confirmation_qwen3_06b_base_hidden_r8_sd5003_lr0.0002": [],
+  "confirmation_qwen3_06b_chat_output_sd3002_lr0.0008": [],
+  "confirmation_qwen3_06b_base_output_sd5004_lr0.0008": [],
+  "confirmation_qwen3_06b_chat_output_sd3005_lr0.0008": [],
+  "confirmation_qwen25_15b_base_output_sd5003_lr5e-05": [],
+  "confirmation_qwen25_15b_base_output_sd5005_lr5e-05": [],
+  "reference_qwen25_15b_base_base_sd5001_lr0": [],
+  "confirmation_qwen25_15b_base_small_q_sd5005_lr5e-05": [],
+  "confirmation_qwen3_06b_base_input_sd5006_lr0.0002": [],
+  "reference_qwen25_15b_chat_base_sd3001_lr0": [
+    {
+      "id": "test_34",
+      "text": "The correct answer is:\n\nA. vestibular system\n\nThe vestibular system is a sensory system that plays a crucial role in maintaining balance and spatial orientation. It enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex through its sensory inputs and neural connections.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_230",
+      "text": "The correct answer is:\n\nC. nuclear reaction\n\nA collapsing nebula, also known as a supernova, leads to a nuclear reaction. When a massive star collapses, it releases a tremendous amount of energy in the form of light and other forms of radiation, which is a nuclear reaction.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_257",
+      "text": "The correct answer is:\n\nC. blood cells\n\nThe skeletal system, also known as the bone system, is responsible for providing structural support and protection for the body. It does not produce blood cells, which are produced by the bone marrow. The other options (osteoclasts, brain cells, and dendritic cells) are not directly related to the function of the skeletal system.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_450",
+      "text": "The correct answer is:\n\nA. adipose and collagenous\n\nExplanation: The non-pregnant and non-lactating female breast is primarily composed of adipose (fat) tissue and collagenous (connective) tissue. These tissues provide support and structure to the breast, as well as help in the production of milk during lactation.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_583",
+      "text": "The correct answer is:\n\nA. growth phase 1\n\nThis phase is characterized by the final preparations for cell division, including the synthesis of proteins and the formation of organelles necessary for the upcoming cell division process.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_643",
+      "text": "The correct answer is:\n\nC. hydroxl groups\n\nCellulose is a complex carbohydrate made up of long chains of glucose molecules. These chains stack in parallel rows, with hydrogen bonds between the hydroxyl groups of adjacent glucose molecules.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_660",
+      "text": "The correct answer is:\n\nB. mold\n\nMolds are part of a large fungus that lives underground. They are filamentous fungi that can be found in soil, compost, and other moist environments.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_663",
+      "text": "The correct answer is:\n\nA. auxin\n\nCytokinins are a group of plant hormones that promote cell division and elongation. They are particularly important for the growth and development of plants, especially in the formation of new shoots and roots. Auxins, on the other hand, are involved in various plant growth processes, including cell elongation and the formation of buds and flowers. Apoptosis is the process of programmed cell death, and hypoxins are not a known plant hormone.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_679",
+      "text": "The correct answer is:\n\nD. fat\n\nMost cells are surrounded by a lipid bilayer, which is composed of phospholipids and cholesterol. This structure is crucial for maintaining the cell's shape, controlling what enters and leaves the cell, and providing structural support.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_774",
+      "text": "The correct answer is:\n\nD. no pain pills needed\n\nClosed reduction is simpler than open reduction in bone repair because it does not require making an incision into the skin, which means there is no need for anesthesia or pain medication.",
+      "route": "unparseable"
+    },
+    {
+      "id": "test_848",
+      "text": "The correct answer is:\n\nC. polar and nonpolar\n\nExplanation: The two terms that designate how well aqueous solutions conduct electricity are \"polar\" and \"nonpolar.\" Solutions that are polar can conduct electricity better than nonpolar solutions because they have charged particles (ions) that can move freely in the solution, allowing for the flow of electrical current.",
+      "route": "unparseable"
+    }
+  ],
+  "confirmation_qwen3_06b_chat_output_sd3004_lr0.0008": [],
+  "confirmation_qwen3_06b_base_output_sd5002_lr0.0008": [],
+  "confirmation_qwen3_06b_base_input_sd5005_lr0.0002": [],
+  "confirmation_qwen25_15b_base_hidden_r8_sd5004_lr0.0008": [],
+  "confirmation_qwen25_15b_base_hidden_r8_sd5006_lr0.0008": [],
+  "confirmation_qwen3_06b_base_hidden_r8_sd5002_lr0.0002": [],
+  "confirmation_qwen3_06b_chat_input_sd3003_lr0.0008": [],
+  "reference_qwen3_06b_chat_base_sd3001_lr0": [
+    {
+      "id": "test_9",
+      "text": "A. regular array",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_16",
+      "text": "A. beaks",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_38",
+      "text": "A. digestion",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_48",
+      "text": "A. genetic drift",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_59",
+      "text": "A. alveoli",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_60",
+      "text": "A. sigma bonds",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_62",
+      "text": "A. vertebrate",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_64",
+      "text": "A. melting",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_66",
+      "text": "A. omnivore",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_91",
+      "text": "A. continental drift",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_101",
+      "text": "A. plates",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_113",
+      "text": "A. implantation",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_151",
+      "text": "A. hydrogen",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_173",
+      "text": "A. the circulatory system",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_179",
+      "text": "A. bedrock",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_187",
+      "text": "A. first",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_195",
+      "text": "A. the testes",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_217",
+      "text": "A. Venus",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_220",
+      "text": "A. axis",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_222",
+      "text": "A. electrical charge",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_224",
+      "text": "A. activation energy",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_239",
+      "text": "A. compact bone",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_245",
+      "text": "A. metallic bond",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_263",
+      "text": "A. flowering plants",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_268",
+      "text": "A. genes",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_275",
+      "text": "A. atoms",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_279",
+      "text": "A. gas",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_288",
+      "text": "A. rest",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_310",
+      "text": "B. bacteria",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_335",
+      "text": "A. Chambers",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_349",
+      "text": "A. oceanic crust",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_357",
+      "text": "A. shingles",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_365",
+      "text": "A. fossil fuels",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_368",
+      "text": "A. impermeable rock",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_451",
+      "text": "A. nervous system",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_457",
+      "text": "A. nitrogen",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_471",
+      "text": "A. the dodo",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_479",
+      "text": "A. radioactivity",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_495",
+      "text": "A. a dna vector",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_500",
+      "text": "A. embryos",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_504",
+      "text": "A. elliptical",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_547",
+      "text": "A. protons and neutrons",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_548",
+      "text": "A. radioactivity",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_570",
+      "text": "A. a neutron",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_572",
+      "text": "A. amino acid",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_574",
+      "text": "A. two",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_591",
+      "text": "A. purple",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_607",
+      "text": "A. eggs",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_625",
+      "text": "A. muscle",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_649",
+      "text": "A. mushrooms",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_662",
+      "text": "A. the cochlea",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_671",
+      "text": "A. complex",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_675",
+      "text": "A. it repeats itself",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_683",
+      "text": "A. at different locations",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_708",
+      "text": "A. at low temperatures",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_722",
+      "text": "A. stem cells",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_740",
+      "text": "A. third trimester",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_753",
+      "text": "A. the walls",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_773",
+      "text": "A. solid",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_779",
+      "text": "A. clots",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_803",
+      "text": "A. one isolated allele",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_813",
+      "text": "A. embryo",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_818",
+      "text": "A. heat",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_826",
+      "text": "A. the temperature of the eggs",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_836",
+      "text": "A. sensory nerve cells",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_844",
+      "text": "A. digestion",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_853",
+      "text": "A. water glands",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_876",
+      "text": "A. scientific skepticism",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_879",
+      "text": "A. north and south",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_906",
+      "text": "A. element",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_958",
+      "text": "A. eating plants or organisms",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_969",
+      "text": "A. cell membrane",
+      "route": "letter_option_conflict"
+    },
+    {
+      "id": "test_981",
+      "text": "A. ions",
+      "route": "letter_option_conflict"
+    }
+  ]
+}

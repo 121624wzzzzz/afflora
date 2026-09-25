@@ -1,0 +1,133 @@
+{
+  "at": "2026-09-16T16:10:17+08:00",
+  "status": "complete",
+  "scope": "repaired fixed-protocol SciQ task adaptation; post hoc audited benchmark",
+  "reused_checkpoints_reevaluated": 54,
+  "new_control_confirmation_runs": 10,
+  "new_control_tuning_runs": 6,
+  "successful_second_attempt_smokes": 2,
+  "first_attempt_smokes_retained": 2,
+  "test_evaluations": 64,
+  "validation_evaluations": 6,
+  "parser_unittest_groups_passed_during_smoke": 4,
+  "audit": {
+    "at": "2026-09-16T16:08:07+08:00",
+    "status": "passed",
+    "source_sealed_files_verified": 1244,
+    "predictions_recomputed": 70000,
+    "generations_redecoded": 64000,
+    "old_candidate_replays": 54,
+    "old_prediction_flips": 0,
+    "max_old_logit_error": 0.000232696533203125,
+    "new_training_records": [
+      {
+        "name": "confirmation_qwen25_15b_base_small_q_sd5004_lr5e-05",
+        "phase": "confirmation",
+        "parameters": 49152
+      },
+      {
+        "name": "confirmation_qwen25_15b_base_small_q_sd5006_lr5e-05",
+        "phase": "confirmation",
+        "parameters": 49152
+      },
+      {
+        "name": "smoke_qwen3_06b_base_small_q_sd5000_lr5e-05",
+        "phase": "smoke",
+        "parameters": 33792
+      },
+      {
+        "name": "confirmation_qwen3_06b_base_small_q_sd5006_lr0.0008",
+        "phase": "confirmation",
+        "parameters": 33792
+      },
+      {
+        "name": "confirmation_qwen25_15b_base_small_q_sd5002_lr5e-05",
+        "phase": "confirmation",
+        "parameters": 49152
+      },
+      {
+        "name": "confirmation_qwen3_06b_base_small_q_sd5005_lr0.0008",
+        "phase": "confirmation",
+        "parameters": 33792
+      },
+      {
+        "name": "tuning_qwen25_15b_base_small_q_sd5001_lr5e-05",
+        "phase": "tuning",
+        "parameters": 49152
+      },
+      {
+        "name": "confirmation_qwen3_06b_base_small_q_sd5002_lr0.0008",
+        "phase": "confirmation",
+        "parameters": 33792
+      },
+      {
+        "name": "confirmation_qwen25_15b_base_small_q_sd5003_lr5e-05",
+        "phase": "confirmation",
+        "parameters": 49152
+      },
+      {
+        "name": "smoke_qwen25_15b_base_small_q_sd5000_lr5e-05_attempt2",
+        "phase": "smoke",
+        "parameters": 49152
+      },
+      {
+        "name": "confirmation_qwen3_06b_base_small_q_sd5003_lr0.0008",
+        "phase": "confirmation",
+        "parameters": 33792
+      },
+      {
+        "name": "confirmation_qwen3_06b_base_small_q_sd5004_lr0.0008",
+        "phase": "confirmation",
+        "parameters": 33792
+      },
+      {
+        "name": "tuning_qwen25_15b_base_small_q_sd5001_lr0.0008",
+        "phase": "tuning",
+        "parameters": 49152
+      },
+      {
+        "name": "tuning_qwen3_06b_base_small_q_sd5001_lr5e-05",
+        "phase": "tuning",
+        "parameters": 33792
+      },
+      {
+        "name": "tuning_qwen3_06b_base_small_q_sd5001_lr0.0008",
+        "phase": "tuning",
+        "parameters": 33792
+      },
+      {
+        "name": "tuning_qwen25_15b_base_small_q_sd5001_lr0.0002",
+        "phase": "tuning",
+        "parameters": 49152
+      },
+      {
+        "name": "tuning_qwen3_06b_base_small_q_sd5001_lr0.0002",
+        "phase": "tuning",
+        "parameters": 33792
+      },
+      {
+        "name": "confirmation_qwen25_15b_base_small_q_sd5005_lr5e-05",
+        "phase": "confirmation",
+        "parameters": 49152
+      },
+      {
+        "name": "smoke_qwen25_15b_base_small_q_sd5000_lr5e-05",
+        "phase": "smoke",
+        "parameters": 49152
+      },
+      {
+        "name": "smoke_qwen3_06b_base_small_q_sd5000_lr5e-05_attempt2",
+        "phase": "smoke",
+        "parameters": 33792
+      }
+    ],
+    "validation_selection_recomputed": true,
+    "all_original_weights_frozen": true,
+    "preflight_attempt1_retained": true,
+    "invalid_answer_details": "INVALID_ANSWERS.json"
+  },
+  "independence_audit_sha256": "3d36fb028ab231f1dfe1461ffd387c2781917d3b9abc4c1a3ff943af190a515b",
+  "results_sha256": "84bc99e05fddb6e8d66f5cc0c4dc02c2f12dc42f152cbe127933cd6b22bf776f",
+  "report": "FINAL_INTERPRETATION_ZH.md",
+  "all_owned_jobs_finished": true
+}

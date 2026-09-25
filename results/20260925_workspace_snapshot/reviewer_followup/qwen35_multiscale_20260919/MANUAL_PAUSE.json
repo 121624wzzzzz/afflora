@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-20T00:05:53.187528+08:00",
+  "status": "paused_new_admission_only",
+  "scheduler_pid": 3850523,
+  "active_workers": "Not signaled; allowed to finish. Controller can resume via SIGCONT with all handles intact.",
+  "reason": "Cross-process initial loss discrepancy in qwen35_08b WikiSQL seed7600 hidden_budget c1. Local repeated gradients exact, common initialization/base/order hashes match; baseline loss1.2234999686479568 versus1.2254207134246826. Investigate native BF16 kernel autotuning without changing frozen studies or selectively replacing fits."
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-09-20T00:21:58.279167+08:00",
+  "status": "controlled_reproduction",
+  "matching_configs": [
+    {
+      "index": 15,
+      "config": {
+        "kwargs": {
+          "BT": 8
+        },
+        "num_warps": 8,
+        "num_stages": 2,
+        "num_ctas": 1
+      },
+      "loss": 1.2254207134246826,
+      "microbatch_losses": [
+        0.06587947905063629,
+        0.08196831494569778,
+        0.09543773531913757,
+        0.07303838431835175,
+        0.07442278414964676,
+        0.056701429188251495,
+        0.08884073793888092,
+        0.0746476799249649,
+        0.08033540099859238,
+        0.08022847771644592,
+        0.07847071439027786,
+        0.07437802851200104,
+        0.0779775008559227,
+        0.0774265006184578,
+        0.07809863239526749,
+        0.06756891310214996
+      ],
+      "seconds": 2.3906845040619373
+    },
+    {
+      "index": 21,
+      "config": {
+        "kwargs": {
+          "BT": 16
+        },
+        "num_warps": 16,
+        "num_stages": 2,
+        "num_ctas": 1
+      },
+      "loss": 1.2254207134246826,
+      "microbatch_losses": [
+        0.06587947905063629,
+        0.08196831494569778,
+        0.09543773531913757,
+        0.07303838431835175,
+        0.07442278414964676,
+        0.056701429188251495,
+        0.08884073793888092,
+        0.0746476799249649,
+        0.08033540099859238,
+        0.08022847771644592,
+        0.07847071439027786,
+        0.07437802851200104,
+        0.0779775008559227,
+        0.0774265006184578,
+        0.07809863239526749,
+        0.06756891310214996
+      ],
+      "seconds": 2.420672532171011
+    }
+  ],
+  "unchanged_weights": true,
+  "interpretation": "Changing only the native l2norm forward autotuner config exactly reproduces all 16 recorded microbatch contributions of the outlying 0.8B initial batch. The original process did not log kernel selections, so its actual selected config is not directly known. This establishes a sufficient numerical mechanism, not the causal contribution to any final task accuracy.",
+  "inputs": {
+    "lora/reviewer_followup/qwen35_numerics_20260920/l2norm_configs/RESULTS.json": "4fab1b0032e6bef1cee3102ae174b79c2b7f52d2703913ae573bb8aafe58d0fd"
+  }
+}

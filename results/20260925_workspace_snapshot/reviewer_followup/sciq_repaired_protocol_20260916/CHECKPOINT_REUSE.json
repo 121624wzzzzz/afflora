@@ -1,0 +1,272 @@
+[
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_hidden_r8_sd5002_lr0.0008",
+    "spec_sha256": "d7a4383ac0c730d7b7f9b5af569bdb3d2a0fa5a489dad2f14e0e1a88497d0806",
+    "adapter_sha256": "293e5ce17c63e5cd7b7ea6e128d7e24672869a8e4ef02b3f11ba9cb45d76d7fe"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_hidden_r8_sd5003_lr0.0008",
+    "spec_sha256": "08bc7da895625cc089b59d70ae15f40e0cd567fac6197b44c45215d61d0ba8f0",
+    "adapter_sha256": "55529e181b55144f673e52a587d9e30d0316da200eea0fc1915a63fedb00fc4a"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_hidden_r8_sd5004_lr0.0008",
+    "spec_sha256": "0227a4e57dfd8362d0962cfb0c0369113827977b0c176edae6db5b680a1e382f",
+    "adapter_sha256": "863379744b6f73e1520121bc5ac72e668494214de0612e85c71922cc305c1a45"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_hidden_r8_sd5005_lr0.0008",
+    "spec_sha256": "b22e3e3ad3972862645083958242168409006874ba0aff900e90ee1465d10b61",
+    "adapter_sha256": "4a013fd5a9abb9ecad3b43f668f450a8c63d1790781bbe6048db305506bd8bb7"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_hidden_r8_sd5006_lr0.0008",
+    "spec_sha256": "dd259407f5ca93a4a96f58a0865eb77d1a9720f24d333cb006bbddfb0d502323",
+    "adapter_sha256": "cec284747228834bb68cb5e1b0f4f114aa9cfe5897444ed31bc2351ef6b114f8"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_input_sd5002_lr0.0008",
+    "spec_sha256": "25d15e1fa8b42b24fd50155b27c4399198a0c81b824ac46fedb3b07ba7a3ec73",
+    "adapter_sha256": "10d902ad07f4535c5f86f1aa8ca3c4f722c92536ad655af2ae403f974acbbb79"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_input_sd5003_lr0.0008",
+    "spec_sha256": "364d4a70fb8a98c27e03c36b2b107c1db55fa22c2b3d02fe7242faea8070ddf0",
+    "adapter_sha256": "35133abb16d39b6ec998900bac51c9c3dd889e0808a35c8f0fcfd6567f38d8e8"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_input_sd5004_lr0.0008",
+    "spec_sha256": "0e25f26ad32a225b524bf79a8c24f050d5e646ca460d7b9e9f86e5572db9fe5c",
+    "adapter_sha256": "4c887e8d5aadbfd2c411027c85b25fa30fc9398d826a40595fa87da9ef7b1f07"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_input_sd5005_lr0.0008",
+    "spec_sha256": "7d4bed3bde81b39f2e1bbcb68e95abdebed29105f86abe4ced9c6902764455c3",
+    "adapter_sha256": "13874ab799e796f0deb6ef1dd59a0d4acccd61e30d7b6c1c16bf0564f826df30"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_input_sd5006_lr0.0008",
+    "spec_sha256": "f682a77dc9532226ba232e251223eacdad0f96dcb094e5133b28642fdb8cb4c8",
+    "adapter_sha256": "0febc698704b68e25a84d0af28dcf71d7892553c7ab8fe0eeee5b5b601b5e1d2"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_output_sd5002_lr5e-05",
+    "spec_sha256": "97197009246827c4a441650e45d2ab9756c995d55ca56b0bc619f0f7a30f714e",
+    "adapter_sha256": "5754ea7a55d9d638a7cd1170741d9ca74b7e6f7ab1d35366a92b4a91dd0aa1a2"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_output_sd5003_lr5e-05",
+    "spec_sha256": "4d502f55d934477dd5c114d319d928401bbfad38de95d1720504d4179a09ac9e",
+    "adapter_sha256": "c472e1c702533d0bdfa2ecc7802e1c00486b8b6c27b9eea6df54f8974bf96120"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_output_sd5004_lr5e-05",
+    "spec_sha256": "3bc4cfd62cc9f32ca06cecd5b464191e9c079fcbf8428e0baeb6e61cf54758d0",
+    "adapter_sha256": "958aa9ec8e5767c169d6a93d35c6a8cf50b6e130a301a72cd29d26017bcefb69"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_output_sd5005_lr5e-05",
+    "spec_sha256": "50deed2593c0c19169fe5f169168f33702b0a1a80698fe99a19289993d37aa80",
+    "adapter_sha256": "33fbd332e40a5066722868ba79e7e9a68b4d63323cc18e37e7379e324be80e4a"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen25_15b_base_output_sd5006_lr5e-05",
+    "spec_sha256": "53c639241a1609fcf5b5e783ca09e448461d9124a93b6c1eb29d89ef0bbd15ff",
+    "adapter_sha256": "d05672f2c982c78e62e4ce7b13490e5565211caa333efc9bb37158d46501c299"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_hidden_r8_sd5002_lr0.0002",
+    "spec_sha256": "2027826da6964da3ca29c12b73806a09404300ce2cb4bc09aedfc46bf7e6a0a3",
+    "adapter_sha256": "6af77eb4cfe6b5702056f136a11348f1e469c218f6b8d6417da17d3dd75ffeed"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_hidden_r8_sd5003_lr0.0002",
+    "spec_sha256": "8187bd90a95256fdf4435ad9720a6dc27ea7f2c21692bd5f50a8c5f33c51ed7f",
+    "adapter_sha256": "1e556dc28e9919fdb7d297da5af59f4fe5be28d761958be2b698cc6bc15c522b"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_hidden_r8_sd5004_lr0.0002",
+    "spec_sha256": "c78bb188a36605d6998bee34fe09f358058ba3b06df84c8b719eef6c02b0dac5",
+    "adapter_sha256": "d5c36dfe9eaed22ff866059a7e95864bf340e00b1029296d3c879380c1949dc7"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_hidden_r8_sd5005_lr0.0002",
+    "spec_sha256": "686846b734e8a562eff7742bcc03d1f55ff2fe2cf14f80f3d49b38be03192c8d",
+    "adapter_sha256": "d7cbfa1d8e23c4d71faa71f8d5c9b28baf8cf7db823884d99dca111fcecd7a94"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_hidden_r8_sd5006_lr0.0002",
+    "spec_sha256": "02e328fae72d2e01ad0dd4111a0f24de71d7e3b6c386b19ae20eaad332ec2d00",
+    "adapter_sha256": "930b1e5faa333155f312f874358d61bb1cc4cfcd76e3b11f9bb7d763a49e6d5d"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_input_sd5002_lr0.0002",
+    "spec_sha256": "4ef24a6e5150657c27859d862d4ef6655d6f09d43e0a3ae26e04a24f2cbf64c2",
+    "adapter_sha256": "aa81f5463343a2d58712f2f4786d099a1fc89e3237a15d3cd3a60ba96c0966e8"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_input_sd5003_lr0.0002",
+    "spec_sha256": "596c3ded6d7c858b24c1a70f737f7de96054695d3f3d2ebacbab548679595a2b",
+    "adapter_sha256": "e1ace2adf5421ecb738a1047dd42d005e2f33518501dc81f756af12503921a66"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_input_sd5004_lr0.0002",
+    "spec_sha256": "797176d406e34ef08f574f12b0890d0bd451d21c18569833e1bfd10a7e4f3c27",
+    "adapter_sha256": "73bde91d069f3650c05fb33880f696863366992e610626ec74aa8acbe053d152"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_input_sd5005_lr0.0002",
+    "spec_sha256": "ba072be83b4344d0549c794d59d1b06ee63ae4758f03cc27ff83f6c0d0f2adc1",
+    "adapter_sha256": "adbafd4174c9a2d25e2989eb750211517ff2b69d5a35edc672929691f2123443"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_input_sd5006_lr0.0002",
+    "spec_sha256": "914bb1cd2258f1a8d114303bbe1866abc1032c227ba84b399b9f60ed681658a2",
+    "adapter_sha256": "a5bac91590b16edc460db31d4b0ea2a6c5ab15ad5afec3372c6ade8322322914"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_output_sd5002_lr0.0008",
+    "spec_sha256": "c1fcd3b1c8e5e1bc0cf25d2800392c7b4b8eb9fa778b19c28935e6dcdafe98cc",
+    "adapter_sha256": "7876a2c1d22c6a3bc0b42a3951fe413cca13e266ac27b6fc9a8d8079d494bb91"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_output_sd5003_lr0.0008",
+    "spec_sha256": "cc427f70a6b7ce45552732c2829f38d42a92f182b692daa226fa5ed5134cd7f9",
+    "adapter_sha256": "5e42955345792242ac6add24ea2836a23540b0961cf22b466e641b2580d62eda"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_output_sd5004_lr0.0008",
+    "spec_sha256": "b84ca1cfcba05dd2a0fad79b73db26401ec1bfbe20d84254bb2f088ba66592fc",
+    "adapter_sha256": "e4af3326e3df888f1a0a5da10396ffdd778955bff547dadab4aefcc91e117a35"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_output_sd5005_lr0.0008",
+    "spec_sha256": "73af8035459fbd2b914cd7a7f12e21367407db3da3f23eca55a3a3ea6e1e2e46",
+    "adapter_sha256": "ca44fb665a2c0b04ef4af257026699e8d8117944bcc49bbf5933c12950f3af7e"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/confirmation_qwen3_06b_base_output_sd5006_lr0.0008",
+    "spec_sha256": "38eedc544e81b8433e3b19ec9ac7907c1631fc588e00bea7eb4d1278828d9395",
+    "adapter_sha256": "7845965677a3237e427d60e8c1db8be46bfc3c7209aa38d02f903eeda3f912a5"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/reference_qwen25_15b_base_base_sd5001_lr0",
+    "spec_sha256": "813f8b628775bdbe7781d4c57bd504afbac6de76db20ddc7667b956eb40c86fa",
+    "adapter_sha256": null
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/reference_qwen3_06b_base_base_sd5001_lr0",
+    "spec_sha256": "7608ca99fae088767c8e21c417d481b1a9c42bfe1b9bbb2d1418976768224d13",
+    "adapter_sha256": null
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3002_lr0.0002",
+    "spec_sha256": "ce3c29a18a3f32a25bf623267454aa66b75eb3043ad5c826ee5a0244d8a0c179",
+    "adapter_sha256": "fb55140f5be92f2393cfee107b831b7998412689035e67e480d2f986f6067801"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3003_lr0.0002",
+    "spec_sha256": "886267a51b724476b5ba7808b097fb90e608ca5ea739441d536d227366a55966",
+    "adapter_sha256": "fb3092a179f578cc25bbbc3612a6da9394fc9d05d07e712055ec80b07566c2f4"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3004_lr0.0002",
+    "spec_sha256": "ce514d5db8bdfa2d0a4b5d5dcb4637e6e547bce39abd975c98aa8e99fdebd0e7",
+    "adapter_sha256": "8b7aa988930c16e700829055b4edc4e3fc33ab7697a2f722069c6d1987bafcc5"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3005_lr0.0002",
+    "spec_sha256": "c6c6afccc2bba2b91335ca786d834ddaf7cf865c6813e2374a6fb0064c6236b4",
+    "adapter_sha256": "9ff25dce230bbc3d39aa4ac91662147bdb7dd6ea7bf9cca7590f78fea11f28b9"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_input_sd3006_lr0.0002",
+    "spec_sha256": "9fcc0de19fe12a29778abcbdd1feee954a2c840212938963263bcf30b0c9e4f1",
+    "adapter_sha256": "c20fccd9449b94017f867ae0e7b35bfe3c724dd93bf244ca3d796eaddeb0ea1a"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3002_lr5e-05",
+    "spec_sha256": "5f440ee43ea791cfb71628e3490e02633f97775c0855de74858e39caf6c879b9",
+    "adapter_sha256": "32fa017d15f6d8c77510c7a5a30d310331dbdcb9a1441efee1ca8f96971f4aed"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3003_lr5e-05",
+    "spec_sha256": "b155b7c8fa8980d83e649e1955a14b3b58e1ad2d16a1d3315efb5e5f7d89570c",
+    "adapter_sha256": "aaffd12cc982fa6cbd24669edf6795b30eb9c71ef701be49d8e78595a95e6897"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3004_lr5e-05",
+    "spec_sha256": "65b60a08cd43490aa7b326c0e283d2618041212889ffe7caeb5a860b18273d9f",
+    "adapter_sha256": "d7602fd3357ddc30663ae06c06152f5602ba54b67f6791d6e8f61e4351f6def7"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3005_lr5e-05",
+    "spec_sha256": "c3f25d0bc8da597269170d022c69fd446bafdc8af12fd8bdfe50d3c7a4c35637",
+    "adapter_sha256": "62eb7bf16d61129c804f07e95eabad673749a647aa1a132e5ca280e1c70cc813"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen25_15b_chat_output_sd3006_lr5e-05",
+    "spec_sha256": "b119817730a4bec26de89f4e0ca6b307fefa27c4d2814d1471b09a5c4f59b112",
+    "adapter_sha256": "32abffd1927cce53487ffbb43b0bd1777af90d51c62968729cbb411ae8588326"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3002_lr0.0008",
+    "spec_sha256": "896f9c350df2e09a1247c8115f83ce3fbc31b80db467d3349441da88d17f5373",
+    "adapter_sha256": "a99fc5a20dba36571ada03f5beddd042143ab8e31ba351114342bad3abc736ab"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3003_lr0.0008",
+    "spec_sha256": "3bf3ad18e061b94d3c0dca601c81f67a4f700a06429d9479ee1c22bab628f9b4",
+    "adapter_sha256": "a70abb2b47b6733522809777616d36acddfd13ffb193d05142211d56df9eb4c6"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3004_lr0.0008",
+    "spec_sha256": "d4b9081e39f113d52f34ca4024acc3f0247ef0ae11935e2147e09e130b422c51",
+    "adapter_sha256": "a2747fe89fde4993103faa071b3258d3b96a2f5b6d02504d85c76012d14dc48c"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3005_lr0.0008",
+    "spec_sha256": "2a20a5fc52acffabf2080e785a5662a8db7c051cdd674fced019a5ec03f2bca3",
+    "adapter_sha256": "3557c679b5d002fbd797c2dfc71af6b647b7c1828517336c1d56727f76290fbe"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_input_sd3006_lr0.0008",
+    "spec_sha256": "88ca9fd41a887736f56e6cab71b11f72e02ea86a8520d946d4864ad6bc5f576b",
+    "adapter_sha256": "00e48867687446397927b1ce68156fc69ea5364fb015698d3c3d011c8280a04f"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3002_lr0.0008",
+    "spec_sha256": "17b374ab46b143fc3f8ea5180efaf4cce09d049f620152f2d9fd00e1278f5933",
+    "adapter_sha256": "de3d8565d8057e84f8a00d77eb6acb3ed8987419e35aedae6403451464e50fd4"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3003_lr0.0008",
+    "spec_sha256": "d89591507fdbd25c173ee5ea36bffe94700253e8d90016caf1254c3ad9f5209d",
+    "adapter_sha256": "c03e826ad6ad10cbdd2661a2cf256200f786cc1eb372ab1c2aa74b07101d8a13"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3004_lr0.0008",
+    "spec_sha256": "b81a18eac5f8ad38164b35beaf6c8767c8a251d92e5c47dc21a1e8f82e082518",
+    "adapter_sha256": "a69bf5b7687cb03d08999e5ab9457fa23722dda2b9fde753ccc63fba1be11832"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3005_lr0.0008",
+    "spec_sha256": "17f75e3f2e648dc60080213374501bbac6eac2f73faa7fe73f8c4ae16a0ddfe6",
+    "adapter_sha256": "6da132029aada2687082bafdcf57d941c8bb40ad4d4ab48c922db17f898e0985"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/confirmation_qwen3_06b_chat_output_sd3006_lr0.0008",
+    "spec_sha256": "1314e931fdb0d1a4bbac48b0ced184605513f1ca1c895d314f3498ce7af6dedd",
+    "adapter_sha256": "67dca66ae4ba00afd936b4744e09bd73d99f3e3233387d385c2f4bd04e462580"
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/reference_qwen25_15b_chat_base_sd3001_lr0",
+    "spec_sha256": "132d6a94c525a876200e92ecec83401dff74061d0760f57b50d55c3866cb403c",
+    "adapter_sha256": null
+  },
+  {
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_single_boundary_sciq_20260915/checkpoints/reference_qwen3_06b_chat_base_sd3001_lr0",
+    "spec_sha256": "b08dcec9a715547ce3b170c3e36c09439049e96f102cecae3838a31d2e2e5334",
+    "adapter_sha256": null
+  }
+]

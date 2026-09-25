@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "at": "2026-09-15T17:50:24+08:00",
+  "formal_training_runs": 56,
+  "smoke_runs": 8,
+  "confirmation_runs": 40,
+  "primary_family_passes": 0,
+  "formal_valid_first_label_percent_range": [
+    100.0,
+    100.0
+  ],
+  "numeric_rechecks": 21,
+  "numeric_prediction_flips": 0,
+  "manuscripts_changed": false,
+  "figure_visually_checked": true
+}

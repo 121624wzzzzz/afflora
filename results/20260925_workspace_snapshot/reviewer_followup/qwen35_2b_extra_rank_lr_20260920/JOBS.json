@@ -1,0 +1,86 @@
+[
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_extra_rank_lr_20260920/extra_lr025",
+    "spec": {
+      "name": "diagnostic_extra_lr025_c5_s7600",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7600,
+      "candidate": "c5",
+      "lr": 0.0008,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ],
+      "extra_rank_lr_ratio": 0.25
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_extra_rank_lr_20260920/extra_lr025",
+    "spec": {
+      "name": "diagnostic_extra_lr025_c5_s7601",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7601,
+      "candidate": "c5",
+      "lr": 0.0008,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ],
+      "extra_rank_lr_ratio": 0.25
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_extra_rank_lr_20260920/extra_lr025",
+    "spec": {
+      "name": "diagnostic_extra_lr025_c2_s7600",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7600,
+      "candidate": "c2",
+      "lr": 0.0004,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ],
+      "extra_rank_lr_ratio": 0.25
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_extra_rank_lr_20260920/extra_lr025",
+    "spec": {
+      "name": "diagnostic_extra_lr025_c2_s7601",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7601,
+      "candidate": "c2",
+      "lr": 0.0004,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ],
+      "extra_rank_lr_ratio": 0.25
+    },
+    "state": "pending"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "at": "2026-09-17T13:46:29+08:00",
+  "pending": [],
+  "active": [],
+  "finished": [
+    {
+      "name": "smoke_banking77_qwen3_06b_base_hidden_both",
+      "code": 0
+    },
+    {
+      "name": "smoke_e2e_clean_qwen3_06b_base_hidden_budget",
+      "code": 0
+    },
+    {
+      "name": "smoke_banking77_qwen25_15b_base_hidden_both",
+      "code": 0
+    },
+    {
+      "name": "smoke_e2e_clean_qwen25_15b_base_hidden_budget",
+      "code": 0
+    }
+  ],
+  "failed": []
+}

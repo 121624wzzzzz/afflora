@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-16T22:01:02+08:00",
+  "status": "passed",
+  "scope": "five-seed, two-task, two-Base fixed-small-training-budget study with held-out evaluation",
+  "training_runs_including_smoke": 104,
+  "development_responses": 22000,
+  "heldout_responses": 109442,
+  "total_responses": 131442,
+  "manifest": "ARTIFACT_MANIFEST.json",
+  "interpretation": "FINAL_INTERPRETATION_ZH.md"
+}

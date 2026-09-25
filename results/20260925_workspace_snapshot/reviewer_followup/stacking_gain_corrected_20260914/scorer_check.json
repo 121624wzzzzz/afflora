@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "examples": 541,
+  "instructions": 834,
+  "distinct_instruction_types": 25,
+  "deterministic_repeat": true,
+  "upstream_random_fallbacks": [
+    {
+      "key": 1122,
+      "instruction": "keywords:letter_frequency",
+      "kwargs": {
+        "let_relation": "at least",
+        "letter": "#",
+        "let_frequency": 4
+      }
+    },
+    {
+      "key": 1129,
+      "instruction": "keywords:letter_frequency",
+      "kwargs": {
+        "let_relation": "at least",
+        "letter": "!",
+        "let_frequency": 6
+      }
+    }
+  ],
+  "note": "Synthetic responses exercise scorer dependencies only; not model results."
+}

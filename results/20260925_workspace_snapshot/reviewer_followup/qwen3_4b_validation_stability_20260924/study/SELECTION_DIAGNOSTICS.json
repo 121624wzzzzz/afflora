@@ -1,0 +1,130 @@
+{
+  "at": "2026-09-24T23:15:21+08:00",
+  "note": "Dev-only stability diagnostics; no test feedback; does not alter frozen choices.",
+  "results": [
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "affine",
+        "shared",
+        16,
+        true
+      ],
+      "selected": 0.015625,
+      "dev_means": {
+        "0.015625": 83.72395833333333,
+        "0.0625": 83.23567708333333,
+        "0.25": 83.26822916666667,
+        "1.0": 83.65885416666667,
+        "2.0": 83.07291666666667,
+        "4.0": 83.43098958333333
+      },
+      "best_minus_second": 0.06510416666665719,
+      "single_seed_choices": [
+        0.015625,
+        0.015625,
+        0.25
+      ],
+      "leave_one_seed_out_choices": [
+        1.0,
+        0.015625,
+        0.015625
+      ],
+      "selected_at_grid_edge": true
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "affine",
+        "shared",
+        30,
+        true
+      ],
+      "selected": 1.0,
+      "dev_means": {
+        "0.015625": 83.56119791666667,
+        "0.0625": 83.82161458333333,
+        "0.25": 83.49609375,
+        "1.0": 83.88671875,
+        "2.0": 83.85416666666667,
+        "4.0": 83.49609375
+      },
+      "best_minus_second": 0.032552083333328596,
+      "single_seed_choices": [
+        0.0625,
+        2.0,
+        1.0
+      ],
+      "leave_one_seed_out_choices": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "selected_at_grid_edge": false
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "vocab",
+        "shared",
+        1,
+        false
+      ],
+      "selected": 0.0625,
+      "dev_means": {
+        "0.015625": 83.7890625,
+        "0.0625": 83.85416666666667,
+        "0.25": 83.33333333333333,
+        "1.0": 81.93359375,
+        "2.0": 81.73828125,
+        "4.0": 79.23177083333333
+      },
+      "best_minus_second": 0.0651041666666714,
+      "single_seed_choices": [
+        0.0625,
+        0.015625,
+        0.0625
+      ],
+      "leave_one_seed_out_choices": [
+        0.0625,
+        0.0625,
+        0.015625
+      ],
+      "selected_at_grid_edge": false
+    },
+    {
+      "architecture": [
+        "qwen3_4b_base",
+        "wikisql",
+        "vocab",
+        "shared",
+        2,
+        false
+      ],
+      "selected": 0.015625,
+      "dev_means": {
+        "0.015625": 83.85416666666667,
+        "0.0625": 83.62630208333333,
+        "0.25": 83.36588541666667,
+        "1.0": 81.640625,
+        "2.0": 79.81770833333333,
+        "4.0": 73.33984375
+      },
+      "best_minus_second": 0.2278645833333428,
+      "single_seed_choices": [
+        0.25,
+        0.015625,
+        0.015625
+      ],
+      "leave_one_seed_out_choices": [
+        0.015625,
+        0.015625,
+        0.015625
+      ],
+      "selected_at_grid_edge": true
+    }
+  ]
+}

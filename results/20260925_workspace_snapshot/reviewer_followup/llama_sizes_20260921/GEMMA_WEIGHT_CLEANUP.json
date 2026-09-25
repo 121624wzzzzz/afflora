@@ -1,0 +1,56 @@
+{
+  "at": "2026-09-21T14:08:37.273241+08:00",
+  "scope": "User-authorized inactive Gemma original weight files only; preserve configs/tokenizers and all experiment evidence",
+  "files": [
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-2B-Base/model-00002-of-00003.safetensors",
+      "bytes": 4983443424
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-2B-Base/model-00001-of-00003.safetensors",
+      "bytes": 4992576136
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-2B-Base/model-00003-of-00003.safetensors",
+      "bytes": 481381384
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00003-of-00008.safetensors",
+      "bytes": 4962271312
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00001-of-00008.safetensors",
+      "bytes": 4844480456
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00002-of-00008.safetensors",
+      "bytes": 4962213464
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00008-of-00008.safetensors",
+      "bytes": 2378360680
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00007-of-00008.safetensors",
+      "bytes": 4962271328
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00004-of-00008.safetensors",
+      "bytes": 4932853744
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00005-of-00008.safetensors",
+      "bytes": 4962213528
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-2-9B-Base/model-00006-of-00008.safetensors",
+      "bytes": 4962213528
+    },
+    {
+      "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Gemma-3-1B-Base/model.safetensors",
+      "bytes": 1999811208
+    }
+  ],
+  "status": "completed",
+  "removed_bytes": 49424090192
+}

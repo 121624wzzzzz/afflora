@@ -1,0 +1,8 @@
+{
+  "qwen35_4b_base": {
+    "base": 0,
+    "hidden": 16232448,
+    "hidden_budget": 16398848,
+    "hidden_both": 16398848
+  }
+}

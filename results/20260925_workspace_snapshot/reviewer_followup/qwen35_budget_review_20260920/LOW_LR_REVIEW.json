@@ -1,0 +1,1138 @@
+{
+  "at": "2026-09-20T17:47:46.217691+08:00",
+  "scope": "Posthoc audited development results, low LR defined as <=2e-4. Single-seed groups kept separate; no causal or significance claim.",
+  "rows": [
+    {
+      "size": "08b",
+      "task": "wikisql",
+      "lr": 5e-05,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          64.16015625,
+          65.234375
+        ],
+        "hidden_budget": [
+          64.16015625,
+          65.625
+        ],
+        "hidden_both": [
+          67.1875,
+          67.7734375
+        ]
+      },
+      "means": {
+        "hidden": 64.697265625,
+        "hidden_budget": 64.892578125,
+        "hidden_both": 67.48046875
+      },
+      "differences": {
+        "hidden": [
+          3.02734375,
+          2.5390625
+        ],
+        "hidden_budget": [
+          3.02734375,
+          2.1484375
+        ]
+      }
+    },
+    {
+      "size": "08b",
+      "task": "wikisql",
+      "lr": 0.0001,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          73.14453125,
+          73.33984375
+        ],
+        "hidden_budget": [
+          73.4375,
+          73.53515625
+        ],
+        "hidden_both": [
+          74.609375,
+          75.09765625
+        ]
+      },
+      "means": {
+        "hidden": 73.2421875,
+        "hidden_budget": 73.486328125,
+        "hidden_both": 74.853515625
+      },
+      "differences": {
+        "hidden": [
+          1.46484375,
+          1.7578125
+        ],
+        "hidden_budget": [
+          1.171875,
+          1.5625
+        ]
+      }
+    },
+    {
+      "size": "08b",
+      "task": "wikisql",
+      "lr": 0.0002,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          76.7578125,
+          76.3671875
+        ],
+        "hidden_budget": [
+          77.24609375,
+          75.68359375
+        ],
+        "hidden_both": [
+          76.953125,
+          76.26953125
+        ]
+      },
+      "means": {
+        "hidden": 76.5625,
+        "hidden_budget": 76.46484375,
+        "hidden_both": 76.611328125
+      },
+      "differences": {
+        "hidden": [
+          0.1953125,
+          -0.09765625
+        ],
+        "hidden_budget": [
+          -0.29296875,
+          0.5859375
+        ]
+      }
+    },
+    {
+      "size": "08b",
+      "task": "trec50",
+      "lr": 5e-05,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          66.40625,
+          69.53125
+        ],
+        "hidden_budget": [
+          67.1875,
+          69.53125
+        ],
+        "hidden_both": [
+          68.75,
+          74.609375
+        ]
+      },
+      "means": {
+        "hidden": 67.96875,
+        "hidden_budget": 68.359375,
+        "hidden_both": 71.6796875
+      },
+      "differences": {
+        "hidden": [
+          2.34375,
+          5.078125
+        ],
+        "hidden_budget": [
+          1.5625,
+          5.078125
+        ]
+      }
+    },
+    {
+      "size": "08b",
+      "task": "trec50",
+      "lr": 0.0001,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          76.171875,
+          78.90625
+        ],
+        "hidden_budget": [
+          77.34375,
+          79.296875
+        ],
+        "hidden_both": [
+          76.953125,
+          77.734375
+        ]
+      },
+      "means": {
+        "hidden": 77.5390625,
+        "hidden_budget": 78.3203125,
+        "hidden_both": 77.34375
+      },
+      "differences": {
+        "hidden": [
+          0.78125,
+          -1.171875
+        ],
+        "hidden_budget": [
+          -0.390625,
+          -1.5625
+        ]
+      }
+    },
+    {
+      "size": "08b",
+      "task": "trec50",
+      "lr": 0.0002,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          81.640625,
+          78.90625
+        ],
+        "hidden_budget": [
+          80.078125,
+          79.6875
+        ],
+        "hidden_both": [
+          80.46875,
+          79.6875
+        ]
+      },
+      "means": {
+        "hidden": 80.2734375,
+        "hidden_budget": 79.8828125,
+        "hidden_both": 80.078125
+      },
+      "differences": {
+        "hidden": [
+          -1.171875,
+          0.78125
+        ],
+        "hidden_budget": [
+          0.390625,
+          0.0
+        ]
+      }
+    },
+    {
+      "size": "2b",
+      "task": "wikisql",
+      "lr": 5e-05,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          72.75390625,
+          72.8515625
+        ],
+        "hidden_budget": [
+          72.55859375,
+          72.75390625
+        ],
+        "hidden_both": [
+          73.53515625,
+          73.92578125
+        ]
+      },
+      "means": {
+        "hidden": 72.802734375,
+        "hidden_budget": 72.65625,
+        "hidden_both": 73.73046875
+      },
+      "differences": {
+        "hidden": [
+          0.78125,
+          1.07421875
+        ],
+        "hidden_budget": [
+          0.9765625,
+          1.171875
+        ]
+      }
+    },
+    {
+      "size": "2b",
+      "task": "wikisql",
+      "lr": 0.0001,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          77.44140625,
+          78.22265625
+        ],
+        "hidden_budget": [
+          77.734375,
+          77.9296875
+        ],
+        "hidden_both": [
+          78.61328125,
+          77.83203125
+        ]
+      },
+      "means": {
+        "hidden": 77.83203125,
+        "hidden_budget": 77.83203125,
+        "hidden_both": 78.22265625
+      },
+      "differences": {
+        "hidden": [
+          1.171875,
+          -0.390625
+        ],
+        "hidden_budget": [
+          0.87890625,
+          -0.09765625
+        ]
+      }
+    },
+    {
+      "size": "2b",
+      "task": "wikisql",
+      "lr": 0.0002,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          79.98046875,
+          79.98046875
+        ],
+        "hidden_budget": [
+          79.8828125,
+          80.078125
+        ],
+        "hidden_both": [
+          79.4921875,
+          81.54296875
+        ]
+      },
+      "means": {
+        "hidden": 79.98046875,
+        "hidden_budget": 79.98046875,
+        "hidden_both": 80.517578125
+      },
+      "differences": {
+        "hidden": [
+          -0.48828125,
+          1.5625
+        ],
+        "hidden_budget": [
+          -0.390625,
+          1.46484375
+        ]
+      }
+    },
+    {
+      "size": "2b",
+      "task": "trec50",
+      "lr": 5e-05,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          74.21875,
+          74.609375
+        ],
+        "hidden_budget": [
+          74.21875,
+          75.0
+        ],
+        "hidden_both": [
+          76.171875,
+          74.21875
+        ]
+      },
+      "means": {
+        "hidden": 74.4140625,
+        "hidden_budget": 74.609375,
+        "hidden_both": 75.1953125
+      },
+      "differences": {
+        "hidden": [
+          1.953125,
+          -0.390625
+        ],
+        "hidden_budget": [
+          1.953125,
+          -0.78125
+        ]
+      }
+    },
+    {
+      "size": "2b",
+      "task": "trec50",
+      "lr": 0.0001,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          79.296875,
+          78.125
+        ],
+        "hidden_budget": [
+          79.6875,
+          78.125
+        ],
+        "hidden_both": [
+          78.90625,
+          80.078125
+        ]
+      },
+      "means": {
+        "hidden": 78.7109375,
+        "hidden_budget": 78.90625,
+        "hidden_both": 79.4921875
+      },
+      "differences": {
+        "hidden": [
+          -0.390625,
+          1.953125
+        ],
+        "hidden_budget": [
+          -0.78125,
+          1.953125
+        ]
+      }
+    },
+    {
+      "size": "2b",
+      "task": "trec50",
+      "lr": 0.0002,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          82.03125,
+          78.90625
+        ],
+        "hidden_budget": [
+          82.421875,
+          80.46875
+        ],
+        "hidden_both": [
+          81.25,
+          82.03125
+        ]
+      },
+      "means": {
+        "hidden": 80.46875,
+        "hidden_budget": 81.4453125,
+        "hidden_both": 81.640625
+      },
+      "differences": {
+        "hidden": [
+          -0.78125,
+          3.125
+        ],
+        "hidden_budget": [
+          -1.171875,
+          1.5625
+        ]
+      }
+    },
+    {
+      "size": "4b",
+      "task": "wikisql",
+      "lr": 5e-05,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          80.2734375,
+          80.56640625
+        ],
+        "hidden_budget": [
+          79.98046875,
+          80.76171875
+        ],
+        "hidden_both": [
+          81.54296875,
+          81.73828125
+        ]
+      },
+      "means": {
+        "hidden": 80.419921875,
+        "hidden_budget": 80.37109375,
+        "hidden_both": 81.640625
+      },
+      "differences": {
+        "hidden": [
+          1.26953125,
+          1.171875
+        ],
+        "hidden_budget": [
+          1.5625,
+          0.9765625
+        ]
+      }
+    },
+    {
+      "size": "4b",
+      "task": "wikisql",
+      "lr": 0.0001,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          83.0078125,
+          83.203125
+        ],
+        "hidden_budget": [
+          82.91015625,
+          82.91015625
+        ],
+        "hidden_both": [
+          83.30078125,
+          83.984375
+        ]
+      },
+      "means": {
+        "hidden": 83.10546875,
+        "hidden_budget": 82.91015625,
+        "hidden_both": 83.642578125
+      },
+      "differences": {
+        "hidden": [
+          0.29296875,
+          0.78125
+        ],
+        "hidden_budget": [
+          0.390625,
+          1.07421875
+        ]
+      }
+    },
+    {
+      "size": "4b",
+      "task": "wikisql",
+      "lr": 0.0002,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          83.69140625,
+          83.984375
+        ],
+        "hidden_budget": [
+          83.88671875,
+          84.27734375
+        ],
+        "hidden_both": [
+          84.47265625,
+          84.47265625
+        ]
+      },
+      "means": {
+        "hidden": 83.837890625,
+        "hidden_budget": 84.08203125,
+        "hidden_both": 84.47265625
+      },
+      "differences": {
+        "hidden": [
+          0.78125,
+          0.48828125
+        ],
+        "hidden_budget": [
+          0.5859375,
+          0.1953125
+        ]
+      }
+    },
+    {
+      "size": "4b",
+      "task": "trec50",
+      "lr": 5e-05,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          78.515625,
+          78.90625
+        ],
+        "hidden_budget": [
+          77.734375,
+          79.296875
+        ],
+        "hidden_both": [
+          79.296875,
+          79.6875
+        ]
+      },
+      "means": {
+        "hidden": 78.7109375,
+        "hidden_budget": 78.515625,
+        "hidden_both": 79.4921875
+      },
+      "differences": {
+        "hidden": [
+          0.78125,
+          0.78125
+        ],
+        "hidden_budget": [
+          1.5625,
+          0.390625
+        ]
+      }
+    },
+    {
+      "size": "4b",
+      "task": "trec50",
+      "lr": 0.0001,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          82.03125,
+          81.640625
+        ],
+        "hidden_budget": [
+          81.640625,
+          82.03125
+        ],
+        "hidden_both": [
+          82.03125,
+          82.421875
+        ]
+      },
+      "means": {
+        "hidden": 81.8359375,
+        "hidden_budget": 81.8359375,
+        "hidden_both": 82.2265625
+      },
+      "differences": {
+        "hidden": [
+          0.0,
+          0.78125
+        ],
+        "hidden_budget": [
+          0.390625,
+          0.390625
+        ]
+      }
+    },
+    {
+      "size": "4b",
+      "task": "trec50",
+      "lr": 0.0002,
+      "seeds": [
+        7600,
+        7601
+      ],
+      "scores": {
+        "hidden": [
+          82.8125,
+          84.375
+        ],
+        "hidden_budget": [
+          84.375,
+          84.375
+        ],
+        "hidden_both": [
+          86.328125,
+          84.375
+        ]
+      },
+      "means": {
+        "hidden": 83.59375,
+        "hidden_budget": 84.375,
+        "hidden_both": 85.3515625
+      },
+      "differences": {
+        "hidden": [
+          3.515625,
+          0.0
+        ],
+        "hidden_budget": [
+          1.953125,
+          0.0
+        ]
+      }
+    },
+    {
+      "size": "9b",
+      "task": "wikisql",
+      "lr": 5e-05,
+      "seeds": [
+        7600
+      ],
+      "scores": {
+        "hidden": [
+          82.03125
+        ],
+        "hidden_budget": [
+          82.421875
+        ],
+        "hidden_both": [
+          83.3984375
+        ]
+      },
+      "means": {
+        "hidden": 82.03125,
+        "hidden_budget": 82.421875,
+        "hidden_both": 83.3984375
+      },
+      "differences": {
+        "hidden": [
+          1.3671875
+        ],
+        "hidden_budget": [
+          0.9765625
+        ]
+      }
+    },
+    {
+      "size": "9b",
+      "task": "wikisql",
+      "lr": 0.0001,
+      "seeds": [
+        7600
+      ],
+      "scores": {
+        "hidden": [
+          84.08203125
+        ],
+        "hidden_budget": [
+          84.375
+        ],
+        "hidden_both": [
+          84.66796875
+        ]
+      },
+      "means": {
+        "hidden": 84.08203125,
+        "hidden_budget": 84.375,
+        "hidden_both": 84.66796875
+      },
+      "differences": {
+        "hidden": [
+          0.5859375
+        ],
+        "hidden_budget": [
+          0.29296875
+        ]
+      }
+    },
+    {
+      "size": "9b",
+      "task": "wikisql",
+      "lr": 0.0002,
+      "seeds": [
+        7600
+      ],
+      "scores": {
+        "hidden": [
+          84.86328125
+        ],
+        "hidden_budget": [
+          84.27734375
+        ],
+        "hidden_both": [
+          84.9609375
+        ]
+      },
+      "means": {
+        "hidden": 84.86328125,
+        "hidden_budget": 84.27734375,
+        "hidden_both": 84.9609375
+      },
+      "differences": {
+        "hidden": [
+          0.09765625
+        ],
+        "hidden_budget": [
+          0.68359375
+        ]
+      }
+    },
+    {
+      "size": "9b",
+      "task": "trec50",
+      "lr": 5e-05,
+      "seeds": [
+        7600
+      ],
+      "scores": {
+        "hidden": [
+          78.90625
+        ],
+        "hidden_budget": [
+          79.296875
+        ],
+        "hidden_both": [
+          80.078125
+        ]
+      },
+      "means": {
+        "hidden": 78.90625,
+        "hidden_budget": 79.296875,
+        "hidden_both": 80.078125
+      },
+      "differences": {
+        "hidden": [
+          1.171875
+        ],
+        "hidden_budget": [
+          0.78125
+        ]
+      }
+    },
+    {
+      "size": "9b",
+      "task": "trec50",
+      "lr": 0.0001,
+      "seeds": [
+        7600
+      ],
+      "scores": {
+        "hidden": [
+          83.984375
+        ],
+        "hidden_budget": [
+          85.546875
+        ],
+        "hidden_both": [
+          85.15625
+        ]
+      },
+      "means": {
+        "hidden": 83.984375,
+        "hidden_budget": 85.546875,
+        "hidden_both": 85.15625
+      },
+      "differences": {
+        "hidden": [
+          1.171875
+        ],
+        "hidden_budget": [
+          -0.390625
+        ]
+      }
+    },
+    {
+      "size": "9b",
+      "task": "trec50",
+      "lr": 0.0002,
+      "seeds": [
+        7600
+      ],
+      "scores": {
+        "hidden": [
+          85.546875
+        ],
+        "hidden_budget": [
+          85.15625
+        ],
+        "hidden_both": [
+          85.15625
+        ]
+      },
+      "means": {
+        "hidden": 85.546875,
+        "hidden_budget": 85.15625,
+        "hidden_both": 85.15625
+      },
+      "differences": {
+        "hidden": [
+          -0.390625
+        ],
+        "hidden_budget": [
+          0.0
+        ]
+      }
+    }
+  ],
+  "inputs": {
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_c0_s7600/dev/SUMMARY.json": "ac785d2d5f004f5e862326b18d9dcd0444cbd1bcbcabb6da832729b634dbba8e",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_c0_s7600.json": "e59648c4d455efb861ae599cc0644569798f6df41e97861f75f15e829549cfe1",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_budget_c0_s7600/dev/SUMMARY.json": "45383947294d35c3c0404f32b747097ba0f1eb4235a9855231b0eb29e125dc15",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_budget_c0_s7600.json": "5d200f620a93d1f2c3e2a21ba8e6495c66ad44d29746098034c7cf50afe0ce2b",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_both_c0_s7600/dev/SUMMARY.json": "28dc2caa58f5750fe340e5edcc92e6a06905ff5ed0fb2b330343a7084a7640f9",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_both_c0_s7600.json": "ab88a213adb97022a9630f32583bf14a4d81b4c38c20ba765444c2096a39e746",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_c0_s7600/dev/SUMMARY.json": "33a4e09dbe45966309353539b8636d18455a27c8dd050722e9bc158dff3bebc0",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_c0_s7600.json": "bcd8f55cf1f670e86aff8936bdb8806f8a93e6cfee2cfb6c338ceba7ba84bc06",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_budget_c0_s7600/dev/SUMMARY.json": "afa830720947d3996f2fa0d6e4235e47c08de9b96197ab8f1e7f77dfd9ffacb1",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_budget_c0_s7600.json": "09df29847cc1051a21ee3375a28698590edd9bb1fa80ee41d69ec1529679aadd",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_both_c0_s7600/dev/SUMMARY.json": "bd254e82a6f3264c5072aece107fac975fed62e71e5a23178bb1f9a00f35e2d7",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_both_c0_s7600.json": "2355fc6b0a8cb902722c570321008866ba516fb86becbe6e8a8da8e8adbbbefa",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_c1_s7600/dev/SUMMARY.json": "6b686b07bb7cc2614570d963132d642f93b2a8f6c2bc56e28f1d3d8bf3e88342",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_c1_s7600.json": "34af1c367ac3b360717f3dc9abe2a0897cc02b5f3577338f8794936c32b59f8a",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_budget_c1_s7600/dev/SUMMARY.json": "efd1459187369fa0bb364e07224ddd33ba3883df947370d2d8c4ceb6be7fbe35",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_budget_c1_s7600.json": "6584102f5f32e6fc4371db65632a7e4bd7ebb3b5992ffbb16fbd072e763454e6",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_both_c1_s7600/dev/SUMMARY.json": "ab375ba55ecb724215a910220b727ee00e60566b351b73b6173f54b306142d6a",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_both_c1_s7600.json": "04fc39bcdf9e841cfe20d94e3cbc9863f82afa442ff1da324a1140afb2c934b7",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_c1_s7600/dev/SUMMARY.json": "7ac9e3f60451e221598834ca561b32d16e4c3a71eef705b3db135a6d8d69783a",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_c1_s7600.json": "1f5e5529ea3166f3be11d86fd7b97a7bb8dcec5e00022d8c39c756100fe636fc",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_budget_c1_s7600/dev/SUMMARY.json": "124d4c72eea1d9c5be5974ea8e2d35bd9a10cbe0d71f8fe6cd338835e2080856",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_budget_c1_s7600.json": "ed8edb30691278a75af4529a4991cc160223744bddd96d863524b6a995c5fc28",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_both_c1_s7600/dev/SUMMARY.json": "7b8d26bc72f34b46e7aa251c199460a863d733b3bc28a112bbc21cdb0e697782",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_both_c1_s7600.json": "1571477982231e883d6ff1aaf015660017c2992ec811f6cac11e997c87f603f0",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_c3_s7600/dev/SUMMARY.json": "a5402f1f331eac23b398761899b13a26ca01a04464b3d799feaa312bacd48f23",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_c3_s7600.json": "e887eeec7144f5444b1b3ac27133d8fb400403e9a32a8b2e9f27c51a2fd34fa2",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_budget_c3_s7600/dev/SUMMARY.json": "70986a660a9dfd200e2b8147e211cea59bff4c63afcbe0d84ca523678685cde8",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_budget_c3_s7600.json": "f8c84625ab4c9d8a153ab6cb34851b3d7632ce44d763bb1772e74a90fe1928e4",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_both_c3_s7600/dev/SUMMARY.json": "77bfdb58b138f4c1cc03c7181e35369e0259eec49df380468d8f00d367c0e4bf",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_both_c3_s7600.json": "0f9a9aecfc5438aced948b3c88d75d98e3cb289a4073d97d678d0a41ba69cb55",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_c3_s7600/dev/SUMMARY.json": "f9ecd761af2c5f35b92c9f45911e26d55d597fd35e3087c41b2d3118b53774ac",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_c3_s7600.json": "a4fd9b46ba8540783d93baed9e0d6e8e9980f7cd1c16ae22afd0fdce9fe7a4fa",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_budget_c3_s7600/dev/SUMMARY.json": "6183cd59bd3b3434d9760f758da61f8a9aac851ecfd98524998ce81328785021",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_budget_c3_s7600.json": "55aea041f4266adaf7430617ff3879b57794914174b4899119e333f03f59b35d",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_both_c3_s7600/dev/SUMMARY.json": "12ac86ef796b3a9f90ffdd26b671a12dfbbf6b29e6d108ff715a317a3969f8ab",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_both_c3_s7600.json": "e2d75f089fadfe2a244f43c95bf1a5099bc2af550069463934ee1df349c8d379",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_c0_s7601/dev/SUMMARY.json": "7269d2cc9178e0522103f06a512f7d70eee2e45f842a5929b5739703d1551b79",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_c0_s7601.json": "be282d1b3857c3be8e074447ea3c2557486ba4e3c024ac340ef074bac34bf85d",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_budget_c0_s7601/dev/SUMMARY.json": "5ce765f8bf9d6347437dfc596a8f06c5e60afb668d50879a6dcf6d77d1905983",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_budget_c0_s7601.json": "4a1bf104a3c7918c937c2bffa4fd207c055ea289b8b6cb604a156b1d6961d6ac",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_both_c0_s7601/dev/SUMMARY.json": "a2ff6438cb177638bf4ca0776f33d2ecd6aadb418d76e637a95a423ed8d0be18",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_both_c0_s7601.json": "69918ee3d4a8f194ae337a32e60c9e65640fdb637147d10d3cc6361d7fdc4b87",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_c0_s7601/dev/SUMMARY.json": "c9f8a17ba4166296f46d9dfde8ce9ac3202ad8ce1ba67524220dd47805e3dbab",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_c0_s7601.json": "f0031326511da083556d174ff2695c79e6d1d189b8914a979a94b7452d601596",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_budget_c0_s7601/dev/SUMMARY.json": "882960c9a97341998acc4855bf75ef590bf28cbc5f8f1a46aa82e3ef2a42067e",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_budget_c0_s7601.json": "1096d18d0441f27224282a994854abc00aa5eea87a64d4718c1729a90c680504",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_both_c0_s7601/dev/SUMMARY.json": "5e407ec4b1bfc0d05aea70be0d907906a128a2ecca5b2b71ccd907f5a5de31cd",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_both_c0_s7601.json": "09486a37f27e5b85238e96b2ce4890faad7457c2edfbbfe0a0a24ce747aadcf9",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_c1_s7601/dev/SUMMARY.json": "e03c74b5d487951f6cd81f3fd7d82758af2b7ff7f4c812973f19a9b9302b5f25",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_c1_s7601.json": "7108e032d38e6cd65c4ea1a19c8b4073b92b4fcf74df0460363fa087c18df660",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_budget_c1_s7601/dev/SUMMARY.json": "f937b6ef53f77fc766f02fddf17ef7e44400cba428de0a3baff8b3127976e25e",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_budget_c1_s7601.json": "873aa4452a614e7fe628a81086fe543117c84ac53ee89e44e41e1854b6e864e1",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_both_c1_s7601/dev/SUMMARY.json": "1c6b1063fb19fdcfa4bf48074bd129d2f8b5086197901143d13d66cd95f08a9a",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_both_c1_s7601.json": "2738a4978113e9ce2b8c0c4bbe7df32e511e358e793dbe5c59ec9df68a6a95ca",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_c1_s7601/dev/SUMMARY.json": "448e67344d51f85193f252f19dda7dbcc56c2c94ef5d02197f39c0b9ff3773ae",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_c1_s7601.json": "6b5320398a09d7ce0c2aa36d233c31266433a45444f8a852061bca4d508a475f",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_budget_c1_s7601/dev/SUMMARY.json": "c08b5d9b3888e67e5bae27aca5e68b11a2b386f3f422ce51402678bb831b429a",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_budget_c1_s7601.json": "8350bdc5ced03e1e61fff53e209a38441d50f82fbd314fff97a56a17cb71cba7",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_both_c1_s7601/dev/SUMMARY.json": "d6229e02c606abc8bf27cebf05147a97c4242499140e135f7c50a63e598a529a",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_both_c1_s7601.json": "d64467e9842e51aada30234d05913889fda4a82c2238308c078c00c2f1648207",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_c3_s7601/dev/SUMMARY.json": "5fec1235a05e6857efa2f500371a6e8040b82f14ce5f05a85da012d451d42f74",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_c3_s7601.json": "8dcf5170e01553293ebed8a066285afdf74f937b699327a3a69913ad4d5a7adc",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_budget_c3_s7601/dev/SUMMARY.json": "a343aa38f88596522c1e6e922c28472413fa6dd1ff655e77ea31557013bfcd1d",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_budget_c3_s7601.json": "e294c4151222d3a393722ef8d96ee407d4a359dd542a8e14c6b83f45415f215e",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_wikisql_hidden_both_c3_s7601/dev/SUMMARY.json": "fac3eb022ffe925202f13108f4153206196df087a967466eabaa6265396b491b",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_wikisql_hidden_both_c3_s7601.json": "df107377a2cbddc7ab3b45003e36b734eb81d8ef83d03aae35be85a6e4036b7f",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_c3_s7601/dev/SUMMARY.json": "ab11da04241f05839a44addf66f1b6c5c4bdb77f2f87ba6f17f5afb2ecafdcc2",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_c3_s7601.json": "58404a4d9c68b6c87954b6b7f94d48cb5c6085ca817558dc64d0f037444c962d",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_budget_c3_s7601/dev/SUMMARY.json": "fe1f7b006d80178293a9784f111512a81f41008b38f380a319634e0784a83e3a",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_budget_c3_s7601.json": "12e2185351c55350bf4ed6d39dae8d7ff4f30b3bd187bba3a40bf65688257c6d",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/evaluations/search_trec50_hidden_both_c3_s7601/dev/SUMMARY.json": "bc207b874ae71aaad8aa4abd71e7f705516be250053551a1a9d5806b66a925d4",
+    "lora/reviewer_followup/qwen35_fixed_08b_20260920/audits/search_trec50_hidden_both_c3_s7601.json": "b2528b335453d79d711a7136065cc9ce35e050e9d7b65acb68584b187c8ddcec",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_c0_s7600/dev/SUMMARY.json": "36841f3a10853bdb6908dccf3f340f4ab437a95d531893102914bd4191ba8ef2",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_c0_s7600.json": "f23fef49cd78307f2306c23d762f9db364569374ff8a0588fc8e33aa350be608",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_budget_c0_s7600/dev/SUMMARY.json": "4a18650f8e5798cc180f7f7b5d00e2a62feecf6729861d625d3a6995e600ad2b",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_budget_c0_s7600.json": "c6506e96aceafc8b1045633c4268cbfaa51da2554c1ce3e2678ab4252eb88da3",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_both_c0_s7600/dev/SUMMARY.json": "a5a78e0a7523c6f4c4d4e153095e651477a06f8589ee27139723cf4244a0d1f9",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_both_c0_s7600.json": "0ca8450d46a0394b18729d82b587634fb1cbf96a97bfc3d3e5579218a4a47539",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_c0_s7600/dev/SUMMARY.json": "08a91498f840356e5eb681f8a67a681159bef51582984953da3462ef28587d85",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_c0_s7600.json": "e4f7f9594282c16c948e2313358883de294ccb888ef0a2ae8ada3fb8868270ef",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_budget_c0_s7600/dev/SUMMARY.json": "b65618c097dd70f4814a92582e1b0aab1b237e40d98221768682ac2414e3e419",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_budget_c0_s7600.json": "964e5cb6ed245109805638ad92ccffab87373c2fb56488ce5de9072ea054b61c",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_both_c0_s7600/dev/SUMMARY.json": "49e96251f98648c10fe1e463fba318fb995f4fcc710b74bf143432aec0b6d708",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_both_c0_s7600.json": "9c883d34f7d8ee5b6fa7f5fd938a952538f4dfe6a2ddce2aded1091f46ed0c2f",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_c1_s7600/dev/SUMMARY.json": "0f88558c8e66838ba8d0a082308c88660f4c58848afe73bedc04fae787bde0b1",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_c1_s7600.json": "224ff0bf019e18eb29644d5642e2529d3fbb0d0321603ae90c54df83b51de36a",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_budget_c1_s7600/dev/SUMMARY.json": "49846b34f8bed4eb99708bfe4c63379ad1388c8f99771b6f6efaddfca8865e49",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_budget_c1_s7600.json": "eee1553f01fad91413f639bfa4a99a0ce7cd1b70c6c5506a44633b5fbb43c58e",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_both_c1_s7600/dev/SUMMARY.json": "063d2d4546cfba47e7e58c0024a1945f24fa87af4ed189cd63d96d4a62952073",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_both_c1_s7600.json": "eb587a9ab6093929c075f405edb3f7630b86f138701009d337cfb580ee945c0b",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_c1_s7600/dev/SUMMARY.json": "ed5a72f525ef7c80c68df654bc62c9d08af56b86cec31e8a096ab69c7fe04207",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_c1_s7600.json": "5fdf6676f7f5d1ed2a3b63d116fdcfc8a5e50b6d3d52f2a197aa7e35edc72e6a",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_budget_c1_s7600/dev/SUMMARY.json": "da594648348674a3f869035b5dd788392286ebbe261ba46099abcb51d1ac2211",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_budget_c1_s7600.json": "d6594ec3ae1bc60cf72568f6e84e51c61affebd6d255fd438cc4ce49e3918fe2",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_both_c1_s7600/dev/SUMMARY.json": "acbf498f8919a3aac4d11a0db7011fc0ae3df2e834682b53678656f242019403",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_both_c1_s7600.json": "22c1f6a8e04754b902048c6fa08be0121585e6e4c83d54e15690f2bea4ce1f14",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_c3_s7600/dev/SUMMARY.json": "9577dd8d243505032c5592ac836c9b21d3ba17f3059af1aa1e260d4a78b60c38",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_c3_s7600.json": "5738e1268e279dc39e51fb754c52105e8db343bc8d54e44b94c5eebff0e247b1",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_budget_c3_s7600/dev/SUMMARY.json": "518901f8e3278b74c03c5561c47fee84f094d3fe0173ec8c5e1f4b77a3d3c17c",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_budget_c3_s7600.json": "67fe71e5a62d8ae67de73558d28459191c80ae8cdeeb7c0cf1e898b9f3c52bca",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_both_c3_s7600/dev/SUMMARY.json": "967dcdd70776ceb5f87f396a76a7fe0a9a699750b78025ff76f7823f010184f9",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_both_c3_s7600.json": "c53fd34a097b262cd65134c29be1d33ee65d83225cb77795d834b3e91f569b17",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_c3_s7600/dev/SUMMARY.json": "2a6b0c55f2dc3b4a0bae4839c51f74dc59615c6be9de113a079763dc493c03f1",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_c3_s7600.json": "32d2bcafe9bf7f890b1f383a772c578bc975b60d0aea31631bd0fb79e351238e",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_budget_c3_s7600/dev/SUMMARY.json": "c55571849a67d9483fce17a575ba82c8f813503e4e7ec53545af096d65dbe395",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_budget_c3_s7600.json": "b8e79b67a391f773eb85a6ea72304f648728ad790cd6b170ebf4066da417e51c",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_both_c3_s7600/dev/SUMMARY.json": "498fe91f5878d6f1ab43ec62c76fa59ca1027e79eb553853ba39874d0bbb9564",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_both_c3_s7600.json": "4a559196d24a7f76934cac7dcbe8aeaefc5a32958311b838258e073233f2ef47",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_c0_s7601/dev/SUMMARY.json": "9d300564be3d986cbf4034f6f9af854d0c4880ab71a638d40601b666cca97ab6",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_c0_s7601.json": "6f9aaf448522b823329adf6c2ae02cb540902d0cff6955bc1c9537a5ce350ed9",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_budget_c0_s7601/dev/SUMMARY.json": "d9303abe6204902b63e2dd835f9187a8e7bf7a7b6aeb5d0f9783c84b182dfd5a",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_budget_c0_s7601.json": "30ea0c12c97affc1e1f503610b6a89fca0b6cbe2c5214f283e9a98f734dc8c83",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_both_c0_s7601/dev/SUMMARY.json": "2f8c202056d07f7bddd042787eb8aa2e22d214e705570fca0e90e3713d865930",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_both_c0_s7601.json": "ae8557a2826ad50ac714c7dfd92a2c36870c11ceb27596735dfb31d1a802efff",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_c0_s7601/dev/SUMMARY.json": "25849276ca2cff9baacc059500d95ae0968786fa4e3c2e2f994c198860b19356",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_c0_s7601.json": "6d27dd1a5edd7a0af34d90480442669851b16d86ee9fcb554802b79eb12169c9",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_budget_c0_s7601/dev/SUMMARY.json": "0122115a969aae2372139b3e5f067fe44961872e3a4c66a54848555c63a74ae9",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_budget_c0_s7601.json": "e71dd6182c214b2ba2006d5e742ca0213bc065baff832d34c8b395e403991154",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_both_c0_s7601/dev/SUMMARY.json": "d1ac8fa20b06fd97f8768c36796e3d69a276babf58539ecf11d264248244db87",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_both_c0_s7601.json": "bc28cfb317cc2e43886afcf472372522427b9ad165910419e46840bfa08f10be",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_c1_s7601/dev/SUMMARY.json": "7fcf312c795fb8c831315d4ab8da207ee8760ec18f08b5e93aaa4a1da19ab608",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_c1_s7601.json": "8f11f8e9a81bfbc6a6bf512cfc3b2a2908d39d4879841609cdf942d0b7c96737",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_budget_c1_s7601/dev/SUMMARY.json": "7096a78c620aa97b30a5b40790f7c476036b4657feed5fb86bb55408a2b2f6ab",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_budget_c1_s7601.json": "4f709d5d57e801484317401039cbc876ecc3846b6d400c126e798f63366329a3",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_both_c1_s7601/dev/SUMMARY.json": "48332817c817f51e70de3dcb5b330186ee65db297c36c302dd67da16f32cfed3",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_both_c1_s7601.json": "203b1b4aba832233cec91f72d20a59addd704db36260f1b2d92dff5f08b7a890",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_c1_s7601/dev/SUMMARY.json": "6a292f52ef41ae3ea60248694e8914b911295b05cf8d562047a49b241b886218",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_c1_s7601.json": "67a7f3d085905feba424f3c9e94244b3996e191987fbcc3a1fdf7b27e341ad2e",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_budget_c1_s7601/dev/SUMMARY.json": "14f2e4d35990cd7e98a95a4ec133d6eaba0a191f55096e34db6ddff94177fc0b",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_budget_c1_s7601.json": "acf2ec8395ad238e2067c09d83824a0afc56aba5bf126b1cfaef821977c7aea6",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_both_c1_s7601/dev/SUMMARY.json": "493ee197be7cd1a2b1a6088609a54070938460211e9a193a4dfadc50e1937664",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_both_c1_s7601.json": "3226a39c961308d7b851e8f59decbe152ce50d0accb63b679cfeb3f6a1f5d69f",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_c3_s7601/dev/SUMMARY.json": "a89714684cbfb53b406a417c7cfa4abe09e36e55517931f71dc5ac276ae0f34e",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_c3_s7601.json": "b73e143fb476243ed67d8c7fc8976b956237398c0fb304c9b460f2fbeb7dd4a8",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_budget_c3_s7601/dev/SUMMARY.json": "cb480be04a02821b7732bfc38cec6a5c70bac056e382faca749771e87a71e8ae",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_budget_c3_s7601.json": "eaa9cef291572f61fa1f5f6b47c26eb19a5aab884261f820e01c25dba28d1d71",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_wikisql_hidden_both_c3_s7601/dev/SUMMARY.json": "ebedaaca587674ad7afca28fc40187e4a8a8df2acbf6b40a38b9df59eb15ea74",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_wikisql_hidden_both_c3_s7601.json": "e0d60682b7863fe4db229e70609a46b8dbb213127f0329fd073567e23c86b718",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_c3_s7601/dev/SUMMARY.json": "49c35e5495528384c8b892c882ada2b1056c02af23f65037c08da4c82fb05156",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_c3_s7601.json": "60c9c9263c1e4e0f89fce1d0d9871d53d4415cd74df58f0b83da3db3f3ade6f4",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_budget_c3_s7601/dev/SUMMARY.json": "ad193fb9de10280f6efd47442a1b6ba6d07296cf73803aa1d81e91ee9d8c034e",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_budget_c3_s7601.json": "9f2ee2eb203bf9ffe3be4c24d402065c90101262adc27275f520f959203675cc",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/evaluations/search_trec50_hidden_both_c3_s7601/dev/SUMMARY.json": "63a9a8ccf4f9d07aafdb267a7b8e53ddc8eab210fd22f195b2fa02ab34bc02f0",
+    "lora/reviewer_followup/qwen35_fixed_2b_20260920/audits/search_trec50_hidden_both_c3_s7601.json": "0e3c3e5fab0d6ad99b2ac1a2e03f81c1cf50c20b064f66381feae39fa1765f6f",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_c0_s7600/dev/SUMMARY.json": "74d3918782764b1c17b3a5b3707c8676cc34610a39f1b3ef4e9b9e25895f3c4f",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_c0_s7600.json": "66d363028df781fbed35f06794bd8fe80111c032d40e917b66ce21c322a7691d",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_budget_c0_s7600/dev/SUMMARY.json": "520c199b0e6eeaa3f969285d23e352f773357e76eb7c3ac96ebbc87e8c9a0166",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_budget_c0_s7600.json": "0b578b40c5d4d7055e2b1b7b9be6d6e8d322d734fb4f548decf14078752e7f6c",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_both_c0_s7600/dev/SUMMARY.json": "cf38d332b676c9cdbba0ed7b532e989abc104643bce7edc75cdc02b017310f19",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_both_c0_s7600.json": "9882a0ea289b9ef44dfe61373ce0de0d7a8eaa996e277be08361b13b95d9569e",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_c0_s7600/dev/SUMMARY.json": "01824489d106ec146a7509c4e6abd9c0d4bacd2a8a881ee4b6c7266fd827568f",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_c0_s7600.json": "9a8ca573a80218799199a617b3d98104518c8c4aa445e9678c56ad337533159a",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_budget_c0_s7600/dev/SUMMARY.json": "6d4f8e678dc5b0a53db39641749244e2771e42bb99ff8c152f909ddfeb91d56d",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_budget_c0_s7600.json": "9fcf629d67a6824c19ae43fb369c8c59737f5f3368d4d6a812d2e9d187c9243d",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_both_c0_s7600/dev/SUMMARY.json": "60c28ea213b34f1719346eb042bd8275b42b6ca8a08f99589690db7234094878",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_both_c0_s7600.json": "6c3ae5047b0008f917312435f858a8724ac30dbdccb2600a32543dcd54661baa",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_c1_s7600/dev/SUMMARY.json": "b5eb5342649d549fad12208f34c197c2c929b357fe24ad29dfdbaf82b7ed3036",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_c1_s7600.json": "d28fcf38538af9ae0cce95433a50b3a2a42c4bf4b0fdc657469f9c711522466b",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_budget_c1_s7600/dev/SUMMARY.json": "137f1c2051a347c29fd2a990aa98cd1e85f83619e385841ead1b8da5fa948087",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_budget_c1_s7600.json": "709a56cdc11c99f31dcd7eca7647f068fa4bea94a0719307950a93345ab1333a",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_both_c1_s7600/dev/SUMMARY.json": "c86d6b055fb875df52575fbc1332ec26ca0a8044b27f34e3978097292e711713",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_both_c1_s7600.json": "73e8b92985502bd4aaf5e9dae366951a5fa421c29753a6a001f58322a19ba78e",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_c1_s7600/dev/SUMMARY.json": "2c93e0015835d4a1d3bee230f1e37274e81872e7689656c8ad4bf5d0fc5e5c01",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_c1_s7600.json": "b4f6f93ac89656dbb0c1430064a4e0ea263a8558db520ba4e710202206f1bc06",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_budget_c1_s7600/dev/SUMMARY.json": "fa05d3996d4739a46cb4f126f02f164880f714c306c205096620da0b229821b6",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_budget_c1_s7600.json": "8d397e6a5177143de6f10f24a1e1383bd2b400882fb9f2e05d8e2bf4b8edd96b",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_both_c1_s7600/dev/SUMMARY.json": "a57c2065ae2543c27a308a04eb3e1ac821e8c67e632f39c444053d5173c2dc57",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_both_c1_s7600.json": "902d074c7d3b2828231c61c9b1c3dd551b97766d93a119eb08f05836d2196f7c",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_c3_s7600/dev/SUMMARY.json": "002e9b6a777d3a99493a924c2d97aadde024b032c21a0b4792714f930a51b4b2",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_c3_s7600.json": "8f71cfc82c86c90fce754f114bc9ad43a405747e2907a00cd982a22a2c061cae",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_budget_c3_s7600/dev/SUMMARY.json": "f713f23fd66fdf8fb23ff9f23f0ac46661d711e891dca3925ad9a7a6a9a98790",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_budget_c3_s7600.json": "091b5c78c2722264ade15505492251bf3f394129de1f82db49267d26a644b0de",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_both_c3_s7600/dev/SUMMARY.json": "e070d22bde6e0a09a3a0dbc975c3f37066652e0a91d406fc8416b61cea5775ef",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_both_c3_s7600.json": "01cf850b707df493bb9edb0bdb8b73f88c00e9d66b2c500f8a36180ae7369be2",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_c3_s7600/dev/SUMMARY.json": "a6a3f093d27cdc611ebe704448d0bd53d454b650c0558fae44d2732f04bc6a5a",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_c3_s7600.json": "08659cf32e463cb0365a526a23343159bd1193779a7889bd20e7617d0731ed33",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_budget_c3_s7600/dev/SUMMARY.json": "a0e62aa875141e602fcfa09b015b279db4ca5e66278205f183014b3d12d0f03f",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_budget_c3_s7600.json": "3232ee16aaf44620fafea52db587a895fb56ccd8006a9fbde01864a7760e796b",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_both_c3_s7600/dev/SUMMARY.json": "03189bb1557460e5aeda91cc1ce26cdc104f55dade5efe775edea4b2303b969c",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_both_c3_s7600.json": "bc424b8cf00480b4cb3a31ac2b2c2d835d0c1fcdca97bf10f4f41e00d82be739",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_c0_s7601/dev/SUMMARY.json": "d409c5937efc78b86d9bdf042222a557e93b5c3574c2378c502e7a449590c034",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_c0_s7601.json": "7d6957680ba796c35e8fee2a36418daef1b1df33b604deef754f0e65b1e568cd",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_budget_c0_s7601/dev/SUMMARY.json": "b6de0df1660f0111461d5ab03aa65da1e11998cf01a491488c98aa0e7535d947",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_budget_c0_s7601.json": "ea83e366e7f99cca7dc93fba4c24b84240dddfadc6f2f81353bfb2b0a91aac4a",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_both_c0_s7601/dev/SUMMARY.json": "89f68cdefae7b85264bfd99de1f2301d4346a09ef4c2b8b4e086edfe0b2b26af",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_both_c0_s7601.json": "93b219a3ae60a46124305c4356312a0137cde72aba5ab976c7228cefe3535c2b",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_c0_s7601/dev/SUMMARY.json": "f3cf3ab01e9ba2cbeebc588228a5aa6eb3ed22717e70ab60e13c0cae0e6a8257",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_c0_s7601.json": "71af748f0a72ac67d70accc91160177b4968490b156734cd807ea24fc802b0e0",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_budget_c0_s7601/dev/SUMMARY.json": "4cb590030cb5ec2b8b65cb0f34e9ac95a265784dee2caad2b1ba00c153da0910",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_budget_c0_s7601.json": "e373156b2060bf474d3aa376c52370072dee69fd3df2252d663822b30e1c7e81",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_both_c0_s7601/dev/SUMMARY.json": "cf8bce5d9a7ee5499c12e39f43733d8131a21a956e78923b07a405f2d35de20c",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_both_c0_s7601.json": "cef682b322da5bd589c65e4b672612ef76ca78bdce76d0916e6dfe38f2302198",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_c1_s7601/dev/SUMMARY.json": "565eb19419947c34f3aaec2c5f93b1ae2d3d62591eed21601876437e36fa71c0",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_c1_s7601.json": "146d1508751eb2d274cdee2ed1ee49b34dc76588178c86a4a5b8ebfd5d76bd46",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_budget_c1_s7601/dev/SUMMARY.json": "2d1dec3e4c2b8fe658aad5310f72e1a5accd48fc1935864e957cb4b14ed1363c",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_budget_c1_s7601.json": "a0a0857bb08c837419af03bdbb274f118c06fecf67db7901f91715042449e621",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_both_c1_s7601/dev/SUMMARY.json": "018fd7c5ac759faecd129b213b243a7afc27aaa223a97e71f77eeed983270114",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_both_c1_s7601.json": "2729bf98489479b8a5971a028b873b075b0613a471e565dafe69d58e73c90914",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_c1_s7601/dev/SUMMARY.json": "d5302767a715f2544ef868a5cae5ce4b48cd5155e74dac16877b16ec3c826be2",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_c1_s7601.json": "1bf04da47fe44a2cf3e483bd3e63f5f0743ed9f295dea5d15554b4a558b51582",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_budget_c1_s7601/dev/SUMMARY.json": "d528abdd0fc91841512969c69381976933daafef642c525a04b173de2e6be75b",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_budget_c1_s7601.json": "ad68e75a40e7a8031201521c4e4e01bcb92eb000e2e2e4b2d8f15d0812232a86",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_both_c1_s7601/dev/SUMMARY.json": "6c906bcae04ee79f9f5dfb3a7a6c653141ed6cdbc97c56a5544fa074ff83f447",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_both_c1_s7601.json": "db48965bd132ac2c6f19256376dab6faf2ce36501a7abaebbcc49ab44db17e89",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_c3_s7601/dev/SUMMARY.json": "58844e40adb9b62e6018055cecd33f456c7c0a9af2656abf1e86100485b95afd",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_c3_s7601.json": "40862fa54b8815d96f4bbf046fae4c7531707727545e19dc7d0776d25932d4f7",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_budget_c3_s7601/dev/SUMMARY.json": "ad4466f5b02cfede9bec8d05547e132bb260c1d4bd76d9d088b3fc524f59c90f",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_budget_c3_s7601.json": "948f82fa2255a661ab5c99361ff2dd4857accdee2fb484fda71f6a32b9689eff",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_wikisql_hidden_both_c3_s7601/dev/SUMMARY.json": "e6d2b8941a44b14f5f00be3f8a2913e3baf7ab7284bac36ecda5efa8fae0cb21",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_wikisql_hidden_both_c3_s7601.json": "489b6f1d04ef74fa0c05d99e99fa056a4a09b82cc1396b621ad7bb6bfdebc5f6",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_c3_s7601/dev/SUMMARY.json": "7e7f57b63786c65d56b0da35cd18e54a7fd379dbdbe62a1550f666f4365c8b96",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_c3_s7601.json": "3d963070def5c608a0df5098b331e5b87b8bd0dceac141b0bfd452b460a22733",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_budget_c3_s7601/dev/SUMMARY.json": "14369c5d17b26081f3de47f7e99f72c0701591e6f15f33365a70c850eb68d93d",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_budget_c3_s7601.json": "09ef1261fa2acb7e198d40db3327a5f4c42f9c92e39ab928d3199eef23f0f190",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/evaluations/search_trec50_hidden_both_c3_s7601/dev/SUMMARY.json": "0e8287264a886264cad54a629dbe64079293d4b15e7a5ea2947af43e2da20fdd",
+    "lora/reviewer_followup/qwen35_fixed_4b_20260920/audits/search_trec50_hidden_both_c3_s7601.json": "4bffcbed1605ad14d38928546c6716bd320e53e055c3b44672b69775879c5f09",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_c0_s7600/dev/SUMMARY.json": "ad08d0f012e9c803c3e50c0f11011497c4f74082a3e973a50b6be9f73cf35d22",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_c0_s7600.json": "0c517e25c53e17ca0c07259fcc3dcbc537b2392ffc8ad318d76ae5587463be47",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_budget_c0_s7600/dev/SUMMARY.json": "a07e5216c3c658e2b0a5b08f5a25f88e3ffb4000d48871eda0a2b02f0e4411dd",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_budget_c0_s7600.json": "6b978e9101b164824f0a1cb94404f9976f71803c5d0359b4fa932ef4a6cb0031",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_both_c0_s7600/dev/SUMMARY.json": "ec0f5db9c33feaf84d354c4edd6b7a61b3f98c39b89b1d6cbb891f9925862bf6",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_both_c0_s7600.json": "4696989466efc305524e58afbd153454fc751cbd5a6aa46df3cf724c8eaf5f08",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_c0_s7600/dev/SUMMARY.json": "0d70e5b1a367e66b9cc45f61d694f403a1bafb4e99108063819fe03bd7cc1d97",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_c0_s7600.json": "5aa1ec75a99c8d0fd79b8d3d75f530530eb05a492df9daf3bdb2bf61ce57317d",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_budget_c0_s7600/dev/SUMMARY.json": "44d1bdf42f77246377decfcfa6d816049df3110b4c53af84c78ae126da0353f8",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_budget_c0_s7600.json": "87e69bbc9af5c814cdeb54d0d20b7240ad98c3883afc1515a1efe727fb80e33c",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_both_c0_s7600/dev/SUMMARY.json": "3837aa1eed09284778a72c01bbdbb01098168ca5141c488db77af3ec72529d0a",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_both_c0_s7600.json": "2faa468592822565a25d2489d0661de0c40e559692295f7b84235c812d66b71a",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_c1_s7600/dev/SUMMARY.json": "a84246a173b994d38a3a8bc25f248efbda445e96cfb464930f90b148af989cec",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_c1_s7600.json": "944f8b92491bfe2fd2d382c78aa94350332fc1deb02a7cd06669a4d96390a91f",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_budget_c1_s7600/dev/SUMMARY.json": "f7d30e0ad7b964485f38264cd8906cabb49617885e472bb3fc9312c4ce366df8",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_budget_c1_s7600.json": "0428ad332aeb809306ccc90c6465f75c61b65547ab3529ccdda5ba4f2e57974c",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_both_c1_s7600/dev/SUMMARY.json": "a69cca8ee2472a746421833a59f41c23ba0177f0c97e699289889c83aa8c14b4",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_both_c1_s7600.json": "040f2e9cae31a463d27198a8ce4c979120835394c8003c05031dbc35ce0dd31b",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_c1_s7600/dev/SUMMARY.json": "838b857728906486347eaa87501faf1f0135753a60b4082622b08d1a6c43728e",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_c1_s7600.json": "dfa30915feb63f2bd1f39a2d48377d758c639a0ba38d7d3ade5db4b93c3391be",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_budget_c1_s7600/dev/SUMMARY.json": "1f4a49758960bbfca1aee95daabdcc9e8532d7a70a197306aece31b0f063297c",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_budget_c1_s7600.json": "efb0cb00c078cd4d28f48cc5fd5a0e33ea20cf7e71237b3592bff96c74da7cfd",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_both_c1_s7600/dev/SUMMARY.json": "d9f1507d0b413e1b68fc08a045506b3b05ce6879e1dc826f9efaa072562177d6",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_both_c1_s7600.json": "389e0fb09d66f623d6e0ecfef582eced48bd9da7421aa9c348b02e11a4e72260",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_c3_s7600/dev/SUMMARY.json": "fd5870a7e434ee01fee1088b686ba8ea08dac482766a483aea349fdc7474b6f8",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_c3_s7600.json": "0bbff0b1ab2d98acff2238e1b7a64123a62837774dd8f59777989fa98a459430",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_budget_c3_s7600/dev/SUMMARY.json": "a2df6a5e19267b6071e325da61bd013d647cd4cef0fb209973f2a41a4833ae31",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_budget_c3_s7600.json": "d0966d0421fade211fa7273631fa25b971bed46c485d0cec29e6e1a861647fa6",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_both_c3_s7600/dev/SUMMARY.json": "f19ceb391a71d3d8d8c9b152be70f987f412a956681534ae03d538fa66ef0bed",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_both_c3_s7600.json": "a81caab4d72a3eb13cc02cece4c16122481f0c4a8d80c9704a8c205879cf0315",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_c3_s7600/dev/SUMMARY.json": "e976dd6de17b3e28502b3758000223bde688ff7b7618da495d0159c3f96e119d",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_c3_s7600.json": "9dd60fdcf116ea61785018c7b7df69a84520142e5d105d304842c2e803f01fae",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_budget_c3_s7600/dev/SUMMARY.json": "f7b62a62696566382055cb331a0f4db88d1368560f10023fadb784b0633c0046",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_budget_c3_s7600.json": "8308fbcf98c751f96243d27444ef737d91e111009a9b4488a2738106161d359f",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_trec50_hidden_both_c3_s7600/dev/SUMMARY.json": "83fdb95acaa93a8713483fea04fb8bb7f577b27017d235687e713ddff9f4addb",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_trec50_hidden_both_c3_s7600.json": "9934d0f23820c4c1fb34ab75f97efd0ffeabbabf5f5230757e908d4f2146303e",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/evaluations/search_wikisql_hidden_c0_s7601/dev/SUMMARY.json": "62c46829d585601d6f0d4c5d8aefa21ed0e6f7bb05d2d51f5e8183d1259cafbb",
+    "lora/reviewer_followup/qwen35_fixed_9b_20260920/audits/search_wikisql_hidden_c0_s7601.json": "86c484aa85ee0b1e11609018b1343a9132eb04f591727ae00c1d4818c9b60e9f"
+  }
+}

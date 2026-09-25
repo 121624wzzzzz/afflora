@@ -1,0 +1,684 @@
+{
+  "experiment": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25",
+  "selection_protocol": {
+    "split": "corrected dev",
+    "seed": 42,
+    "candidates_per_method": [
+      {
+        "scale": 1,
+        "boundary_lr_scale": 1.0
+      },
+      {
+        "scale": 2,
+        "boundary_lr_scale": 1.0
+      },
+      {
+        "scale": 4,
+        "boundary_lr_scale": 1.0
+      },
+      {
+        "scale": 8,
+        "boundary_lr_scale": 1.0
+      },
+      {
+        "scale": 16,
+        "boundary_lr_scale": 1.0
+      },
+      {
+        "scale": 8,
+        "boundary_lr_scale": 0.5
+      },
+      {
+        "scale": 8,
+        "boundary_lr_scale": 2.0
+      },
+      {
+        "scale": 32,
+        "boundary_lr_scale": 1.0
+      },
+      {
+        "scale": 16,
+        "boundary_lr_scale": 2.0
+      }
+    ],
+    "criterion": "minimum token-weighted dev cross-entropy per method",
+    "tie_break": "smaller scale, then smaller boundary LR multiplier",
+    "test_or_ifeval_used_for_selection": false,
+    "search_stopping_rule": "fixed stop after round 2; scale32-vs-scale16 is descriptive and does not trigger another extension"
+  },
+  "validation": {
+    "status": "passed",
+    "runs_validated": 18,
+    "paired_dev_examples": 1000,
+    "paired_supervised_tokens": 267252,
+    "hidden_lora_init_sha256": "12de5ac2e5a9fa8032228014a6da12226c6132ea4b62799b4a5f8e1d26e9c469",
+    "hidden_hash_marker_by_method": {
+      "aff_r50": "hidden_lora_init_sha256",
+      "vocab_r1": "hidden_only_lora_init_sha256"
+    },
+    "corrected_pipeline_sha256": "47ef96c81e32234d220765279ba634e710162518f08678dc3a32309176c6e460",
+    "safetensor_headers_and_parameter_counts": "passed",
+    "optimizer_group_checks": "passed"
+  },
+  "search_stopped_after_round2": true,
+  "methods": {
+    "aff_r50": {
+      "label": "output-only A-LoRA r50",
+      "runs": [
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s1_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s1_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s1_sd42/dev_report.json",
+          "scale": 1,
+          "alpha": 50,
+          "rank": 50,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1103085889044502,
+          "dev_perplexity": 3.0352949082597793,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s2_sd42/dev_report.json",
+          "scale": 2,
+          "alpha": 100,
+          "rank": 50,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1088786864850582,
+          "dev_perplexity": 3.030957834262164,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s4_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s4_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s4_sd42/dev_report.json",
+          "scale": 4,
+          "alpha": 200,
+          "rank": 50,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1064526841599542,
+          "dev_perplexity": 3.0236136356324432,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s8_blr0p5_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_blr0p5_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_blr0p5_sd42/dev_report.json",
+          "scale": 8,
+          "alpha": 400,
+          "rank": 50,
+          "boundary_lr_scale": 0.5,
+          "boundary_learning_rate": 0.0001,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1046011400196372,
+          "dev_perplexity": 3.0180204611254315,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "separate_affine_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0001,
+            "groups": {
+              "hidden_or_other": 9232384,
+              "affine_weight": 153600,
+              "affine_bias": 0
+            }
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s8_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_sd42/dev_report.json",
+          "scale": 8,
+          "alpha": 400,
+          "rank": 50,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1034065319977828,
+          "dev_perplexity": 3.0144172623060643,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s8_blr2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_blr2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s8_blr2_sd42/dev_report.json",
+          "scale": 8,
+          "alpha": 400,
+          "rank": 50,
+          "boundary_lr_scale": 2.0,
+          "boundary_learning_rate": 0.0004,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1028490697786408,
+          "dev_perplexity": 3.012737306868948,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "separate_affine_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0004,
+            "groups": {
+              "hidden_or_other": 9232384,
+              "affine_weight": 153600,
+              "affine_bias": 0
+            }
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s16_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd42/dev_report.json",
+          "scale": 16,
+          "alpha": 800,
+          "rank": 50,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.102785798905362,
+          "dev_perplexity": 3.0125466943787558,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s16_blr2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_blr2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_blr2_sd42/dev_report.json",
+          "scale": 16,
+          "alpha": 800,
+          "rank": 50,
+          "boundary_lr_scale": 2.0,
+          "boundary_learning_rate": 0.0004,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1035218792938852,
+          "dev_perplexity": 3.014764987240776,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "separate_affine_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0004,
+            "groups": {
+              "hidden_or_other": 9232384,
+              "affine_weight": 153600,
+              "affine_bias": 0
+            }
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_aff_r50_s32_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s32_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s32_sd42/dev_report.json",
+          "scale": 32,
+          "alpha": 1600,
+          "rank": 50,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385984,
+          "boundary_parameters": 153600,
+          "dev_avg_ce": 1.1042717332414465,
+          "dev_perplexity": 3.0170264684517685,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600,
+            "adapter_tensor_count": 392
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153600
+          }
+        }
+      ],
+      "selected": {
+        "run_name": "qwen25_15b_out_aff_r50_s16_sd42",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd42",
+        "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_aff_r50_s16_sd42/dev_report.json",
+        "scale": 16,
+        "alpha": 800,
+        "rank": 50,
+        "boundary_lr_scale": 1.0,
+        "boundary_learning_rate": 0.0002,
+        "trainable_parameters": 9385984,
+        "boundary_parameters": 153600,
+        "dev_avg_ce": 1.102785798905362,
+        "dev_perplexity": 3.0125466943787558,
+        "dev_supervised_tokens": 267252,
+        "tensor_audit": {
+          "hidden_tensors": 392,
+          "hidden_parameters": 9232384,
+          "boundary_parameters": 153600,
+          "adapter_tensor_count": 392
+        },
+        "optimizer_audit": {
+          "mode": "shared_default_lr",
+          "hidden_learning_rate": 0.0002,
+          "boundary_learning_rate": 0.0002,
+          "hidden_parameters": 9232384,
+          "boundary_parameters": 153600
+        }
+      }
+    },
+    "vocab_r1": {
+      "label": "output-only Vocab-LoRA r1",
+      "runs": [
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s1_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s1_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s1_sd42/dev_report.json",
+          "scale": 1,
+          "alpha": 1,
+          "rank": 1,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.0064380237892856,
+          "dev_perplexity": 2.73583864650133,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s2_sd42/dev_report.json",
+          "scale": 2,
+          "alpha": 2,
+          "rank": 1,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.0061065504990674,
+          "dev_perplexity": 2.734931939346572,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s4_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s4_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s4_sd42/dev_report.json",
+          "scale": 4,
+          "alpha": 4,
+          "rank": 1,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.005487837996343,
+          "dev_perplexity": 2.7332403261266855,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s8_blr0p5_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_blr0p5_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_blr0p5_sd42/dev_report.json",
+          "scale": 8,
+          "alpha": 8,
+          "rank": 1,
+          "boundary_lr_scale": 0.5,
+          "boundary_learning_rate": 0.0001,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.008175434615243,
+          "dev_perplexity": 2.740596053772558,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "separate_output_vocab_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0001,
+            "groups": {
+              "hidden_lora_decay": 9232384,
+              "output_vocab_lora_decay": 153472
+            }
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s8_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_sd42/dev_report.json",
+          "scale": 8,
+          "alpha": 8,
+          "rank": 1,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.0045938187896748,
+          "dev_perplexity": 2.7307978487522138,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s8_blr2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_blr2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s8_blr2_sd42/dev_report.json",
+          "scale": 8,
+          "alpha": 8,
+          "rank": 1,
+          "boundary_lr_scale": 2.0,
+          "boundary_learning_rate": 0.0004,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.0038946878854218,
+          "dev_perplexity": 2.728889330812558,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "separate_output_vocab_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0004,
+            "groups": {
+              "hidden_lora_decay": 9232384,
+              "output_vocab_lora_decay": 153472
+            }
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s16_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s16_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s16_sd42/dev_report.json",
+          "scale": 16,
+          "alpha": 16,
+          "rank": 1,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.0024039927143131,
+          "dev_perplexity": 2.7248244191894337,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s16_blr2_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s16_blr2_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s16_blr2_sd42/dev_report.json",
+          "scale": 16,
+          "alpha": 16,
+          "rank": 1,
+          "boundary_lr_scale": 2.0,
+          "boundary_learning_rate": 0.0004,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 1.0014705023489294,
+          "dev_perplexity": 2.722282008689234,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "separate_output_vocab_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0004,
+            "groups": {
+              "hidden_lora_decay": 9232384,
+              "output_vocab_lora_decay": 153472
+            }
+          }
+        },
+        {
+          "run_name": "qwen25_15b_out_vocab_r1_s32_sd42",
+          "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd42",
+          "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd42/dev_report.json",
+          "scale": 32,
+          "alpha": 32,
+          "rank": 1,
+          "boundary_lr_scale": 1.0,
+          "boundary_learning_rate": 0.0002,
+          "trainable_parameters": 9385856,
+          "boundary_parameters": 153472,
+          "dev_avg_ce": 0.9997326839172337,
+          "dev_perplexity": 2.7175552851214926,
+          "dev_supervised_tokens": 267252,
+          "tensor_audit": {
+            "hidden_tensors": 392,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472,
+            "adapter_tensor_count": 395
+          },
+          "optimizer_audit": {
+            "mode": "shared_default_lr",
+            "hidden_learning_rate": 0.0002,
+            "boundary_learning_rate": 0.0002,
+            "hidden_parameters": 9232384,
+            "boundary_parameters": 153472
+          }
+        }
+      ],
+      "selected": {
+        "run_name": "qwen25_15b_out_vocab_r1_s32_sd42",
+        "run_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd42",
+        "dev_report": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/checkpoints/qwen25_15b_out_vocab_r1_s32_sd42/dev_report.json",
+        "scale": 32,
+        "alpha": 32,
+        "rank": 1,
+        "boundary_lr_scale": 1.0,
+        "boundary_learning_rate": 0.0002,
+        "trainable_parameters": 9385856,
+        "boundary_parameters": 153472,
+        "dev_avg_ce": 0.9997326839172337,
+        "dev_perplexity": 2.7175552851214926,
+        "dev_supervised_tokens": 267252,
+        "tensor_audit": {
+          "hidden_tensors": 392,
+          "hidden_parameters": 9232384,
+          "boundary_parameters": 153472,
+          "adapter_tensor_count": 395
+        },
+        "optimizer_audit": {
+          "mode": "shared_default_lr",
+          "hidden_learning_rate": 0.0002,
+          "boundary_learning_rate": 0.0002,
+          "hidden_parameters": 9232384,
+          "boundary_parameters": 153472
+        }
+      }
+    }
+  },
+  "selected_hyperparameters": {
+    "aff_r50": {
+      "scale": 16,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "dev_avg_ce": 1.102785798905362,
+      "run_name": "qwen25_15b_out_aff_r50_s16_sd42"
+    },
+    "vocab_r1": {
+      "scale": 32,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "dev_avg_ce": 0.9997326839172337,
+      "run_name": "qwen25_15b_out_vocab_r1_s32_sd42"
+    }
+  },
+  "scale32_vs_scale16_trend": {
+    "aff_r50": {
+      "scale16_blr1_dev_avg_ce": 1.102785798905362,
+      "scale32_blr1_dev_avg_ce": 1.1042717332414465,
+      "scale32_minus_scale16_dev_ce": 0.0014859343360844601,
+      "scale32_less_than_scale16": false,
+      "direction": "worsening"
+    },
+    "vocab_r1": {
+      "scale16_blr1_dev_avg_ce": 1.0024039927143131,
+      "scale32_blr1_dev_avg_ce": 0.9997326839172337,
+      "scale32_minus_scale16_dev_ce": -0.0026713087970794414,
+      "scale32_less_than_scale16": true,
+      "direction": "improving"
+    }
+  },
+  "selected_dev_delta_ce_aff_minus_vocab": 0.1030531149881283
+}

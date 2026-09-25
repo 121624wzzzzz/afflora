@@ -1,0 +1,162 @@
+[
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+    "spec": {
+      "name": "diagnostic_mlp_wide_r9_c5_s7600",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7600,
+      "candidate": "c5",
+      "lr": 0.0008,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+    "spec": {
+      "name": "diagnostic_mlp_wide_r9_c5_s7601",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7601,
+      "candidate": "c5",
+      "lr": 0.0008,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+    "spec": {
+      "name": "diagnostic_mlp_wide_r9_c2_s7600",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7600,
+      "candidate": "c2",
+      "lr": 0.0004,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_wide_r9",
+    "spec": {
+      "name": "diagnostic_mlp_wide_r9_c2_s7601",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7601,
+      "candidate": "c2",
+      "lr": 0.0004,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+    "spec": {
+      "name": "diagnostic_mlp_narrow_r10_c5_s7600",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7600,
+      "candidate": "c5",
+      "lr": 0.0008,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+    "spec": {
+      "name": "diagnostic_mlp_narrow_r10_c5_s7601",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7601,
+      "candidate": "c5",
+      "lr": 0.0008,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+    "spec": {
+      "name": "diagnostic_mlp_narrow_r10_c2_s7600",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7600,
+      "candidate": "c2",
+      "lr": 0.0004,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  },
+  {
+    "root": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen35_2b_rank_diagnostic_20260920/mlp_narrow_r10",
+    "spec": {
+      "name": "diagnostic_mlp_narrow_r10_c2_s7601",
+      "stage": "search",
+      "task": "wikisql",
+      "model": "qwen35_2b_base",
+      "arm": "hidden_budget",
+      "seed": 7601,
+      "candidate": "c2",
+      "lr": 0.0004,
+      "boundary_lr_ratio": 1.0,
+      "microbatch": 2,
+      "smoke": false,
+      "eval_splits": [
+        "dev"
+      ]
+    },
+    "state": "pending"
+  }
+]

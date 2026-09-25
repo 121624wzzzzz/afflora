@@ -1,0 +1,482 @@
+[
+  {
+    "name": "cluener_qwen25_15b_base_hidden_shared16_s6100",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_15b_base_hidden_shared32_s6100",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_shared16_s7100",
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_shared32_s7100",
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_06b_base_hidden_shared16_s6100",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_06b_base_hidden_shared32_s6100",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_shared16_s7100",
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_shared32_s7100",
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_7b_base_hidden_shared16_s6100",
+    "model": "qwen25_7b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_7b_base_hidden_shared32_s6100",
+    "model": "qwen25_7b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_7b_base_hidden_shared16_s7100",
+    "model": "qwen25_7b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_7b_base_hidden_shared32_s7100",
+    "model": "qwen25_7b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_8b_base_hidden_shared16_s6100",
+    "model": "qwen3_8b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_8b_base_hidden_shared32_s6100",
+    "model": "qwen3_8b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6100,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_8b_base_hidden_shared16_s7100",
+    "model": "qwen3_8b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_8b_base_hidden_shared32_s7100",
+    "model": "qwen3_8b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7100,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_15b_base_hidden_shared16_s6101",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_15b_base_hidden_shared32_s6101",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_shared16_s7101",
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_shared32_s7101",
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_06b_base_hidden_shared16_s6101",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_06b_base_hidden_shared32_s6101",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_shared16_s7101",
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_shared32_s7101",
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_7b_base_hidden_shared16_s6101",
+    "model": "qwen25_7b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_7b_base_hidden_shared32_s6101",
+    "model": "qwen25_7b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_7b_base_hidden_shared16_s7101",
+    "model": "qwen25_7b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_7b_base_hidden_shared32_s7101",
+    "model": "qwen25_7b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_8b_base_hidden_shared16_s6101",
+    "model": "qwen3_8b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_8b_base_hidden_shared32_s6101",
+    "model": "qwen3_8b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6101,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_8b_base_hidden_shared16_s7101",
+    "model": "qwen3_8b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_8b_base_hidden_shared32_s7101",
+    "model": "qwen3_8b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7101,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_15b_base_hidden_shared16_s6102",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_15b_base_hidden_shared32_s6102",
+    "model": "qwen25_15b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_shared16_s7102",
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_15b_base_hidden_shared32_s7102",
+    "model": "qwen25_15b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_06b_base_hidden_shared16_s6102",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_06b_base_hidden_shared32_s6102",
+    "model": "qwen3_06b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_shared16_s7102",
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_06b_base_hidden_shared32_s7102",
+    "model": "qwen3_06b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_7b_base_hidden_shared16_s6102",
+    "model": "qwen25_7b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen25_7b_base_hidden_shared32_s6102",
+    "model": "qwen25_7b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_7b_base_hidden_shared16_s7102",
+    "model": "qwen25_7b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen25_7b_base_hidden_shared32_s7102",
+    "model": "qwen25_7b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_8b_base_hidden_shared16_s6102",
+    "model": "qwen3_8b_base",
+    "task": "cluener",
+    "arm": "hidden_shared16",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "cluener_qwen3_8b_base_hidden_shared32_s6102",
+    "model": "qwen3_8b_base",
+    "task": "cluener",
+    "arm": "hidden_shared32",
+    "seed": 6102,
+    "lr": 0.0002,
+    "microbatch": 2,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_8b_base_hidden_shared16_s7102",
+    "model": "qwen3_8b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared16",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  },
+  {
+    "name": "wikisql_qwen3_8b_base_hidden_shared32_s7102",
+    "model": "qwen3_8b_base",
+    "task": "wikisql",
+    "arm": "hidden_shared32",
+    "seed": 7102,
+    "lr": 0.0002,
+    "microbatch": 4,
+    "smoke": false
+  }
+]

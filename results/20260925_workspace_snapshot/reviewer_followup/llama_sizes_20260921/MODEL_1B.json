@@ -1,0 +1,19 @@
+{
+  "path": "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base",
+  "repo": "meta-llama/Llama-3.2-1B",
+  "revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+  "files": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/README.md": "7dc455178a8c7c21f9cfe0aef0808a92e78ade6e58e04c18354c668934b929ea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/config.json": "bfb5d39c327ee5c3a65e3574596ff30b052a445cfc59a25bdf3b4c0c5a44f4d2",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/generation_config.json": "da81b0dd4001a8e19fb5840d2b524f6957f44ddde6f5c3fe32b1f36cef5205bf",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/model.safetensors": "68a2e4be76fa709455a60272fba8e512c02d81c46e6c671cc9449e374fd6809a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/special_tokens_map.json": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/models/Llama-3.2-1B-Base/tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
+  },
+  "hidden_size": 2048,
+  "tie_word_embeddings": true,
+  "training_stage": "pretrained_base",
+  "bos_token_id": 128000,
+  "eos_token_id": 128001
+}

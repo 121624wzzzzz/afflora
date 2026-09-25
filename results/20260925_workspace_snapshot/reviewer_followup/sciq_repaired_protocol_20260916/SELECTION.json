@@ -1,0 +1,68 @@
+{
+  "at": "2026-09-16T16:00:48+08:00",
+  "selected": {
+    "qwen3_06b_base": {
+      "lr": 0.0008,
+      "accuracy": 87.7,
+      "candidate_nll": 0.35706375801126455,
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen3_06b_base_small_q_sd5001_lr0.0008/validation_metrics.json",
+      "metrics_sha256": "2bd66af0f66d63f404a1ec037cd21567afb5678f9bfa4d75976b040bbbe2f4a4",
+      "candidates": [
+        {
+          "lr": 5e-05,
+          "accuracy": 84.2,
+          "candidate_nll": 0.4165423969628505,
+          "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen3_06b_base_small_q_sd5001_lr5e-05/validation_metrics.json",
+          "metrics_sha256": "f01b3eb036133f741721e24a1fb3a0d2a274bfbf4242d3a5b6add782e51b561f"
+        },
+        {
+          "lr": 0.0002,
+          "accuracy": 86.4,
+          "candidate_nll": 0.3764822957147495,
+          "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen3_06b_base_small_q_sd5001_lr0.0002/validation_metrics.json",
+          "metrics_sha256": "f456209c466f460006d19cb3eb73bbecfc8a224b7fbe0aab47f62e22e056877e"
+        },
+        {
+          "lr": 0.0008,
+          "accuracy": 87.7,
+          "candidate_nll": 0.35706375801126455,
+          "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen3_06b_base_small_q_sd5001_lr0.0008/validation_metrics.json",
+          "metrics_sha256": "2bd66af0f66d63f404a1ec037cd21567afb5678f9bfa4d75976b040bbbe2f4a4"
+        }
+      ]
+    },
+    "qwen25_15b_base": {
+      "lr": 5e-05,
+      "accuracy": 92.10000000000001,
+      "candidate_nll": 0.24335208073322548,
+      "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen25_15b_base_small_q_sd5001_lr5e-05/validation_metrics.json",
+      "metrics_sha256": "5558b144c04a511a77498a373d96ed54f820b903e20745efdafb7238df8d5a36",
+      "candidates": [
+        {
+          "lr": 5e-05,
+          "accuracy": 92.10000000000001,
+          "candidate_nll": 0.24335208073322548,
+          "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen25_15b_base_small_q_sd5001_lr5e-05/validation_metrics.json",
+          "metrics_sha256": "5558b144c04a511a77498a373d96ed54f820b903e20745efdafb7238df8d5a36"
+        },
+        {
+          "lr": 0.0002,
+          "accuracy": 91.8,
+          "candidate_nll": 0.23241075143278533,
+          "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen25_15b_base_small_q_sd5001_lr0.0002/validation_metrics.json",
+          "metrics_sha256": "10a6256ea04f9edb8519d995c46c9d7707a4b030c56b58cf9c32cd60bc7098cc"
+        },
+        {
+          "lr": 0.0008,
+          "accuracy": 91.3,
+          "candidate_nll": 0.2316706693854004,
+          "source": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/sciq_repaired_protocol_20260916/evaluations/tuning_qwen25_15b_base_small_q_sd5001_lr0.0008/validation_metrics.json",
+          "metrics_sha256": "260fc6d2985b631a04fb85c5cf4956b95f24a07d6477af8df796a6c24e8d242d"
+        }
+      ]
+    }
+  },
+  "rule": "validation candidate accuracy, NLL, LR",
+  "old_benchmark_exposure": true,
+  "new_control_test_accessed": false
+}

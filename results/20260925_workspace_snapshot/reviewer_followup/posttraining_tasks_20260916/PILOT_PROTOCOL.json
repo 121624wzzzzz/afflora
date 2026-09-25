@@ -1,0 +1,23 @@
+{
+  "stage": "A_task_pilot",
+  "seed": 6100,
+  "models": ["qwen3_06b_base", "qwen25_15b_base"],
+  "tasks": ["toolace", "cluener"],
+  "arms": ["base", "hidden"],
+  "learning_rate": 0.0002,
+  "train_examples_max": 2048,
+  "dev_examples_max": 200,
+  "effective_batch": 32,
+  "micro_batch": 2,
+  "epochs": 1,
+  "learning_curve_steps": [16],
+  "max_new_tokens": 512,
+  "generation": "greedy, FP32 computation of stored BF16 base values, TF32 disabled, SDPA, native EOS151643, batch8",
+  "target_encoding": "fixed prompt IDs followed by separately tokenized compact JSON and native EOS; prompt labels masked",
+  "toolace_scope": "first-turn response converted to JSON calls or []; excludes incompatible/unparseable/invalid gold; local API-disjoint development only, not BFCL",
+  "toolace_metric": "whole-call multiset exact match, documented top-level defaults normalized, numerical int/float equivalence only for number schemas; exact string values",
+  "cluener_metric": "typed-span micro F1 primary; typed-text micro F1 and strict JSON separately",
+  "checkpoint_selection": "no selection in pilot; retain 16-step and final results",
+  "test_evaluation": false,
+  "limitations": "single training seed; pilot subset; no causal attribution of pretraining contamination; no architecture-effect conclusion from Stage A"
+}

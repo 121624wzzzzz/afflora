@@ -1,0 +1,38 @@
+[
+  {
+    "name": "smoke_banking77_qwen3_06b_base_hidden_both",
+    "model": "qwen3_06b_base",
+    "task": "banking77",
+    "arm": "hidden_both",
+    "seed": 8099,
+    "lr": 0.0002,
+    "smoke": true
+  },
+  {
+    "name": "smoke_e2e_clean_qwen3_06b_base_hidden_budget",
+    "model": "qwen3_06b_base",
+    "task": "e2e_clean",
+    "arm": "hidden_budget",
+    "seed": 8099,
+    "lr": 0.0002,
+    "smoke": true
+  },
+  {
+    "name": "smoke_banking77_qwen25_15b_base_hidden_both",
+    "model": "qwen25_15b_base",
+    "task": "banking77",
+    "arm": "hidden_both",
+    "seed": 8099,
+    "lr": 0.0002,
+    "smoke": true
+  },
+  {
+    "name": "smoke_e2e_clean_qwen25_15b_base_hidden_budget",
+    "model": "qwen25_15b_base",
+    "task": "e2e_clean",
+    "arm": "hidden_budget",
+    "seed": 8099,
+    "lr": 0.0002,
+    "smoke": true
+  }
+]

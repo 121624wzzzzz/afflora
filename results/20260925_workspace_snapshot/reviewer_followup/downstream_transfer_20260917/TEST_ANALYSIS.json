@@ -1,0 +1,442 @@
+{
+  "at": "2026-09-17T12:00:48+08:00",
+  "tables": [
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "primary": 33.1,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        44.6,
+        47.5,
+        46.6,
+        45.3,
+        44.2
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 45.64,
+      "unrestricted_correct_pct": 45.64,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.997898014295101
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        48.6,
+        47.8,
+        46.3,
+        45.4,
+        45.3
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 46.67999999999999,
+      "unrestricted_correct_pct": 46.67999999999999,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.997921880197525
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        50.3,
+        45.4,
+        49.3,
+        45.1,
+        42.6
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 46.54,
+      "unrestricted_correct_pct": 46.54,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9974678429961206
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "primary": 39.0,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        54.8,
+        52.8,
+        53.4,
+        53.0,
+        56.0
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 54.0,
+      "unrestricted_correct_pct": 54.0,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9989244923353194
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        54.2,
+        53.0,
+        53.8,
+        52.9,
+        55.0
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 53.779999999999994,
+      "unrestricted_correct_pct": 53.779999999999994,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.9989403554797173
+    },
+    {
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        55.1,
+        51.1,
+        55.5,
+        53.0,
+        55.3
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 54.0,
+      "unrestricted_correct_pct": 54.0,
+      "unrestricted_valid_pct": 100.0,
+      "mean_label_probability_mass": 0.99860439453125
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "base",
+      "primary": 5.37109375,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        72.55859375,
+        70.01953125,
+        70.3125,
+        68.84765625,
+        69.3359375
+      ],
+      "trainable_parameters": 5046272,
+      "primary": 70.21484375,
+      "lf_correct_pct": 64.140625,
+      "query_valid_pct": 98.41796875,
+      "strict_json_pct": 99.74609375,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 70.21484375,
+      "duplicate_condition_column_pct": 0.078125
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        72.4609375,
+        70.3125,
+        70.8984375,
+        68.84765625,
+        69.43359375
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 70.390625,
+      "lf_correct_pct": 64.12109375,
+      "query_valid_pct": 98.30078125,
+      "strict_json_pct": 99.66796875,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 70.390625,
+      "duplicate_condition_column_pct": 0.09765625
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        73.4375,
+        71.2890625,
+        72.4609375,
+        71.19140625,
+        70.703125
+      ],
+      "trainable_parameters": 5112832,
+      "primary": 71.81640625,
+      "lf_correct_pct": 66.26953125,
+      "query_valid_pct": 98.18359375,
+      "strict_json_pct": 99.7265625,
+      "capped_pct": 0.0,
+      "distinct_parameter_execution_correct_pct": 71.81640625,
+      "duplicate_condition_column_pct": 0.0390625
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "base",
+      "primary": 7.12890625,
+      "seed_count": 0,
+      "trainable_parameters": 0
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "hidden",
+      "seed_count": 5,
+      "primary_seeds": [
+        70.80078125,
+        69.82421875,
+        70.80078125,
+        70.703125,
+        69.140625
+      ],
+      "trainable_parameters": 9232384,
+      "primary": 70.25390625,
+      "lf_correct_pct": 64.51171875,
+      "query_valid_pct": 98.73046875,
+      "strict_json_pct": 99.8828125,
+      "capped_pct": 0.05859375,
+      "distinct_parameter_execution_correct_pct": 70.25390625,
+      "duplicate_condition_column_pct": 0.13671875
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_budget",
+      "seed_count": 5,
+      "primary_seeds": [
+        70.8984375,
+        70.1171875,
+        71.38671875,
+        70.8984375,
+        68.9453125
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 70.44921875,
+      "lf_correct_pct": 64.6484375,
+      "query_valid_pct": 98.7109375,
+      "strict_json_pct": 99.8828125,
+      "capped_pct": 0.05859375,
+      "distinct_parameter_execution_correct_pct": 70.4296875,
+      "duplicate_condition_column_pct": 0.15625
+    },
+    {
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "arm": "hidden_both",
+      "seed_count": 5,
+      "primary_seeds": [
+        73.046875,
+        73.14453125,
+        72.16796875,
+        73.92578125,
+        70.99609375
+      ],
+      "trainable_parameters": 9332224,
+      "primary": 72.65625,
+      "lf_correct_pct": 67.32421875,
+      "query_valid_pct": 98.59375,
+      "strict_json_pct": 99.82421875,
+      "capped_pct": 0.0390625,
+      "distinct_parameter_execution_correct_pct": 72.65625,
+      "duplicate_condition_column_pct": 0.13671875
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "mean": 0.8999999999999986,
+      "lower": -6.790867258575721,
+      "upper": 8.590867258575718,
+      "seed_deltas": [
+        5.699999999999996,
+        -2.1000000000000014,
+        2.6999999999999957,
+        -0.19999999999999574,
+        -1.6000000000000014
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        -0.09940357852882675,
+        1.913219459291967
+      ],
+      "clusters": 846
+    },
+    {
+      "mean": -0.13999999999999915,
+      "lower": -6.014036162558822,
+      "upper": 5.734036162558825,
+      "seed_deltas": [
+        1.6999999999999957,
+        -2.3999999999999986,
+        3.0,
+        -0.29999999999999716,
+        -2.6999999999999957
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen3_06b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        -1.1013014229048066,
+        0.8266129032258066
+      ],
+      "clusters": 846
+    },
+    {
+      "mean": 1.4210854715202005e-15,
+      "lower": -3.302335289217912,
+      "upper": 3.3023352892179147,
+      "seed_deltas": [
+        0.30000000000000426,
+        -1.6999999999999957,
+        2.1000000000000014,
+        0.0,
+        -0.7000000000000028
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        -0.9306930693069304,
+        0.920023023023023
+      ],
+      "clusters": 846
+    },
+    {
+      "mean": 0.22000000000000028,
+      "lower": -2.929611990078073,
+      "upper": 3.369611990078073,
+      "seed_deltas": [
+        0.8999999999999986,
+        -1.8999999999999986,
+        1.7000000000000028,
+        0.10000000000000142,
+        0.29999999999999716
+      ],
+      "family_size": 8,
+      "task": "anli_r1",
+      "model": "qwen25_15b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        -0.7443894726355794,
+        1.1996165191740407
+      ],
+      "clusters": 846
+    },
+    {
+      "mean": 1.6015625,
+      "lower": 0.14294769000325624,
+      "upper": 3.0601773099967438,
+      "seed_deltas": [
+        0.87890625,
+        1.26953125,
+        2.1484375,
+        2.34375,
+        1.3671875
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        0.7333089961549214,
+        2.4755028947963207
+      ],
+      "clusters": 928
+    },
+    {
+      "mean": 1.42578125,
+      "lower": 0.0899658500809486,
+      "upper": 2.7615966499190514,
+      "seed_deltas": [
+        0.9765625,
+        0.9765625,
+        1.5625,
+        2.34375,
+        1.26953125
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen3_06b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        0.6280513382978314,
+        2.24609375
+      ],
+      "clusters": 928
+    },
+    {
+      "mean": 2.40234375,
+      "lower": 0.39532992184113613,
+      "upper": 4.409357578158864,
+      "seed_deltas": [
+        2.24609375,
+        3.3203125,
+        1.3671875,
+        3.22265625,
+        1.85546875
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "control": "hidden",
+      "conditional_cluster_bootstrap_95": [
+        1.4368583616622566,
+        3.369112452163673
+      ],
+      "clusters": 928
+    },
+    {
+      "mean": 2.20703125,
+      "lower": 0.03576128314125393,
+      "upper": 4.3783012168587465,
+      "seed_deltas": [
+        2.1484375,
+        3.02734375,
+        0.78125,
+        3.02734375,
+        2.05078125
+      ],
+      "family_size": 8,
+      "task": "wikisql",
+      "model": "qwen25_15b_base",
+      "control": "hidden_budget",
+      "conditional_cluster_bootstrap_95": [
+        1.2864822537788803,
+        3.1323134500009586
+      ],
+      "clusters": 928
+    }
+  ],
+  "scope": "fixed common LR and training budget; conditional bootstrap does not replace seed variability"
+}

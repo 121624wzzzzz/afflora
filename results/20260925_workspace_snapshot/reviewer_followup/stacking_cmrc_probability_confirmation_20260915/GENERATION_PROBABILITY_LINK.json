@@ -1,0 +1,482 @@
+{
+  "created_at": "2026-09-15T16:30:33+08:00",
+  "status": "complete",
+  "analysis": "Exploratory descriptive association only; repeated seed-question pairs are not independent samples.",
+  "interpretation_limit": "EM flip decomposition is exact bookkeeping. Within-category probability changes do not establish a causal mechanism or represent unseen-test validation.",
+  "contrasts": [
+    {
+      "model": "qwen3_06b_chat",
+      "control": "none",
+      "per_seed": [
+        {
+          "seed": 1001,
+          "counts": {
+            "both_correct": 2087,
+            "both_wrong": 1059,
+            "corrected": 38,
+            "regressed": 35
+          },
+          "em_delta": 0.0009319664492078285,
+          "probability_delta": 0.0028208539039170887
+        },
+        {
+          "seed": 1002,
+          "counts": {
+            "both_correct": 2011,
+            "both_wrong": 1134,
+            "corrected": 35,
+            "regressed": 39
+          },
+          "em_delta": -0.0012426219322771047,
+          "probability_delta": 0.00098582369462034
+        },
+        {
+          "seed": 1003,
+          "counts": {
+            "both_correct": 2015,
+            "both_wrong": 1102,
+            "corrected": 55,
+            "regressed": 47
+          },
+          "em_delta": 0.0024852438645542093,
+          "probability_delta": 0.002900077912689871
+        },
+        {
+          "seed": 1004,
+          "counts": {
+            "both_correct": 1983,
+            "both_wrong": 1138,
+            "corrected": 54,
+            "regressed": 44
+          },
+          "em_delta": 0.0031065548306927616,
+          "probability_delta": 0.004231196357139499
+        },
+        {
+          "seed": 1005,
+          "counts": {
+            "both_correct": 2031,
+            "both_wrong": 1111,
+            "corrected": 47,
+            "regressed": 30
+          },
+          "em_delta": 0.005281143212177695,
+          "probability_delta": 0.005395659751029188
+        }
+      ],
+      "categories": {
+        "both_correct": {
+          "seed_question_pairs": 10127,
+          "fraction": 0.6292016154085119,
+          "mean_probability_delta": 0.004400162170239308,
+          "contribution_to_overall_probability_delta": 0.002768589145573996,
+          "positive_probability_fraction": 0.5783548928606695,
+          "mean_nll_delta": -0.007969657525938546,
+          "mean_f1_delta": 0.0,
+          "same_text_fraction": 0.991507850301175
+        },
+        "both_wrong": {
+          "seed_question_pairs": 5544,
+          "fraction": 0.3444547996272134,
+          "mean_probability_delta": 0.0010186933316920033,
+          "contribution_to_overall_probability_delta": 0.00035089380744954745,
+          "positive_probability_fraction": 0.5194805194805194,
+          "mean_nll_delta": -0.00958525695259317,
+          "mean_f1_delta": 0.0008435736486750695,
+          "same_text_fraction": 0.9361471861471862
+        },
+        "corrected": {
+          "seed_question_pairs": 229,
+          "fraction": 0.014228021124572849,
+          "mean_probability_delta": 0.042461160761891104,
+          "contribution_to_overall_probability_delta": 0.0006041382922940704,
+          "positive_probability_fraction": 0.9344978165938864,
+          "mean_nll_delta": -0.12995448723090994,
+          "mean_f1_delta": 0.3987803247639778,
+          "same_text_fraction": 0.0
+        },
+        "regressed": {
+          "seed_question_pairs": 195,
+          "fraction": 0.012115563839701771,
+          "mean_probability_delta": -0.0377117340541089,
+          "contribution_to_overall_probability_delta": -0.0004568989214384117,
+          "positive_probability_fraction": 0.08205128205128205,
+          "mean_nll_delta": 0.12147582081294808,
+          "mean_f1_delta": -0.338055213357286,
+          "same_text_fraction": 0.0
+        }
+      }
+    },
+    {
+      "model": "qwen3_06b_chat",
+      "control": "hidden_budget",
+      "per_seed": [
+        {
+          "seed": 1001,
+          "counts": {
+            "both_correct": 2092,
+            "both_wrong": 1058,
+            "corrected": 33,
+            "regressed": 36
+          },
+          "em_delta": -0.0009319664492078285,
+          "probability_delta": 0.0025312098921574083
+        },
+        {
+          "seed": 1002,
+          "counts": {
+            "both_correct": 2011,
+            "both_wrong": 1134,
+            "corrected": 35,
+            "regressed": 39
+          },
+          "em_delta": -0.0012426219322771047,
+          "probability_delta": 0.0010022982614769926
+        },
+        {
+          "seed": 1003,
+          "counts": {
+            "both_correct": 2012,
+            "both_wrong": 1108,
+            "corrected": 58,
+            "regressed": 41
+          },
+          "em_delta": 0.005281143212177695,
+          "probability_delta": 0.0031982931663350504
+        },
+        {
+          "seed": 1004,
+          "counts": {
+            "both_correct": 1986,
+            "both_wrong": 1139,
+            "corrected": 51,
+            "regressed": 43
+          },
+          "em_delta": 0.0024852438645542093,
+          "probability_delta": 0.003876927264510861
+        },
+        {
+          "seed": 1005,
+          "counts": {
+            "both_correct": 2026,
+            "both_wrong": 1111,
+            "corrected": 52,
+            "regressed": 30
+          },
+          "em_delta": 0.006834420627524076,
+          "probability_delta": 0.005348909114404345
+        }
+      ],
+      "categories": {
+        "both_correct": {
+          "seed_question_pairs": 10127,
+          "fraction": 0.6292016154085119,
+          "mean_probability_delta": 0.004236862850622337,
+          "contribution_to_overall_probability_delta": 0.0026658409498758876,
+          "positive_probability_fraction": 0.5754912609854843,
+          "mean_nll_delta": -0.007775765547322873,
+          "mean_f1_delta": 0.0,
+          "same_text_fraction": 0.991310358447714
+        },
+        "both_wrong": {
+          "seed_question_pairs": 5550,
+          "fraction": 0.3448275862068966,
+          "mean_probability_delta": 0.0011111079522397118,
+          "contribution_to_overall_probability_delta": 0.0003831406731861075,
+          "positive_probability_fraction": 0.5221621621621622,
+          "mean_nll_delta": -0.009287251918985513,
+          "mean_f1_delta": 0.0012311898783463808,
+          "same_text_fraction": 0.9371171171171171
+        },
+        "corrected": {
+          "seed_question_pairs": 229,
+          "fraction": 0.014228021124572849,
+          "mean_probability_delta": 0.04250328164848327,
+          "contribution_to_overall_probability_delta": 0.0006047375891582895,
+          "positive_probability_fraction": 0.9301310043668122,
+          "mean_nll_delta": -0.12922580070452896,
+          "mean_f1_delta": 0.4004226989123026,
+          "same_text_fraction": 0.0
+        },
+        "regressed": {
+          "seed_question_pairs": 189,
+          "fraction": 0.01174277726001864,
+          "mean_probability_delta": -0.039359655915215945,
+          "contribution_to_overall_probability_delta": -0.00046219167244335597,
+          "positive_probability_fraction": 0.06349206349206349,
+          "mean_nll_delta": 0.12891905756767896,
+          "mean_f1_delta": -0.347295279281734,
+          "same_text_fraction": 0.0
+        }
+      }
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "none",
+      "per_seed": [
+        {
+          "seed": 1001,
+          "counts": {
+            "both_correct": 2165,
+            "both_wrong": 965,
+            "corrected": 42,
+            "regressed": 47
+          },
+          "em_delta": -0.0015532774153463808,
+          "probability_delta": 0.0013318930992734742
+        },
+        {
+          "seed": 1002,
+          "counts": {
+            "both_correct": 2089,
+            "both_wrong": 1038,
+            "corrected": 44,
+            "regressed": 48
+          },
+          "em_delta": -0.0012426219322771047,
+          "probability_delta": 0.008137105178716538
+        },
+        {
+          "seed": 1003,
+          "counts": {
+            "both_correct": 2077,
+            "both_wrong": 1033,
+            "corrected": 47,
+            "regressed": 62
+          },
+          "em_delta": -0.004659832246039142,
+          "probability_delta": 0.006935225547004075
+        },
+        {
+          "seed": 1004,
+          "counts": {
+            "both_correct": 2055,
+            "both_wrong": 1064,
+            "corrected": 47,
+            "regressed": 53
+          },
+          "em_delta": -0.001863932898415657,
+          "probability_delta": 0.0045907883179206925
+        },
+        {
+          "seed": 1005,
+          "counts": {
+            "both_correct": 2108,
+            "both_wrong": 1004,
+            "corrected": 48,
+            "regressed": 59
+          },
+          "em_delta": -0.003417210313762038,
+          "probability_delta": 0.004710922983341003
+        }
+      ],
+      "categories": {
+        "both_correct": {
+          "seed_question_pairs": 10494,
+          "fraction": 0.6520037278657969,
+          "mean_probability_delta": 0.007902313897569537,
+          "contribution_to_overall_probability_delta": 0.005152338119981032,
+          "positive_probability_fraction": 0.6270249666476082,
+          "mean_nll_delta": -0.0148187739486695,
+          "mean_f1_delta": 0.0,
+          "same_text_fraction": 0.9932342290832857
+        },
+        "both_wrong": {
+          "seed_question_pairs": 5104,
+          "fraction": 0.3171171171171171,
+          "mean_probability_delta": -0.0006190763130547975,
+          "contribution_to_overall_probability_delta": -0.00019631969567143127,
+          "positive_probability_fraction": 0.46394984326018807,
+          "mean_nll_delta": 0.02426316861213154,
+          "mean_f1_delta": 0.00045809016674277207,
+          "same_text_fraction": 0.9353448275862069
+        },
+        "corrected": {
+          "seed_question_pairs": 228,
+          "fraction": 0.014165890027958993,
+          "mean_probability_delta": 0.06481734549613496,
+          "contribution_to_overall_probability_delta": 0.000918195388202471,
+          "positive_probability_fraction": 0.9736842105263158,
+          "mean_nll_delta": -0.2338731637740926,
+          "mean_f1_delta": 0.4125665626146603,
+          "same_text_fraction": 0.0
+        },
+        "regressed": {
+          "seed_question_pairs": 269,
+          "fraction": 0.016713264989127057,
+          "mean_probability_delta": -0.04385898193667052,
+          "contribution_to_overall_probability_delta": -0.0007330267872609114,
+          "positive_probability_fraction": 0.08921933085501858,
+          "mean_nll_delta": 0.13327071272232602,
+          "mean_f1_delta": -0.34056784805999213,
+          "same_text_fraction": 0.0
+        }
+      }
+    },
+    {
+      "model": "qwen25_15b_chat",
+      "control": "hidden_budget",
+      "per_seed": [
+        {
+          "seed": 1001,
+          "counts": {
+            "both_correct": 2163,
+            "both_wrong": 963,
+            "corrected": 44,
+            "regressed": 49
+          },
+          "em_delta": -0.0015532774153463808,
+          "probability_delta": 0.0026259213848391317
+        },
+        {
+          "seed": 1002,
+          "counts": {
+            "both_correct": 2092,
+            "both_wrong": 1038,
+            "corrected": 41,
+            "regressed": 48
+          },
+          "em_delta": -0.0021745883814849334,
+          "probability_delta": 0.007030701485957615
+        },
+        {
+          "seed": 1003,
+          "counts": {
+            "both_correct": 2081,
+            "both_wrong": 1033,
+            "corrected": 43,
+            "regressed": 62
+          },
+          "em_delta": -0.005902454178316247,
+          "probability_delta": 0.006399284847274459
+        },
+        {
+          "seed": 1004,
+          "counts": {
+            "both_correct": 2051,
+            "both_wrong": 1067,
+            "corrected": 51,
+            "regressed": 50
+          },
+          "em_delta": 0.00031065548306927616,
+          "probability_delta": 0.0062892329422042275
+        },
+        {
+          "seed": 1005,
+          "counts": {
+            "both_correct": 2110,
+            "both_wrong": 1005,
+            "corrected": 46,
+            "regressed": 58
+          },
+          "em_delta": -0.003727865796831314,
+          "probability_delta": 0.005356622034641414
+        }
+      ],
+      "categories": {
+        "both_correct": {
+          "seed_question_pairs": 10497,
+          "fraction": 0.6521901211556383,
+          "mean_probability_delta": 0.008280859971948272,
+          "contribution_to_overall_probability_delta": 0.0054006950683778195,
+          "positive_probability_fraction": 0.635419643707726,
+          "mean_nll_delta": -0.015239234554596129,
+          "mean_f1_delta": 0.0,
+          "same_text_fraction": 0.9939030199104506
+        },
+        "both_wrong": {
+          "seed_question_pairs": 5106,
+          "fraction": 0.31724137931034485,
+          "mean_probability_delta": -0.0003870200991470122,
+          "contribution_to_overall_probability_delta": -0.00012277879007422456,
+          "positive_probability_fraction": 0.46533490011750883,
+          "mean_nll_delta": 0.022279063209908825,
+          "mean_f1_delta": 0.0011919373593165402,
+          "same_text_fraction": 0.9347826086956522
+        },
+        "corrected": {
+          "seed_question_pairs": 225,
+          "fraction": 0.013979496738117428,
+          "mean_probability_delta": 0.07026179480983011,
+          "contribution_to_overall_probability_delta": 0.000982224531358296,
+          "positive_probability_fraction": 0.9644444444444444,
+          "mean_nll_delta": -0.25624579886539384,
+          "mean_f1_delta": 0.4117013705901904,
+          "same_text_fraction": 0.0
+        },
+        "regressed": {
+          "seed_question_pairs": 267,
+          "fraction": 0.01658900279589935,
+          "mean_probability_delta": -0.04338948395719426,
+          "contribution_to_overall_probability_delta": -0.0007197882706785255,
+          "positive_probability_fraction": 0.08614232209737828,
+          "mean_nll_delta": 0.1369521155921229,
+          "mean_f1_delta": -0.33233229507296436,
+          "same_text_fraction": 0.0
+        }
+      }
+    }
+  ],
+  "sources_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1001/public_probability.jsonl": "7523f43ef090d190f0d180762a2e96e4ac685c048493e6029ac77cc65ff57375",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1001/generation.jsonl": "c98073230b6694618abbc34a302170f5d91ebdcbf7e1cf545a5ec73c5699ba81",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1001/public_probability.jsonl": "bbbe1c36da0d633e4fc2cedd1a5675a320b19f99e69bc8095b5797fe323ee801",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1001/generation.jsonl": "6801c8906f136deff25a54a72d5cad46c6fb6c28a15000a423ec2b5cb83e2c33",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1001/public_probability.jsonl": "1575b6f0b4c63582b4b755606d5fac0bccb94749bd3e163bb57ce5ff88bd857c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1001/generation.jsonl": "684216d2c98f0bd32e343d17ad12609184f6473ca474bd63fcd863ed0ee24ebc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1001/public_probability.jsonl": "06f39b6a659a18ee7be7b088bd1b22860fc09ea1d3dddc3b7313cef4567c35ef",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1001/generation.jsonl": "ce1fad2cc7ad01bbaca3049496913c0b52f5e05726a6237d50551ef4a2728edd",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1001/public_probability.jsonl": "ae66ab4a2f3a6cce7e2512d7cec77a22dce2c70283506dad2e562d1681847c10",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1001/generation.jsonl": "b56dfdf26e6822f9f8130166fada1a46295d63ebd019773fd247e5bbceb5a5a5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1001/public_probability.jsonl": "336cca49b4b00e5c359c9a1ae0e5ab6548869e10d29a563e7c0bff2c0dbb4c5d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1001/generation.jsonl": "065e9f427803a69060af9c8b594cebbc2d01480f3a581740a84e7900960a060c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1002/public_probability.jsonl": "56392796469b59aed57e63a2ee7cb19da53c71ed30f314f3c6bffbc893e64343",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1002/generation.jsonl": "8289b6067b3e0b333975eca5c063080f234ff34404a6b19601657b8f63ee2416",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1002/public_probability.jsonl": "25864741b77c42de711517ead81e6f99b0aae45eba8b59cf2f3719b463159c9b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1002/generation.jsonl": "047e74afc7140448a5e39cca0c1a644e2d52304f179af470f8ac1ea00e858bec",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1002/public_probability.jsonl": "e198633e028a8d830c87deda2bb719471d04136144259b56e05f72eaa59625d6",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1002/generation.jsonl": "363e12767e44cd8a511b3cd75effc5d1b51b051b83e2c9c5a20075d00d167505",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1002/public_probability.jsonl": "7406cd0c5098140ab3a64846fca643feb41d33daee0a33a1ca31e0e8ef4ab28f",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1002/generation.jsonl": "0db97a27099635c7aa66d6e44f3f18c67c0c1c3088359a380a14979c13b57558",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1002/public_probability.jsonl": "9e38463c0af9e56b01cd63bed1be39244174580cc4adf5f848210a6377ec0fa1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1002/generation.jsonl": "744d5e3965c67cfa3c667cb9deee27aad03ae71fc2e9ced47f7cdaecfa104974",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1002/public_probability.jsonl": "cab67d4ec8581d634b300e80840bec1d589be78f87c1c5314a89dfa3a432f9a1",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1002/generation.jsonl": "4fdb020268aecc893a36cb93b38047c2b05a7cdc5b28b3a26db81583fc780bdc",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1003/public_probability.jsonl": "2cb3028e2828de2efa157486ed974e60422612f2a57a7ac233911bb87857156e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1003/generation.jsonl": "9f8fdd12db53d8fbea8bee0f55434b8ea27c6af94efd0a08929ca7e911e5f78c",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1003/public_probability.jsonl": "9ce7f85099e3d24aad4d44e8f0d6a49e34f0497f57ff6bccad63df2a232dc6ca",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1003/generation.jsonl": "cbba9f54c1997d928dade0afc2219261f8f406afeca113c6cd37cd506739de60",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1003/public_probability.jsonl": "169b62d9b74ae21c6ea2aa7212bba9b14a243a27d3e7662100ccbacdc9c06230",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1003/generation.jsonl": "2c6dd216d11f00cf695c8ef0097742946b2ed9e28812132295ef9a25a4b15557",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1003/public_probability.jsonl": "6637344c83cfa8a992bdd471446e5975eea00b1661247ed1c7a320a3f885118e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1003/generation.jsonl": "d9949bd5fee14a3760fa77fd86b7dc15b3ead42030649ad0341f6dc05dd2ccea",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1003/public_probability.jsonl": "32b800664cb29a22981470e34570d36a008f1efbceeb4990baf00f6656e62bb8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1003/generation.jsonl": "9981874ec53102138e4f31445291104efb3d9c688de285fd3463dfdb95f62888",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1003/public_probability.jsonl": "d53e01a0935a8a7dfb514c51aa6044b659741fd4e97375a1e3400fbf10ca2b83",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1003/generation.jsonl": "7ff392a361a22714d69a4b1fa6a1146109f7741d695c329d1a0c7d03cd22eefe",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1004/public_probability.jsonl": "b6dbf3b355e12e12eabb45dfdc2e277f083a8d2ecd9432ee4025b54fdc0b7dff",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1004/generation.jsonl": "7ed6f28a1288fa95a040a9e5068792306eef1788acd7d0367259c53bb6dcbb06",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1004/public_probability.jsonl": "841bd67dd0454ef89c2af0c8fa50d3681380a654b4f907f3b30afbdcedb2bea5",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1004/generation.jsonl": "c4999b1b39f3793826f49980aee72326a0775765897c3b6051d10d2aa47b1696",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1004/public_probability.jsonl": "98378d31dd5835b8cebae1566baa7a8c7163dfeba37d8aeb0c3076583f95c26b",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1004/generation.jsonl": "e46c138c96951a5858a294c7ed3df0300d8b7545add257254b3cf8656de18ceb",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1004/public_probability.jsonl": "486ca34d1db4d8e5fe5d2caef761fa2b8b6eb969ce5b4f49970273583b5ce952",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1004/generation.jsonl": "294108eb1966ef528bd70f9aea447af1c0cbfd34435045f46d48f0dab6adf999",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1004/public_probability.jsonl": "22ca8b477edfecf1d5aa5f1129b8098352cfa3155171bb4eb861cba3354e2036",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1004/generation.jsonl": "b6d5be506ddd864a2a6041f211f013b2967d033680ae44aacc4a7ba467b0a8b8",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1004/public_probability.jsonl": "6d1f392458befdf3b09d02d16931614e8af21ce948afc0b2de0aa2be15936cb0",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1004/generation.jsonl": "64d6b785bc490fbbbf17b6352e5fda599708fa5f17c738d643eb0ed6507bd368",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1005/public_probability.jsonl": "c6955b7b5ddff99810fa55165ebe93d6ba793941b2829045118a03c0faf0b56e",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_none_hr8_sd1005/generation.jsonl": "cfaccc4302522b96ee6494ed2cc48f4bc3573659aac0a25ebd15fd64239b17e4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1005/public_probability.jsonl": "801829c2fc15aebf35d2d74a7fed9de88e9983d2c308b2317a197052ad43b1ed",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_both_hr8_sd1005/generation.jsonl": "913682ad3c189e17d3d8d8cf978b5f95e9c3cd9e0351d9fcd49108872772236a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1005/public_probability.jsonl": "e952f31cf5c4aa63ac531918040cb621cb23acbd8dffc2aeb055f6f60c4ddd03",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen3_06b_chat_hidden_budget_hr8_sd1005/generation.jsonl": "49c40aa93ffe20fd08e8dda845dc749a9de88c4e0c6b01b9af4790925b06a314",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1005/public_probability.jsonl": "079845e1ff3fec087539ac07e9e59e641103e696a9486957ade2846d16d956c4",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_none_hr8_sd1005/generation.jsonl": "bb6621ba26f586c5133c55ef069cd1fceb5bdc316973bbb41f8a0ad5083a54ad",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1005/public_probability.jsonl": "2093d5b8ed3941e27d0455e2cd7dd43e6766b4b5b54b8db3f4ec16b2560fc6d9",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_both_hr8_sd1005/generation.jsonl": "674f1bb9ed51cb59389c2cf9a82a62ab6e2801ff130bc09ce782064e9c48b89a",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1005/public_probability.jsonl": "a125922ef3bf8e2179fff4217decc1f1628449176ea97e1214eb8eb19924630d",
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/outputs/qwen25_15b_chat_hidden_budget_hr8_sd1005/generation.jsonl": "c5609498aa171e1f1e1809c3badd17840a035ca193a08918f14de19158185ba3"
+  }
+}

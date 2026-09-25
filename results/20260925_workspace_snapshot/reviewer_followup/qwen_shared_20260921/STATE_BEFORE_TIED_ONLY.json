@@ -1,0 +1,107 @@
+{
+  "at": "2026-09-21T17:17:15+08:00",
+  "stage": "running",
+  "done": [
+    "wikisql_qwen25_15b_base_hidden_shared16_s7100_smoke",
+    "wikisql_qwen25_15b_base_hidden_shared32_s7100_smoke",
+    "cluener_qwen3_06b_base_hidden_shared16_s6100_smoke",
+    "cluener_qwen3_06b_base_hidden_shared32_s6100_smoke",
+    "wikisql_qwen3_06b_base_hidden_shared16_s7100_smoke",
+    "cluener_qwen25_15b_base_hidden_shared16_s6100_smoke",
+    "cluener_qwen25_15b_base_hidden_shared32_s6100_smoke",
+    "cluener_qwen25_7b_base_hidden_shared16_s6100_smoke",
+    "cluener_qwen25_7b_base_hidden_shared32_s6100_smoke"
+  ],
+  "failed": [],
+  "pending": [
+    "wikisql_qwen3_06b_base_hidden_shared32_s7100_smoke",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7100_smoke",
+    "cluener_qwen3_8b_base_hidden_shared16_s6100_smoke",
+    "cluener_qwen3_8b_base_hidden_shared32_s6100_smoke",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7100_smoke",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7100_smoke",
+    "cluener_qwen3_06b_base_hidden_shared16_s6100",
+    "cluener_qwen3_06b_base_hidden_shared32_s6100",
+    "wikisql_qwen3_06b_base_hidden_shared16_s7100",
+    "wikisql_qwen3_06b_base_hidden_shared32_s7100",
+    "cluener_qwen25_7b_base_hidden_shared16_s6100",
+    "cluener_qwen25_7b_base_hidden_shared32_s6100",
+    "wikisql_qwen25_7b_base_hidden_shared16_s7100",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7100",
+    "cluener_qwen3_8b_base_hidden_shared16_s6100",
+    "cluener_qwen3_8b_base_hidden_shared32_s6100",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7100",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7100",
+    "cluener_qwen25_15b_base_hidden_shared16_s6101",
+    "cluener_qwen25_15b_base_hidden_shared32_s6101",
+    "cluener_qwen3_06b_base_hidden_shared16_s6101",
+    "cluener_qwen3_06b_base_hidden_shared32_s6101",
+    "wikisql_qwen3_06b_base_hidden_shared16_s7101",
+    "wikisql_qwen3_06b_base_hidden_shared32_s7101",
+    "cluener_qwen25_7b_base_hidden_shared16_s6101",
+    "cluener_qwen25_7b_base_hidden_shared32_s6101",
+    "wikisql_qwen25_7b_base_hidden_shared16_s7101",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7101",
+    "cluener_qwen3_8b_base_hidden_shared16_s6101",
+    "cluener_qwen3_8b_base_hidden_shared32_s6101",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7101",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7101",
+    "cluener_qwen25_15b_base_hidden_shared16_s6102",
+    "cluener_qwen25_15b_base_hidden_shared32_s6102",
+    "wikisql_qwen25_15b_base_hidden_shared32_s7102",
+    "cluener_qwen3_06b_base_hidden_shared16_s6102",
+    "cluener_qwen3_06b_base_hidden_shared32_s6102",
+    "wikisql_qwen3_06b_base_hidden_shared16_s7102",
+    "wikisql_qwen3_06b_base_hidden_shared32_s7102",
+    "cluener_qwen25_7b_base_hidden_shared16_s6102",
+    "cluener_qwen25_7b_base_hidden_shared32_s6102",
+    "wikisql_qwen25_7b_base_hidden_shared16_s7102",
+    "wikisql_qwen25_7b_base_hidden_shared32_s7102",
+    "cluener_qwen3_8b_base_hidden_shared16_s6102",
+    "cluener_qwen3_8b_base_hidden_shared32_s6102",
+    "wikisql_qwen3_8b_base_hidden_shared16_s7102",
+    "wikisql_qwen3_8b_base_hidden_shared32_s7102"
+  ],
+  "active": {
+    "1": {
+      "name": "wikisql_qwen25_15b_base_hidden_shared16_s7100",
+      "pid": 1932750,
+      "phase": "train"
+    },
+    "7": {
+      "name": "wikisql_qwen25_15b_base_hidden_shared32_s7100",
+      "pid": 1932751,
+      "phase": "train"
+    },
+    "5": {
+      "name": "wikisql_qwen25_15b_base_hidden_shared16_s7101",
+      "pid": 1932752,
+      "phase": "train"
+    },
+    "6": {
+      "name": "wikisql_qwen25_15b_base_hidden_shared32_s7101",
+      "pid": 1932753,
+      "phase": "train"
+    },
+    "3": {
+      "name": "wikisql_qwen25_15b_base_hidden_shared16_s7102",
+      "pid": 1932754,
+      "phase": "train"
+    },
+    "4": {
+      "name": "cluener_qwen25_15b_base_hidden_shared16_s6100",
+      "pid": 1935623,
+      "phase": "train"
+    },
+    "2": {
+      "name": "cluener_qwen25_15b_base_hidden_shared32_s6100",
+      "pid": 1935624,
+      "phase": "train"
+    },
+    "0": {
+      "name": "wikisql_qwen25_7b_base_hidden_shared16_s7100_smoke",
+      "pid": 1950961,
+      "phase": "train"
+    }
+  }
+}

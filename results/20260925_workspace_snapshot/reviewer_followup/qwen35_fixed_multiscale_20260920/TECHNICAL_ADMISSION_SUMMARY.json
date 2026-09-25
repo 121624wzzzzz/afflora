@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "sizes": {
+    "08b": {
+      "frozen_sha256": "3a6cd379f547e2351f9bd615f68f006809eb954f3fdf845f22dd884055ddf4a9",
+      "reference_batches": 16,
+      "independent_gpu_arm_task_cases": 6
+    },
+    "2b": {
+      "frozen_sha256": "9558860865509dce4477324f26be48bc3c77a1806f159c344f51c7650ea725b4",
+      "reference_batches": 16,
+      "independent_gpu_arm_task_cases": 6
+    },
+    "4b": {
+      "frozen_sha256": "d3c49337a11c357bbf885e245277526a9665a575d1458237da1bfca0ec07e2ef",
+      "reference_batches": 16,
+      "independent_gpu_arm_task_cases": 6
+    },
+    "9b": {
+      "frozen_sha256": "01970bf9f7ca9c76338a2796916705d4d9f454a3d601883bcc6d3ce2ca026544",
+      "reference_batches": 16,
+      "independent_gpu_arm_task_cases": 6
+    }
+  }
+}

@@ -1,0 +1,866 @@
+[
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307100/spec.json": "492032fad9a72611f0da6e9d0795d9b7685b199823df98f7bfb5dcb120813547",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307100/INITIALIZATION.json": "53dc526f9148517893e244de9b8b6ce0af1bf696a633c9a69f2e48aeb9b47c69",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307100/TRAINING.json": "5e7814386ebcace5a5435189dd381e6de7516ccf62b461632e812d48558bf1b4",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307100/initial_adapter.safetensors": "6e903356588b11d9993f5a0936c87512e996e05d4f08ad84f207349d15f593b1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307100/adapter.safetensors": "4bf062e25d6fbe563eb69adec0ffef8cffa40e7734198fd2a13fe672e4f85bd2"
+    },
+    "source_audit_sha256": "a7872cccecd7acc8739d803f37313727a37c83c94d80f13ff65d83d8b0fbde94"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307101/spec.json": "6d53c7cd2e62a4c4b5968a08f37834dad9d4658e8b90420e87ace0da5b047732",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307101/INITIALIZATION.json": "94f9c04885d80955844fbaba22866af8ddb46061b5c6763a56b44489033a0e3e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307101/TRAINING.json": "ced29d56bfbe4e601a114020298594dd09530eb588e97fe9189cbe5d750bdd66",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307101/initial_adapter.safetensors": "162d384d71d1867e41a408b10bfe42b62aaf285bde2d5cf0afd965ae7b03104b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307101/adapter.safetensors": "3f9edaa35dd9498ba354f3b2b792117f46071352c910778d2fcfac41624d5432"
+    },
+    "source_audit_sha256": "4b9efa3ddf6aa105603b2171bc3739630d70f2a4c4f87d8658d555b7bbfd8bbf"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307102/spec.json": "fc4ee925456e87c191499cf5705ac59532d7ebb95dcfe45d30171c276c36576f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307102/INITIALIZATION.json": "049dc012e0f09b0ff12aa9942bf23e8b1a1f11c0c2720c7a14af8eed99df0de0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307102/TRAINING.json": "c45142c224326aa77487d1af29be9c2e69290e040762ce319fc4eafb9b518bb6",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307102/initial_adapter.safetensors": "4d792f4b813c0f53cbb718e3af29bf1644bed938942919d76e5a5296aa533dee",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.015625_s307102/adapter.safetensors": "4238ef5e07187685df894f5d854329c01b5f3eeaab198df484c9d1f14f903a36"
+    },
+    "source_audit_sha256": "efb40ab892dcf1d30938fd34ec1b891f5e25ba4151789e189a829bfa73c5b4d4"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307100/spec.json": "13cc5b690f9c1e988a587d2ab04d230f7d3bf30c23e6122034c64e8021f29ba9",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307100/INITIALIZATION.json": "53dc526f9148517893e244de9b8b6ce0af1bf696a633c9a69f2e48aeb9b47c69",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307100/TRAINING.json": "af12085b8c80496e91205882b96b78fd57fcace7babfe840b7a8b36a56c0dc1a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307100/initial_adapter.safetensors": "6e903356588b11d9993f5a0936c87512e996e05d4f08ad84f207349d15f593b1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307100/adapter.safetensors": "a43f3ad4487bd69d8cbe827d429486d35f272c7ef4ea80049f0416418ee5c11a"
+    },
+    "source_audit_sha256": "72a8e02a29a95d0e8a1c9085770e0a2d81bd466f12a05e3395d4dbd6accfda21"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307101/spec.json": "62839e99dfd7dbf07bbf56b8e441c5c51e0684b23f09e1c8f1e69feb92e9a5dd",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307101/INITIALIZATION.json": "94f9c04885d80955844fbaba22866af8ddb46061b5c6763a56b44489033a0e3e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307101/TRAINING.json": "9d89467c39ce894e7ac2349e7ce951da828be0208c530687c6c127d0e77fbab1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307101/initial_adapter.safetensors": "162d384d71d1867e41a408b10bfe42b62aaf285bde2d5cf0afd965ae7b03104b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307101/adapter.safetensors": "436eea58d7f632d6bcc98f474c919991c1a3b62d42023b9c3d9b6c835e57b4d3"
+    },
+    "source_audit_sha256": "bdde69ffa2217fb6169757f1b1fc0198238eaf15f713123a81f43ab89d7494ab"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307102/spec.json": "4c093975af7f2da3e27e8732177c74bdfdf38721d08305386b0ca6886199572f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307102/INITIALIZATION.json": "049dc012e0f09b0ff12aa9942bf23e8b1a1f11c0c2720c7a14af8eed99df0de0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307102/TRAINING.json": "a2dcdac12a8f3d21fc200f41064d0c3a7cdd26dec5ac4d34417ed36b824555ca",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307102/initial_adapter.safetensors": "4d792f4b813c0f53cbb718e3af29bf1644bed938942919d76e5a5296aa533dee",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.0625_s307102/adapter.safetensors": "15c6ba99e8ade23ce93e71aafc7807a7021fd9009869fae9713212a2492bfed2"
+    },
+    "source_audit_sha256": "e093512e39cc86396f5f0cf9a54757e92ca7eb89789ef193f217d15d89281dc3"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307100/spec.json": "918eb456bfbcbf760fb9d16c1fd7bcd127089ceb131870c34012cf2df9ebe39e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307100/INITIALIZATION.json": "53dc526f9148517893e244de9b8b6ce0af1bf696a633c9a69f2e48aeb9b47c69",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307100/TRAINING.json": "61732ac8fe32786b9f341905f9944385c1715024c541cd6756e2620ee354f10f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307100/initial_adapter.safetensors": "6e903356588b11d9993f5a0936c87512e996e05d4f08ad84f207349d15f593b1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307100/adapter.safetensors": "61dab4f0e1e42fee2970f4ee1a096b1d07b339a8f8e6dcbcc5f2f1ca0f82cf69"
+    },
+    "source_audit_sha256": "e20c1853e7fb83f1eca39a080dda2d9054f0441969f7c4c44ae6038f365ddb22"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307101/spec.json": "f9d54001b2a466157929184c02c92ebcb76390f0f0a2626eac168eccd5b46b9e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307101/INITIALIZATION.json": "94f9c04885d80955844fbaba22866af8ddb46061b5c6763a56b44489033a0e3e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307101/TRAINING.json": "c6acb859933e59325528ee31a782a77b57477ab6ddd5834131ddb2a80385b2a9",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307101/initial_adapter.safetensors": "162d384d71d1867e41a408b10bfe42b62aaf285bde2d5cf0afd965ae7b03104b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307101/adapter.safetensors": "8b5e478255c0a098d9152dcace1b0d157cc4b989c01252e3b29b49db9d3374ab"
+    },
+    "source_audit_sha256": "4569d35ba5939d51de120fd23956bef756d9d76afc0aaed64d513ff82349fcfd"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307102/spec.json": "63fcfe334439d36c053e95fa0aa8a71fb7ae4aa940e87d3c6991a3a1d900ccca",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307102/INITIALIZATION.json": "049dc012e0f09b0ff12aa9942bf23e8b1a1f11c0c2720c7a14af8eed99df0de0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307102/TRAINING.json": "08c37e363271323a7f4d7e6ad99f1bde173893a7b04fb0ad8b1a7d703788a684",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307102/initial_adapter.safetensors": "4d792f4b813c0f53cbb718e3af29bf1644bed938942919d76e5a5296aa533dee",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr0.25_s307102/adapter.safetensors": "9281e2a82c3c1b755af1f6b771cb0688d6b7698e32147f3db32d6bab52fa1bd0"
+    },
+    "source_audit_sha256": "967a7d9abb05aa7ef8ba4670960aa99269d35a2c94cce519195b36aac07d03ef"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307100/spec.json": "b6488ad8509bb58113c412fd5adbff2cd0ca45875571aaaf23b7cfd88d11bfd2",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307100/INITIALIZATION.json": "53dc526f9148517893e244de9b8b6ce0af1bf696a633c9a69f2e48aeb9b47c69",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307100/TRAINING.json": "52f74516de6e607f961be554a4540f6707cab4522af80b3fb289d7608ee341a9",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307100/initial_adapter.safetensors": "6e903356588b11d9993f5a0936c87512e996e05d4f08ad84f207349d15f593b1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307100/adapter.safetensors": "2839b4ba568cfc02f46da91a8f6a8d0863bd64c1d90fec615d94a8ba03fef1b5"
+    },
+    "source_audit_sha256": "eb447c1d1395124ed347fd1fb4ae4450c757f20d27efe038e11140faed037ee2"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307101/spec.json": "4ccb03b4d0113cbb1e92154dbde42d08f2a73a29bc8ff50548feece29c4d0967",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307101/INITIALIZATION.json": "94f9c04885d80955844fbaba22866af8ddb46061b5c6763a56b44489033a0e3e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307101/TRAINING.json": "41fb0c2a35556d247ec26f4c101e0c861b8e90008d589b481c272c6654e8fcd7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307101/initial_adapter.safetensors": "162d384d71d1867e41a408b10bfe42b62aaf285bde2d5cf0afd965ae7b03104b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307101/adapter.safetensors": "7beb131aac8e831aa63f646cb7a1af80c35ed30c23d5a6849d2c110610eb71e0"
+    },
+    "source_audit_sha256": "b499bd84ef9b7e9861f611fb5987924caf798f6fd21ce16f08cacc40544af0d5"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307102/spec.json": "7a1cc3b6f26b0c2afd63423242e95ed74a7f85c27f7ec7bc57072667f9e7afed",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307102/INITIALIZATION.json": "049dc012e0f09b0ff12aa9942bf23e8b1a1f11c0c2720c7a14af8eed99df0de0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307102/TRAINING.json": "51706ea2655e91421c1e0deffe21fa2baa3e54939f3c4f4b0c4d6777e848ce09",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307102/initial_adapter.safetensors": "4d792f4b813c0f53cbb718e3af29bf1644bed938942919d76e5a5296aa533dee",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr1_s307102/adapter.safetensors": "39ae1f2d6741bea39b5dd031d35eb3492cdadaec629745686f047330d465feaf"
+    },
+    "source_audit_sha256": "34852a79e40dec35a161322eb978c7616c4899e3baf9a3e270e1e5cf837ae030"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307100/spec.json": "cbd61129cc4fbd09f3e834b8c743e4b1f8e58394f2418404731736175df9ff01",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307100/INITIALIZATION.json": "53dc526f9148517893e244de9b8b6ce0af1bf696a633c9a69f2e48aeb9b47c69",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307100/TRAINING.json": "f0e9b0082d852416c0b6ccbc68b2edcc705444c7a51d60e34e87da57abf25e63",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307100/initial_adapter.safetensors": "6e903356588b11d9993f5a0936c87512e996e05d4f08ad84f207349d15f593b1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307100/adapter.safetensors": "74c2852e58e4c2905dedff5aef654e8928b2a4cccd43e62c471027d414cece4b"
+    },
+    "source_audit_sha256": "b0547907d576387afd05737f6b828f98760470d71b4f92aca189e88574ce1344"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307101/spec.json": "bbaa80b82cb46dde9c16a9a67cd58fb0ddb0dabb0426005c0fd6df4b9cec3c80",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307101/INITIALIZATION.json": "94f9c04885d80955844fbaba22866af8ddb46061b5c6763a56b44489033a0e3e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307101/TRAINING.json": "29c36921331e78502c6b450a972eb776e5e46f3a680d0928b7b6c16c388babbd",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307101/initial_adapter.safetensors": "162d384d71d1867e41a408b10bfe42b62aaf285bde2d5cf0afd965ae7b03104b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307101/adapter.safetensors": "0bfed7d8533a6a05a6b634a1194a677fcd62f50c83f89e49a6553298f1f91b87"
+    },
+    "source_audit_sha256": "174562550e65c111dddb497d0c34f4d6824564477718f4feea719a26ae085948"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307102/spec.json": "6b52094ddeb8350d5c2a1c159ce6b06266c968d6b96d670a196d734555e9af5c",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307102/INITIALIZATION.json": "049dc012e0f09b0ff12aa9942bf23e8b1a1f11c0c2720c7a14af8eed99df0de0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307102/TRAINING.json": "22ca467c489b4ebac42e73539b90d35743386bfe41eec005e202ec2219b67354",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307102/initial_adapter.safetensors": "4d792f4b813c0f53cbb718e3af29bf1644bed938942919d76e5a5296aa533dee",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr2_s307102/adapter.safetensors": "b5e3464808aa62ea915fb247436eb1f167f74c03d15b7c2e8357dd8d94528102"
+    },
+    "source_audit_sha256": "cad7dadcf0dd74e80a130ef70af00b84672367c617ba4d67513682b3cc78a936"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307100/spec.json": "9d13ee1aea0eff2eec5e5028a18b251af410970b7b3bdb34f63ce6e63ca1f9f5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307100/INITIALIZATION.json": "53dc526f9148517893e244de9b8b6ce0af1bf696a633c9a69f2e48aeb9b47c69",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307100/TRAINING.json": "d02fb3f96991a30e7e2b91e6de4485a7f20b7e2369389c54e3d0e4ecc4a92461",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307100/initial_adapter.safetensors": "6e903356588b11d9993f5a0936c87512e996e05d4f08ad84f207349d15f593b1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307100/adapter.safetensors": "1e2637dd7dae8b144d2dca1809f15c2037009727288f0a174f85d5e93537fc07"
+    },
+    "source_audit_sha256": "232b8f3ca2eafe0ad3a7c7aa163296bd4b87f02f714ce26d7e4eb40f65a10d34"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307101/spec.json": "e03b81934161268666f5965f8a206144758e57ef818475e46cd6d12c211ede73",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307101/INITIALIZATION.json": "94f9c04885d80955844fbaba22866af8ddb46061b5c6763a56b44489033a0e3e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307101/TRAINING.json": "58f8fa2dfdcdb15e37ef1991088bbb215588fc151abbd4265cade43a9e16b789",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307101/initial_adapter.safetensors": "162d384d71d1867e41a408b10bfe42b62aaf285bde2d5cf0afd965ae7b03104b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307101/adapter.safetensors": "03320ec8fb2eecd047ce9570d9a9e6235b04af45c9f60bd5895d1e01ebfb6a6b"
+    },
+    "source_audit_sha256": "dbb6992b0ed8ff5dbd8850364b6df7139d6c496be32cd275bfcb038d5eda1f11"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307102/spec.json": "9631396bd0dd392d14d4d480f5786c86a46e97772f399f16023b08095b826902",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307102/INITIALIZATION.json": "049dc012e0f09b0ff12aa9942bf23e8b1a1f11c0c2720c7a14af8eed99df0de0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307102/TRAINING.json": "8c94db548720ed41444234c9216d648e6ec4f846f8ee5dc43a6f43a47b6b302d",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307102/initial_adapter.safetensors": "4d792f4b813c0f53cbb718e3af29bf1644bed938942919d76e5a5296aa533dee",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r16_b1_lr4_s307102/adapter.safetensors": "831bd64c24e9f43056c526f2cd443c52dfba3471e73e332868b25e8d674ee5a4"
+    },
+    "source_audit_sha256": "9547982062fd45258099a3239661190f1e742cc0c911f2e24203cddf65fe00c9"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307100/spec.json": "77646a36f361a414e5f4a8f6e18bdfb4e71e2c4bad4715b2a0d83cd3eef77b3f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307100/INITIALIZATION.json": "11840f34cee4b3262764382208c0e99a5d26c56c5fe2937999003de3800a7df5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307100/TRAINING.json": "dfe65c7a2cfdb5efb9e8230ccd433d4f981069ae73944d88a6b0a8eabba06c61",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307100/initial_adapter.safetensors": "d882a358d755415e289ebde933a4842e1eb655264fe0bc37059bb6438e6f4e05",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307100/adapter.safetensors": "f63224f76b86e0b8587c902407af79d86703082ff54fbe8aa98f2ffe01463cf2"
+    },
+    "source_audit_sha256": "64df481ecbeff4a4409fb442eb177fc46285509bbb48782a23166badfb6a7f72"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307101/spec.json": "eab7fa3e554dac6baf6e0e63ae1f10c0b58ca649d359a9af974897492329ecad",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307101/INITIALIZATION.json": "c38c4c32029d04388418bd5481d3acc764d9c8f7fc9fd3d7f86d242f44f94fe5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307101/TRAINING.json": "d70c9966643a822b8d5e337a5817995e5dc4022b97547110c5333c8c54e16178",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307101/initial_adapter.safetensors": "00edf61d7b2e7bc56b55152b7b8a3a2419e40268fdfe44643666af6c75de244a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307101/adapter.safetensors": "13c2e08fcda9234d8cb4cd46767937b308aaee3552d893e1d0800447a184e93d"
+    },
+    "source_audit_sha256": "8e9bbe0c1b2fb7dd0b8ffd84dc1009e7cc2cd92010f802dc7c01711f1dad7fab"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307102/spec.json": "1a552e4d3a0181bee5e4b5af2e9e3bcceceaaa4c4f59f33bf7857c0f19ed551e",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307102/INITIALIZATION.json": "2855c30eeab9002879017c38b706e1117188c19c552abb8126cea7be53970c57",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307102/TRAINING.json": "ec071a0009ab02f284cb2e6914cab7ed1b5a932da720a5171d035dc264352723",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307102/initial_adapter.safetensors": "01b44aedf84d635472a6c3bfcc5513c77905cc5f94251bd16c8c877433c0e463",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.015625_s307102/adapter.safetensors": "c7220c29469e945196341b70b48494cd9cb2d03c0688b2790dd1eb03c5ed6c1f"
+    },
+    "source_audit_sha256": "b7d3aebff89776f8058023e00c963fd85fab3c3a70cd5566d6a48f80f3b7ea6c"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307100/spec.json": "f349d06f507b28eef664910a7e6ed2d95b9b30aadc0718beb339c91020eddbb7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307100/INITIALIZATION.json": "11840f34cee4b3262764382208c0e99a5d26c56c5fe2937999003de3800a7df5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307100/TRAINING.json": "b7420c9c983d5b2c516bbceb5e63b5e54a9d5dcc13c4a1436ffc19f6a6f6ffb4",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307100/initial_adapter.safetensors": "d882a358d755415e289ebde933a4842e1eb655264fe0bc37059bb6438e6f4e05",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307100/adapter.safetensors": "190687a82b9305824fe16f03b55e7b1a0809bd7097e5b55c5ed2b51fc77a4c2f"
+    },
+    "source_audit_sha256": "f0c7d127c9db0cbee62312ca183cf022e994baaa247d52e9c8f80c82398dfc05"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307101/spec.json": "1f94f302b53c5ea4581561076e526d51d92fa305400be1978a0659413e5bda33",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307101/INITIALIZATION.json": "c38c4c32029d04388418bd5481d3acc764d9c8f7fc9fd3d7f86d242f44f94fe5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307101/TRAINING.json": "67e0cea4c0a9ed4c44b615a53313f02cfb69c92a7e27be31e9cc87b03e263b79",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307101/initial_adapter.safetensors": "00edf61d7b2e7bc56b55152b7b8a3a2419e40268fdfe44643666af6c75de244a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307101/adapter.safetensors": "2b329bdde2c486038bbd5d4524fe7ed33c4395e26ffb9453f110235372fd43f3"
+    },
+    "source_audit_sha256": "952cfb5b383393b88cd7319714050b636d29dba4c162284ca197c9e6998de868"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307102/spec.json": "0b16e5adc7a101e393a0c58aef9baecbfe7e950d3f1d833781ea3855862dcfff",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307102/INITIALIZATION.json": "2855c30eeab9002879017c38b706e1117188c19c552abb8126cea7be53970c57",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307102/TRAINING.json": "76d46213a01b0cb3e32cda1f4dc27a3858b6a5e4fb08303f587c37e0d04946e4",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307102/initial_adapter.safetensors": "01b44aedf84d635472a6c3bfcc5513c77905cc5f94251bd16c8c877433c0e463",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.0625_s307102/adapter.safetensors": "31c1e7b036541b44bf0d0f7f9105e77bff39ca3ad99e2d1c1b25d21445b0bc69"
+    },
+    "source_audit_sha256": "8a12884c3eec03bdcada18a1a81310c88d263a8069ed5fd7da9bee9acda55cd4"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307100/spec.json": "d4219e14c76d3cdd1c3dd9cff7e1eb7c17c7aea7ec4cd5fb2a645fe6f4708a34",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307100/INITIALIZATION.json": "11840f34cee4b3262764382208c0e99a5d26c56c5fe2937999003de3800a7df5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307100/TRAINING.json": "5bf636557c1224ac15de44a7d2f28ddb28556b2b39b1b6d77144705b1052b8d7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307100/initial_adapter.safetensors": "d882a358d755415e289ebde933a4842e1eb655264fe0bc37059bb6438e6f4e05",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307100/adapter.safetensors": "f1905709efcabbfed7f7d75178f4b08df170af8090a37985f3768a90a1407b97"
+    },
+    "source_audit_sha256": "d7dc140626ab7f1ea8d4368abc8f7f0dcf28f8337eb1ff6fe5c1486e6bf5c2aa"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307101/spec.json": "8555a3d77a7eeee269ecebe39ba82d872ce276e8ad74bfe372b94e0a0086ee5b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307101/INITIALIZATION.json": "c38c4c32029d04388418bd5481d3acc764d9c8f7fc9fd3d7f86d242f44f94fe5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307101/TRAINING.json": "10eb1a063a71d1dbbab143892c87ebbefdcca24f13bb32218082154a94dac3c5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307101/initial_adapter.safetensors": "00edf61d7b2e7bc56b55152b7b8a3a2419e40268fdfe44643666af6c75de244a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307101/adapter.safetensors": "ea1ce99e37384bc60f1c97776cfff5b8b8aa4a9287b9247ebc15be9615fb30f7"
+    },
+    "source_audit_sha256": "c2255d499b988748cfa0a676ae8992915b12903d92b9f4faaf726754d4bc369f"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307102/spec.json": "860a9c92935de58a3a01bb534c4411679ffbc3622682b97b33fae56c4846d482",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307102/INITIALIZATION.json": "2855c30eeab9002879017c38b706e1117188c19c552abb8126cea7be53970c57",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307102/TRAINING.json": "b8e229a189fa78c8a71f45294ecbbb78a52dd4a2baba153cd1fd0198a7221133",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307102/initial_adapter.safetensors": "01b44aedf84d635472a6c3bfcc5513c77905cc5f94251bd16c8c877433c0e463",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr0.25_s307102/adapter.safetensors": "8a6d238aab43733bc8765e30197cb13619d56f76ac8f0090264fd5f19941a9bf"
+    },
+    "source_audit_sha256": "1dffa5bde8d5f8be18619823aa0521290929680efd2aa30d107d5a2bd6aad298"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307100/spec.json": "a300ae0b9910815081b923c0e44a780fead6938c3a4bb2f9465e216fc8c9f981",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307100/INITIALIZATION.json": "11840f34cee4b3262764382208c0e99a5d26c56c5fe2937999003de3800a7df5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307100/TRAINING.json": "93ab8f7e42778c2dd5a52777ef73947705e0714b055cbc65b7283ee3361c3f97",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307100/initial_adapter.safetensors": "d882a358d755415e289ebde933a4842e1eb655264fe0bc37059bb6438e6f4e05",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307100/adapter.safetensors": "e929899d3ca1def61c2833813c1adea3e53fee118af3c3b4dfbfd3836e7197f4"
+    },
+    "source_audit_sha256": "488abf58adbf73ef3ed600452a67703f02396f347a33ae84fa9378b7f6d7c071"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307101/spec.json": "918f18668bf73f1b17e3213bccc3f9513e00e586e2a9e5ca7bca6f452e6882b8",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307101/INITIALIZATION.json": "c38c4c32029d04388418bd5481d3acc764d9c8f7fc9fd3d7f86d242f44f94fe5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307101/TRAINING.json": "08ba724835823d94a2cf2124185e4608ba7b7a8037f24a0e384bebe68fdb462c",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307101/initial_adapter.safetensors": "00edf61d7b2e7bc56b55152b7b8a3a2419e40268fdfe44643666af6c75de244a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307101/adapter.safetensors": "d7f9f34f436a641237bd4ecca54a05f8b08fde4e15c34d238d064f7340df35cb"
+    },
+    "source_audit_sha256": "300ab445c19f788c5164e88252af61b4d41408a3fe72c988a6036d9ce4f375d6"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307102/spec.json": "7338b0479c55c363fda66375da9a564d109aee1298727ff7f6503d703c9db7b8",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307102/INITIALIZATION.json": "2855c30eeab9002879017c38b706e1117188c19c552abb8126cea7be53970c57",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307102/TRAINING.json": "54dfe1bf66cae74d15b71fabfc2f911ff93da09bc0418986134dab3cd6135327",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307102/initial_adapter.safetensors": "01b44aedf84d635472a6c3bfcc5513c77905cc5f94251bd16c8c877433c0e463",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr1_s307102/adapter.safetensors": "a6306002c7af6aa9bb5c65efcbaa58d834ae998307fece24b9fcc8782fd0d9f9"
+    },
+    "source_audit_sha256": "f669db9c382e474c352a4a7fbc594a8b6baabc16491b5cea35c76ad1ed9d6f86"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307100/spec.json": "d9d4aa7ff6e005a7574d5ef88473ae55b04e933b1fc6bd5854a1acec387f115a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307100/INITIALIZATION.json": "11840f34cee4b3262764382208c0e99a5d26c56c5fe2937999003de3800a7df5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307100/TRAINING.json": "51d6267cb41e168495532ccdd5c5828f2e9f13e984a207e4cf280700f5a4b38b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307100/initial_adapter.safetensors": "d882a358d755415e289ebde933a4842e1eb655264fe0bc37059bb6438e6f4e05",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307100/adapter.safetensors": "2d7eae414556e6784629b0c2b98b9743d6ff7d872701cdab11b391c9f1e34eb8"
+    },
+    "source_audit_sha256": "b91097d8646a529dcc9d13656d349079f50cf4db8f09f519c5088097a22f58bb"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307101/spec.json": "b695b76974287e8846da6bb281fc88b577033df544e7599aee491161cb4a069b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307101/INITIALIZATION.json": "c38c4c32029d04388418bd5481d3acc764d9c8f7fc9fd3d7f86d242f44f94fe5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307101/TRAINING.json": "10e6b936c5d0ce010d43986cefbe55b83dcbbf4ae99b943b1cc9f6029cbf20a7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307101/initial_adapter.safetensors": "00edf61d7b2e7bc56b55152b7b8a3a2419e40268fdfe44643666af6c75de244a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307101/adapter.safetensors": "74c86ac906d179c2df311b48a332ce3f51ec6f125ffb7836f34198e28eaabd8c"
+    },
+    "source_audit_sha256": "9a7458923c39cfbbc97aa0c656cf3398e2e6d93f155c6ac96f53fbd977ff125c"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307102/spec.json": "0be620ca3ddeed8c2a6fc71129f5128ffbd0366e4fa67af0ba22f4486ec10bf2",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307102/INITIALIZATION.json": "2855c30eeab9002879017c38b706e1117188c19c552abb8126cea7be53970c57",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307102/TRAINING.json": "5f9aa5bf621b8adcf0bf52022aaa4c4b9f96a7fda7a9f1d6a897555f4ccb1999",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307102/initial_adapter.safetensors": "01b44aedf84d635472a6c3bfcc5513c77905cc5f94251bd16c8c877433c0e463",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr2_s307102/adapter.safetensors": "fe9bf78434136b8c4809b9b0547623db7557e811b16d9512f586c4a341c51a97"
+    },
+    "source_audit_sha256": "76fd0606d4d631126aae425f1cfd6535102b36c34269bb99ae0091b80dc02bb3"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307100/spec.json": "0118c5b6382f7c6bd4984147c29f8e5ab0ed3b2c5b1490b6231903dd5c75fdbf",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307100/INITIALIZATION.json": "11840f34cee4b3262764382208c0e99a5d26c56c5fe2937999003de3800a7df5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307100/TRAINING.json": "c32c6f8e9192915fb1d753d85b4ff69f87821aec5db0bff3e9a7529a624e0b76",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307100/initial_adapter.safetensors": "d882a358d755415e289ebde933a4842e1eb655264fe0bc37059bb6438e6f4e05",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307100/adapter.safetensors": "5f0d2e68f9648cbbc03b0d747fe65ae98c72db8ec0046bc4967bfe7dd382b99e"
+    },
+    "source_audit_sha256": "795e8b9588c653fcc0a702039832ed5e25728a4e70745e645353d26e3350106d"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307101/spec.json": "35bb7fb11f84d868b7a949cc2c28d305357266f3cd2e3c111e5bcdb392237caa",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307101/INITIALIZATION.json": "c38c4c32029d04388418bd5481d3acc764d9c8f7fc9fd3d7f86d242f44f94fe5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307101/TRAINING.json": "2893fba6bf45f890d84ac8ca69b0a940946abdaffe6f51116ee3b0d500f5afdd",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307101/initial_adapter.safetensors": "00edf61d7b2e7bc56b55152b7b8a3a2419e40268fdfe44643666af6c75de244a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307101/adapter.safetensors": "f39d07907b1fd5c179cebacafb001d901e6d01e52064a8c52b1666f4cdb13455"
+    },
+    "source_audit_sha256": "1f758f473ae0dc9201b06df68f7df5a63036a80a5d2f5077dbaf8224ab34316f"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307102/spec.json": "df49e9b6fb9e180000ac9e754cba67b3b6d70f6a2552becdb0bbdd7cb5336aa5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307102/INITIALIZATION.json": "2855c30eeab9002879017c38b706e1117188c19c552abb8126cea7be53970c57",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307102/TRAINING.json": "6f21012326f315ed56c5179e659acdf4e316403a26e1390630c22abb063feb15",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307102/initial_adapter.safetensors": "01b44aedf84d635472a6c3bfcc5513c77905cc5f94251bd16c8c877433c0e463",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_affine_shared_r30_b1_lr4_s307102/adapter.safetensors": "9a89ddcbf6fc67e7be4ed84f864aafc1f25af5682ee73703bc9a1de59daeaa60"
+    },
+    "source_audit_sha256": "785c6e2216da6adba292920083ed3f51333d65a3aa6d4f88701033d89d92187c"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307100/spec.json": "3593a3c9eb9046a9b84ac664f5c0d708a355a8721cda54abc660f7bc5e483827",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307100/INITIALIZATION.json": "7c63ce633cbecca61cbed459ceaca2b947e7f751012b7bd191589058de32ce77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307100/TRAINING.json": "c3b3fd846328e0d68e46e906a6f33b7628c4982da5193891b610bf04e31e6587",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307100/initial_adapter.safetensors": "4a0633cd56978f8fd5551f68505a34b8a6fd4d8531509784704becb6f6d8fb26",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307100/adapter.safetensors": "6a087b0ec997dd96bd2f187a40a2c7e19af322d6ec5c37385492e61bb154d0b9"
+    },
+    "source_audit_sha256": "1e5682c7fd9866a45d9f763bfb17dda18b9c87b89e62f578ca4c6895ae033607"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307101/spec.json": "345839574b3049951e27b53e40692966b05ec3c6d3cbb4acdf0f8843d4e22839",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307101/INITIALIZATION.json": "f12d9c6f6df8fd6d953d80ec621b430911da0d0d48b416c31620f2f0aec93426",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307101/TRAINING.json": "5c541d0611dfe782c0c9a22c51ee8754f3a2acf3547299dd8a7fc975321a4000",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307101/initial_adapter.safetensors": "88f4a8212823f0f2914fac6ee6245d2a6e379b64a5878678fa68e6ffd60d6764",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307101/adapter.safetensors": "9e4c11ea1ff4aa87bb380a0b5e47a1a8bb843568182d23cdf244d0d98d8eb0a8"
+    },
+    "source_audit_sha256": "49ebc3e67e785f72a02758781658e7c6a808ef4224ea3fcf5060b7885ec1c292"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307102/spec.json": "e556573020631b750039bc0d5314d45522d789d2afdc3c270b4841038e8b821d",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307102/INITIALIZATION.json": "e183d301e10ad6c3aacd4a3f3610a1dd52d851a2fc927fcd9aaed4bda0665ee0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307102/TRAINING.json": "5989fbad371520d46048271a33494595ea3ba3beab59f16cdda46ed86dac868d",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307102/initial_adapter.safetensors": "fc6c546762235b778c132a59159c5fdd799b5414a10cd602e5edd30cfd94c497",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.015625_s307102/adapter.safetensors": "1089830f915155f789786beaa74c21142526684acc6a910158b7f612488a4d6a"
+    },
+    "source_audit_sha256": "c22697d1a15a6c0405c4567a6397bf4b63ac09b010639957cbd2ddd3c40f8b88"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307100/spec.json": "0a9f3713774252f312bc14fe9f76ff3b12d3983c5f39fdbbb1a6db64cd4e0a10",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307100/INITIALIZATION.json": "7c63ce633cbecca61cbed459ceaca2b947e7f751012b7bd191589058de32ce77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307100/TRAINING.json": "69a40148c62e8187a557d2a098f72d9aa19836b39240e58c4b7e1692ac8f4889",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307100/initial_adapter.safetensors": "4a0633cd56978f8fd5551f68505a34b8a6fd4d8531509784704becb6f6d8fb26",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307100/adapter.safetensors": "36348ffc8bfa077d62edb0e40d5c244573b1d6c62a029a7f3f51143153cc332e"
+    },
+    "source_audit_sha256": "1be62456500c4291afe2815c845b2232e0c8061710725e64126dcc291cccbf72"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307101/spec.json": "04bec9d6c5fb054daf45b6b9707c40425df9fb542f51f82ce92863162ffcbacb",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307101/INITIALIZATION.json": "f12d9c6f6df8fd6d953d80ec621b430911da0d0d48b416c31620f2f0aec93426",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307101/TRAINING.json": "4e586b9861b9cd68050266c2a3a4e0ac5c95c2425f61712a314e8bddf283e266",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307101/initial_adapter.safetensors": "88f4a8212823f0f2914fac6ee6245d2a6e379b64a5878678fa68e6ffd60d6764",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307101/adapter.safetensors": "13d7fd0d420de42417e5abcebf6fcdeca6c412d0ea6099744d3a88036976aa97"
+    },
+    "source_audit_sha256": "985c7c05b778adaf397e1972dd38edd6bd2b00e0f73829ece3fa2a82e3407e2a"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307102/spec.json": "897b34888cc26e365c3700e90ca82abd8d06b3809797d7c456d70764145f4e45",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307102/INITIALIZATION.json": "e183d301e10ad6c3aacd4a3f3610a1dd52d851a2fc927fcd9aaed4bda0665ee0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307102/TRAINING.json": "3383801abc6f4af40aaf33bda8026a18148bf8f144340be1fa2c168c22c03b24",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307102/initial_adapter.safetensors": "fc6c546762235b778c132a59159c5fdd799b5414a10cd602e5edd30cfd94c497",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.0625_s307102/adapter.safetensors": "e41041726a2eddcbb8dc45a65436462947942ad894b525a7f19a081205376ecd"
+    },
+    "source_audit_sha256": "c15a30a9aab51b90fe8ea22ca55f7541772b7019531348a9741766776c5925cd"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307100/spec.json": "7349225fb668061eefd6dbc38b77cebe9f11b444e12ce1ded303c881f12dd637",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307100/INITIALIZATION.json": "7c63ce633cbecca61cbed459ceaca2b947e7f751012b7bd191589058de32ce77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307100/TRAINING.json": "7aa8360ff147ef98ff0bcf3c0355a300b6a03ccce6006ddbd05ce6c1d123e07b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307100/initial_adapter.safetensors": "4a0633cd56978f8fd5551f68505a34b8a6fd4d8531509784704becb6f6d8fb26",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307100/adapter.safetensors": "7d364a8977d8980afe18212e119c12a056fa32e8a2a6d1e6bc65b09739d30018"
+    },
+    "source_audit_sha256": "3fa67965cf2a71d612d3fa503bfffd27cef9239636986e349ea3d2d668084bf2"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307101/spec.json": "2c7b2b7d115f57922d259072ed51075d07901fa263744908fe03ddbeb83e19a6",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307101/INITIALIZATION.json": "f12d9c6f6df8fd6d953d80ec621b430911da0d0d48b416c31620f2f0aec93426",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307101/TRAINING.json": "ba36b513df8e304649085f9f465eac40d9fc3265bfcc9db70b8b472900379880",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307101/initial_adapter.safetensors": "88f4a8212823f0f2914fac6ee6245d2a6e379b64a5878678fa68e6ffd60d6764",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307101/adapter.safetensors": "0df6f34592d4508dfd8b6013472fab837441055abb7e5029f5f3a2bf70d26783"
+    },
+    "source_audit_sha256": "a5e84f7048541b57f8b619d8694b28b6c9b3d5db8dc96edd7fa0432f00c270cd"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307102/spec.json": "5599d6b502ed8d795639412ddb87601c838305053e5023de96619a7770c9a42b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307102/INITIALIZATION.json": "e183d301e10ad6c3aacd4a3f3610a1dd52d851a2fc927fcd9aaed4bda0665ee0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307102/TRAINING.json": "c53cb9cadf46e00d403f588cd10811e3637c8948d993d3a019495bc18e100345",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307102/initial_adapter.safetensors": "fc6c546762235b778c132a59159c5fdd799b5414a10cd602e5edd30cfd94c497",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr0.25_s307102/adapter.safetensors": "ac422fcaeb516784977777ec6efcb5f04eeba44a27294e02eee5190890800d86"
+    },
+    "source_audit_sha256": "f9aa6c344007dbe9b2b86ac4332f293ed2003a1ef44563aae2f522bf66eb376f"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307100/spec.json": "c7fd22cf45f7028a55b79e6d9ac7fe5cb56e43ee056d196023db518c0d164047",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307100/INITIALIZATION.json": "7c63ce633cbecca61cbed459ceaca2b947e7f751012b7bd191589058de32ce77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307100/TRAINING.json": "6da8f8b8c97e02c08816a424c2d9ab34b922fe1b4607e91f98b27a88440cc0e5",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307100/initial_adapter.safetensors": "4a0633cd56978f8fd5551f68505a34b8a6fd4d8531509784704becb6f6d8fb26",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307100/adapter.safetensors": "ba632d91fa9ac29991426b87db8f42ddf718a5b61df58f66035df115da594dab"
+    },
+    "source_audit_sha256": "7f8dc97f77a043e0e4f0defdf38a1624cce1dd1dc0b301f2b9c17c5f5ecb1657"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307101/spec.json": "98848b83f2ab9ae39ba2a386c8fb19a1bde9094528c11466fb779536f7285bc7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307101/INITIALIZATION.json": "f12d9c6f6df8fd6d953d80ec621b430911da0d0d48b416c31620f2f0aec93426",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307101/TRAINING.json": "1ce7ffd02376dcde7abcf77bad85eb3a95de473ebe948f422e999a6dd151ce90",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307101/initial_adapter.safetensors": "88f4a8212823f0f2914fac6ee6245d2a6e379b64a5878678fa68e6ffd60d6764",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307101/adapter.safetensors": "c79c7bbcf88ccd682433e4d8446ccc5bf04d46dafb3497f4bf70266788bd3707"
+    },
+    "source_audit_sha256": "3584ee25087ce2ed102c425c21e7e5a7940ccb999217c0dbeb0aa94f02b10793"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307102/spec.json": "21b067ae56e6cd0c44cd8c7920ab837bb6e25033776cec154b9587a4a377e535",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307102/INITIALIZATION.json": "e183d301e10ad6c3aacd4a3f3610a1dd52d851a2fc927fcd9aaed4bda0665ee0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307102/TRAINING.json": "2dec52223c67ba0fa855b29ad5ece5f36c75f5727e8beb5fd9d7933eeb9ea9ff",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307102/initial_adapter.safetensors": "fc6c546762235b778c132a59159c5fdd799b5414a10cd602e5edd30cfd94c497",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr1_s307102/adapter.safetensors": "18582f530749969600c5eeba7cfb682d20425f2c135566117a24c0b9b237defa"
+    },
+    "source_audit_sha256": "d7e2423d70df741831b21a63e9268db33eaa58de4a3a7b53fbb017180e9fbeea"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307100/spec.json": "0aa6809c46e6405aef385e63323c48753d9c0353cffa3b46b9d86895c3bbf328",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307100/INITIALIZATION.json": "7c63ce633cbecca61cbed459ceaca2b947e7f751012b7bd191589058de32ce77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307100/TRAINING.json": "d30ac1d3ca3b0e43450ea5e68b0e11d8313f865550c29a7c04ac270a9f49db82",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307100/initial_adapter.safetensors": "4a0633cd56978f8fd5551f68505a34b8a6fd4d8531509784704becb6f6d8fb26",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307100/adapter.safetensors": "ca610884abfee25b44febf695c6e5c8f7701523b4e1fb428945f1c27cf89f710"
+    },
+    "source_audit_sha256": "5105c6f2d40d793e061719b0124a4af0706cc26feb79f17e6537a40030ae8e6c"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307101/spec.json": "4968af7bc82f762ae960d3b17b97c1373367d06d07871fbdc93de4732cb67f33",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307101/INITIALIZATION.json": "f12d9c6f6df8fd6d953d80ec621b430911da0d0d48b416c31620f2f0aec93426",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307101/TRAINING.json": "25f00e2d277f462fed1ba7191b25412c7e1040f7f2fb6f732691d9573f44efda",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307101/initial_adapter.safetensors": "88f4a8212823f0f2914fac6ee6245d2a6e379b64a5878678fa68e6ffd60d6764",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307101/adapter.safetensors": "05c9337d118efa9927d32f49b012767ec2726227d780323db40226ceff33a75a"
+    },
+    "source_audit_sha256": "61ea2fbedebcdabe1b88f9b1d378a4642f3ace3c7d0027eac55609e1b61fab82"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307102/spec.json": "f98e92098c4711621ab42b564b52cf8999da99b6e2acfe05ec90b671e16f611a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307102/INITIALIZATION.json": "e183d301e10ad6c3aacd4a3f3610a1dd52d851a2fc927fcd9aaed4bda0665ee0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307102/TRAINING.json": "2416c222a13d7d312f2651296546206a718a4b24bb22f4ef217e287ca98d26a6",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307102/initial_adapter.safetensors": "fc6c546762235b778c132a59159c5fdd799b5414a10cd602e5edd30cfd94c497",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr2_s307102/adapter.safetensors": "71e993572034f6b43ad3e10b9fa66c32df6e940c4ae1ee6b821f4d6803eea6aa"
+    },
+    "source_audit_sha256": "ff2274d1239672346aa30aed2067e18cf0079aa507a0e4b0c7846f820ab15d4a"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307100/spec.json": "2fc804561a0ede1cadf541095a9a62d0e19d97b8a6f3346e353c223114f58250",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307100/INITIALIZATION.json": "7c63ce633cbecca61cbed459ceaca2b947e7f751012b7bd191589058de32ce77",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307100/TRAINING.json": "e662c88d387296b71210078b0c50c38617592c6ece673cd7382f32c11220e799",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307100/initial_adapter.safetensors": "4a0633cd56978f8fd5551f68505a34b8a6fd4d8531509784704becb6f6d8fb26",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307100/adapter.safetensors": "8e496c2d288cdf88ed73898b56e7cc2ff867a6f758a08e36e4eefe36fcaccd43"
+    },
+    "source_audit_sha256": "f5ef9dfb72c6c223cf625debbe4c69555a0e59e8ef7680f54bef62a257c77a48"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307101/spec.json": "a4862c06d963eb1d1e91da42cdbd29d8ed3f493c00e09f3ab3a274922ad1437a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307101/INITIALIZATION.json": "f12d9c6f6df8fd6d953d80ec621b430911da0d0d48b416c31620f2f0aec93426",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307101/TRAINING.json": "a98dfd76d09e71d0aaa5addca124db3cf1caf02a391dfea08f2df0783f7b2e99",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307101/initial_adapter.safetensors": "88f4a8212823f0f2914fac6ee6245d2a6e379b64a5878678fa68e6ffd60d6764",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307101/adapter.safetensors": "b31a1e3f7912f412aa09af938ca542f7801ecd7c2d15d0ee7a372ba6ffe71169"
+    },
+    "source_audit_sha256": "277d32109e7b58ea2ee103ebf4eb00c8c033a259c67d674883a6fec4ac581a33"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307102/spec.json": "30bfa7127d77e9e0feec6701f0e5fc5d089a1cf49afe2f6ec6b11cf3a2fd5b88",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307102/INITIALIZATION.json": "e183d301e10ad6c3aacd4a3f3610a1dd52d851a2fc927fcd9aaed4bda0665ee0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307102/TRAINING.json": "a04137f5b873c1be0883c40f7e239a56d45d139bb797572142e872e2c9903501",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307102/initial_adapter.safetensors": "fc6c546762235b778c132a59159c5fdd799b5414a10cd602e5edd30cfd94c497",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r1_b0_lr4_s307102/adapter.safetensors": "c0ce633dc23063eaffdbda15887b7cc4f183ca8982d318022eeb164d37f8ba2d"
+    },
+    "source_audit_sha256": "3609adca480564daa9b82d6fa16c5408f330513d2e6e768177b5c62cb03c86c4"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307100/spec.json": "125945d2d061b521f20f32c247662ee51801818d4bd250228d334740f7834678",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307100/INITIALIZATION.json": "85985c84b7e0f7a028e7a4f99da618dadecfa02d80f9d0b83f90f25523aa7bb7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307100/TRAINING.json": "df2167bbbd1904ffe1fa893132ef14a340ed0aedf3e335daedee348bcf1c1c0a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307100/initial_adapter.safetensors": "fac343b8b1ea00f659255d9a8fee77721fd195ffe5e91cac3c14298a10a4b3c1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307100/adapter.safetensors": "b7fb610cf9d8d4f52bade74d00d0f82f75b87d6207054ce4a67889cfcf42de5d"
+    },
+    "source_audit_sha256": "f121066b98243539dae22bed380904bfc23ce206143ef01ae8aaa3b8c8687827"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307101/spec.json": "65d79cd72384950b270df57054b5e7b6a973d60a8bd48d511b8a3df58aa1c525",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307101/INITIALIZATION.json": "bf7d406c46ee75707c89170df26071d4bda3b396b38bf99fea34640bd8758504",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307101/TRAINING.json": "73eb5308304639742d679d1a548f5f828eff507262e3d30002ddcdd1c046eb59",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307101/initial_adapter.safetensors": "814d8d2fe57a5be1de04fe6a72d895423df247bdeb609a11a325d7c1aae932ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307101/adapter.safetensors": "48e382f472eb271e8d135266c6a36d722d361e18571b865f2ce862b1b9041f07"
+    },
+    "source_audit_sha256": "96d25490dc2ffde0b683de187dcc54f55f014b9f680ba2205cc260d63639f35b"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307102/spec.json": "b9050b3df42ea967ee93ad4adf2ffed49e95f2177542048b9d1bc2b24eda0e88",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307102/INITIALIZATION.json": "1d793bf0d7b6a84a46db394d7cdf14534e269f7b2cb8a27809b18feab0f4f478",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307102/TRAINING.json": "b5df6218b511ef24fb1963648228b2ef28fd7eee7a3d9739ded415b538cd87cc",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307102/initial_adapter.safetensors": "6eef9acf170daf7d764b797a7a56a642aa22b5436cfcae01b11ae98fe190172b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.015625_s307102/adapter.safetensors": "52f14aabfa36e2363eeaa44170ff0f5953adece3cecd1ad1c92b0fa789ab8a47"
+    },
+    "source_audit_sha256": "db22a83c81deb4abe2d9c6cb3175c45e4403f149489ed6eea11175d1edd1444e"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307100/spec.json": "9a9014d04bd2e4f372c577e22a822907881bea7c21f71492525167d4e15e71d7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307100/INITIALIZATION.json": "85985c84b7e0f7a028e7a4f99da618dadecfa02d80f9d0b83f90f25523aa7bb7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307100/TRAINING.json": "eefe497e6ebaf40b2202868213762f0db26a31c5c5a01b0d0fdf74287827c18a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307100/initial_adapter.safetensors": "fac343b8b1ea00f659255d9a8fee77721fd195ffe5e91cac3c14298a10a4b3c1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307100/adapter.safetensors": "0510af4bb630fcc3246e16ef56ec725bbc8a8dbcca3139bda685438f26c6ede4"
+    },
+    "source_audit_sha256": "f97e5449a426a3709b4ddf463bb5d4fc93ba9b4da5daf2699e24ebe4060a881b"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307101/spec.json": "12b336fa92cca6b9ffc4aac02c39b8925a53cbcc0896667b4f6d18866cbdbbcc",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307101/INITIALIZATION.json": "bf7d406c46ee75707c89170df26071d4bda3b396b38bf99fea34640bd8758504",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307101/TRAINING.json": "4c2b29eaf9e06fa63f8d2a86893efe6462e448a7086ce4e90902ca4cc510f562",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307101/initial_adapter.safetensors": "814d8d2fe57a5be1de04fe6a72d895423df247bdeb609a11a325d7c1aae932ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307101/adapter.safetensors": "6692cb9ab5553768e54037c4f37421b574659312e3cc32aeb826450facf3ed5c"
+    },
+    "source_audit_sha256": "2af4c5511222a8b1c1c7c8c4f4ec0006b4d77e23c4f522ca44c31db9468b65e2"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307102/spec.json": "fe998fe978b61ac9e59acaf0a5791f3974ce5050720d52e383dac487eaaaa8da",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307102/INITIALIZATION.json": "1d793bf0d7b6a84a46db394d7cdf14534e269f7b2cb8a27809b18feab0f4f478",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307102/TRAINING.json": "76c86ba9315940e9671d500c82889e94cea25dbd02217b7f6eb6faf127266b54",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307102/initial_adapter.safetensors": "6eef9acf170daf7d764b797a7a56a642aa22b5436cfcae01b11ae98fe190172b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.0625_s307102/adapter.safetensors": "5a3cd5dddd042dca355ecf4d4aa23df8064dfdb1ed980e9050778899396ea639"
+    },
+    "source_audit_sha256": "1ff95efae73d4e09f78a904a0fc2412f0f766c69db3c01623df38a8688bcc052"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307100/spec.json": "e2d70e02abb2a099a54bd6cdb8cf4ad48cdaabb65bd782e4775dbbd8fe92eee6",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307100/INITIALIZATION.json": "85985c84b7e0f7a028e7a4f99da618dadecfa02d80f9d0b83f90f25523aa7bb7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307100/TRAINING.json": "610d1d841287075a18d786cfc04696bfc64a519e84d3c6dc5f7471341d32ca14",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307100/initial_adapter.safetensors": "fac343b8b1ea00f659255d9a8fee77721fd195ffe5e91cac3c14298a10a4b3c1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307100/adapter.safetensors": "2bf9cce1ffdde0dc0b0c3ed1ad651cb2ebd5b0ee1af19474cdfa9629cbe39e8b"
+    },
+    "source_audit_sha256": "32dceafd7952450514155d56beb9b9fa0463a8f813adca6af45423b62c70b847"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307101/spec.json": "8334c9c9a6d67425207a4b60bf8ac6fdf10821299895f345c30fdb4b2c693a3f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307101/INITIALIZATION.json": "bf7d406c46ee75707c89170df26071d4bda3b396b38bf99fea34640bd8758504",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307101/TRAINING.json": "d23bb72fadbbf0237329b9d23681e560387a4aa1861b9e5b54abeac66a598a8a",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307101/initial_adapter.safetensors": "814d8d2fe57a5be1de04fe6a72d895423df247bdeb609a11a325d7c1aae932ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307101/adapter.safetensors": "8c25c53a8cc3d376b549aa6b811f2cafaf82ae09a83b771cc56a8558e97b7473"
+    },
+    "source_audit_sha256": "ea22b6e9cd741b364371558f77ac6e53f43477817555a5c9531d2932ec89cc04"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307102/spec.json": "5523f111a3be9d4c0b7de2c4cd92ae013357c5186be9f10e59ae9325a163ccc1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307102/INITIALIZATION.json": "1d793bf0d7b6a84a46db394d7cdf14534e269f7b2cb8a27809b18feab0f4f478",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307102/TRAINING.json": "d4ed6253087cd083f1513f04aad95c6cb81de1912d5264250f2428bc54ba1011",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307102/initial_adapter.safetensors": "6eef9acf170daf7d764b797a7a56a642aa22b5436cfcae01b11ae98fe190172b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr0.25_s307102/adapter.safetensors": "cf16220864beb4f4204df12c4d252fd4f7aededb152d93676d39e1ef82ecd2ae"
+    },
+    "source_audit_sha256": "45a6368b453464402fd348774ecfcb4bfc31d17d6406be2b606b3587bbede060"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307100/spec.json": "1ed68882fe85643bd1be3b29e055289705d113473b4f8ebd5296f274bbd3c1d8",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307100/INITIALIZATION.json": "85985c84b7e0f7a028e7a4f99da618dadecfa02d80f9d0b83f90f25523aa7bb7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307100/TRAINING.json": "0b9d68d2eaa7838655af8cccded2e3bb8968b26b6d64ab6207587175e1d97389",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307100/initial_adapter.safetensors": "fac343b8b1ea00f659255d9a8fee77721fd195ffe5e91cac3c14298a10a4b3c1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307100/adapter.safetensors": "cbb547103c7c65ad33c5d26c4a2a243f8ba38dadb0e6ec5067545a6ece5140ae"
+    },
+    "source_audit_sha256": "00417acf4eec362100bbf66c91877c73f2ae26cf9624e7f563b621059a7d6a7e"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307101/spec.json": "284622e406fb4bc63212830a2fb56e35d94051ea3362515cc8702303c1d74b08",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307101/INITIALIZATION.json": "bf7d406c46ee75707c89170df26071d4bda3b396b38bf99fea34640bd8758504",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307101/TRAINING.json": "0e2f1dce49e9f7b7f0df6255b43959ae2722c3a826227f280ae1b3d6e752d4c0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307101/initial_adapter.safetensors": "814d8d2fe57a5be1de04fe6a72d895423df247bdeb609a11a325d7c1aae932ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307101/adapter.safetensors": "c7ad261a3936893f91d6f5a2023cef4f56e188d45d84c2aed437a0ac7136bb79"
+    },
+    "source_audit_sha256": "ef4a6be9ed6f8f076ee71d97431411921973eb0e1c23dcab8fac9e3e3ad1cc4a"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307102/spec.json": "32c3bfb7fc369cb69ae81a32fdcc272dc9817b992905c0119acdb44f1512366d",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307102/INITIALIZATION.json": "1d793bf0d7b6a84a46db394d7cdf14534e269f7b2cb8a27809b18feab0f4f478",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307102/TRAINING.json": "4cb2c49da815f7af5f83a64d2a31b0a7893c5c70cf9ff2044bf82a9572148f29",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307102/initial_adapter.safetensors": "6eef9acf170daf7d764b797a7a56a642aa22b5436cfcae01b11ae98fe190172b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr1_s307102/adapter.safetensors": "7d6ae75633321dfe047db8ac0c173532a2cbf7b22923a3d1274cff628979d576"
+    },
+    "source_audit_sha256": "796bec1fc656162b7f0162c02efa0133ccd5439d518a8e88eae1ab009a452b36"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307100/spec.json": "06a9f90a04d0033084bd59fd478681fc01f68aba8af75baa693bdc4b7b2f0d26",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307100/INITIALIZATION.json": "85985c84b7e0f7a028e7a4f99da618dadecfa02d80f9d0b83f90f25523aa7bb7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307100/TRAINING.json": "ca75edc947cbe3831a43f43746d665cd2a82bb14dc1dab4406773c8cc8ed4ebb",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307100/initial_adapter.safetensors": "fac343b8b1ea00f659255d9a8fee77721fd195ffe5e91cac3c14298a10a4b3c1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307100/adapter.safetensors": "7b5e75ceb8d60fb7a6b2482e5246270d4c46be0097abc032da7299fb9f71f3d4"
+    },
+    "source_audit_sha256": "8abca3d4675f9ae430f360b2171db58deeab21c06471b49e1eaf9699c9c17f8c"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307101/spec.json": "ffdfd39ec7e5b52491c16e219db06acd26c9a9cc49120c9f493c4945d1fde5d0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307101/INITIALIZATION.json": "bf7d406c46ee75707c89170df26071d4bda3b396b38bf99fea34640bd8758504",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307101/TRAINING.json": "d262e4903bfaf6cc12fb31ebb5bad52117f61e24b95bfbc80261b7283550abd7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307101/initial_adapter.safetensors": "814d8d2fe57a5be1de04fe6a72d895423df247bdeb609a11a325d7c1aae932ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307101/adapter.safetensors": "25c6e37f92c698216144a711bb837403d3d59c02a5e021a86802a27093c8975d"
+    },
+    "source_audit_sha256": "8f58e2dc6d76b55cec959c9eaee35d952e28c51afa8678f955afbbcd3cb5559c"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307102/spec.json": "76fef75879a048180395ec225bca013772f45b8356d39f93039af2e5cbfdec98",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307102/INITIALIZATION.json": "1d793bf0d7b6a84a46db394d7cdf14534e269f7b2cb8a27809b18feab0f4f478",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307102/TRAINING.json": "52584431777b88a75beba37b7892d4f42c190e623180ffedbd82cff42dd5a84d",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307102/initial_adapter.safetensors": "6eef9acf170daf7d764b797a7a56a642aa22b5436cfcae01b11ae98fe190172b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr2_s307102/adapter.safetensors": "e28becadda967b7582e555c06cf5215619d9f5a95c37a46448517b60246454d6"
+    },
+    "source_audit_sha256": "8d2933f6f51a72645688d9a1eeab4539526f491228886cf029bff8166eb3f371"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307100",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307100/spec.json": "dd3bbc5d5cbd3c868221a761c2dd94f353c2053d7ac13acb2696036076d2dbaf",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307100/INITIALIZATION.json": "85985c84b7e0f7a028e7a4f99da618dadecfa02d80f9d0b83f90f25523aa7bb7",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307100/TRAINING.json": "1ad4fbedb4bb21cd6ae063a797545e963051f9e404bb89097302e73818846dcc",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307100/TRAIN_ORDER.json": "9d5c73cf2a32d948e8b74a2750564ef1465c2f3ca7170aa79e50790aff11d9ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307100/initial_adapter.safetensors": "fac343b8b1ea00f659255d9a8fee77721fd195ffe5e91cac3c14298a10a4b3c1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307100/adapter.safetensors": "ef8af58bdbbc7199c5248e04c81a504746419cc462c75c80de0e021e86c06f28"
+    },
+    "source_audit_sha256": "db85154bc2923f50e30a64e6f3b62faa204b83e0c8f01e6bc1041da9d95f4b44"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307101",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307101/spec.json": "5b22b77f1afb7b4aab56c5c527d13ace88629d3a2cd02acb4d095d0d9eb480a1",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307101/INITIALIZATION.json": "bf7d406c46ee75707c89170df26071d4bda3b396b38bf99fea34640bd8758504",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307101/TRAINING.json": "a43f218ff21ba317367bd68e5b59b508c962f9bed010408cbcad9116dd129e16",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307101/TRAIN_ORDER.json": "baa2abf719d91346bc90d3d2806af40ecc5a1f0e051c96358557ec546652960f",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307101/initial_adapter.safetensors": "814d8d2fe57a5be1de04fe6a72d895423df247bdeb609a11a325d7c1aae932ac",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307101/adapter.safetensors": "3fbfc78610b3acac6e4cf85cbbd63866a1e05a97542bc2173d0ba3b36e9d2033"
+    },
+    "source_audit_sha256": "ca206c660339a07c52a914b2e8b2800a4b0ec1f9e445124b79209bd9692b301b"
+  },
+  {
+    "name": "tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307102",
+    "files": {
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307102/spec.json": "85aebc1e9c69ed641d6f113f616d17828be7f49228e2909c8ab58bf03495f5a9",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307102/INITIALIZATION.json": "1d793bf0d7b6a84a46db394d7cdf14534e269f7b2cb8a27809b18feab0f4f478",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307102/TRAINING.json": "912de778ff34a3329f119a75a0af23f12233d293714663c8f49b6125bc6e67c0",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307102/TRAIN_ORDER.json": "b98077a9b1d4cd3be666370ed09ff28e67fc04f19335d32fadc0d232d432857b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307102/initial_adapter.safetensors": "6eef9acf170daf7d764b797a7a56a642aa22b5436cfcae01b11ae98fe190172b",
+      "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/qwen3_4b_deep_tuning_20260924/study/checkpoints/tuning_wikisql_qwen3_4b_base_vocab_shared_r2_b0_lr4_s307102/adapter.safetensors": "61985f7d3d87c1531535df52c10786d5e06b8684d9773a75c2bd8264e4cb2760"
+    },
+    "source_audit_sha256": "fdd61b87ab7822d9fcf0fc602912535732c36733bc80f5bbd777958a4a78f4ec"
+  }
+]

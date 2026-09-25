@@ -1,0 +1,37 @@
+{
+  "at": "2026-09-18T15:18:36.041127+08:00",
+  "declaration_stage": "after partial development search, before selection and any confirmation response",
+  "script_sha256": "33287981fcb466646897c1fa9c74b96527e131597d7910f45f87f4f1348f48e9",
+  "replicates": 20000,
+  "seed": 19260918,
+  "comparisons": [
+    [
+      "tuned_heu",
+      "tuned_hidden"
+    ],
+    [
+      "tuned_heu",
+      "tuned_budget"
+    ],
+    [
+      "tuned_heu",
+      "anchor_heu"
+    ],
+    [
+      "tuned_budget",
+      "anchor_budget"
+    ],
+    [
+      "anchor_heu",
+      "anchor_budget"
+    ]
+  ],
+  "method": "paired nonparametric table-cluster percentile bootstrap; hold five fitted models fixed, average seed correctness per example, resample 1628 table clusters with replacement, ratio of summed differences to sampled question count",
+  "intervals": [
+    "marginal 95%",
+    "Bonferroni family-5 95%"
+  ],
+  "primary_analysis_change": false,
+  "training_or_selection_change": false,
+  "limitations": "Supplementary check of table sampling only; not joint uncertainty over seeds, tables, tuning and pretraining."
+}

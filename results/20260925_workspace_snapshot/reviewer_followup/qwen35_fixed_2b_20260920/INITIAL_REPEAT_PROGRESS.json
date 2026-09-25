@@ -1,0 +1,447 @@
+{
+  "records": [
+    {
+      "task": "wikisql",
+      "arm": "hidden",
+      "preflight": {
+        "zero_residual_max_abs_error": 0.0,
+        "hf_shifted_loss_error": 1.1920928955078125e-07,
+        "selected_loss_error": 0.0,
+        "exact_mask_error": 2.220446049250313e-16
+      },
+      "repeat": {
+        "losses": [
+          1.1168978288769722,
+          1.1168978288769722
+        ],
+        "microbatch_losses": [
+          [
+            0.07253406196832657,
+            0.06728244572877884,
+            0.07859376072883606,
+            0.06686434149742126,
+            0.06712741404771805,
+            0.0491909384727478,
+            0.08523783087730408,
+            0.07761514186859131,
+            0.07771100103855133,
+            0.0699276477098465,
+            0.07174616307020187,
+            0.06672711670398712,
+            0.07073996216058731,
+            0.07063151895999908,
+            0.06423139572143555,
+            0.060737088322639465
+          ],
+          [
+            0.07253406196832657,
+            0.06728244572877884,
+            0.07859376072883606,
+            0.06686434149742126,
+            0.06712741404771805,
+            0.0491909384727478,
+            0.08523783087730408,
+            0.07761514186859131,
+            0.07771100103855133,
+            0.0699276477098465,
+            0.07174616307020187,
+            0.06672711670398712,
+            0.07073996216058731,
+            0.07063151895999908,
+            0.06423139572143555,
+            0.060737088322639465
+          ]
+        ],
+        "loss_absolute_difference": 0.0,
+        "gradient_relative_rms": 0.0,
+        "gradient_max_absolute_difference": 0.0,
+        "gradients_bitwise_equal": true,
+        "gradient_sha256": [
+          "8f5ca6b059cde217cd13d9d0bb76cc65464fdfcb8b36d738a31d33c0382c427d",
+          "8f5ca6b059cde217cd13d9d0bb76cc65464fdfcb8b36d738a31d33c0382c427d"
+        ],
+        "loss_tolerance": 0,
+        "gradient_relative_rms_tolerance": 0,
+        "order_sha256": "3c46e3d50c3eb466d5dfd2a0595df830e1826b953188bd0930c4e9e672667c83",
+        "scope": "Same model/device, full first batch, same RNG, no optimizer update. This is not a cross-device or whole-trajectory determinism proof.",
+        "status": "passed"
+      },
+      "initialization": "a36eafe0e804425c93e79c690f933ee56b10a1f0df14342a4f032d1273532d1f",
+      "cross_process_initial_reference": {
+        "status": "passed",
+        "reference_sha256": "204a0a897801b86be5d17b1a577fafd05710a540236c0e25dec6640dbdbeb63f",
+        "reference_key": "wikisql:7600",
+        "exact_microbatch_match": true,
+        "scope": "Independent-process first-batch loss parity only; not proof of a whole-training-trajectory invariant."
+      }
+    },
+    {
+      "task": "wikisql",
+      "arm": "hidden_budget",
+      "preflight": {
+        "zero_residual_max_abs_error": 0.0,
+        "hf_shifted_loss_error": 1.1920928955078125e-07,
+        "selected_loss_error": 0.0,
+        "exact_mask_error": 2.220446049250313e-16
+      },
+      "repeat": {
+        "losses": [
+          1.1168978288769722,
+          1.1168978288769722
+        ],
+        "microbatch_losses": [
+          [
+            0.07253406196832657,
+            0.06728244572877884,
+            0.07859376072883606,
+            0.06686434149742126,
+            0.06712741404771805,
+            0.0491909384727478,
+            0.08523783087730408,
+            0.07761514186859131,
+            0.07771100103855133,
+            0.0699276477098465,
+            0.07174616307020187,
+            0.06672711670398712,
+            0.07073996216058731,
+            0.07063151895999908,
+            0.06423139572143555,
+            0.060737088322639465
+          ],
+          [
+            0.07253406196832657,
+            0.06728244572877884,
+            0.07859376072883606,
+            0.06686434149742126,
+            0.06712741404771805,
+            0.0491909384727478,
+            0.08523783087730408,
+            0.07761514186859131,
+            0.07771100103855133,
+            0.0699276477098465,
+            0.07174616307020187,
+            0.06672711670398712,
+            0.07073996216058731,
+            0.07063151895999908,
+            0.06423139572143555,
+            0.060737088322639465
+          ]
+        ],
+        "loss_absolute_difference": 0.0,
+        "gradient_relative_rms": 0.0,
+        "gradient_max_absolute_difference": 0.0,
+        "gradients_bitwise_equal": true,
+        "gradient_sha256": [
+          "2ba1607b5a4225a12f5fd37493621e592116695ed8feb7bb8d5787d3176088b6",
+          "2ba1607b5a4225a12f5fd37493621e592116695ed8feb7bb8d5787d3176088b6"
+        ],
+        "loss_tolerance": 0,
+        "gradient_relative_rms_tolerance": 0,
+        "order_sha256": "3c46e3d50c3eb466d5dfd2a0595df830e1826b953188bd0930c4e9e672667c83",
+        "scope": "Same model/device, full first batch, same RNG, no optimizer update. This is not a cross-device or whole-trajectory determinism proof.",
+        "status": "passed"
+      },
+      "initialization": "a36eafe0e804425c93e79c690f933ee56b10a1f0df14342a4f032d1273532d1f",
+      "cross_process_initial_reference": {
+        "status": "passed",
+        "reference_sha256": "204a0a897801b86be5d17b1a577fafd05710a540236c0e25dec6640dbdbeb63f",
+        "reference_key": "wikisql:7600",
+        "exact_microbatch_match": true,
+        "scope": "Independent-process first-batch loss parity only; not proof of a whole-training-trajectory invariant."
+      }
+    },
+    {
+      "task": "wikisql",
+      "arm": "hidden_both",
+      "preflight": {
+        "zero_residual_max_abs_error": 0.0,
+        "hf_shifted_loss_error": 1.1920928955078125e-07,
+        "selected_loss_error": 0.0,
+        "exact_mask_error": 2.220446049250313e-16
+      },
+      "repeat": {
+        "losses": [
+          1.1168978288769722,
+          1.1168978288769722
+        ],
+        "microbatch_losses": [
+          [
+            0.07253406196832657,
+            0.06728244572877884,
+            0.07859376072883606,
+            0.06686434149742126,
+            0.06712741404771805,
+            0.0491909384727478,
+            0.08523783087730408,
+            0.07761514186859131,
+            0.07771100103855133,
+            0.0699276477098465,
+            0.07174616307020187,
+            0.06672711670398712,
+            0.07073996216058731,
+            0.07063151895999908,
+            0.06423139572143555,
+            0.060737088322639465
+          ],
+          [
+            0.07253406196832657,
+            0.06728244572877884,
+            0.07859376072883606,
+            0.06686434149742126,
+            0.06712741404771805,
+            0.0491909384727478,
+            0.08523783087730408,
+            0.07761514186859131,
+            0.07771100103855133,
+            0.0699276477098465,
+            0.07174616307020187,
+            0.06672711670398712,
+            0.07073996216058731,
+            0.07063151895999908,
+            0.06423139572143555,
+            0.060737088322639465
+          ]
+        ],
+        "loss_absolute_difference": 0.0,
+        "gradient_relative_rms": 0.0,
+        "gradient_max_absolute_difference": 0.0,
+        "gradients_bitwise_equal": true,
+        "gradient_sha256": [
+          "d3c3aa62f99e819dfcdceb3ce04ed353a8285096b7331e39083a7736ed91ce02",
+          "d3c3aa62f99e819dfcdceb3ce04ed353a8285096b7331e39083a7736ed91ce02"
+        ],
+        "loss_tolerance": 0,
+        "gradient_relative_rms_tolerance": 0,
+        "order_sha256": "3c46e3d50c3eb466d5dfd2a0595df830e1826b953188bd0930c4e9e672667c83",
+        "scope": "Same model/device, full first batch, same RNG, no optimizer update. This is not a cross-device or whole-trajectory determinism proof.",
+        "status": "passed"
+      },
+      "initialization": "a36eafe0e804425c93e79c690f933ee56b10a1f0df14342a4f032d1273532d1f",
+      "cross_process_initial_reference": {
+        "status": "passed",
+        "reference_sha256": "204a0a897801b86be5d17b1a577fafd05710a540236c0e25dec6640dbdbeb63f",
+        "reference_key": "wikisql:7600",
+        "exact_microbatch_match": true,
+        "scope": "Independent-process first-batch loss parity only; not proof of a whole-training-trajectory invariant."
+      }
+    },
+    {
+      "task": "trec50",
+      "arm": "hidden",
+      "preflight": {
+        "zero_residual_max_abs_error": 0.0,
+        "hf_shifted_loss_error": 0.0,
+        "selected_loss_error": 9.5367431640625e-07,
+        "exact_mask_error": 0.0
+      },
+      "repeat": {
+        "losses": [
+          3.294796973466873,
+          3.294796973466873
+        ],
+        "microbatch_losses": [
+          [
+            0.20080892741680145,
+            0.2350235879421234,
+            0.23284952342510223,
+            0.17660453915596008,
+            0.23053370416164398,
+            0.20952944457530975,
+            0.23219776153564453,
+            0.18979784846305847,
+            0.21817192435264587,
+            0.20320859551429749,
+            0.23123542964458466,
+            0.18849891424179077,
+            0.18397390842437744,
+            0.17907410860061646,
+            0.19411949813365936,
+            0.1891692578792572
+          ],
+          [
+            0.20080892741680145,
+            0.2350235879421234,
+            0.23284952342510223,
+            0.17660453915596008,
+            0.23053370416164398,
+            0.20952944457530975,
+            0.23219776153564453,
+            0.18979784846305847,
+            0.21817192435264587,
+            0.20320859551429749,
+            0.23123542964458466,
+            0.18849891424179077,
+            0.18397390842437744,
+            0.17907410860061646,
+            0.19411949813365936,
+            0.1891692578792572
+          ]
+        ],
+        "loss_absolute_difference": 0.0,
+        "gradient_relative_rms": 0.0,
+        "gradient_max_absolute_difference": 0.0,
+        "gradients_bitwise_equal": true,
+        "gradient_sha256": [
+          "ec40737a370817ff39bc9ccf0b16be34b50d1d97291858b61848c8c1fafdcd4d",
+          "ec40737a370817ff39bc9ccf0b16be34b50d1d97291858b61848c8c1fafdcd4d"
+        ],
+        "loss_tolerance": 0,
+        "gradient_relative_rms_tolerance": 0,
+        "order_sha256": "3c46e3d50c3eb466d5dfd2a0595df830e1826b953188bd0930c4e9e672667c83",
+        "scope": "Same model/device, full first batch, same RNG, no optimizer update. This is not a cross-device or whole-trajectory determinism proof.",
+        "status": "passed"
+      },
+      "initialization": "a36eafe0e804425c93e79c690f933ee56b10a1f0df14342a4f032d1273532d1f",
+      "cross_process_initial_reference": {
+        "status": "passed",
+        "reference_sha256": "204a0a897801b86be5d17b1a577fafd05710a540236c0e25dec6640dbdbeb63f",
+        "reference_key": "trec50:7600",
+        "exact_microbatch_match": true,
+        "scope": "Independent-process first-batch loss parity only; not proof of a whole-training-trajectory invariant."
+      }
+    },
+    {
+      "task": "trec50",
+      "arm": "hidden_budget",
+      "preflight": {
+        "zero_residual_max_abs_error": 0.0,
+        "hf_shifted_loss_error": 0.0,
+        "selected_loss_error": 9.5367431640625e-07,
+        "exact_mask_error": 0.0
+      },
+      "repeat": {
+        "losses": [
+          3.294796973466873,
+          3.294796973466873
+        ],
+        "microbatch_losses": [
+          [
+            0.20080892741680145,
+            0.2350235879421234,
+            0.23284952342510223,
+            0.17660453915596008,
+            0.23053370416164398,
+            0.20952944457530975,
+            0.23219776153564453,
+            0.18979784846305847,
+            0.21817192435264587,
+            0.20320859551429749,
+            0.23123542964458466,
+            0.18849891424179077,
+            0.18397390842437744,
+            0.17907410860061646,
+            0.19411949813365936,
+            0.1891692578792572
+          ],
+          [
+            0.20080892741680145,
+            0.2350235879421234,
+            0.23284952342510223,
+            0.17660453915596008,
+            0.23053370416164398,
+            0.20952944457530975,
+            0.23219776153564453,
+            0.18979784846305847,
+            0.21817192435264587,
+            0.20320859551429749,
+            0.23123542964458466,
+            0.18849891424179077,
+            0.18397390842437744,
+            0.17907410860061646,
+            0.19411949813365936,
+            0.1891692578792572
+          ]
+        ],
+        "loss_absolute_difference": 0.0,
+        "gradient_relative_rms": 0.0,
+        "gradient_max_absolute_difference": 0.0,
+        "gradients_bitwise_equal": true,
+        "gradient_sha256": [
+          "8b9210c86e234ed12e1ae328ed3f1bd169cd9656d15cd3a3e0626344ce306ece",
+          "8b9210c86e234ed12e1ae328ed3f1bd169cd9656d15cd3a3e0626344ce306ece"
+        ],
+        "loss_tolerance": 0,
+        "gradient_relative_rms_tolerance": 0,
+        "order_sha256": "3c46e3d50c3eb466d5dfd2a0595df830e1826b953188bd0930c4e9e672667c83",
+        "scope": "Same model/device, full first batch, same RNG, no optimizer update. This is not a cross-device or whole-trajectory determinism proof.",
+        "status": "passed"
+      },
+      "initialization": "a36eafe0e804425c93e79c690f933ee56b10a1f0df14342a4f032d1273532d1f",
+      "cross_process_initial_reference": {
+        "status": "passed",
+        "reference_sha256": "204a0a897801b86be5d17b1a577fafd05710a540236c0e25dec6640dbdbeb63f",
+        "reference_key": "trec50:7600",
+        "exact_microbatch_match": true,
+        "scope": "Independent-process first-batch loss parity only; not proof of a whole-training-trajectory invariant."
+      }
+    },
+    {
+      "task": "trec50",
+      "arm": "hidden_both",
+      "preflight": {
+        "zero_residual_max_abs_error": 0.0,
+        "hf_shifted_loss_error": 0.0,
+        "selected_loss_error": 9.5367431640625e-07,
+        "exact_mask_error": 0.0
+      },
+      "repeat": {
+        "losses": [
+          3.294796973466873,
+          3.294796973466873
+        ],
+        "microbatch_losses": [
+          [
+            0.20080892741680145,
+            0.2350235879421234,
+            0.23284952342510223,
+            0.17660453915596008,
+            0.23053370416164398,
+            0.20952944457530975,
+            0.23219776153564453,
+            0.18979784846305847,
+            0.21817192435264587,
+            0.20320859551429749,
+            0.23123542964458466,
+            0.18849891424179077,
+            0.18397390842437744,
+            0.17907410860061646,
+            0.19411949813365936,
+            0.1891692578792572
+          ],
+          [
+            0.20080892741680145,
+            0.2350235879421234,
+            0.23284952342510223,
+            0.17660453915596008,
+            0.23053370416164398,
+            0.20952944457530975,
+            0.23219776153564453,
+            0.18979784846305847,
+            0.21817192435264587,
+            0.20320859551429749,
+            0.23123542964458466,
+            0.18849891424179077,
+            0.18397390842437744,
+            0.17907410860061646,
+            0.19411949813365936,
+            0.1891692578792572
+          ]
+        ],
+        "loss_absolute_difference": 0.0,
+        "gradient_relative_rms": 0.0,
+        "gradient_max_absolute_difference": 0.0,
+        "gradients_bitwise_equal": true,
+        "gradient_sha256": [
+          "c8a912d5350b97971a8349ba8c6c89654774d52c3725fd38d45f3f4ef450a16b",
+          "c8a912d5350b97971a8349ba8c6c89654774d52c3725fd38d45f3f4ef450a16b"
+        ],
+        "loss_tolerance": 0,
+        "gradient_relative_rms_tolerance": 0,
+        "order_sha256": "3c46e3d50c3eb466d5dfd2a0595df830e1826b953188bd0930c4e9e672667c83",
+        "scope": "Same model/device, full first batch, same RNG, no optimizer update. This is not a cross-device or whole-trajectory determinism proof.",
+        "status": "passed"
+      },
+      "initialization": "a36eafe0e804425c93e79c690f933ee56b10a1f0df14342a4f032d1273532d1f"
+    }
+  ]
+}

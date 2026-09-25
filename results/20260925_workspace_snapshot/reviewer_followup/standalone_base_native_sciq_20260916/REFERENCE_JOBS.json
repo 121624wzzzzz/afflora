@@ -1,0 +1,20 @@
+[
+  {
+    "phase": "reference",
+    "name": "reference_qwen3_06b_base_base_sd5001_lr0",
+    "model": "qwen3_06b_base",
+    "arm": "base",
+    "seed": 5001,
+    "lr": 0.0,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/reference_qwen3_06b_base_base_sd5001_lr0"
+  },
+  {
+    "phase": "reference",
+    "name": "reference_qwen25_15b_base_base_sd5001_lr0",
+    "model": "qwen25_15b_base",
+    "arm": "base",
+    "seed": 5001,
+    "lr": 0.0,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/standalone_base_native_sciq_20260916/checkpoints/reference_qwen25_15b_base_base_sd5001_lr0"
+  }
+]

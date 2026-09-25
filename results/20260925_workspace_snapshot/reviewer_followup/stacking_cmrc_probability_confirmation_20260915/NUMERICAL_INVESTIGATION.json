@@ -1,0 +1,230 @@
+{
+  "status": "investigated",
+  "checked_at": "2026-09-15T14:36:10+08:00",
+  "rows": [
+    {
+      "id": "TRAIN_54_QUERY_0",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 2.86102294921875e-06,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 0.00011801719665527344,
+          "prob_diff": 1.6399488811850809e-09,
+          "worst_index": 0,
+          "worst_loss": 2.801621437072754,
+          "reference_loss": 2.801739454269409
+        },
+        "2_0": {
+          "max_loss_diff": 6.0558319091796875e-05,
+          "prob_diff": 1.1017158069016419e-10,
+          "worst_index": 0,
+          "worst_loss": 2.801621437072754,
+          "reference_loss": 2.8016819953918457
+        },
+        "2_17": {
+          "max_loss_diff": 5.14984130859375e-05,
+          "prob_diff": 5.120187910063871e-10,
+          "worst_index": 0,
+          "worst_loss": 2.801621437072754,
+          "reference_loss": 2.80167293548584
+        }
+      }
+    },
+    {
+      "id": "TRAIN_54_QUERY_1",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 5.7220458984375e-06,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 3.337860107421875e-05,
+          "prob_diff": -4.525091791562647e-09,
+          "worst_index": 0,
+          "worst_loss": 8.84414291381836,
+          "reference_loss": 8.844109535217285
+        },
+        "2_0": {
+          "max_loss_diff": 1.9073486328125e-06,
+          "prob_diff": 2.3329976188771195e-11,
+          "worst_index": 0,
+          "worst_loss": 8.84414291381836,
+          "reference_loss": 8.844144821166992
+        },
+        "2_17": {
+          "max_loss_diff": 2.09808349609375e-05,
+          "prob_diff": -2.99113191542231e-09,
+          "worst_index": 0,
+          "worst_loss": 8.84414291381836,
+          "reference_loss": 8.844121932983398
+        }
+      }
+    },
+    {
+      "id": "TRAIN_54_QUERY_2",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 1.5556812286376953e-05,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 3.2961368560791016e-05,
+          "prob_diff": -1.0473974138835995e-06,
+          "worst_index": 13,
+          "worst_loss": 0.5203489661216736,
+          "reference_loss": 0.5203160047531128
+        },
+        "2_0": {
+          "max_loss_diff": 1.233816146850586e-05,
+          "prob_diff": -4.201421849925335e-06,
+          "worst_index": 13,
+          "worst_loss": 0.5203489661216736,
+          "reference_loss": 0.5203366279602051
+        },
+        "2_17": {
+          "max_loss_diff": 2.0205974578857422e-05,
+          "prob_diff": -5.886657506615212e-06,
+          "worst_index": 13,
+          "worst_loss": 0.5203489661216736,
+          "reference_loss": 0.5203287601470947
+        }
+      }
+    },
+    {
+      "id": "TRAIN_54_QUERY_3",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 1.1874362826347351e-07,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 0.0,
+          "prob_diff": 0.0,
+          "worst_index": 0,
+          "worst_loss": 5.9252471923828125,
+          "reference_loss": 5.9252471923828125
+        },
+        "2_0": {
+          "max_loss_diff": 2.0503997802734375e-05,
+          "prob_diff": 5.412216092957542e-08,
+          "worst_index": 0,
+          "worst_loss": 5.9252471923828125,
+          "reference_loss": 5.925267696380615
+        },
+        "2_17": {
+          "max_loss_diff": 2.0503997802734375e-05,
+          "prob_diff": 5.412216092957542e-08,
+          "worst_index": 0,
+          "worst_loss": 5.9252471923828125,
+          "reference_loss": 5.925267696380615
+        }
+      }
+    },
+    {
+      "id": "TRAIN_214_QUERY_0",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 9.059906005859375e-06,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 0.0,
+          "prob_diff": 0.0,
+          "worst_index": 0,
+          "worst_loss": 4.270033836364746,
+          "reference_loss": 4.270033836364746
+        },
+        "2_0": {
+          "max_loss_diff": 2.288818359375e-05,
+          "prob_diff": -2.596959916782021e-07,
+          "worst_index": 0,
+          "worst_loss": 4.270033836364746,
+          "reference_loss": 4.270010948181152
+        },
+        "2_17": {
+          "max_loss_diff": 2.288818359375e-05,
+          "prob_diff": -2.596959916782021e-07,
+          "worst_index": 0,
+          "worst_loss": 4.270033836364746,
+          "reference_loss": 4.270010948181152
+        }
+      }
+    },
+    {
+      "id": "TRAIN_214_QUERY_1",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 0.0,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 0.0,
+          "prob_diff": 0.0,
+          "worst_index": 0,
+          "worst_loss": 1.7281737327575684,
+          "reference_loss": 1.7281737327575684
+        },
+        "2_0": {
+          "max_loss_diff": 3.540515899658203e-05,
+          "prob_diff": 5.031923037635e-06,
+          "worst_index": 0,
+          "worst_loss": 1.7281737327575684,
+          "reference_loss": 1.728209137916565
+        },
+        "2_17": {
+          "max_loss_diff": 3.540515899658203e-05,
+          "prob_diff": 5.031923037635e-06,
+          "worst_index": 0,
+          "worst_loss": 1.7281737327575684,
+          "reference_loss": 1.728209137916565
+        }
+      }
+    },
+    {
+      "id": "TRAIN_214_QUERY_2",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 0.0,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 0.0,
+          "prob_diff": 0.0,
+          "worst_index": 0,
+          "worst_loss": 5.417446136474609,
+          "reference_loss": 5.417446136474609
+        },
+        "2_0": {
+          "max_loss_diff": 0.000110626220703125,
+          "prob_diff": -4.094822655697529e-07,
+          "worst_index": 0,
+          "worst_loss": 5.417446136474609,
+          "reference_loss": 5.417335510253906
+        },
+        "2_17": {
+          "max_loss_diff": 0.000110626220703125,
+          "prob_diff": -4.094822655697529e-07,
+          "worst_index": 0,
+          "worst_loss": 5.417446136474609,
+          "reference_loss": 5.417335510253906
+        }
+      }
+    },
+    {
+      "id": "TRAIN_214_QUERY_3",
+      "canonical_replay_exact": true,
+      "full_logits_max_diff": 0.0,
+      "variants": {
+        "1_17": {
+          "max_loss_diff": 0.0,
+          "prob_diff": 0.0,
+          "worst_index": 0,
+          "worst_loss": 3.7235329151153564,
+          "reference_loss": 3.7235329151153564
+        },
+        "2_0": {
+          "max_loss_diff": 0.0001888275146484375,
+          "prob_diff": -3.518176866588313e-06,
+          "worst_index": 0,
+          "worst_loss": 3.7235329151153564,
+          "reference_loss": 3.723344087600708
+        },
+        "2_17": {
+          "max_loss_diff": 0.00020885467529296875,
+          "prob_diff": -3.647388969074683e-06,
+          "worst_index": 0,
+          "worst_loss": 3.7235329151153564,
+          "reference_loss": 3.7233240604400635
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1995 @@
+{
+  "experiment": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25",
+  "ifeval_dir": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/ifeval_final",
+  "final_selection": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/output_only_equal_budget_qwen25/final_selection.json",
+  "selected_hyperparameters": {
+    "aff_r50": {
+      "scale": 16,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "seed42_run_name": "qwen25_15b_out_aff_r50_s16_sd42",
+      "dev_avg_ce_used_for_selection": 1.102785798905362
+    },
+    "vocab_r1": {
+      "scale": 32,
+      "boundary_lr_scale": 1.0,
+      "boundary_learning_rate": 0.0002,
+      "seed42_run_name": "qwen25_15b_out_vocab_r1_s32_sd42",
+      "dev_avg_ce_used_for_selection": 0.9997326839172337
+    }
+  },
+  "requested_seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "scope": "final_exact_eight_runs",
+  "validation": {
+    "status": "passed",
+    "canonical_prompts": 541,
+    "canonical_pair_alignment": "passed",
+    "methods": [
+      "aff_r50",
+      "vocab_r1"
+    ],
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "runs_validated": 8,
+    "response_artifacts_validated": 8,
+    "strict_score_artifacts_validated": 8,
+    "loose_score_artifacts_validated": 8,
+    "exact_final_artifact_set_required_and_passed": true,
+    "run_names": {
+      "aff_r50_seed42": "qwen25_15b_out_aff_r50_s16_sd42",
+      "vocab_r1_seed42": "qwen25_15b_out_vocab_r1_s32_sd42",
+      "aff_r50_seed43": "qwen25_15b_out_aff_r50_s16_sd43",
+      "vocab_r1_seed43": "qwen25_15b_out_vocab_r1_s32_sd43",
+      "aff_r50_seed44": "qwen25_15b_out_aff_r50_s16_sd44",
+      "vocab_r1_seed44": "qwen25_15b_out_vocab_r1_s32_sd44",
+      "aff_r50_seed45": "qwen25_15b_out_aff_r50_s16_sd45",
+      "vocab_r1_seed45": "qwen25_15b_out_vocab_r1_s32_sd45"
+    }
+  },
+  "response_length_and_cutoff_diagnostics": {
+    "character_definition": "Python Unicode code points via len(text)",
+    "word_proxy_definition": "non-empty whitespace-separated units",
+    "max_new_tokens_used_by_launcher": 512,
+    "important_limitation": "The current generator does not record generated-token counts or finish reasons. Therefore max-token truncation is not directly observable; nonterminal-ending counts are heuristic signals only.",
+    "per_seed": {
+      "42": {
+        "aff_r50": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 1651.1719038817005,
+            "median": 1666,
+            "p05": 644.0,
+            "p95": 2561.0,
+            "min": 380,
+            "max": 3628
+          },
+          "whitespace_separated_units": {
+            "mean": 239.19593345656193,
+            "median": 257,
+            "p05": 55.0,
+            "p95": 388.0,
+            "min": 2,
+            "max": 507
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 451,
+          "long_p90_and_nonterminal_heuristic_count": 52,
+          "long_p90_character_threshold": 2388.0,
+          "replacement_character_response_count": 18,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "vocab_r1": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 1716.7005545286506,
+            "median": 1854,
+            "p05": 610.0,
+            "p95": 2563.0,
+            "min": 83,
+            "max": 3021
+          },
+          "whitespace_separated_units": {
+            "mean": 282.11645101663584,
+            "median": 318,
+            "p05": 80.0,
+            "p95": 420.0,
+            "min": 5,
+            "max": 456
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 405,
+          "long_p90_and_nonterminal_heuristic_count": 51,
+          "long_p90_character_threshold": 2416.0,
+          "replacement_character_response_count": 2,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "paired_aff_minus_vocab": {
+          "characters": {
+            "mean_delta_aff_minus_vocab": -65.5286506469501,
+            "median_delta_aff_minus_vocab": -61,
+            "aff_longer_count": 246,
+            "vocab_longer_count": 293,
+            "equal_count": 2
+          },
+          "whitespace_separated_units": {
+            "mean_delta_aff_minus_vocab": -42.92051756007394,
+            "median_delta_aff_minus_vocab": -39,
+            "aff_longer_count": 197,
+            "vocab_longer_count": 340,
+            "equal_count": 4
+          },
+          "generated_tokens": {
+            "available": false,
+            "reason": "one or both paired artifacts lack generated-token metadata"
+          }
+        }
+      },
+      "43": {
+        "aff_r50": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 1621.7744916820702,
+            "median": 1699,
+            "p05": 573.0,
+            "p95": 2547.0,
+            "min": 308,
+            "max": 4186
+          },
+          "whitespace_separated_units": {
+            "mean": 241.23290203327173,
+            "median": 254,
+            "p05": 53.0,
+            "p95": 402.0,
+            "min": 5,
+            "max": 502
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 448,
+          "long_p90_and_nonterminal_heuristic_count": 49,
+          "long_p90_character_threshold": 2414.0,
+          "replacement_character_response_count": 62,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "vocab_r1": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 1441.619223659889,
+            "median": 1637,
+            "p05": 213.0,
+            "p95": 2563.0,
+            "min": 33,
+            "max": 3135
+          },
+          "whitespace_separated_units": {
+            "mean": 234.28835489833642,
+            "median": 256,
+            "p05": 35.0,
+            "p95": 418.0,
+            "min": 1,
+            "max": 510
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 277,
+          "long_p90_and_nonterminal_heuristic_count": 50,
+          "long_p90_character_threshold": 2452.0,
+          "replacement_character_response_count": 4,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "paired_aff_minus_vocab": {
+          "characters": {
+            "mean_delta_aff_minus_vocab": 180.15526802218113,
+            "median_delta_aff_minus_vocab": 124,
+            "aff_longer_count": 300,
+            "vocab_longer_count": 241,
+            "equal_count": 0
+          },
+          "whitespace_separated_units": {
+            "mean_delta_aff_minus_vocab": 6.944547134935305,
+            "median_delta_aff_minus_vocab": 4,
+            "aff_longer_count": 275,
+            "vocab_longer_count": 264,
+            "equal_count": 2
+          },
+          "generated_tokens": {
+            "available": false,
+            "reason": "one or both paired artifacts lack generated-token metadata"
+          }
+        }
+      },
+      "44": {
+        "aff_r50": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 1780.81146025878,
+            "median": 1774,
+            "p05": 646.0,
+            "p95": 3071.0,
+            "min": 250,
+            "max": 4031
+          },
+          "whitespace_separated_units": {
+            "mean": 220.02218114602587,
+            "median": 237,
+            "p05": 34.0,
+            "p95": 396.0,
+            "min": 1,
+            "max": 507
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 468,
+          "long_p90_and_nonterminal_heuristic_count": 52,
+          "long_p90_character_threshold": 2627.0,
+          "replacement_character_response_count": 44,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "vocab_r1": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 1313.1146025878004,
+            "median": 1321,
+            "p05": 186.0,
+            "p95": 2453.0,
+            "min": 11,
+            "max": 3053
+          },
+          "whitespace_separated_units": {
+            "mean": 215.23105360443623,
+            "median": 214,
+            "p05": 30.0,
+            "p95": 397.0,
+            "min": 1,
+            "max": 438
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 295,
+          "long_p90_and_nonterminal_heuristic_count": 47,
+          "long_p90_character_threshold": 2298.0,
+          "replacement_character_response_count": 9,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "paired_aff_minus_vocab": {
+          "characters": {
+            "mean_delta_aff_minus_vocab": 467.6968576709797,
+            "median_delta_aff_minus_vocab": 396,
+            "aff_longer_count": 376,
+            "vocab_longer_count": 165,
+            "equal_count": 0
+          },
+          "whitespace_separated_units": {
+            "mean_delta_aff_minus_vocab": 4.791127541589649,
+            "median_delta_aff_minus_vocab": 3,
+            "aff_longer_count": 275,
+            "vocab_longer_count": 264,
+            "equal_count": 2
+          },
+          "generated_tokens": {
+            "available": false,
+            "reason": "one or both paired artifacts lack generated-token metadata"
+          }
+        }
+      },
+      "45": {
+        "aff_r50": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 1696.1756007393715,
+            "median": 1739,
+            "p05": 625.0,
+            "p95": 2656.0,
+            "min": 356,
+            "max": 3839
+          },
+          "whitespace_separated_units": {
+            "mean": 239.1238447319778,
+            "median": 245,
+            "p05": 56.0,
+            "p95": 391.0,
+            "min": 5,
+            "max": 469
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 435,
+          "long_p90_and_nonterminal_heuristic_count": 53,
+          "long_p90_character_threshold": 2458.0,
+          "replacement_character_response_count": 64,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "vocab_r1": {
+          "n_responses": 541,
+          "unicode_codepoint_characters": {
+            "mean": 993.2329020332717,
+            "median": 753,
+            "p05": 152.0,
+            "p95": 2313.0,
+            "min": 16,
+            "max": 5395
+          },
+          "whitespace_separated_units": {
+            "mean": 156.89648798521256,
+            "median": 117,
+            "p05": 25.0,
+            "p95": 382.0,
+            "min": 4,
+            "max": 509
+          },
+          "empty_response_count": 0,
+          "empty_response_rate": 0.0,
+          "very_short_le_10_characters_count": 0,
+          "nonterminal_ending_heuristic_count": 165,
+          "long_p90_and_nonterminal_heuristic_count": 41,
+          "long_p90_character_threshold": 2158.0,
+          "replacement_character_response_count": 5,
+          "generated_token_count": {
+            "available": false,
+            "reason": "response artifacts contain neither generated-token counts nor generated-token id lists"
+          },
+          "explicit_cutoff_signal": {
+            "observable": false,
+            "count": null,
+            "rate": null,
+            "reason": "no token counts, finish_reason, or explicit truncation flags were recorded; text-ending heuristics are not proof of max-token truncation"
+          }
+        },
+        "paired_aff_minus_vocab": {
+          "characters": {
+            "mean_delta_aff_minus_vocab": 702.9426987060998,
+            "median_delta_aff_minus_vocab": 735,
+            "aff_longer_count": 432,
+            "vocab_longer_count": 109,
+            "equal_count": 0
+          },
+          "whitespace_separated_units": {
+            "mean_delta_aff_minus_vocab": 82.22735674676525,
+            "median_delta_aff_minus_vocab": 85,
+            "aff_longer_count": 392,
+            "vocab_longer_count": 147,
+            "equal_count": 2
+          },
+          "generated_tokens": {
+            "available": false,
+            "reason": "one or both paired artifacts lack generated-token metadata"
+          }
+        }
+      }
+    }
+  },
+  "paired_prompt_directions": {
+    "unit": "paired prompt within each separately trained seed",
+    "per_seed": {
+      "42": {
+        "strict": {
+          "aff_success": 123,
+          "vocab_success": 112,
+          "aff_accuracy": 0.22735674676524953,
+          "vocab_accuracy": 0.20702402957486138,
+          "delta_accuracy_aff_minus_vocab": 0.02033271719038817,
+          "paired_prompt_cells": {
+            "both_success": 75,
+            "aff_only_success": 48,
+            "vocab_only_success": 37,
+            "both_failure": 381
+          }
+        },
+        "loose": {
+          "aff_success": 138,
+          "vocab_success": 128,
+          "aff_accuracy": 0.25508317929759705,
+          "vocab_accuracy": 0.2365988909426987,
+          "delta_accuracy_aff_minus_vocab": 0.018484288354898338,
+          "paired_prompt_cells": {
+            "both_success": 82,
+            "aff_only_success": 56,
+            "vocab_only_success": 46,
+            "both_failure": 357
+          }
+        }
+      },
+      "43": {
+        "strict": {
+          "aff_success": 126,
+          "vocab_success": 117,
+          "aff_accuracy": 0.23290203327171904,
+          "vocab_accuracy": 0.21626617375231053,
+          "delta_accuracy_aff_minus_vocab": 0.0166358595194085,
+          "paired_prompt_cells": {
+            "both_success": 75,
+            "aff_only_success": 51,
+            "vocab_only_success": 42,
+            "both_failure": 373
+          }
+        },
+        "loose": {
+          "aff_success": 136,
+          "vocab_success": 133,
+          "aff_accuracy": 0.2513863216266174,
+          "vocab_accuracy": 0.24584103512014788,
+          "delta_accuracy_aff_minus_vocab": 0.005545286506469501,
+          "paired_prompt_cells": {
+            "both_success": 81,
+            "aff_only_success": 55,
+            "vocab_only_success": 52,
+            "both_failure": 353
+          }
+        }
+      },
+      "44": {
+        "strict": {
+          "aff_success": 113,
+          "vocab_success": 113,
+          "aff_accuracy": 0.2088724584103512,
+          "vocab_accuracy": 0.2088724584103512,
+          "delta_accuracy_aff_minus_vocab": 0.0,
+          "paired_prompt_cells": {
+            "both_success": 72,
+            "aff_only_success": 41,
+            "vocab_only_success": 41,
+            "both_failure": 387
+          }
+        },
+        "loose": {
+          "aff_success": 126,
+          "vocab_success": 124,
+          "aff_accuracy": 0.23290203327171904,
+          "vocab_accuracy": 0.22920517560073936,
+          "delta_accuracy_aff_minus_vocab": 0.0036968576709796672,
+          "paired_prompt_cells": {
+            "both_success": 77,
+            "aff_only_success": 49,
+            "vocab_only_success": 47,
+            "both_failure": 368
+          }
+        }
+      },
+      "45": {
+        "strict": {
+          "aff_success": 117,
+          "vocab_success": 124,
+          "aff_accuracy": 0.21626617375231053,
+          "vocab_accuracy": 0.22920517560073936,
+          "delta_accuracy_aff_minus_vocab": -0.012939001848428836,
+          "paired_prompt_cells": {
+            "both_success": 71,
+            "aff_only_success": 46,
+            "vocab_only_success": 53,
+            "both_failure": 371
+          }
+        },
+        "loose": {
+          "aff_success": 134,
+          "vocab_success": 141,
+          "aff_accuracy": 0.2476894639556377,
+          "vocab_accuracy": 0.26062846580406657,
+          "delta_accuracy_aff_minus_vocab": -0.012939001848428836,
+          "paired_prompt_cells": {
+            "both_success": 85,
+            "aff_only_success": 49,
+            "vocab_only_success": 56,
+            "both_failure": 351
+          }
+        }
+      }
+    },
+    "independent_seeds_43_45_descriptive": {
+      "strict": {
+        "seeds": [
+          43,
+          44,
+          45
+        ],
+        "mean_seed_delta_accuracy_aff_minus_vocab": 0.0012322858903265552,
+        "aff_better_seed_count": 1,
+        "vocab_better_seed_count": 1,
+        "tied_seed_count": 1,
+        "role": "descriptive cross-seed direction only; formal seed-level uncertainty is reported in ifeval_summary.json"
+      },
+      "loose": {
+        "seeds": [
+          43,
+          44,
+          45
+        ],
+        "mean_seed_delta_accuracy_aff_minus_vocab": -0.001232285890326556,
+        "aff_better_seed_count": 2,
+        "vocab_better_seed_count": 1,
+        "tied_seed_count": 0,
+        "role": "descriptive cross-seed direction only; formal seed-level uncertainty is reported in ifeval_summary.json"
+      }
+    },
+    "selected_seed42_is_separate": true
+  },
+  "strict_instruction_family_analysis": {
+    "important_limitation": "Rows are instruction checks nested within prompts and trained seeds. Pooled family counts are descriptive and must not be presented as independent-seed significance.",
+    "independent_seeds_43_45": {
+      "seeds": [
+        43,
+        44,
+        45
+      ],
+      "aggregation_unit": "instruction checks nested within prompts and trained seeds; descriptive only, not independent seed-level inference",
+      "family_definition": "prefix before ':' in instruction_id",
+      "pooled_descriptive": {
+        "change_case": {
+          "instruction_observations": 267,
+          "unique_instruction_slots": 89,
+          "unique_prompts": 84,
+          "aff_success": 39,
+          "vocab_success": 41,
+          "aff_success_rate": 0.14606741573033707,
+          "vocab_success_rate": 0.15355805243445692,
+          "delta_success_rate_aff_minus_vocab": -0.00749063670411985,
+          "paired_instruction_cells": {
+            "both_success": 26,
+            "aff_only_success": 13,
+            "vocab_only_success": 15,
+            "both_failure": 213
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": -0.011235955056179775,
+            "44": -0.02247191011235955,
+            "45": 0.011235955056179775
+          }
+        },
+        "combination": {
+          "instruction_observations": 195,
+          "unique_instruction_slots": 65,
+          "unique_prompts": 65,
+          "aff_success": 28,
+          "vocab_success": 7,
+          "aff_success_rate": 0.14358974358974358,
+          "vocab_success_rate": 0.035897435897435895,
+          "delta_success_rate_aff_minus_vocab": 0.1076923076923077,
+          "paired_instruction_cells": {
+            "both_success": 3,
+            "aff_only_success": 25,
+            "vocab_only_success": 4,
+            "both_failure": 163
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": 0.09230769230769231,
+            "44": 0.1076923076923077,
+            "45": 0.12307692307692308
+          }
+        },
+        "detectable_content": {
+          "instruction_observations": 159,
+          "unique_instruction_slots": 53,
+          "unique_prompts": 52,
+          "aff_success": 100,
+          "vocab_success": 98,
+          "aff_success_rate": 0.6289308176100629,
+          "vocab_success_rate": 0.6163522012578616,
+          "delta_success_rate_aff_minus_vocab": 0.012578616352201259,
+          "paired_instruction_cells": {
+            "both_success": 72,
+            "aff_only_success": 28,
+            "vocab_only_success": 26,
+            "both_failure": 33
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": -0.05660377358490566,
+            "44": 0.18867924528301888,
+            "45": -0.09433962264150944
+          }
+        },
+        "detectable_format": {
+          "instruction_observations": 471,
+          "unique_instruction_slots": 157,
+          "unique_prompts": 155,
+          "aff_success": 245,
+          "vocab_success": 237,
+          "aff_success_rate": 0.5201698513800425,
+          "vocab_success_rate": 0.5031847133757962,
+          "delta_success_rate_aff_minus_vocab": 0.016985138004246284,
+          "paired_instruction_cells": {
+            "both_success": 185,
+            "aff_only_success": 60,
+            "vocab_only_success": 52,
+            "both_failure": 174
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": 0.05732484076433121,
+            "44": 0.012738853503184714,
+            "45": -0.01910828025477707
+          }
+        },
+        "keywords": {
+          "instruction_observations": 489,
+          "unique_instruction_slots": 163,
+          "unique_prompts": 148,
+          "aff_success": 225,
+          "vocab_success": 239,
+          "aff_success_rate": 0.4601226993865031,
+          "vocab_success_rate": 0.4887525562372188,
+          "delta_success_rate_aff_minus_vocab": -0.028629856850715747,
+          "paired_instruction_cells": {
+            "both_success": 163,
+            "aff_only_success": 62,
+            "vocab_only_success": 76,
+            "both_failure": 188
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": -0.07975460122699386,
+            "44": 0.03680981595092025,
+            "45": -0.04294478527607362
+          }
+        },
+        "language": {
+          "instruction_observations": 93,
+          "unique_instruction_slots": 31,
+          "unique_prompts": 31,
+          "aff_success": 52,
+          "vocab_success": 45,
+          "aff_success_rate": 0.5591397849462365,
+          "vocab_success_rate": 0.4838709677419355,
+          "delta_success_rate_aff_minus_vocab": 0.07526881720430108,
+          "paired_instruction_cells": {
+            "both_success": 30,
+            "aff_only_success": 22,
+            "vocab_only_success": 15,
+            "both_failure": 26
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": 0.25806451612903225,
+            "44": -0.06451612903225806,
+            "45": 0.03225806451612903
+          }
+        },
+        "length_constraints": {
+          "instruction_observations": 429,
+          "unique_instruction_slots": 143,
+          "unique_prompts": 133,
+          "aff_success": 119,
+          "vocab_success": 134,
+          "aff_success_rate": 0.2773892773892774,
+          "vocab_success_rate": 0.3123543123543124,
+          "delta_success_rate_aff_minus_vocab": -0.03496503496503497,
+          "paired_instruction_cells": {
+            "both_success": 72,
+            "aff_only_success": 47,
+            "vocab_only_success": 62,
+            "both_failure": 248
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": -0.03496503496503497,
+            "44": -0.04895104895104895,
+            "45": -0.02097902097902098
+          }
+        },
+        "punctuation": {
+          "instruction_observations": 198,
+          "unique_instruction_slots": 66,
+          "unique_prompts": 66,
+          "aff_success": 39,
+          "vocab_success": 29,
+          "aff_success_rate": 0.19696969696969696,
+          "vocab_success_rate": 0.14646464646464646,
+          "delta_success_rate_aff_minus_vocab": 0.050505050505050504,
+          "paired_instruction_cells": {
+            "both_success": 16,
+            "aff_only_success": 23,
+            "vocab_only_success": 13,
+            "both_failure": 146
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": 0.06060606060606061,
+            "44": 0.10606060606060606,
+            "45": -0.015151515151515152
+          }
+        },
+        "startend": {
+          "instruction_observations": 201,
+          "unique_instruction_slots": 67,
+          "unique_prompts": 66,
+          "aff_success": 1,
+          "vocab_success": 26,
+          "aff_success_rate": 0.004975124378109453,
+          "vocab_success_rate": 0.12935323383084577,
+          "delta_success_rate_aff_minus_vocab": -0.12437810945273632,
+          "paired_instruction_cells": {
+            "both_success": 0,
+            "aff_only_success": 1,
+            "vocab_only_success": 26,
+            "both_failure": 174
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "43": -0.04477611940298507,
+            "44": -0.08955223880597014,
+            "45": -0.23880597014925373
+          }
+        }
+      },
+      "per_seed": {
+        "43": {
+          "change_case": {
+            "instruction_observations": 89,
+            "unique_instruction_slots": 89,
+            "unique_prompts": 84,
+            "aff_success": 13,
+            "vocab_success": 14,
+            "aff_success_rate": 0.14606741573033707,
+            "vocab_success_rate": 0.15730337078651685,
+            "delta_success_rate_aff_minus_vocab": -0.011235955056179775,
+            "paired_instruction_cells": {
+              "both_success": 8,
+              "aff_only_success": 5,
+              "vocab_only_success": 6,
+              "both_failure": 70
+            }
+          },
+          "combination": {
+            "instruction_observations": 65,
+            "unique_instruction_slots": 65,
+            "unique_prompts": 65,
+            "aff_success": 8,
+            "vocab_success": 2,
+            "aff_success_rate": 0.12307692307692308,
+            "vocab_success_rate": 0.03076923076923077,
+            "delta_success_rate_aff_minus_vocab": 0.09230769230769231,
+            "paired_instruction_cells": {
+              "both_success": 1,
+              "aff_only_success": 7,
+              "vocab_only_success": 1,
+              "both_failure": 56
+            }
+          },
+          "detectable_content": {
+            "instruction_observations": 53,
+            "unique_instruction_slots": 53,
+            "unique_prompts": 52,
+            "aff_success": 37,
+            "vocab_success": 40,
+            "aff_success_rate": 0.6981132075471698,
+            "vocab_success_rate": 0.7547169811320755,
+            "delta_success_rate_aff_minus_vocab": -0.05660377358490566,
+            "paired_instruction_cells": {
+              "both_success": 31,
+              "aff_only_success": 6,
+              "vocab_only_success": 9,
+              "both_failure": 7
+            }
+          },
+          "detectable_format": {
+            "instruction_observations": 157,
+            "unique_instruction_slots": 157,
+            "unique_prompts": 155,
+            "aff_success": 83,
+            "vocab_success": 74,
+            "aff_success_rate": 0.5286624203821656,
+            "vocab_success_rate": 0.4713375796178344,
+            "delta_success_rate_aff_minus_vocab": 0.05732484076433121,
+            "paired_instruction_cells": {
+              "both_success": 60,
+              "aff_only_success": 23,
+              "vocab_only_success": 14,
+              "both_failure": 60
+            }
+          },
+          "keywords": {
+            "instruction_observations": 163,
+            "unique_instruction_slots": 163,
+            "unique_prompts": 148,
+            "aff_success": 75,
+            "vocab_success": 88,
+            "aff_success_rate": 0.4601226993865031,
+            "vocab_success_rate": 0.5398773006134969,
+            "delta_success_rate_aff_minus_vocab": -0.07975460122699386,
+            "paired_instruction_cells": {
+              "both_success": 58,
+              "aff_only_success": 17,
+              "vocab_only_success": 30,
+              "both_failure": 58
+            }
+          },
+          "language": {
+            "instruction_observations": 31,
+            "unique_instruction_slots": 31,
+            "unique_prompts": 31,
+            "aff_success": 19,
+            "vocab_success": 11,
+            "aff_success_rate": 0.6129032258064516,
+            "vocab_success_rate": 0.3548387096774194,
+            "delta_success_rate_aff_minus_vocab": 0.25806451612903225,
+            "paired_instruction_cells": {
+              "both_success": 8,
+              "aff_only_success": 11,
+              "vocab_only_success": 3,
+              "both_failure": 9
+            }
+          },
+          "length_constraints": {
+            "instruction_observations": 143,
+            "unique_instruction_slots": 143,
+            "unique_prompts": 133,
+            "aff_success": 37,
+            "vocab_success": 42,
+            "aff_success_rate": 0.25874125874125875,
+            "vocab_success_rate": 0.2937062937062937,
+            "delta_success_rate_aff_minus_vocab": -0.03496503496503497,
+            "paired_instruction_cells": {
+              "both_success": 19,
+              "aff_only_success": 18,
+              "vocab_only_success": 23,
+              "both_failure": 83
+            }
+          },
+          "punctuation": {
+            "instruction_observations": 66,
+            "unique_instruction_slots": 66,
+            "unique_prompts": 66,
+            "aff_success": 14,
+            "vocab_success": 10,
+            "aff_success_rate": 0.21212121212121213,
+            "vocab_success_rate": 0.15151515151515152,
+            "delta_success_rate_aff_minus_vocab": 0.06060606060606061,
+            "paired_instruction_cells": {
+              "both_success": 8,
+              "aff_only_success": 6,
+              "vocab_only_success": 2,
+              "both_failure": 50
+            }
+          },
+          "startend": {
+            "instruction_observations": 67,
+            "unique_instruction_slots": 67,
+            "unique_prompts": 66,
+            "aff_success": 1,
+            "vocab_success": 4,
+            "aff_success_rate": 0.014925373134328358,
+            "vocab_success_rate": 0.05970149253731343,
+            "delta_success_rate_aff_minus_vocab": -0.04477611940298507,
+            "paired_instruction_cells": {
+              "both_success": 0,
+              "aff_only_success": 1,
+              "vocab_only_success": 4,
+              "both_failure": 62
+            }
+          }
+        },
+        "44": {
+          "change_case": {
+            "instruction_observations": 89,
+            "unique_instruction_slots": 89,
+            "unique_prompts": 84,
+            "aff_success": 12,
+            "vocab_success": 14,
+            "aff_success_rate": 0.1348314606741573,
+            "vocab_success_rate": 0.15730337078651685,
+            "delta_success_rate_aff_minus_vocab": -0.02247191011235955,
+            "paired_instruction_cells": {
+              "both_success": 9,
+              "aff_only_success": 3,
+              "vocab_only_success": 5,
+              "both_failure": 72
+            }
+          },
+          "combination": {
+            "instruction_observations": 65,
+            "unique_instruction_slots": 65,
+            "unique_prompts": 65,
+            "aff_success": 8,
+            "vocab_success": 1,
+            "aff_success_rate": 0.12307692307692308,
+            "vocab_success_rate": 0.015384615384615385,
+            "delta_success_rate_aff_minus_vocab": 0.1076923076923077,
+            "paired_instruction_cells": {
+              "both_success": 0,
+              "aff_only_success": 8,
+              "vocab_only_success": 1,
+              "both_failure": 56
+            }
+          },
+          "detectable_content": {
+            "instruction_observations": 53,
+            "unique_instruction_slots": 53,
+            "unique_prompts": 52,
+            "aff_success": 32,
+            "vocab_success": 22,
+            "aff_success_rate": 0.6037735849056604,
+            "vocab_success_rate": 0.41509433962264153,
+            "delta_success_rate_aff_minus_vocab": 0.18867924528301888,
+            "paired_instruction_cells": {
+              "both_success": 15,
+              "aff_only_success": 17,
+              "vocab_only_success": 7,
+              "both_failure": 14
+            }
+          },
+          "detectable_format": {
+            "instruction_observations": 157,
+            "unique_instruction_slots": 157,
+            "unique_prompts": 155,
+            "aff_success": 83,
+            "vocab_success": 81,
+            "aff_success_rate": 0.5286624203821656,
+            "vocab_success_rate": 0.5159235668789809,
+            "delta_success_rate_aff_minus_vocab": 0.012738853503184714,
+            "paired_instruction_cells": {
+              "both_success": 62,
+              "aff_only_success": 21,
+              "vocab_only_success": 19,
+              "both_failure": 55
+            }
+          },
+          "keywords": {
+            "instruction_observations": 163,
+            "unique_instruction_slots": 163,
+            "unique_prompts": 148,
+            "aff_success": 79,
+            "vocab_success": 73,
+            "aff_success_rate": 0.48466257668711654,
+            "vocab_success_rate": 0.44785276073619634,
+            "delta_success_rate_aff_minus_vocab": 0.03680981595092025,
+            "paired_instruction_cells": {
+              "both_success": 54,
+              "aff_only_success": 25,
+              "vocab_only_success": 19,
+              "both_failure": 65
+            }
+          },
+          "language": {
+            "instruction_observations": 31,
+            "unique_instruction_slots": 31,
+            "unique_prompts": 31,
+            "aff_success": 14,
+            "vocab_success": 16,
+            "aff_success_rate": 0.45161290322580644,
+            "vocab_success_rate": 0.5161290322580645,
+            "delta_success_rate_aff_minus_vocab": -0.06451612903225806,
+            "paired_instruction_cells": {
+              "both_success": 10,
+              "aff_only_success": 4,
+              "vocab_only_success": 6,
+              "both_failure": 11
+            }
+          },
+          "length_constraints": {
+            "instruction_observations": 143,
+            "unique_instruction_slots": 143,
+            "unique_prompts": 133,
+            "aff_success": 42,
+            "vocab_success": 49,
+            "aff_success_rate": 0.2937062937062937,
+            "vocab_success_rate": 0.34265734265734266,
+            "delta_success_rate_aff_minus_vocab": -0.04895104895104895,
+            "paired_instruction_cells": {
+              "both_success": 30,
+              "aff_only_success": 12,
+              "vocab_only_success": 19,
+              "both_failure": 82
+            }
+          },
+          "punctuation": {
+            "instruction_observations": 66,
+            "unique_instruction_slots": 66,
+            "unique_prompts": 66,
+            "aff_success": 16,
+            "vocab_success": 9,
+            "aff_success_rate": 0.24242424242424243,
+            "vocab_success_rate": 0.13636363636363635,
+            "delta_success_rate_aff_minus_vocab": 0.10606060606060606,
+            "paired_instruction_cells": {
+              "both_success": 5,
+              "aff_only_success": 11,
+              "vocab_only_success": 4,
+              "both_failure": 46
+            }
+          },
+          "startend": {
+            "instruction_observations": 67,
+            "unique_instruction_slots": 67,
+            "unique_prompts": 66,
+            "aff_success": 0,
+            "vocab_success": 6,
+            "aff_success_rate": 0.0,
+            "vocab_success_rate": 0.08955223880597014,
+            "delta_success_rate_aff_minus_vocab": -0.08955223880597014,
+            "paired_instruction_cells": {
+              "both_success": 0,
+              "aff_only_success": 0,
+              "vocab_only_success": 6,
+              "both_failure": 61
+            }
+          }
+        },
+        "45": {
+          "change_case": {
+            "instruction_observations": 89,
+            "unique_instruction_slots": 89,
+            "unique_prompts": 84,
+            "aff_success": 14,
+            "vocab_success": 13,
+            "aff_success_rate": 0.15730337078651685,
+            "vocab_success_rate": 0.14606741573033707,
+            "delta_success_rate_aff_minus_vocab": 0.011235955056179775,
+            "paired_instruction_cells": {
+              "both_success": 9,
+              "aff_only_success": 5,
+              "vocab_only_success": 4,
+              "both_failure": 71
+            }
+          },
+          "combination": {
+            "instruction_observations": 65,
+            "unique_instruction_slots": 65,
+            "unique_prompts": 65,
+            "aff_success": 12,
+            "vocab_success": 4,
+            "aff_success_rate": 0.18461538461538463,
+            "vocab_success_rate": 0.06153846153846154,
+            "delta_success_rate_aff_minus_vocab": 0.12307692307692308,
+            "paired_instruction_cells": {
+              "both_success": 2,
+              "aff_only_success": 10,
+              "vocab_only_success": 2,
+              "both_failure": 51
+            }
+          },
+          "detectable_content": {
+            "instruction_observations": 53,
+            "unique_instruction_slots": 53,
+            "unique_prompts": 52,
+            "aff_success": 31,
+            "vocab_success": 36,
+            "aff_success_rate": 0.5849056603773585,
+            "vocab_success_rate": 0.6792452830188679,
+            "delta_success_rate_aff_minus_vocab": -0.09433962264150944,
+            "paired_instruction_cells": {
+              "both_success": 26,
+              "aff_only_success": 5,
+              "vocab_only_success": 10,
+              "both_failure": 12
+            }
+          },
+          "detectable_format": {
+            "instruction_observations": 157,
+            "unique_instruction_slots": 157,
+            "unique_prompts": 155,
+            "aff_success": 79,
+            "vocab_success": 82,
+            "aff_success_rate": 0.5031847133757962,
+            "vocab_success_rate": 0.5222929936305732,
+            "delta_success_rate_aff_minus_vocab": -0.01910828025477707,
+            "paired_instruction_cells": {
+              "both_success": 63,
+              "aff_only_success": 16,
+              "vocab_only_success": 19,
+              "both_failure": 59
+            }
+          },
+          "keywords": {
+            "instruction_observations": 163,
+            "unique_instruction_slots": 163,
+            "unique_prompts": 148,
+            "aff_success": 71,
+            "vocab_success": 78,
+            "aff_success_rate": 0.43558282208588955,
+            "vocab_success_rate": 0.4785276073619632,
+            "delta_success_rate_aff_minus_vocab": -0.04294478527607362,
+            "paired_instruction_cells": {
+              "both_success": 51,
+              "aff_only_success": 20,
+              "vocab_only_success": 27,
+              "both_failure": 65
+            }
+          },
+          "language": {
+            "instruction_observations": 31,
+            "unique_instruction_slots": 31,
+            "unique_prompts": 31,
+            "aff_success": 19,
+            "vocab_success": 18,
+            "aff_success_rate": 0.6129032258064516,
+            "vocab_success_rate": 0.5806451612903226,
+            "delta_success_rate_aff_minus_vocab": 0.03225806451612903,
+            "paired_instruction_cells": {
+              "both_success": 12,
+              "aff_only_success": 7,
+              "vocab_only_success": 6,
+              "both_failure": 6
+            }
+          },
+          "length_constraints": {
+            "instruction_observations": 143,
+            "unique_instruction_slots": 143,
+            "unique_prompts": 133,
+            "aff_success": 40,
+            "vocab_success": 43,
+            "aff_success_rate": 0.27972027972027974,
+            "vocab_success_rate": 0.3006993006993007,
+            "delta_success_rate_aff_minus_vocab": -0.02097902097902098,
+            "paired_instruction_cells": {
+              "both_success": 23,
+              "aff_only_success": 17,
+              "vocab_only_success": 20,
+              "both_failure": 83
+            }
+          },
+          "punctuation": {
+            "instruction_observations": 66,
+            "unique_instruction_slots": 66,
+            "unique_prompts": 66,
+            "aff_success": 9,
+            "vocab_success": 10,
+            "aff_success_rate": 0.13636363636363635,
+            "vocab_success_rate": 0.15151515151515152,
+            "delta_success_rate_aff_minus_vocab": -0.015151515151515152,
+            "paired_instruction_cells": {
+              "both_success": 3,
+              "aff_only_success": 6,
+              "vocab_only_success": 7,
+              "both_failure": 50
+            }
+          },
+          "startend": {
+            "instruction_observations": 67,
+            "unique_instruction_slots": 67,
+            "unique_prompts": 66,
+            "aff_success": 0,
+            "vocab_success": 16,
+            "aff_success_rate": 0.0,
+            "vocab_success_rate": 0.23880597014925373,
+            "delta_success_rate_aff_minus_vocab": -0.23880597014925373,
+            "paired_instruction_cells": {
+              "both_success": 0,
+              "aff_only_success": 0,
+              "vocab_only_success": 16,
+              "both_failure": 51
+            }
+          }
+        }
+      }
+    },
+    "selected_seed42": {
+      "seeds": [
+        42
+      ],
+      "aggregation_unit": "instruction checks nested within prompts and trained seeds; descriptive only, not independent seed-level inference",
+      "family_definition": "prefix before ':' in instruction_id",
+      "pooled_descriptive": {
+        "change_case": {
+          "instruction_observations": 89,
+          "unique_instruction_slots": 89,
+          "unique_prompts": 84,
+          "aff_success": 13,
+          "vocab_success": 11,
+          "aff_success_rate": 0.14606741573033707,
+          "vocab_success_rate": 0.12359550561797752,
+          "delta_success_rate_aff_minus_vocab": 0.02247191011235955,
+          "paired_instruction_cells": {
+            "both_success": 7,
+            "aff_only_success": 6,
+            "vocab_only_success": 4,
+            "both_failure": 72
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": 0.02247191011235955
+          }
+        },
+        "combination": {
+          "instruction_observations": 65,
+          "unique_instruction_slots": 65,
+          "unique_prompts": 65,
+          "aff_success": 4,
+          "vocab_success": 5,
+          "aff_success_rate": 0.06153846153846154,
+          "vocab_success_rate": 0.07692307692307693,
+          "delta_success_rate_aff_minus_vocab": -0.015384615384615385,
+          "paired_instruction_cells": {
+            "both_success": 2,
+            "aff_only_success": 2,
+            "vocab_only_success": 3,
+            "both_failure": 58
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": -0.015384615384615385
+          }
+        },
+        "detectable_content": {
+          "instruction_observations": 53,
+          "unique_instruction_slots": 53,
+          "unique_prompts": 52,
+          "aff_success": 38,
+          "vocab_success": 36,
+          "aff_success_rate": 0.7169811320754716,
+          "vocab_success_rate": 0.6792452830188679,
+          "delta_success_rate_aff_minus_vocab": 0.03773584905660377,
+          "paired_instruction_cells": {
+            "both_success": 26,
+            "aff_only_success": 12,
+            "vocab_only_success": 10,
+            "both_failure": 5
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": 0.03773584905660377
+          }
+        },
+        "detectable_format": {
+          "instruction_observations": 157,
+          "unique_instruction_slots": 157,
+          "unique_prompts": 155,
+          "aff_success": 88,
+          "vocab_success": 78,
+          "aff_success_rate": 0.5605095541401274,
+          "vocab_success_rate": 0.4968152866242038,
+          "delta_success_rate_aff_minus_vocab": 0.06369426751592357,
+          "paired_instruction_cells": {
+            "both_success": 61,
+            "aff_only_success": 27,
+            "vocab_only_success": 17,
+            "both_failure": 52
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": 0.06369426751592357
+          }
+        },
+        "keywords": {
+          "instruction_observations": 163,
+          "unique_instruction_slots": 163,
+          "unique_prompts": 148,
+          "aff_success": 74,
+          "vocab_success": 80,
+          "aff_success_rate": 0.4539877300613497,
+          "vocab_success_rate": 0.49079754601226994,
+          "delta_success_rate_aff_minus_vocab": -0.03680981595092025,
+          "paired_instruction_cells": {
+            "both_success": 55,
+            "aff_only_success": 19,
+            "vocab_only_success": 25,
+            "both_failure": 64
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": -0.03680981595092025
+          }
+        },
+        "language": {
+          "instruction_observations": 31,
+          "unique_instruction_slots": 31,
+          "unique_prompts": 31,
+          "aff_success": 16,
+          "vocab_success": 18,
+          "aff_success_rate": 0.5161290322580645,
+          "vocab_success_rate": 0.5806451612903226,
+          "delta_success_rate_aff_minus_vocab": -0.06451612903225806,
+          "paired_instruction_cells": {
+            "both_success": 12,
+            "aff_only_success": 4,
+            "vocab_only_success": 6,
+            "both_failure": 9
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": -0.06451612903225806
+          }
+        },
+        "length_constraints": {
+          "instruction_observations": 143,
+          "unique_instruction_slots": 143,
+          "unique_prompts": 133,
+          "aff_success": 43,
+          "vocab_success": 44,
+          "aff_success_rate": 0.3006993006993007,
+          "vocab_success_rate": 0.3076923076923077,
+          "delta_success_rate_aff_minus_vocab": -0.006993006993006993,
+          "paired_instruction_cells": {
+            "both_success": 28,
+            "aff_only_success": 15,
+            "vocab_only_success": 16,
+            "both_failure": 84
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": -0.006993006993006993
+          }
+        },
+        "punctuation": {
+          "instruction_observations": 66,
+          "unique_instruction_slots": 66,
+          "unique_prompts": 66,
+          "aff_success": 13,
+          "vocab_success": 5,
+          "aff_success_rate": 0.19696969696969696,
+          "vocab_success_rate": 0.07575757575757576,
+          "delta_success_rate_aff_minus_vocab": 0.12121212121212122,
+          "paired_instruction_cells": {
+            "both_success": 3,
+            "aff_only_success": 10,
+            "vocab_only_success": 2,
+            "both_failure": 51
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": 0.12121212121212122
+          }
+        },
+        "startend": {
+          "instruction_observations": 67,
+          "unique_instruction_slots": 67,
+          "unique_prompts": 66,
+          "aff_success": 0,
+          "vocab_success": 1,
+          "aff_success_rate": 0.0,
+          "vocab_success_rate": 0.014925373134328358,
+          "delta_success_rate_aff_minus_vocab": -0.014925373134328358,
+          "paired_instruction_cells": {
+            "both_success": 0,
+            "aff_only_success": 0,
+            "vocab_only_success": 1,
+            "both_failure": 66
+          },
+          "per_seed_delta_success_rate_aff_minus_vocab": {
+            "42": -0.014925373134328358
+          }
+        }
+      },
+      "per_seed": {
+        "42": {
+          "change_case": {
+            "instruction_observations": 89,
+            "unique_instruction_slots": 89,
+            "unique_prompts": 84,
+            "aff_success": 13,
+            "vocab_success": 11,
+            "aff_success_rate": 0.14606741573033707,
+            "vocab_success_rate": 0.12359550561797752,
+            "delta_success_rate_aff_minus_vocab": 0.02247191011235955,
+            "paired_instruction_cells": {
+              "both_success": 7,
+              "aff_only_success": 6,
+              "vocab_only_success": 4,
+              "both_failure": 72
+            }
+          },
+          "combination": {
+            "instruction_observations": 65,
+            "unique_instruction_slots": 65,
+            "unique_prompts": 65,
+            "aff_success": 4,
+            "vocab_success": 5,
+            "aff_success_rate": 0.06153846153846154,
+            "vocab_success_rate": 0.07692307692307693,
+            "delta_success_rate_aff_minus_vocab": -0.015384615384615385,
+            "paired_instruction_cells": {
+              "both_success": 2,
+              "aff_only_success": 2,
+              "vocab_only_success": 3,
+              "both_failure": 58
+            }
+          },
+          "detectable_content": {
+            "instruction_observations": 53,
+            "unique_instruction_slots": 53,
+            "unique_prompts": 52,
+            "aff_success": 38,
+            "vocab_success": 36,
+            "aff_success_rate": 0.7169811320754716,
+            "vocab_success_rate": 0.6792452830188679,
+            "delta_success_rate_aff_minus_vocab": 0.03773584905660377,
+            "paired_instruction_cells": {
+              "both_success": 26,
+              "aff_only_success": 12,
+              "vocab_only_success": 10,
+              "both_failure": 5
+            }
+          },
+          "detectable_format": {
+            "instruction_observations": 157,
+            "unique_instruction_slots": 157,
+            "unique_prompts": 155,
+            "aff_success": 88,
+            "vocab_success": 78,
+            "aff_success_rate": 0.5605095541401274,
+            "vocab_success_rate": 0.4968152866242038,
+            "delta_success_rate_aff_minus_vocab": 0.06369426751592357,
+            "paired_instruction_cells": {
+              "both_success": 61,
+              "aff_only_success": 27,
+              "vocab_only_success": 17,
+              "both_failure": 52
+            }
+          },
+          "keywords": {
+            "instruction_observations": 163,
+            "unique_instruction_slots": 163,
+            "unique_prompts": 148,
+            "aff_success": 74,
+            "vocab_success": 80,
+            "aff_success_rate": 0.4539877300613497,
+            "vocab_success_rate": 0.49079754601226994,
+            "delta_success_rate_aff_minus_vocab": -0.03680981595092025,
+            "paired_instruction_cells": {
+              "both_success": 55,
+              "aff_only_success": 19,
+              "vocab_only_success": 25,
+              "both_failure": 64
+            }
+          },
+          "language": {
+            "instruction_observations": 31,
+            "unique_instruction_slots": 31,
+            "unique_prompts": 31,
+            "aff_success": 16,
+            "vocab_success": 18,
+            "aff_success_rate": 0.5161290322580645,
+            "vocab_success_rate": 0.5806451612903226,
+            "delta_success_rate_aff_minus_vocab": -0.06451612903225806,
+            "paired_instruction_cells": {
+              "both_success": 12,
+              "aff_only_success": 4,
+              "vocab_only_success": 6,
+              "both_failure": 9
+            }
+          },
+          "length_constraints": {
+            "instruction_observations": 143,
+            "unique_instruction_slots": 143,
+            "unique_prompts": 133,
+            "aff_success": 43,
+            "vocab_success": 44,
+            "aff_success_rate": 0.3006993006993007,
+            "vocab_success_rate": 0.3076923076923077,
+            "delta_success_rate_aff_minus_vocab": -0.006993006993006993,
+            "paired_instruction_cells": {
+              "both_success": 28,
+              "aff_only_success": 15,
+              "vocab_only_success": 16,
+              "both_failure": 84
+            }
+          },
+          "punctuation": {
+            "instruction_observations": 66,
+            "unique_instruction_slots": 66,
+            "unique_prompts": 66,
+            "aff_success": 13,
+            "vocab_success": 5,
+            "aff_success_rate": 0.19696969696969696,
+            "vocab_success_rate": 0.07575757575757576,
+            "delta_success_rate_aff_minus_vocab": 0.12121212121212122,
+            "paired_instruction_cells": {
+              "both_success": 3,
+              "aff_only_success": 10,
+              "vocab_only_success": 2,
+              "both_failure": 51
+            }
+          },
+          "startend": {
+            "instruction_observations": 67,
+            "unique_instruction_slots": 67,
+            "unique_prompts": 66,
+            "aff_success": 0,
+            "vocab_success": 1,
+            "aff_success_rate": 0.0,
+            "vocab_success_rate": 0.014925373134328358,
+            "delta_success_rate_aff_minus_vocab": -0.014925373134328358,
+            "paired_instruction_cells": {
+              "both_success": 0,
+              "aff_only_success": 0,
+              "vocab_only_success": 1,
+              "both_failure": 66
+            }
+          }
+        }
+      }
+    }
+  },
+  "strict_directional_prompt_examples": {
+    "independent_seeds_43_45": {
+      "seeds": [
+        43,
+        44,
+        45
+      ],
+      "metric": "strict prompt-level follow_all_instructions",
+      "selection_rule": "rank by number of directional seeds, then fewer opposite-direction seeds, then key; prompt excerpts are capped at 160 characters",
+      "directional_prompt_event_family_counts_multilabel": {
+        "aff_only": {
+          "change_case": 9,
+          "combination": 14,
+          "detectable_content": 12,
+          "detectable_format": 44,
+          "keywords": 32,
+          "language": 16,
+          "length_constraints": 27,
+          "punctuation": 10,
+          "startend": 1
+        },
+        "vocab_only": {
+          "change_case": 9,
+          "combination": 3,
+          "detectable_content": 19,
+          "detectable_format": 38,
+          "keywords": 38,
+          "language": 8,
+          "length_constraints": 29,
+          "punctuation": 6,
+          "startend": 18
+        }
+      },
+      "aff_only_representatives": [
+        {
+          "key": 1098,
+          "directional_seeds": [
+            43,
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "combination:two_responses"
+          ],
+          "families": [
+            "combination"
+          ],
+          "prompt_excerpt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******."
+        },
+        {
+          "key": 2667,
+          "directional_seeds": [
+            43,
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_format:number_bullet_lists"
+          ],
+          "families": [
+            "detectable_format"
+          ],
+          "prompt_excerpt": "Please elaborate on the following text: \"It's not a bug, it's a feature!\" Write exactly 2 bullet points in markdown format. Use \"*\" to indicate a bullet point.…"
+        },
+        {
+          "key": 3241,
+          "directional_seeds": [
+            43,
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "language:response_language"
+          ],
+          "families": [
+            "language"
+          ],
+          "prompt_excerpt": "Rewrite and expand the following in Arabic. You can hallucinate a lot of details. \"The company is looking to expand its operations into new markets. It will cr…"
+        },
+        {
+          "key": 1477,
+          "directional_seeds": [
+            43,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "language:response_language"
+          ],
+          "families": [
+            "language"
+          ],
+          "prompt_excerpt": "Write a weird poem about yoda being transported into a different universe in the Persian language, no other language is allowed."
+        },
+        {
+          "key": 1518,
+          "directional_seeds": [
+            43,
+            44
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "combination:repeat_prompt"
+          ],
+          "families": [
+            "combination"
+          ],
+          "prompt_excerpt": "I am a software engineer with 7 years of experience, and I am looking for a new job. Can you create a resume for me and explain each section? First repeat the…"
+        },
+        {
+          "key": 1793,
+          "directional_seeds": [
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "combination:two_responses",
+            "length_constraints:number_words"
+          ],
+          "families": [
+            "combination",
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Who won the defamation case between Amber Heard and Johnny Depp? Write your answer as if you are writing to a group of elderly people. First, write in the pers…"
+        }
+      ],
+      "vocab_only_representatives": [
+        {
+          "key": 1094,
+          "directional_seeds": [
+            43,
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_format:json_format"
+          ],
+          "families": [
+            "detectable_format"
+          ],
+          "prompt_excerpt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothi…"
+        },
+        {
+          "key": 2243,
+          "directional_seeds": [
+            43,
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "length_constraints:number_words"
+          ],
+          "families": [
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Who built the first artificial ice rink? Please include the keys (1) Name (2) Location and (3) Year. Use less than 150 words."
+        },
+        {
+          "key": 1162,
+          "directional_seeds": [
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "punctuation:no_comma"
+          ],
+          "families": [
+            "punctuation"
+          ],
+          "prompt_excerpt": "Write a riddle for kids about auspices but make sure you don't use any commas."
+        },
+        {
+          "key": 1217,
+          "directional_seeds": [
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "length_constraints:number_words"
+          ],
+          "families": [
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Write an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words."
+        },
+        {
+          "key": 127,
+          "directional_seeds": [
+            43,
+            44
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "keywords:forbidden_words",
+            "keywords:frequency"
+          ],
+          "families": [
+            "keywords"
+          ],
+          "prompt_excerpt": "Take the text below as a starting point, and make it a complete article: \"You may have to meet with a helper to work out a parenting plan. The first would be t…"
+        },
+        {
+          "key": 1379,
+          "directional_seeds": [
+            44,
+            45
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_format:number_highlighted_sections",
+            "keywords:frequency",
+            "keywords:existence"
+          ],
+          "families": [
+            "detectable_format",
+            "keywords"
+          ],
+          "prompt_excerpt": "Write a limerick about a woman named Sarah who lives in a town where it's always 90°F. Highlight at least 6 sections in your answer with markdown, example: *hi…"
+        }
+      ]
+    },
+    "selected_seed42": {
+      "seeds": [
+        42
+      ],
+      "metric": "strict prompt-level follow_all_instructions",
+      "selection_rule": "rank by number of directional seeds, then fewer opposite-direction seeds, then key; prompt excerpts are capped at 160 characters",
+      "directional_prompt_event_family_counts_multilabel": {
+        "aff_only": {
+          "change_case": 4,
+          "combination": 1,
+          "detectable_content": 8,
+          "detectable_format": 15,
+          "keywords": 10,
+          "language": 4,
+          "length_constraints": 8,
+          "punctuation": 4
+        },
+        "vocab_only": {
+          "change_case": 2,
+          "combination": 2,
+          "detectable_content": 5,
+          "detectable_format": 13,
+          "keywords": 7,
+          "language": 5,
+          "length_constraints": 9,
+          "punctuation": 2,
+          "startend": 1
+        }
+      },
+      "aff_only_representatives": [
+        {
+          "key": 1187,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "punctuation:no_comma"
+          ],
+          "families": [
+            "punctuation"
+          ],
+          "prompt_excerpt": "Can you give me two different formal alternatives to \"What's up? I'm going to the beach today\" and do not use any commas in your response."
+        },
+        {
+          "key": 1268,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "length_constraints:number_sentences"
+          ],
+          "families": [
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Can you give me an example for a journal entry about stress management? Tell me how you come up with the example. Your entire response should contain less than…"
+        },
+        {
+          "key": 1322,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_format:title"
+          ],
+          "families": [
+            "detectable_format"
+          ],
+          "prompt_excerpt": "What are the pros and cons of kotlin vs java? Your answer must have a title contained in double angular brackets, such as <<kotlin vs java>>."
+        },
+        {
+          "key": 1367,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_content:postscript"
+          ],
+          "families": [
+            "detectable_content"
+          ],
+          "prompt_excerpt": "Write an extravagant session plan to learn about java. Make sure to include a postscript starting with P.P.S"
+        },
+        {
+          "key": 1379,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_format:number_highlighted_sections",
+            "keywords:frequency",
+            "keywords:existence"
+          ],
+          "families": [
+            "detectable_format",
+            "keywords"
+          ],
+          "prompt_excerpt": "Write a limerick about a woman named Sarah who lives in a town where it's always 90°F. Highlight at least 6 sections in your answer with markdown, example: *hi…"
+        },
+        {
+          "key": 1381,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "length_constraints:number_sentences"
+          ],
+          "families": [
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Write me a funny song with less than 10 sentences for a proposal to build a new playground at my local elementary school."
+        }
+      ],
+      "vocab_only_representatives": [
+        {
+          "key": 102,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_format:number_bullet_lists"
+          ],
+          "families": [
+            "detectable_format"
+          ],
+          "prompt_excerpt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answe…"
+        },
+        {
+          "key": 1072,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "length_constraints:number_words"
+          ],
+          "families": [
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock."
+        },
+        {
+          "key": 1203,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "keywords:frequency",
+            "keywords:frequency"
+          ],
+          "families": [
+            "keywords"
+          ],
+          "prompt_excerpt": "What happened when the Tang dynasty of China was in power? Make sure to use the word war at least 8 times, and the word peace at least 10 times."
+        },
+        {
+          "key": 1217,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "length_constraints:number_words"
+          ],
+          "families": [
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Write an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words."
+        },
+        {
+          "key": 1251,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "length_constraints:number_words"
+          ],
+          "families": [
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Write a poem that's at least 350 words about the beauty of eucalyptus trees and their many uses."
+        },
+        {
+          "key": 1262,
+          "directional_seeds": [
+            42
+          ],
+          "opposite_direction_seeds": [],
+          "instruction_ids": [
+            "detectable_format:title",
+            "length_constraints:number_sentences"
+          ],
+          "families": [
+            "detectable_format",
+            "length_constraints"
+          ],
+          "prompt_excerpt": "Can you elaborate on the following text: \"Increased axle weight increased the damage to the road\"? Your response must contain a title wrapped in double angular…"
+        }
+      ]
+    }
+  }
+}

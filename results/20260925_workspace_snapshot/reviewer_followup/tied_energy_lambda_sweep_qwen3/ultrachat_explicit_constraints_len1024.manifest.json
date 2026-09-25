@@ -1,0 +1,9 @@
+{
+  "input": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/corrected_sft_experiment/data_ultrachat_100k_len1024/train.jsonl",
+  "input_sha256": "6a6255d7e877f93991822b5333c09574b0157ef4ed2b5e1e672a70bd2aab7734",
+  "output": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/tied_energy_lambda_sweep_qwen3/ultrachat_explicit_constraints_len1024.jsonl",
+  "output_sha256": "0c5c830d4ffa56aecec7b49f380ea74efa42ec2b4d12ce3ecd248f1519e322ec",
+  "kept": 18550,
+  "prompt_filter": "\\b(exactly|at least|at most|must|do not|without|only)\\b",
+  "purpose": "non-evaluation explicit-constraint behavior anchor"
+}

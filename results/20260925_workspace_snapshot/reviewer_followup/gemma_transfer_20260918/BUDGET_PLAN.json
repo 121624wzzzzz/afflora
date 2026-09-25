@@ -1,0 +1,8 @@
+{
+  "gemma2_9b_base": {
+    "base": 0,
+    "hidden": 27009024,
+    "hidden_budget": 27241984,
+    "hidden_both": 27241984
+  }
+}

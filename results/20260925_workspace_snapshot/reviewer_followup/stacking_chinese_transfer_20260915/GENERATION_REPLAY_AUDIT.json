@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T12:21:49+08:00",
+  "checks": {
+    "qwen3_06b_chat_none_hr8_sd42": {
+      "status": "passed",
+      "checked_at": "2026-09-15T12:21:46+08:00",
+      "examples": 47,
+      "original_batches": 4,
+      "all_token_ids_text_and_scores_identical": true,
+      "original_output_sha256": "31dd9c51ca9eba57dca25aa1213302e70fb1b90021216f4291f5d1ec02fc4fe2",
+      "replay_output_sha256": "5bf3b785900d560dce86ae66e6baa0cfa8931d469ef68404c08deb46231aa135",
+      "checkpoint_hashes": {
+        "adapter_config.json": "7cb2af8a7908f5dea987c89405c42e26325221a9b6ca13b828f435a8ce02195c",
+        "adapter_model.safetensors": "5384ec5054b242bac2a8ea7a7deadbab123b8b0b2562df8373acf8f2b949c973",
+        "run_args.json": "a8f21049684e295b1ad6a3f5999d51fb9eb8b46a7ba1140f90f251aca538e24b"
+      },
+      "implementation_sha256": "f8cbf1c28f3594eab5220a36132fca55334a6cae0b7c7fd9f6c13b0fcd6ec028"
+    },
+    "qwen3_06b_chat_both_hr8_sd42": {
+      "status": "passed",
+      "checked_at": "2026-09-15T12:21:47+08:00",
+      "examples": 47,
+      "original_batches": 4,
+      "all_token_ids_text_and_scores_identical": true,
+      "original_output_sha256": "acd81c8222ad5e3bfec6ad92066dcbce4c7b4c0e71b361b905426143ee9f0c2b",
+      "replay_output_sha256": "667028b6a1b353a7b9d9ea261a370f512c827ac20394ed4219ae767db02b05cd",
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "40ae0fc458a6560b3434d85861940b75851846db0be32558a0dd7b731c390a86",
+        "adapter_config.json": "5ad0f50051bb811df8eaa3da4e242bffd6fb0c8364357d082baa1e7db1c35871",
+        "adapter_model.safetensors": "b82b73d432c6a3332860e8e1e75a1f3f1be2eaafd8239397c0aca6aa02e1592c",
+        "affine_vocab_config.json": "6c7a29fa9b2143747cd895d3ab0e8c200f15719b5fc8ca4579cbcfc49f38bb30",
+        "run_args.json": "4456d56cd620286312214094f48b8eb2cc248b734ca13336ad12153ccfc7e6da"
+      },
+      "implementation_sha256": "f8cbf1c28f3594eab5220a36132fca55334a6cae0b7c7fd9f6c13b0fcd6ec028"
+    },
+    "qwen3_06b_chat_none_hr8_sd43": {
+      "status": "passed",
+      "checked_at": "2026-09-15T12:21:48+08:00",
+      "examples": 47,
+      "original_batches": 4,
+      "all_token_ids_text_and_scores_identical": true,
+      "original_output_sha256": "4345ba0b3517637e8d22c6132c2e156e6da19ed6a04929162199fa27cf48238b",
+      "replay_output_sha256": "8ab4e8222077de5665a1ba088a49e9e7abe262598af475aed7ad9547980c862d",
+      "checkpoint_hashes": {
+        "adapter_config.json": "e269b887385705575785d2f87ab5c545f69c15d0022ef1ee032041a86caf96ea",
+        "adapter_model.safetensors": "d5c4d39a822df1836a0f71341da9d0312bd997d7bceca9ed16e07224d9e1eb5b",
+        "run_args.json": "dc899cf2d2d738a8127418a668643989ee640c3d16b5b3d82194423b251ae84b"
+      },
+      "implementation_sha256": "f8cbf1c28f3594eab5220a36132fca55334a6cae0b7c7fd9f6c13b0fcd6ec028"
+    },
+    "qwen3_06b_chat_both_hr8_sd43": {
+      "status": "passed",
+      "checked_at": "2026-09-15T12:21:46+08:00",
+      "examples": 47,
+      "original_batches": 4,
+      "all_token_ids_text_and_scores_identical": true,
+      "original_output_sha256": "2936b53e73221b0e0e0216747ca1fe6e19e45a52aa8d8e7d465936f8fc608c23",
+      "replay_output_sha256": "06b6a58575d978ad72f9d813464cbc216c1ece3208507dfa77f5701c610589ca",
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "ee93be38effd59a8cd40f4a4916a4ce4299b9cd2357712560cce7c8dd8781e80",
+        "adapter_config.json": "100c43f608d1c3604b656e0e422647e3973eb1c5896e810827062199263e6019",
+        "adapter_model.safetensors": "c9bce82709b53d61b59ab66626fa0182de28a5a834b2f523f9e7ed7b76b133fd",
+        "affine_vocab_config.json": "6c7a29fa9b2143747cd895d3ab0e8c200f15719b5fc8ca4579cbcfc49f38bb30",
+        "run_args.json": "9c3d8e624ac6b7787a6a1e933e66e40de6ad9071e886db68e1879ed24de3c0c7"
+      },
+      "implementation_sha256": "f8cbf1c28f3594eab5220a36132fca55334a6cae0b7c7fd9f6c13b0fcd6ec028"
+    },
+    "qwen25_15b_chat_none_hr8_sd43": {
+      "status": "passed",
+      "checked_at": "2026-09-15T12:21:43+08:00",
+      "examples": 46,
+      "original_batches": 4,
+      "all_token_ids_text_and_scores_identical": true,
+      "original_output_sha256": "d75575fec1e08f7db598449a8432d03f13c2677323a96eba31f057f919ebbe85",
+      "replay_output_sha256": "04f97200a81040864065ef749d97ffec382a2de54ea607f1aebbc427878ca473",
+      "checkpoint_hashes": {
+        "adapter_config.json": "0567e44aeeb5fb7ae754008c5e8d3b8af5280bc0d9d020493d9cb1e85cf25d34",
+        "adapter_model.safetensors": "e44ba2b199015e30b7ea66c6bab8998c76d5a2e9aef3d7eb81a44882973bbc75",
+        "run_args.json": "da6d8fb75f464175c629714d070b59aaefe62ebc3e412c5eb95bcd463e034aa4"
+      },
+      "implementation_sha256": "f8cbf1c28f3594eab5220a36132fca55334a6cae0b7c7fd9f6c13b0fcd6ec028"
+    },
+    "qwen25_15b_chat_both_hr8_sd43": {
+      "status": "passed",
+      "checked_at": "2026-09-15T12:21:45+08:00",
+      "examples": 46,
+      "original_batches": 4,
+      "all_token_ids_text_and_scores_identical": true,
+      "original_output_sha256": "20d936a3835fcaf1ed9dfc4d4c32be27a98f9c74d545234e0cb697f2509cbbb7",
+      "replay_output_sha256": "b4dc43bd5eca2b1f34b80d603ed2987ed642bb7c396fe82d895e426e23125027",
+      "checkpoint_hashes": {
+        "affine_vocab_adapter.safetensors": "70f01b3c0a1195a435f522aa08bffbc718f916118b403b083510ae7d65d2fd7a",
+        "adapter_config.json": "877c4cd4f5f7914d8bcb8a302f0d75d6f845f0c0368346b408a96d1413fe2287",
+        "adapter_model.safetensors": "08d0997394e59680e1f221cd174aeb88ce6628b15e9e2dd0ac1e56811fe88a08",
+        "affine_vocab_config.json": "321ad19c4c18f7d4172e58eb5739a4a525dffc543766d656922069ea8518d428",
+        "run_args.json": "e315cec38e9acde380259ec83e3e8ca3529524f1d72b5141e86d293358ef65a0"
+      },
+      "implementation_sha256": "f8cbf1c28f3594eab5220a36132fca55334a6cae0b7c7fd9f6c13b0fcd6ec028"
+    }
+  }
+}

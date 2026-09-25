@@ -1,0 +1,74 @@
+[
+  {
+    "name": "smoke_qwen3_06b_chat_none_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen3_06b_chat",
+    "arm": "none",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen3_06b_chat_none_sd2001_lr5e-05"
+  },
+  {
+    "name": "smoke_qwen3_06b_chat_both_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen3_06b_chat",
+    "arm": "both",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen3_06b_chat_both_sd2001_lr5e-05"
+  },
+  {
+    "name": "smoke_qwen3_06b_chat_interior_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen3_06b_chat",
+    "arm": "interior",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen3_06b_chat_interior_sd2001_lr5e-05"
+  },
+  {
+    "name": "smoke_qwen3_06b_chat_hidden_budget_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen3_06b_chat",
+    "arm": "hidden_budget",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen3_06b_chat_hidden_budget_sd2001_lr5e-05"
+  },
+  {
+    "name": "smoke_qwen25_15b_chat_none_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen25_15b_chat",
+    "arm": "none",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen25_15b_chat_none_sd2001_lr5e-05"
+  },
+  {
+    "name": "smoke_qwen25_15b_chat_both_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen25_15b_chat",
+    "arm": "both",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen25_15b_chat_both_sd2001_lr5e-05"
+  },
+  {
+    "name": "smoke_qwen25_15b_chat_interior_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen25_15b_chat",
+    "arm": "interior",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen25_15b_chat_interior_sd2001_lr5e-05"
+  },
+  {
+    "name": "smoke_qwen25_15b_chat_hidden_budget_sd2001_lr5e-05",
+    "phase": "smoke",
+    "model": "qwen25_15b_chat",
+    "arm": "hidden_budget",
+    "seed": 2001,
+    "lr": 5e-05,
+    "checkpoint": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_sciq_placement_20260915/checkpoints/smoke_qwen25_15b_chat_hidden_budget_sd2001_lr5e-05"
+  }
+]

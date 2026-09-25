@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "tensor_dtypes": {
+    "F32": 464
+  },
+  "stored_elements": 9241705984,
+  "files": 8,
+  "weight_index_exact": true,
+  "scope": "Read-only safetensors header inspection of the already verified original checkpoint; not a new evaluation."
+}

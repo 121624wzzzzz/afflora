@@ -1,0 +1,118 @@
+{
+  "qwen3_06b_base": {
+    "total_rows_including_two_excluded": 1000,
+    "output_categories": {
+      "starts_letter_plus_other_text": 968,
+      "other": 32
+    },
+    "first_eight_examples": [
+      {
+        "id": "test_0",
+        "gold": 1,
+        "text": "B. oxidants",
+        "terminated": true
+      },
+      {
+        "id": "test_1",
+        "gold": 3,
+        "text": "D. clone\n\nA clone refers to a genetically exact copy of an organism,",
+        "terminated": false
+      },
+      {
+        "id": "test_2",
+        "gold": 0,
+        "text": "A. backbone",
+        "terminated": true
+      },
+      {
+        "id": "test_3",
+        "gold": 1,
+        "text": "B. elevation",
+        "terminated": true
+      },
+      {
+        "id": "test_4",
+        "gold": 3,
+        "text": "D. tree rings",
+        "terminated": true
+      },
+      {
+        "id": "test_5",
+        "gold": 0,
+        "text": "A. plant hormones",
+        "terminated": true
+      },
+      {
+        "id": "test_6",
+        "gold": 0,
+        "text": "A. sperm and eggs",
+        "terminated": true
+      },
+      {
+        "id": "test_7",
+        "gold": 1,
+        "text": "B. deciduous",
+        "terminated": true
+      }
+    ],
+    "scoring_changed": false
+  },
+  "qwen25_15b_base": {
+    "total_rows_including_two_excluded": 1000,
+    "output_categories": {
+      "starts_letter_plus_other_text": 946,
+      "exact_letter": 54
+    },
+    "first_eight_examples": [
+      {
+        "id": "test_0",
+        "gold": 1,
+        "text": "B. oxidants",
+        "terminated": true
+      },
+      {
+        "id": "test_1",
+        "gold": 3,
+        "text": "D. clone",
+        "terminated": true
+      },
+      {
+        "id": "test_2",
+        "gold": 0,
+        "text": "A. backbone",
+        "terminated": true
+      },
+      {
+        "id": "test_3",
+        "gold": 1,
+        "text": "B. elevation",
+        "terminated": true
+      },
+      {
+        "id": "test_4",
+        "gold": 3,
+        "text": "D. tree rings",
+        "terminated": true
+      },
+      {
+        "id": "test_5",
+        "gold": 0,
+        "text": "A. plant hormones",
+        "terminated": true
+      },
+      {
+        "id": "test_6",
+        "gold": 0,
+        "text": "A. sperm and eggs",
+        "terminated": true
+      },
+      {
+        "id": "test_7",
+        "gold": 1,
+        "text": "B. deciduous",
+        "terminated": true
+      }
+    ],
+    "scoring_changed": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-18T02:03:40.288393+00:00",
+  "status": "audited_time_bounded_study_complete",
+  "all_planned_jobs_completed": false,
+  "reports_ready_within_requested_deadline": true,
+  "counts": {
+    "not_admitted_time_budget": 125,
+    "passed": 427
+  },
+  "coverage": {
+    "at": "2026-09-18T01:56:49.016391+00:00",
+    "status": "passed",
+    "new_fits": 377,
+    "new_base_evals": 18,
+    "smokes": 32,
+    "core_main_three_seed_blocks": 16,
+    "core_complete_three_seed_blocks": 14,
+    "core_complete_five_seed_blocks": 0,
+    "new_task_complete_three_seed_blocks": 9,
+    "uncompleted_jobs": 125,
+    "new_responses": 518836
+  },
+  "audit_artifacts": {
+    "FINAL_AUDIT.json": "61d8979d4d5923600f88e6744e142a60985214cc07e0d90b8e45b22016271a10",
+    "REPORT_STATUS.json": "a7ce71812759ea4c52e5ff1eddce691a2f09989475ed5f10a03ae1253c01770b",
+    "FIGURE_REVIEW.json": "43806bde9de6c346db4b6b9a97bf92e3820dd8ddf6830ef75a13f844ca3761fd",
+    "PAIR_AUDIT_PROGRESS.json": "e38f3e9e6f7768d66098cb569d24b8d60417ad7699820957da1e526935e1a3c9",
+    "DIAGNOSTICS_STATUS.json": "2ad88ec8cdd6016bf15294cdd4eb4f3410f2d277a46514a90954ab5b0f8149a4",
+    "CORE_FINAL_TOKEN_AUDIT.json": "33330f2b27a450d842c7bcf9a67d9b5ef009c6eb50a79ddee7255262a794477c",
+    "NEW_TASKS_FINAL_TOKEN_AUDIT.json": "c2904e70df357814712abd43cc8a1f7e3184088205115a94b4ac73e98cb63391",
+    "BOUNDARY_ALGEBRA_AUDIT.json": "48f8e9ad417ce5a27e83606f760e7e62c30eb73ae3d77b27624d6b9f2fdacdbb",
+    "TREC_ERROR_ANALYSIS.json": "78d4563e3a1e59a6a59d8771979f41bcbe1b1372d5413e327932f8f130066b3c"
+  },
+  "scope": "Completion refers to final audit/report/seal of the time-bounded study. Uncompleted planned jobs, if any, remain explicitly listed."
+}

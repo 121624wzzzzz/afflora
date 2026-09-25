@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-09-15T15:16:02+08:00",
+  "status": "exploratory",
+  "formal_experiment_already_running": true,
+  "purpose": "Describe EM corrections/regressions and probability changes among unchanged EM outcomes; no new inference, significance tests, or changes to primary hypotheses.",
+  "script_sha256": {
+    "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/stacking_cmrc_probability_confirmation_20260915/generation_probability_link.py": "5410139320dcbce4aea5ac64e9aa8514798b24ee8214337722e431198b33ac68"
+  },
+  "main_manifest_sha256": "c6c54fd90e439f5985ce0f49a1444c750b260da73974d82597aa7d7c0b4082dc"
+}

@@ -1,0 +1,238 @@
+{
+  "at": "2026-09-17T14:35:59.530016+00:00",
+  "reason": "Shared GPU 7 dropped below the original uniform 48-GiB admission line while GPU 0 had approximately 14 GiB free. Use size-specific admission so small models can fill otherwise unavailable slots.",
+  "old_pool": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "new_pool": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "old_min_free_mib": 49152,
+  "new_min_free_mib": {
+    "qwen25_05b_base": 14336,
+    "qwen3_06b_base": 14336,
+    "qwen25_15b_base": 24576,
+    "qwen3_17b_base": 24576,
+    "qwen25_3b_base": 36864,
+    "qwen3_4b_base": 36864,
+    "qwen25_7b_base": 49152,
+    "qwen3_8b_base": 49152
+  },
+  "unchanged": [
+    "all model and dataset identities",
+    "all scientific code and scoring",
+    "all job specs, seeds, training budgets and evaluation batches",
+    "fixed question-driven priority order among jobs that fit memory",
+    "deadline and duration allowances",
+    "independent per-run audit"
+  ],
+  "selection": "No scores are read for admission. Highest fixed priority among memory-eligible jobs per available GPU.",
+  "handoff": "Only the supervisor is replaced; existing workers keep their PID, GPU, stdout and training/evaluation state. Their eventual exit status is not a child wait status in the replacement supervisor and is recorded as null; completion requires COMPLETE.json plus a fresh successful independent auditor. No worker is restarted.",
+  "smoke_memory_probes": {
+    "core/checkpoints/smoke_cluener_qwen25_15b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 6194650112,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen25_7b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 33050512896,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen25_15b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 11235879424,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen3_06b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 6558647296,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_cluener_qwen3_8b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 23530854400,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen25_3b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 19364626944,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_cluener_qwen3_4b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 13776481280,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_cluener_qwen25_3b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 10864467968,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_cluener_qwen3_06b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 3413270528,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen3_4b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 24511367680,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_cluener_qwen25_7b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 21345488896,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen3_17b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 11834221568,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_cluener_qwen3_17b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 6629828608,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen25_05b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 5018895360,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_cluener_qwen25_05b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 328,
+      "max_allocated_bytes": 2789421056,
+      "status": "passed"
+    },
+    "core/checkpoints/smoke_wikisql_qwen3_8b_base/INITIALIZATION.json": {
+      "batch_size": 4,
+      "sequence_length": 525,
+      "max_allocated_bytes": 37356421632,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen25_15b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 7939956224,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen25_3b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 14023782912,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen3_8b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 28853113344,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen3_4b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 17836862464,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen25_7b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 25830516224,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen25_05b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 3343689728,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen3_06b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 4847998976,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen3_17b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 8412977664,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen3_17b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 9254559744,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen25_15b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 8754835456,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen25_7b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 27604880384,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_trec50_qwen3_06b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 621,
+      "max_allocated_bytes": 4318992896,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen25_3b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 15334681600,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen25_05b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 3743719936,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen3_4b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 19471473664,
+      "status": "passed"
+    },
+    "new_tasks/checkpoints/smoke_squad2_qwen3_8b_base/INITIALIZATION.json": {
+      "batch_size": 2,
+      "sequence_length": 723,
+      "max_allocated_bytes": 30942406656,
+      "status": "passed"
+    }
+  }
+}

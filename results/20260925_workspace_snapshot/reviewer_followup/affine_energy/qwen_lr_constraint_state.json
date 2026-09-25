@@ -1,0 +1,79 @@
+{
+  "phase": "complete",
+  "updated_at": "2026-07-14T16:39:33+08:00",
+  "rhos": {
+    "qwen25_3b_input_ar16_s1_hr4_alr0p25_unconstrained_seed42": {
+      "rho": 0.024009240008499782
+    },
+    "qwen25_3b_input_ar16_s1_hr4_alr0p5_unconstrained_seed42": {
+      "rho": 0.03542248548196061
+    },
+    "qwen25_3b_input_ar16_s1_hr4_alr1_unconstrained_seed42": {
+      "rho": 0.05409898332725899
+    },
+    "qwen25_3b_input_ar16_s1_hr4_alr0p25_energy_tau0p0125_l100_seed42": {
+      "rho": 0.012115523596712757
+    },
+    "qwen25_3b_input_ar16_s1_hr4_alr0p5_energy_tau0p0125_l100_seed42": {
+      "rho": 0.012070812130357187
+    },
+    "qwen25_3b_output_ar16_s1_hr4_alr0p25_unconstrained_seed42": {
+      "rho": 0.0027155587130919963
+    },
+    "qwen25_3b_output_ar16_s1_hr4_alr0p5_unconstrained_seed42": {
+      "rho": 0.004802863232327339
+    },
+    "qwen25_3b_output_ar16_s1_hr4_alr1_unconstrained_seed42": {
+      "rho": 0.008731991827561198
+    },
+    "qwen25_3b_output_ar16_s1_hr4_alr0p25_energy_tau0p00625_l100_seed42": {
+      "rho": 0.0027049831848213013
+    },
+    "qwen25_3b_output_ar16_s1_hr4_alr0p5_energy_tau0p00625_l100_seed42": {
+      "rho": 0.0047927616357027495
+    },
+    "existing:qwen25_3b:input": {
+      "rho": 0.012214541327493231
+    },
+    "existing:qwen25_3b:output": {
+      "rho": 0.006222244632154177
+    },
+    "qwen3_4b_input_ar16_s1_hr4_alr0p25_unconstrained_seed42": {
+      "rho": 0.034112102480947704
+    },
+    "qwen3_4b_input_ar16_s1_hr4_alr0p5_unconstrained_seed42": {
+      "rho": 0.06191459667476811
+    },
+    "qwen3_4b_input_ar16_s1_hr4_alr1_unconstrained_seed42": {
+      "rho": 0.10266560112578982
+    },
+    "qwen3_4b_input_ar16_s1_hr4_alr0p25_energy_tau0p0125_l100_seed42": {
+      "rho": 0.012411217075721579
+    },
+    "qwen3_4b_input_ar16_s1_hr4_alr0p5_energy_tau0p0125_l100_seed42": {
+      "rho": 0.012497989395699231
+    },
+    "qwen3_4b_output_ar16_s1_hr4_alr0p25_unconstrained_seed42": {
+      "rho": 0.0023379414067454716
+    },
+    "qwen3_4b_output_ar16_s1_hr4_alr0p5_unconstrained_seed42": {
+      "rho": 0.004312138642157205
+    },
+    "qwen3_4b_output_ar16_s1_hr4_alr1_unconstrained_seed42": {
+      "rho": 0.00816363994656774
+    },
+    "qwen3_4b_output_ar16_s1_hr4_alr0p25_energy_tau0p00625_l100_seed42": {
+      "rho": 0.0023344185646496513
+    },
+    "qwen3_4b_output_ar16_s1_hr4_alr0p5_energy_tau0p00625_l100_seed42": {
+      "rho": 0.004298804888782616
+    },
+    "existing:qwen3_4b:input": {
+      "rho": 0.012497693163812227
+    },
+    "existing:qwen3_4b:output": {
+      "rho": 0.006231450457740749
+    }
+  },
+  "result": "/commondocument/wz/cross_encoder_workspace/im_exp/lora/reviewer_followup/affine_energy/QWEN_LR_CONSTRAINT_FACTORIAL_RESULTS.md"
+}

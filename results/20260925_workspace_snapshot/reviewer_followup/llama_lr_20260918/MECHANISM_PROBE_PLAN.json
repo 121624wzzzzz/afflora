@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-18T15:14:39.303170+08:00",
+  "type": "posthoc descriptive mechanism diagnostic; no efficacy inference",
+  "script_sha256": "cfafea7cd660eb0018e193721af536c27b7bdbce30c767504ab4cf68d748ffd0",
+  "models": [
+    "llama31_8b_base",
+    "qwen3_8b_base"
+  ],
+  "seed": 7100,
+  "examples": "first 32 training examples in the original seed-7100 permutation, native tokenizer for each model",
+  "updates": 0,
+  "heldout_evaluations": 0,
+  "admission": "after main scheduler completes successfully",
+  "selection_dependency": false,
+  "limits": "One initial batch; may identify the location of initial gradients, not the cause of downstream generalization or its persistence over training."
+}

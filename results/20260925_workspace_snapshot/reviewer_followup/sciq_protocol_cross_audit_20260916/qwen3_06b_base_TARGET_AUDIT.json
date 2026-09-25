@@ -1,0 +1,11 @@
+{
+  "model": "qwen3_06b_base",
+  "examples": 8,
+  "supervised_tokens_per_example": 2,
+  "targets": "answer letter, native source-study end token",
+  "native_hf_shifted_loss": 1.97307288646698,
+  "two_position_loss": 1.9730726480484009,
+  "abs_loss_error": 2.384185791015625e-07,
+  "standard_shift_check_passed": true,
+  "eos_id": 151643
+}

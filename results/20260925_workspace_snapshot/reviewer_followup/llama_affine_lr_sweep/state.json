@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-07-11T23:53:55+08:00",
+  "updated_at": "2026-07-12T01:31:36+08:00",
+  "phase": "complete",
+  "selected_ranks": {
+    "llama31_8b": 16,
+    "llama32_3b": 32
+  },
+  "jobs": {
+    "llama31_8b_lmhead_ar16_s1_hr4_alr0p1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 8
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_alr0p25_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 8
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_alr0p5_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 8
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_alr0p75_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 8
+    },
+    "llama31_8b_lmhead_ar16_s1_hr4_alr1_seed42": {
+      "status": "complete",
+      "attempts": 0,
+      "gpu": null,
+      "reused": true
+    },
+    "llama32_3b_mergeable_ar32_s1_hr4_alr0p1_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 16
+    },
+    "llama32_3b_mergeable_ar32_s1_hr4_alr0p25_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 16
+    },
+    "llama32_3b_mergeable_ar32_s1_hr4_alr0p5_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 16
+    },
+    "llama32_3b_mergeable_ar32_s1_hr4_alr0p75_seed42": {
+      "status": "complete",
+      "attempts": 1,
+      "gpu": null,
+      "eval_batch_size": 16
+    },
+    "llama32_3b_mergeable_ar32_s1_hr4_alr1_seed42": {
+      "status": "complete",
+      "attempts": 0,
+      "gpu": null,
+      "reused": true
+    }
+  }
+}

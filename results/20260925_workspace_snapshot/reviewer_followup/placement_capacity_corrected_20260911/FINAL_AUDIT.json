@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-12T03:16:48+08:00",
+  "scheduler_phase": "complete",
+  "finished_at": "2026-09-12T03:15:19+08:00",
+  "matrix_cells": 50,
+  "full_training_runs": 48,
+  "smoke_jobs": 4,
+  "dev_test_reports": 100,
+  "examples_per_report": 1000,
+  "train_rows_per_run": 22780,
+  "steps_per_run": 1424,
+  "epochs_per_run": 1,
+  "effective_batch": 16,
+  "frozen_file_hashes_verified": 15,
+  "model_config_hashes_verified": 2,
+  "model_weight_metadata_unchanged": true,
+  "initialization_pairing_verified": true,
+  "evaluation_pairing_verified": true,
+  "supervised_tokens_per_report": {
+    "qwen3_06b.dev": 271252,
+    "qwen3_06b.test": 270223,
+    "qwen25_7b.dev": 267252,
+    "qwen25_7b.test": 266223
+  },
+  "audit_errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-24T23:15:33+08:00",
+  "status": "passed",
+  "runs": 102,
+  "responses": 125008,
+  "official_sql_executions": 124676,
+  "manifest_sha256": "319a50216bb1c3a4e78ed8d792b1a3249c12189be08451c2f1e4d9042aace7f7"
+}

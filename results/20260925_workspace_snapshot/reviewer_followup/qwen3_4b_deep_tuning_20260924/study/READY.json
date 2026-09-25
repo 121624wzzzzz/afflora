@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-24T14:21:16+08:00",
+  "status": "passed",
+  "reused": 0,
+  "checks": [
+    "native_tokenizer_reencoding",
+    "model_and_data_sha256",
+    "split_disjoint",
+    "equal_family_search_budget",
+    "distinct_dev_confirmation_seeds",
+    "syntax_parsing"
+  ]
+}
