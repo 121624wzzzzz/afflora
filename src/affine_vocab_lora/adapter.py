@@ -240,8 +240,6 @@ def apply_affine_vocab_adapters(
             raise ValueError("tie_input_lm_head_adapters requires both use_input and use_lm_head.")
         if cfg.use_lm_head_bias != cfg.use_input_bias:
             raise ValueError("Tied input/lm_head adapters require matching input and lm_head bias settings.")
-        if not cfg.use_lm_head_bias:
-            raise ValueError("Tied input/lm_head adapters require affine lm_head bias to match input bias.")
         if not _input_lm_head_weights_are_tied(model):
             raise ValueError("tie_input_lm_head_adapters requires tied embed_tokens/lm_head weights.")
         shared_affine = LowRankAffineMap(

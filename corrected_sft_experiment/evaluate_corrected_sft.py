@@ -34,6 +34,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--max-seq-len", type=int, default=1024)
     parser.add_argument("--device", default="cuda")
+    parser.add_argument("--start-index", type=int, default=0)
+    parser.add_argument("--end-index", type=int, default=None)
+    parser.add_argument(
+        "--affine-ablation",
+        choices=("none", "zero_update", "zero_bias", "zero_all"),
+        default="none",
+        help=(
+            "Diagnostic-only ablation applied after loading an affine adapter. "
+            "zero_update clears the low-rank up matrices; zero_bias clears affine beta; "
+            "zero_all applies both."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -59,6 +71,21 @@ def load_model(args: argparse.Namespace):  # noqa: ANN201
         model = load_affine_vocab_adapter(model, run_dir)
     if run_dir and (run_dir / "adapter_config.json").exists():
         model = PeftModel.from_pretrained(model, run_dir)
+    if args.affine_ablation != "none":
+        ablated = []
+        for name, parameter in model.named_parameters():
+            zero_update = args.affine_ablation in ("zero_update", "zero_all")
+            zero_bias = args.affine_ablation in ("zero_bias", "zero_all")
+            if (zero_update and name.endswith(".affine.up.weight")) or (
+                zero_bias and name.endswith(".affine.bias")
+            ):
+                parameter.data.zero_()
+                ablated.append(name)
+        if not ablated:
+            raise RuntimeError(
+                f"Requested affine ablation {args.affine_ablation!r}, but found no affine parameters."
+            )
+        print(f"Applied {args.affine_ablation} to {len(ablated)} affine tensors.")
     model.to(torch.device(args.device))
     model.eval()
     return model, tokenizer, str(model_path), run_args
@@ -133,6 +160,12 @@ def main() -> None:
     device = torch.device(args.device)
     model, tokenizer, model_path, run_args = load_model(args)
     rows = load_rows(Path(args.data))
+    end_index = len(rows) if args.end_index is None else args.end_index
+    if not (0 <= args.start_index <= end_index <= len(rows)):
+        raise ValueError(
+            f"Invalid evaluation shard [{args.start_index}, {end_index}) for {len(rows)} rows."
+        )
+    rows = rows[args.start_index:end_index]
     report = evaluate(
         model, tokenizer, rows, args.batch_size, args.max_seq_len, device
     )
@@ -143,6 +176,9 @@ def main() -> None:
             "data": str(Path(args.data).resolve()),
             "variant": run_args.get("variant", "frozen_base"),
             "seed": run_args.get("seed"),
+            "source_start_index": args.start_index,
+            "source_end_index": end_index,
+            "affine_ablation": args.affine_ablation,
         }
     )
     output = Path(args.output)
@@ -153,4 +189,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
