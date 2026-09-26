@@ -1,8 +1,10 @@
 # 实验运行设置
 
+2026-09-16 更新：以下保留原 instruction-loss 工作流配置。当前 SciQ 内容评测与小预算对照以 [修复版 DESIGN.md](../reviewer_followup/sciq_repaired_protocol_20260916/DESIGN.md) 为准，具体模型身份、提示 token、数据、EOS、解码设置及来源哈希随运行封存。原表中的本地目录名不能单独证明 checkpoint 的预训练阶段。严禁跨 Base/后训练起点、跨提示或跨 thinking 模式混合计算适配收益。
+
 本文记录 AffLoRA 实验的运行路径、模型、数据、variant 和超参。实验设计见 `docs/AFFINE_VOCAB_MAIN_EXPERIMENT.md`，结果见 `docs/RESULTS_SO_FAR.md`。
 
-AffLoRA 的依据是 `${AFFLORA_ANALYSIS_ROOT:-$REPO_ROOT/../../get_useful/ijcai_clean/results/task6_base_instruct_full_vocab}` 中的 base→instruct 全词表分析：`embed_tokens` / `lm_head` 的变化基本满足 hidden 维仿射关系。因此本目录关注的是在 SFT / post-training 中，让这些词表层以低参数量参与训练。
+AffLoRA 的研究动机来自 `${AFFLORA_ANALYSIS_ROOT:-$REPO_ROOT/../../get_useful/ijcai_clean/results/task6_base_instruct_full_vocab}` 中的 base→instruct 全词表分析。输出层、绑定共享矩阵和未绑定输入层的结构适用性需区分，不能概括为全部边界均满足同一仿射关系。本目录研究在 SFT / post-training 中，让这些词表层以低参数量参与训练。
 
 ## 目录布局
 

@@ -2,9 +2,13 @@
 
 本文件为 Claude Code（claude.ai/code）提供项目指导。
 
+## 当前任务评测规则（2026-09-16）
+
+SciQ 任务适配的有效设置见 `reviewer_followup/sciq_repaired_protocol_20260916/DESIGN.md`。历史纯 loss 任务与当前内容评测分别归档。不得只用 loss 或严格单字母格式分宣称答案质量改善；内容、格式、终止和截断须分别报告。模型身份由官方 repo/revision/权重哈希确认，不能根据路径名或实验臂 `base` 推断预训练阶段。同一适配效果对比必须固定 checkpoint、tokenizer、提示、推理模式和解码预算。thinking 结果不能直接替代非 thinking 对照。已有封存目录不可覆盖，复评写入新目录；复用前核验来源。
+
 ## 项目：AffLoRA
 
-本项目测试 **AffLoRA**——在词表大小的层（`embed_tokens` 和 `lm_head`）上应用低秩仿射适配器，这些层在标准 LoRA 的 SFT/post-training 中通常被跳过。核心洞察（来自 `task6_base_instruct_full_vocab` 分析）：这些层中 base→instruct 的变化满足隐维度的仿射关系：`W' = W (I + s1·A·B) + s2·b`。
+本项目测试 **AffLoRA**——在词表大小的层（`embed_tokens` 和 `lm_head`）上应用低秩仿射适配器，这些层在标准 LoRA 的 SFT/post-training 中通常被跳过。研究动机来自 `task6_base_instruct_full_vocab` 分析，参数化为 `W' = W (I + s1·A·B) + s2·b`。输出层、绑定的共享矩阵与未绑定输入层的适用性需分别验证，不能假定全部 base→instruct 边界变化均满足相同仿射结构。
 
 主要任务是 `sft_t2t_mini_25k`（24k 训练 + 1k 验证），在 Qwen2.5/Qwen3 base 模型上测试。验证三条主张：(1a) AffLoRA + hidden LoRA 优于纯 hidden LoRA；(1b) 在相同参数量下，AffLoRA 优于 emb/lm_head 上的 vocab-dim LoRA；(2) 仅 AffLoRA 优于冻结 base；(3) 在相同参数预算下，AffLoRA 优于单层 LoRA。
 
@@ -127,7 +131,7 @@ python scripts/eval_base_loss.py \
 
 ### Merge 与部署
 
-本项目使用的 Qwen 模型均为 tied embedding（`embed_tokens.weight` 和 `lm_head.weight` 是同一块内存）。AffLoRA 有两种 adapter 放置模式：
+是否 tied embedding 必须按具体 checkpoint 的配置和运行时权重指针核验，不能按 Qwen 模型家族统一假定。AffLoRA 有两种 adapter 放置模式：
 
 #### 默认模式：独立适配（不可 merge）
 
@@ -147,9 +151,9 @@ input 和 lm_head 共享同一个 `LowRankAffineMap`，输出侧用 `TiedTranspo
 
 - **永远不要在没有 `--master-dtype fp32` 的情况下训练**。bf16 主权重在典型学习率下会静默破坏训练。
 - **模型路径**：主要模型位于 `${MODEL_ROOT}/`。
-- **Tied embeddings**：本项目使用的所有 Qwen 模型都具有 tied `embed_tokens`/`lm_head` 权重。`tie_input_lm_head_adapters` 启用共享仿射适配器，使其可以合并回单一 embedding 矩阵。
+- **Tied embeddings**：逐 checkpoint 检查配置和权重共享。只有原权重实际绑定且参数化满足转置约束时，`tie_input_lm_head_adapters` 才可合并回单一 embedding 矩阵。
 - **数据格式**：训练数据应包含 `conversations`（`{role, content}` 字典列表，含 "user"/"assistant" 角色）或平铺的 `question`/`answer`（或 `query`/`response`、`instruction`/`output`、`problem`/`solution` 等）。
-- **仅以 eval_loss 评估**：这是纯粹的语言建模 loss 研究。当前工作流中没有基于生成的评估。
+- **指标随研究问题明确固定**：历史语言建模实验报告 `eval_loss`；当前下游任务同时报告候选内容与真实生成内容，并将格式、停止和截断单列。不得把任一类结果自动推广为另一类能力或通用 SFT 收益。
 
 ## 输出目录结构
 

@@ -21,7 +21,7 @@ train/dev/test 两两之间的首个 user prompt、完整 assistant context 和�
 
 | 模型 | seed | baseline | treatment |
 |---|---:|---|---|
-| Qwen3-0.6B-Base | 42 | hidden LoRA r8 | hidden LoRA r8 + input/lm_head AffLoRA r16, s1=8 |
+| Qwen3-0.6B-Base | 42/43/44 | hidden LoRA r8 | hidden LoRA r8 + input/lm_head AffLoRA r16, s1=8 |
 | Qwen2.5-1.5B-Base | 42/43/44 | hidden LoRA r8 | hidden LoRA r8 + input/lm_head AffLoRA r16, s1=8 |
 
 统一设置：1 epoch，effective batch 16，learning rate `2e-4`，cosine schedule，warmup `0.03`，base BF16，trainable master weights FP32，`max_seq_len=1024`。
@@ -30,16 +30,18 @@ train/dev/test 两两之间的首个 user prompt、完整 assistant context 和�
 
 ## 结果
 
-### Qwen3-0.6B，seed 42
+### Qwen3-0.6B，seed 42/43/44
 
-| split | hidden LoRA CE | + AffLoRA CE | Δ CE | 95% paired bootstrap CI |
-|---|---:|---:|---:|---:|
-| dev | 1.196362 | 1.191006 | -0.005356 | [-0.005879, -0.004834] |
-| test | 1.215027 | 1.209675 | **-0.005352** | **[-0.005886, -0.004823]** |
+| seed | test hidden | test + AffLoRA | test Δ CE | 95% paired bootstrap CI |
+|---:|---:|---:|---:|---:|
+| 42 | 1.215027 | 1.209675 | **-0.005352** | [-0.005886, -0.004823] |
+| 43 | 1.214631 | 1.209771 | **-0.004860** | [-0.005359, -0.004342] |
+| 44 | 1.214628 | 1.209182 | **-0.005446** | [-0.005968, -0.004933] |
+| mean | 1.214762 | 1.209543 | **-0.005219** | — |
 
-test 共 1,000 条对话、270,223 个 supervised token。对应 PPL 为 3.370385→3.352396；10,000 次 paired bootstrap 中 treatment 更优概率为 1.0。
+test 共 1,000 条对话、270,223 个 supervised token。三个 seed 的 Δ CE 样本标准差为 0.000315，基于三个配对 seed 的 95% t 区间为 [-0.006001, -0.004437]。每个 seed 的 10,000 次 paired bootstrap 区间均严格低于 0，treatment 更优概率均为 1.0。三个 seed 的 test PPL 分别为 3.370385→3.352396、3.369049→3.352716、3.369040→3.350742。
 
-运行目录：`outputs/formal/qwen3_06b_hidden_sd42`、`outputs/formal/qwen3_06b_afflora_sd42`。逐样本报告和 bootstrap 结果保存在相应目录及 `outputs/formal/qwen3_06b_sd42_test_comparison.json`。
+运行目录：`outputs/formal/qwen3_06b_{hidden,afflora}_sd{42,43,44}`。逐样本报告和 bootstrap 结果保存在相应目录及 `outputs/formal/qwen3_06b_sd{42,43,44}_test_comparison.json`。
 
 ### Qwen2.5-1.5B，seed 42/43/44
 
@@ -60,4 +62,4 @@ test 共 1,000 条对话、270,223 个 supervised token。对应 PPL 为 3.37038
 
 ## 当前结论
 
-修复多轮结构、chat template、assistant-only loss、数据格式和 split 泄漏后，`hidden LoRA + AffLoRA` 仍稳定优于相同 hidden-LoRA 初始化的 baseline。Qwen3 单 seed 和 Qwen2.5 三 seed 的独立 test 结果方向全部一致，且所有 paired bootstrap 95% 区间均不跨 0。
+修复多轮结构、chat template、assistant-only loss、数据格式和 split 泄漏后，`hidden LoRA + AffLoRA` 仍稳定优于相同 hidden-LoRA 初始化的 baseline。Qwen3 和 Qwen2.5 各三个 seed 的独立 test 结果方向全部一致，且所有 paired bootstrap 95% 区间均不跨 0。
